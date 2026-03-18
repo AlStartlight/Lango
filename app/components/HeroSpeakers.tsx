@@ -61,7 +61,7 @@ function HeroSpeakers() {
 
         {/* Nav Arrows */}
         <div className="relative my-20">
-          <div className="absolute right-0 -top-2 flex items-center gap-3 z-10">
+          <div className="absolute right-0 -top-24 flex items-center gap-3 z-10">
             <motion.button
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
