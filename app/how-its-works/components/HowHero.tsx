@@ -51,7 +51,7 @@ export default function HowHero() {
               transition={{ delay: 0.3, duration: 0.5 }}
               className="justify-start items-start mt-8 space-y-4"
             >
-              <p className="text-gray-600 text-lg max-w-xl mx-auto">
+              <p className="text-gray-600 text-lg max-w-xl ">
                 Learn to speak Spanish, French, German and more with top handpicked professional language tutors.
               </p>
               <motion.a
@@ -105,10 +105,12 @@ export default function HowHero() {
               <Image
                 src="/images/ImagesPart.png"
                 alt="Hero"
-                width={700}
-                height={700}
+                width={809}
+                height={627}
                 className="w-full h-auto object-contain"
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 700px"
+                sizes="(min-width: 1024px) 50vw, (min-width: 640px) 50vw, 100vw"
+                priority
+                fetchPriority="high"
               />
             </div>
             {/* Scroll Indicator */}
