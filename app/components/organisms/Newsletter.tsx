@@ -26,10 +26,10 @@ export default function Newsletter() {
         </div>
 
         <div className="mt-8 space-y-3">
-          <Input placeholder="Enter Your Email" type="email" />
+          <Input placeholder="Enter Your Email" type="email" variant="dark"/>
           <Button
             text="Subscribe"
-            color="red"
+            color="blue"
             className="w-full"
             size="lg"
           />
