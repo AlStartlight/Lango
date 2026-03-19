@@ -7,34 +7,34 @@ import AnimatedSection from '../../components/molecules/AnimatedSection';
 
 export default function OurStory() {
   return (
-    <section className="w-full py-20 px-4 bg-amber-50/80 border-y border-gray-800/10">
+    <section className="w-full py-20 px-4  border-y border-gray-800/10" style={{backgroundColor:"#FFFAE9"}}>
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           {/* Left - Images */}
           <AnimatedSection direction="left">
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 gap-4 relative">
               <motion.div
                 whileHover={{ scale: 1.03 }}
-                className="rounded-3xl overflow-hidden"
+                className="rounded-3xl w-full"
               >
                 <Image
-                  src="/images/speakers/Mask3.png"
+                  src="/images/aboutus/watch01.png"
                   alt="Story image 1"
-                  width={300}
+                  width={800}
                   height={300}
-                  className="w-full h-52 object-cover rounded-3xl"
+                  className="w-full h-96 object-contain rounded-3xl"
                 />
               </motion.div>
               <motion.div
                 whileHover={{ scale: 1.03 }}
-                className="rounded-3xl overflow-hidden mt-8"
+                className="rounded-3xl overflow-hidden mt-8 absolute right-0 -bottom-16"
               >
                 <Image
-                  src="/images/speakers/Mask4.png"
+                  src="/images/aboutus/watch02.png"
                   alt="Story image 2"
                   width={300}
                   height={300}
-                  className="w-full h-52 object-cover rounded-3xl"
+                  className="w-40 h-52 object-cover rounded-full"
                 />
               </motion.div>
             </div>
