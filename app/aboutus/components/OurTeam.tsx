@@ -8,7 +8,7 @@ import AnimatedSection from '../../components/molecules/AnimatedSection';
 
 export default function OurTeam() {
   return (
-    <section className="w-full py-20 px-4 border-b border-gray-800/10">
+    <section className="w-full py-20 px-4 border-b  border-gray-800/10" style={{backgroundColor:"#FFFAE9"}}>
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           {/* Left - Text */}
@@ -35,43 +35,48 @@ export default function OurTeam() {
             </div>
           </AnimatedSection>
 
-          {/* Right - Team Images */}
+          {/* Right - Team Images (positioned to match design) */}
           <AnimatedSection direction="right" delay={0.2}>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="relative h-96 md:h-80 lg:h-96">
+              {/* Main large rounded capsule (center-right) */}
               <motion.div
-                whileHover={{ scale: 1.03 }}
-                className="rounded-3xl overflow-hidden"
+                whileHover={{ scale: 1.02 }}
+                className="absolute right-48 top-8 w-[380px] md:w-[360px] lg:w-[420px] h-[300px] overflow-hidden rounded-[56px] "
               >
                 <Image
-                  src="/images/speakers/Mask1.png"
-                  alt="Team member"
-                  width={300}
+                  src="/images/aboutus/something01.png"
+                  alt="Team member large"
+                  width={320}
                   height={300}
-                  className="w-full h-52 object-cover rounded-3xl"
+                  className="w-full h-full object-cover"
                 />
               </motion.div>
+
+              {/* Top-right vertical oval */}
               <motion.div
                 whileHover={{ scale: 1.03 }}
-                className="rounded-3xl overflow-hidden mt-8"
+                className="absolute right-6 top-0 w-28 h-36 md:w-36 md:h-44 rounded-[48px] overflow-hidden "
               >
                 <Image
-                  src="/images/speakers/Mask2.png"
-                  alt="Team member"
-                  width={300}
-                  height={300}
-                  className="w-full h-52 object-cover rounded-3xl"
+                  src="/images/aboutus/something02.png"
+                  alt="Team member small"
+                  width={144}
+                  height={176}
+                  className="w-full h-full object-cover"
                 />
               </motion.div>
+
+              {/* Bottom-right overlapping rounded card */}
               <motion.div
                 whileHover={{ scale: 1.03 }}
-                className="rounded-3xl overflow-hidden -mt-4 col-span-2"
+                className="absolute right-20 -bottom-10 w-36 h-44 md:w-44 md:h-56 rounded-[90px] overflow-hidden  translate-x-4 translate-y-6"
               >
                 <Image
-                  src="/images/speakers/Mask3.png"
-                  alt="Team collaboration"
-                  width={600}
-                  height={250}
-                  className="w-full h-48 object-cover rounded-3xl"
+                  src="/images/aboutus/something03.png"
+                  alt="Team member overlap"
+                  width={176}
+                  height={224}
+                  className="w-full h-full object-cover"
                 />
               </motion.div>
             </div>
