@@ -7,8 +7,8 @@ import ScrollIndicator from '../../components/molecules/ScrollIndicator';
 
 export default function AboutHero() {
   return (
-    <section className="w-full py-44 px-6 bg-lime-300" >
-      <div className="max-w-7xl mx-auto">
+    <section className="w-full py-16 max-h-svh md:py-24 px-6 bg-lime-300" >
+      <div className="max-w-7xl mx-auto py-20">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
           {/* Left - Text */}
           <motion.div

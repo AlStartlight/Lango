@@ -7,7 +7,7 @@ import ScrollIndicator from '../../components/molecules/ScrollIndicator';
 
 export default function HowHero() {
   return (
-    <section className="w-full py-16 md:py-32 px-4 border-b border-gray-800/10">
+    <section className="w-full py-9 max-h-svh md:py-24 px-4 border-b border-gray-800/10">
       <div className="max-w-7xl mx-auto text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
