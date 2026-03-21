@@ -18,28 +18,20 @@ export default function StartLearning() {
             transition={{ duration: 0.7 }}
             className="relative"
           >
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 gap-4">
               <div className="rounded-3xl overflow-hidden">
                 <Image
-                  src="/images/speakers/Mask1.png"
+                  src="/images/hero.png"
                   alt="Student 1"
                   width={300}
                   height={350}
-                  className="w-full h-64 object-cover rounded-3xl"
+                  className="w-full h-96 object-fill rounded-3xl"
                 />
               </div>
-              <div className="rounded-3xl overflow-hidden mt-8">
-                <Image
-                  src="/images/speakers/Mask2.png"
-                  alt="Student 2"
-                  width={300}
-                  height={350}
-                  className="w-full h-64 object-cover rounded-3xl"
-                />
-              </div>
+              
             </div>
             {/* Flag badges floating */}
-            <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-3">
+            {/* <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-3">
               {['🇪🇸', '🇫🇷', '🇩🇪', '🇮🇹'].map((flag, i) => (
                 <motion.div
                   key={i}
@@ -52,7 +44,7 @@ export default function StartLearning() {
                   {flag}
                 </motion.div>
               ))}
-            </div>
+            </div> */}
           </motion.div>
 
           {/* Right - Text */}

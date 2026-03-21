@@ -38,9 +38,9 @@ export default function ReviewsHero() {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="relative"
           >
-            <div className="relative rounded-3xl overflow-hidden bg-gradient-to-br from-fuchsia-100 to-amber-50">
+            <div className="relative rounded-3xl overflow-hidden ">
               <Image
-                src="/images/hero.png"
+                src="/images/reviews/opens.png"
                 alt="Happy learner"
                 width={600}
                 height={500}
