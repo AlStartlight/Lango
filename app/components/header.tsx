@@ -1,20 +1,33 @@
-'use client';
+"use client";
 
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import Link from 'next/link';
 import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const navLinks = [
-  { label: 'About us', href: '/aboutus' },
-  { label: 'How its Works', href: '/how-its-works' },
-  { label: 'Language', href: '/languages' },
-  { label: 'Review', href: '/reviews' },
-  { label: 'Pricing', href: '/pricing' },
+  { key: 'nav.about', href: '/aboutus' },
+  { key: 'nav.how', href: '/how-its-works' },
+  { key: 'nav.languages', href: '/languages' },
+  { key: 'nav.reviews', href: '/reviews' },
+  { key: 'nav.pricing', href: '/pricing' },
 ];
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isLangOpen, setIsLangOpen] = useState(false);
+  const { t, i18n } = useTranslation();
+
+  const languages = [
+    { code: 'en', name: 'English', flag: '🇺🇸' },
+    { code: 'es', name: 'Español', flag: '🇪🇸' },
+  ];
+
+  const changeLanguage = (code: string) => {
+    i18n.changeLanguage(code);
+    setIsLangOpen(false);
+  };
 
   return (
     <motion.header
@@ -39,12 +52,38 @@ export default function Header() {
                 href={link.href}
                 className="text-sm text-gray-700 hover:text-gray-900 font-medium transition-colors duration-200 relative group"
               >
-                {link.label}
+                {t(link.key)}
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gray-900 transition-all duration-300 group-hover:w-full" />
               </Link>
             ))}
           </div>
+{/* Language picker */}
+          <div className="hidden md:flex items-center ml-4 relative">
+            <button
+              onClick={() => setIsLangOpen((s) => !s)}
+              className="flex items-center gap-2 px-3 py-1 rounded-full text-sm  shadow-sm"
+              aria-label="Select language"
+            >
+              <span className="text-xl">{languages.find((l) => l.code === i18n.language)?.flag ?? '🌐'}</span>
+              <span className="text-gray-700">{(i18n.language || 'en').toUpperCase()}</span>
+              <Image src="/images/icons/ic_bottom.png" alt="Select language" width={12} height={12} className={`transform transition-transform ${isLangOpen ? 'rotate-180' : ''}`} />
+            </button>
 
+            {isLangOpen && (
+              <div className="absolute right-0 mt-10 w-48 bg-white border border-gray-200 rounded-lg shadow-lg p-3">
+                {languages.map((lang) => (
+                  <button
+                    key={lang.code}
+                    onClick={() => changeLanguage(lang.code)}
+                    className="w-full text-left flex items-center gap-3 px-2 py-2 hover:bg-gray-50 rounded-md"
+                  >
+                    <span className="text-lg">{lang.flag}</span>
+                    <span className="text-sm text-gray-700">{lang.name}</span>
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
           {/* CTA Button */}
           <div className="hidden md:flex">
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
@@ -52,10 +91,12 @@ export default function Header() {
                 href="/signin"
                 className="bg-green-500 text-white px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-green-600 transition-colors duration-200 shadow-sm"
               >
-                Sign Up
+                {t('cta.signup')}
               </Link>
             </motion.div>
           </div>
+
+          
 
           {/* Mobile menu button */}
           <button
@@ -91,7 +132,7 @@ export default function Header() {
                     className="block text-gray-700 hover:text-gray-900 font-medium py-2 transition-colors"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
-                    {link.label}
+                    {link.key}
                   </Link>
                 ))}
                 <Link
