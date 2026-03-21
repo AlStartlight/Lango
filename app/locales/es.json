@@ -1,0 +1,12 @@
+{
+  "nav": {
+    "about": "Sobre nosotros",
+    "how": "Cómo funciona",
+    "languages": "Idiomas",
+    "reviews": "Reseñas",
+    "pricing": "Precios"
+  },
+  "cta": {
+    "signup": "Regístrate"
+  }
+}

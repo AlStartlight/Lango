@@ -1,0 +1,12 @@
+{
+  "nav": {
+    "about": "About us",
+    "how": "How it works",
+    "languages": "Languages",
+    "reviews": "Reviews",
+    "pricing": "Pricing"
+  },
+  "cta": {
+    "signup": "Sign Up"
+  }
+}
