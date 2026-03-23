@@ -17,8 +17,8 @@ export default function PriceCard({ tier, price, period = '/mo', features, popul
     <motion.div
       whileHover={{ scale: 1.02, y: -4 }}
       whileTap={{ scale: 0.98 }}
-      className={`relative bg-white rounded-3xl p-8 shadow-lg transition-shadow ${
-        popular ? 'ring-4 ring-lime-400 shadow-xl scale-105' : ''
+      className={`relative bg-white rounded-2xl md:rounded-3xl p-6 md:p-8 shadow-lg transition-shadow ${
+        popular ? 'ring-4 ring-lime-400 shadow-xl md:scale-105' : ''
       } ${className}`}
     >
       {popular && (
@@ -30,7 +30,7 @@ export default function PriceCard({ tier, price, period = '/mo', features, popul
       <div className="text-center mb-6">
         <h3 className="text-2xl font-bold text-black mb-2">{tier}</h3>
         <div className="flex items-baseline justify-center gap-1">
-          <span className="text-5xl font-extrabold text-black">{price}</span>
+          <span className="text-4xl md:text-5xl font-extrabold text-black">{price}</span>
           <span className="text-black/60">{period}</span>
         </div>
       </div>

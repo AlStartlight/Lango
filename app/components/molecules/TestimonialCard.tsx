@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import Badge from '../atomics/Badge';
+import Badge from '@/components/atomics/Badge';
 
 type TestimonialCardProps = {
   name: string;

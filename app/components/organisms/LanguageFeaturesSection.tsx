@@ -1,9 +1,9 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import SectionHeading from '../atomics/SectionHeading';
-import FeaturesGrid from '../molecules/FeaturesGrid';
-import CTASection from '../atomics/CTASection';
+import SectionHeading from '@/components/atomics/SectionHeading';
+import FeaturesGrid from '@/components/molecules/FeaturesGrid';
+import CTASection from '@/components/atomics/CTASection';
 
 type Feature = {
   title: string;

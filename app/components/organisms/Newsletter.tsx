@@ -1,9 +1,9 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { ChopThumbnail } from '../atomics/ChopThumbnail';
-import Input from '../atomics/Input';
-import Button from '../atomics/button';
+import { ChopThumbnail } from '@/components/atomics/ChopThumbnail';
+import Input from '@/components/atomics/Input';
+import Button from '@/components/atomics/button';
 
 export default function Newsletter() {
   return (

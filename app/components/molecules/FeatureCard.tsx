@@ -1,8 +1,8 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import FeatureCardBase from '../atomics/FeatureCardBase';
-import FeatureIcon from '../atomics/FeatureIcon';
+import FeatureCardBase from '@/components/atomics/FeatureCardBase';
+import FeatureIcon from '@/components/atomics/FeatureIcon';
 
 type Feature = {
   title: string;

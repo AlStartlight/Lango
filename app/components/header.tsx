@@ -124,7 +124,7 @@ export default function Header() {
               transition={{ duration: 0.3 }}
               className="md:hidden overflow-hidden"
             >
-              <div className="pb-4 pt-2 space-y-3">
+              <div className="pb-4 pt-2 space-y-3 items-center justify-center flex flex-col">
                 {navLinks.map((link) => (
                   <Link
                     key={link.href}
@@ -132,7 +132,7 @@ export default function Header() {
                     className="block text-gray-700 hover:text-gray-900 font-medium py-2 transition-colors"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
-                    {link.key}
+                    {t(link.key)}
                   </Link>
                 ))}
                 <Link

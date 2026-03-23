@@ -1,8 +1,8 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import RatingBadge from '../molecules/RatingBadge';
-import { ChopThumbnail } from '../atomics/ChopThumbnail';
+import RatingBadge from '@/components/molecules/RatingBadge';
+import { ChopThumbnail } from '@/components/atomics/ChopThumbnail';
 
 const ratings = [
   { score: '4.8', source: '🍎 App Store', stars: 5 },
