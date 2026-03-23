@@ -17,15 +17,15 @@ const languages = [
 ];
 export default function WhyDoYou() {
   return (
-    <section className="w-full py-16 max-h-svh md:py-24 px-6 bg-lime-300">
-      <div className="max-w-7xl mx-auto py-20">
+    <section className="w-full py-12 md:py-24 px-4 md:px-6 bg-lime-300">
+      <div className="max-w-7xl mx-auto py-10 md:py-20">
       <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.4 }}
-          className="mt-20"
+          className="mt-8 md:mt-20"
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-black mb-12">
+          <h2 className="text-2xl md:text-4xl font-bold text-center text-black mb-8 md:mb-12">
             Explore Our Languages
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
