@@ -5,18 +5,7 @@ import { motion } from 'framer-motion';
 import LanguageCard from '@/components/atomics/LanguageCard';
 import ScrollIndicator from '@/components/molecules/ScrollIndicator';
 
-const languages = [
-  { name: 'English', flag: '/images/flags/england.png', speakers: '1.5B' },
-  { name: 'Spanish', flag: '/images/flags/spain.png', speakers: '550M' },
-  { name: 'French', flag: '/images/flags/france.png', speakers: '280M' },
-  { name: 'German', flag: '/images/flags/germany.png', speakers: '135M' },
-  { name: 'Italian', flag: '/images/flags/italy.png', speakers: '68M' },
-  { name: 'Dutch', flag: '/images/flags/netherlands.png', speakers: '25M' },
-  { name: 'Portuguese', flag: '/images/flags/portugal.png', speakers: '260M' },
-  { name: 'Arabic', flag: '/images/flags/arab.png', speakers: '420M' },
-  { name: 'Hindi', flag: '/images/flags/India.png', speakers: '600M' },
-  { name: 'Bengali', flag: '/images/flags/bangli.png', speakers: '260M' },
-];
+
 
 export default function LanguagesHero() {
   return (
