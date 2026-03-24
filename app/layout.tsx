@@ -3,6 +3,7 @@ import { Plus_Jakarta_Sans } from 'next/font/google';
 import { headers } from 'next/headers';
 import { languages } from './i18n-config';
 import { OrganizationJsonLd, WebsiteJsonLd } from './components/seo/JsonLd';
+import ClientProviders from './components/providers/ClientProviders';
 import './globals.css';
 
 const geistSans = Plus_Jakarta_Sans({
@@ -42,7 +43,9 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`} suppressHydrationWarning>
         <OrganizationJsonLd />
         <WebsiteJsonLd />
-        {children}
+        <ClientProviders>
+          {children}
+        </ClientProviders>
       </body>
     </html>
   );
