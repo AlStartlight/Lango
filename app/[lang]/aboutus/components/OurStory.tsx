@@ -4,13 +4,15 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { ChopThumbnail } from '@/components/atomics/ChopThumbnail';
 import AnimatedSection from '@/components/molecules/AnimatedSection';
+import { useTranslation } from 'react-i18next';
 
 export default function OurStory() {
+  const { t } = useTranslation();
+  
   return (
     <section className="w-full py-16 md:py-20 px-4 border-y border-gray-800/10" style={{backgroundColor:"#FFFAE9"}}>
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
-          {/* Left - Images */}
           <AnimatedSection direction="left">
             <div className="grid grid-cols-1 gap-4 relative h-72 md:h-96">
               <motion.div
@@ -40,31 +42,24 @@ export default function OurStory() {
             </div>
           </AnimatedSection>
 
-          {/* Right - Text */}
           <AnimatedSection direction="right" delay={0.2}>
             <div className="space-y-4 md:space-y-6">
               <div>
                 <div className="flex flex-wrap items-center gap-2">
-                  <span className="text-2xl md:text-4xl font-bold">Watch Our Awesome</span>
+                  <span className="text-2xl md:text-4xl font-bold">{t('about.story.subtitle')}</span>
                 </div>
                 <div className="flex flex-wrap items-center gap-2 mt-2">
                   <ChopThumbnail bgcolor="fuchia" textcolor="black" textsize="xxxlarge" nospace>
-                    Story
+                    {t('about.story.title') }
                   </ChopThumbnail>
-                  <span className="text-2xl md:text-4xl font-bold">in Language</span>
+                  <span className="text-2xl md:text-4xl font-bold">{t('about.story.missionTitle')}</span>
                 </div>
               </div>
               <p className="text-gray-600 text-base leading-relaxed max-w-lg">
-                Founded in 2020, Lingo is born from a simple idea: language should connect
-                people, not create barriers. After traveling the world and experiencing firsthand
-                the challenges of communication across cultures, our founders built a platform
-                that makes language learning accessible, fun, and effective.
+                {t('about.story.description')}
               </p>
               <p className="text-gray-600 text-base leading-relaxed max-w-lg">
-                Under the International Language Education Association (ILEA), we have partnered
-                with educators around the globe. Our AI-powered platform adapts to each
-                learner&apos;s unique style, implementing the best methodologies from language education
-                research. Today, we serve learners in over 50 countries.
+                {t('about.story.missionText')}
               </p>
             </div>
           </AnimatedSection>

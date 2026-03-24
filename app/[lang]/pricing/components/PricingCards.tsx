@@ -3,61 +3,42 @@
 import { motion } from 'framer-motion';
 import PriceCard from '@/components/atomics/PriceCard';
 import SectionHeading from '@/components/atomics/SectionHeading';
-
-const pricingPlans = [
-  {
-    tier: 'Free',
-    price: '$0',
-    period: '/mo',
-    features: [
-      'Access to 5 languages',
-      '10 practice sessions/month',
-      'Basic vocabulary cards',
-      'Community forum access',
-      'Email support',
-    ],
-    popular: false,
-  },
-  {
-    tier: 'Pro',
-    price: '$9.99',
-    period: '/mo',
-    features: [
-      'Access to all 10+ languages',
-      'Unlimited practice sessions',
-      'Advanced vocabulary cards',
-      'Native speaker chat',
-      'Priority email support',
-      'Progress analytics',
-      'Offline mode',
-    ],
-    popular: true,
-  },
-  {
-    tier: 'Team',
-    price: '$19.99',
-    period: '/mo',
-    features: [
-      'Everything in Pro',
-      'Up to 5 team members',
-      'Shared progress dashboard',
-      'Admin management panel',
-      'Dedicated account manager',
-      'Custom learning paths',
-      'API access',
-    ],
-    popular: false,
-  },
-];
+import { useTranslation } from 'react-i18next';
 
 export default function PricingCards() {
+  const { t } = useTranslation();
+  
+  const pricingPlans = [
+    {
+      tier: t('pricing.cards.free.tier'),
+      price: t('pricing.cards.free.price'),
+      period: t('pricing.cards.free.period'),
+      features: t('pricing.cards.free.features', { returnObjects: true }) as unknown as string[],
+      popular: false,
+    },
+    {
+      tier: t('pricing.cards.pro.tier'),
+      price: t('pricing.cards.pro.price'),
+      period: t('pricing.cards.pro.period'),
+      features: t('pricing.cards.pro.features', { returnObjects: true }) as unknown as string[],
+      popular: true,
+    },
+    {
+      tier: t('pricing.cards.team.tier'),
+      price: t('pricing.cards.team.price'),
+      period: t('pricing.cards.team.period'),
+      features: t('pricing.cards.team.features', { returnObjects: true }) as unknown as string[],
+      popular: false,
+    },
+  ];
+
   return (
     <section className="w-full py-16 px-6 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <SectionHeading align="center">Choose Your Plan</SectionHeading>
+          <SectionHeading align="center">{t('pricing.cards.title')}</SectionHeading>
           <p className="text-black/60 text-lg mt-4 max-w-2xl mx-auto">
-            Start for free and upgrade when you&apos;re ready. All plans include our core learning features.
+            {t('pricing.cards.subtitle')}
           </p>
         </div>
 
@@ -87,12 +68,12 @@ export default function PricingCards() {
           viewport={{ once: true }}
           className="text-center mt-12 md:mt-16 bg-lime-100 rounded-3xl p-6 md:p-8 max-w-3xl mx-auto"
         >
-          <h3 className="text-2xl font-bold text-black mb-4">Need a Custom Solution?</h3>
+          <h3 className="text-2xl font-bold text-black mb-4">{t('pricing.cards.enterprise.title')}</h3>
           <p className="text-black/70 mb-6">
-            We offer enterprise plans for organizations with specific requirements. Contact us for a tailored solution.
+            {t('pricing.cards.enterprise.description')}
           </p>
           <a href="mailto:enterprise@langolearn.com" className="text-lime-600 font-semibold hover:underline">
-            Contact Sales Team &rarr;
+            {t('pricing.cards.enterprise.cta')} &rarr;
           </a>
         </motion.div>
       </div>
