@@ -3,34 +3,49 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
+import { useParams } from 'next/navigation';
 
 const footerLinks = {
+  company: 'footer.links.about',
+  products: 'footer.products',
+  support: 'footer.support',
+};
+
+function getLocalizedPath(path: string, locale: string): string {
+  return `/${locale}${path}`;
+}
+
+const footerItems = {
   Lingo: [
-    { label: 'About us', href: '/aboutus' },
-    { label: 'Careers', href: '#' },
-    { label: 'Brand Blog', href: '#' },
-    { label: 'Press', href: '#' },
+    { label: 'footer.links.about', href: '/aboutus' },
+    { label: 'footer.links.careers', href: '/careers' },
+    { label: 'footer.links.blog', href: '/blog' },
+    { label: 'footer.links.press', href: '/press' },
   ],
   Products: [
-    { label: 'Lingo', href: '#' },
-    { label: 'Lingo for Business', href: '#' },
-    { label: 'Lingo App', href: '#' },
-    { label: 'Lingo AR', href: '#' },
+    { label: 'footer.links.lingo', href: '/' },
+    { label: 'footer.links.business', href: '/business' },
+    { label: 'footer.links.app', href: '/app' },
+    { label: 'footer.links.ar', href: '/ar' },
   ],
   Support: [
-    { label: 'Contact', href: '#' },
-    { label: 'Privacy', href: '#' },
-    { label: 'Terms', href: '#' },
-    { label: 'Advertise Program', href: '#' },
+    { label: 'footer.links.contact', href: '/contact' },
+    { label: 'footer.links.privacy', href: '/privacy' },
+    { label: 'footer.links.terms', href: '/terms' },
+    { label: 'footer.links.advertise', href: '/advertise' },
   ],
 };
 
 export default function Footer() {
+  const { t } = useTranslation();
+  const params = useParams();
+  const locale = (params.lang as string) || 'en';
+  
   return (
     <footer className="w-full border-t border-gray-800/20 pt-12 pb-6 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
-          {/* Brand */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -39,7 +54,7 @@ export default function Footer() {
             className="md:col-span-2"
           >
             <Link href="/" className="inline-block">
-              <Image src="/Logo.png" alt="Lingo Logo" width={82} height={32} />
+              <Image src="/Logo.png" alt={t('common.logoAlt')} width={82} height={32} />
             </Link>
             <div className="flex items-center gap-3 mt-4">
               <SocialIcon icon="instagram" />
@@ -48,13 +63,11 @@ export default function Footer() {
               <SocialIcon icon="facebook" />
             </div>
             <p className="text-sm text-gray-600 mt-4 max-w-xs">
-              Learning languages doesn&apos;t need to be complicated. 
-              Our mission is to make language learning accessible to everyone.
+              {t('footer.description')}
             </p>
           </motion.div>
 
-          {/* Link Columns */}
-          {Object.entries(footerLinks).map(([title, links], colIdx) => (
+          {Object.entries(footerItems).map(([title, links], colIdx) => (
             <motion.div
               key={title}
               initial={{ opacity: 0, y: 20 }}
@@ -62,15 +75,15 @@ export default function Footer() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: (colIdx + 1) * 0.1 }}
             >
-              <h4 className="font-bold text-gray-900 mb-4">{title}</h4>
+              <h4 className="font-bold text-gray-900 mb-4">{t(footerLinks[title as keyof typeof footerLinks])}</h4>
               <ul className="space-y-2">
                 {links.map((link) => (
                   <li key={link.label}>
                     <Link
-                      href={link.href}
+                      href={getLocalizedPath(link.href, locale)}
                       className="text-sm text-gray-500 hover:text-gray-900 transition-colors duration-200"
                     >
-                      {link.label}
+                      {t(link.label)}
                     </Link>
                   </li>
                 ))}
@@ -81,7 +94,7 @@ export default function Footer() {
 
         <div className="mt-12 pt-6 border-t border-gray-800/10 text-center">
           <p className="text-sm text-gray-500">
-            © copyright LINGO 2024. All rights reserved.
+            {t('footer.copyright')}
           </p>
         </div>
       </div>

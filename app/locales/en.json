@@ -1,4 +1,50 @@
 {
+  "common": {
+    "logoAlt": "Lingo Logo",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "readMore": "Read more",
+    "learnMore": "Learn more",
+    "scrollDown": "Scroll down to explore"
+  },
+  "seo": {
+    "home": {
+      "title": "Lingo - Learn Languages Online with Native Speakers",
+      "description": "Master any language with Lingo. Learn from native speakers with interactive lessons, flexible scheduling, and personalized learning paths. Start free today!"
+    },
+    "about": {
+      "title": "About Us - Lingo Language Learning",
+      "description": "Learn about Lingo's mission to make language learning accessible to everyone. Discover our story, team, and commitment to breaking down language barriers."
+    },
+    "howItWorks": {
+      "title": "How It Works - Lingo Language Learning",
+      "description": "Discover how Lingo connects you with native speakers for personalized language learning. Learn in 3 simple steps: choose a language, match with a teacher, start speaking!"
+    },
+    "languages": {
+      "title": "Explore Languages - Learn Any Language",
+      "description": "Choose from 10+ languages including English, Spanish, French, German, Italian, and more. Learn with certified native speakers."
+    },
+    "pricing": {
+      "title": "Pricing - Lingo Language Learning",
+      "description": "View Lingo's transparent pricing plans. Start free or upgrade to Pro for unlimited access. No hidden fees, cancel anytime."
+    },
+    "reviews": {
+      "title": "Reviews - What Our Learners Say",
+      "description": "Read reviews from millions of happy language learners worldwide. See why Lingo is rated 4.9 stars for language learning."
+    },
+    "privacy": {
+      "title": "Privacy Policy - Lingo",
+      "description": "Read Lingo's privacy policy to understand how we collect, use, and protect your personal information."
+    },
+    "terms": {
+      "title": "Terms of Service - Lingo",
+      "description": "Read Lingo's terms of service to understand the conditions for using our language learning platform."
+    },
+    "cookies": {
+      "title": "Cookie Policy - Lingo",
+      "description": "Learn about the cookies we use on Lingo and how you can manage your cookie preferences."
+    }
+  },
   "nav": {
     "about": "About us",
     "how": "How it works",
@@ -7,6 +53,322 @@
     "pricing": "Pricing"
   },
   "cta": {
-    "signup": "Sign Up"
+    "signup": "Sign Up",
+    "subscribe": "Subscribe",
+    "getStarted": "Get Started",
+    "tryFree": "Try Free",
+    "startLearning": "Start Learning"
+  },
+  "footer": {
+    "company": "Lingo",
+    "products": "Products",
+    "support": "Support",
+    "copyright": "© copyright LINGO 2024. All rights reserved.",
+    "description": "Learning languages doesn't need to be complicated. Our mission is to make language learning accessible to everyone.",
+    "links": {
+      "about": "About us",
+      "careers": "Careers",
+      "blog": "Brand Blog",
+      "press": "Press",
+      "lingo": "Lingo",
+      "business": "Lingo for Business",
+      "app": "Lingo App",
+      "ar": "Lingo AR",
+      "contact": "Contact",
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "advertise": "Advertise Program"
+    }
+  },
+  "newsletter": {
+    "title": "Subscribe Our Newsletter",
+    "subtitle": "To Get",
+    "update": "Update",
+    "placeholder": "Enter Your Email",
+    "button": "Subscribe",
+    "successMessage": "Thank you for subscribing!",
+    "errorMessage": "Please enter a valid email address"
+  },
+  "languages": {
+    "hero": {
+      "tagline1": "Learn",
+      "title": "Any Language",
+      "subtitle1": "From Home",
+      "subtitle2": "With Ease",
+      "description": "Choose from 10+ languages and start your journey today. Our native speakers are ready to help you master any language."
+    },
+    "explore": {
+      "title": "Explore Our Languages",
+      "speakers": "speakers"
+    },
+    "features": {
+      "heading": "Why Learn With Us?",
+      "subheading": "We provide the best tools and native speakers to help you achieve fluency faster.",
+      "ctaHeading": "Ready to Start Your Journey?",
+      "ctaButton": "Get Started Free",
+      "nativeSpeakers": {
+        "title": "Native Speakers",
+        "description": "Learn from certified native speakers who are passionate about teaching."
+      },
+      "flexibleSchedule": {
+        "title": "Flexible Schedule",
+        "description": "Book lessons at any time that works for you, 24/7 availability."
+      },
+      "interactiveLessons": {
+        "title": "Interactive Lessons",
+        "description": "Engage in real conversations with AI-powered practice sessions."
+      },
+      "progressTracking": {
+        "title": "Progress Tracking",
+        "description": "Monitor your learning journey with detailed analytics and feedback."
+      }
+    }
+  },
+  "about": {
+    "hero": {
+      "tagline1": "Saving",
+      "title": "the World",
+      "tagline2": "One Language",
+      "tagline3": "at a Time",
+      "description": "Our mission is to build bridges between people and cultures by making language learning fun and easy through technological innovation."
+    },
+    "story": {
+      "title": "Story",
+      "subtitle": "Building Bridges Through Language",
+      "description": "Lingo was founded in 2020 with a simple yet powerful vision: to make language learning accessible to everyone, everywhere. What started as a small team of passionate linguists has grown into a global community of learners and native speakers dedicated to breaking down language barriers.",
+      "missionTitle": "Our Mission",
+      "missionText": "We believe that language should never be a barrier to connection, opportunity, or understanding. Through innovative technology and human-centered teaching, we're on a mission to help millions of people communicate across cultures and borders."
+    },
+    "team": {
+      "title": "Something About Our",
+      "subtitle": "Language",
+      "description": "Our team is made up of passionate linguists, educators, and technology experts from around the world. We bring together the best minds in language education to create innovative learning experiences that help you achieve fluency faster. We are constantly evolving our methods based on the latest research.",
+      "cta": "Read More"
+    },
+    "office": {
+      "title": "Our Beautiful",
+      "subtitle": "Office",
+      "description1": "Our beautiful office is located in the heart of San Francisco, California. It's where creativity meets innovation. Our modern workspace encourages collaboration and fosters a culture of learning. We have dedicated language labs, a cozy library, and flexible workspaces that inspire our team to create the best language learning experience for you.",
+      "description2": "Visit us at our headquarters or join our virtual office. We welcome visitors and believe in open collaboration."
+    },
+    "map": {
+      "getDirection": "Get Direction"
+    }
+  },
+  "pricing": {
+    "hero": {
+      "tagline1": "Simple",
+      "title": "Transparent",
+      "subtitle": "Pricing",
+      "description": "Choose the plan that fits your needs. No hidden fees, no surprises. Cancel anytime."
+    },
+    "cards": {
+      "title": "Choose Your Plan",
+      "subtitle": "Start for free and upgrade when you're ready. All plans include our core learning features.",
+      "free": {
+        "tier": "Free",
+        "price": "$0",
+        "period": "/mo",
+        "features": [
+          "Access to 5 languages",
+          "10 practice sessions/month",
+          "Basic vocabulary cards",
+          "Community forum access",
+          "Email support"
+        ]
+      },
+      "pro": {
+        "tier": "Pro",
+        "price": "$9.99",
+        "period": "/mo",
+        "features": [
+          "Access to all 10+ languages",
+          "Unlimited practice sessions",
+          "Advanced vocabulary cards",
+          "Native speaker chat",
+          "Priority email support",
+          "Progress analytics",
+          "Offline mode"
+        ]
+      },
+      "team": {
+        "tier": "Team",
+        "price": "$19.99",
+        "period": "/mo",
+        "features": [
+          "Everything in Pro",
+          "Up to 5 team members",
+          "Shared progress dashboard",
+          "Admin management panel",
+          "Dedicated account manager",
+          "Custom learning paths",
+          "API access"
+        ]
+      },
+      "enterprise": {
+        "title": "Need a Custom Solution?",
+        "description": "We offer enterprise plans for organizations with specific requirements. Contact us for a tailored solution.",
+        "cta": "Contact Sales Team"
+      }
+    }
+  },
+  "howItWorks": {
+    "hero": {
+      "tagline1": "Start Your",
+      "title": "Language Journey",
+      "tagline2": "Today",
+      "description": "Learning a new language has never been easier. Our platform connects you with native speakers and provides all the tools you need to succeed.",
+      "speak": "Speak",
+      "aNew": "A New",
+      "language": "Language",
+      "with": "With",
+      "confidence": "Confidence."
+    },
+    "languageForAll": {
+      "title": "A Language for Everyone",
+      "subtitle": "Whatever your reason for learning, we have you covered",
+      "heading": "Language Learning For",
+      "all": "All",
+      "people": "People",
+      "reasons": {
+        "travel": "Travel",
+        "travelDesc": "Communicate confidently with locals",
+        "career": "Career",
+        "careerDesc": "Expand your professional opportunities",
+        "culture": "Culture",
+        "cultureDesc": "Appreciate art, film, and literature",
+        "brain": "Brain Training",
+        "brainDesc": "Keep your mind sharp and active"
+      }
+    },
+    "startLearning": {
+      "title": "Start Learning in 3 Simple Steps",
+      "subtitle": "It's easier than you think to begin your language journey",
+      "startLearning": "Start Learning",
+      "languagesFor": "Languages For",
+      "free": "Free",
+      "step1": {
+        "title": "Choose Your Language",
+        "description": "Select from 10+ languages and set your learning goals"
+      },
+      "step2": {
+        "title": "Match with a Teacher",
+        "description": "Get paired with a certified native speaker who fits your schedule"
+      },
+      "step3": {
+        "title": "Start Speaking",
+        "description": "Book lessons and practice with AI-powered tools anytime"
+      }
+    },
+    "heroLearn": {
+      "learnYour": "Learn Your",
+      "favourite": "Favourite",
+      "languages": "Languages"
+    },
+    "heroSpeakers": {
+      "learnFromTheBest": "Learn From The Best",
+      "native": "Native",
+      "speakers": "Speakers",
+      "speaks": "Speaks",
+      "with": "With"
+    },
+    "lovedBy": {
+      "title": "Loved by Learners Worldwide",
+      "subtitle": "Join millions of happy language learners",
+      "lovedBy": "Loved by",
+      "learners": "learners",
+      "supportedByExperts": "supported by experts",
+      "testimonials": {
+        "jana": {
+          "name": "Jana Root",
+          "review": "This is Langen Tips. I use it daily to practice my German and English conversational skills."
+        },
+        "vinod": {
+          "name": "Vinod Koshi",
+          "review": "I've been learning languages for 6 months. The progress is amazing with native speakers."
+        },
+        "hasan": {
+          "name": "Hasan Mehmud",
+          "review": "The platform makes Arabic learning intuitive. I can see real progress every single week now."
+        }
+      },
+      "stat1": "1M+",
+      "stat1Label": "Active Learners",
+      "stat2": "50+",
+      "stat2Label": "Languages",
+      "stat3": "100K+",
+      "stat3Label": "Native Speakers",
+      "stat4": "4.9",
+      "stat4Label": "App Rating"
+    },
+    "blog": {
+      "title": "Latest from Our Blog",
+      "subtitle": "Tips, tricks, and insights for language learners"
+    },
+    "ratings": {
+      "highest": "Highest",
+      "rated": "Rated",
+      "platform": "platform",
+      "across": "Across",
+      "theGlobe": "The Globe"
+    }
+  },
+  "reviews": {
+    "hero": {
+      "tagline1": "What Our",
+      "title": "Learners Say",
+      "tagline2": "Trusted by",
+      "tagline3": "Millions"
+    }
+  },
+  "home": {
+    "hero": {
+      "titlePart1": "Lango learns how you",
+      "titlePart2": "learn, and",
+      "adapts": "adapts",
+      "titlePart3": "accordingly",
+      "mission": "Our mission is to build the best platform people use to learn a language learning, making the world a better, brighter place to live in.",
+      "languageSelector": {
+        "iWantToLearn": "I want to learn"
+      },
+      "languages": {
+        "french": "French",
+        "spanish": "Spanish",
+        "arabic": "Arabic",
+        "english": "English"
+      }
+    },
+    "explore": {
+      "titleLine1": "Explore a Language",
+      "titleLine2": "With Few",
+      "clicks": "Clicks",
+      "description": "Just search for your wish and find it in seconds, it is easy now. Learn a new world of culture. All of our courses are curated.",
+      "iWantToLearn": "I want to learn",
+      "languages": {
+        "arabic": "Arabic",
+        "spanish": "Spanish",
+        "french": "French"
+      }
+    },
+    "learnWithPeople": {
+      "titleLine1": "Learn With Real People",
+      "titleLine2": "With",
+      "fun": "Fun",
+      "description": "Practice with tutors from all over the world. Connect in personalized call, chat and track your learning progress for a true live language experience."
+    },
+    "learnTogether": {
+      "titleLine1": "Learn Together With",
+      "titleLine2": "Huge",
+      "excitement": "Excitement",
+      "description": "Gather your friends and join groups, get feedback from expert tutors. Join 10,000+ learners who have learnt together. The fastest method based on the latest studies across the world.",
+      "chatHeader": "You have received feedback on your Japanese exersices and",
+      "exercise": "exercise",
+      "userName": "Surbani",
+      "userExpertise": "Expert",
+      "pronunciation": "Pronunciation",
+      "pronunciationFeedback": "Great pronunciation",
+      "chatMessage1": "Well, it's a lot of homework.",
+      "chatMessage2": "I love it! 😊 Got it done?"
+    }
   }
 }

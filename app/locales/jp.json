@@ -1,0 +1,374 @@
+{
+  "common": {
+    "logoAlt": "Lingo ロゴ",
+    "loading": "読み込み中...",
+    "error": "エラーが発生しました",
+    "readMore": "続きを読む",
+    "learnMore": "詳細を見る",
+    "scrollDown": "スクロールして探索"
+  },
+  "seo": {
+    "home": {
+      "title": "Lingo - ネイティブスピーカーとオンラインで言語を学ぶ",
+      "description": "Lingoで言語をマスターしましょう。インタラクティブなレッスン、柔軟なスケジュール、個別学習パスでネイティブスピーカーから学びます。今日から無料で始めましょう！"
+    },
+    "about": {
+      "title": "会社概要 - Lingo 言語学習",
+      "description": "Lingoのミッション、ストーリー、チームについて学びましょう。言語の壁を壊すという私たちの取り組みを発見してください。"
+    },
+    "howItWorks": {
+      "title": "仕組み - Lingo 言語学習",
+      "description": "Lingoがネイティブスピーカーとつながる方法を発見してください。3つのステップで学びを始めましょう：言語を選択、教师にマッチ、話し始める！"
+    },
+    "languages": {
+      "title": "言語を探索 - 様々な言語を学ぶ",
+      "description": "英語、スペイン語、フランス語、ドイツ語、イタリア語など10以上の言語から選択してください。認定ネイティブスピーカーと学びましょう。"
+    },
+    "pricing": {
+      "title": "料金 - Lingo 言語学習",
+      "description": "Lingoの透明性のある料金プラン看看吧。無料で始めるかProにアップグレードして無制限にアクセス。追加費用なし、理由は問いません。"
+    },
+    "reviews": {
+      "title": "レビュー - 学習者の声",
+      "description": "世界中の何百万もの幸せな言語学習者からのレビューを読みましょう。Lingoが言語学習で高評価を得ている理由看看吧。"
+    },
+    "privacy": {
+      "title": "プライバシーポリシー - Lingo",
+      "description": "Lingoのプライバシーポリシーでは、情報の収集、使用、保護の方法について説明しています。"
+    },
+    "terms": {
+      "title": "利用規約 - Lingo",
+      "description": "言語学習プラットフォームの使用条件を理解するためにLingoの利用規約をお読みください。"
+    },
+    "cookies": {
+      "title": "Cookieポリシー - Lingo",
+      "description": "Lingoで使用されるCookieとCookieの設定を管理する方法について学びましょう。"
+    }
+  },
+  "nav": {
+    "about": "私たちについて",
+    "how": "使い方",
+    "languages": "言語",
+    "reviews": "レビュー",
+    "pricing": "料金"
+  },
+  "cta": {
+    "signup": "サインアップ",
+    "subscribe": "購読",
+    "getStarted": "始める",
+    "tryFree": "無料試す",
+    "startLearning": "学習を始める"
+  },
+  "footer": {
+    "company": "Lingo",
+    "products": "製品",
+    "support": "サポート",
+    "copyright": "© LINGO 2024 全著作権所有。",
+    "description": "言語を学ぶことは複雑である必要はありません。私たちの使命は言語学習をすべての人にアクセス可能にすることです。",
+    "links": {
+      "about": "私たちについて",
+      "careers": "採用情報",
+      "blog": "ブランドブログ",
+      "press": "プレス",
+      "lingo": "Lingo",
+      "business": "ビジネス向けLingo",
+      "app": "Lingoアプリ",
+      "ar": "Lingo AR",
+      "contact": "お問い合わせ",
+      "privacy": "プライバシー",
+      "terms": "利用規約",
+      "advertise": "広告プログラム"
+    }
+  },
+  "newsletter": {
+    "title": "ニュースレターを購読",
+    "subtitle": " 受け取る",
+    "update": "更新",
+    "placeholder": "メールアドレスを入力",
+    "button": "購読する",
+    "successMessage": "購読ありがとうございます！",
+    "errorMessage": "有効なメールアドレスを入力してください"
+  },
+  "languages": {
+    "hero": {
+      "tagline1": "学ぶ",
+      "title": "任意の言語",
+      "subtitle1": "在家から",
+      "subtitle2": "簡単に",
+      "description": "10以上の言語から選び、今日すぐに旅を始めましょう。ネイティブスピーカーがあらゆる言語をマスターするお手伝いをします。"
+    },
+    "explore": {
+      "title": "言語を探索",
+      "speakers": "話者"
+    },
+    "features": {
+      "heading": "なぜ私たちと一緒に学ぶのか？",
+      "subheading": "より早く流暢さを達成するのを手伝う最高のツールとネイティブスピーカーをご用意しています。",
+      "ctaHeading": "旅を始める準備ができましたか？",
+      "ctaButton": "無料で始める",
+      "nativeSpeakers": {
+        "title": "ネイティブスピーカー",
+        "description": "教えることに情熱的な認定ネイティブスピーカーから学びましょう。"
+      },
+      "flexibleSchedule": {
+        "title": "柔軟なスケジュール",
+        "description": "いつでもレッスンを予約可能、24時間対応。"
+      },
+      "interactiveLessons": {
+        "title": "インタラクティブなレッスン",
+        "description": "AI搭載のプラクティスセッションで実際の会話に取り組みましょう。"
+      },
+      "progressTracking": {
+        "title": "進捗追跡",
+        "description": "詳細な分析とフィードバックで学習の旅を監視します。"
+      }
+    }
+  },
+  "about": {
+    "hero": {
+      "tagline1": "世界を",
+      "title": "救う",
+      "tagline2": "一度に一つの",
+      "tagline3": "言語を",
+      "description": "私たちの使命は、技術の革新を通じて言語学習を楽しく簡単にすることで、人々と文化の間に橋を架けることです。"
+    },
+    "story": {
+      "title": "私たちの物語",
+      "subtitle": "言語を通じて橋を架ける",
+      "description": "Lingoは2020年に、すべての人に言語学習をアクセス可能にするというシンプルながらも強力なビジョンを持って設立されました。情熱的な言語学者たちの小さなチームとして始まったものは、言語の障壁を取り除くことに専念する学習者とネイティブスピーカーのグローバルコミュニティに成長しました。",
+      "missionTitle": "私たちの使命",
+      "missionText": "言語は接続、機会、理解の障壁になってはならないと信じています。革新的な技術と人間中心の教えることで、文化や国境を越えてコミュニケーションを取るのを何百万人もの人々に助ける使命而努力しています。"
+    },
+    "team": {
+      "title": "チームについて",
+      "subtitle": "言語チーム",
+      "description": "私たちのチームには、世界中の情熱的な言語学者、教育者、テクノロジー専門家がいます。言語教育の第一人者を招き、迅速な流暢さを達成するのに役立つ革新的な学習体験を作り出しています。最先端の研究に基づいてメソッドを常に進化させています。",
+      "cta": "もっと読む"
+    },
+    "office": {
+      "title": "美しいオフィス",
+      "subtitle": "オフィス",
+      "description1": "美しいオフィスはカリフォルニア州サンフランシスコの中心部にあります。クリエイティブとイノベーションが出会う場所です。モダンなワークスペースはコラボレーションを促進し、学習の文化を育みます。専用の言語ラボ、居心地の良いライブラリ、柔軟なワークスペースがあり、チームがあなたのために最高の言語学習体験を創り出すようにインスピレーションを与えています。",
+      "description2": "本社足を運び、お気軽にお立ち寄りください。訪問者を歓迎し、オープンなコラボレーションを信じています。"
+    },
+    "map": {
+      "getDirection": "道順を取得"
+    }
+  },
+  "pricing": {
+    "hero": {
+      "tagline1": "シンプルで",
+      "title": "透明な",
+      "subtitle": "料金設定",
+      "description": "あなたのニーズに合ったプランを選んでください。隠れた料金、驚きなし。いつでもキャンセル可能。"
+    },
+    "cards": {
+      "title": "プランを選択",
+      "subtitle": "無料で始めて、準備ができたらアップグレードしてください。すべてのプランにはコア学習機能が含まれています。",
+      "free": {
+        "tier": "無料",
+        "price": "$0",
+        "period": "/月",
+        "features": [
+          "5言語へのアクセス",
+          "月10回の練習セッション",
+          "基本語彙カード",
+          "コミュニティフォーラムアクセス",
+          "メールサポート"
+        ]
+      },
+      "pro": {
+        "tier": "プロ",
+        "price": "$9.99",
+        "period": "/月",
+        "features": [
+          "全10+言語へのアクセス",
+          "無制限練習セッション",
+          "上級語彙カード",
+          "ネイティブスピーカーとのチャット",
+          "優先メールサポート",
+          "進捗分析",
+          "オフラインモード"
+        ]
+      },
+      "team": {
+        "tier": "チーム",
+        "price": "$19.99",
+        "period": "/月",
+        "features": [
+          "プロの内容全て",
+          "最大5人のチームメンバー",
+          "共有進捗ダッシュボード",
+          "管理パネル",
+          "専任アカウントマネージャー",
+          "カスタム学習パス",
+          "APIアクセス"
+        ]
+      },
+      "enterprise": {
+        "title": "カスタムソリューションが必要ですか？",
+        "description": "特定の要件を持つ組織向けにエンタープライズプランを提供しています。調整されたソリューションについては联系我们。",
+        "cta": "営業チームに連絡"
+      }
+    }
+  },
+  "howItWorks": {
+    "hero": {
+      "tagline1": "あなたの",
+      "title": "言語の旅を",
+      "tagline2": "今日から",
+      "description": "新しい言語を学ぶことはかつてないほど簡単になりました。私たちのプラットフォームはネイティブスピーカーとつながり、成功に必要なすべてのツールを提供します。",
+      "speak": "話す",
+      "aNew": "新しい",
+      "language": "言語",
+      "with": "と",
+      "confidence": "自信を持って。"
+    },
+    "languageForAll": {
+      "title": "すべての人のための言語",
+      "subtitle": "学ぶ理由が何であれ、私たちはあなたをサポートします",
+      "heading": "言語学習",
+      "all": "すべて",
+      "people": "の人々",
+      "reasons": {
+        "travel": "旅行",
+        "travelDesc": "地元の人々と自信を持ってコミュニケーション",
+        "career": "キャリア",
+        "careerDesc": "プロフェッショナルな機会を拡大",
+        "culture": "文化",
+        "cultureDesc": "アート、映画、文学を楽しむ",
+        "brain": "頭脳トレ",
+        "brainDesc": "心を鋭くアクティブに保つ"
+      }
+    },
+    "startLearning": {
+      "title": "3つの簡単なステップで学習を開始",
+      "subtitle": "言語の旅を始めるのは思っているより簡単",
+      "startLearning": "学習を始める",
+      "languagesFor": "言語を",
+      "free": "無料で",
+      "step1": {
+        "title": "言語を選ぶ",
+        "description": "10以上の言語から選択し、学習目標を設定"
+      },
+      "step2": {
+        "title": "先生とマッチ",
+        "description": "あなたのスケジュールに合った認定ネイティブスピーカーとペアに"
+      },
+      "step3": {
+        "title": "話し始める",
+        "description": "いつでもAI搭載ツールでレッスンを予約して練習"
+      }
+    },
+    "heroLearn": {
+      "learnYour": "あなたのお気に入り",
+      "favourite": "お気に入り",
+      "languages": "言語を学ぶ"
+    },
+    "heroSpeakers": {
+      "learnFromTheBest": "最高の講師から学ぶ",
+      "native": "ネイティブ",
+      "speakers": "講師",
+      "speaks": "話す",
+      "with": "と"
+    },
+    "lovedBy": {
+      "title": "世界中の学習者に愛されています",
+      "subtitle": "何百万もの幸せな言語学習者に 加入",
+      "lovedBy": "愛されている",
+      "learners": "学習者",
+      "supportedByExperts": "専門家がサポート",
+      "testimonials": {
+        "jana": {
+          "name": "Jana Root",
+          "review": "This is Langen Tips. I use it daily to practice my German and English conversational skills."
+        },
+        "vinod": {
+          "name": "Vinod Koshi",
+          "review": "I've been learning languages for 6 months. The progress is amazing with native speakers."
+        },
+        "hasan": {
+          "name": "Hasan Mehmud",
+          "review": "The platform makes Arabic learning intuitive. I can see real progress every single week now."
+        }
+      },
+      "stat1": "100万+",
+      "stat1Label": "アクティブ学習者",
+      "stat2": "50+",
+      "stat2Label": "言語",
+      "stat3": "10万+",
+      "stat3Label": "ネイティブスピーカー",
+      "stat4": "4.9",
+      "stat4Label": "アプリ評価"
+    },
+    "blog": {
+      "title": "ブログ的最新記事",
+      "subtitle": "言語学習者のためのヒント、コツ、洞察"
+    },
+    "ratings": {
+      "highest": "最高評価",
+      "rated": "の",
+      "platform": "プラットフォーム",
+      "across": "世界中",
+      "theGlobe": "で"
+    }
+  },
+  "reviews": {
+    "hero": {
+      "tagline1": "学習者の",
+      "title": "声",
+      "tagline2": "何百万人に",
+      "tagline3": "信頼される"
+    }
+  },
+  "home": {
+    "hero": {
+      "titlePart1": "Langoはあなたの学び方を",
+      "titlePart2": "学び、",
+      "adapts": "適応します",
+      "titlePart3": "それに応じて",
+      "mission": "私たちのミッションは、人々が言語を学ぶために使用する最佳のプラットフォームを構築し、世界をより良く、より輝かしい場所にすることです。",
+      "languageSelector": {
+        "iWantToLearn": "学びたい"
+      },
+      "languages": {
+        "french": "フランス語",
+        "spanish": "スペイン語",
+        "arabic": "アラビア語",
+        "english": "英語"
+      }
+    },
+    "explore": {
+      "titleLine1": "言語を探る",
+      "titleLine2": "わずかな",
+      "clicks": "クリックで",
+      "description": "希望を検索して数秒で見つけることができます。今は簡単です。新しい文化の世界を学びましょう。すべてのコース精心替你選択されています。",
+      "iWantToLearn": "学びたい",
+      "languages": {
+        "arabic": "アラビア語",
+        "spanish": "スペイン語",
+        "french": "フランス語"
+      }
+    },
+    "learnWithPeople": {
+      "titleLine1": " 現実の人々について",
+      "titleLine2": "",
+      "fun": "楽しみ",
+      "description": "世界中の先生と練習しましょう。パーソナライズされた通話、チャットでつながり、学習の進捗を追跡して、真のライブ言語体験をしましょう。"
+    },
+    "learnTogether": {
+      "titleLine1": "大きな",
+      "titleLine2": "興奮 一緒に с",
+      "excitement": "興奮",
+      "description": "友達を集めグループに参加しましょう、専門的な先生からフィードバックを受けましょう。Together学習した10,000人以上の学習者に参加しましょう。世界最新の研究に基づいた最速の方法です。",
+      "chatHeader": "日本語の練習についてのフィードバックを受け取りました",
+      "exercise": "練習",
+      "userName": "Surbani",
+      "userExpertise": "エキスパート",
+      "pronunciation": "発音",
+      "pronunciationFeedback": "素晴らしい発音",
+      "chatMessage1": "さて、それは多くの宿題です。",
+      "chatMessage2": "好きです！😊終わりましたか？"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+# Robots.txt for Lingo Language Learning Platform
+# https://lingo.com
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://lingo.com/sitemap.xml
+Sitemap: https://lingo.com/sitemap-www.xml
+
+# Crawl-delay (optional, for politeness)
+Crawl-delay: 1
+
+# Disallow admin/private areas
+Disallow: /api/
+Disallow: /admin/
+Disallow: /(auth)/
+Disallow: /(backend)/
+
+# Language alternates (helps search engines understand multilingual content)
+# Implemented via hreflang in HTML metadata
+
+# User-agent: Googlebot
+# Allow: / - Already allowed above
+
+# User-agent: Googlebot-Image
+# Allow: /images/
+
+# User-agent: *
+# No additional restrictions
