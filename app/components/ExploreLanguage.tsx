@@ -2,10 +2,17 @@
 
 import Image from 'next/image';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import { ChopThumbnail } from './atomics/ChopThumbnail';
 import AnimatedSection from './molecules/AnimatedSection';
 
 export default function ExploreLanguage() {
+  const { t } = useTranslation();
+  const languages = [
+    { key: 'arabic', flag: '/images/flags/arab.png' },
+    { key: 'spanish', flag: '/images/flags/spain.png' },
+    { key: 'french', flag: '/images/flags/france.png' },
+  ];
   return (
     <section className="w-full py-20 px-4 bg-amber-50/80 border-y border-gray-800/10">
       <div className="max-w-7xl mx-auto">
@@ -31,18 +38,20 @@ export default function ExploreLanguage() {
                 transition={{ delay: 0.4, duration: 0.5 }}
                 className="absolute -bottom-6 -right-4 bg-white rounded-2xl shadow-lg p-4 space-y-2"
               >
-                <p className="text-xs text-gray-500 font-medium">I want to learn</p>
-                {[
-                  { lang: 'Arabic', flag: '🇸🇦' },
-                  { lang: 'Spanish', flag: '🇪🇸' },
-                  { lang: 'French', flag: '🇫🇷' },
-                ].map((item) => (
+                 <p className="text-xs text-gray-500 font-medium">{t('home.explore.iWantToLearn')}</p>
+                 {languages.map((item) => (
                   <div
-                    key={item.lang}
+                     key={item.key}
                     className="flex items-center gap-3 px-4 py-2 bg-white border border-gray-100 rounded-xl hover:bg-gray-50 cursor-pointer transition-all"
                   >
-                    <span>{item.flag}</span>
-                    <span className="text-sm font-medium">{item.lang}</span>
+                    <Image 
+                      src={item.flag} 
+                      alt={t('home.explore.languages.' + item.key)} 
+                      width={24} 
+                      height={16} 
+                      className="w-6 h-4 object-cover rounded-sm" 
+                    />
+                     <span className="text-sm font-medium">{t('home.explore.languages.' + item.key)}</span>
                     <span className="ml-auto text-gray-400">›</span>
                   </div>
                 ))}
@@ -55,18 +64,17 @@ export default function ExploreLanguage() {
             <div className="space-y-6">
               <div>
                 <div className="flex flex-wrap items-center gap-2">
-                  <span className="text-4xl md:text-5xl font-bold">Explore a Language</span>
+                   <span className="text-4xl md:text-5xl font-bold">{t('home.explore.titleLine1')}</span>
                 </div>
                 <div className="flex flex-wrap items-center gap-2 mt-2">
-                  <span className="text-4xl md:text-5xl font-bold">With Few</span>
+                   <span className="text-4xl md:text-5xl font-bold">{t('home.explore.titleLine2')}</span>
                   <ChopThumbnail bgcolor="fuchia" textcolor="black" textsize="huge" nospace>
-                    Clicks
+                     {t('home.explore.clicks')}
                   </ChopThumbnail>
                 </div>
               </div>
               <p className="text-gray-600 text-lg leading-relaxed max-w-lg">
-                Just search for your wish and find it in seconds, it is easy now.
-                Learn a new world of culture. All of our courses are curated.
+                {t('home.explore.description')}
               </p>
             </div>
           </AnimatedSection>

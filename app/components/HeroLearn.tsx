@@ -2,6 +2,7 @@
 
 import React, { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 import { ChopThumbnail } from "./atomics/ChopThumbnail";
 import FlagsCard from "./atomics/FlagsCard";
 
@@ -19,6 +20,7 @@ const languages = [
 ];
 
 export default function HeroLearn() {
+  const { t } = useTranslation();
   const [active, setActive] = useState(0);
   const perPage = 5;
   const pages: (typeof languages)[] = [];
@@ -55,12 +57,12 @@ export default function HeroLearn() {
           className="text-center mb-10"
         >
           <div className="flex flex-wrap items-center justify-center gap-2">
-            <span className="text-3xl md:text-4xl font-light">Learn Your</span>
+            <span className="text-3xl md:text-4xl font-light">{t('howItWorks.heroLearn.learnYour')}</span>
             <ChopThumbnail nospace textsize="xxxlarge" bgcolor="fuchia" textcolor="black">
-              Favourite
+              {t('howItWorks.heroLearn.favourite')}
             </ChopThumbnail>
           </div>
-          <h2 className="text-3xl md:text-4xl font-light mt-2">Languages</h2>
+          <h2 className="text-3xl md:text-4xl font-light mt-2">{t('howItWorks.heroLearn.languages')}</h2>
         </motion.div>
 
         {/* Carousel */}

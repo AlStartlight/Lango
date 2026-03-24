@@ -4,7 +4,9 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import Link from 'next/link';
 import Image from 'next/image';
+import { useParams, useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
+import { languageOptions } from '@/utils/flags';
 
 const navLinks = [
   { key: 'nav.about', href: '/aboutus' },
@@ -14,17 +16,26 @@ const navLinks = [
   { key: 'nav.pricing', href: '/pricing' },
 ];
 
+function getLocalizedPath(path: string, locale: string): string {
+  if (path === '/') {
+    return `/${locale}`;
+  }
+  return `/${locale}${path}`;
+}
+
 export default function Header() {
+  const params = useParams();
+  const router = useRouter();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isLangOpen, setIsLangOpen] = useState(false);
   const { t, i18n } = useTranslation();
 
-  const languages = [
-    { code: 'en', name: 'English', flag: '🇺🇸' },
-    { code: 'es', name: 'Español', flag: '🇪🇸' },
-  ];
+  const locale = (params.lang as string) || 'en';
+  const currentPath = typeof window !== 'undefined' ? window.location.pathname.replace(`/${locale}`, '') || '/' : '/';
 
   const changeLanguage = (code: string) => {
+    const newPath = currentPath === '/' ? `/${code}` : `/${code}${currentPath}`;
+    router.push(newPath);
     i18n.changeLanguage(code);
     setIsLangOpen(false);
   };
@@ -39,17 +50,15 @@ export default function Header() {
       <nav className="w-full px-4 py-2 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="flex justify-between items-center h-14">
-          {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 shrink-0">
-            <Image src="/Logo.png" alt="Lingo Logo" width={82} height={32} />
+          <Link href={`/${locale}`} className="flex items-center gap-2 shrink-0">
+            <Image src="/Logo.png" alt={t('common.logoAlt')} width={82} height={32} />
           </Link>
 
-          {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
-                href={link.href}
+                href={getLocalizedPath(link.href, locale)}
                 className="text-sm text-gray-700 hover:text-gray-900 font-medium transition-colors duration-200 relative group"
               >
                 {t(link.key)}
@@ -57,38 +66,48 @@ export default function Header() {
               </Link>
             ))}
           </div>
-{/* Language picker */}
           <div className="hidden md:flex items-center ml-4 relative">
             <button
               onClick={() => setIsLangOpen((s) => !s)}
-              className="flex items-center gap-2 px-3 py-1 rounded-full text-sm  shadow-sm"
+              className="flex items-center gap-2 px-3 py-1 rounded-full text-sm shadow-sm"
               aria-label="Select language"
             >
-              <span className="text-xl">{languages.find((l) => l.code === i18n.language)?.flag ?? '🌐'}</span>
+              <Image 
+                src={languageOptions.find((l) => l.code === i18n.language)?.flag || '/images/flags/england.png'} 
+                alt="Language flag" 
+                width={24} 
+                height={16} 
+                className="w-6 h-4 object-cover rounded-sm" 
+              />
               <span className="text-gray-700">{(i18n.language || 'en').toUpperCase()}</span>
               <Image src="/images/icons/ic_bottom.png" alt="Select language" width={12} height={12} className={`transform transition-transform ${isLangOpen ? 'rotate-180' : ''}`} />
             </button>
 
             {isLangOpen && (
-              <div className="absolute right-0 mt-10 w-48 bg-white border border-gray-200 rounded-lg shadow-lg p-3">
-                {languages.map((lang) => (
+              <div className="absolute right-0 -top-2 grid grid-cols-2 gap-2 mt-10 w-96 bg-white border border-gray-200 rounded-lg shadow-lg p-3 max-h-80 overflow-y-auto">
+                {languageOptions.map((lang) => (
                   <button
                     key={lang.code}
                     onClick={() => changeLanguage(lang.code)}
-                    className="w-full text-left flex items-center gap-3 px-2 py-2 hover:bg-gray-50 rounded-md"
+                    className={`w-full text-left flex items-center gap-3 px-2 py-2 hover:bg-gray-50 rounded-md ${i18n.language === lang.code ? 'bg-gray-100' : ''}`}
                   >
-                    <span className="text-lg">{lang.flag}</span>
+                    <Image 
+                      src={lang.flag} 
+                      alt={`${lang.name} flag`} 
+                      width={24} 
+                      height={16} 
+                      className="w-6 h-4 object-cover rounded-sm" 
+                    />
                     <span className="text-sm text-gray-700">{lang.name}</span>
                   </button>
                 ))}
               </div>
             )}
           </div>
-          {/* CTA Button */}
           <div className="hidden md:flex">
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Link
-                href="/signin"
+                href={`/${locale}/signin`}
                 className="bg-green-500 text-white px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-green-600 transition-colors duration-200 shadow-sm"
               >
                 {t('cta.signup')}
@@ -96,9 +115,6 @@ export default function Header() {
             </motion.div>
           </div>
 
-          
-
-          {/* Mobile menu button */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             className="md:hidden text-gray-800 hover:text-gray-600 p-2"
@@ -114,7 +130,6 @@ export default function Header() {
           </button>
         </div>
 
-        {/* Mobile Menu */}
         <AnimatePresence>
           {isMobileMenuOpen && (
             <motion.div
@@ -128,7 +143,7 @@ export default function Header() {
                 {navLinks.map((link) => (
                   <Link
                     key={link.href}
-                    href={link.href}
+                    href={getLocalizedPath(link.href, locale)}
                     className="block text-gray-700 hover:text-gray-900 font-medium py-2 transition-colors"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
@@ -136,11 +151,11 @@ export default function Header() {
                   </Link>
                 ))}
                 <Link
-                  href="/signin"
+                  href={`/${locale}/signin`}
                   className="block bg-green-500 text-white px-6 py-2.5 rounded-full text-sm font-semibold text-center hover:bg-green-600 transition-colors mt-2"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
-                  Sign Up
+                  {t('cta.signup')}
                 </Link>
               </div>
             </motion.div>

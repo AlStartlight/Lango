@@ -1,10 +1,12 @@
 'use client';
 
 import Image from 'next/image';
+import { useTranslation } from 'react-i18next';
 import { ChopThumbnail } from './atomics/ChopThumbnail';
 import AnimatedSection from './molecules/AnimatedSection';
 
 export default function LearnWithPeople() {
+  const { t } = useTranslation();
   return (
     <section className="w-full py-20 px-4 border-b border-gray-800/10">
       <div className="max-w-7xl mx-auto">
@@ -14,19 +16,17 @@ export default function LearnWithPeople() {
             <div className="space-y-6">
               <div>
                 <div className="flex flex-wrap items-center gap-2">
-                  <span className="text-4xl md:text-5xl font-bold">Learn With Real People</span>
+                   <span className="text-4xl md:text-5xl font-bold">{t('home.learnWithPeople.titleLine1')}</span>
                 </div>
                 <div className="flex flex-wrap items-center gap-2 mt-2">
-                  <span className="text-4xl md:text-5xl font-bold">With</span>
+                   <span className="text-4xl md:text-5xl font-bold">{t('home.learnWithPeople.titleLine2')}</span>
                   <ChopThumbnail bgcolor="fuchia" textcolor="black" textsize="huge" nospace>
-                    Fun
+                     {t('home.learnWithPeople.fun')}
                   </ChopThumbnail>
                 </div>
               </div>
               <p className="text-gray-600 text-lg leading-relaxed max-w-lg">
-                Practice with tutors from all over the world. Connect
-                in personalized call, chat and track your learning progress
-                for a true live language experience.
+                {t('home.learnWithPeople.description')}
               </p>
             </div>
           </AnimatedSection>

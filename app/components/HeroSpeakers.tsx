@@ -2,6 +2,7 @@
 
 import React, { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 import { ChopThumbnail } from "./atomics/ChopThumbnail";
 import Image from "next/image";
 
@@ -21,6 +22,7 @@ function chunk<T>(arr: T[], size: number) {
 }
 
 function HeroSpeakers() {
+  const { t } = useTranslation();
   const perPage = 4;
   const pages = chunk(speakers, perPage);
   const pagesCount = pages.length;
@@ -49,12 +51,12 @@ function HeroSpeakers() {
           className="flex flex-col items-start"
         >
           <div className="flex items-center gap-3">
-            <h3 className="text-3xl md:text-4xl font-bold">Learn From The Best</h3>
+            <h3 className="text-3xl md:text-4xl font-bold">{t('howItWorks.heroSpeakers.learnFromTheBest')}</h3>
           </div>
           <div className="flex items-center gap-3 mt-1">
-            <h3 className="text-3xl md:text-4xl font-bold">Native</h3>
+            <h3 className="text-3xl md:text-4xl font-bold">{t('howItWorks.heroSpeakers.native')}</h3>
             <ChopThumbnail nospace textsize="xxxlarge" bgcolor="fuchia" textcolor="black">
-              Speakers
+              {t('howItWorks.heroSpeakers.speakers')}
             </ChopThumbnail>
           </div>
         </motion.div>
@@ -110,10 +112,10 @@ function HeroSpeakers() {
                           </div>
                         </div>
                         <div className="mt-4 text-center">
-                          <div className="text-xs text-gray-400 uppercase tracking-wide">Speaks</div>
+                          <div className="text-xs text-gray-400 uppercase tracking-wide">{t('howItWorks.heroSpeakers.speaks')}</div>
                           <div className="text-xl font-bold mt-1">{sp.role}</div>
                           <div className="mx-auto h-0.5 w-12 bg-fuchsia-300 mt-2 rounded-full" />
-                          <div className="text-sm text-gray-500 mt-2">With {sp.name.split(" ")[0]}</div>
+                          <div className="text-sm text-gray-500 mt-2">{t('howItWorks.heroSpeakers.with')} {sp.name.split(" ")[0]}</div>
                         </div>
                       </motion.div>
                     ))}

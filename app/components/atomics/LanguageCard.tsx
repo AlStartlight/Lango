@@ -2,16 +2,20 @@
 
 import Image from 'next/image';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 type LanguageCardProps = {
   name: string;
   flagSrc: string;
   speakers: string;
   className?: string;
+  href?: string;
+  index?: number;
 };
 
-export default function LanguageCard({ name, flagSrc, speakers, className = '' }: LanguageCardProps) {
+export default function LanguageCard({ name, flagSrc, speakers, className = '', href='', index }: LanguageCardProps) {
   return (
+    <Link href={href} key={index} target="_blank" rel="noopener noreferrer" className="w-full">
     <motion.div
       whileHover={{ scale: 1.05, y: -4 }}
       whileTap={{ scale: 0.98 }}
@@ -28,5 +32,6 @@ export default function LanguageCard({ name, flagSrc, speakers, className = '' }
       <h3 className="text-lg md:text-xl font-bold text-center text-black mb-1 md:mb-2">{name}</h3>
       <p className="text-black/60 text-xs md:text-sm text-center">{speakers} speakers</p>
     </motion.div>
+    </Link>
   );
 }

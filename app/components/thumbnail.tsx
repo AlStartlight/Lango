@@ -2,10 +2,18 @@
 
 import Image from 'next/image';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import { ChopThumbnail } from './atomics/ChopThumbnail';
 import ScrollIndicator from './molecules/ScrollIndicator';
 
 export default function HomeThumbnail() {
+  const { t } = useTranslation();
+  const languages = [
+    { key: 'french', flag: '/images/flags/france.png', active: true },
+    { key: 'spanish', flag: '/images/flags/spain.png', active: false },
+    { key: 'arabic', flag: '/images/flags/arab.png', active: false },
+    { key: 'english', flag: '/images/flags/england.png', active: false },
+  ];
   return (
     <section className="w-full py-16 md:py-20 px-4 border-b border-gray-800/10">
       <div className="max-w-7xl mx-auto">
@@ -19,21 +27,19 @@ export default function HomeThumbnail() {
           >
             <div className="space-y-2">
               <div className="flex flex-wrap items-center gap-2">
-                <span className="text-4xl md:text-6xl font-light">Lango learns how you</span>
+                <span className="text-4xl md:text-6xl font-light">{t('home.hero.titlePart1')}</span>
               </div>
               <div className="flex flex-wrap items-center gap-2">
-                <span className="text-4xl md:text-6xl font-light">learn, and</span>
+                <span className="text-4xl md:text-6xl font-light">{t('home.hero.titlePart2')}</span>
                 <ChopThumbnail bgcolor="fuchia" textcolor="black" textsize="xtrahuge" nospace>
-                  adapts
+                  {t('home.hero.adapts')}
                 </ChopThumbnail>
               </div>
-              <span className="text-4xl md:text-6xl font-light block">accordingly</span>
+              <span className="text-4xl md:text-6xl font-light block">{t('home.hero.titlePart3')}</span>
             </div>
 
             <p className="text-gray-600 text-lg max-w-lg">
-              Our mission is to build the best platform people use to learn a
-              language learning, making the world a better,
-              brighter place to live in.
+              {t('home.hero.mission')}
             </p>
 
             <ScrollIndicator />
@@ -65,22 +71,23 @@ export default function HomeThumbnail() {
               className="absolute top-4 right-4 bg-white rounded-2xl shadow-xl p-4 min-w-45"
             >
               <div className="space-y-2">
-                {[
-                  { lang: 'French', flag: '🇫🇷', active: true },
-                  { lang: 'Spanish', flag: '🇪🇸', active: false },
-                  { lang: 'Arabic', flag: '🇸🇦', active: false },
-                  { lang: 'English', flag: '🇬🇧', active: false },
-                ].map((item) => (
+                 {languages.map((item) => (
                   <div
-                    key={item.lang}
+                      key={item.key}
                     className={`flex items-center gap-3 px-3 py-2 rounded-xl cursor-pointer transition-all duration-200 ${
                       item.active
                         ? 'bg-green-500 text-white'
                         : 'hover:bg-gray-50'
                     }`}
                   >
-                    <span className="text-lg">{item.flag}</span>
-                    <span className="text-sm font-medium">{item.lang}</span>
+                    <Image 
+                      src={item.flag} 
+                      alt={t('home.hero.languages.' + item.key)} 
+                      width={24} 
+                      height={16} 
+                      className="w-6 h-4 object-cover rounded-sm" 
+                    />
+                     <span className="text-sm font-medium">{t('home.hero.languages.' + item.key)}</span>
                   </div>
                 ))}
               </div>

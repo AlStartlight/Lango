@@ -2,10 +2,12 @@
 
 import Image from 'next/image';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import { ChopThumbnail } from './atomics/ChopThumbnail';
 import AnimatedSection from './molecules/AnimatedSection';
 
 export default function LearnTogether() {
+  const { t } = useTranslation();
   return (
     <section className="w-full py-20 px-4 bg-amber-50/80 border-y border-gray-800/10">
       <div className="max-w-7xl mx-auto">
@@ -16,10 +18,10 @@ export default function LearnTogether() {
               {/* Chat Header */}
               <div className="flex items-center gap-3 mb-4 pb-3 border-b border-gray-100">
                 <p className="text-sm text-gray-500">
-                  You have received feedback on your Japanese exersices and
+                   {t('home.learnTogether.chatHeader')}
                 </p>
               </div>
-              <div className="text-2xl font-bold mb-4">exercise</div>
+               <div className="text-2xl font-bold mb-4">{t('home.learnTogether.exercise')}</div>
 
               {/* User Profile */}
               <div className="flex items-center gap-3 mb-4">
@@ -33,9 +35,9 @@ export default function LearnTogether() {
                   />
                 </div>
                 <div>
-                  <p className="font-semibold text-sm">Surbani</p>
+                   <p className="font-semibold text-sm">{t('home.learnTogether.userName')}</p>
                   <div className="flex gap-1">
-                    <span className="text-xs bg-gray-100 px-2 py-0.5 rounded">Expert</span>
+                     <span className="text-xs bg-gray-100 px-2 py-0.5 rounded">{t('home.learnTogether.userExpertise')}</span>
                   </div>
                 </div>
               </div>
@@ -45,18 +47,18 @@ export default function LearnTogether() {
                 <div className="w-5 h-5 rounded-full bg-green-500 flex items-center justify-center">
                   <span className="text-white text-xs">✓</span>
                 </div>
-                <span className="text-sm text-green-600 font-medium">Pronunciation</span>
-                <span className="text-xs text-gray-400">Great pronunciation</span>
+                 <span className="text-sm text-green-600 font-medium">{t('home.learnTogether.pronunciation')}</span>
+                 <span className="text-xs text-gray-400">{t('home.learnTogether.pronunciationFeedback')}</span>
               </div>
 
               {/* Chat Messages */}
               <div className="space-y-3 mt-4">
                 <div className="bg-gray-100 rounded-2xl rounded-tl-sm px-4 py-3 max-w-[80%]">
-                  <p className="text-sm text-gray-700">Well, it&apos;s a lot of homework.</p>
+                   <p className="text-sm text-gray-700">{t('home.learnTogether.chatMessage1')}</p>
                 </div>
                 <div className="text-xs text-gray-400 mt-1">yesterday</div>
                 <div className="bg-gray-100 rounded-2xl rounded-tl-sm px-4 py-3 max-w-[80%]">
-                  <p className="text-sm text-gray-700">I love it! 😊 <span className="font-medium">Got it done?</span></p>
+                   <p className="text-sm text-gray-700">{t('home.learnTogether.chatMessage2')}</p>
                 </div>
               </div>
             </div>
@@ -67,19 +69,17 @@ export default function LearnTogether() {
             <div className="space-y-6">
               <div>
                 <div className="flex flex-wrap items-center gap-2">
-                  <span className="text-4xl md:text-5xl font-bold">Learn Together With</span>
+                   <span className="text-4xl md:text-5xl font-bold">{t('home.learnTogether.titleLine1')}</span>
                 </div>
                 <div className="flex flex-wrap items-center gap-2 mt-2">
-                  <span className="text-4xl md:text-5xl font-bold">Huge</span>
+                   <span className="text-4xl md:text-5xl font-bold">{t('home.learnTogether.titleLine2')}</span>
                   <ChopThumbnail bgcolor="fuchia" textcolor="black" textsize="huge" nospace>
-                    Excitement
+                     {t('home.learnTogether.excitement')}
                   </ChopThumbnail>
                 </div>
               </div>
               <p className="text-gray-600 text-lg leading-relaxed max-w-lg">
-                Gather your friends and join groups, get feedback from expert tutors. Join
-                10,000+ learners who have learnt together. The fastest
-                method based on the latest studies across the world.
+                {t('home.learnTogether.description')}
               </p>
             </div>
           </AnimatedSection>
