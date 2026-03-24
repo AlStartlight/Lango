@@ -1,0 +1,374 @@
+{
+  "common": {
+    "logoAlt": "Lingo Logo",
+    "loading": "Laden...",
+    "error": "Er is een fout opgetreden",
+    "readMore": "Lees meer",
+    "learnMore": "Meer informatie",
+    "scrollDown": "Scroll naar beneden om te verkennen"
+  },
+   "seo": {
+    "home": {
+      "title": "Lingo - Leer talen online met moedertaalsprekers",
+      "description": "Beheers elke taal met Lingo. Leer van moedertaalsprekers met interactieve lessen, flexibele planning en gepersonaliseerde leerpaden. Start vandaag gratis!"
+    },
+    "about": {
+      "title": "Over ons - Lingo Taalonderwijs",
+      "description": "Ontdek Lingos missie om taalonderwijs voor iedereen toegankelijk te maken. Ontdek ons verhaal, team en onze toewijding om taalbarrières te doorbreken."
+    },
+    "howItWorks": {
+      "title": "Hoe het werkt - Lingo Taalonderwijs",
+      "description": "Ontdek hoe Lingo je verbindt met moedertaalsprekers voor gepersonaliseerd taalonderwijs. Leer in 3 eenvoudige stappen: kies een taal, vind een leraar, begin met praten!"
+    },
+    "languages": {
+      "title": "Ontdek talen - Leer elke taal",
+      "description": "Kies uit meer dan 10 talen waaronder Engels, Spaans, Frans, Duits, Italiaans en meer. Leer met gecertificeerde moedertaalsprekers."
+    },
+    "pricing": {
+      "title": "Prijzen - Lingo Taalonderwijs",
+      "description": "Bekijk Lingos transparante prijsplannen. Start gratis of upgrade naar Pro voor onbeperkte toegang. Geen verborgen kosten, op elk moment opzegbaar."
+    },
+    "reviews": {
+      "title": "Reviews - Wat onze leerlingen zeggen",
+      "description": "Lees reviews van miljoenen blije taalleerlingen wereldwijd. Ontdek waarom Lingo 4,9 sterren heeft voor taalonderwijs."
+    },
+    "privacy": {
+      "title": "Privacybeleid - Lingo",
+      "description": "Lees Lingos privacybeleid om te begrijpen hoe we je persoonlijke gegevens verzamelen, gebruiken en beschermen."
+    },
+    "terms": {
+      "title": "Servicevoorwaarden - Lingo",
+      "description": "Lees Lingos servicevoorwaarden om de voorwaarden te begrijpen voor het gebruik van ons taalonderwijsplatform."
+    },
+    "cookies": {
+      "title": "Cookiebeleid - Lingo",
+      "description": "Lees over de cookies die we op Lingo gebruiken en hoe je je cookievoorkeuren kunt beheren."
+    }
+  },
+  "nav": {
+    "about": "Over ons",
+    "how": "Hoe het werkt",
+    "languages": "Talen",
+    "reviews": "Reviews",
+    "pricing": "Prijzen"
+  },
+  "cta": {
+    "signup": "Aanmelden",
+    "subscribe": "Abonneren",
+    "getStarted": "Aan de slag",
+    "tryFree": "Probeer gratis",
+    "startLearning": "Begin met leren"
+  },
+  "footer": {
+    "company": "Lingo",
+    "products": "Producten",
+    "support": "Ondersteuning",
+    "copyright": "© auteursrecht LINGO 2024. Alle rechten voorbehouden.",
+    "description": "Talen leren hoeft niet ingewikkeld te zijn. Onze missie is om taalleren toegankelijk te maken voor iedereen.",
+    "links": {
+      "about": "Over ons",
+      "careers": "Carrières",
+      "blog": "Merkblog",
+      "press": "Pers",
+      "lingo": "Lingo",
+      "business": "Lingo voor Bedrijven",
+      "app": "Lingo App",
+      "ar": "Lingo AR",
+      "contact": "Contact",
+      "privacy": "Privacy",
+      "terms": "Voorwaarden",
+      "advertise": "Advertentieprogramma"
+    }
+  },
+  "newsletter": {
+    "title": "Abonneer op Onze Nieuwsbrief",
+    "subtitle": "Om Updates te",
+    "update": "Ontvangen",
+    "placeholder": "Voer Je Email In",
+    "button": "Abonneren",
+    "successMessage": "Bedankt voor je abonnement!",
+    "errorMessage": "Voer een geldig e-mailadres in"
+  },
+  "languages": {
+    "hero": {
+      "tagline1": "Leer",
+      "title": "Elke Taal",
+      "subtitle1": "Van Thuis",
+      "subtitle2": "Met Gemak",
+      "description": "Kies uit meer dan 10 talen en begin vandaag je reis. Onze moedertaalsprekers staan klaar om je te helpen elke taal te beheersen."
+    },
+    "explore": {
+      "title": "Verken Onze Talen",
+      "speakers": "sprekers"
+    },
+    "features": {
+      "heading": "Waarom Leren Met Ons?",
+      "subheading": "We bieden de beste tools en moedertaalsprekers om je te helpen sneller vloeiend te worden.",
+      "ctaHeading": "Klaar om Je Reis te Beginnen?",
+      "ctaButton": "Start Gratis",
+      "nativeSpeakers": {
+        "title": "Moedertaalsprekers",
+        "description": "Leer van gecertificeerde moedertaalsprekers die gepassioneerd zijn over lesgeven."
+      },
+      "flexibleSchedule": {
+        "title": "Flexibel Schema",
+        "description": "Boek lessen op elk moment dat jou uitkomt, 24/7 beschikbaarheid."
+      },
+      "interactiveLessons": {
+        "title": "Interactieve Lessen",
+        "description": "Neem deel aan echte gesprekken met AI-gestuurde oefensessies."
+      },
+      "progressTracking": {
+        "title": "Voortgang Bijhouden",
+        "description": "Monitor je leerreis met gedetailleerde analyses en feedback."
+      }
+    }
+  },
+  "about": {
+    "hero": {
+      "tagline1": "Redden",
+      "title": "de Wereld",
+      "tagline2": "Eén Taal",
+      "tagline3": " tegelijk",
+      "description": "Onze missie is om bruggen te bouwen tussen mensen en culturen door taalleren leuk en gemakkelijk te maken door technologische innovatie."
+    },
+    "story": {
+      "title": "Ons Verhaal",
+      "subtitle": "Bruggen Bouwen Door Taal",
+      "description": "Lingo werd opgericht in 2020 met een simpele maar krachtige visie: taalleren toegankelijk maken voor iedereen, overal. Wat begon als een klein team van gepassioneerde linguïsten is uitgegroeid tot een wereldwijde gemeenschap van leerlingen en moedertaalsprekers die toegewijd zijn aan het doorbreken van taalbarrières.",
+      "missionTitle": "Onze Missie",
+      "missionText": "Wij geloven dat taal nooit een barrière mag zijn voor verbinding, kansen of begrip. Door innovatieve technologie en mensgericht onderwijs zijn we op een missie om miljoenen mensen te helpen communiceren over culturen en grenzen heen."
+    },
+    "team": {
+      "title": "Iets Over Ons Team",
+      "subtitle": "Talenteam",
+      "description": "Ons team bestaat uit gepassioneerde linguisten, docenten en technologie-experts van over de hele wereld. We brengen de beste denkers in taalonderwijs samen om innovatieve leervereisten te creëren die je helpen sneller vloeiend te worden. We ontwikkelen voortdurend onze methoden op basis van het nieuwste onderzoek.",
+      "cta": "Lees Meer"
+    },
+    "office": {
+      "title": "Ons Mooie Kantoor",
+      "subtitle": "Kantoor",
+      "description1": "Ons mooie kantoor is gevestigd in het hart van San Francisco, Californië. Het is waar creativiteit innovatie ontmoet. Onze moderne werkruimte moedigt samenwerking aan en bevordert een leercultuur. We hebben toegewijde taallaboratoria, een gezellige bibliotheek en flexibele werkruimtes die ons team inspireren om de beste taalleerervaring voor jou te creëren.",
+      "description2": "Bezoek ons op ons hoofdkantoor of neem deel aan ons virtuele kantoor. We verwelkomen bezoekers en geloven in open samenwerking."
+    },
+    "map": {
+      "getDirection": "Route Bekijken"
+    }
+  },
+  "pricing": {
+    "hero": {
+      "tagline1": "Simpel",
+      "title": "Transparant",
+      "subtitle": "Prijzen",
+      "description": "Kies het plan dat bij je past. Geen verborgen kosten, geen verrassingen. Annuleer wanneer je wilt."
+    },
+    "cards": {
+      "title": "Kies Je Plan",
+      "subtitle": "Begin gratis en upgrade wanneer je klaar bent. Alle plannen bevatten onze kernleerfuncties.",
+      "free": {
+        "tier": "Gratis",
+        "price": "$0",
+        "period": "/maand",
+        "features": [
+          "Toegang tot 5 talen",
+          "10 oefensessies/maand",
+          "Basis vocabulairekaarten",
+          "Toegang tot community forum",
+          "E-mail ondersteuning"
+        ]
+      },
+      "pro": {
+        "tier": "Pro",
+        "price": "$9.99",
+        "period": "/maand",
+        "features": [
+          "Toegang tot alle 10+ talen",
+          "Onbeperkte oefensessies",
+          "Geavanceerde vocabulairekaarten",
+          "Chat met moedertaalsprekers",
+          "Prioriteit e-mail ondersteuning",
+          "Voortgangsanalyse",
+          "Offline modus"
+        ]
+      },
+      "team": {
+        "tier": "Team",
+        "price": "$19.99",
+        "period": "/maand",
+        "features": [
+          "Alles in Pro",
+          "Tot 5 teamleden",
+          "Gedeeld voortgang dashboard",
+          "Admin management paneel",
+          "Toegewijde account manager",
+          "Aangepaste leertrajecten",
+          "API toegang"
+        ]
+      },
+      "enterprise": {
+        "title": "Heb Je een Aangepaste Oplossing Nodig?",
+        "description": "We bieden enterprise plannen voor organisaties met specifieke vereisten. Neem contact op voor een op maat gemaakte oplossing.",
+        "cta": "Neem Contact Op met Verkoopteam"
+      }
+    }
+  },
+  "howItWorks": {
+    "hero": {
+      "tagline1": "Begin Je",
+      "title": "Taalreis",
+      "tagline2": "Vandaag",
+      "description": "Een nieuwe taal leren was nog nooit zo gemakkelijk. Ons platform verbindt je met moedertaalsprekers en biedt alle tools die je nodig hebt om te slagen.",
+      "speak": "Speak",
+      "aNew": "A New",
+      "language": "Language",
+      "with": "With",
+      "confidence": "Confidence."
+    },
+    "languageForAll": {
+      "title": "Een Taal voor Iedereen",
+      "subtitle": "Wat je reden om te leren ook is, wij hebben je gedekt",
+      "heading": "Language Learning For",
+      "all": "All",
+      "people": "People",
+      "reasons": {
+        "travel": "Reizen",
+        "travelDesc": "Communiceer met vertrouwen met locals",
+        "career": "Carrière",
+        "careerDesc": "Breid je professionele kansen uit",
+        "culture": "Cultuur",
+        "cultureDesc": "Waardeer kunst, film en literatuur",
+        "brain": "Hersentraining",
+        "brainDesc": "Houd je geest scherp en actief"
+      }
+    },
+    "startLearning": {
+      "title": "Begin met Leren in 3 Simpele Stappen",
+      "subtitle": "Het is gemakkelijker dan je denkt om je taalreis te beginnen",
+      "startLearning": "Start Learning",
+      "languagesFor": "Languages For",
+      "free": "Free",
+      "step1": {
+        "title": "Kies Je Taal",
+        "description": "Selecteer uit meer dan 10 talen en stel je leendoelen in"
+      },
+      "step2": {
+        "title": "Match met een Docent",
+        "description": "Word gekoppeld aan een gecertificeerde moedertaalspreker die bij je schema past"
+      },
+      "step3": {
+        "title": "Begin met Spreken",
+        "description": "Boek lessen en oefen op elk moment met AI-gestuurde tools"
+      }
+    },
+    "heroLearn": {
+      "learnYour": "Learn Your",
+      "favourite": "Favourite",
+      "languages": "Languages"
+    },
+    "heroSpeakers": {
+      "learnFromTheBest": "Learn From The Best",
+      "native": "Native",
+      "speakers": "Speakers",
+      "speaks": "Speaks",
+      "with": "With"
+    },
+    "lovedBy": {
+      "title": "Geliefd door Leerlingen Wereldwijd",
+      "subtitle": "Sluit je aan bij miljoenen blije taalleerlingen",
+      "lovedBy": "Loved by",
+      "learners": "learners",
+      "supportedByExperts": "supported by experts",
+      "testimonials": {
+        "jana": {
+          "name": "Jana Root",
+          "review": "This is Langen Tips. I use it daily to practice my German and English conversational skills."
+        },
+        "vinod": {
+          "name": "Vinod Koshi",
+          "review": "I've been learning languages for 6 months. The progress is amazing with native speakers."
+        },
+        "hasan": {
+          "name": "Hasan Mehmud",
+          "review": "The platform makes Arabic learning intuitive. I can see real progress every single week now."
+        }
+      },
+      "stat1": "1M+",
+      "stat1Label": "Actieve Leerlingen",
+      "stat2": "50+",
+      "stat2Label": "Talen",
+      "stat3": "100K+",
+      "stat3Label": "Moedertaalsprekers",
+      "stat4": "4.9",
+      "stat4Label": "App Beoordeling"
+    },
+    "blog": {
+      "title": "Nieuwste van Ons Blog",
+      "subtitle": "Tips, trucs en inzichten voor taalleerlingen"
+    },
+    "ratings": {
+      "highest": "Highest",
+      "rated": "Rated",
+      "platform": "platform",
+      "across": "Across",
+      "theGlobe": "The Globe"
+    }
+  },
+  "reviews": {
+    "hero": {
+      "tagline1": "Wat Onze",
+      "title": "Leerlingen Zeggen",
+      "tagline2": "Vertrouwd door",
+      "tagline3": "Miljoenen"
+    }
+  },
+  "home": {
+    "hero": {
+      "titlePart1": "Lango leert hoe jij",
+      "titlePart2": "leert, en",
+      "adapts": "past zich aan",
+      "titlePart3": "dienovereenkomstig",
+      "mission": "Onze missie is het bouwen van het beste platform dat mensen gebruiken om een taal te leren, waardoor de wereld een betere, lichtere plek wordt om in te wonen.",
+      "languageSelector": {
+        "iWantToLearn": "Ik wil leren"
+      },
+      "languages": {
+        "french": "Frans",
+        "spanish": "Spaans",
+        "arabisch": "Arabisch",
+        "english": "Engels"
+      }
+    },
+    "explore": {
+      "titleLine1": "Ontdek een Taal",
+      "titleLine2": "Met Een Few",
+      "clicks": "Kliks",
+      "description": "Zoek gewoon naar je wens en vind het in seconden, het is nu gemakkelijk. Leer een nieuwe wereld van cultuur. Al onze cursussen zijn zorgvuldig samengesteld.",
+      "iWantToLearn": "Ik wil leren",
+      "languages": {
+        "arabic": "Arabisch",
+        "spanish": "Spaans",
+        "french": "Frans"
+      }
+    },
+    "learnWithPeople": {
+      "titleLine1": "Leer met Echte Mensen",
+      "titleLine2": "Met",
+      "fun": "Plezier",
+      "description": "Oefen met tutors van over de hele wereld. Verbinding in gepersonaliseerde gesprekken, chat en volg je leerproces voor een echte live taalervaring."
+    },
+    "learnTogether": {
+      "titleLine1": "Samen Leren Met",
+      "titleLine2": "Grote",
+      "excitement": "Opwinding",
+      "description": "Verzamel je vrienden en sluit je aan bij groepen, krijg feedback van deskundige tutors. Sluit je aan bij meer dan 10.000 leerlingen die samen hebben geleerd. De snelste methode gebaseerd op de nieuwste studies over de hele wereld.",
+      "chatHeader": "Je hebt feedback ontvangen op je Japanse oefeningen en",
+      "exercise": "oefening",
+      "userName": "Surbani",
+      "userExpertise": "Expert",
+      "pronunciation": "Uitspraak",
+      "pronunciationFeedback": "Grote uitspraak",
+      "chatMessage1": "Nou, het is veel huiswerk.",
+      "chatMessage2": "Ik hou ervan! 😊 Klaar?"
+    }
+  }
+}

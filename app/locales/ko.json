@@ -1,0 +1,374 @@
+{
+  "common": {
+    "logoAlt": "Lingo 로고",
+    "loading": "로딩 중...",
+    "error": "오류가 발생했습니다",
+    "readMore": "더 읽기",
+    "learnMore": "자세히 보기",
+    "scrollDown": "스크롤하여 탐색"
+  },
+   "seo": {
+    "home": {
+      "title": "Lingo - 원어민과 함께하는 온라인 언어 학습",
+      "description": "Lingo로 어떤 언어든 마스터하세요. 인터랙티브 레슨, 유연한 일정, 개인화된 학습 경로로 원어민에게 배우세요. 오늘 무료로 시작하세요!"
+    },
+    "about": {
+      "title": "회사 소개 - Lingo 언어 학습",
+      "description": "언어 학습을 모두에게 접근 가능하게 만드는 Lingo의 미션에 대해 알아보세요. 우리의 이야기, 팀, 그리고 언어 장벽을 허물려는 우리의 노력을 발견하세요."
+    },
+    "howItWorks": {
+      "title": "이용 방법 - Lingo 언어 학습",
+      "description": "Lingo가 개인화된 언어 학습을 위해 어떻게 원어민과 연결하는지 알아보세요. 3단계로 배우세요: 언어 선택, 선생님 매칭, 말하기 시작!"
+    },
+    "languages": {
+      "title": "언어 탐색 - 어떤 언어든 배우세요",
+      "description": "영어, 스페인어, 프랑스어, 독일어, 이탈리아어 등 10개 이상의 언어 중에서 선택하세요. 인증된 원어민과 함께 배우세요."
+    },
+    "pricing": {
+      "title": "가격 - Lingo 언어 학습",
+      "description": "Lingo의 투명한 가격 플랜을 확인하세요. 무료로 시작하거나 무제한 액세스를 위해 Pro로 업그레이드하세요. 숨겨진 수수료 없이 언제든지 취소 가능합니다."
+    },
+    "reviews": {
+      "title": "후기 - 우리의 학습자들이 말합니다",
+      "description": "전 세계 수백만 명의 행복한 언어 학습자들의 후기를 읽어보세요. Lingo가 언어 학습에서 별 4.9점을 받은 이유를 확인하세요."
+    },
+    "privacy": {
+      "title": "개인정보 보호정책 - Lingo",
+      "description": "Lingo의 개인정보 보호정책을 읽고 우리가 어떻게 귀하의 개인 정보를 수집, 사용 및 보호하는지 이해하세요."
+    },
+    "terms": {
+      "title": "서비스 약관 - Lingo",
+      "description": "Lingo의 서비스 약관을 읽고 우리의 언어 학습 플랫폼 사용 조건을 이해하세요."
+    },
+    "cookies": {
+      "title": "쿠키 정책 - Lingo",
+      "description": "Lingo에서 사용하는 쿠키와 쿠키 환경 설정을 관리하는 방법에 대해 알아보세요."
+    }
+  },
+  "nav": {
+    "about": "회사 소개",
+    "how": "이용 방법",
+    "languages": "언어",
+    "reviews": "후기",
+    "pricing": "가격"
+  },
+  "cta": {
+    "signup": "회원가입",
+    "subscribe": "구독",
+    "getStarted": "시작하기",
+    "tryFree": "무료 체험",
+    "startLearning": "학습 시작"
+  },
+  "footer": {
+    "company": "Lingo",
+    "products": "제품",
+    "support": "지원",
+    "copyright": "© 저작권 LINGO 2024. 모든 권리 보유.",
+    "description": "언어 배우기가 복잡할 필요는 없습니다. 우리의 사명은 모든 사람이 언어 학습에 접근할 수 있도록 하는 것입니다.",
+    "links": {
+      "about": "회사 소개",
+      "careers": "채용",
+      "blog": "브랜드 블로그",
+      "press": "보도자료",
+      "lingo": "Lingo",
+      "business": "비즈니스용 Lingo",
+      "app": "Lingo 앱",
+      "ar": "Lingo AR",
+      "contact": "문의하기",
+      "privacy": "개인정보 보호",
+      "terms": "이용약관",
+      "advertise": "광고 프로그램"
+    }
+  },
+  "newsletter": {
+    "title": "뉴스레터 구독하기",
+    "subtitle": "최신 소식을",
+    "update": "받기",
+    "placeholder": "이메일을 입력하세요",
+    "button": "구독하기",
+    "successMessage": "구독해 주셔서 감사합니다!",
+    "errorMessage": "유효한 이메일 주소를 입력해 주세요"
+  },
+  "languages": {
+    "hero": {
+      "tagline1": "배우세요",
+      "title": "어떤 언어도",
+      "subtitle1": "집에서",
+      "subtitle2": "손쉽게",
+      "description": "10개 이상의 언어 중에서 선택하고 오늘 바로 여정을 시작하세요. 원어민 강사진이 모든 언어를 마스터하는 데 도움을 드립니다."
+    },
+    "explore": {
+      "title": "우리의 언어 살펴보기",
+      "speakers": "명 화자"
+    },
+    "features": {
+      "heading": "왜 우리와 함께 배우세요?",
+      "subheading": "더 빨리 유창해지는 데 도움이 되는 최고의 도구와 원어민을 제공합니다.",
+      "ctaHeading": "여정을 시작할 준비가 되셨나요?",
+      "ctaButton": "무료로 시작",
+      "nativeSpeakers": {
+        "title": "원어민 강사",
+        "description": "교수에 열정을 가진 인증 원어민으로부터 배우세요."
+      },
+      "flexibleSchedule": {
+        "title": "유연한 일정",
+        "description": "24시간 언제든지 일정에 맞는 수업을 예약하세요."
+      },
+      "interactiveLessons": {
+        "title": "대화형 수업",
+        "description": "AI 기반 연습 세션과 실제 대화에 참여하세요."
+      },
+      "progressTracking": {
+        "title": "진행 상황 추적",
+        "description": "상세한 분석과 피드백으로 학습 여정을 모니터링하세요."
+      }
+    }
+  },
+  "about": {
+    "hero": {
+      "tagline1": "구하는",
+      "title": "세상을",
+      "tagline2": "한 언어씩",
+      "tagline3": "한 번에",
+      "description": "우리 사명은 기술 혁신을 통해 언어 학습을 즐겁고 쉽게 만들면서 사람들과 문화 사이의 다리를 놓는 것입니다."
+    },
+    "story": {
+      "title": "우리의 이야기",
+      "subtitle": "언어를 통한 다리 놓기",
+      "description": "Lingo는 2020년 모든 곳에서 모든 사람에게 언어 학습을 접근 가능하게 한다는 단순하면서도 강력한 비전으로 설립되었습니다. 열정적인 언어학자들과의 작은 팀으로 시작하여 언어 장벽을 없애는 데 전념하는 학습자와 원어민의 글로벌 커뮤니티로 성장했습니다.",
+      "missionTitle": "우리의 사명",
+      "missionText": "언어는 연결, 기회 또는 이해의 장벽이 되어서는 안 된다고 믿습니다. 혁신적인 기술과 인간 중심의 교육을 통해 문화와 국경을 초월하여 소통할 수 있도록 수백만 명의 사람들을 돕는 사명을 가지고 있습니다."
+    },
+    "team": {
+      "title": "팀에 대해",
+      "subtitle": "언어 팀",
+      "description": "우리 팀은 전 세계의 열정적인 언어학자, 교육자, 기술 전문가들로 구성되어 있습니다. 우리는 언어 교육의 최고의 인재들을 모아 당신이 더 빨리 유창해지는 데 도움이 되는 혁신적인 학습 경험을 만들어냅니다. 우리는 지속적으로 최신 연구에 기반하여 방법을 발전시키고 있습니다.",
+      "cta": "더 읽기"
+    },
+    "office": {
+      "title": "우리의 아름다운 사무실",
+      "subtitle": "사무실",
+      "description1": "우리의 아름다운 사무실은 캘리포니아 샌프란시스코 중심부에 있습니다. 이곳은 창의성이 혁신과 만나는 곳입니다. 우리의 현대적인 작업 공간은 협업을 장려하고 학습 문화를 촉진합니다. 우리는 전담 언어 실험실, 아늑한 도서관, 당신을 위해 최고의 언어 학습 경험을 만들도록 팀에 영감을 주는 유연한 작업 공간을 갖추고 있습니다.",
+      "description2": "우리의 본사에서 우리를 방문하거나 가상 사무실에 참여하세요. 우리는 방문객을 환영하며 열린 협업을 믿습니다."
+    },
+    "map": {
+      "getDirection": "길 찾기"
+    }
+  },
+  "pricing": {
+    "hero": {
+      "tagline1": "간단하고",
+      "title": "투명한",
+      "subtitle": "가격 정책",
+      "description": "필요에 맞는 요금제를 선택하세요. 숨겨진 수수료 없음, 놀라움 없음. 언제든지 취소 가능."
+    },
+    "cards": {
+      "title": "요금제 선택",
+      "subtitle": "무료로 시작하고 준비가 되면 업그레이드하세요. 모든 요금제에는 핵심 학습 기능이 포함됩니다.",
+      "free": {
+        "tier": "무료",
+        "price": "$0",
+        "period": "/월",
+        "features": [
+          "5개 언어 접근",
+          "월 10회 연습 세션",
+          "기본 어휘 카드",
+          "커뮤니티 포럼 접근",
+          "이메일 지원"
+        ]
+      },
+      "pro": {
+        "tier": "프로",
+        "price": "$9.99",
+        "period": "/월",
+        "features": [
+          "모든 10개+ 언어 접근",
+          "무제한 연습 세션",
+          "고급 어휘 카드",
+          "원어민과 채팅",
+          "우선 이메일 지원",
+          "진행 분석",
+          "오프라인 모드"
+        ]
+      },
+      "team": {
+        "tier": "팀",
+        "price": "$19.99",
+        "period": "/월",
+        "features": [
+          "프로 모든 기능",
+          "최대 5명의 팀원",
+          "공유 진행 대시보드",
+          "관리자 패널",
+          "전담 계정 관리자",
+          "맞춤 학습 경로",
+          "API 접근"
+        ]
+      },
+      "enterprise": {
+        "title": "맞춤 솔루션이 필요하세요?",
+        "description": "특정 요구사항이 있는 조직을 위한 기업 요금제를 제공합니다. 맞춤 솔루션에 대해 문의하세요.",
+        "cta": "영업팀 문의"
+      }
+    }
+  },
+  "howItWorks": {
+    "hero": {
+      "tagline1": "언어 여정을",
+      "title": "시작하세요",
+      "tagline2": "오늘",
+      "description": "새 언어를 배우는 것이 그 어느 때보다 쉬워졌습니다. 우리의 플랫폼은 원어민과 연결하고 성공에 필요한 모든 도구를 제공합니다.",
+      "speak": "Speak",
+      "aNew": "A New",
+      "language": "Language",
+      "with": "With",
+      "confidence": "Confidence."
+    },
+    "languageForAll": {
+      "title": "모두를 위한 언어",
+      "subtitle": "배우려는 이유가 뭐든, 우리가 도와드립니다",
+      "heading": "Language Learning For",
+      "all": "All",
+      "people": "People",
+      "reasons": {
+        "travel": "여행",
+        "travelDesc": "현지인과 자신감 있게 소통",
+        "career": "커리어",
+        "careerDesc": "전문적 기회 확장",
+        "culture": "문화",
+        "cultureDesc": "예술, 영화, 문학 감상",
+        "brain": "두뇌 트레이닝",
+        "brainDesc": "머리를 맑고 활발하게 유지"
+      }
+    },
+    "startLearning": {
+      "title": "3가지 간단한 단계로 학습 시작",
+      "subtitle": "언어 여정을 시작하는 것은 생각보다 쉽습니다",
+      "startLearning": "Start Learning",
+      "languagesFor": "Languages For",
+      "free": "Free",
+      "step1": {
+        "title": "언어 선택",
+        "description": "10개 이상의 언어 중에서 선택하고 학습 목표 설정"
+      },
+      "step2": {
+        "title": "선생님과 매칭",
+        "description": "일정에 맞는 인증 원어민과 연결됨"
+      },
+      "step3": {
+        "title": "말하기 시작",
+        "description": "언제든지 AI 기반 도구로 수업을 예약하고 연습"
+      }
+    },
+    "heroLearn": {
+      "learnYour": "Learn Your",
+      "favourite": "Favourite",
+      "languages": "Languages"
+    },
+    "heroSpeakers": {
+      "learnFromTheBest": "Learn From The Best",
+      "native": "Native",
+      "speakers": "Speakers",
+      "speaks": "Speaks",
+      "with": "With"
+    },
+    "lovedBy": {
+      "title": "전 세계 학습자에게 사랑받는",
+      "subtitle": "수많은 행복한 언어 학습자에 합류하세요",
+      "lovedBy": "Loved by",
+      "learners": "learners",
+      "supportedByExperts": "supported by experts",
+      "testimonials": {
+        "jana": {
+          "name": "Jana Root",
+          "review": "This is Langen Tips. I use it daily to practice my German and English conversational skills."
+        },
+        "vinod": {
+          "name": "Vinod Koshi",
+          "review": "I've been learning languages for 6 months. The progress is amazing with native speakers."
+        },
+        "hasan": {
+          "name": "Hasan Mehmud",
+          "review": "The platform makes Arabic learning intuitive. I can see real progress every single week now."
+        }
+      },
+      "stat1": "100만+",
+      "stat1Label": "활성 학습자",
+      "stat2": "50+",
+      "stat2Label": "언어",
+      "stat3": "10만+",
+      "stat3Label": "원어민",
+      "stat4": "4.9",
+      "stat4Label": "앱 평점"
+    },
+    "blog": {
+      "title": "블로그 최신 글",
+      "subtitle": "언어 학습자를 위한 팁, 요령 및 인사이트"
+    },
+    "ratings": {
+      "highest": "Highest",
+      "rated": "Rated",
+      "platform": "platform",
+      "across": "Across",
+      "theGlobe": "The Globe"
+    }
+  },
+  "reviews": {
+    "hero": {
+      "tagline1": "학습자들이",
+      "title": "말하는 것",
+      "tagline2": "수백만 명이",
+      "tagline3": "신뢰하는"
+    }
+  },
+  "home": {
+    "hero": {
+      "titlePart1": "Lango는 당신이",
+      "titlePart2": "어떻게 배우는지 배우고",
+      "adapts": "적응합니다",
+      "titlePart3": "그에 따라",
+      "mission": "우리 사ms은 사람들이 언어를 배우는 데 사용하는 최고의 플랫폼을 구축하여 세계를 더 나은 더 밝은 거주지로 만드는 것입니다.",
+      "languageSelector": {
+        "iWantToLearn": "배우고 싶습니다"
+      },
+      "languages": {
+        "french": "프랑스어",
+        "spanish": "스페인어",
+        "arabic": "아랍어",
+        "english": "영어"
+      }
+    },
+    "explore": {
+      "titleLine1": "언어 탐색",
+      "titleLine2": "몇 번의",
+      "clicks": "클릭으로",
+      "description": "원하는 것을 검색하고 몇 초 안에 찾으세요, 이제 쉽습니다. 새로운 문화의 세계를 배우세요. 모든 코스가 신중하게 선택되었습니다.",
+      "iWantToLearn": "배우고 싶습니다",
+      "languages": {
+        "arabic": "아랍어",
+        "spanish": "스페인어",
+        "french": "프랑스어"
+      }
+    },
+    "learnWithPeople": {
+      "titleLine1": "실제 사람들과 배우기",
+      "titleLine2": "함께",
+      "fun": "즐거움",
+      "description": "전 세계 강사와 연습하세요. 개인화된 통화, 채팅에서 연결하고 학습 진행 상황을 추적하여 진정한 실시간 언어 경험을 하세요."
+    },
+    "learnTogether": {
+      "titleLine1": "함께 배우기",
+      "titleLine2": "대부분의",
+      "excitement": "열정",
+      "description": "친구들을 모이고 그룹에 가입하여 전문 강사로부터 피드백을 받으세요. 함께 배운 10,000명 이상의 학습자에 참여하세요. 세계 최신 연구에 기반한 가장 빠른 방법입니다.",
+      "chatHeader": "일본어 연습에 대한 피드백을 받았습니다",
+      "exercise": "연습",
+      "userName": "Surbani",
+      "userExpertise": "전문가",
+      "pronunciation": "발음",
+      "pronunciationFeedback": "훌륭한 발음",
+      "chatMessage1": "글쎄, 숙제가 정말 많네요.",
+      "chatMessage2": "좋아요! 😊 끝냈나요?"
+    }
+  }
+}

@@ -1,0 +1,374 @@
+{
+  "common": {
+    "logoAlt": "Logo Lingo",
+    "loading": "Memuat...",
+    "error": "Terjadi kesalahan",
+    "readMore": "Baca selengkapnya",
+    "learnMore": "Pelajari lebih lanjut",
+    "scrollDown": "Gulir ke bawah untuk menjelajahi"
+  },
+   "seo": {
+    "home": {
+      "title": "Lingo - Belajar bahasa online dengan penutur asli",
+      "description": "Kuasai bahasa apa pun dengan Lingo. Belajar dari penutur asli dengan pelajaran interaktif, jadwal fleksibel, dan jalur pembelajaran yang dipersonalisasi. Mulai gratis hari ini!"
+    },
+    "about": {
+      "title": "Tentang kami - Lingo Pembelajaran Bahasa",
+      "description": "Pelajari misi Lingo untuk membuat pembelajaran bahasa dapat diakses oleh semua orang. Temukan cerita kami, tim, dan komitmen kami untuk menghambat hambatan bahasa."
+    },
+    "howItWorks": {
+      "title": "Cara kerja - Lingo Pembelajaran Bahasa",
+      "description": "Temukan bagaimana Lingo menghubungkan Anda dengan penutur asli untuk pembelajaran bahasa yang dipersonalisasi. Belajar dalam 3 langkah sederhana: pilih bahasa, temukan guru, mulai bicara!"
+    },
+    "languages": {
+      "title": "Jelajahi bahasa - Belajar bahasa apa pun",
+      "description": "Pilih dari lebih dari 10 bahasa termasuk Inggris, Spanyol, Prancis, Jerman, Italia, dan lainnya. Belajar dengan penutur asli bersertifikat."
+    },
+    "pricing": {
+      "title": "Harga - Lingo Pembelajaran Bahasa",
+      "description": "Lihat rencana harga transparan Lingo. Mulai gratis atau upgrade ke Pro untuk akses tanpa batas. Tanpa biaya tersembunyi, batalkan kapan saja."
+    },
+    "reviews": {
+      "title": "Ulasan - Apa kata pelajar kami",
+      "description": "Baca ulasan dari jutaan pelajar bahasa yang bahagia di seluruh dunia. Lihat mengapa Lingo memiliki peringkat 4,9 bintang untuk pembelajaran bahasa."
+    },
+    "privacy": {
+      "title": "Kebijakan privasi - Lingo",
+      "description": "Baca kebijakan privasi Lingo untuk memahami bagaimana kami mengumpulkan, menggunakan, dan melindungi informasi pribadi Anda."
+    },
+    "terms": {
+      "title": "Syarat layanan - Lingo",
+      "description": "Baca syarat layanan Lingo untuk memahami ketentuan penggunaan platform pembelajaran bahasa kami."
+    },
+    "cookies": {
+      "title": "Kebijakan cookie - Lingo",
+      "description": "Pelajari tentang cookie yang kami gunakan di Lingo dan bagaimana Anda dapat mengelola preferensi cookie Anda."
+    }
+  },
+  "nav": {
+    "about": "Tentang kami",
+    "how": "Cara kerja",
+    "languages": "Bahasa",
+    "reviews": "Ulasan",
+    "pricing": "Harga"
+  },
+  "cta": {
+    "signup": "Daftar",
+    "subscribe": "Berlangganan",
+    "getStarted": "Mulai",
+    "tryFree": "Coba Gratis",
+    "startLearning": "Mulai Belajar"
+  },
+  "footer": {
+    "company": "Lingo",
+    "products": "Produk",
+    "support": "Dukungan",
+    "copyright": "© hak cipta LINGO 2024. Semua hak dilindungi.",
+    "description": "Mempelajari bahasa tidak perlu rumit. Misi kami adalah membuat pembelajaran bahasa dapat diakses oleh semua orang.",
+    "links": {
+      "about": "Tentang kami",
+      "careers": "Karier",
+      "blog": "Blog Merek",
+      "press": "Pers",
+      "lingo": "Lingo",
+      "business": "Lingo untuk Bisnis",
+      "app": "Aplikasi Lingo",
+      "ar": "Lingo AR",
+      "contact": "Kontak",
+      "privacy": "Privasi",
+      "terms": "Ketentuan",
+      "advertise": "Program Advertiser"
+    }
+  },
+  "newsletter": {
+    "title": "Berlangganan Newsletter Kami",
+    "subtitle": "Untuk Mendapatkan",
+    "update": "Pembaruan",
+    "placeholder": "Masukkan Email Anda",
+    "button": "Berlangganan",
+    "successMessage": "Terima kasih telah berlangganan!",
+    "errorMessage": "Silakan masukkan alamat email yang valid"
+  },
+  "languages": {
+    "hero": {
+      "tagline1": "Pelajari",
+      "title": "Bahasa Apapun",
+      "subtitle1": "Dari Rumah",
+      "subtitle2": "Dengan Mudah",
+      "description": "Pilih dari 10+ bahasa dan mulai perjalanan Anda hari ini. Penutur asli kami siap membantu Anda menguasai bahasa apa pun."
+    },
+    "explore": {
+      "title": "Jelajahi Bahasa Kami",
+      "speakers": "penutur"
+    },
+    "features": {
+      "heading": "Mengapa Belajar Dengan Kami?",
+      "subheading": "Kami menyediakan alat terbaik dan penutur asli untuk membantu Anda mencapai kefasihan lebih cepat.",
+      "ctaHeading": "Siap Memulai Perjalanan Anda?",
+      "ctaButton": "Mulai Gratis",
+      "nativeSpeakers": {
+        "title": "Penutur Asli",
+        "description": "Belajar dari penutur asli bersertifikat yang passionate tentang mengajar."
+      },
+      "flexibleSchedule": {
+        "title": "Jadwal Fleksibel",
+        "description": "Pesan pelajaran kapan saja yang cocok untuk Anda, ketersediaan 24/7."
+      },
+      "interactiveLessons": {
+        "title": "Pelajaran Interaktif",
+        "description": "Ikuti percakapan nyata dengan sesi praktik bertenaga AI."
+      },
+      "progressTracking": {
+        "title": "Pelacakan Progres",
+        "description": "Pantau perjalanan pembelajaran Anda dengan analitik dan umpan balik terperinci."
+      }
+    }
+  },
+  "about": {
+    "hero": {
+      "tagline1": "Menyelamatkan",
+      "title": "Dunia",
+      "tagline2": "Satu Bahasa",
+      "tagline3": "Sekaligus",
+      "description": "Misi kami adalah membangun jembatan antara orang-orang dan budaya dengan membuat pembelajaran bahasa menyenangkan dan mudah melalui inovasi teknologi."
+    },
+    "story": {
+      "title": "Kisah Kami",
+      "subtitle": "Membangun Jembatan Melalui Bahasa",
+      "description": "Lingo didirikan pada tahun 2020 dengan visi sederhana namun kuat: membuat pembelajaran bahasa dapat diakses oleh semua orang, di mana saja. Yang dimulai sebagai tim kecil linguis yang bersemangat telah berkembang menjadi komunitas global pembelajar dan penutur asli yang berdedikasi untuk menghilangkan hambatan bahasa.",
+      "missionTitle": "Misi Kami",
+      "missionText": "Kami percaya bahwa bahasa tidak boleh menjadi penghalang untuk koneksi, kesempatan, atau pemahaman. Melalui teknologi inovatif dan pengajaran yang berpusat pada manusia, kami dalam misi untuk membantu jutaan orang berkomunikasi lintas budaya dan batas."
+    },
+    "team": {
+      "title": "Sesuatu Tentang Tim Kami",
+      "subtitle": "Tim Bahasa",
+      "description": "Tim kami terdiri dari linguis, pendidik, dan ahli teknologi yang bersemangat dari seluruh dunia. Kami mengumpulkan pemikiran terbaik dalam pendidikan bahasa untuk menciptakan pengalaman belajar inovatif yang membantu Anda mencapai kefasihan lebih cepat. Kami terus berkembang metode kami berdasarkan penelitian terbaru.",
+      "cta": "Baca Selengkapnya"
+    },
+    "office": {
+      "title": "Kantor Indah Kami",
+      "subtitle": "Kantor",
+      "description1": "Kantor kami yang indah terletak di jantung San Francisco, California. Di situlah kreativitas bertemu inovasi. Ruang kerja modern kami mendorong kolaborasi dan mendorong budaya belajar. Kami memiliki laboratorium bahasa khusus, perpustakaan yang nyaman, dan ruang kerja fleksibel yang menginspirasi tim kami untuk menciptakan pengalaman pembelajaran bahasa terbaik untuk Anda.",
+      "description2": "Kunjungi kami di kantor pusat atau bergabunglah dengan kantor virtual kami. Kami menyambut pengunjung dan percaya pada kolaborasi terbuka."
+    },
+    "map": {
+      "getDirection": "Dapatkan Petunjuk Arah"
+    }
+  },
+  "pricing": {
+    "hero": {
+      "tagline1": "Sederhana",
+      "title": "Transparan",
+      "subtitle": "Harga",
+      "description": "Pilih rencana yang sesuai kebutuhan Anda. Tanpa biaya tersembunyi, tanpa kejutan. Batalkan kapan saja."
+    },
+    "cards": {
+      "title": "Pilih Paket Anda",
+      "subtitle": "Mulai gratis dan tingkatkan saat Anda siap. Semua paket mencakup fitur pembelajaran inti kami.",
+      "free": {
+        "tier": "Gratis",
+        "price": "$0",
+        "period": "/bln",
+        "features": [
+          "Akses ke 5 bahasa",
+          "10 sesi latihan/bulan",
+          "Kartu kosakata dasar",
+          "Akses forum komunitas",
+          "Dukungan email"
+        ]
+      },
+      "pro": {
+        "tier": "Pro",
+        "price": "$9.99",
+        "period": "/bln",
+        "features": [
+          "Akses ke semua 10+ bahasa",
+          "Sesi latihan tak terbatas",
+          "Kartu kosakata lanjutan",
+          "Obrolan dengan penutur asli",
+          "Dukungan email prioritas",
+          "Analitik progres",
+          "Mode offline"
+        ]
+      },
+      "team": {
+        "tier": "Tim",
+        "price": "$19.99",
+        "period": "/bln",
+        "features": [
+          "Semuanya di Pro",
+          " hingga 5 anggota tim",
+          "Dasbor progres bersama",
+          "Panel manajemen admin",
+          "Manajer akun khusus",
+          "Jalur pembelajaran kustom",
+          "Akses API"
+        ]
+      },
+      "enterprise": {
+        "title": "Perlu Solusi Kustom?",
+        "description": "Kami menawarkan paket perusahaan untuk organisasi dengan persyaratan spesifik. Hubungi kami untuk solusi yang disesuaikan.",
+        "cta": "Hubungi Tim Penjualan"
+      }
+    }
+  },
+  "howItWorks": {
+    "hero": {
+      "tagline1": "Mulai",
+      "title": "Perjalanan Bahasa",
+      "tagline2": "Hari Ini",
+      "description": "Mempelajari bahasa baru tidak pernah semudah ini. Platform kami menghubungkan Anda dengan penutur asli dan menyediakan semua alat yang Anda butuhkan untuk sukses.",
+      "speak": "Speak",
+      "aNew": "A New",
+      "language": "Language",
+      "with": "With",
+      "confidence": "Confidence."
+    },
+    "languageForAll": {
+      "title": "Bahasa untuk Semua Orang",
+      "subtitle": "Apa pun alasan Anda untuk belajar, kami siap membantu",
+      "heading": "Language Learning For",
+      "all": "All",
+      "people": "People",
+      "reasons": {
+        "travel": "Perjalanan",
+        "travelDesc": "Berkomunikasi percaya diri dengan penduduk lokal",
+        "career": "Karier",
+        "careerDesc": "Perluas peluang profesional Anda",
+        "culture": "Budaya",
+        "cultureDesc": "Hargai seni, film, dan sastra",
+        "brain": "Pelatihan Otak",
+        "brainDesc": "Jaga pikiran Anda tetap tajam dan aktif"
+      }
+    },
+    "startLearning": {
+      "title": "Mulai Belajar dalam 3 Langkah Sederhana",
+      "subtitle": "Lebih mudah dari yang Anda kira untuk memulai perjalanan bahasa",
+      "startLearning": "Start Learning",
+      "languagesFor": "Languages For",
+      "free": "Free",
+      "step1": {
+        "title": "Pilih Bahasa Anda",
+        "description": "Pilih dari 10+ bahasa dan tetapkan tujuan pembelajaran Anda"
+      },
+      "step2": {
+        "title": "Pasangkan dengan Guru",
+        "description": "Dapatkan dipasangkan dengan penutur asli bersertifikat yang sesuai jadwal Anda"
+      },
+      "step3": {
+        "title": "Mulai Berbicara",
+        "description": "Pesan pelajaran dan berlatih dengan alat bertenaga AI kapan saja"
+      }
+    },
+    "heroLearn": {
+      "learnYour": "Learn Your",
+      "favourite": "Favourite",
+      "languages": "Languages"
+    },
+    "heroSpeakers": {
+      "learnFromTheBest": "Learn From The Best",
+      "native": "Native",
+      "speakers": "Speakers",
+      "speaks": "Speaks",
+      "with": "With"
+    },
+    "lovedBy": {
+      "title": "Dicintai oleh Pembelajar di Seluruh Dunia",
+      "subtitle": "Bergabunglah dengan jutaan pembelajar bahasa bahagia",
+      "lovedBy": "Loved by",
+      "learners": "learners",
+      "supportedByExperts": "supported by experts",
+      "testimonials": {
+        "jana": {
+          "name": "Jana Root",
+          "review": "This is Langen Tips. I use it daily to practice my German and English conversational skills."
+        },
+        "vinod": {
+          "name": "Vinod Koshi",
+          "review": "I've been learning languages for 6 months. The progress is amazing with native speakers."
+        },
+        "hasan": {
+          "name": "Hasan Mehmud",
+          "review": "The platform makes Arabic learning intuitive. I can see real progress every single week now."
+        }
+      },
+      "stat1": "1Juta+",
+      "stat1Label": "Pembelajar Aktif",
+      "stat2": "50+",
+      "stat2Label": "Bahasa",
+      "stat3": "100Ribu+",
+      "stat3Label": "Penutur Asli",
+      "stat4": "4.9",
+      "stat4Label": "Rating Aplikasi"
+    },
+    "blog": {
+      "title": "Terbaru dari Blog Kami",
+      "subtitle": "Tips, trik, dan wawasan untuk pembelajar bahasa"
+    },
+    "ratings": {
+      "highest": "Highest",
+      "rated": "Rated",
+      "platform": "platform",
+      "across": "Across",
+      "theGlobe": "The Globe"
+    }
+  },
+  "reviews": {
+    "hero": {
+      "tagline1": "Apa Kata",
+      "title": "Pembelajar Kami",
+      "tagline2": "Dipercaya oleh",
+      "tagline3": "Jutaan"
+    }
+  },
+  "home": {
+    "hero": {
+      "titlePart1": "Lango belajar bagaimana kamu",
+      "titlePart2": "belajar, dan",
+      "adapts": "beradaptasi",
+      "titlePart3": "sesuai dengan itu",
+      "mission": "Misi kami adalah membangun platform terbaik yang digunakan orang untuk belajar bahasa, membuat dunia menjadi tempat yang lebih baik dan lebih cerah untuk ditinggali.",
+      "languageSelector": {
+        "iWantToLearn": "Saya ingin belajar"
+      },
+      "languages": {
+        "french": "Prancis",
+        "spanish": "Spanyol",
+        "arabic": "Arab",
+        "english": "Inggris"
+      }
+    },
+    "explore": {
+      "titleLine1": "Jelajahi Bahasa",
+      "titleLine2": "Dengan Beberapa",
+      "clicks": "Klik",
+      "description": "Cari saja keinginanmu dan temukan dalamHitungan detik, sekarang mudah. Pelajari dunia budaya baru. Semua kursus kami telah dipilih dengan hati-hati.",
+      "iWantToLearn": "Saya ingin belajar",
+      "languages": {
+        "arabic": "Arab",
+        "spanish": "Spanyol",
+        "french": "Prancis"
+      }
+    },
+    "learnWithPeople": {
+      "titleLine1": "Belajar dengan Orang Nyata",
+      "titleLine2": "Dengan",
+      "fun": "Kesenangan",
+      "description": "Berlatih dengan tutor dari seluruh dunia. Terhubung dalam panggilan yang dipersonalisasi, chat dan lacak kemajuan pembelajaran kamu untuk pengalaman bahasa langsung yang sesungguhnya."
+    },
+    "learnTogether": {
+      "titleLine1": "Belajar Bersama Dengan",
+      "titleLine2": "Antusiasme",
+      "excitement": "Besar",
+      "description": "Kumpulkan teman-teman kamu dan bergabung dengan grup, dapatkan umpan balik dari tutor ahli. Bergabunglah dengan 10.000+ pembelajar yang telah belajar bersama. Metode tercepat berdasarkan studi terbaru di seluruh dunia.",
+      "chatHeader": "Kamu telah menerima umpan balik tentang latihan bahasa Jepang kamu dan",
+      "exercise": "latihan",
+      "userName": "Surbani",
+      "userExpertise": "Ahli",
+      "pronunciation": "Pengucapan",
+      "pronunciationFeedback": "Pengucapan yang bagus",
+      "chatMessage1": "Yah, itu banyak PR.",
+      "chatMessage2": "Saya menyukainya! 😊 Selesai?"
+    }
+  }
+}

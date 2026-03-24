@@ -1,0 +1,374 @@
+{
+  "common": {
+    "logoAlt": "Logo Lingo",
+    "loading": "Caricamento...",
+    "error": "Si è verificato un errore",
+    "readMore": "Leggi di più",
+    "learnMore": "Scopri di più",
+    "scrollDown": "Scorri verso il basso per esplorare"
+  },
+   "seo": {
+    "home": {
+      "title": "Lingo - Impara le lingue online con madrelingua",
+      "description": "Padroneggia qualsiasi lingua con Lingo. Impara da madrelingua con lezioni interattive, orari flessibili e percorsi di apprendimento personalizzati. Inizia gratis oggi!"
+    },
+    "about": {
+      "title": "Chi siamo - Lingo Apprendimento delle lingue",
+      "description": "Scopri la missione di Lingo di rendere l'apprendimento delle lingue accessibile a tutti. Scopri la nostra storia, il team e l'impegno nel superare le barriere linguistiche."
+    },
+    "howItWorks": {
+      "title": "Come funziona - Lingo Apprendimento delle lingue",
+      "description": "Scopri come Lingo ti connette con madrelingua per un apprendimento delle lingue personalizzato. Impara in 3 semplici passi: scegli una lingua, trova un insegnante, inizia a parlare!"
+    },
+    "languages": {
+      "title": "Esplora le lingue - Impara qualsiasi lingua",
+      "description": "Scegli tra oltre 10 lingue tra cui inglese, spagnolo, francese, tedesco, italiano e altre. Impara con madrelingua certificati."
+    },
+    "pricing": {
+      "title": "Prezzi - Lingo Apprendimento delle lingue",
+      "description": "Visualizza i piani di prezzo trasparenti di Lingo. Inizia gratis o passa a Pro per accesso illimitato. Nessun costo nascosto, cancella in qualsiasi momento."
+    },
+    "reviews": {
+      "title": "Recensioni - Cosa dicono i nostri studenti",
+      "description": "Leggi le recensioni di milioni di studenti di lingue felici in tutto il mondo. Scopri perché Lingo ha una valutazione di 4,9 stelle per l'apprendimento delle lingue."
+    },
+    "privacy": {
+      "title": "Informativa sulla privacy - Lingo",
+      "description": "Leggi l'informativa sulla privacy di Lingo per capire come raccogliamo, utilizziamo e proteggiamo le tue informazioni personali."
+    },
+    "terms": {
+      "title": "Termini di servizio - Lingo",
+      "description": "Leggi i termini di servizio di Lingo per capire le condizioni per l'utilizzo della nostra piattaforma di apprendimento delle lingue."
+    },
+    "cookies": {
+      "title": "Politica dei cookie - Lingo",
+      "description": "Scopri i cookie che utilizziamo su Lingo e come puoi gestire le tue preferenze sui cookie."
+    }
+  },
+  "nav": {
+    "about": "Chi siamo",
+    "how": "Come funziona",
+    "languages": "Lingue",
+    "reviews": "Recensioni",
+    "pricing": "Prezzi"
+  },
+  "cta": {
+    "signup": "Iscriviti",
+    "subscribe": "Abbonati",
+    "getStarted": "Inizia",
+    "tryFree": "Prova gratis",
+    "startLearning": "Inizia a imparare"
+  },
+  "footer": {
+    "company": "Lingo",
+    "products": "Prodotti",
+    "support": "Assistenza",
+    "copyright": "© diritti d'autore LINGO 2024. Tutti i diritti riservati.",
+    "description": "Imparare le lingue non deve essere complicato. La nostra missione è rendere l'apprendimento delle lingue accessibile a tutti.",
+    "links": {
+      "about": "Chi siamo",
+      "careers": "Carriere",
+      "blog": "Blog del marchio",
+      "press": "Stampa",
+      "lingo": "Lingo",
+      "business": "Lingo per Business",
+      "app": "App Lingo",
+      "ar": "Lingo AR",
+      "contact": "Contatti",
+      "privacy": "Privacy",
+      "terms": "Termini",
+      "advertise": "Programma pubblicitario"
+    }
+  },
+  "newsletter": {
+    "title": "Iscriviti alla Nostra Newsletter",
+    "subtitle": "Per Ricevere",
+    "update": "Aggiornamenti",
+    "placeholder": "Inserisci la Tua Email",
+    "button": "Iscriviti",
+    "successMessage": "Grazie per l'iscrizione!",
+    "errorMessage": "Inserisci un indirizzo email valido"
+  },
+  "languages": {
+    "hero": {
+      "tagline1": "Impara",
+      "title": "Qualunque Lingua",
+      "subtitle1": "Da Casa",
+      "subtitle2": "Con Facilità",
+      "description": "Scegli tra più di 10 lingue e inizia il tuo viaggio oggi. I nostri madrelingua sono pronti ad aiutarti a padroneggiare qualsiasi lingua."
+    },
+    "explore": {
+      "title": "Esplora le Nostre Lingue",
+      "speakers": "parlanti"
+    },
+    "features": {
+      "heading": "Perché Imparare Con Noi?",
+      "subheading": "Forniamo i migliori strumenti e madrelingua per aiutarti a raggiungere la fluenza più velocemente.",
+      "ctaHeading": "Pronto a Iniziare il Tuo Viaggio?",
+      "ctaButton": "Inizia Gratis",
+      "nativeSpeakers": {
+        "title": "Madrelingua",
+        "description": "Impara da madrelingua certificati appassionati di insegnamento."
+      },
+      "flexibleSchedule": {
+        "title": "Orario Flessibile",
+        "description": "Prenota lezioni in qualsiasi momento adatto a te, disponibilità 24/7."
+      },
+      "interactiveLessons": {
+        "title": "Lezioni Interattive",
+        "description": "Partecipa a conversazioni reali con sessioni di pratica alimentate dall'IA."
+      },
+      "progressTracking": {
+        "title": "Monitoraggio Progressi",
+        "description": "Monitora il tuo percorso di apprendimento con analisi dettagliate e feedback."
+      }
+    }
+  },
+  "about": {
+    "hero": {
+      "tagline1": "Salvare",
+      "title": "il Mondo",
+      "tagline2": "Una Lingua",
+      "tagline3": "alla Volta",
+      "description": "La nostra missione è costruire ponti tra persone e culture rendendo l'apprendimento delle lingue divertente e facile attraverso l'innovazione tecnologica."
+    },
+    "story": {
+      "title": "La Nostra Storia",
+      "subtitle": "Costruire Ponti Attraverso la Lingua",
+      "description": "Lingo è stata fondata nel 2020 con una visione semplice ma potente: rendere l'apprendimento delle lingue accessibile a tutti, ovunque. Quello che è iniziato come un piccolo team di linguisti appassionati è cresciuto fino a diventare una comunità globale di apprendisti e madrelingua dedicati a rompere le barriere linguistiche.",
+      "missionTitle": "La Nostra Missione",
+      "missionText": "Crediamo che la lingua non debba mai essere una barriera per la connessione, le opportunità o la comprensione. Attraverso la tecnologia innovativa e l'insegnamento incentrato sull'uomo, siamo in missione per aiutare milioni di persone a comunicare attraverso culture e confini."
+    },
+    "team": {
+      "title": "Qualcosa Sul Nostro Team",
+      "subtitle": "Team di Lingue",
+      "description": "Il nostro team è composto da linguisti appassionati, educatori ed esperti di tecnologia di tutto il mondo. Riuniamo le migliori menti nell'educazione linguistica per creare esperienze di apprendimento innovative che ti aiutano a raggiungere la fluenza più velocemente. Evoluiamo costantemente i nostri metodi basandoci sulle ricerche più recenti.",
+      "cta": "Leggi di Più"
+    },
+    "office": {
+      "title": "Il Nostro Bell'Ufficio",
+      "subtitle": "Ufficio",
+      "description1": "Il nostro bell'ufficio si trova nel cuore di San Francisco, California. È qui che la creatività incontra l'innovazione. Il nostro spazio di lavoro moderno incoraggia la collaborazione e promuove una cultura dell'apprendimento. Abbiamo laboratori linguistici dedicati, una confortevole biblioteca e spazi di lavoro flessibili che ispirano il nostro team a creare la migliore esperienza di apprendimento linguistico per te.",
+      "description2": "Visitateci nella nostra sede o unitevi al nostro ufficio virtuale. Accogliamo i visitatori e crediamo nella collaborazione aperta."
+    },
+    "map": {
+      "getDirection": "Ottieni Indicazioni"
+    }
+  },
+  "pricing": {
+    "hero": {
+      "tagline1": "Semplice",
+      "title": "Trasparente",
+      "subtitle": "Prezzi",
+      "description": "Scegli il piano che soddisfa le tue esigenze. Nessuna tariffa nascosta, nessuna sorpresa. Cancella quando vuoi."
+    },
+    "cards": {
+      "title": "Scegli il Tuo Piano",
+      "subtitle": "Inizia gratis e fai l'upgrade quando sei pronto. Tutti i piani includono le nostre funzionalità di apprendimento di base.",
+      "free": {
+        "tier": "Gratis",
+        "price": "$0",
+        "period": "/mese",
+        "features": [
+          "Accesso a 5 lingue",
+          "10 sessioni di pratica/mese",
+          "Carte di vocabolario di base",
+          "Accesso al forum della comunità",
+          "Supporto via e-mail"
+        ]
+      },
+      "pro": {
+        "tier": "Pro",
+        "price": "$9.99",
+        "period": "/mese",
+        "features": [
+          "Accesso a tutte le 10+ lingue",
+          "Sessioni di pratica illimitate",
+          "Carte di vocabolario avanzate",
+          "Chat con parlanti nativi",
+          "Supporto via e-mail prioritario",
+          "Analisi dei progressi",
+          "Modalità offline"
+        ]
+      },
+      "team": {
+        "tier": "Team",
+        "price": "$19.99",
+        "period": "/mese",
+        "features": [
+          "Tutto in Pro",
+          "Fino a 5 membri del team",
+          "Dashboard dei progressi condivisa",
+          "Pannello di amministrazione",
+          "Account manager dedicato",
+          "Percorsi di apprendimento personalizzati",
+          "Accesso API"
+        ]
+      },
+      "enterprise": {
+        "title": "Hai Bisogno di una Soluzione Personalizzata?",
+        "description": "Offriamo piani aziendali per organizzazioni con requisiti specifici. Contattaci per una soluzione su misura.",
+        "cta": "Contatta il Team Vendite"
+      }
+    }
+  },
+  "howItWorks": {
+    "hero": {
+      "tagline1": "Inizia il Tuo",
+      "title": "Viaggio Linguistico",
+      "tagline2": "Oggi",
+      "description": "Imparare una nuova lingua non è mai stato così facile. La nostra piattaforma ti connette con madrelingua e ti fornisce tutti gli strumenti necessari per avere successo.",
+      "speak": "Speak",
+      "aNew": "A New",
+      "language": "Language",
+      "with": "With",
+      "confidence": "Confidence."
+    },
+    "languageForAll": {
+      "title": "Una Lingua per Tutti",
+      "subtitle": "Qualunque sia il tuo motivo per imparare, ti copriamo",
+      "heading": "Language Learning For",
+      "all": "All",
+      "people": "People",
+      "reasons": {
+        "travel": "Viaggio",
+        "travelDesc": "Comunica con sicurezza con i locali",
+        "career": "Carriera",
+        "careerDesc": "Espandi le tue opportunità professionali",
+        "culture": "Cultura",
+        "cultureDesc": "Apprezza arte, cinema e letteratura",
+        "brain": "Allenamento Cerebrale",
+        "brainDesc": "Mantieni la mente acuta e attiva"
+      }
+    },
+    "startLearning": {
+      "title": "Inizia a Imparare in 3 Semplici Passaggi",
+      "subtitle": "È più facile di quanto pensi iniziare il tuo viaggio linguistico",
+      "startLearning": "Start Learning",
+      "languagesFor": "Languages For",
+      "free": "Free",
+      "step1": {
+        "title": "Scegli la Tua Lingua",
+        "description": "Seleziona tra più di 10 lingue e imposta i tuoi obiettivi di apprendimento"
+      },
+      "step2": {
+        "title": "Abbina con un Insegnante",
+        "description": "Verrai abbinato con un madrelingua certificato che si adatta al tuo orario"
+      },
+      "step3": {
+        "title": "Inizia a Parlare",
+        "description": "Prenota lezioni e pratica in qualsiasi momento con strumenti alimentati dall'IA"
+      }
+    },
+    "heroLearn": {
+      "learnYour": "Learn Your",
+      "favourite": "Favourite",
+      "languages": "Languages"
+    },
+    "heroSpeakers": {
+      "learnFromTheBest": "Learn From The Best",
+      "native": "Native",
+      "speakers": "Speakers",
+      "speaks": "Speaks",
+      "with": "With"
+    },
+    "lovedBy": {
+      "title": "Amato da Apprendenti in Tutto il Mondo",
+      "subtitle": "Unisciti a milioni di felici apprendenti di lingue",
+      "lovedBy": "Loved by",
+      "learners": "learners",
+      "supportedByExperts": "supported by experts",
+      "testimonials": {
+        "jana": {
+          "name": "Jana Root",
+          "review": "This is Langen Tips. I use it daily to practice my German and English conversational skills."
+        },
+        "vinod": {
+          "name": "Vinod Koshi",
+          "review": "I've been learning languages for 6 months. The progress is amazing with native speakers."
+        },
+        "hasan": {
+          "name": "Hasan Mehmud",
+          "review": "The platform makes Arabic learning intuitive. I can see real progress every single week now."
+        }
+      },
+      "stat1": "1M+",
+      "stat1Label": "Apprendenti Attivi",
+      "stat2": "50+",
+      "stat2Label": "Lingue",
+      "stat3": "100K+",
+      "stat3Label": "Madrelingua",
+      "stat4": "4.9",
+      "stat4Label": "Valutazione App"
+    },
+    "blog": {
+      "title": "Ultime dal Nostro Blog",
+      "subtitle": "Suggerimenti, trucchi e approfondimenti per apprendenti di lingue"
+    },
+    "ratings": {
+      "highest": "Highest",
+      "rated": "Rated",
+      "platform": "platform",
+      "across": "Across",
+      "theGlobe": "The Globe"
+    }
+  },
+  "reviews": {
+    "hero": {
+      "tagline1": "Cosa Dicono",
+      "title": "i Nostri Apprendenti",
+      "tagline2": "Affidato da",
+      "tagline3": "Milioni"
+    }
+  },
+  "home": {
+    "hero": {
+      "titlePart1": "Lango impara come tu",
+      "titlePart2": "impari, e",
+      "adapts": "si adatta",
+      "titlePart3": "di conseguenza",
+      "mission": "La nostra missione è costruire la migliore piattaforma che le persone usano per imparare una lingua, rendendo il mondo un posto migliore e più luminoso in cui vivere.",
+      "languageSelector": {
+        "iWantToLearn": "Voglio imparare"
+      },
+      "languages": {
+        "french": "Francese",
+        "spanish": "Spagnolo",
+        "arabic": "Arabo",
+        "english": "Inglese"
+      }
+    },
+    "explore": {
+      "titleLine1": "Esplora una Lingua",
+      "titleLine2": "Con Pochi",
+      "clicks": "Clic",
+      "description": "Cerca semplicemente il tuo desiderio e trovalo in pochi secondi, ora è facile. Impara un nuovo mondo di cultura. Tutti i nostri corsi sono accuratamente selezionati.",
+      "iWantToLearn": "Voglio imparare",
+      "languages": {
+        "arabic": "Arabo",
+        "spanish": "Spagnolo",
+        "french": "Francese"
+      }
+    },
+    "learnWithPeople": {
+      "titleLine1": "Impara con Persone Reali",
+      "titleLine2": "Con",
+      "fun": "Divertimento",
+      "description": "Pratica con tutor da tutto il mondo. Collegati in chiamate personalizzate, chat e traccia i tuoi progressi nell'apprendimento per una vera esperienza linguistica dal vivo."
+    },
+    "learnTogether": {
+      "titleLine1": "Impara Insieme Con",
+      "titleLine2": "Grande",
+      "excitement": "Entusiasmo",
+      "description": "Raccogli i tuoi amici e unisciti a gruppi, ricevi feedback da tutor esperti. Unisciti a più di 10.000 apprendenti che hanno imparato insieme. Il metodo più veloce basato sugli ultimi studi nel mondo.",
+      "chatHeader": "Hai ricevuto feedback sui tuoi esercizi di giapponese e",
+      "exercise": "esercizio",
+      "userName": "Surbani",
+      "userExpertise": "Esperto",
+      "pronunciation": "Pronuncia",
+      "pronunciationFeedback": "Ottima pronuncia",
+      "chatMessage1": "Bene, è molto compito.",
+      "chatMessage2": "Mi piace! 😊 Finito?"
+    }
+  }
+}

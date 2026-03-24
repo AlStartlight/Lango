@@ -9,40 +9,40 @@
   },
    "seo": {
     "home": {
-      "title": "Lingo - Learn Languages Online with Native Speakers",
-      "description": "Master any language with Lingo. Learn from native speakers with interactive lessons, flexible scheduling, and personalized learning paths. Start free today!"
+      "title": "Lingo - Aprende idiomas en línea con hablantes nativos",
+      "description": "Domina cualquier idioma con Lingo. Aprende de hablantes nativos con lecciones interactivas, horarios flexibles y rutas de aprendizaje personalizadas. ¡Empieza gratis hoy!"
     },
     "about": {
-      "title": "About Us - Lingo Language Learning",
-      "description": "Learn about Lingo's mission to make language learning accessible to everyone. Discover our story, team, and commitment to breaking down language barriers."
+      "title": "Sobre nosotros - Lingo Aprender Idiomas",
+      "description": "Conoce la misión de Lingo de hacer que el aprendizaje de idiomas sea accesible para todos. Descubre nuestra historia, equipo y compromiso con romper barreras lingüísticas."
     },
     "howItWorks": {
-      "title": "How It Works - Lingo Language Learning",
-      "description": "Discover how Lingo connects you with native speakers for personalized language learning. Learn in 3 simple steps: choose a language, match with a teacher, start speaking!"
+      "title": "Cómo funciona - Lingo Aprender Idiomas",
+      "description": "Descubre cómo Lingo te conecta con hablantes nativos para un aprendizaje de idiomas personalizado. Aprende en 3 simples pasos: elige un idioma, encuentra un profesor, ¡empieza a hablar!"
     },
     "languages": {
-      "title": "Explore Languages - Learn Any Language",
-      "description": "Choose from 10+ languages including English, Spanish, French, German, Italian, and more. Learn with certified native speakers."
+      "title": "Explora idiomas - Aprende cualquier idioma",
+      "description": "Elige entre más de 10 idiomas incluyendo inglés, español, francés, alemán, italiano y más. Aprende con hablantes nativos certificados."
     },
     "pricing": {
-      "title": "Pricing - Lingo Language Learning",
-      "description": "View Lingo's transparent pricing plans. Start free or upgrade to Pro for unlimited access. No hidden fees, cancel anytime."
+      "title": "Precios - Lingo Aprender Idiomas",
+      "description": "Consulta los planes de precios transparentes de Lingo. Empieza gratis o actualiza a Pro para acceso ilimitado. Sin tarifas ocultas, cancela en cualquier momento."
     },
     "reviews": {
-      "title": "Reviews - What Our Learners Say",
-      "description": "Read reviews from millions of happy language learners worldwide. See why Lingo is rated 4.9 stars for language learning."
+      "title": "Reseñas - Lo que dicen nuestros estudiantes",
+      "description": "Lee reseñas de millones de estudiantes de idiomas felices en todo el mundo. Descubre por qué Lingo tiene una calificación de 4.9 estrellas en aprendizaje de idiomas."
     },
     "privacy": {
-      "title": "Privacy Policy - Lingo",
-      "description": "Read Lingo's privacy policy to understand how we collect, use, and protect your personal information."
+      "title": "Política de privacidad - Lingo",
+      "description": "Lee la política de privacidad de Lingo para entender cómo recopilamos, usamos y protegemos tu información personal."
     },
     "terms": {
-      "title": "Terms of Service - Lingo",
-      "description": "Read Lingo's terms of service to understand the conditions for using our language learning platform."
+      "title": "Términos de servicio - Lingo",
+      "description": "Lee los términos de servicio de Lingo para entender las condiciones de uso de nuestra plataforma de aprendizaje de idiomas."
     },
     "cookies": {
-      "title": "Cookie Policy - Lingo",
-      "description": "Learn about the cookies we use on Lingo and how you can manage your cookie preferences."
+      "title": "Política de cookies - Lingo",
+      "description": "Aprende sobre las cookies que usamos en Lingo y cómo puedes gestionar tus preferencias de cookies."
     }
   },
   "nav": {
