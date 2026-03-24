@@ -9,6 +9,7 @@ import MapSection from "./components/MapSection";
 import Newsletter from "@/components/organisms/Newsletter";
 import Footer from "@/components/organisms/Footer";
 import { generatePageMetadata, getTranslations, isValidLanguage } from '@/utils/metadata';
+import { BreadcrumbJsonLd } from '@/components/seo/JsonLd';
 
 interface Props {
   params: Promise<{ lang: string }>;
@@ -35,6 +36,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default function AboutUsPage() {
   return (
     <main className="flex min-h-screen flex-col items-center bg-lime-300">
+      <BreadcrumbJsonLd items={[
+        { name: 'Home', url: 'https://lingo.com' },
+        { name: 'About Us', url: 'https://lingo.com/aboutus' },
+      ]} />
       <Header />
       <AboutHero />
       <OurStory />
