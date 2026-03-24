@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { useParams } from 'next/navigation';
+import { revokeConsent } from '@/utils/consent';
 
 const footerLinks = {
   company: 'footer.links.about',
@@ -92,10 +93,19 @@ export default function Footer() {
           ))}
         </div>
 
-        <div className="mt-12 pt-6 border-t border-gray-800/10 text-center">
+        <div className="mt-12 pt-6 border-t border-gray-800/10 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-gray-500">
             {t('footer.copyright')}
           </p>
+          <button
+            onClick={() => {
+              revokeConsent();
+              window.location.reload();
+            }}
+            className="text-sm text-gray-500 hover:text-gray-900 underline transition-colors"
+          >
+            {t('footer.cookieSettings', 'Cookie Settings')}
+          </button>
         </div>
       </div>
     </footer>
