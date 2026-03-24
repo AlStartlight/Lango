@@ -55,7 +55,7 @@ export default function HomeThumbnail() {
             {/* Main Image */}
             <div className="relative rounded-3xl overflow-hidden">
               <Image
-                src="/images/hero.png"
+                src="/images/home/homes.png"
                 alt="Student learning"
                 width={600}
                 height={500}

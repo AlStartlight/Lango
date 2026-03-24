@@ -35,7 +35,7 @@ export default function LearnWithPeople() {
           <AnimatedSection direction="right" delay={0.2}>
             <div className="relative rounded-3xl overflow-hidden">
               <Image
-                src="/images/hero.png"
+                src="/images/home/home2.png"
                 alt="Students learning together"
                 width={600}
                 height={450}
