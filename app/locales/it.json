@@ -218,18 +218,18 @@
       "title": "Viaggio Linguistico",
       "tagline2": "Oggi",
       "description": "Imparare una nuova lingua non è mai stato così facile. La nostra piattaforma ti connette con madrelingua e ti fornisce tutti gli strumenti necessari per avere successo.",
-      "speak": "Speak",
-      "aNew": "A New",
-      "language": "Language",
-      "with": "With",
-      "confidence": "Confidence."
+      "speak": "Parla",
+      "aNew": "Una Nuova",
+      "language": "Lingua",
+      "with": "Con",
+      "confidence": "Sicurezza."
     },
     "languageForAll": {
       "title": "Una Lingua per Tutti",
       "subtitle": "Qualunque sia il tuo motivo per imparare, ti copriamo",
-      "heading": "Language Learning For",
-      "all": "All",
-      "people": "People",
+      "heading": "Apprendimento delle Lingue Per",
+      "all": "Tutti",
+      "people": "le Persone",
       "reasons": {
         "travel": "Viaggio",
         "travelDesc": "Comunica con sicurezza con i locali",
@@ -244,9 +244,9 @@
     "startLearning": {
       "title": "Inizia a Imparare in 3 Semplici Passaggi",
       "subtitle": "È più facile di quanto pensi iniziare il tuo viaggio linguistico",
-      "startLearning": "Start Learning",
-      "languagesFor": "Languages For",
-      "free": "Free",
+      "startLearning": "Inizia a Imparare",
+      "languagesFor": "Lingue Per",
+      "free": "Gratis",
       "step1": {
         "title": "Scegli la Tua Lingua",
         "description": "Seleziona tra più di 10 lingue e imposta i tuoi obiettivi di apprendimento"
@@ -261,23 +261,23 @@
       }
     },
     "heroLearn": {
-      "learnYour": "Learn Your",
-      "favourite": "Favourite",
-      "languages": "Languages"
+      "learnYour": "Impara le Tue",
+      "favourite": "Preferite",
+      "languages": "Lingue"
     },
     "heroSpeakers": {
-      "learnFromTheBest": "Learn From The Best",
-      "native": "Native",
-      "speakers": "Speakers",
-      "speaks": "Speaks",
-      "with": "With"
+      "learnFromTheBest": "Impara dai Migliori",
+      "native": "Madrelingua",
+      "speakers": "Speaker",
+      "speaks": "Parla",
+      "with": "Con"
     },
     "lovedBy": {
       "title": "Amato da Apprendenti in Tutto il Mondo",
       "subtitle": "Unisciti a milioni di felici apprendenti di lingue",
-      "lovedBy": "Loved by",
-      "learners": "learners",
-      "supportedByExperts": "supported by experts",
+      "lovedBy": "Amato da",
+      "learners": "apprendenti",
+      "supportedByExperts": "supportato da esperti",
       "testimonials": {
         "jana": {
           "name": "Jana Root",
@@ -306,11 +306,11 @@
       "subtitle": "Suggerimenti, trucchi e approfondimenti per apprendenti di lingue"
     },
     "ratings": {
-      "highest": "Highest",
-      "rated": "Rated",
-      "platform": "platform",
-      "across": "Across",
-      "theGlobe": "The Globe"
+      "highest": "Più",
+      "rated": "Valutata",
+      "platform": "piattaforma",
+      "across": "in",
+      "theGlobe": " tutto il Mondo"
     }
   },
   "reviews": {

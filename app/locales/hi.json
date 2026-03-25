@@ -218,18 +218,18 @@
       "title": "भाषा यात्रा शुरू करें",
       "tagline2": "आज",
       "description": "नई भाषा सीखना कभी इतना आसान नहीं रहा। हमारा प्लेटफॉर्म आपको मूल वक्ताओं से जोड़ता है और सफल होने के लिए आपको सभी उपकरण प्रदान करता है।",
-      "speak": "Speak",
-      "aNew": "A New",
-      "language": "Language",
-      "with": "With",
-      "confidence": "Confidence."
+      "speak": "बोलें",
+      "aNew": "नई",
+      "language": "भाषा",
+      "with": "के",
+      "confidence": "विश्वास के साथ।"
     },
     "languageForAll": {
       "title": "सभी के लिए एक भाषा",
       "subtitle": "सीखने का आपका कारण जो भी हो, हमने आपको कवर किया है",
-      "heading": "Language Learning For",
-      "all": "All",
-      "people": "People",
+      "heading": "भाषा सीखना",
+      "all": "सभी",
+      "people": "लोगों के लिए",
       "reasons": {
         "travel": "यात्रा",
         "travelDesc": "स्थानीय लोगों के साथ आत्मविश्वास से संवाद करें",
@@ -244,9 +244,9 @@
     "startLearning": {
       "title": "3 सरल चरणों में सीखना शुरू करें",
       "subtitle": "अपनी भाषा यात्रा शुरू करना इतना आसान है जितना आप सोचते हैं",
-      "startLearning": "Start Learning",
-      "languagesFor": "Languages For",
-      "free": "Free",
+      "startLearning": "सीखना शुरू करें",
+      "languagesFor": "भाषाएं",
+      "free": "मुफ्त",
       "step1": {
         "title": "अपनी भाषा चुनें",
         "description": "10+ भाषाओं में से चुनें और अपने सीखने के लक्ष्य निर्धारित करें"
@@ -261,23 +261,23 @@
       }
     },
     "heroLearn": {
-      "learnYour": "Learn Your",
-      "favourite": "Favourite",
-      "languages": "Languages"
+      "learnYour": "अपनी",
+      "favourite": "पसंदीदा",
+      "languages": "भाषाएं सीखें"
     },
     "heroSpeakers": {
-      "learnFromTheBest": "Learn From The Best",
-      "native": "Native",
-      "speakers": "Speakers",
-      "speaks": "Speaks",
-      "with": "With"
+      "learnFromTheBest": "सर्वश्रेष्ठ से सीखें",
+      "native": "मूल",
+      "speakers": "वक्ता",
+      "speaks": "बोलते हैं",
+      "with": "के"
     },
     "lovedBy": {
       "title": "दुनिया भर के सीखने वालों द्वारा प्रिय",
       "subtitle": "लाखों खुश भाषा सीखने वालों में शामिल हों",
-      "lovedBy": "Loved by",
-      "learners": "learners",
-      "supportedByExperts": "supported by experts",
+      "lovedBy": "प्रिय",
+      "learners": "सीखने वाले",
+      "supportedByExperts": "विशेषज्ञों द्वारा समर्थित",
       "testimonials": {
         "jana": {
           "name": "Jana Root",
@@ -306,11 +306,11 @@
       "subtitle": "भाषा सीखने वालों के लिए टिप्स, ट्रिक्स और अंतर्दृष्टि"
     },
     "ratings": {
-      "highest": "Highest",
-      "rated": "Rated",
-      "platform": "platform",
-      "across": "Across",
-      "theGlobe": "The Globe"
+      "highest": "उच्चतम",
+      "rated": "रेटेड",
+      "platform": "प्लेटफॉर्म",
+      "across": "दुनिया भर में",
+      "theGlobe": ""
     }
   },
   "reviews": {

@@ -218,18 +218,18 @@
       "title": "Sprachreise",
       "tagline2": "Heute",
       "description": "Eine neue Sprache zu lernen war noch nie so einfach. Unsere Plattform verbindet Sie mit Muttersprachlern und bietet alle Werkzeuge, die Sie zum Erfolg brauchen.",
-      "speak": "Speak",
-      "aNew": "A New",
-      "language": "Language",
-      "with": "With",
-      "confidence": "Confidence."
+      "speak": "Sprechen Sie",
+      "aNew": "Eine Neue",
+      "language": "Sprache",
+      "with": "Mit",
+      "confidence": "Selbstvertrauen."
     },
     "languageForAll": {
       "title": "Eine Sprache für jeden",
       "subtitle": "Was auch immer Ihr Grund zum Lernen ist, wir haben Sie abgedeckt",
-      "heading": "Language Learning For",
-      "all": "All",
-      "people": "People",
+      "heading": "Sprachlernen Für",
+      "all": "Alle",
+      "people": "Menschen",
       "reasons": {
         "travel": "Reisen",
         "travelDesc": "Kommunizieren Sie selbstbewusst mit Einheimischen",
@@ -244,9 +244,9 @@
     "startLearning": {
       "title": "Beginnen Sie in 3 einfachen Schritten zu lernen",
       "subtitle": "Es ist einfacher als Sie denken, Ihre Sprachreise zu beginnen",
-      "startLearning": "Start Learning",
-      "languagesFor": "Languages For",
-      "free": "Free",
+      "startLearning": "Jetzt Lernen",
+      "languagesFor": "Sprachen Für",
+      "free": "Kostenlos",
       "step1": {
         "title": "Wählen Sie Ihre Sprache",
         "description": "Wählen Sie aus über 10 Sprachen und setzen Sie Ihre Lernziele"
@@ -261,23 +261,23 @@
       }
     },
     "heroLearn": {
-      "learnYour": "Learn Your",
-      "favourite": "Favourite",
-      "languages": "Languages"
+      "learnYour": "Lernen Sie Ihre",
+      "favourite": "Lieblings-",
+      "languages": "Sprachen"
     },
     "heroSpeakers": {
-      "learnFromTheBest": "Learn From The Best",
-      "native": "Native",
-      "speakers": "Speakers",
-      "speaks": "Speaks",
-      "with": "With"
+      "learnFromTheBest": "Lernen Sie von den Besten",
+      "native": "Muttersprachler",
+      "speakers": "Sprecher",
+      "speaks": "Spricht",
+      "with": "Mit"
     },
     "lovedBy": {
       "title": "Geliebt von Lernenden weltweit",
       "subtitle": "Schließen Sie sich Millionen glücklicher Sprachlerner an",
-      "lovedBy": "Loved by",
-      "learners": "learners",
-      "supportedByExperts": "supported by experts",
+      "lovedBy": "Geliebt von",
+      "learners": "Lernenden",
+      "supportedByExperts": "unterstützt von Experten",
       "testimonials": {
         "jana": {
           "name": "Jana Root",
@@ -306,11 +306,11 @@
       "subtitle": "Tipps, Tricks und Einblicke für Sprachlerner"
     },
     "ratings": {
-      "highest": "Highest",
-      "rated": "Rated",
-      "platform": "platform",
-      "across": "Across",
-      "theGlobe": "The Globe"
+      "highest": "Höchst",
+      "rated": "Bewertet",
+      "platform": "Plattform",
+      "across": "Weltweit",
+      "theGlobe": ""
     }
   },
   "reviews": {

@@ -218,18 +218,18 @@
       "title": "رحلة اللغة",
       "tagline2": "اليوم",
       "description": "لم يكن تعلم لغة جديدة أسهل من أي وقت مضى. منصتنا تربطك مع متحدثين أصليين وتوفر لك جميع الأدوات التي تحتاجها للنجاح.",
-      "speak": "Speak",
-      "aNew": "A New",
-      "language": "Language",
-      "with": "With",
-      "confidence": "Confidence."
+      "speak": "تحدث",
+      "aNew": "لغة جديدة",
+      "language": "بلغة",
+      "with": "مع",
+      "confidence": "ثقة."
     },
     "languageForAll": {
       "title": "لغة للجميع",
       "subtitle": "أياً كان سبب تعلمك، نحن نوفر لك كل ما تحتاجه",
-      "heading": "Language Learning For",
-      "all": "All",
-      "people": "People",
+      "heading": "تعلم اللغات لـ",
+      "all": "الجميع",
+      "people": "الناس",
       "reasons": {
         "travel": "السفر",
         "travelDesc": "تواصل بثقة مع السكان المحليين",
@@ -244,9 +244,9 @@
     "startLearning": {
       "title": "ابدأ التعلم في 3 خطوات بسيطة",
       "subtitle": "أسهل مما تتخيل لبدء رحلة لغتك",
-      "startLearning": "Start Learning",
-      "languagesFor": "Languages For",
-      "free": "Free",
+      "startLearning": "ابدأ التعلم",
+      "languagesFor": "لغات لـ",
+      "free": "مجاني",
       "step1": {
         "title": "اختر لغتك",
         "description": "اختر من بين أكثر من 10 لغات وحدد أهداف تعلمك"
@@ -261,23 +261,23 @@
       }
     },
     "heroLearn": {
-      "learnYour": "Learn Your",
-      "favourite": "Favourite",
-      "languages": "Languages"
+      "learnYour": "تعلم",
+      "favourite": "المفضلة",
+      "languages": "اللغات"
     },
     "heroSpeakers": {
-      "learnFromTheBest": "Learn From The Best",
-      "native": "Native",
-      "speakers": "Speakers",
-      "speaks": "Speaks",
-      "with": "With"
+      "learnFromTheBest": "تعلم من الأفضل",
+      "native": "الأصليين",
+      "speakers": "المتحدثين",
+      "speaks": "يتحدث",
+      "with": "مع"
     },
     "lovedBy": {
       "title": "محبوب من المتعلمين حول العالم",
       "subtitle": "انضم إلى ملايين متعلمي اللغات السعداء",
-      "lovedBy": "Loved by",
-      "learners": "learners",
-      "supportedByExperts": "supported by experts",
+      "lovedBy": "محبوب من",
+      "learners": "المتعلمين",
+      "supportedByExperts": "مدعوم من خبراء",
       "testimonials": {
         "jana": {
           "name": "Jana Root",
@@ -306,11 +306,11 @@
       "subtitle": "نصائح وحيل ورؤى لمتعلمي اللغات"
     },
     "ratings": {
-      "highest": "Highest",
-      "rated": "Rated",
-      "platform": "platform",
-      "across": "Across",
-      "theGlobe": "The Globe"
+      "highest": "الأعلى",
+      "rated": "تقييماً",
+      "platform": "منصة",
+      "across": "في",
+      "theGlobe": "العالم"
     }
   },
   "reviews": {

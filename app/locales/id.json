@@ -218,18 +218,18 @@
       "title": "Perjalanan Bahasa",
       "tagline2": "Hari Ini",
       "description": "Mempelajari bahasa baru tidak pernah semudah ini. Platform kami menghubungkan Anda dengan penutur asli dan menyediakan semua alat yang Anda butuhkan untuk sukses.",
-      "speak": "Speak",
-      "aNew": "A New",
-      "language": "Language",
-      "with": "With",
-      "confidence": "Confidence."
+      "speak": "Bicara",
+      "aNew": "Bahasa Baru",
+      "language": "Bahasa",
+      "with": "Dengan",
+      "confidence": "Percaya Diri."
     },
     "languageForAll": {
       "title": "Bahasa untuk Semua Orang",
       "subtitle": "Apa pun alasan Anda untuk belajar, kami siap membantu",
-      "heading": "Language Learning For",
-      "all": "All",
-      "people": "People",
+      "heading": "Pembelajaran Bahasa Untuk",
+      "all": "Semua",
+      "people": "Orang",
       "reasons": {
         "travel": "Perjalanan",
         "travelDesc": "Berkomunikasi percaya diri dengan penduduk lokal",
@@ -244,9 +244,9 @@
     "startLearning": {
       "title": "Mulai Belajar dalam 3 Langkah Sederhana",
       "subtitle": "Lebih mudah dari yang Anda kira untuk memulai perjalanan bahasa",
-      "startLearning": "Start Learning",
-      "languagesFor": "Languages For",
-      "free": "Free",
+      "startLearning": "Mulai Belajar",
+      "languagesFor": "Bahasa Untuk",
+      "free": "Gratis",
       "step1": {
         "title": "Pilih Bahasa Anda",
         "description": "Pilih dari 10+ bahasa dan tetapkan tujuan pembelajaran Anda"
@@ -261,23 +261,23 @@
       }
     },
     "heroLearn": {
-      "learnYour": "Learn Your",
-      "favourite": "Favourite",
-      "languages": "Languages"
+      "learnYour": "Pelajari",
+      "favourite": "Favorit",
+      "languages": "Bahasa"
     },
     "heroSpeakers": {
-      "learnFromTheBest": "Learn From The Best",
-      "native": "Native",
-      "speakers": "Speakers",
-      "speaks": "Speaks",
-      "with": "With"
+      "learnFromTheBest": "Belajar dari yang Terbaik",
+      "native": "Asli",
+      "speakers": "Penutur",
+      "speaks": "Berbicara",
+      "with": "Dengan"
     },
     "lovedBy": {
       "title": "Dicintai oleh Pembelajar di Seluruh Dunia",
       "subtitle": "Bergabunglah dengan jutaan pembelajar bahasa bahagia",
-      "lovedBy": "Loved by",
-      "learners": "learners",
-      "supportedByExperts": "supported by experts",
+      "lovedBy": "Dicintai oleh",
+      "learners": "pembelajar",
+      "supportedByExperts": "didukung oleh ahli",
       "testimonials": {
         "jana": {
           "name": "Jana Root",
@@ -306,11 +306,11 @@
       "subtitle": "Tips, trik, dan wawasan untuk pembelajar bahasa"
     },
     "ratings": {
-      "highest": "Highest",
-      "rated": "Rated",
+      "highest": "Tertinggi",
+      "rated": "Dinilai",
       "platform": "platform",
-      "across": "Across",
-      "theGlobe": "The Globe"
+      "across": "di",
+      "theGlobe": "Seluruh Dunia"
     }
   },
   "reviews": {

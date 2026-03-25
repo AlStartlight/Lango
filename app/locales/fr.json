@@ -218,18 +218,18 @@
       "title": "Voyage Linguistique",
       "tagline2": "Aujourd'hui",
       "description": "Apprendre une nouvelle langue n'a jamais été aussi facile. Notre plateforme vous connecte avec des locuteurs natifs et vous fournit tous les outils dont vous avez besoin pour réussir.",
-      "speak": "Speak",
-      "aNew": "A New",
-      "language": "Language",
-      "with": "With",
-      "confidence": "Confidence."
+      "speak": "Parlez",
+      "aNew": "Une Nouvelle",
+      "language": "Langue",
+      "with": "Avec",
+      "confidence": "Confiance."
     },
     "languageForAll": {
       "title": "Une Langue pour Tous",
       "subtitle": "Quelle que soit votre raison d'apprendre, nous vous couvrons",
-      "heading": "Language Learning For",
-      "all": "All",
-      "people": "People",
+      "heading": "Apprentissage des Langues Pour",
+      "all": "Tous",
+      "people": "les Personnes",
       "reasons": {
         "travel": "Voyage",
         "travelDesc": "Communiquez en toute confiance avec les locaux",
@@ -244,9 +244,9 @@
     "startLearning": {
       "title": "Commencez à Apprendre en 3 Étapes Simples",
       "subtitle": "C'est plus facile que vous ne le pensez pour commencer votre voyage linguistique",
-      "startLearning": "Start Learning",
-      "languagesFor": "Languages For",
-      "free": "Free",
+      "startLearning": "Commencer à Apprendre",
+      "languagesFor": "Langues Pour",
+      "free": "Gratuit",
       "step1": {
         "title": "Choisissez Votre Langue",
         "description": "Sélectionnez parmi plus de 10 langues et définissez vos objectifs d'apprentissage"
@@ -261,23 +261,23 @@
       }
     },
     "heroLearn": {
-      "learnYour": "Learn Your",
-      "favourite": "Favourite",
-      "languages": "Languages"
+      "learnYour": "Apprenez Votre",
+      "favourite": "Favorite",
+      "languages": "Langues"
     },
     "heroSpeakers": {
-      "learnFromTheBest": "Learn From The Best",
-      "native": "Native",
-      "speakers": "Speakers",
-      "speaks": "Speaks",
-      "with": "With"
+      "learnFromTheBest": "Apprenez des Meilleurs",
+      "native": "Natifs",
+      "speakers": "Locuteurs",
+      "speaks": "Parle",
+      "with": "Avec"
     },
     "lovedBy": {
       "title": "Apprécié par des Apprenants dans le Monde Entier",
       "subtitle": "Rejoignez des millions d'apprenants de langues heureux",
-      "lovedBy": "Loved by",
-      "learners": "learners",
-      "supportedByExperts": "supported by experts",
+      "lovedBy": "Apprécié par",
+      "learners": "apprenants",
+      "supportedByExperts": "soutenu par des experts",
       "testimonials": {
         "jana": {
           "name": "Jana Root",
@@ -306,11 +306,11 @@
       "subtitle": "Conseils, astuces et réflexions pour les apprenants de langues"
     },
     "ratings": {
-      "highest": "Highest",
-      "rated": "Rated",
-      "platform": "platform",
-      "across": "Across",
-      "theGlobe": "The Globe"
+      "highest": "La Plus",
+      "rated": "Notée",
+      "platform": "Plateforme",
+      "across": "dans le",
+      "theGlobe": "Monde"
     }
   },
   "reviews": {

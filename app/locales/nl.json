@@ -218,18 +218,18 @@
       "title": "Taalreis",
       "tagline2": "Vandaag",
       "description": "Een nieuwe taal leren was nog nooit zo gemakkelijk. Ons platform verbindt je met moedertaalsprekers en biedt alle tools die je nodig hebt om te slagen.",
-      "speak": "Speak",
-      "aNew": "A New",
-      "language": "Language",
-      "with": "With",
-      "confidence": "Confidence."
+      "speak": "Spreek",
+      "aNew": "Een Nieuwe",
+      "language": "Taal",
+      "with": "Met",
+      "confidence": "Zelfvertrouwen."
     },
     "languageForAll": {
       "title": "Een Taal voor Iedereen",
       "subtitle": "Wat je reden om te leren ook is, wij hebben je gedekt",
-      "heading": "Language Learning For",
-      "all": "All",
-      "people": "People",
+      "heading": "Taalleren Voor",
+      "all": "Iedereen",
+      "people": "Mensen",
       "reasons": {
         "travel": "Reizen",
         "travelDesc": "Communiceer met vertrouwen met locals",
@@ -244,9 +244,9 @@
     "startLearning": {
       "title": "Begin met Leren in 3 Simpele Stappen",
       "subtitle": "Het is gemakkelijker dan je denkt om je taalreis te beginnen",
-      "startLearning": "Start Learning",
-      "languagesFor": "Languages For",
-      "free": "Free",
+      "startLearning": "Begin met Leren",
+      "languagesFor": "Talen Voor",
+      "free": "Gratis",
       "step1": {
         "title": "Kies Je Taal",
         "description": "Selecteer uit meer dan 10 talen en stel je leendoelen in"
@@ -261,23 +261,23 @@
       }
     },
     "heroLearn": {
-      "learnYour": "Learn Your",
-      "favourite": "Favourite",
-      "languages": "Languages"
+      "learnYour": "Leer Je",
+      "favourite": "Favoriete",
+      "languages": "Talen"
     },
     "heroSpeakers": {
-      "learnFromTheBest": "Learn From The Best",
-      "native": "Native",
-      "speakers": "Speakers",
-      "speaks": "Speaks",
-      "with": "With"
+      "learnFromTheBest": "Leer van de Beste",
+      "native": "Moedertaal",
+      "sprekers": "Sprekers",
+      "speaks": "Spreekt",
+      "with": "Met"
     },
     "lovedBy": {
       "title": "Geliefd door Leerlingen Wereldwijd",
       "subtitle": "Sluit je aan bij miljoenen blije taalleerlingen",
-      "lovedBy": "Loved by",
-      "learners": "learners",
-      "supportedByExperts": "supported by experts",
+      "lovedBy": "Geliefd door",
+      "learners": "leerlingen",
+      "supportedByExperts": "ondersteund door experts",
       "testimonials": {
         "jana": {
           "name": "Jana Root",
@@ -306,11 +306,11 @@
       "subtitle": "Tips, trucs en inzichten voor taalleerlingen"
     },
     "ratings": {
-      "highest": "Highest",
-      "rated": "Rated",
+      "highest": "Hoogst",
+      "rated": "Beoordeeld",
       "platform": "platform",
-      "across": "Across",
-      "theGlobe": "The Globe"
+      "across": "wereldwijd",
+      "theGlobe": ""
     }
   },
   "reviews": {
