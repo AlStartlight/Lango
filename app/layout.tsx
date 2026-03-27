@@ -17,12 +17,12 @@ const geistMono = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://lingo.com'),
+  metadataBase: new URL('https://lango.com'),
   title: {
-    template: '%s | Lingo',
-    default: 'Lingo - Learn Languages Online with Native Speakers',
+    template: '%s | Lango',
+    default: 'Lango - Learn Languages Online with Native Speakers',
   },
-  description: 'Master any language with Lingo. Learn from native speakers with interactive lessons, flexible scheduling, and personalized learning paths.',
+  description: 'Master any language with Lango. Learn from native speakers with interactive lessons, flexible scheduling, and personalized learning paths.',
   icons: {
     icon: '/favicon.ico',
     apple: '/apple-touch-icon.png',

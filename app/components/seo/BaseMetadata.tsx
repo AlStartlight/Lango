@@ -26,7 +26,7 @@ export function generateMetadata({
   authors,
   tags,
 }: BaseMetadataProps): Metadata {
-  const baseUrl = 'https://lingo.com';
+  const baseUrl = 'https://lango.com';
   const url = `${baseUrl}/${locale}${path}`;
   const imageUrl = image.startsWith('http') ? image : `${baseUrl}${image}`;
 
@@ -64,7 +64,7 @@ export function generateMetadata({
       title,
       description,
       url,
-      siteName: 'Lingo',
+      siteName: 'Lango',
       locale: localeMap[locale] || 'en_US',
       type,
       publishedTime,
@@ -85,8 +85,8 @@ export function generateMetadata({
       title,
       description,
       images: [imageUrl],
-      site: '@lingoapp',
-      creator: '@lingoapp',
+      site: '@langoapp',
+      creator: '@langoapp',
     },
     robots: {
       index: true,

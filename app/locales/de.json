@@ -1,6 +1,6 @@
 {
   "common": {
-    "logoAlt": "Lingo Logo",
+    "logoAlt": "Lango Logo",
     "loading": "Laden...",
     "error": "Ein Fehler ist aufgetreten",
     "readMore": "Mehr lesen",
@@ -9,40 +9,40 @@
   },
    "seo": {
     "home": {
-      "title": "Lingo - Lerne Sprachen online mit Muttersprachlern",
-      "description": "Beherrsche jede Sprache mit Lingo. Lerne von Muttersprachlern mit interaktiven Lektionen, flexibler Terminplanung und personalisierten Lernpfaden. Starte heute kostenlos!"
+      "title": "Lango - Lerne Sprachen online mit Muttersprachlern",
+      "description": "Beherrsche jede Sprache mit Lango. Lerne von Muttersprachlern mit interaktiven Lektionen, flexibler Terminplanung und personalisierten Lernpfaden. Starte heute kostenlos!"
     },
     "about": {
-      "title": "Über uns - Lingo Sprachlernen",
-      "description": "Erfahren Sie mehr über Lingos Mission, das Sprachenlernen für alle zugänglich zu machen. Entdecken Sie unsere Geschichte, unser Team und unser Engagement für den Abbau von Sprachbarrieren."
+      "title": "Über uns - Lango Sprachlernen",
+      "description": "Erfahren Sie mehr über Langos Mission, das Sprachenlernen für alle zugänglich zu machen. Entdecken Sie unsere Geschichte, unser Team und unser Engagement für den Abbau von Sprachbarrieren."
     },
     "howItWorks": {
-      "title": "So funktioniert es - Lingo Sprachlernen",
-      "description": "Entdecke, wie Lingo dich mit Muttersprachlern für personalisiertes Sprachenlernen verbindet. Lerne in 3 einfachen Schritten: Sprache wählen, Lehrer finden, anfangen zu sprechen!"
+      "title": "So funktioniert es - Lango Sprachlernen",
+      "description": "Entdecke, wie Lango dich mit Muttersprachlern für personalisiertes Sprachenlernen verbindet. Lerne in 3 einfachen Schritten: Sprache wählen, Lehrer finden, anfangen zu sprechen!"
     },
     "languages": {
       "title": "Sprachen entdecken - Lerne jede Sprache",
       "description": "Wähle aus über 10 Sprachen wie Englisch, Spanisch, Französisch, Deutsch, Italienisch und mehr. Lerne mit zertifizierten Muttersprachlern."
     },
     "pricing": {
-      "title": "Preise - Lingo Sprachlernen",
-      "description": "Sieh dir Lingos transparente Preismodelle an. Starte kostenlos oder upgrade auf Pro für unbegrenzten Zugang. Keine versteckten Gebühren, jederzeit kündbar."
+      "title": "Preise - Lango Sprachlernen",
+      "description": "Sieh dir Langos transparente Preismodelle an. Starte kostenlos oder upgrade auf Pro für unbegrenzten Zugang. Keine versteckten Gebühren, jederzeit kündbar."
     },
     "reviews": {
       "title": "Bewertungen - Was unsere Lernenden sagen",
-      "description": "Lies Bewertungen von Millionen glücklicher Sprachlernender weltweit. Erfahre, warum Lingo 4,9 Sterne für das Sprachenlernen erhalten hat."
+      "description": "Lies Bewertungen von Millionen glücklicher Sprachlernender weltweit. Erfahre, warum Lango 4,9 Sterne für das Sprachenlernen erhalten hat."
     },
     "privacy": {
-      "title": "Datenschutzrichtlinie - Lingo",
-      "description": "Lies Lingos Datenschutzrichtlinie, um zu verstehen, wie wir deine persönlichen Daten sammeln, verwenden und schützen."
+      "title": "Datenschutzrichtlinie - Lango",
+      "description": "Lies Langos Datenschutzrichtlinie, um zu verstehen, wie wir deine persönlichen Daten sammeln, verwenden und schützen."
     },
     "terms": {
-      "title": "Nutzungsbedingungen - Lingo",
-      "description": "Lies Lingos Nutzungsbedingungen, um die Bedingungen für die Nutzung unserer Sprachlernplattform zu verstehen."
+      "title": "Nutzungsbedingungen - Lango",
+      "description": "Lies Langos Nutzungsbedingungen, um die Bedingungen für die Nutzung unserer Sprachlernplattform zu verstehen."
     },
     "cookies": {
-      "title": "Cookie-Richtlinie - Lingo",
-      "description": "Erfahre, welche Cookies wir auf Lingo verwenden und wie du deine Cookie-Einstellungen verwalten kannst."
+      "title": "Cookie-Richtlinie - Lango",
+      "description": "Erfahre, welche Cookies wir auf Lango verwenden und wie du deine Cookie-Einstellungen verwalten kannst."
     }
   },
   "nav": {
@@ -60,20 +60,20 @@
     "startLearning": "Lernen beginnen"
   },
   "footer": {
-    "company": "Lingo",
+    "company": "Lango",
     "products": "Produkte",
     "support": "Support",
-    "copyright": "© Urheberrecht LINGO 2024. Alle Rechte vorbehalten.",
+    "copyright": "© Urheberrecht LANGO 2024. Alle Rechte vorbehalten.",
     "description": "Sprachen zu lernen muss nicht kompliziert sein. Unsere Mission ist es, Sprachenlernen für alle zugänglich zu machen.",
     "links": {
       "about": "Über uns",
       "careers": "Karriere",
       "blog": "Markenblog",
       "press": "Presse",
-      "lingo": "Lingo",
-      "business": "Lingo für Unternehmen",
-      "app": "Lingo App",
-      "ar": "Lingo AR",
+      "lango": "Lango",
+      "business": "Lango für Unternehmen",
+      "app": "Lango App",
+      "ar": "Lango AR",
       "contact": "Kontakt",
       "privacy": "Datenschutz",
       "terms": "AGB",
@@ -135,7 +135,7 @@
     "story": {
       "title": "Unsere Geschichte",
       "subtitle": "Brücken Durch Sprache Bauen",
-      "description": "Lingo wurde 2020 mit einer einfachen, aber kraftvollen Vision gegründet: Sprachenlernen für jeden, überall, zugänglich zu machen. Was als kleines Team leidenschaftlicher Linguisten begann, ist zu einer globalen Gemeinschaft von Lernenden und Muttersprachlern gewachsen, die sich der Beseitigung von Sprachbarrieren widmen.",
+      "description": "Lango wurde 2020 mit einer einfachen, aber kraftvollen Vision gegründet: Sprachenlernen für jeden, überall, zugänglich zu machen. Was als kleines Team leidenschaftlicher Linguisten begann, ist zu einer globalen Gemeinschaft von Lernenden und Muttersprachlern gewachsen, die sich der Beseitigung von Sprachbarrieren widmen.",
       "missionTitle": "Unsere Mission",
       "missionText": "Wir glauben, dass Sprache niemals eine Barriere für Verbindung, Chancen oder Verständnis sein sollte. Durch innovative Technologie und menschenzentrierten Unterricht sind wir auf einer Mission, Millionen von Menschen zu helfen, über Kulturen und Grenzen hinweg zu kommunizieren."
     },

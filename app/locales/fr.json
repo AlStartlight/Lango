@@ -1,6 +1,6 @@
 {
   "common": {
-    "logoAlt": "Logo Lingo",
+    "logoAlt": "Logo Lango",
     "loading": "Chargement...",
     "error": "Une erreur s'est produite",
     "readMore": "Lire la suite",
@@ -9,40 +9,40 @@
   },
    "seo": {
     "home": {
-      "title": "Lingo - Apprenez les langues en ligne avec des natifs",
-      "description": "Maîtrisez n'importe quelle langue avec Lingo. Apprenez avec des locuteurs natifs grâce à des leçons interactives, des horaires flexibles et des parcours d'apprentissage personnalisés. Commencez gratuitement dès aujourd'hui !"
+      "title": "Lango - Apprenez les langues en ligne avec des natifs",
+      "description": "Maîtrisez n'importe quelle langue avec Lango. Apprenez avec des locuteurs natifs grâce à des leçons interactives, des horaires flexibles et des parcours d'apprentissage personnalisés. Commencez gratuitement dès aujourd'hui !"
     },
     "about": {
-      "title": "À propos de nous - Lingo Apprentissage des langues",
-      "description": "Découvrez la mission de Lingo de rendre l'apprentissage des langues accessible à tous. Explorez notre histoire, notre équipe et notre engagement à briser les barrières linguistiques."
+      "title": "À propos de nous - Lango Apprentissage des langues",
+      "description": "Découvrez la mission de Lango de rendre l'apprentissage des langues accessible à tous. Explorez notre histoire, notre équipe et notre engagement à briser les barrières linguistiques."
     },
     "howItWorks": {
-      "title": "Comment ça fonctionne - Lingo Apprentissage des langues",
-      "description": "Découvrez comment Lingo vous connecte avec des locuteurs natifs pour un apprentissage personnalisé des langues. Apprenez en 3 étapes simples : choisissez une langue, trouvez un professeur, commencez à parler !"
+      "title": "Comment ça fonctionne - Lango Apprentissage des langues",
+      "description": "Découvrez comment Lango vous connecte avec des locuteurs natifs pour un apprentissage personnalisé des langues. Apprenez en 3 étapes simples : choisissez une langue, trouvez un professeur, commencez à parler !"
     },
     "languages": {
       "title": "Explorez les langues - Apprenez n'importe quelle langue",
       "description": "Choisissez parmi plus de 10 langues dont l'anglais, l'espagnol, le français, l'allemand, l'italien et bien d'autres. Apprenez avec des locuteurs natifs certifiés."
     },
     "pricing": {
-      "title": "Tarifs - Lingo Apprentissage des langues",
-      "description": "Consultez les plans tarifaires transparents de Lingo. Commencez gratuitement ou passez à Pro pour un accès illimité. Sans frais cachés, résiliez à tout moment."
+      "title": "Tarifs - Lango Apprentissage des langues",
+      "description": "Consultez les plans tarifaires transparents de Lango. Commencez gratuitement ou passez à Pro pour un accès illimité. Sans frais cachés, résiliez à tout moment."
     },
     "reviews": {
       "title": "Avis - Ce que disent nos apprenants",
-      "description": "Lisez les avis de millions d'apprenants de langues heureux dans le monde entier. Découvrez pourquoi Lingo est noté 4,9 étoiles pour l'apprentissage des langues."
+      "description": "Lisez les avis de millions d'apprenants de langues heureux dans le monde entier. Découvrez pourquoi Lango est noté 4,9 étoiles pour l'apprentissage des langues."
     },
     "privacy": {
-      "title": "Politique de confidentialité - Lingo",
-      "description": "Lisez la politique de confidentialité de Lingo pour comprendre comment nous collectons, utilisons et protégeons vos informations personnelles."
+      "title": "Politique de confidentialité - Lango",
+      "description": "Lisez la politique de confidentialité de Lango pour comprendre comment nous collectons, utilisons et protégeons vos informations personnelles."
     },
     "terms": {
-      "title": "Conditions d'utilisation - Lingo",
-      "description": "Lisez les conditions d'utilisation de Lingo pour comprendre les conditions d'utilisation de notre plateforme d'apprentissage des langues."
+      "title": "Conditions d'utilisation - Lango",
+      "description": "Lisez les conditions d'utilisation de Lango pour comprendre les conditions d'utilisation de notre plateforme d'apprentissage des langues."
     },
     "cookies": {
-      "title": "Politique de cookies - Lingo",
-      "description": "Découvrez les cookies que nous utilisons sur Lingo et comment vous pouvez gérer vos préférences en matière de cookies."
+      "title": "Politique de cookies - Lango",
+      "description": "Découvrez les cookies que nous utilisons sur Lango et comment vous pouvez gérer vos préférences en matière de cookies."
     }
   },
   "nav": {
@@ -60,20 +60,20 @@
     "startLearning": "Commencer à apprendre"
   },
   "footer": {
-    "company": "Lingo",
+    "company": "Lango",
     "products": "Produits",
     "support": "Support",
-    "copyright": "© droits d'auteur LINGO 2024. Tous droits réservés.",
+    "copyright": "© droits d'auteur LANGO 2024. Tous droits réservés.",
     "description": "Apprendre les langues n'a pas besoin d'être compliqué. Notre mission est de rendre l'apprentissage des langues accessible à tous.",
     "links": {
       "about": "À propos",
       "careers": "Carrières",
       "blog": "Blog de marque",
       "press": "Presse",
-      "lingo": "Lingo",
-      "business": "Lingo pour les entreprises",
-      "app": "Application Lingo",
-      "ar": "Lingo AR",
+      "lango": "Lango",
+      "business": "Lango pour les entreprises",
+      "app": "Application Lango",
+      "ar": "Lango AR",
       "contact": "Contact",
       "privacy": "Confidentialité",
       "terms": "Conditions",
@@ -135,7 +135,7 @@
     "story": {
       "title": "Notre Histoire",
       "subtitle": "Construire des Ponts par le Langage",
-      "description": "Lingo a été fondé en 2020 avec une vision simple mais puissante : rendre l'apprentissage des langues accessible à tous, partout. Ce qui a commencé comme une petite équipe de linguistes passionnés s'est développé en une communauté mondiale d'apprenants et de locuteurs natifs dédiés à briser les barrières linguistiques.",
+      "description": "Lango a été fondé en 2020 avec une vision simple mais puissante : rendre l'apprentissage des langues accessible à tous, partout. Ce qui a commencé comme une petite équipe de linguistes passionnés s'est développé en une communauté mondiale d'apprenants et de locuteurs natifs dédiés à briser les barrières linguistiques.",
       "missionTitle": "Notre Mission",
       "missionText": "Nous croyons que la langue ne devrait jamais être un obstacle à la connexion, aux opportunités ou à la compréhension. Par la technologie innovante et l'enseignement centré sur l'humain, nous sommes en mission pour aider des millions de personnes à communiquer à travers les cultures et les frontières."
     },

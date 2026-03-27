@@ -18,7 +18,7 @@ export default function ShareButtons({
   const { t } = useTranslation();
 
   const shareUrl = typeof window !== 'undefined' ? (url || window.location.href) : url || '';
-  const shareTitle = title || 'Lingo - Learn Languages Online';
+  const shareTitle = title || 'Lango - Learn Languages Online';
   const shareDescription = description || 'Master any language with native speakers. Interactive lessons, flexible scheduling, and personalized learning paths.';
 
   const shareLinks = {

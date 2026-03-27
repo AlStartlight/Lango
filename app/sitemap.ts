@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 import { languages } from './i18n-config';
 
-const baseUrl = 'https://lingo.com';
+const baseUrl = 'https://lango.com';
 
 const staticPages = [
   { url: '', priority: 1.0, changefreq: 'daily' as const },

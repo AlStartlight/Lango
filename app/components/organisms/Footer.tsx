@@ -18,14 +18,14 @@ function getLocalizedPath(path: string, locale: string): string {
 }
 
 const footerItems = {
-  Lingo: [
+  Lango: [
     { label: 'footer.links.about', href: '/aboutus' },
     { label: 'footer.links.careers', href: '/careers' },
     { label: 'footer.links.blog', href: '/blog' },
     { label: 'footer.links.press', href: '/press' },
   ],
   Products: [
-    { label: 'footer.links.lingo', href: '/' },
+    { label: 'footer.links.lango', href: '/' },
     { label: 'footer.links.business', href: '/business' },
     { label: 'footer.links.app', href: '/app' },
     { label: 'footer.links.ar', href: '/ar' },

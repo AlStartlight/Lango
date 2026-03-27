@@ -35,13 +35,13 @@ export default function LanguagesPage() {
   return (
     <main className="flex min-h-screen flex-col items-center bg-lime-300">
       <BreadcrumbJsonLd items={[
-        { name: 'Home', url: 'https://lingo.com' },
-        { name: 'Languages', url: 'https://lingo.com/languages' },
+        { name: 'Home', url: 'https://lango.com' },
+        { name: 'Languages', url: 'https://lango.com/languages' },
       ]} />
       <CourseJsonLd
-        name="Lingo Language Courses"
+        name="Lango Language Courses"
         description="Learn any of 10+ languages with native speakers. Interactive lessons, flexible scheduling, and personalized learning paths."
-        url="https://lingo.com/languages"
+        url="https://lango.com/languages"
         image="/images/languages-hero.jpg"
         offers={{
           price: "0",

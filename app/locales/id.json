@@ -1,6 +1,6 @@
 {
   "common": {
-    "logoAlt": "Logo Lingo",
+    "logoAlt": "Logo Lango",
     "loading": "Memuat...",
     "error": "Terjadi kesalahan",
     "readMore": "Baca selengkapnya",
@@ -9,40 +9,40 @@
   },
    "seo": {
     "home": {
-      "title": "Lingo - Belajar bahasa online dengan penutur asli",
-      "description": "Kuasai bahasa apa pun dengan Lingo. Belajar dari penutur asli dengan pelajaran interaktif, jadwal fleksibel, dan jalur pembelajaran yang dipersonalisasi. Mulai gratis hari ini!"
+      "title": "Lango - Belajar bahasa online dengan penutur asli",
+      "description": "Kuasai bahasa apa pun dengan Lango. Belajar dari penutur asli dengan pelajaran interaktif, jadwal fleksibel, dan jalur pembelajaran yang dipersonalisasi. Mulai gratis hari ini!"
     },
     "about": {
-      "title": "Tentang kami - Lingo Pembelajaran Bahasa",
-      "description": "Pelajari misi Lingo untuk membuat pembelajaran bahasa dapat diakses oleh semua orang. Temukan cerita kami, tim, dan komitmen kami untuk menghambat hambatan bahasa."
+      "title": "Tentang kami - Lango Pembelajaran Bahasa",
+      "description": "Pelajari misi Lango untuk membuat pembelajaran bahasa dapat diakses oleh semua orang. Temukan cerita kami, tim, dan komitmen kami untuk menghambat hambatan bahasa."
     },
     "howItWorks": {
-      "title": "Cara kerja - Lingo Pembelajaran Bahasa",
-      "description": "Temukan bagaimana Lingo menghubungkan Anda dengan penutur asli untuk pembelajaran bahasa yang dipersonalisasi. Belajar dalam 3 langkah sederhana: pilih bahasa, temukan guru, mulai bicara!"
+      "title": "Cara kerja - Lango Pembelajaran Bahasa",
+      "description": "Temukan bagaimana Lango menghubungkan Anda dengan penutur asli untuk pembelajaran bahasa yang dipersonalisasi. Belajar dalam 3 langkah sederhana: pilih bahasa, temukan guru, mulai bicara!"
     },
     "languages": {
       "title": "Jelajahi bahasa - Belajar bahasa apa pun",
       "description": "Pilih dari lebih dari 10 bahasa termasuk Inggris, Spanyol, Prancis, Jerman, Italia, dan lainnya. Belajar dengan penutur asli bersertifikat."
     },
     "pricing": {
-      "title": "Harga - Lingo Pembelajaran Bahasa",
-      "description": "Lihat rencana harga transparan Lingo. Mulai gratis atau upgrade ke Pro untuk akses tanpa batas. Tanpa biaya tersembunyi, batalkan kapan saja."
+      "title": "Harga - Lango Pembelajaran Bahasa",
+      "description": "Lihat rencana harga transparan Lango. Mulai gratis atau upgrade ke Pro untuk akses tanpa batas. Tanpa biaya tersembunyi, batalkan kapan saja."
     },
     "reviews": {
       "title": "Ulasan - Apa kata pelajar kami",
-      "description": "Baca ulasan dari jutaan pelajar bahasa yang bahagia di seluruh dunia. Lihat mengapa Lingo memiliki peringkat 4,9 bintang untuk pembelajaran bahasa."
+      "description": "Baca ulasan dari jutaan pelajar bahasa yang bahagia di seluruh dunia. Lihat mengapa Lango memiliki peringkat 4,9 bintang untuk pembelajaran bahasa."
     },
     "privacy": {
-      "title": "Kebijakan privasi - Lingo",
-      "description": "Baca kebijakan privasi Lingo untuk memahami bagaimana kami mengumpulkan, menggunakan, dan melindungi informasi pribadi Anda."
+      "title": "Kebijakan privasi - Lango",
+      "description": "Baca kebijakan privasi Lango untuk memahami bagaimana kami mengumpulkan, menggunakan, dan melindungi informasi pribadi Anda."
     },
     "terms": {
-      "title": "Syarat layanan - Lingo",
-      "description": "Baca syarat layanan Lingo untuk memahami ketentuan penggunaan platform pembelajaran bahasa kami."
+      "title": "Syarat layanan - Lango",
+      "description": "Baca syarat layanan Lango untuk memahami ketentuan penggunaan platform pembelajaran bahasa kami."
     },
     "cookies": {
-      "title": "Kebijakan cookie - Lingo",
-      "description": "Pelajari tentang cookie yang kami gunakan di Lingo dan bagaimana Anda dapat mengelola preferensi cookie Anda."
+      "title": "Kebijakan cookie - Lango",
+      "description": "Pelajari tentang cookie yang kami gunakan di Lango dan bagaimana Anda dapat mengelola preferensi cookie Anda."
     }
   },
   "nav": {
@@ -60,20 +60,20 @@
     "startLearning": "Mulai Belajar"
   },
   "footer": {
-    "company": "Lingo",
+    "company": "Lango",
     "products": "Produk",
     "support": "Dukungan",
-    "copyright": "© hak cipta LINGO 2024. Semua hak dilindungi.",
+    "copyright": "© hak cipta LANGO 2024. Semua hak dilindungi.",
     "description": "Mempelajari bahasa tidak perlu rumit. Misi kami adalah membuat pembelajaran bahasa dapat diakses oleh semua orang.",
     "links": {
       "about": "Tentang kami",
       "careers": "Karier",
       "blog": "Blog Merek",
       "press": "Pers",
-      "lingo": "Lingo",
-      "business": "Lingo untuk Bisnis",
-      "app": "Aplikasi Lingo",
-      "ar": "Lingo AR",
+      "lango": "Lango",
+      "business": "Lango untuk Bisnis",
+      "app": "Aplikasi Lango",
+      "ar": "Lango AR",
       "contact": "Kontak",
       "privacy": "Privasi",
       "terms": "Ketentuan",
@@ -135,7 +135,7 @@
     "story": {
       "title": "Kisah Kami",
       "subtitle": "Membangun Jembatan Melalui Bahasa",
-      "description": "Lingo didirikan pada tahun 2020 dengan visi sederhana namun kuat: membuat pembelajaran bahasa dapat diakses oleh semua orang, di mana saja. Yang dimulai sebagai tim kecil linguis yang bersemangat telah berkembang menjadi komunitas global pembelajar dan penutur asli yang berdedikasi untuk menghilangkan hambatan bahasa.",
+      "description": "Lango didirikan pada tahun 2020 dengan visi sederhana namun kuat: membuat pembelajaran bahasa dapat diakses oleh semua orang, di mana saja. Yang dimulai sebagai tim kecil linguis yang bersemangat telah berkembang menjadi komunitas global pembelajar dan penutur asli yang berdedikasi untuk menghilangkan hambatan bahasa.",
       "missionTitle": "Misi Kami",
       "missionText": "Kami percaya bahwa bahasa tidak boleh menjadi penghalang untuk koneksi, kesempatan, atau pemahaman. Melalui teknologi inovatif dan pengajaran yang berpusat pada manusia, kami dalam misi untuk membantu jutaan orang berkomunikasi lintas budaya dan batas."
     },

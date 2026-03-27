@@ -9,7 +9,7 @@ export interface CookieConsent {
   version: string;
 }
 
-const CONSENT_KEY = 'lingo_cookie_consent';
+const CONSENT_KEY = 'lango_cookie_consent';
 const CONSENT_VERSION = '1.0';
 const CONSENT_EXPIRY_DAYS = 180; // 6 months
 

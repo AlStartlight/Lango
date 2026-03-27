@@ -1,6 +1,6 @@
 {
-  "name": "Lingo - Learn Languages Online",
-  "short_name": "Lingo",
+  "name": "Lango - Learn Languages Online",
+  "short_name": "Lango",
   "description": "Master any language with native speakers. Interactive lessons, flexible scheduling, and personalized learning paths.",
   "start_url": "/",
   "display": "standalone",
@@ -75,7 +75,7 @@
     {
       "name": "How It Works",
       "short_name": "How It Works",
-      "description": "See how Lingo works",
+      "description": "See how Lango works",
       "url": "/en/how-its-works",
       "icons": [{ "src": "/icons/icon-96x96.png", "sizes": "96x96" }]
     },

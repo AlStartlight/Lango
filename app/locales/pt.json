@@ -1,6 +1,6 @@
 {
   "common": {
-    "logoAlt": "Logo Lingo",
+    "logoAlt": "Logo Lango",
     "loading": "Carregando...",
     "error": "Ocorreu um erro",
     "readMore": "Ler mais",
@@ -9,40 +9,40 @@
   },
    "seo": {
     "home": {
-      "title": "Lingo - Aprenda idiomas online com nativos",
-      "description": "Domine qualquer idioma com o Lingo. Aprenda com nativos através de aulas interativas, horários flexíveis e caminhos de aprendizagem personalizados. Comece grátis hoje!"
+      "title": "Lango - Aprenda idiomas online com nativos",
+      "description": "Domine qualquer idioma com o Lango. Aprenda com nativos através de aulas interativas, horários flexíveis e caminhos de aprendizagem personalizados. Comece grátis hoje!"
     },
     "about": {
-      "title": "Sobre nós - Lingo Aprendizado de idiomas",
-      "description": "Conheça a missão do Lingo de tornar o aprendizado de idiomas acessível a todos. Descubra nossa história, equipe e compromisso em quebrar barreiras linguísticas."
+      "title": "Sobre nós - Lango Aprendizado de idiomas",
+      "description": "Conheça a missão do Lango de tornar o aprendizado de idiomas acessível a todos. Descubra nossa história, equipe e compromisso em quebrar barreiras linguísticas."
     },
     "howItWorks": {
-      "title": "Como funciona - Lingo Aprendizado de idiomas",
-      "description": "Descubra como o Lingo conecta você com nativos para aprendizado de idiomas personalizado. Aprenda em 3 passos simples: escolha um idioma, encontre um professor, comece a falar!"
+      "title": "Como funciona - Lango Aprendizado de idiomas",
+      "description": "Descubra como o Lango conecta você com nativos para aprendizado de idiomas personalizado. Aprenda em 3 passos simples: escolha um idioma, encontre um professor, comece a falar!"
     },
     "languages": {
       "title": "Explore idiomas - Aprenda qualquer idioma",
       "description": "Escolha entre mais de 10 idiomas, incluindo inglês, espanhol, francês, alemão, italiano e mais. Aprenda com nativos certificados."
     },
     "pricing": {
-      "title": "Preços - Lingo Aprendizado de idiomas",
-      "description": "Veja os planos de preços transparentes do Lingo. Comece grátis ou faça upgrade para o Pro para acesso ilimitado. Sem taxas ocultas, cancele a qualquer momento."
+      "title": "Preços - Lango Aprendizado de idiomas",
+      "description": "Veja os planos de preços transparentes do Lango. Comece grátis ou faça upgrade para o Pro para acesso ilimitado. Sem taxas ocultas, cancele a qualquer momento."
     },
     "reviews": {
       "title": "Avaliações - O que dizem nossos alunos",
-      "description": "Leia avaliações de milhões de alunos de idiomas felizes em todo o mundo. Veja por que o Lingo tem classificação de 4,9 estrelas para aprendizado de idiomas."
+      "description": "Leia avaliações de milhões de alunos de idiomas felizes em todo o mundo. Veja por que o Lango tem classificação de 4,9 estrelas para aprendizado de idiomas."
     },
     "privacy": {
-      "title": "Política de privacidade - Lingo",
-      "description": "Leia a política de privacidade do Lingo para entender como coletamos, usamos e protegemos suas informações pessoais."
+      "title": "Política de privacidade - Lango",
+      "description": "Leia a política de privacidade do Lango para entender como coletamos, usamos e protegemos suas informações pessoais."
     },
     "terms": {
-      "title": "Termos de serviço - Lingo",
-      "description": "Leia os termos de serviço do Lingo para entender as condições de uso da nossa plataforma de aprendizado de idiomas."
+      "title": "Termos de serviço - Lango",
+      "description": "Leia os termos de serviço do Lango para entender as condições de uso da nossa plataforma de aprendizado de idiomas."
     },
     "cookies": {
-      "title": "Política de cookies - Lingo",
-      "description": "Saiba quais cookies usamos no Lingo e como você pode gerenciar suas preferências de cookies."
+      "title": "Política de cookies - Lango",
+      "description": "Saiba quais cookies usamos no Lango e como você pode gerenciar suas preferências de cookies."
     }
   },
   "nav": {
@@ -60,20 +60,20 @@
     "startLearning": "Começar a aprender"
   },
   "footer": {
-    "company": "Lingo",
+    "company": "Lango",
     "products": "Produtos",
     "support": "Suporte",
-    "copyright": "© direitos autorais LINGO 2024. Todos os direitos reservados.",
+    "copyright": "© direitos autorais LANGO 2024. Todos os direitos reservados.",
     "description": "Aprender idiomas não precisa ser complicado. Nossa missão é tornar o aprendizado de idiomas acessível para todos.",
     "links": {
       "about": "Sobre nós",
       "careers": "Carreiras",
       "blog": "Blog da marca",
       "press": "Imprensa",
-      "lingo": "Lingo",
-      "business": "Lingo para Empresas",
-      "app": "Aplicativo Lingo",
-      "ar": "Lingo AR",
+      "lango": "Lango",
+      "business": "Lango para Empresas",
+      "app": "Aplicativo Lango",
+      "ar": "Lango AR",
       "contact": "Contato",
       "privacy": "Privacidade",
       "terms": "Termos",
@@ -135,7 +135,7 @@
     "story": {
       "title": "Nossa História",
       "subtitle": "Construindo Pontes Através do Idioma",
-      "description": "Lingo foi fundada em 2020 com uma visão simples, mas poderosa: tornar o aprendizado de idiomas acessível para todos, em todos os lugares. O que começou como uma pequena equipe de linguistas apaixonados cresceu para uma comunidade global de aprendizes e nativos dedicados a quebrar barreiras idiomáticas.",
+      "description": "Lango foi fundada em 2020 com uma visão simples, mas poderosa: tornar o aprendizado de idiomas acessível para todos, em todos os lugares. O que começou como uma pequena equipe de linguistas apaixonados cresceu para uma comunidade global de aprendizes e nativos dedicados a quebrar barreiras idiomáticas.",
       "missionTitle": "Nossa Missão",
       "missionText": "Acreditamos que o idioma nunca deve ser uma barreira para conexão, oportunidade ou compreensão. Através de tecnologia inovadora e ensino centrado no humano, estamos em uma missão para ajudar milhões de pessoas a se comunicarem através de culturas e fronteiras."
     },

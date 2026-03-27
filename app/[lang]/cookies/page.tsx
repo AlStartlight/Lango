@@ -146,7 +146,7 @@ export default async function CookiesPage({ params }: Props) {
               
               <h2>6. Contact Us</h2>
               <p>
-                If you have questions about our use of cookies, please contact us at privacy@lingo.com.
+                If you have questions about our use of cookies, please contact us at privacy@lango.com.
               </p>
             </div>
           </div>

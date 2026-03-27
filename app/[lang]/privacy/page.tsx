@@ -53,7 +53,7 @@ export default async function PrivacyPage({ params }: Props) {
             <div className="prose prose-lg max-w-none text-gray-700 space-y-6">
               <h2>1. Introduction</h2>
               <p>
-                Welcome to Lingo (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;). We are committed to protecting your personal information and your right to privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our language learning platform.
+                Welcome to Lango (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;). We are committed to protecting your personal information and your right to privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our language learning platform.
               </p>
               
               <h2>2. Information We Collect</h2>
@@ -120,10 +120,10 @@ export default async function PrivacyPage({ params }: Props) {
               
               <h2>9. Contact Us</h2>
               <p>
-                If you have questions about this Privacy Policy, please contact us at privacy@lingo.com or write to us at:
+                If you have questions about this Privacy Policy, please contact us at privacy@lango.com or write to us at:
               </p>
               <p>
-                Lingo Inc.<br />
+                Lango Inc.<br />
                 123 Language Street<br />
                 San Francisco, CA 94105<br />
                 United States

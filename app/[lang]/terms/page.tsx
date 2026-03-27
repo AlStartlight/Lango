@@ -53,12 +53,12 @@ export default async function TermsPage({ params }: Props) {
             <div className="prose prose-lg max-w-none text-gray-700 space-y-6">
               <h2>1. Acceptance of Terms</h2>
               <p>
-                By accessing or using Lingo, you agree to be bound by these Terms of Service and our Privacy Policy. If you do not agree to these terms, please do not use our service.
+                By accessing or using Lango, you agree to be bound by these Terms of Service and our Privacy Policy. If you do not agree to these terms, please do not use our service.
               </p>
               
               <h2>2. Description of Service</h2>
               <p>
-                Lingo is an online language learning platform that connects learners with native speakers and provides interactive learning tools, including but not limited to:
+                Lango is an online language learning platform that connects learners with native speakers and provides interactive learning tools, including but not limited to:
               </p>
               <ul>
                 <li>Live tutoring sessions with native speakers</li>
@@ -74,7 +74,7 @@ export default async function TermsPage({ params }: Props) {
               
               <h2>4. Subscription and Payments</h2>
               <p>
-                Some features of Lingo require a paid subscription. Subscription fees are billed in advance on a monthly or annual basis. You can cancel your subscription at any time.
+                Some features of Lango require a paid subscription. Subscription fees are billed in advance on a monthly or annual basis. You can cancel your subscription at any time.
               </p>
               
               <h2>5. User Conduct</h2>
@@ -89,12 +89,12 @@ export default async function TermsPage({ params }: Props) {
               
               <h2>6. Intellectual Property</h2>
               <p>
-                All content, features, and functionality of Lingo are owned by Lingo Inc. and are protected by international copyright, trademark, and other intellectual property laws.
+                All content, features, and functionality of Lango are owned by Lango Inc. and are protected by international copyright, trademark, and other intellectual property laws.
               </p>
               
               <h2>7. Limitation of Liability</h2>
               <p>
-                Lingo shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of the service.
+                Lango shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of the service.
               </p>
               
               <h2>8. Disclaimer of Warranties</h2>
@@ -109,7 +109,7 @@ export default async function TermsPage({ params }: Props) {
               
               <h2>10. Contact Information</h2>
               <p>
-                For questions about these Terms, please contact us at legal@lingo.com.
+                For questions about these Terms, please contact us at legal@lango.com.
               </p>
             </div>
           </div>

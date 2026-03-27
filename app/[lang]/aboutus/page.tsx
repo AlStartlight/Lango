@@ -37,8 +37,8 @@ export default function AboutUsPage() {
   return (
     <main className="flex min-h-screen flex-col items-center bg-lime-300">
       <BreadcrumbJsonLd items={[
-        { name: 'Home', url: 'https://lingo.com' },
-        { name: 'About Us', url: 'https://lingo.com/aboutus' },
+        { name: 'Home', url: 'https://lango.com' },
+        { name: 'About Us', url: 'https://lango.com/aboutus' },
       ]} />
       <Header />
       <AboutHero />

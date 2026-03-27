@@ -1,6 +1,6 @@
 {
   "common": {
-    "logoAlt": "Lingo Logo",
+    "logoAlt": "Lango Logo",
     "loading": "Laden...",
     "error": "Er is een fout opgetreden",
     "readMore": "Lees meer",
@@ -9,40 +9,40 @@
   },
    "seo": {
     "home": {
-      "title": "Lingo - Leer talen online met moedertaalsprekers",
-      "description": "Beheers elke taal met Lingo. Leer van moedertaalsprekers met interactieve lessen, flexibele planning en gepersonaliseerde leerpaden. Start vandaag gratis!"
+      "title": "Lango - Leer talen online met moedertaalsprekers",
+      "description": "Beheers elke taal met Lango. Leer van moedertaalsprekers met interactieve lessen, flexibele planning en gepersonaliseerde leerpaden. Start vandaag gratis!"
     },
     "about": {
-      "title": "Over ons - Lingo Taalonderwijs",
-      "description": "Ontdek Lingos missie om taalonderwijs voor iedereen toegankelijk te maken. Ontdek ons verhaal, team en onze toewijding om taalbarrières te doorbreken."
+      "title": "Over ons - Lango Taalonderwijs",
+      "description": "Ontdek Langos missie om taalonderwijs voor iedereen toegankelijk te maken. Ontdek ons verhaal, team en onze toewijding om taalbarrières te doorbreken."
     },
     "howItWorks": {
-      "title": "Hoe het werkt - Lingo Taalonderwijs",
-      "description": "Ontdek hoe Lingo je verbindt met moedertaalsprekers voor gepersonaliseerd taalonderwijs. Leer in 3 eenvoudige stappen: kies een taal, vind een leraar, begin met praten!"
+      "title": "Hoe het werkt - Lango Taalonderwijs",
+      "description": "Ontdek hoe Lango je verbindt met moedertaalsprekers voor gepersonaliseerd taalonderwijs. Leer in 3 eenvoudige stappen: kies een taal, vind een leraar, begin met praten!"
     },
     "languages": {
       "title": "Ontdek talen - Leer elke taal",
       "description": "Kies uit meer dan 10 talen waaronder Engels, Spaans, Frans, Duits, Italiaans en meer. Leer met gecertificeerde moedertaalsprekers."
     },
     "pricing": {
-      "title": "Prijzen - Lingo Taalonderwijs",
-      "description": "Bekijk Lingos transparante prijsplannen. Start gratis of upgrade naar Pro voor onbeperkte toegang. Geen verborgen kosten, op elk moment opzegbaar."
+      "title": "Prijzen - Lango Taalonderwijs",
+      "description": "Bekijk Langos transparante prijsplannen. Start gratis of upgrade naar Pro voor onbeperkte toegang. Geen verborgen kosten, op elk moment opzegbaar."
     },
     "reviews": {
       "title": "Reviews - Wat onze leerlingen zeggen",
-      "description": "Lees reviews van miljoenen blije taalleerlingen wereldwijd. Ontdek waarom Lingo 4,9 sterren heeft voor taalonderwijs."
+      "description": "Lees reviews van miljoenen blije taalleerlingen wereldwijd. Ontdek waarom Lango 4,9 sterren heeft voor taalonderwijs."
     },
     "privacy": {
-      "title": "Privacybeleid - Lingo",
-      "description": "Lees Lingos privacybeleid om te begrijpen hoe we je persoonlijke gegevens verzamelen, gebruiken en beschermen."
+      "title": "Privacybeleid - Lango",
+      "description": "Lees Langos privacybeleid om te begrijpen hoe we je persoonlijke gegevens verzamelen, gebruiken en beschermen."
     },
     "terms": {
-      "title": "Servicevoorwaarden - Lingo",
-      "description": "Lees Lingos servicevoorwaarden om de voorwaarden te begrijpen voor het gebruik van ons taalonderwijsplatform."
+      "title": "Servicevoorwaarden - Lango",
+      "description": "Lees Langos servicevoorwaarden om de voorwaarden te begrijpen voor het gebruik van ons taalonderwijsplatform."
     },
     "cookies": {
-      "title": "Cookiebeleid - Lingo",
-      "description": "Lees over de cookies die we op Lingo gebruiken en hoe je je cookievoorkeuren kunt beheren."
+      "title": "Cookiebeleid - Lango",
+      "description": "Lees over de cookies die we op Lango gebruiken en hoe je je cookievoorkeuren kunt beheren."
     }
   },
   "nav": {
@@ -60,20 +60,20 @@
     "startLearning": "Begin met leren"
   },
   "footer": {
-    "company": "Lingo",
+    "company": "Lango",
     "products": "Producten",
     "support": "Ondersteuning",
-    "copyright": "© auteursrecht LINGO 2024. Alle rechten voorbehouden.",
+    "copyright": "© auteursrecht LANGO 2024. Alle rechten voorbehouden.",
     "description": "Talen leren hoeft niet ingewikkeld te zijn. Onze missie is om taalleren toegankelijk te maken voor iedereen.",
     "links": {
       "about": "Over ons",
       "careers": "Carrières",
       "blog": "Merkblog",
       "press": "Pers",
-      "lingo": "Lingo",
-      "business": "Lingo voor Bedrijven",
-      "app": "Lingo App",
-      "ar": "Lingo AR",
+      "lango": "Lango",
+      "business": "Lango voor Bedrijven",
+      "app": "Lango App",
+      "ar": "Lango AR",
       "contact": "Contact",
       "privacy": "Privacy",
       "terms": "Voorwaarden",
@@ -135,7 +135,7 @@
     "story": {
       "title": "Ons Verhaal",
       "subtitle": "Bruggen Bouwen Door Taal",
-      "description": "Lingo werd opgericht in 2020 met een simpele maar krachtige visie: taalleren toegankelijk maken voor iedereen, overal. Wat begon als een klein team van gepassioneerde linguïsten is uitgegroeid tot een wereldwijde gemeenschap van leerlingen en moedertaalsprekers die toegewijd zijn aan het doorbreken van taalbarrières.",
+      "description": "Lango werd opgericht in 2020 met een simpele maar krachtige visie: taalleren toegankelijk maken voor iedereen, overal. Wat begon als een klein team van gepassioneerde linguïsten is uitgegroeid tot een wereldwijde gemeenschap van leerlingen en moedertaalsprekers die toegewijd zijn aan het doorbreken van taalbarrières.",
       "missionTitle": "Onze Missie",
       "missionText": "Wij geloven dat taal nooit een barrière mag zijn voor verbinding, kansen of begrip. Door innovatieve technologie en mensgericht onderwijs zijn we op een missie om miljoenen mensen te helpen communiceren over culturen en grenzen heen."
     },

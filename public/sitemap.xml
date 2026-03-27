@@ -4,128 +4,128 @@
   
   <!-- Static pages - English (default) -->
   <url>
-    <loc>https://lingo.com/en/</loc>
+    <loc>https://lango.com/en/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://lingo.com/en/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://lingo.com/es/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://lingo.com/id/"/>
-    <xhtml:link rel="alternate" hreflang="jp" href="https://lingo.com/jp/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://lingo.com/hi/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://lingo.com/de/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://lingo.com/ar/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://lingo.com/fr/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://lingo.com/pt/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://lingo.com/it/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://lingo.com/nl/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://lingo.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lango.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lango.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://lango.com/id/"/>
+    <xhtml:link rel="alternate" hreflang="jp" href="https://lango.com/jp/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://lango.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://lango.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://lango.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://lango.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://lango.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://lango.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://lango.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://lango.com/ko/"/>
   </url>
 
   <url>
-    <loc>https://lingo.com/en/aboutus</loc>
+    <loc>https://lango.com/en/aboutus</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://lingo.com/en/aboutus"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://lingo.com/es/aboutus"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://lingo.com/id/aboutus"/>
-    <xhtml:link rel="alternate" hreflang="jp" href="https://lingo.com/jp/aboutus"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://lingo.com/hi/aboutus"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://lingo.com/de/aboutus"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://lingo.com/ar/aboutus"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://lingo.com/fr/aboutus"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://lingo.com/pt/aboutus"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://lingo.com/it/aboutus"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://lingo.com/nl/aboutus"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://lingo.com/ko/aboutus"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lango.com/en/aboutus"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lango.com/es/aboutus"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://lango.com/id/aboutus"/>
+    <xhtml:link rel="alternate" hreflang="jp" href="https://lango.com/jp/aboutus"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://lango.com/hi/aboutus"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://lango.com/de/aboutus"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://lango.com/ar/aboutus"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://lango.com/fr/aboutus"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://lango.com/pt/aboutus"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://lango.com/it/aboutus"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://lango.com/nl/aboutus"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://lango.com/ko/aboutus"/>
   </url>
 
   <url>
-    <loc>https://lingo.com/en/how-its-works</loc>
+    <loc>https://lango.com/en/how-its-works</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://lingo.com/en/how-its-works"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://lingo.com/es/how-its-works"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://lingo.com/id/how-its-works"/>
-    <xhtml:link rel="alternate" hreflang="jp" href="https://lingo.com/jp/how-its-works"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://lingo.com/hi/how-its-works"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://lingo.com/de/how-its-works"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://lingo.com/ar/how-its-works"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://lingo.com/fr/how-its-works"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://lingo.com/pt/how-its-works"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://lingo.com/it/how-its-works"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://lingo.com/nl/how-its-works"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://lingo.com/ko/how-its-works"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lango.com/en/how-its-works"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lango.com/es/how-its-works"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://lango.com/id/how-its-works"/>
+    <xhtml:link rel="alternate" hreflang="jp" href="https://lango.com/jp/how-its-works"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://lango.com/hi/how-its-works"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://lango.com/de/how-its-works"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://lango.com/ar/how-its-works"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://lango.com/fr/how-its-works"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://lango.com/pt/how-its-works"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://lango.com/it/how-its-works"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://lango.com/nl/how-its-works"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://lango.com/ko/how-its-works"/>
   </url>
 
   <url>
-    <loc>https://lingo.com/en/languages</loc>
+    <loc>https://lango.com/en/languages</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://lingo.com/en/languages"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://lingo.com/es/languages"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://lingo.com/id/languages"/>
-    <xhtml:link rel="alternate" hreflang="jp" href="https://lingo.com/jp/languages"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://lingo.com/hi/languages"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://lingo.com/de/languages"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://lingo.com/ar/languages"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://lingo.com/fr/languages"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://lingo.com/pt/languages"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://lingo.com/it/languages"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://lingo.com/nl/languages"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://lingo.com/ko/languages"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lango.com/en/languages"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lango.com/es/languages"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://lango.com/id/languages"/>
+    <xhtml:link rel="alternate" hreflang="jp" href="https://lango.com/jp/languages"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://lango.com/hi/languages"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://lango.com/de/languages"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://lango.com/ar/languages"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://lango.com/fr/languages"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://lango.com/pt/languages"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://lango.com/it/languages"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://lango.com/nl/languages"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://lango.com/ko/languages"/>
   </url>
 
   <url>
-    <loc>https://lingo.com/en/pricing</loc>
+    <loc>https://lango.com/en/pricing</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://lingo.com/en/pricing"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://lingo.com/es/pricing"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://lingo.com/id/pricing"/>
-    <xhtml:link rel="alternate" hreflang="jp" href="https://lingo.com/jp/pricing"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://lingo.com/hi/pricing"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://lingo.com/de/pricing"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://lingo.com/ar/pricing"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://lingo.com/fr/pricing"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://lingo.com/pt/pricing"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://lingo.com/it/pricing"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://lingo.com/nl/pricing"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://lingo.com/ko/pricing"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lango.com/en/pricing"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lango.com/es/pricing"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://lango.com/id/pricing"/>
+    <xhtml:link rel="alternate" hreflang="jp" href="https://lango.com/jp/pricing"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://lango.com/hi/pricing"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://lango.com/de/pricing"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://lango.com/ar/pricing"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://lango.com/fr/pricing"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://lango.com/pt/pricing"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://lango.com/it/pricing"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://lango.com/nl/pricing"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://lango.com/ko/pricing"/>
   </url>
 
   <url>
-    <loc>https://lingo.com/en/reviews</loc>
+    <loc>https://lango.com/en/reviews</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://lingo.com/en/reviews"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://lingo.com/es/reviews"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://lingo.com/id/reviews"/>
-    <xhtml:link rel="alternate" hreflang="jp" href="https://lingo.com/jp/reviews"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://lingo.com/hi/reviews"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://lingo.com/de/reviews"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://lingo.com/ar/reviews"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://lingo.com/fr/reviews"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://lingo.com/pt/reviews"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://lingo.com/it/reviews"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://lingo.com/nl/reviews"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://lingo.com/ko/reviews"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lango.com/en/reviews"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lango.com/es/reviews"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://lango.com/id/reviews"/>
+    <xhtml:link rel="alternate" hreflang="jp" href="https://lango.com/jp/reviews"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://lango.com/hi/reviews"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://lango.com/de/reviews"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://lango.com/ar/reviews"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://lango.com/fr/reviews"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://lango.com/pt/reviews"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://lango.com/it/reviews"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://lango.com/nl/reviews"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://lango.com/ko/reviews"/>
   </url>
 
   <!-- Legal Pages -->
   <url>
-    <loc>https://lingo.com/en/privacy</loc>
+    <loc>https://lango.com/en/privacy</loc>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
-    <loc>https://lingo.com/en/terms</loc>
+    <loc>https://lango.com/en/terms</loc>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
-    <loc>https://lingo.com/en/cookies</loc>
+    <loc>https://lango.com/en/cookies</loc>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>

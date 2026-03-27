@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const title = translations.seo.home.title;
   const description = translations.seo.home.description;
   
-  const baseUrl = 'https://lingo.com';
+  const baseUrl = 'https://lango.com';
   const url = `${baseUrl}/${lang}`;
   const image = `${baseUrl}/images/og-home.jpg`;
 
@@ -52,7 +52,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title,
       description,
       url,
-      siteName: 'Lingo',
+      siteName: 'Lango',
       locale: localeMap[lang] || 'en_US',
       type: 'website',
       images: [{
@@ -67,7 +67,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title,
       description,
       images: [image],
-      site: '@lingoapp',
+      site: '@langoapp',
     },
     robots: {
       index: true,

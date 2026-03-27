@@ -20,22 +20,22 @@ export function OrganizationJsonLd() {
   const data = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'Lingo',
-    url: 'https://lingo.com',
-    logo: 'https://lingo.com/Logo.png',
+    name: 'Lango',
+    url: 'https://lango.com',
+    logo: 'https://lango.com/Logo.png',
     description: 'Learn languages online with native speakers. Interactive lessons, flexible scheduling, and personalized learning paths.',
     contactPoint: {
       '@type': 'ContactPoint',
-      telephone: '+1-800-LINGO-01',
+      telephone: '+1-800-LANGO-01',
       contactType: 'customer service',
       availableLanguage: ['English', 'Spanish', 'French', 'German', 'Italian', 'Portuguese', 'Japanese', 'Korean', 'Hindi', 'Arabic', 'Dutch', 'Indonesian'],
       areaServed: 'Worldwide',
     },
     sameAs: [
-      'https://www.facebook.com/lingoapp',
-      'https://www.twitter.com/lingoapp',
-      'https://www.instagram.com/lingoapp',
-      'https://www.youtube.com/lingoapp',
+      'https://www.facebook.com/langoapp',
+      'https://www.twitter.com/langoapp',
+      'https://www.instagram.com/langoapp',
+      'https://www.youtube.com/langoapp',
     ],
     address: {
       '@type': 'PostalAddress',
@@ -54,13 +54,13 @@ export function WebsiteJsonLd() {
   const data = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'Lingo',
-    url: 'https://lingo.com',
+    name: 'Lango',
+    url: 'https://lango.com',
     potentialAction: {
       '@type': 'SearchAction',
       target: {
         '@type': 'EntryPoint',
-        urlTemplate: 'https://lingo.com/{search_term_string}',
+        urlTemplate: 'https://lango.com/{search_term_string}',
       },
       'query-input': 'required name=search_term_string',
     },
@@ -72,7 +72,7 @@ export function WebsiteJsonLd() {
 export function CourseJsonLd({
   name,
   description,
-  provider = 'Lingo',
+  provider = 'Lango',
   url,
   image,
   courseMode = 'online',
@@ -100,7 +100,7 @@ export function CourseJsonLd({
     provider: {
       '@type': 'Organization',
       name: provider,
-      url: 'https://lingo.com',
+      url: 'https://lango.com',
     },
     url,
     courseMode,
@@ -155,7 +155,7 @@ export function LocalBusinessJsonLd({
     '@type': 'EducationalOrganization',
     name,
     description,
-    url: 'https://lingo.com',
+    url: 'https://lango.com',
     address: {
       '@type': 'PostalAddress',
       streetAddress: address.street,

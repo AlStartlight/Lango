@@ -6,7 +6,7 @@ export const runtime = 'edge';
 export async function GET(request: NextRequest) {
   try {
     const { searchParams } = new URL(request.url);
-    const title = searchParams.get('title') || 'Lingo';
+    const title = searchParams.get('title') || 'Lango';
     const subtitle = searchParams.get('subtitle') || 'Learn Languages Online';
     const type = searchParams.get('type') || 'default';
 
@@ -50,7 +50,7 @@ export async function GET(request: NextRequest) {
                   letterSpacing: '-0.02em',
                 }}
               >
-                Lingo
+                Lango
               </div>
             </div>
 

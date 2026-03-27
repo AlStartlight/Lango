@@ -1,6 +1,6 @@
 {
   "common": {
-    "logoAlt": "Logo Lingo",
+    "logoAlt": "Logo Lango",
     "loading": "Caricamento...",
     "error": "Si è verificato un errore",
     "readMore": "Leggi di più",
@@ -9,40 +9,40 @@
   },
    "seo": {
     "home": {
-      "title": "Lingo - Impara le lingue online con madrelingua",
-      "description": "Padroneggia qualsiasi lingua con Lingo. Impara da madrelingua con lezioni interattive, orari flessibili e percorsi di apprendimento personalizzati. Inizia gratis oggi!"
+      "title": "Lango - Impara le lingue online con madrelingua",
+      "description": "Padroneggia qualsiasi lingua con Lango. Impara da madrelingua con lezioni interattive, orari flessibili e percorsi di apprendimento personalizzati. Inizia gratis oggi!"
     },
     "about": {
-      "title": "Chi siamo - Lingo Apprendimento delle lingue",
-      "description": "Scopri la missione di Lingo di rendere l'apprendimento delle lingue accessibile a tutti. Scopri la nostra storia, il team e l'impegno nel superare le barriere linguistiche."
+      "title": "Chi siamo - Lango Apprendimento delle lingue",
+      "description": "Scopri la missione di Lango di rendere l'apprendimento delle lingue accessibile a tutti. Scopri la nostra storia, il team e l'impegno nel superare le barriere linguistiche."
     },
     "howItWorks": {
-      "title": "Come funziona - Lingo Apprendimento delle lingue",
-      "description": "Scopri come Lingo ti connette con madrelingua per un apprendimento delle lingue personalizzato. Impara in 3 semplici passi: scegli una lingua, trova un insegnante, inizia a parlare!"
+      "title": "Come funziona - Lango Apprendimento delle lingue",
+      "description": "Scopri come Lango ti connette con madrelingua per un apprendimento delle lingue personalizzato. Impara in 3 semplici passi: scegli una lingua, trova un insegnante, inizia a parlare!"
     },
     "languages": {
       "title": "Esplora le lingue - Impara qualsiasi lingua",
       "description": "Scegli tra oltre 10 lingue tra cui inglese, spagnolo, francese, tedesco, italiano e altre. Impara con madrelingua certificati."
     },
     "pricing": {
-      "title": "Prezzi - Lingo Apprendimento delle lingue",
-      "description": "Visualizza i piani di prezzo trasparenti di Lingo. Inizia gratis o passa a Pro per accesso illimitato. Nessun costo nascosto, cancella in qualsiasi momento."
+      "title": "Prezzi - Lango Apprendimento delle lingue",
+      "description": "Visualizza i piani di prezzo trasparenti di Lango. Inizia gratis o passa a Pro per accesso illimitato. Nessun costo nascosto, cancella in qualsiasi momento."
     },
     "reviews": {
       "title": "Recensioni - Cosa dicono i nostri studenti",
-      "description": "Leggi le recensioni di milioni di studenti di lingue felici in tutto il mondo. Scopri perché Lingo ha una valutazione di 4,9 stelle per l'apprendimento delle lingue."
+      "description": "Leggi le recensioni di milioni di studenti di lingue felici in tutto il mondo. Scopri perché Lango ha una valutazione di 4,9 stelle per l'apprendimento delle lingue."
     },
     "privacy": {
-      "title": "Informativa sulla privacy - Lingo",
-      "description": "Leggi l'informativa sulla privacy di Lingo per capire come raccogliamo, utilizziamo e proteggiamo le tue informazioni personali."
+      "title": "Informativa sulla privacy - Lango",
+      "description": "Leggi l'informativa sulla privacy di Lango per capire come raccogliamo, utilizziamo e proteggiamo le tue informazioni personali."
     },
     "terms": {
-      "title": "Termini di servizio - Lingo",
-      "description": "Leggi i termini di servizio di Lingo per capire le condizioni per l'utilizzo della nostra piattaforma di apprendimento delle lingue."
+      "title": "Termini di servizio - Lango",
+      "description": "Leggi i termini di servizio di Lango per capire le condizioni per l'utilizzo della nostra piattaforma di apprendimento delle lingue."
     },
     "cookies": {
-      "title": "Politica dei cookie - Lingo",
-      "description": "Scopri i cookie che utilizziamo su Lingo e come puoi gestire le tue preferenze sui cookie."
+      "title": "Politica dei cookie - Lango",
+      "description": "Scopri i cookie che utilizziamo su Lango e come puoi gestire le tue preferenze sui cookie."
     }
   },
   "nav": {
@@ -60,20 +60,20 @@
     "startLearning": "Inizia a imparare"
   },
   "footer": {
-    "company": "Lingo",
+    "company": "Lango",
     "products": "Prodotti",
     "support": "Assistenza",
-    "copyright": "© diritti d'autore LINGO 2024. Tutti i diritti riservati.",
+    "copyright": "© diritti d'autore LANGO 2024. Tutti i diritti riservati.",
     "description": "Imparare le lingue non deve essere complicato. La nostra missione è rendere l'apprendimento delle lingue accessibile a tutti.",
     "links": {
       "about": "Chi siamo",
       "careers": "Carriere",
       "blog": "Blog del marchio",
       "press": "Stampa",
-      "lingo": "Lingo",
-      "business": "Lingo per Business",
-      "app": "App Lingo",
-      "ar": "Lingo AR",
+      "lango": "Lango",
+      "business": "Lango per Business",
+      "app": "App Lango",
+      "ar": "Lango AR",
       "contact": "Contatti",
       "privacy": "Privacy",
       "terms": "Termini",
@@ -135,7 +135,7 @@
     "story": {
       "title": "La Nostra Storia",
       "subtitle": "Costruire Ponti Attraverso la Lingua",
-      "description": "Lingo è stata fondata nel 2020 con una visione semplice ma potente: rendere l'apprendimento delle lingue accessibile a tutti, ovunque. Quello che è iniziato come un piccolo team di linguisti appassionati è cresciuto fino a diventare una comunità globale di apprendisti e madrelingua dedicati a rompere le barriere linguistiche.",
+      "description": "Lango è stata fondata nel 2020 con una visione semplice ma potente: rendere l'apprendimento delle lingue accessibile a tutti, ovunque. Quello che è iniziato come un piccolo team di linguisti appassionati è cresciuto fino a diventare una comunità globale di apprendisti e madrelingua dedicati a rompere le barriere linguistiche.",
       "missionTitle": "La Nostra Missione",
       "missionText": "Crediamo che la lingua non debba mai essere una barriera per la connessione, le opportunità o la comprensione. Attraverso la tecnologia innovativa e l'insegnamento incentrato sull'uomo, siamo in missione per aiutare milioni di persone a comunicare attraverso culture e confini."
     },

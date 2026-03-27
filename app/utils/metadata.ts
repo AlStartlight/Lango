@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import { languages, type Language } from '@/i18n-config';
 
-const baseUrl = 'https://lingo.com';
+const baseUrl = 'https://lango.com';
 
 const localeMap: Record<string, string> = {
   en: 'en_US',
@@ -57,7 +57,7 @@ export function generatePageMetadata({
       title,
       description,
       url,
-      siteName: 'Lingo',
+      siteName: 'Lango',
       locale: localeMap[locale] || 'en_US',
       type,
       images: [{
@@ -72,8 +72,8 @@ export function generatePageMetadata({
       title,
       description,
       images: [imageUrl],
-      site: '@lingoapp',
-      creator: '@lingoapp',
+      site: '@langoapp',
+      creator: '@langoapp',
     },
     robots: {
       index: !noIndex,

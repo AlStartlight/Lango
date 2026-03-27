@@ -77,7 +77,7 @@ export async function generateOpenGraphImage({
               fontWeight: '600',
             }}
           >
-            Lingo - Learn Languages Online
+            Lango - Learn Languages Online
           </div>
         </div>
       </div>
