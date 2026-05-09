@@ -1,0 +1,66 @@
+{
+  "availableLanguages": [
+    {
+      "id": "french",
+      "label": "French",
+      "native": "Français",
+      "icon": "silverware-fork-knife",
+      "iconColor": "#785179",
+      "isFeatured": false,
+      "corner": "tl"
+    },
+    {
+      "id": "spanish",
+      "label": "Spanish",
+      "native": "Español",
+      "icon": "white-balance-sunny",
+      "iconColor": "#3f6900",
+      "isFeatured": true,
+      "corner": "none"
+    },
+    {
+      "id": "arabic",
+      "label": "Arabic",
+      "native": "العربية",
+      "icon": "domain",
+      "iconColor": "#006e2f",
+      "isFeatured": false,
+      "corner": "none"
+    },
+    {
+      "id": "japanese",
+      "label": "Japanese",
+      "native": "日本語",
+      "icon": "flower",
+      "iconColor": "#ba1a1a",
+      "isFeatured": false,
+      "corner": "bl"
+    }
+  ],
+  "goalOptions": [
+    {
+      "id": "casual",
+      "label": "Casual",
+      "description": "5 mins / day",
+      "minutesPerDay": 5,
+      "icon": "coffee",
+      "isRecommended": false
+    },
+    {
+      "id": "regular",
+      "label": "Regular",
+      "description": "15 mins / day",
+      "minutesPerDay": 15,
+      "icon": "lightning-bolt",
+      "isRecommended": true
+    },
+    {
+      "id": "intense",
+      "label": "Intense",
+      "description": "30 mins / day",
+      "minutesPerDay": 30,
+      "icon": "dumbbell",
+      "isRecommended": false
+    }
+  ]
+}

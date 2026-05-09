@@ -1,0 +1,24 @@
+{
+  "id": "gd-001",
+  "title": "Noun-Adjective Agreement",
+  "subtitle": "Matching gender and number for perfect sentences.",
+  "category": "Grammar Mastery",
+  "genderRules": [
+    { "label": "Masculine", "suffix": "-o", "example": "El libro nuevo" },
+    { "label": "Feminine", "suffix": "-a", "example": "La casa nueva" }
+  ],
+  "numberRules": [
+    { "label": "Singular", "suffix": "", "example": "The base form of the adjective." },
+    { "label": "Plural", "suffix": "-s / -es", "example": "Add -s (vowels) or -es (consonants)." }
+  ],
+  "examples": [
+    { "id": "ex-001", "phrase": "El gato negro", "translation": "The black cat", "agreementLabel": "Masculine / Singular", "note": null },
+    { "id": "ex-002", "phrase": "Un hombre inteligente", "translation": "A smart man", "agreementLabel": "Gender Neutral", "note": "Adjectives ending in -e are often gender neutral." },
+    { "id": "ex-003", "phrase": "Las casas blancas", "translation": "The white houses", "agreementLabel": "Feminine / Plural", "note": null }
+  ],
+  "quiz": {
+    "prompt": "Los libros ___ (pequeño)",
+    "options": ["pequeño", "pequeños", "pequeña", "pequeñas"],
+    "correctAnswer": "pequeños"
+  }
+}

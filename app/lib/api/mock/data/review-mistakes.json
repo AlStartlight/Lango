@@ -1,0 +1,30 @@
+{
+  "lessonId": "lesson-001",
+  "totalMistakes": 3,
+  "mistakes": [
+    {
+      "id": "m-001",
+      "type": "Verb Conjugation",
+      "prompt": "Yo ___ (comer) pan.",
+      "yourAnswer": "comemos",
+      "correctAnswer": "como",
+      "tip": { "title": "The \"Yo\" Rule", "body": "'Yo' uses the -o ending for -er verbs in the present tense." }
+    },
+    {
+      "id": "m-002",
+      "type": "Gender Agreement",
+      "prompt": "The black cat",
+      "yourAnswer": "El gato negra",
+      "correctAnswer": "El gato negro",
+      "tip": { "title": "Noun-Adjective Harmony", "body": "Adjectives must match the gender of the noun. Since gato is masculine, use negro." }
+    },
+    {
+      "id": "m-003",
+      "type": "Ser vs. Estar",
+      "prompt": "She ___ (to be) a doctor.",
+      "yourAnswer": "está médica",
+      "correctAnswer": "es médica",
+      "tip": { "title": "Permanent States Use Ser", "body": "Professions and identities are permanent traits — always use 'ser', not 'estar'." }
+    }
+  ]
+}

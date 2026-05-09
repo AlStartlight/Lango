@@ -1,0 +1,26 @@
+{
+  "progress": {
+    "progressPercent": 65,
+    "hearts": 5,
+    "xpEarned": 420
+  },
+  "exercise": {
+    "id": "exercise-001",
+    "xpReward": 15,
+    "masteryLevel": 2,
+    "flipCard": {
+      "wordInTargetLanguage": "Blij",
+      "pronunciation": "/blɛi/",
+      "wordInNativeLanguage": "Happy",
+      "definition": "Common adjective for feeling joy or satisfaction."
+    },
+    "choices": [
+      { "id": "a", "emoji": "😊", "label": "Happy" },
+      { "id": "b", "emoji": "😢", "label": "Sad" },
+      { "id": "c", "emoji": "😲", "label": "Surprised" },
+      { "id": "d", "emoji": "😡", "label": "Angry" }
+    ],
+    "correctChoiceId": "a",
+    "aiFeedbackMessage": "Great pronunciation! Now, can you tap the matching facial expression?"
+  }
+}

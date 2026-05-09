@@ -1,0 +1,53 @@
+{
+  "globalChallenge": {
+    "id": "gc-001",
+    "title": "7-Day Vocabulary Sprint",
+    "description": "Master 100 new words in a week.",
+    "isActive": true,
+    "progressPercent": 64,
+    "participantCount": 2400
+  },
+  "weeklyLeaderboard": [
+    { "rank": 1, "username": "Mika_Sensei", "xp": 3120 },
+    { "rank": 2, "username": "Elena_Poly", "xp": 2840 },
+    { "rank": 3, "username": "AlexLangs", "xp": 2410 }
+  ],
+  "studyGroups": [
+    {
+      "id": "sg-001",
+      "icon": "coffee",
+      "iconBg": "#6bff8f",
+      "iconColor": "#007432",
+      "title": "Spanish Coffee Chat",
+      "description": "Daily conversational practice for intermediate learners.",
+      "memberCount": 124
+    },
+    {
+      "id": "sg-002",
+      "icon": "pencil",
+      "iconBg": "#facaf9",
+      "iconColor": "#785179",
+      "title": "Japanese Kanji Masters",
+      "description": "Flashcard drills and etymology deep dives for JLPT N2.",
+      "memberCount": 89
+    },
+    {
+      "id": "sg-003",
+      "icon": "book-open-variant",
+      "iconBg": "#a5ed50",
+      "iconColor": "#3f6900",
+      "title": "French Literature Club",
+      "description": "Reading and discussing classic French novels together.",
+      "memberCount": 57
+    },
+    {
+      "id": "sg-004",
+      "icon": "microphone",
+      "iconBg": "#e8f5d0",
+      "iconColor": "#3f6a00",
+      "title": "Arabic Pronunciation",
+      "description": "Focused sessions on mastering Arabic phonetics.",
+      "memberCount": 43
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "user": {
+    "id": "11111111-1111-4111-8111-111111111111",
+    "name": "Julian",
+    "email": "julian@langopulse.dev",
+    "avatarUrl": null
+  },
+  "level": 24,
+  "levelLabel": "Polyglot in Training",
+  "levelProgressPercent": 72,
+  "isPro": true,
+  "learning": {
+    "dailyGoalMinutes": 20,
+    "targetLanguage": "Spanish",
+    "tutorVoice": "Mateo (Natural)"
+  },
+  "notifications": {
+    "lessonReminders": true,
+    "streakAlerts": true,
+    "communityMessages": false
+  },
+  "app": {
+    "darkMode": false,
+    "appLanguage": "English (US)"
+  }
+}

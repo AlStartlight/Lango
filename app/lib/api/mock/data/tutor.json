@@ -1,0 +1,32 @@
+{
+  "id": "session-001",
+  "title": "Practice: Ordering Coffee",
+  "language": "Spanish",
+  "tutorName": "Lingo AI",
+  "messages": [
+    {
+      "id": "1",
+      "role": "ai",
+      "text": "¡Hola! ¿Qué te gustaría ordenar hoy? Tenemos café recién hecho y pastelería deliciosa.",
+      "translation": "Hi! What would you like to order today? We have freshly brewed coffee and delicious pastries.",
+      "grammarTip": null,
+      "createdAt": "2024-01-15T10:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "role": "user",
+      "text": "Quisiera un café con leche y un croissant, por favor.",
+      "translation": null,
+      "grammarTip": "Perfect sentence! You used \"quisiera\" (I would like) which is very polite for ordering.",
+      "createdAt": "2024-01-15T10:01:00.000Z"
+    },
+    {
+      "id": "3",
+      "role": "ai",
+      "text": "Excelente elección. ¿Deseas el café grande o mediano?",
+      "translation": "Excellent choice. Do you want the coffee large or medium?",
+      "grammarTip": null,
+      "createdAt": "2024-01-15T10:02:00.000Z"
+    }
+  ]
+}

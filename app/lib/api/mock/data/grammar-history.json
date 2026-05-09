@@ -1,0 +1,13 @@
+{
+  "masteryPercent": 68,
+  "outperformedPercent": 74,
+  "needsReview": [
+    { "id": "nr-001", "icon": "alert", "title": "Ser vs. Estar", "description": "Confused in 12/20 recent exercises. Review temporary vs. permanent states.", "isUrgent": true },
+    { "id": "nr-002", "icon": "book-education", "title": "Noun-Adjective Agreement", "description": "Gender matching errors detected in complex sentences.", "isUrgent": false }
+  ],
+  "timeline": [
+    { "id": "tl-001", "score": 92, "title": "Present Tense", "date": "Oct 24, 2023", "description": "Mastered regular -ar, -er, and -ir verb conjugations with high accuracy.", "status": "Completed", "level": "Advanced Level" },
+    { "id": "tl-002", "score": 45, "title": "Irregular Verbs", "date": "Oct 21, 2023", "description": "Significant struggle with stem-changing verbs like 'querer' and 'poder'.", "status": "Incomplete", "level": "Intermediate Level" },
+    { "id": "tl-003", "score": 78, "title": "Direct Object Pronouns", "date": "Oct 18, 2023", "description": "Understanding the placement of 'lo', 'la', 'los', 'las' in various sentence structures.", "status": "Completed", "level": "Beginner II" }
+  ]
+}

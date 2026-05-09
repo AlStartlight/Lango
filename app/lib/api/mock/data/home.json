@@ -1,0 +1,24 @@
+{
+  "momentum": {
+    "userName": "Julian",
+    "streakDays": 12,
+    "streakLabel": "Unstoppable",
+    "dailyGoalPercent": 85
+  },
+  "dailyChallenge": {
+    "id": "challenge-001",
+    "title": "The Night Market",
+    "description": "Master conversational nuances in a bustling marketplace.",
+    "isNew": true
+  },
+  "weeklyStats": {
+    "proficiencyPercent": 72,
+    "label": "Fluency is peaking."
+  },
+  "leaderboard": [
+    { "rank": 1, "name": "Alex Rivera", "badge": "Master Polyglot", "xp": 14290, "isCurrentUser": false },
+    { "rank": 2, "name": "Julian", "badge": "Rising Star", "xp": 12840, "isCurrentUser": true },
+    { "rank": 3, "name": "Sarah Chen", "badge": "Grammar Guru", "xp": 11900, "isCurrentUser": false }
+  ],
+  "leagueLabel": "Diamond League · Season 4"
+}
