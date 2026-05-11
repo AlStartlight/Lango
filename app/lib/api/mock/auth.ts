@@ -10,17 +10,21 @@ type StoredUser = {
   createdAt: string;
 };
 
+// ── Seed user from env ────────────────────────────────────────────────────────
+
+function seedUser(): StoredUser {
+  return {
+    id: '11111111-1111-4111-8111-111111111111',
+    email: process.env.MOCK_USER_EMAIL || 'demo@langopulse.dev',
+    passwordHash: process.env.MOCK_USER_PASSWORD || 'password123',
+    name: process.env.MOCK_USER_NAME || 'Demo User',
+    createdAt: new Date().toISOString(),
+  };
+}
+
 // ── In-memory "database" ──────────────────────────────────────────────────────
 
-const DB: StoredUser[] = [
-  {
-    id: '11111111-1111-4111-8111-111111111111',
-    email: 'demo@langopulse.dev',
-    passwordHash: 'password123',
-    name: 'Demo User',
-    createdAt: new Date().toISOString(),
-  },
-];
+const DB: StoredUser[] = [seedUser()];
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
