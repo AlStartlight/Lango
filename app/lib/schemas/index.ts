@@ -39,7 +39,7 @@ export type Token = z.infer<typeof TokenSchema>;
 // ── User ─────────────────────────────────────────────────────────────────────
 
 export const UserSchema = z.object({
-  id: z.string().uuid(),
+  id: z.string().min(1),
   email: z.string().email(),
   name: z.string().min(1),
   avatarUrl: z.string().url().nullable(),
@@ -235,6 +235,15 @@ export const TutorSessionSchema = z.object({
 export const TutorSessionDataSchema = TutorSessionSchema;
 
 export const TutorResponseSchema = apiResponseSchema(TutorSessionDataSchema);
+
+export const TutorCreateSessionSchema = z.object({
+  language: z.string().min(1, "Language is required"),
+  topic: z.string().min(1, "Topic is required"),
+  difficultyLevel: z.string().min(1, "Difficulty level is required"),
+  userId: z.string().min(1, "User ID is required"),
+});
+
+export type TutorCreateSession = z.infer<typeof TutorCreateSessionSchema>;
 
 export const TutorSendMessageSchema = z.object({
   sessionId: z.string(),
