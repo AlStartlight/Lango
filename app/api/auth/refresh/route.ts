@@ -1,6 +1,7 @@
 import { NextRequest } from 'next/server';
 import { apiResponse, apiError } from '@/lib/api';
-import { RefreshRequestSchema } from '@/lib/schemas';
+import { RefreshRequestSchema, RefreshDataSchema } from '@/lib/schemas';
+import { verifyRefreshToken, signAccessToken } from '@/lib/auth';
 
 export async function POST(request: NextRequest) {
   const body = await request.json();
@@ -12,13 +13,22 @@ export async function POST(request: NextRequest) {
 
   const { refreshToken } = parsed.data;
 
-  // ── Mock mode ────────────────────────────────────────────────────────────────
-  if (!refreshToken.startsWith('mock-refresh-') && !refreshToken.startsWith('prod-refresh-')) {
-    return apiError('Invalid refresh token', 401);
-  }
+  try {
+    const payload = verifyRefreshToken(refreshToken);
 
-  return apiResponse({
-    accessToken: `mock-access-${crypto.randomUUID()}`,
-    expiresIn: 3600,
-  });
+    const newAccessToken = signAccessToken({
+      sub: payload.sub,
+      email: payload.email,
+    });
+
+    const response = {
+      accessToken: newAccessToken,
+      expiresIn: 3600,
+    };
+
+    const validated = RefreshDataSchema.parse(response);
+    return apiResponse(validated);
+  } catch {
+    return apiError('Invalid or expired refresh token', 401);
+  }
 }

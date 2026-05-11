@@ -1,8 +1,9 @@
 import { NextRequest } from 'next/server';
 import { prisma } from '@/lib/prisma';
-import { apiResponse, apiError, isMockMode } from '@/lib/api';
+import { apiResponse, apiError } from '@/lib/api';
 import { RegisterRequestSchema, AuthDataSchema } from '@/lib/schemas';
 import { mockRegister } from '@/lib/api/mock/auth';
+import { hashPassword, generateTokenPair } from '@/lib/auth';
 
 export async function POST(request: NextRequest) {
   const body = await request.json();
@@ -15,13 +16,13 @@ export async function POST(request: NextRequest) {
 
   const { name, email, password } = parsed.data;
 
-  // ── Mock mode ────────────────────────────────────────────────────────────────
-  if (isMockMode() || !prisma) {
+  // Fallback ke mock hanya jika prisma tidak tersedia
+  if (!prisma) {
     const result = mockRegister(name, email, password);
     if ('error' in result && result.error) {
       return apiError(result.error, 409);
     }
-    return apiResponse(result);
+    return apiResponse(result, 201);
   }
 
   // ── Production ───────────────────────────────────────────────────────────────
@@ -30,14 +31,19 @@ export async function POST(request: NextRequest) {
     return apiError('Email already in use', 409);
   }
 
+  const passwordHash = await hashPassword(password);
+
   const user = await prisma.user.create({
     data: {
       email,
       name,
+      password: passwordHash,
       nativeLanguage: 'English',
       learningLanguage: 'Spanish',
     },
   });
+
+  const payload = { sub: user.id, email: user.email };
 
   const response = {
     user: {
@@ -51,13 +57,9 @@ export async function POST(request: NextRequest) {
       streakDays: user.streakDays,
       createdAt: user.createdAt.toISOString(),
     },
-    token: {
-      accessToken: `prod-access-${crypto.randomUUID()}`,
-      refreshToken: `prod-refresh-${crypto.randomUUID()}`,
-      expiresIn: 3600,
-    },
+    token: generateTokenPair(payload),
   };
 
   const validated = AuthDataSchema.parse(response);
-  return apiResponse(validated);
+  return apiResponse(validated, 201);
 }
