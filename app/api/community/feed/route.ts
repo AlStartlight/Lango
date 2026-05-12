@@ -7,7 +7,7 @@ export async function GET() {
     return apiResponse(data);
   }
 
-  const [challenge, groups] = await Promise.all([
+  const [challenge, groups, topUsers] = await Promise.all([
     prisma.globalChallenge.findFirst({
       where: { isActive: true },
       include: { userProgress: true },
@@ -15,6 +15,10 @@ export async function GET() {
     prisma.studyGroup.findMany({
       include: { members: true },
       orderBy: { memberCount: "desc" },
+    }),
+    prisma.user.findMany({
+      orderBy: { xpPoints: "desc" },
+      take: 10,
     }),
   ]);
 
@@ -36,7 +40,11 @@ export async function GET() {
           progressPercent: 0,
           participantCount: 0,
         },
-    weeklyLeaderboard: [],
+    weeklyLeaderboard: topUsers.map((u, i) => ({
+      rank: i + 1,
+      username: u.name,
+      xp: u.xpPoints,
+    })),
     studyGroups: groups.map((g) => ({
       id: g.id,
       icon: g.icon,

@@ -7,12 +7,9 @@ type ApiOptions = {
 
 /**
  * Determines whether to use mock data.
- * Returns true in dev, when no DATABASE_URL is set, or when using the default placeholder URL.
+ * Selalu false — semua request pakai database real.
  */
 export function isMockMode(): boolean {
-  if (process.env.NODE_ENV === "development") return true;
-  if (!process.env.DATABASE_URL) return true;
-  if (process.env.DATABASE_URL.includes("user:password@localhost")) return true;
   return false;
 }
 

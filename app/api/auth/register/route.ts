@@ -1,6 +1,6 @@
 import { NextRequest } from 'next/server';
 import { prisma } from '@/lib/prisma';
-import { apiResponse, apiError } from '@/lib/api';
+import { apiResponse, apiError, isMockMode } from '@/lib/api';
 import { RegisterRequestSchema, AuthDataSchema } from '@/lib/schemas';
 import { mockRegister } from '@/lib/api/mock/auth';
 import { hashPassword, generateTokenPair } from '@/lib/auth';
@@ -16,8 +16,8 @@ export async function POST(request: NextRequest) {
 
   const { name, email, password } = parsed.data;
 
-  // Fallback ke mock hanya jika prisma tidak tersedia
-  if (!prisma) {
+  // Fallback ke mock saat dev / DB tidak tersedia
+  if (isMockMode()) {
     const result = mockRegister(name, email, password);
     if ('error' in result && result.error) {
       return apiError(result.error, 409);
@@ -26,6 +26,9 @@ export async function POST(request: NextRequest) {
   }
 
   // ── Production ───────────────────────────────────────────────────────────────
+  if (!prisma) {
+    return apiError('Database not configured', 503);
+  }
   const existing = await prisma.user.findUnique({ where: { email } });
   if (existing) {
     return apiError('Email already in use', 409);
@@ -35,6 +38,7 @@ export async function POST(request: NextRequest) {
 
   const user = await prisma.user.create({
     data: {
+      id: crypto.randomUUID(),
       email,
       name,
       password: passwordHash,

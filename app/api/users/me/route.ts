@@ -1,14 +1,19 @@
 import { NextRequest } from "next/server";
 import { prisma } from "@/lib/prisma";
 import { fetchMockData, apiResponse, apiError, isMockMode } from "@/lib/api";
+import { getAuthUser } from "@/lib/auth";
 
-export async function GET() {
+export async function GET(request: NextRequest) {
   if (isMockMode() || !prisma) {
     const data = await fetchMockData<Record<string, unknown>>("profile");
     return apiResponse(data);
   }
 
-  const user = await prisma.user.findFirst({
+  const authUser = await getAuthUser(request);
+  if (!authUser) return apiError("Unauthorized", 401);
+
+  const user = await prisma.user.findUnique({
+    where: { id: authUser.id },
     include: {
       fluencies: true,
       achievements: { include: { achievement: true } },
@@ -65,7 +70,10 @@ export async function PATCH(request: NextRequest) {
     return apiResponse({ message: "Profile updated (mock)" });
   }
 
-  const user = await prisma.user.findFirst();
+  const authUser = await getAuthUser(request);
+  if (!authUser) return apiError("Unauthorized", 401);
+
+  const user = await prisma.user.findUnique({ where: { id: authUser.id } });
   if (!user) {
     return apiError("User not found", 404);
   }

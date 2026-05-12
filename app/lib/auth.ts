@@ -1,5 +1,7 @@
 import jwt from 'jsonwebtoken';
 import bcrypt from 'bcryptjs';
+import { NextRequest } from 'next/server';
+import { prisma } from '@/lib/prisma';
 
 // ── Config ────────────────────────────────────────────────────────────────────
 
@@ -25,6 +27,22 @@ export type TokenPayload = {
   sub: string;   // userId
   email: string;
 };
+
+// ── Auth helper ────────────────────────────────────────────────────────────────
+
+export async function getAuthUser(request: NextRequest) {
+  const authHeader = request.headers.get('Authorization');
+  if (!authHeader?.startsWith('Bearer ')) return null;
+
+  try {
+    const token = authHeader.slice(7);
+    const payload = verifyAccessToken(token);
+    if (!prisma) return null;
+    return prisma.user.findUnique({ where: { id: payload.sub } });
+  } catch {
+    return null;
+  }
+}
 
 // ── Access token ───────────────────────────────────────────────────────────────
 

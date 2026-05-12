@@ -241,7 +241,7 @@ async function seedUserData(user: SeedUserConfig, idx: number) {
 
   const activityColors = Array.from({ length: 28 }, () => randomHeatmapColor());
 
-  const userId = `user-${idx + 1}-${crypto.randomUUID()}`;
+  const userId = crypto.randomUUID();
 
   const passwordHash = await hashPassword(password);
 

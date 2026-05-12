@@ -1,6 +1,6 @@
 import { NextRequest } from 'next/server';
 import { prisma } from '@/lib/prisma';
-import { apiResponse, apiError } from '@/lib/api';
+import { apiResponse, apiError, isMockMode } from '@/lib/api';
 import { LoginRequestSchema, AuthDataSchema } from '@/lib/schemas';
 import { mockLogin } from '@/lib/api/mock/auth';
 import { verifyPassword, generateTokenPair } from '@/lib/auth';
@@ -15,8 +15,8 @@ export async function POST(request: NextRequest) {
 
   const { email, password } = parsed.data;
 
-  // Fallback ke mock hanya jika prisma tidak tersedia
-  if (!prisma) {
+  // Fallback ke mock saat dev / DB tidak tersedia
+  if (isMockMode()) {
     const result = mockLogin(email, password);
     if (!result) {
       return apiError('Invalid email or password', 401);
@@ -25,9 +25,12 @@ export async function POST(request: NextRequest) {
   }
 
   // ── Production ───────────────────────────────────────────────────────────────
+  if (!prisma) {
+    return apiError('Database not configured', 503);
+  }
   const user = await prisma.user.findUnique({ where: { email } });
   if (!user) {
-    return apiError('Invalid email or password', 401);
+    return apiError('Not registered email or username', 401);
   }
 
   const valid = await verifyPassword(password, user.password);
