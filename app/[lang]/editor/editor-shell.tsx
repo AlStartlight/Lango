@@ -40,7 +40,7 @@ function EditorContent({ children }: { children: ReactNode }) {
   const { activeModule, setActiveModule } = useModule();
 
   return (
-    <div className="flex min-h-screen flex-col bg-background">
+    <div className="flex min-h-screen flex-col bg-[#1a1a1a]">
       <EditorNavbar
         sidebarOpen={sidebarOpen}
         onToggleSidebar={() => setSidebarOpen((v) => !v)}

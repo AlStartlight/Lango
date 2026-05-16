@@ -49,7 +49,7 @@ const MODULES: ModuleEntry[] = [
     icon: PencilLine,
     title: "Grammar Practice",
     description: "Master sentence structure, verb conjugations, and grammar rules through targeted exercises.",
-    status: "coming-soon",
+    status: "ready",
     color: "#f59e0b",
   },
   {
