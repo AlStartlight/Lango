@@ -2,7 +2,7 @@
 
 import { useState, useCallback, useEffect, useRef } from "react";
 import { getNumberWord, getSpeechLang } from "./number-data";
-import Say from "react-say";
+import { useSpeech } from "@/lib/use-speech";
 import type { LanguageCode } from "./types";
 
 interface FlashcardPhaseProps {
@@ -17,28 +17,21 @@ export function FlashcardPhase({
   onComplete,
 }: FlashcardPhaseProps) {
   const [flipped, setFlipped] = useState<Set<number>>(new Set());
-  const [speakKey, setSpeakKey] = useState(0);
-  const [speakWord, setSpeakWord] = useState("");
-  const [mounted, setMounted] = useState(false);
   const didComplete = useRef(false);
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
+  const speak = useSpeech();
 
   const handleFlip = useCallback(
     (num: number) => {
       const word = getNumberWord(num, lang);
-      setSpeakWord(word);
-      setSpeakKey((k) => k + 1);
-
+      const speechLang = getSpeechLang(lang);
+      speak(word, speechLang);
       setFlipped((prev) => {
         const next = new Set(prev);
         next.add(num);
         return next;
       });
     },
-    [lang]
+    [lang, speak]
   );
 
   useEffect(() => {
@@ -50,10 +43,6 @@ export function FlashcardPhase({
 
   return (
     <>
-      {mounted && (
-        <Say key={speakKey} speak={speakWord} lang={getSpeechLang(lang)} rate={0.9}
-          ponyfill={{ speechSynthesis: window.speechSynthesis, SpeechSynthesisUtterance: window.SpeechSynthesisUtterance }} />
-      )}
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
         {numbers.map((num) => {
           const isFlipped = flipped.has(num);

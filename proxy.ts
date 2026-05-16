@@ -46,6 +46,11 @@ const clerk = clerkMiddleware(async (auth, request: NextRequest) => {
     }
   }
 
+  // Skip static files (manifest.json, icons, images, fonts, etc.) from Clerk auth
+  if (pathname.includes(".")) {
+    return NextResponse.next()
+  }
+
   // Landing pages under /:locale are public
   const isPublicPath =
     isPublicRoute(request) ||

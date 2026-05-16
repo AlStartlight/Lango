@@ -57,7 +57,7 @@ const nextConfig: NextConfig = {
               "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://*.clerk.accounts.dev https://challenges.cloudflare.com",
               "font-src 'self' https://fonts.gstatic.com",
               "img-src 'self' blob: data: https:",
-               "connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.clerk.accounts.dev wss://*.clerk.accounts.dev https://challenges.cloudflare.com",
+               "connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://clerk-telemetry.com https://*.clerk-telemetry.com https://*.clerk.accounts.dev wss://*.clerk.accounts.dev https://challenges.cloudflare.com",
               "frame-src 'self' https://www.youtube.com https://player.vimeo.com https://*.clerk.accounts.dev https://challenges.cloudflare.com",
               "manifest-src 'self'",
               "worker-src 'self' blob:",

@@ -1,8 +1,8 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { getNumberWord, getSpeechLang, generateOptions } from "./number-data";
-import Say from "react-say";
+import { useSpeech } from "@/lib/use-speech";
 import type { LanguageCode } from "./types";
 
 interface ListenPickPhaseProps {
@@ -25,16 +25,11 @@ export function ListenPickPhase({
   const [showResult, setShowResult] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
   const [hasInteracted, setHasInteracted] = useState(false);
-  const [speakKey, setSpeakKey] = useState(0);
-  const [mounted, setMounted] = useState(false);
   const questionCount = Math.min(5, numbers.length);
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
   const [questions] = useState(() =>
     [...numbers].sort(() => Math.random() - 0.5).slice(0, questionCount)
   );
+  const speak = useSpeech();
 
   const currentQ = questions[currentIdx];
   const currentWord = currentQ !== undefined ? getNumberWord(currentQ, lang) : "";
@@ -42,7 +37,7 @@ export function ListenPickPhase({
 
   const handlePlay = () => {
     setHasInteracted(true);
-    setSpeakKey((k) => k + 1);
+    speak(currentWord, currentLang);
   };
 
   const handleSelect = (value: number) => {
@@ -66,6 +61,9 @@ export function ListenPickPhase({
     if (nextIdx >= questionCount) {
       onComplete();
     } else {
+      const nextQ = questions[nextIdx];
+      const nextWord = nextQ !== undefined ? getNumberWord(nextQ, lang) : "";
+      speak(nextWord, currentLang);
       setCurrentIdx(nextIdx);
       setSelected(null);
       setShowResult(false);
@@ -85,11 +83,6 @@ export function ListenPickPhase({
 
   return (
     <div className="flex flex-col items-center gap-8">
-      {mounted && speakKey > 0 && (
-        <Say key={speakKey + "-" + currentIdx} speak={currentWord} lang={currentLang} rate={0.9}
-          ponyfill={{ speechSynthesis: window.speechSynthesis, SpeechSynthesisUtterance: window.SpeechSynthesisUtterance }} />
-      )}
-
       <div className="flex flex-col items-center gap-3">
         <button
           onClick={handlePlay}
