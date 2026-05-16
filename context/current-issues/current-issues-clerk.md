@@ -1,0 +1,1 @@
+fix error [browser] ⨯ unhandledRejection: ClerkRuntimeError: Clerk: Failed to load Clerk JS, failed to load script: https://trusted-escargot-92.clerk.accounts.dev/npm/@clerk/clerk-js@6/dist/clerk.browser.js with precicion 
