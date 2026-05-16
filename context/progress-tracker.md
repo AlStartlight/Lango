@@ -45,8 +45,10 @@ Update this file whenever the current phase, active feature, or implementation s
 - [x] Update ProjectSidebar with Number Name module entry in "My Projects" tab
 - [x] Wire Number Name module into EditorShell via ModuleProvider context
 - [x] Create Grammar Module (`components/editor/grammar/`) — types, data, context, and 4 exercise components
-- [x] Grammar curriculum data: 10 English lessons across A1, A2, B1 levels (structured content + 3-4 exercises each)
-- [x] Exercise types: Multiple Choice, Fill-in-the-Blank, Sentence Ordering, Correction
+- [x] Grammar curriculum data: 60 English lessons across all 5 CEFR levels (A1–C1) with 2192+ exercises
+- [x] B2 level: 25 lessons, 1184 exercises (past perfect, future perfect, conditionals, passive, inversion, cleft sentences, modals, etc.)
+- [x] C1 level: 25 lessons, 1008 exercises (subjunctive, formal inversion, advanced conditionals, discourse markers, nominalization, etc.)
+- [x] Exercise types: Multiple Choice (560), Fill-in-the-Blank (561), Sentence Ordering (553), Correction (558)
 - [x] Grammar Dashboard with CEFR level selector, progress bar, and lesson list
 - [x] Lesson view with explanations, rules, examples, grammar tables, and learning tips
 - [x] Practice phase with sequential exercises, progress dots, and results summary
@@ -84,4 +86,5 @@ Update this file whenever the current phase, active feature, or implementation s
 
 ## Session Notes
 
-- Add context needed to resume work in the next session here.
+- Updated `context/current-issues/current-issues-synthesis.md` — added Number Name Module implementation section tracking spec coverage (7/12 phases built), files created (12 files), language support (6/9+ languages), level structure, and gamification system mapping to feature spec §4–5.
+- Unimplemented spec items documented: Speak the Number (Pro), Friend Challenge, Shopping Sim, Context Numbers, Ordinals, Spaced Repetition.
