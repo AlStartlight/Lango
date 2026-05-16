@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { getNumberWord, getSpeechLang, generateOptions } from "./number-data";
 import Say from "react-say";
 import type { LanguageCode } from "./types";
@@ -26,7 +26,12 @@ export function ListenPickPhase({
   const [isCorrect, setIsCorrect] = useState(false);
   const [hasInteracted, setHasInteracted] = useState(false);
   const [speakKey, setSpeakKey] = useState(0);
+  const [mounted, setMounted] = useState(false);
   const questionCount = Math.min(5, numbers.length);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
   const [questions] = useState(() =>
     [...numbers].sort(() => Math.random() - 0.5).slice(0, questionCount)
   );
@@ -80,8 +85,10 @@ export function ListenPickPhase({
 
   return (
     <div className="flex flex-col items-center gap-8">
-      <Say key={speakKey + "-" + currentIdx} speak={currentWord} lang={currentLang} rate={0.9}
-        ponyfill={{ speechSynthesis: window.speechSynthesis, SpeechSynthesisUtterance: window.SpeechSynthesisUtterance }} />
+      {mounted && speakKey > 0 && (
+        <Say key={speakKey + "-" + currentIdx} speak={currentWord} lang={currentLang} rate={0.9}
+          ponyfill={{ speechSynthesis: window.speechSynthesis, SpeechSynthesisUtterance: window.SpeechSynthesisUtterance }} />
+      )}
 
       <div className="flex flex-col items-center gap-3">
         <button
