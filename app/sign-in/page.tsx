@@ -1,21 +1,11 @@
 import { redirect } from "next/navigation"
 import { headers } from "next/headers"
-import { auth } from "@clerk/nextjs/server"
-import { languages } from "./i18n-config"
-import { isClerkConfigured } from "./lib/clerk"
+import { languages } from "@/i18n-config"
 
-export default async function RootPage() {
-  if (isClerkConfigured()) {
-    const { userId } = await auth()
-    if (userId) {
-      redirect("/editor")
-    }
-  }
-
+export default async function SignInRootPage() {
   const headersList = await headers()
   const acceptLang = headersList.get("accept-language") || "en"
   const preferred = acceptLang.split(",")[0]?.split("-")[0]?.toLowerCase() || "en"
   const locale = languages.includes(preferred as typeof languages[number]) ? preferred : "en"
-
-  redirect(`/${locale}`)
+  redirect(`/${locale}/sign-in`)
 }

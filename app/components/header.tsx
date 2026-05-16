@@ -107,7 +107,7 @@ export default function Header() {
           <div className="hidden md:flex">
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Link
-                href={`/${locale}/signin`}
+                href={`/${locale}/sign-in`}
                 className="bg-green-500 text-white px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-green-600 transition-colors duration-200 shadow-sm"
               >
                 {t('cta.signup')}
@@ -151,12 +151,12 @@ export default function Header() {
                   </Link>
                 ))}
                 <Link
-                  href={`/${locale}/signin`}
-                  className="block bg-green-500 text-white px-6 py-2.5 rounded-full text-sm font-semibold text-center hover:bg-green-600 transition-colors mt-2"
-                  onClick={() => setIsMobileMenuOpen(false)}
-                >
-                  {t('cta.signup')}
-                </Link>
+                href={`/${locale}/sign-in`}
+                className="block bg-green-500 text-white px-6 py-2.5 rounded-full text-sm font-semibold text-center hover:bg-green-600 transition-colors mt-2"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                {t('cta.signup')}
+              </Link>
               </div>
             </motion.div>
           )}
