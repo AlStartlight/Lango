@@ -5,6 +5,11 @@ import { PHASES, LEVELS } from "./types";
 import { GamificationBar } from "./gamification-bar";
 import { FlashcardPhase } from "./flashcard-phase";
 import { ListenPickPhase } from "./listen-pick-phase";
+import { TapNumberPhase } from "./tap-number-phase";
+import { SpellPhase } from "./spell-phase";
+import { SpeedQuizPhase } from "./speed-quiz-phase";
+import { SurvivalPhase } from "./survival-phase";
+import { MasteryPhase } from "./mastery-phase";
 import type { LanguageCode, PhaseId } from "./types";
 
 interface NumberNameModuleProps {
@@ -14,7 +19,7 @@ interface NumberNameModuleProps {
 export function NumberNameModule({
   lang = "en",
 }: NumberNameModuleProps) {
-  const { state, setLevel, goToPhase, nextPhase, addXp, loseLife, addStreak, resetStreak } =
+  const { state, setLevel, goToPhase, nextPhase, addXp, loseLife, addStreak, resetStreak, resetModule } =
     useModule();
 
   const currentLevel = LEVELS.find((l) => l.id === state.activeLevelId) ?? LEVELS[0];
@@ -34,7 +39,7 @@ export function NumberNameModule({
 
       <div className="shrink-0 border-b border-[#252525]">
         <div className="flex items-center gap-2 px-6 py-3 overflow-x-auto no-scrollbar">
-          {LEVELS.slice(0, 5).map((level) => (
+          {LEVELS.map((level) => (
             <button
               key={level.id}
               onClick={() => setLevel(level.id)}
@@ -47,9 +52,6 @@ export function NumberNameModule({
               {level.label}
             </button>
           ))}
-          <span className="text-[10px] text-white/15 ml-1 shrink-0">
-            +{LEVELS.length - 5} more
-          </span>
         </div>
 
         <div className="flex items-center gap-1.5 px-6 pb-3 overflow-x-auto no-scrollbar">
@@ -121,13 +123,139 @@ export function NumberNameModule({
             </div>
           )}
 
-          {state.currentPhase !== "flashcard" && state.currentPhase !== "listen-pick" && (
-            <div className="flex flex-col items-center justify-center h-[60vh] text-white/30 gap-4">
-              <div className="text-6xl opacity-50">🚧</div>
-              <p className="text-base font-medium text-white/50">{currentPhase.label}</p>
-              <p className="text-sm text-white/20">This phase is under development.</p>
+          {state.currentPhase === "tap-number" && (
+            <div className="animate-fade-in-up">
+              <div className="text-center mb-8">
+                <h2 className="text-lg font-semibold text-white/90">Tap the Number</h2>
+                <p className="text-sm text-white/40 mt-1">Find the number before time runs out</p>
+              </div>
+              <TapNumberPhase
+                numbers={currentLevel.numbers}
+                lang={lang}
+                onCorrect={(xp, bonus) => {
+                  addXp(xp + bonus);
+                  addStreak();
+                }}
+                onMiss={() => {
+                  loseLife();
+                  resetStreak();
+                }}
+                onComplete={() => nextPhase()}
+              />
             </div>
           )}
+
+          {state.currentPhase === "spell" && (
+            <div className="animate-fade-in-up">
+              <div className="text-center mb-8">
+                <h2 className="text-lg font-semibold text-white/90">Spell the Number</h2>
+                <p className="text-sm text-white/40 mt-1">Arrange letters to spell the number correctly</p>
+              </div>
+              <SpellPhase
+                numbers={currentLevel.numbers}
+                lang={lang}
+                onCorrect={(xp, noHint) => {
+                  if (!noHint) {
+                    addXp(xp - 5);
+                  } else {
+                    addXp(xp);
+                  }
+                  addStreak();
+                }}
+                onComplete={() => nextPhase()}
+              />
+            </div>
+          )}
+
+          {state.currentPhase === "speed-quiz" && (
+            <div className="animate-fade-in-up">
+              <div className="text-center mb-8">
+                <h2 className="text-lg font-semibold text-white/90">Speed Quiz</h2>
+                <p className="text-sm text-white/40 mt-1">Answer quickly under pressure — bonus XP for fast answers</p>
+              </div>
+              <SpeedQuizPhase
+                numbers={currentLevel.numbers}
+                lang={lang}
+                onCorrect={(xp, fast) => {
+                  addXp(fast ? xp + 5 : xp);
+                  addStreak();
+                }}
+                onIncorrect={() => {
+                  loseLife();
+                  resetStreak();
+                }}
+                onComplete={(perfect) => {
+                  if (perfect) addXp(50);
+                  nextPhase();
+                }}
+              />
+            </div>
+          )}
+
+          {state.currentPhase === "survival" && (
+            <div className="animate-fade-in-up">
+              <div className="text-center mb-8">
+                <h2 className="text-lg font-semibold text-white/90">Survival Mode</h2>
+                <p className="text-sm text-white/40 mt-1">Stay alive as long as you can — answer quickly or lose a life</p>
+              </div>
+              <SurvivalPhase
+                numbers={currentLevel.numbers}
+                lang={lang}
+                initialLives={state.gamification.lives}
+                onCorrect={(xp) => {
+                  addXp(xp);
+                  addStreak();
+                }}
+                onLoseLife={() => {
+                  loseLife();
+                  resetStreak();
+                }}
+                onGameOver={(score) => {
+                  addXp(score * 2);
+                }}
+              />
+            </div>
+          )}
+
+          {state.currentPhase === "mastery" && (
+            <div className="animate-fade-in-up">
+              <div className="text-center mb-8">
+                <h2 className="text-lg font-semibold text-white/90">Mastery Test</h2>
+                <p className="text-sm text-white/40 mt-1">Prove you've mastered numbers in this level</p>
+              </div>
+              <MasteryPhase
+                numbers={currentLevel.numbers}
+                lang={lang}
+                onCorrect={(xp) => {
+                  addXp(xp);
+                  addStreak();
+                }}
+                onIncorrect={() => {
+                  resetStreak();
+                }}
+                onComplete={(result) => {
+                  if (result.passed) {
+                    addXp(100);
+                    nextPhase();
+                  }
+                }}
+              />
+            </div>
+          )}
+
+          {state.currentPhase !== "flashcard" &&
+            state.currentPhase !== "listen-pick" &&
+            state.currentPhase !== "tap-number" &&
+            state.currentPhase !== "spell" &&
+            state.currentPhase !== "speed-quiz" &&
+            state.currentPhase !== "survival" &&
+            state.currentPhase !== "mastery" && (
+              <div className="flex flex-col items-center justify-center h-[60vh] text-white/30 gap-4">
+                <div className="text-6xl opacity-50">🚧</div>
+                <p className="text-base font-medium text-white/50">{currentPhase.label}</p>
+                <p className="text-sm text-white/20">This phase is under development.</p>
+              </div>
+            )}
         </div>
       </div>
     </div>

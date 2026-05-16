@@ -45,6 +45,39 @@ export interface ListenPickQuestion {
   options: number[];
 }
 
+export interface SpellQuestion {
+  number: number;
+  word: string;
+  scrambledLetters: string[];
+  hintUsed: boolean;
+}
+
+export interface SpeedQuizQuestion {
+  number: number;
+  word: string;
+  answer: number;
+  options: number[];
+  /** listen = hear audio & pick number, see = see number & pick name, type = see name & type number */
+  type: "listen" | "see" | "type";
+}
+
+/** Options for generating speed quiz questions */
+export type SpeedQuizType = "listen" | "see" | "type";
+export const SPEED_QUIZ_TYPES: SpeedQuizType[] = ["listen", "see", "type"];
+
+export interface MasteryResult {
+  score: number;
+  total: number;
+  percentage: number;
+  passed: boolean;
+  breakdown: { correct: number; total: number; phase: PhaseId }[];
+}
+
+export interface TapQuestion {
+  answer: number;
+  grid: number[];
+}
+
 export type LanguageCode =
   | "en" | "es" | "fr" | "de" | "it" | "nl" | "pt"
   | "ar" | "hi" | "bn" | "id" | "ja" | "ko" | "zh"
