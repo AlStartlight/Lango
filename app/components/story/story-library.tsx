@@ -149,7 +149,7 @@ export function StoryLibrary({
             className="h-full w-full"
             overlay={false}
           >
-            <div className="absolute inset-0 bg-gradient-to-t from-exp-inverse-surface/80 via-transparent to-exp-inverse-surface/25" />
+            <div className="absolute inset-0 bg-gradient-to-t from-exp-inverse-surface/80 via-transparent to-exp-inverse-surface/10" />
             <span className="absolute left-2.5 top-2.5 rounded-full bg-exp-surface-lowest/90 px-2 py-0.5 text-[10px] font-extrabold text-exp-primary backdrop-blur">
               {episode.levelCode}
             </span>
@@ -326,7 +326,7 @@ export function StoryLibrary({
                   className="h-full w-full"
                   overlay={false}
                 >
-                  <div className="absolute inset-0 bg-gradient-to-t from-exp-inverse-surface via-exp-inverse-surface/55 to-exp-inverse-surface/10" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-exp-inverse-surface via-exp-inverse-surface/45 to-exp-inverse-surface/5" />
                   <div className="absolute inset-0 flex flex-col justify-between p-4 sm:p-6">
                     <div className="flex flex-wrap items-center justify-between gap-2">
                       <span className="inline-flex items-center gap-1.5 rounded-full bg-exp-secondary-container px-3 py-1.5 text-[10px] font-extrabold uppercase tracking-wider text-exp-on-secondary-container shadow-sm">

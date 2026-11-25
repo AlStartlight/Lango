@@ -20,6 +20,7 @@ import {
   Zap,
 } from "lucide-react";
 import { LangoMascot, StoryArtwork } from "@/components/expedition/art";
+import { MASCOT_IMAGES } from "@/components/expedition/story-images";
 import { toSpeechLocale } from "@/lib/i18n/locales";
 import { useSpeech, useSpeechGender } from "@/lib/use-speech";
 import type { EpisodeReport, ReportStar } from "@/lib/story/report";
@@ -264,7 +265,7 @@ export function ResultsReport({
           <div className="flex min-w-0 items-start gap-4">
             <div className="relative shrink-0">
               <span className="grid h-24 w-24 place-items-center overflow-hidden rounded-full bg-exp-surface-lowest shadow-lg ring-4 ring-exp-primary-container sm:h-28 sm:w-28">
-                <LangoMascot className="h-24 w-24" />
+                <LangoMascot className="h-24 w-24" image={MASCOT_IMAGES.celebrate} />
               </span>
               <span className="absolute -bottom-2 left-1/2 flex -translate-x-1/2 items-center gap-1 whitespace-nowrap rounded-full bg-exp-secondary-container px-2 py-0.5 text-[9px] font-extrabold text-exp-on-secondary-container shadow">
                 <Trophy className="h-3 w-3" aria-hidden="true" />

@@ -27,7 +27,7 @@ import type { EpisodeJourney } from "@/lib/story/journey";
 import { storyCopy } from "./story-copy";
 import { expeditionCopy, fill } from "@/components/expedition/copy";
 import { LangoMascot, StoryArtwork, pickArtVariant } from "@/components/expedition/art";
-import { CHARACTER_IMAGES, resolveCharacterArt } from "@/components/expedition/story-images";
+import { CHARACTER_IMAGES, MASCOT_IMAGES, resolveCharacterArt } from "@/components/expedition/story-images";
 import { SpeechVoicePicker } from "@/components/shared/speech-voice-picker";
 import { useTranslation } from "react-i18next";
 import { CONTENT_LANGUAGE_LABELS, toSpeechLocale } from "@/lib/i18n/locales";
@@ -771,7 +771,7 @@ export function StoryReader({
             {/* Explorer tip */}
             <div className="flex items-start gap-3 rounded-2xl bg-gradient-to-r from-exp-primary-fixed/40 to-exp-surface-low p-4 shadow-sm">
               <span className="grid h-12 w-12 shrink-0 place-items-center rounded-full bg-exp-primary-container shadow-[0_3px_0_var(--exp-primary)]">
-                <LangoMascot className="h-11 w-11" />
+                <LangoMascot className="h-11 w-11" image={MASCOT_IMAGES.reader} />
               </span>
               <div className="min-w-0">
                 <div className="flex flex-wrap items-center gap-2">

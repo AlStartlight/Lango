@@ -173,7 +173,7 @@ export function StoryHub({
               className="h-[280px] w-full sm:h-[340px]"
               overlay={false}
             >
-              <div className="absolute inset-0 bg-gradient-to-t from-exp-inverse-surface via-exp-inverse-surface/45 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-exp-inverse-surface via-exp-inverse-surface/35 to-transparent" />
               <div className="absolute inset-0 flex flex-col justify-between p-4 sm:p-6">
                 <div className="flex flex-wrap items-center justify-between gap-2">
                   <span className="inline-flex items-center gap-1.5 rounded-full bg-exp-inverse-surface/80 px-3 py-1.5 text-[10px] font-extrabold text-exp-inverse-on-surface backdrop-blur">
