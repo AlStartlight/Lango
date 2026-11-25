@@ -29,6 +29,7 @@ export function LanguageRail({
         <Link
           key={support.code}
           href={hrefFor(support.code)}
+          prefetch={false}
           aria-current={support.code === active ? "page" : undefined}
           className={`shrink-0 rounded-full px-2.5 py-1 text-[10px] font-extrabold transition-colors ${
             support.code === active

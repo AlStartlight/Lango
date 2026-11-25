@@ -39,6 +39,7 @@ export function LevelPills({
           <Link
             key={level.tier}
             href={hrefFor(level.tier)}
+            prefetch={false}
             aria-current={active ? "page" : undefined}
             className={`rounded-full px-2.5 py-1 text-[11px] font-extrabold transition-colors ${
               active

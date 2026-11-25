@@ -229,14 +229,18 @@ export async function getExpeditionDashboard(
   language: string,
   tierOverride?: string | null,
 ): Promise<ExpeditionDashboard> {
-  const hud = await getExpeditionHud(user);
-  const league = await getLearnerLeague(user.id);
-  const catalog = await getStoryCatalog(user.id, language);
+  // These three reads are independent; issue them together so a dashboard
+  // render pays one round trip instead of three sequential ones.
+  const [hud, league, catalog] = await Promise.all([
+    getExpeditionHud(user),
+    getLearnerLeague(user.id),
+    getStoryCatalog(user.id, language),
+  ]);
 
   const todayKey = dateKeyInTimezone(new Date(), user.timezone);
   const today = new Date(`${todayKey}T00:00:00.000Z`);
-  const [completedToday, reviewAddedToday, inProgressCount] = prisma
-    ? await Promise.all([
+  const countsPromise = prisma
+    ? Promise.all([
         prisma.storySceneProgress.count({
           where: { userId: user.id, completedAt: { gte: today } },
         }),
@@ -247,9 +251,10 @@ export async function getExpeditionDashboard(
           where: { userId: user.id, status: "in_progress" },
         }),
       ])
-    : [0, 0, 0];
+    : Promise.resolve([0, 0, 0] as const);
 
   if (!catalog?.world) {
+    const [completedToday, reviewAddedToday] = await countsPromise;
     return {
       hud,
       catalog: {
@@ -293,15 +298,19 @@ export async function getExpeditionDashboard(
     };
   }
 
-  const detail = await getWorldDetail(user.id, catalog.world.id);
+  const [detail, sceneFromCatalog, [completedToday, reviewAddedToday, inProgressCount]] = await Promise.all([
+    getWorldDetail(user.id, catalog.world.id),
+    catalog.continue
+      ? getSceneDetail(user.id, catalog.continue.sceneId, user.explanationLocale)
+      : Promise.resolve(null),
+    countsPromise,
+  ]);
   const requestedTier =
     tierOverride && /^T[1-5]$/.test(tierOverride) && detail?.levels.some((item) => item.tier === tierOverride)
       ? tierOverride
       : null;
 
-  let scene = catalog.continue
-    ? await getSceneDetail(user.id, catalog.continue.sceneId, user.explanationLocale)
-    : null;
+  let scene = sceneFromCatalog;
 
   if (requestedTier && detail) {
     const content = getStoryContent(language);

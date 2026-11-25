@@ -19,6 +19,9 @@ export interface StoryWorldContent {
   scenes: Map<string, SceneExport>;
   materials: Map<string, StoryMaterialExport>;
   sceneOrder: string[];
+  /** O(1) lookups used by navigation and catalog rendering. */
+  sceneIndex: Map<string, number>;
+  episodeBySceneId: Map<string, string>;
 }
 
 interface CacheEntry {
@@ -82,6 +85,7 @@ function readLanguage(language: string): StoryWorldContent {
   const episodes = new Map<string, EpisodeExport>();
   const scenes = new Map<string, SceneExport>();
   const materials = new Map<string, StoryMaterialExport>();
+  const episodeBySceneId = new Map<string, string>();
 
   for (const file of files) {
     const raw = readFileSync(join(directory, file));
@@ -98,6 +102,7 @@ function readLanguage(language: string): StoryWorldContent {
         episodes.set(episode.id, episode);
         for (const scene of episode.scenes) {
           scenes.set(scene.id, scene);
+          episodeBySceneId.set(scene.id, episode.id);
           for (const material of scene.materials) materials.set(material.id, material);
         }
       }
@@ -112,8 +117,20 @@ function readLanguage(language: string): StoryWorldContent {
       arc.episodes.flatMap((episode) => episode.scenes.map((scene) => scene.id)),
     ),
   );
+  const sceneIndex = new Map(sceneOrder.map((sceneId, index) => [sceneId, index]));
 
-  return { language, world, levels, arcs, episodes, scenes, materials, sceneOrder };
+  return {
+    language,
+    world,
+    levels,
+    arcs,
+    episodes,
+    scenes,
+    materials,
+    sceneOrder,
+    sceneIndex,
+    episodeBySceneId,
+  };
 }
 
 export function getStoryContent(language: string): StoryWorldContent {
@@ -152,15 +169,12 @@ export function findScene(sceneId: string): {
     const content = getStoryContent(language);
     const scene = content.scenes.get(sceneId);
     if (!scene) return null;
-    const episode = content.episodes.get(scene.id.replace(/-p\d+$/, "").replace(/(.*)-p\d+$/, "$1"));
-    // Episode ids are arcId-lNN; derive from the scene number.
-    const arcId = scene.id.replace(/-p\d+$/, "");
-    const sceneNumber = Number(scene.id.match(/-p(\d+)$/)?.[1] ?? "1");
-    const episodeId = `${arcId}-l${String(Math.ceil(sceneNumber / 10)).padStart(2, "0")}`;
-    const resolvedEpisode = content.episodes.get(episodeId) ?? episode;
+    const episodeId = content.episodeBySceneId.get(sceneId);
+    const episode = episodeId ? content.episodes.get(episodeId) : undefined;
+    const arcId = episodeId ? episodeId.replace(/-l\d+$/, "") : scene.id.replace(/-p\d+$/, "");
     const arc = content.arcs.get(arcId);
-    if (!resolvedEpisode || !arc) return null;
-    return { content, scene, episode: resolvedEpisode, arc };
+    if (!episode || !arc) return null;
+    return { content, scene, episode, arc };
   } catch {
     return null;
   }
@@ -219,11 +233,11 @@ export function findWorld(worldId: string): StoryWorldContent | null {
 }
 
 export function nextSceneId(content: StoryWorldContent, sceneId: string): string | null {
-  const index = content.sceneOrder.indexOf(sceneId);
-  return index >= 0 ? (content.sceneOrder[index + 1] ?? null) : null;
+  const index = content.sceneIndex.get(sceneId);
+  return index !== undefined ? (content.sceneOrder[index + 1] ?? null) : null;
 }
 
 export function previousSceneId(content: StoryWorldContent, sceneId: string): string | null {
-  const index = content.sceneOrder.indexOf(sceneId);
-  return index > 0 ? (content.sceneOrder[index - 1] ?? null) : null;
+  const index = content.sceneIndex.get(sceneId);
+  return index !== undefined && index > 0 ? (content.sceneOrder[index - 1] ?? null) : null;
 }
