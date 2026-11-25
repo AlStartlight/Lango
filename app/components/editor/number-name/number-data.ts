@@ -51,27 +51,37 @@ const NUMBER_NAMES: Partial<Record<LanguageCode, Record<number, string>>> = {
     5: "lima", 6: "enam", 7: "tujuh", 8: "delapan", 9: "sembilan", 10: "sepuluh",
     11: "sebelas", 12: "dua belas", 13: "tiga belas", 14: "empat belas", 15: "lima belas",
     16: "enam belas", 17: "tujuh belas", 18: "delapan belas", 19: "sembilan belas", 20: "dua puluh",
-    30: "tiga puluh", 40: "empat puluh", 50: "lima puluh", 60: "enam puluh",
-    70: "tujuh puluh", 80: "delapan puluh", 90: "sembilan puluh", 100: "seratus",
-    200: "dua ratus", 300: "tiga ratus", 400: "empat ratus", 500: "lima ratus",
+    21: "dua puluh satu", 30: "tiga puluh", 32: "tiga puluh dua", 40: "empat puluh",
+    43: "empat puluh tiga", 50: "lima puluh", 54: "lima puluh empat", 60: "enam puluh",
+    65: "enam puluh lima", 70: "tujuh puluh", 76: "tujuh puluh enam", 80: "delapan puluh",
+    87: "delapan puluh tujuh", 90: "sembilan puluh", 98: "sembilan puluh delapan",
+    100: "seratus", 200: "dua ratus", 300: "tiga ratus", 400: "empat ratus", 500: "lima ratus",
     600: "enam ratus", 700: "tujuh ratus", 800: "delapan ratus", 900: "sembilan ratus",
     1000: "seribu", 2000: "dua ribu", 5000: "lima ribu",
     9999: "sembilan ribu sembilan ratus sembilan puluh sembilan",
-    1_000_000: "satu juta", 10_000_000: "sepuluh juta",
+    1_000_000: "satu juta", 2_500_000: "dua juta lima ratus ribu",
+    10_000_000: "sepuluh juta",
   },
   ja: {
     0: "zero", 1: "ichi", 2: "ni", 3: "san", 4: "yon",
     5: "go", 6: "roku", 7: "nana", 8: "hachi", 9: "kyuu", 10: "juu",
     11: "juu ichi", 12: "juu ni", 13: "juu san", 14: "juu yon", 15: "juu go",
     16: "juu roku", 17: "juu nana", 18: "juu hachi", 19: "juu kyuu", 20: "ni juu",
-    30: "san juu", 40: "yon juu", 50: "go juu", 60: "roku juu",
-    70: "nana juu", 80: "hachi juu", 90: "kyuu juu", 100: "hyaku",
-    1000: "sen", 1_000_000: "hyaku man",
+    21: "ni juu ichi", 30: "san juu", 32: "san juu ni", 40: "yon juu",
+    43: "yon juu san", 50: "go juu", 54: "go juu yon", 60: "roku juu",
+    65: "roku juu go", 70: "nana juu", 76: "nana juu roku", 80: "hachi juu",
+    87: "hachi juu nana", 90: "kyuu juu", 98: "kyuu juu hachi",
+    100: "hyaku", 200: "ni hyaku", 300: "san byaku", 400: "yon hyaku",
+    500: "go hyaku", 600: "roppyaku", 700: "nana hyaku", 800: "happyaku",
+    900: "kyuu hyaku", 1000: "sen", 2000: "ni sen", 5000: "go sen",
+    9999: "kyuu sen kyuu hyaku kyuu juu kyuu",
+    1_000_000: "hyaku man", 2_500_000: "ni hyaku gojuu man",
+    10_000_000: "sen man",
   },
 };
 
 export function getNumberWord(num: number, lang: LanguageCode): string {
-  return NUMBER_NAMES[lang]?.[num] ?? NUMBER_NAMES.en?.[num] ?? String(num);
+  return NUMBER_NAMES[lang]?.[num] ?? String(num);
 }
 
 export function getSupportedLanguages(): LanguageCode[] {

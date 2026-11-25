@@ -1,11 +1,13 @@
 "use client";
 
 import { useState, useRef } from "react";
+import { useTranslation } from "react-i18next";
+import { ExerciseFeedback } from "./exercise-feedback";
 import type { GrammarExercise } from "./types";
 
 interface FillBlankProps {
   exercise: GrammarExercise;
-  onAnswer: (correct: boolean) => void;
+  onAnswer: (correct: boolean, answer: string) => void;
 }
 
 function normalizeAnswer(input: string): string {
@@ -17,10 +19,7 @@ function normalizeAnswer(input: string): string {
     .replace(/\s+$/, "");
 }
 
-function isAnswerCorrect(
-  input: string,
-  exercise: GrammarExercise,
-): boolean {
+function isAnswerCorrect(input: string, exercise: GrammarExercise): boolean {
   const normalized = normalizeAnswer(input);
   const allAnswers = [
     exercise.correctAnswer,
@@ -28,9 +27,7 @@ function isAnswerCorrect(
   ];
 
   if (typeof exercise.correctAnswer === "string") {
-    return allAnswers.some(
-      (a) => normalizeAnswer(String(a)) === normalized,
-    );
+    return allAnswers.some((a) => normalizeAnswer(String(a)) === normalized);
   }
 
   if (Array.isArray(exercise.correctAnswer)) {
@@ -42,32 +39,41 @@ function isAnswerCorrect(
   return false;
 }
 
+function answerText(value: string | string[]): string {
+  return Array.isArray(value) ? value[0] ?? "" : value;
+}
+
 export function FillBlank({ exercise, onAnswer }: FillBlankProps) {
+  const { t } = useTranslation();
   const [input, setInput] = useState("");
   const [showResult, setShowResult] = useState(false);
   const [correct, setCorrect] = useState(false);
   const [showHint, setShowHint] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
 
+  const correctAnswer = answerText(exercise.correctAnswer);
+
   const handleSubmit = () => {
     if (showResult || !input.trim()) return;
-    const isCorrect = isAnswerCorrect(input, exercise);
-    setCorrect(isCorrect);
+    setCorrect(isAnswerCorrect(input, exercise));
     setShowResult(true);
-    setTimeout(() => onAnswer(isCorrect), 1000);
   };
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
     if (e.key === "Enter") handleSubmit();
   };
 
+  const handleContinue = () => {
+    onAnswer(correct, input);
+  };
+
   return (
     <div className="space-y-4">
-      <p className="text-sm text-white/90 font-medium">{exercise.question}</p>
+      <p className="text-sm font-medium text-exp-on-surface">{exercise.question}</p>
 
       {exercise.context && (
-        <div className="rounded-xl bg-[#252525] border border-[#333] p-4">
-          <p className="text-sm text-white/80 leading-relaxed">
+        <div className="rounded-xl border border-exp-container-high bg-exp-surface-low p-4">
+          <p className="text-sm leading-relaxed text-exp-on-surface-variant">
             {exercise.context}
           </p>
         </div>
@@ -82,38 +88,43 @@ export function FillBlank({ exercise, onAnswer }: FillBlankProps) {
             onChange={(e) => !showResult && setInput(e.target.value)}
             onKeyDown={handleKeyDown}
             disabled={showResult}
-            placeholder="Type your answer..."
-            className={`w-full rounded-xl border bg-[#1e1e1e] px-4 py-3 text-sm text-white placeholder-white/20 outline-none transition-all duration-200 ${
+            placeholder={t("learning.grammar.typeAnswer")}
+            aria-label={t("learning.grammar.typeAnswer")}
+            className={`min-h-11 w-full rounded-xl border bg-exp-surface-lowest px-4 py-3 text-sm text-exp-on-surface placeholder:text-exp-on-surface-muted outline-none transition-colors duration-200 ${
               showResult
                 ? correct
-                  ? "border-green-500/50 bg-green-600/10"
-                  : "border-red-500/40 bg-red-600/10"
-                : "border-[#2a2a2a] focus:border-lime/50 focus:ring-2 focus:ring-lime/20"
+                  ? "border-exp-success/60 bg-exp-primary-container/10"
+                  : "border-exp-error/50 bg-exp-error/10"
+                : "border-exp-container-high focus:border-exp-primary-container/60 focus:ring-2 focus:ring-exp-primary/20"
             }`}
             autoFocus
           />
         </div>
         {!showResult && (
           <button
+            type="button"
             onClick={handleSubmit}
             disabled={!input.trim()}
-            className="shrink-0 px-5 py-3 rounded-xl bg-lime text-[#171717] font-semibold text-sm hover:bg-lime-dark disabled:opacity-30 disabled:cursor-not-allowed active:scale-[0.97] transition-all duration-150"
+            className="exp-btn exp-btn-primary shrink-0 disabled:cursor-not-allowed"
           >
-            Check
+            {t("learning.common.check")}
           </button>
         )}
       </div>
 
       {exercise.hint && !showResult && (
-        <div className="flex items-start gap-2">
+        <div className="flex flex-wrap items-start gap-2">
           <button
+            type="button"
             onClick={() => setShowHint(!showHint)}
-            className="text-xs text-white/30 hover:text-white/50 transition-colors"
+            className="min-h-11 text-xs text-exp-on-surface-muted underline-offset-4 hover:text-exp-on-surface-variant hover:underline"
           >
-            {showHint ? "Hide hint" : "Show hint"}
+            {showHint
+              ? t("learning.grammar.hideHint")
+              : t("learning.grammar.showHint")}
           </button>
           {showHint && (
-            <p className="text-xs text-yellow-400/70 italic animate-fade-in-up">
+            <p className="text-xs italic text-exp-secondary animate-fade-in-up">
               {exercise.hint}
             </p>
           )}
@@ -121,20 +132,13 @@ export function FillBlank({ exercise, onAnswer }: FillBlankProps) {
       )}
 
       {showResult && (
-        <div className="animate-fade-in-up rounded-xl bg-[#252525] border border-[#333] p-4 space-y-2">
-          <p
-            className={`text-sm font-medium ${
-              correct ? "text-green-400" : "text-red-400"
-            }`}
-          >
-            {correct
-              ? "✓ Correct!"
-              : `✗ Not quite. The answer was: ${exercise.correctAnswer}`}
-          </p>
-          <p className="text-sm text-white/50 leading-relaxed">
-            {exercise.explanation}
-          </p>
-        </div>
+        <ExerciseFeedback
+          correct={correct}
+          explanation={exercise.explanation}
+          userAnswer={input}
+          correctAnswer={correctAnswer}
+          onContinue={handleContinue}
+        />
       )}
     </div>
   );

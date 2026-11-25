@@ -5,6 +5,7 @@ import {
   useContext,
   useState,
   useCallback,
+  useEffect,
   type ReactNode,
 } from "react";
 import type {
@@ -39,6 +40,7 @@ interface GrammarContextValue {
   submitExercise: (
     exercise: GrammarExercise,
     isCorrect: boolean,
+    answer: string,
   ) => void;
   addXp: (amount: number) => void;
   loseLife: () => void;
@@ -62,6 +64,37 @@ export function GrammarProvider({ children }: { children: ReactNode }) {
     lessonProgress: {},
     gamification: { ...INITIAL_GAMIFICATION },
   });
+
+  // Hydrate persisted progress from the server so a refresh does not erase it.
+  useEffect(() => {
+    let active = true;
+    fetch("/api/v1/progress/grammar", { cache: "no-store" })
+      .then(async (response) => {
+        if (!response.ok) return null;
+        return response.json();
+      })
+      .then((body) => {
+        if (!active || !body?.data) return;
+        const data = body.data;
+        setState((prev) => ({
+          ...prev,
+          completedLessonIds: Array.isArray(data.completedLessonIds)
+            ? data.completedLessonIds
+            : prev.completedLessonIds,
+          gamification: {
+            ...prev.gamification,
+            xp: data.stats?.xpTotal ?? prev.gamification.xp,
+            level: data.stats?.level ?? prev.gamification.level,
+            streak: data.stats?.streakCurrent ?? prev.gamification.streak,
+            lives: data.stats?.hearts ?? prev.gamification.lives,
+          },
+        }));
+      })
+      .catch(() => undefined);
+    return () => {
+      active = false;
+    };
+  }, []);
 
   const setCefrLevel = useCallback((level: CefrLevel) => {
     setState((prev) => ({
@@ -106,21 +139,23 @@ export function GrammarProvider({ children }: { children: ReactNode }) {
   }, []);
 
   const submitExercise = useCallback(
-    (exercise: GrammarExercise, isCorrect: boolean) => {
+    (exercise: GrammarExercise, isCorrect: boolean, answer: string) => {
+      const lessonId = state.activeLessonId;
+      const exerciseIndex = state.currentExerciseIndex;
+      const lesson = lessonId ? getLessonById(lessonId) : undefined;
+      const totalExercises = lesson?.exercises.length ?? 0;
+      const isLessonComplete =
+        Boolean(lessonId) && exerciseIndex + 1 >= totalExercises;
+
       setState((prev) => {
-        const lesson = prev.activeLessonId
-          ? getLessonById(prev.activeLessonId)
-          : undefined;
-        const totalExercises = lesson?.exercises.length ?? 0;
         const earnedPoints = isCorrect ? exercise.points : 0;
 
         const newResults = {
           ...prev.exerciseResults,
-          [exercise.id]: { correct: isCorrect, points: earnedPoints },
+          [exercise.id]: { correct: isCorrect, points: earnedPoints, answer },
         };
 
         const nextIndex = prev.currentExerciseIndex + 1;
-        const isLessonComplete = nextIndex >= totalExercises;
 
         const newCompletedIds = isLessonComplete
           ? prev.completedLessonIds.includes(prev.activeLessonId ?? "")
@@ -132,10 +167,8 @@ export function GrammarProvider({ children }: { children: ReactNode }) {
           ...prev.gamification,
           xp: prev.gamification.xp + earnedPoints,
           level: Math.min(
-            10,
-            Math.floor(
-              (prev.gamification.xp + earnedPoints) / 100,
-            ) + 1,
+            50,
+            Math.floor((prev.gamification.xp + earnedPoints) / 100) + 1,
           ),
           ...(isCorrect ? {} : { lives: Math.max(0, prev.gamification.lives - 1) }),
         };
@@ -150,8 +183,72 @@ export function GrammarProvider({ children }: { children: ReactNode }) {
           gamification: newGamification,
         };
       });
+
+      if (!lessonId) return;
+
+      const clientAttemptId =
+        typeof crypto !== "undefined" && "randomUUID" in crypto
+          ? crypto.randomUUID()
+          : `att-${Date.now()}-${Math.random().toString(36).slice(2)}`;
+
+      void fetch("/api/v1/attempts", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          clientAttemptId,
+          exerciseId: exercise.id,
+          answer,
+          timeSpentMs: 0,
+          exerciseIndex,
+        }),
+      })
+        .then(async (response) => {
+          if (!response.ok) return null;
+          return response.json();
+        })
+        .then((body) => {
+          const stats = body?.data?.stats;
+          if (!stats) return;
+          setState((prev) => ({
+            ...prev,
+            gamification: {
+              ...prev.gamification,
+              xp: stats.xpTotal,
+              level: stats.level,
+              ...(stats.streakCurrent !== undefined
+                ? { streak: stats.streakCurrent }
+                : {}),
+            },
+          }));
+        })
+        .catch(() => undefined);
+
+      if (isLessonComplete) {
+        void fetch(`/api/v1/lessons/${lessonId}/complete`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ lessonId }),
+        })
+          .then(async (response) => {
+            if (!response.ok) return null;
+            return response.json();
+          })
+          .then((body) => {
+            const data = body?.data;
+            if (!data) return;
+            setState((prev) => ({
+              ...prev,
+              gamification: {
+                ...prev.gamification,
+                xp: data.xpTotal ?? prev.gamification.xp,
+                level: data.level ?? prev.gamification.level,
+              },
+            }));
+          })
+          .catch(() => undefined);
+      }
     },
-    [],
+    [state.activeLessonId, state.currentExerciseIndex],
   );
 
   const addXp = useCallback((amount: number) => {

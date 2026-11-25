@@ -1,9 +1,12 @@
 "use client";
 
 import { useState, useCallback, useEffect, useRef } from "react";
+import { useTranslation } from "react-i18next";
+import { Timer, Volume2 } from "lucide-react";
 import { getNumberWord, getSpeechLang, generateOptions } from "./number-data";
-import { useSpeech } from "@/lib/use-speech";
+import { useSpeech, useSpeechGender } from "@/lib/use-speech";
 import type { LanguageCode, SpeedQuizType, SpeedQuizQuestion } from "./types";
+import { recordNumberAttempt } from "@/lib/learning/number-attempts";
 
 interface SpeedQuizPhaseProps {
   numbers: number[];
@@ -43,6 +46,7 @@ export function SpeedQuizPhase({
   onIncorrect,
   onComplete,
 }: SpeedQuizPhaseProps) {
+  const { t } = useTranslation();
   const [questions] = useState(() => generateQuiz(numbers, lang));
   const [currentIdx, setCurrentIdx] = useState(0);
   const [selected, setSelected] = useState<number | null>(null);
@@ -53,7 +57,8 @@ export function SpeedQuizPhase({
   const [startTime, setStartTime] = useState(0);
   const [score, setScore] = useState(0);
   const [hasStarted, setHasStarted] = useState(false);
-  const speak = useSpeech();
+  const { speak } = useSpeech();
+  const [voiceGender] = useSpeechGender(lang);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const onIncorrectRef = useRef(onIncorrect);
@@ -64,8 +69,10 @@ export function SpeedQuizPhase({
 
   const playCurrentAudio = useCallback(() => {
     if (!current) return;
-    speak(getNumberWord(current.number, lang), getSpeechLang(lang));
-  }, [current, lang, speak]);
+    speak(getNumberWord(current.number, lang), getSpeechLang(lang), {
+      gender: voiceGender,
+    });
+  }, [current, lang, speak, voiceGender]);
 
   useEffect(() => {
     if (!canProceed || !hasStarted) return;
@@ -119,6 +126,14 @@ export function SpeedQuizPhase({
 
     const correct = value === current?.answer;
     setIsCorrect(correct);
+    if (current) {
+      recordNumberAttempt({
+        languageCode: lang,
+        value: current.answer,
+        phase: "speed-quiz",
+        answer: value,
+      });
+    }
 
     if (correct) {
       const elapsed = (Date.now() - startTime) / 1000;
@@ -141,6 +156,12 @@ export function SpeedQuizPhase({
     const parsed = parseInt(typedAnswer.trim(), 10);
     const correct = parsed === current.answer;
     setIsCorrect(correct);
+    recordNumberAttempt({
+      languageCode: lang,
+      value: current.answer,
+      phase: "speed-quiz",
+      answer: parsed,
+    });
 
     if (correct) {
       const elapsed = (Date.now() - startTime) / 1000;
@@ -171,19 +192,34 @@ export function SpeedQuizPhase({
 
   if (!hasStarted) {
     return (
-      <div className="flex flex-col items-center justify-center gap-6 h-[60vh]">
-        <div className="text-center">
-          <p className="text-lg font-semibold text-white/90">Speed Quiz</p>
-          <p className="text-sm text-white/40 mt-1">
-            {QUESTION_COUNT} questions, {TIME_LIMIT}s each. Answer fast for bonus XP!
+      <div className="flex min-h-[360px] items-center justify-center px-2">
+        <div className="exp-card w-full max-w-md p-6 text-center">
+          <span className="mx-auto grid h-16 w-16 place-items-center rounded-2xl bg-exp-surface-low text-exp-tertiary">
+            <Timer className="h-8 w-8" aria-hidden="true" />
+          </span>
+          <p className="mt-4 text-sm font-semibold leading-6 text-exp-on-surface-variant">
+            {t("learning.number.speedQuizIntro", {
+              count: QUESTION_COUNT,
+              seconds: TIME_LIMIT,
+            })}
           </p>
+          <div className="mt-4 flex flex-wrap justify-center gap-2">
+            <span className="exp-pill bg-exp-surface-low text-exp-on-surface-variant">
+              {QUESTION_COUNT} {t("learning.common.question")}
+            </span>
+            <span className="exp-pill bg-exp-secondary-fixed text-exp-secondary">
+              <Timer className="h-3.5 w-3.5" aria-hidden="true" />
+              {TIME_LIMIT}s
+            </span>
+          </div>
+          <button
+            type="button"
+            onClick={() => setHasStarted(true)}
+            className="exp-btn exp-btn-primary mt-5 w-full"
+          >
+            {t("learning.number.startQuiz")}
+          </button>
         </div>
-        <button
-          onClick={() => setHasStarted(true)}
-          className="px-8 py-3 rounded-xl bg-[#d2ff5e] text-[#171717] font-semibold text-base hover:bg-[#c4f040] active:scale-[0.97] transition-all duration-150 shadow-lg shadow-[#d2ff5e]/20"
-        >
-          Start Quiz
-        </button>
       </div>
     );
   }
@@ -191,26 +227,29 @@ export function SpeedQuizPhase({
   if (!current) {
     return (
       <div className="flex items-center justify-center h-48">
-        <p className="text-white/60">No questions available.</p>
+        <p className="text-exp-on-surface-variant">{t("learning.number.noQuestions")}</p>
       </div>
     );
   }
 
   const timerPct = (timeLeft / TIME_LIMIT) * 100;
-  const timerColor = timerPct > 40 ? "#d2ff5e" : timerPct > 15 ? "#f59e0b" : "#ef4444";
+  const timerColor = timerPct > 40 ? "var(--exp-primary-container)" : timerPct > 15 ? "var(--exp-secondary-container)" : "var(--exp-error)";
 
   return (
     <div className="flex flex-col items-center gap-5">
       <div className="flex items-center justify-between w-full max-w-sm">
-        <span className="text-xs text-white/40">
-          Question {currentIdx + 1}/{questions.length}
+        <span className="text-xs text-exp-on-surface-muted">
+          {t("learning.number.questionOf", {
+            current: currentIdx + 1,
+            total: questions.length,
+          })}
         </span>
         <span className="text-xs font-semibold tabular-nums" style={{ color: timerColor }}>
-          Score: {score}
+          {t("learning.common.score")}: {score}
         </span>
       </div>
 
-      <div className="w-full max-w-sm h-1.5 rounded-full bg-[#252525] overflow-hidden">
+      <div className="w-full max-w-sm h-1.5 rounded-full bg-exp-surface-low overflow-hidden">
         <div
           className="h-full rounded-full transition-all duration-100 ease-linear"
           style={{ width: `${timerPct}%`, backgroundColor: timerColor }}
@@ -218,26 +257,30 @@ export function SpeedQuizPhase({
       </div>
 
       <div className="flex flex-col items-center gap-1">
-        <span className="text-[10px] text-white/20 uppercase tracking-widest">
-          {current.type === "listen" ? "Listen & Pick" : current.type === "see" ? "Read & Pick" : "Type the Number"}
+        <span className="text-xs text-exp-on-surface-muted uppercase tracking-widest">
+          {current.type === "listen"
+            ? t("learning.number.listenAndPick")
+            : current.type === "see"
+              ? t("learning.number.readAndPick")
+              : t("learning.number.typeTheNumber")}
         </span>
         {current.type === "listen" && (
           <button
+            type="button"
             onClick={playCurrentAudio}
             disabled={showResult}
-            className="flex items-center justify-center w-14 h-14 rounded-full bg-gradient-to-b from-[#2a2a2a] to-[#222] border border-[#d2ff5e]/30 hover:border-[#d2ff5e]/60 hover:shadow-[0_0_20px_-6px_#d2ff5e] transition-all active:scale-95"
+            aria-label={t("learning.audio.play")}
+            className="flex h-14 w-14 items-center justify-center rounded-full border border-exp-primary-container/30 bg-exp-surface-lowest transition-colors hover:border-exp-primary-container/60 active:scale-95"
           >
-            <svg className="w-6 h-6 text-[#d2ff5e]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-              <path strokeLinecap="round" strokeLinejoin="round" d="M19.114 5.636a9 9 0 010 12.728M16.463 8.288a5.25 5.25 0 010 7.424M6.75 8.25l4.72-4.72a.75.75 0 011.28.53v15.88a.75.75 0 01-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.009 9.009 0 012.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75z" />
-            </svg>
+            <Volume2 className="h-6 w-6 text-exp-primary" aria-hidden="true" />
           </button>
         )}
         {current.type === "see" && (
-          <span className="text-5xl font-bold text-white">{current.number}</span>
+          <span className="text-5xl font-bold text-exp-on-surface">{current.number}</span>
         )}
         {current.type === "type" && (
           <div className="text-center">
-            <p className="text-xl font-semibold text-white/60 mb-3">&quot;{current.word}&quot;</p>
+            <p className="text-xl font-semibold text-exp-on-surface-variant mb-3">&quot;{current.word}&quot;</p>
             <input
               ref={inputRef}
               type="number"
@@ -247,8 +290,9 @@ export function SpeedQuizPhase({
                 if (e.key === "Enter") handleTypeSubmit();
               }}
               disabled={showResult}
-              placeholder="Type the number..."
-              className="w-40 text-center px-4 py-3 rounded-xl bg-[#252525] border border-[#444] text-white text-xl font-bold placeholder:text-white/15 focus:outline-none focus:border-[#d2ff5e]/50 focus:ring-2 focus:ring-[#d2ff5e]/20 transition-all duration-150"
+              placeholder={t("learning.number.typeNumberPlaceholder")}
+              aria-label={t("learning.number.typeNumber")}
+              className="w-40 text-center px-4 py-3 rounded-xl bg-exp-surface-low border border-exp-outline-variant text-exp-on-surface text-xl font-bold placeholder:text-exp-on-surface-muted focus:outline-none focus:border-exp-primary-container/50 focus:ring-2 focus:ring-exp-primary/20 transition-all duration-150"
             />
           </div>
         )}
@@ -264,14 +308,14 @@ export function SpeedQuizPhase({
 
             if (!showResult) {
               classes +=
-                "bg-[#252525] border-[#333] text-white hover:bg-[#2e2e2e] hover:border-[#555] active:scale-[0.95]";
+                "bg-exp-surface-low border-exp-container-high text-exp-on-surface hover:bg-exp-container-high hover:border-exp-outline-variant active:scale-[0.95]";
             } else if (answer) {
               classes +=
-                "bg-green-600/20 border-green-500 text-green-400 scale-[1.02]";
+                "bg-exp-primary-container/20 border-exp-success text-exp-success scale-[1.02]";
             } else if (picked && !answer) {
-              classes += "bg-red-600/20 border-red-500/60 text-red-400";
+              classes += "bg-exp-error/20 border-exp-error/60 text-exp-error";
             } else {
-              classes += "bg-[#1e1e1e] border-[#2a2a2a] text-white/20";
+              classes += "bg-exp-surface-lowest border-exp-container-high text-exp-on-surface-muted";
             }
 
             return (
@@ -282,7 +326,7 @@ export function SpeedQuizPhase({
                 disabled={showResult}
               >
                 {showResult && answer && (
-                  <span className="absolute -top-2 -right-2 flex items-center justify-center w-5 h-5 rounded-full bg-green-500 text-white text-xs">
+                  <span className="absolute -top-2 -right-2 flex items-center justify-center w-5 h-5 rounded-full bg-exp-primary-container text-exp-on-surface text-xs">
                     ✓
                   </span>
                 )}
@@ -295,10 +339,11 @@ export function SpeedQuizPhase({
 
       {current.type === "type" && !showResult && (
         <button
+          type="button"
           onClick={handleTypeSubmit}
-          className="px-6 py-2 rounded-xl bg-[#d2ff5e] text-[#171717] font-semibold text-sm hover:bg-[#c4f040] active:scale-[0.97] transition-all duration-150"
+          className="exp-btn exp-btn-primary"
         >
-          Submit
+          {t("learning.common.submit")}
         </button>
       )}
 
@@ -307,25 +352,29 @@ export function SpeedQuizPhase({
           <div
             className={`px-5 py-2 rounded-full text-sm font-medium ${
               isCorrect
-                ? "bg-green-500/10 text-green-400 border border-green-500/20"
-                : "bg-red-500/10 text-red-400 border border-red-500/20"
+                ? "bg-exp-primary-container/10 text-exp-success border border-exp-success/20"
+                : "bg-exp-error/10 text-exp-error border border-exp-error/20"
             }`}
           >
             {isCorrect ? (
               <span className="flex items-center gap-2">
-                {timeLeft >= TIME_LIMIT - FAST_THRESHOLD ? "⚡ Fast! +15 XP" : "✅ Correct! +10 XP"}
+                {timeLeft >= TIME_LIMIT - FAST_THRESHOLD
+                  ? t("learning.number.speedFast", { xp: 15 })
+                  : t("learning.number.speedCorrect", { xp: 10 })}
               </span>
             ) : (
               <span className="flex items-center gap-2">
-                Answer: <span className="font-bold">{current.answer}</span>
+                {t("learning.number.answerWas", { answer: current.answer })}
               </span>
             )}
           </div>
           <button
             onClick={handleNext}
-            className="px-8 py-2.5 rounded-xl bg-[#d2ff5e] text-[#171717] font-semibold text-sm hover:bg-[#c4f040] active:scale-[0.97] transition-all duration-150 shadow-lg shadow-[#d2ff5e]/20"
+            className="exp-btn exp-btn-primary"
           >
-            {currentIdx + 1 >= questions.length ? "See Results" : "Next"}
+            {currentIdx + 1 >= questions.length
+              ? t("learning.number.seeResults")
+              : t("learning.common.next")}
           </button>
         </div>
       )}

@@ -1,8 +1,11 @@
 "use client";
 
+import { useEffect, useState } from "react";
+import { Construction } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import { useModule } from "./module-context";
 import { PHASES, LEVELS } from "./types";
-import { GamificationBar } from "./gamification-bar";
+import { GamificationBar } from "@/components/editor/shared/gamification-strip";
 import { FlashcardPhase } from "./flashcard-phase";
 import { ListenPickPhase } from "./listen-pick-phase";
 import { TapNumberPhase } from "./tap-number-phase";
@@ -10,26 +13,84 @@ import { SpellPhase } from "./spell-phase";
 import { SpeedQuizPhase } from "./speed-quiz-phase";
 import { SurvivalPhase } from "./survival-phase";
 import { MasteryPhase } from "./mastery-phase";
+import { SpeechVoicePicker } from "@/components/shared/speech-voice-picker";
 import type { LanguageCode, PhaseId } from "./types";
+import {
+  NUMBER_ATTEMPT_EVENT,
+} from "@/lib/learning/number-attempts";
 
 interface NumberNameModuleProps {
   lang?: LanguageCode;
 }
 
-export function NumberNameModule({
-  lang = "en",
-}: NumberNameModuleProps) {
-  const { state, setLevel, goToPhase, nextPhase, addXp, loseLife, addStreak, resetStreak, resetModule } =
-    useModule();
+interface PersistedNumberProgress {
+  totalAttempts: number;
+  accuracyPercent: number;
+  distinctNumbers: number;
+}
 
-  const currentLevel = LEVELS.find((l) => l.id === state.activeLevelId) ?? LEVELS[0];
-  const currentPhase = PHASES.find((p) => p.id === state.currentPhase) ?? PHASES[0];
+export function NumberNameModule({ lang = "en" }: NumberNameModuleProps) {
+  const { t } = useTranslation();
+  const [persisted, setPersisted] = useState<PersistedNumberProgress | null>(
+    null,
+  );
+  const {
+    state,
+    setLevel,
+    goToPhase,
+    nextPhase,
+    addXp,
+    loseLife,
+    addStreak,
+    resetStreak,
+  } = useModule();
+
+  useEffect(() => {
+    let cancelled = false;
+
+    const load = () => {
+      fetch(`/api/v1/number-attempts?language=${lang}`, {
+        headers: { Accept: "application/json" },
+      })
+        .then((response) => (response.ok ? response.json() : null))
+        .then((body) => {
+          if (!cancelled && body?.data) {
+            setPersisted({
+              totalAttempts: body.data.totalAttempts ?? 0,
+              accuracyPercent: body.data.accuracyPercent ?? 0,
+              distinctNumbers: body.data.distinctNumbers ?? 0,
+            });
+          }
+        })
+        .catch(() => undefined);
+    };
+
+    load();
+    const onAttempt = () => load();
+    window.addEventListener(NUMBER_ATTEMPT_EVENT, onAttempt);
+    return () => {
+      cancelled = true;
+      window.removeEventListener(NUMBER_ATTEMPT_EVENT, onAttempt);
+    };
+  }, [lang]);
+
+  const currentLevel =
+    LEVELS.find((l) => l.id === state.activeLevelId) ?? LEVELS[0];
+  const currentPhase =
+    PHASES.find((p) => p.id === state.currentPhase) ?? PHASES[0];
 
   const isPhaseComplete = (phaseId: PhaseId) =>
     state.completedPhases.includes(phaseId);
 
+  const phaseLabel = (id: PhaseId) =>
+    t(`learning.phases.${id}.label`, { defaultValue: id });
+  const phaseHeading = (id: PhaseId) =>
+    t(`learning.phases.${id}.heading`, { defaultValue: phaseLabel(id) });
+  const phaseSub = (id: PhaseId) =>
+    t(`learning.phases.${id}.sub`, { defaultValue: "" });
+
   return (
-    <div className="flex flex-col h-full w-full bg-gradient-to-b from-[#1a1a1a] to-[#151515] overflow-hidden">
+    <div className="flex h-full w-full flex-col overflow-hidden bg-exp-surface">
       <GamificationBar
         xp={state.gamification.xp}
         level={state.gamification.level}
@@ -37,16 +98,28 @@ export function NumberNameModule({
         streak={state.gamification.streak}
       />
 
-      <div className="shrink-0 border-b border-[#252525]">
-        <div className="flex items-center gap-2 px-6 py-3 overflow-x-auto no-scrollbar">
+      <p
+        className="shrink-0 border-b border-exp-container-high bg-exp-surface-lowest px-6 py-2 text-center text-xs text-exp-on-surface-muted"
+        aria-live="polite"
+      >
+        {persisted && persisted.totalAttempts > 0
+          ? t("learning.number.persisted", {
+              count: persisted.totalAttempts,
+              accuracy: persisted.accuracyPercent,
+            })
+          : t("learning.number.persistedEmpty")}
+      </p>
+
+      <div className="shrink-0 border-b border-exp-container-high">
+        <div className="no-scrollbar flex items-center gap-2 overflow-x-auto px-6 py-3">
           {LEVELS.map((level) => (
             <button
               key={level.id}
+              type="button"
               onClick={() => setLevel(level.id)}
-              className={`shrink-0 px-3.5 py-1.5 rounded-full text-xs font-medium transition-all duration-200 ${
-                state.activeLevelId === level.id
-                  ? "bg-[#d2ff5e] text-[#171717] shadow-[0_0_12px_-4px_#d2ff5e]"
-                  : "bg-[#252525] text-white/50 hover:bg-[#333] hover:text-white/70 border border-[#2a2a2a]"
+              aria-pressed={state.activeLevelId === level.id}
+              className={`exp-chip shrink-0 ${
+                state.activeLevelId === level.id ? "exp-chip-active" : ""
               }`}
             >
               {level.label}
@@ -54,28 +127,41 @@ export function NumberNameModule({
           ))}
         </div>
 
-        <div className="flex items-center gap-1.5 px-6 pb-3 overflow-x-auto no-scrollbar">
+        <div className="no-scrollbar flex items-center gap-1.5 overflow-x-auto px-6 pb-3">
           {PHASES.map((phase) => {
             const active = state.currentPhase === phase.id;
             const done = isPhaseComplete(phase.id);
             return (
               <button
                 key={phase.id}
+                type="button"
                 onClick={() => goToPhase(phase.id)}
-                className={`shrink-0 flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium transition-all duration-200 ${
+                aria-current={active ? "step" : undefined}
+                className={`exp-chip shrink-0 ${
                   active
-                    ? "bg-white/10 text-white border border-white/15 shadow-sm"
+                    ? "exp-chip-active"
                     : done
-                      ? "text-green-400/70 hover:bg-white/5"
-                      : "text-white/30 hover:text-white/50 hover:bg-white/5"
+                      ? "text-exp-success"
+                      : "text-exp-on-surface-muted"
                 }`}
               >
                 {done && (
-                  <svg className="w-3 h-3 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                  <svg
+                    className="mr-1 inline h-3 w-3 text-exp-success"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={3}
+                    aria-hidden="true"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M4.5 12.75l6 6 9-13.5"
+                    />
                   </svg>
                 )}
-                {phase.label}
+                {phaseLabel(phase.id)}
               </button>
             );
           })}
@@ -84,12 +170,20 @@ export function NumberNameModule({
 
       <div className="flex-1 overflow-y-auto">
         <div className="mx-auto w-full max-w-3xl px-6 py-8">
+          <header className="mb-8 text-center">
+            <h1 className="text-lg font-semibold text-exp-on-surface">
+              {phaseHeading(state.currentPhase)}
+            </h1>
+            <p className="mt-1 text-sm text-exp-on-surface-variant">
+              {phaseSub(state.currentPhase)}
+            </p>
+            <div className="mt-3 flex justify-center">
+              <SpeechVoicePicker language={lang} />
+            </div>
+          </header>
+
           {state.currentPhase === "flashcard" && (
             <div className="animate-fade-in-up">
-              <div className="text-center mb-8">
-                <h2 className="text-lg font-semibold text-white/90">Number Flashcard</h2>
-                <p className="text-sm text-white/40 mt-1">Tap each card to see the name and hear pronunciation</p>
-              </div>
               <FlashcardPhase
                 numbers={currentLevel.numbers}
                 lang={lang}
@@ -103,10 +197,6 @@ export function NumberNameModule({
 
           {state.currentPhase === "listen-pick" && (
             <div className="animate-fade-in-up">
-              <div className="text-center mb-8">
-                <h2 className="text-lg font-semibold text-white/90">Listen & Pick</h2>
-                <p className="text-sm text-white/40 mt-1">Hear a number — choose the right answer</p>
-              </div>
               <ListenPickPhase
                 numbers={currentLevel.numbers}
                 lang={lang}
@@ -125,10 +215,6 @@ export function NumberNameModule({
 
           {state.currentPhase === "tap-number" && (
             <div className="animate-fade-in-up">
-              <div className="text-center mb-8">
-                <h2 className="text-lg font-semibold text-white/90">Tap the Number</h2>
-                <p className="text-sm text-white/40 mt-1">Find the number before time runs out</p>
-              </div>
               <TapNumberPhase
                 numbers={currentLevel.numbers}
                 lang={lang}
@@ -147,19 +233,11 @@ export function NumberNameModule({
 
           {state.currentPhase === "spell" && (
             <div className="animate-fade-in-up">
-              <div className="text-center mb-8">
-                <h2 className="text-lg font-semibold text-white/90">Spell the Number</h2>
-                <p className="text-sm text-white/40 mt-1">Arrange letters to spell the number correctly</p>
-              </div>
               <SpellPhase
                 numbers={currentLevel.numbers}
                 lang={lang}
                 onCorrect={(xp, noHint) => {
-                  if (!noHint) {
-                    addXp(xp - 5);
-                  } else {
-                    addXp(xp);
-                  }
+                  addXp(noHint ? xp : xp - 5);
                   addStreak();
                 }}
                 onComplete={() => nextPhase()}
@@ -169,10 +247,6 @@ export function NumberNameModule({
 
           {state.currentPhase === "speed-quiz" && (
             <div className="animate-fade-in-up">
-              <div className="text-center mb-8">
-                <h2 className="text-lg font-semibold text-white/90">Speed Quiz</h2>
-                <p className="text-sm text-white/40 mt-1">Answer quickly under pressure — bonus XP for fast answers</p>
-              </div>
               <SpeedQuizPhase
                 numbers={currentLevel.numbers}
                 lang={lang}
@@ -194,10 +268,6 @@ export function NumberNameModule({
 
           {state.currentPhase === "survival" && (
             <div className="animate-fade-in-up">
-              <div className="text-center mb-8">
-                <h2 className="text-lg font-semibold text-white/90">Survival Mode</h2>
-                <p className="text-sm text-white/40 mt-1">Stay alive as long as you can — answer quickly or lose a life</p>
-              </div>
               <SurvivalPhase
                 numbers={currentLevel.numbers}
                 lang={lang}
@@ -219,10 +289,6 @@ export function NumberNameModule({
 
           {state.currentPhase === "mastery" && (
             <div className="animate-fade-in-up">
-              <div className="text-center mb-8">
-                <h2 className="text-lg font-semibold text-white/90">Mastery Test</h2>
-                <p className="text-sm text-white/40 mt-1">Prove you've mastered numbers in this level</p>
-              </div>
               <MasteryPhase
                 numbers={currentLevel.numbers}
                 lang={lang}
@@ -243,19 +309,19 @@ export function NumberNameModule({
             </div>
           )}
 
-          {state.currentPhase !== "flashcard" &&
-            state.currentPhase !== "listen-pick" &&
-            state.currentPhase !== "tap-number" &&
-            state.currentPhase !== "spell" &&
-            state.currentPhase !== "speed-quiz" &&
-            state.currentPhase !== "survival" &&
-            state.currentPhase !== "mastery" && (
-              <div className="flex flex-col items-center justify-center h-[60vh] text-white/30 gap-4">
-                <div className="text-6xl opacity-50">🚧</div>
-                <p className="text-base font-medium text-white/50">{currentPhase.label}</p>
-                <p className="text-sm text-white/20">This phase is under development.</p>
-              </div>
-            )}
+          {!PHASES.some((phase) => phase.id === state.currentPhase) && (
+            <div className="flex h-[60vh] flex-col items-center justify-center gap-4 text-exp-on-surface-muted">
+              <span className="grid h-16 w-16 place-items-center rounded-2xl bg-exp-secondary-fixed text-exp-secondary">
+                <Construction className="h-8 w-8" aria-hidden="true" />
+              </span>
+              <p className="text-base font-extrabold text-exp-on-surface-variant">
+                {currentPhase.label}
+              </p>
+              <p className="text-sm">
+                {t("learning.number.phaseUnderDevelopment")}
+              </p>
+            </div>
+          )}
         </div>
       </div>
     </div>

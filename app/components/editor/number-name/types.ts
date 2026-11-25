@@ -96,9 +96,9 @@ export const PHASES: PhaseDef[] = [
 export const LEVELS: NumberLevel[] = [
   { id: 1, label: "0–10", numbers: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] },
   { id: 2, label: "11–20", numbers: [11, 12, 13, 14, 15, 16, 17, 18, 19, 20] },
-  { id: 3, label: "Tens (20–90)", numbers: [20, 30, 40, 50, 60, 70, 80, 90] },
+  { id: 3, label: "20–90", numbers: [20, 30, 40, 50, 60, 70, 80, 90] },
   { id: 4, label: "21–99", numbers: [21, 32, 43, 54, 65, 76, 87, 98] },
   { id: 5, label: "100–900", numbers: [100, 200, 300, 400, 500, 600, 700, 800, 900] },
-  { id: 6, label: "Thousands", numbers: [1000, 2000, 5000, 9999] },
-  { id: 7, label: "Millions", numbers: [1_000_000, 2_500_000, 10_000_000] },
+  { id: 6, label: "1,000–9,999", numbers: [1000, 2000, 5000, 9999] },
+  { id: 7, label: "1,000,000+", numbers: [1_000_000, 2_500_000, 10_000_000] },
 ];

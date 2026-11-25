@@ -58,7 +58,8 @@ export function ModuleProvider({ children }: { children: ReactNode }) {
       activeLevelId: id,
       currentPhase: "flashcard",
       phaseIndex: 0,
-      gamification: { ...INITIAL_GAMIFICATION },
+      // Keep XP/streak across levels; only reset lives for the new level.
+      gamification: { ...prev.gamification, lives: 3 },
       completedPhases: [],
     }));
   }, []);
