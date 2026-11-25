@@ -51,6 +51,41 @@
   --state-warning: #d97706;
   --accent-xp: #f59e0b;
   --accent-live: #ef4444;
+
+  /* Lango Expedition (story-first gamified learning) */
+  --exp-surface: #f9f9ff;
+  --exp-surface-lowest: #ffffff;
+  --exp-surface-low: #f0f3ff;
+  --exp-container: #e7eeff;
+  --exp-container-high: #dee8ff;
+  --exp-container-highest: #d8e3fb;
+  --exp-primary: #006c49;
+  --exp-primary-container: #10b981;
+  --exp-on-primary: #ffffff;
+  --exp-on-primary-container: #00422b;
+  --exp-primary-fixed: #6ffbbe;
+  --exp-primary-fixed-dim: #4edea3;
+  --exp-secondary: #855300;
+  --exp-secondary-container: #fea619;
+  --exp-secondary-fixed: #ffddb8;
+  --exp-secondary-fixed-dim: #ffb95f;
+  --exp-on-secondary-container: #684000;
+  --exp-tertiary: #494bd6;
+  --exp-tertiary-container: #9699ff;
+  --exp-tertiary-fixed: #e1e0ff;
+  --exp-on-tertiary-fixed: #07006c;
+  --exp-error: #ba1a1a;
+  --exp-success: #15803d;
+  --exp-on-surface: #111c2d;
+  --exp-on-surface-variant: #3c4a42;
+  --exp-on-surface-muted: #55655c;
+  --exp-outline: #6c7a71;
+  --exp-outline-variant: #bbcabf;
+  --exp-inverse-surface: #263143;
+  --exp-inverse-on-surface: #ecf1ff;
+  --exp-slate: #1e293b;
+  --exp-cream: #fffdf7;
+  --exp-shadow-soft: 0 8px 24px -4px rgba(30, 41, 59, 0.12);
 }
 
 @theme inline {
@@ -110,12 +145,705 @@
   --color-state-warning: var(--state-warning);
   --color-accent-xp: var(--accent-xp);
   --color-accent-live: var(--accent-live);
+
+  /* Lango Expedition mapped tokens */
+  --color-exp-surface: var(--exp-surface);
+  --color-exp-surface-lowest: var(--exp-surface-lowest);
+  --color-exp-surface-low: var(--exp-surface-low);
+  --color-exp-container: var(--exp-container);
+  --color-exp-container-high: var(--exp-container-high);
+  --color-exp-container-highest: var(--exp-container-highest);
+  --color-exp-primary: var(--exp-primary);
+  --color-exp-primary-container: var(--exp-primary-container);
+  --color-exp-on-primary: var(--exp-on-primary);
+  --color-exp-on-primary-container: var(--exp-on-primary-container);
+  --color-exp-primary-fixed: var(--exp-primary-fixed);
+  --color-exp-primary-fixed-dim: var(--exp-primary-fixed-dim);
+  --color-exp-secondary: var(--exp-secondary);
+  --color-exp-secondary-container: var(--exp-secondary-container);
+  --color-exp-secondary-fixed: var(--exp-secondary-fixed);
+  --color-exp-secondary-fixed-dim: var(--exp-secondary-fixed-dim);
+  --color-exp-on-secondary-container: var(--exp-on-secondary-container);
+  --color-exp-tertiary: var(--exp-tertiary);
+  --color-exp-tertiary-container: var(--exp-tertiary-container);
+  --color-exp-tertiary-fixed: var(--exp-tertiary-fixed);
+  --color-exp-on-tertiary-fixed: var(--exp-on-tertiary-fixed);
+  --color-exp-error: var(--exp-error);
+  --color-exp-success: var(--exp-success);
+  --color-exp-on-surface: var(--exp-on-surface);
+  --color-exp-on-surface-variant: var(--exp-on-surface-variant);
+  --color-exp-on-surface-muted: var(--exp-on-surface-muted);
+  --color-exp-outline: var(--exp-outline);
+  --color-exp-outline-variant: var(--exp-outline-variant);
+  --color-exp-inverse-surface: var(--exp-inverse-surface);
+  --color-exp-inverse-on-surface: var(--exp-inverse-on-surface);
+  --color-exp-slate: var(--exp-slate);
+  --color-exp-cream: var(--exp-cream);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: "Plus Jakarta Sans", Arial, Helvetica, sans-serif;
+}
+
+/* -------------------------------------------------------------------------
+   Lango Expedition component primitives
+   Tactile, chunky, game-like surfaces. Tokens only — no raw color utilities.
+   ------------------------------------------------------------------------- */
+.exp-card {
+  background: var(--exp-surface-lowest);
+  border-radius: 1.25rem;
+  border-bottom: 4px solid var(--exp-container-highest);
+  box-shadow: 0 1px 0 rgba(17, 28, 45, 0.04), 0 8px 24px -18px rgba(17, 28, 45, 0.35);
+}
+
+.exp-card-soft {
+  background: var(--exp-surface-low);
+  border-radius: 1rem;
+  box-shadow: inset 0 0 0 1px rgba(17, 28, 45, 0.03);
+}
+
+.exp-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 2.75rem;
+  border-radius: 0.9rem;
+  padding: 0.6rem 1.15rem;
+  font-size: 0.875rem;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  transition: transform 120ms ease, box-shadow 120ms ease, filter 120ms ease;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.exp-btn:focus-visible {
+  outline: 3px solid var(--exp-tertiary-container);
+  outline-offset: 2px;
+}
+
+.exp-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.exp-btn-primary {
+  background: var(--exp-primary-container);
+  color: var(--exp-on-primary-container);
+  box-shadow: 0 4px 0 var(--exp-primary);
+}
+
+.exp-btn-primary:hover {
+  filter: brightness(1.04);
+}
+
+.exp-btn-primary:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 var(--exp-primary);
+}
+
+.exp-btn-amber {
+  background: var(--exp-secondary-container);
+  color: var(--exp-on-secondary-container);
+  box-shadow: 0 4px 0 var(--exp-secondary);
+}
+
+.exp-btn-amber:hover {
+  filter: brightness(1.04);
+}
+
+.exp-btn-amber:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 var(--exp-secondary);
+}
+
+.exp-btn-ghost {
+  background: var(--exp-surface-lowest);
+  color: var(--exp-on-surface);
+  box-shadow: 0 3px 0 var(--exp-container-highest);
+  border: 1px solid var(--exp-container-highest);
+}
+
+.exp-btn-ghost:hover {
+  background: var(--exp-surface-low);
+}
+
+.exp-btn-ghost:active {
+  transform: translateY(2px);
+  box-shadow: 0 1px 0 var(--exp-container-highest);
+}
+
+.exp-btn-soft {
+  background: var(--exp-surface-low);
+  color: var(--exp-on-surface);
+  border: 1px solid var(--exp-container-high);
+}
+
+.exp-btn-soft:hover {
+  background: var(--exp-container);
+}
+
+/* Compact segmented control chip (level / phase rails) */
+.exp-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  border-radius: 9999px;
+  border: 1px solid var(--exp-container-high);
+  background: var(--exp-surface-low);
+  padding: 0.5rem 0.875rem;
+  font-size: 0.75rem;
+  font-weight: 800;
+  line-height: 1;
+  color: var(--exp-on-surface-variant);
+  transition: background 120ms ease, color 120ms ease, box-shadow 120ms ease, border-color 120ms ease;
+  cursor: pointer;
+}
+
+.exp-chip:hover {
+  background: var(--exp-container);
+  color: var(--exp-on-surface);
+}
+
+.exp-chip:focus-visible {
+  outline: 3px solid var(--exp-tertiary-container);
+  outline-offset: 2px;
+}
+
+.exp-chip-active {
+  border-color: transparent;
+  background: var(--exp-primary-container);
+  color: var(--exp-on-primary-container);
+  box-shadow: 0 3px 0 var(--exp-primary);
+}
+
+.exp-chip-active:hover {
+  background: var(--exp-primary-container);
+  color: var(--exp-on-primary-container);
+}
+
+.exp-chip:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+/* Answer selection card (2px outline + tactile base lift) */
+.exp-answer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  min-height: 3.25rem;
+  border-radius: 1rem;
+  border: 2px solid var(--exp-container-high);
+  background: var(--exp-surface-lowest);
+  padding: 0.85rem 1rem;
+  text-align: left;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--exp-on-surface);
+  box-shadow: 0 3px 0 var(--exp-container-high);
+  transition: transform 120ms ease, box-shadow 120ms ease, border-color 120ms ease, background 120ms ease, color 120ms ease;
+  cursor: pointer;
+}
+
+.exp-answer:hover:not(:disabled) {
+  border-color: var(--exp-outline-variant);
+  background: var(--exp-surface-low);
+}
+
+.exp-answer:active:not(:disabled) {
+  transform: translateY(2px);
+  box-shadow: 0 1px 0 var(--exp-container-high);
+}
+
+.exp-answer:focus-visible {
+  outline: 3px solid var(--exp-tertiary-container);
+  outline-offset: 2px;
+}
+
+.exp-answer:disabled {
+  cursor: default;
+}
+
+.exp-answer-selected {
+  border-color: var(--exp-primary-container);
+  background: rgba(16, 185, 129, 0.08);
+}
+
+.exp-answer-correct {
+  border-color: var(--exp-success);
+  background: rgba(21, 128, 61, 0.08);
+  color: var(--exp-success);
+  box-shadow: 0 3px 0 rgba(21, 128, 61, 0.3);
+}
+
+.exp-answer-wrong {
+  border-color: var(--exp-error);
+  background: rgba(186, 26, 26, 0.07);
+  color: var(--exp-error);
+  box-shadow: 0 3px 0 rgba(186, 26, 26, 0.28);
+}
+
+.exp-answer-muted {
+  color: var(--exp-on-surface-muted);
+  box-shadow: none;
+}
+
+.exp-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  border-radius: 9999px;
+  padding: 0.3rem 0.7rem;
+  font-size: 0.7rem;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: 0.03em;
+}
+
+.exp-progress {
+  height: 0.85rem;
+  border-radius: 9999px;
+  background: var(--exp-container-highest);
+  box-shadow: inset 0 2px 4px rgba(17, 28, 45, 0.12);
+  overflow: hidden;
+  padding: 0.15rem;
+}
+
+.exp-progress > span {
+  position: relative;
+  display: block;
+  height: 100%;
+  border-radius: 9999px;
+  background: linear-gradient(90deg, var(--exp-primary-container), var(--exp-primary-fixed-dim));
+  box-shadow: 0 0 8px rgba(16, 185, 129, 0.35);
+  transition: width 500ms ease;
+  overflow: hidden;
+}
+
+.exp-progress > span::after {
+  content: "";
+  position: absolute;
+  inset: 0 0 50% 0;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 9999px;
+}
+
+.exp-progress-amber > span {
+  background: linear-gradient(90deg, var(--exp-secondary-container), var(--exp-secondary-fixed));
+  box-shadow: 0 0 8px rgba(254, 166, 25, 0.35);
+}
+
+.exp-bubble {
+  position: relative;
+  background: var(--exp-surface-lowest);
+  border: 2px solid var(--exp-on-surface-variant);
+  border-radius: 1.25rem;
+}
+
+.exp-bubble::after {
+  content: "";
+  position: absolute;
+  left: -9px;
+  bottom: 1.35rem;
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 10px solid var(--exp-on-surface-variant);
+}
+
+.exp-bubble::before {
+  content: "";
+  position: absolute;
+  left: -5px;
+  bottom: 1.5rem;
+  z-index: 1;
+  width: 0;
+  height: 0;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-right: 8px solid var(--exp-surface-lowest);
+}
+
+.exp-tactile-node {
+  display: grid;
+  place-items: center;
+  border-radius: 9999px;
+  background: var(--exp-primary-container);
+  color: var(--exp-on-primary-container);
+  box-shadow: 0 6px 0 var(--exp-primary);
+  transition: transform 150ms ease, box-shadow 150ms ease;
+}
+
+.exp-tactile-node:hover {
+  transform: translateY(-1px) scale(1.04);
+}
+
+.exp-tactile-node:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px 0 var(--exp-primary);
+}
+
+.exp-quest-locked {
+  background: var(--exp-container-highest);
+  color: var(--exp-on-surface-variant);
+  box-shadow: 0 5px 0 var(--exp-outline-variant);
+}
+
+.exp-dotted-map {
+  background-image: radial-gradient(var(--exp-outline-variant) 1.2px, transparent 1.2px);
+  background-size: 22px 22px;
+}
+
+.exp-scroll-hide {
+  scrollbar-width: none;
+}
+.exp-scroll-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.exp-hero {
+  background:
+    radial-gradient(420px 240px at 88% 12%, rgba(254, 166, 25, 0.28), transparent 70%),
+    radial-gradient(520px 320px at 78% 100%, rgba(255, 255, 255, 0.16), transparent 70%),
+    linear-gradient(102deg, var(--exp-primary), var(--exp-primary-container));
+}
+
+.exp-hero-glow {
+  background:
+    radial-gradient(420px 240px at 88% 12%, rgba(254, 166, 25, 0.25), transparent 70%),
+    radial-gradient(520px 320px at 78% 100%, rgba(255, 255, 255, 0.16), transparent 70%);
+}
+
+@keyframes exp-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+@keyframes exp-pulse-ring {
+  0% {
+    transform: scale(0.85);
+    opacity: 0.55;
+  }
+  70% {
+    transform: scale(1.35);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1.35);
+    opacity: 0;
+  }
+}
+
+.exp-float {
+  animation: exp-float 3.4s ease-in-out infinite;
+}
+
+.exp-pulse-ring::before {
+  content: "";
+  position: absolute;
+  inset: -0.75rem;
+  border-radius: 9999px;
+  background: var(--exp-primary-container);
+  animation: exp-pulse-ring 2.4s ease-out infinite;
+  z-index: -1;
+}
+
+/* -------------------------------------------------------------------------
+   Learning ambience — a workplace window behind the expedition shell.
+   The layer is fixed, aria-hidden and pointer-transparent; shell content is
+   lifted above it so every card keeps its own opaque, readable surface.
+   Phase palettes are data attributes on the layer (`data-amb-phase`).
+   ------------------------------------------------------------------------- */
+
+:root {
+  --amb-petal-light: #ffd7e8;
+  --amb-petal-deep: #ff7fb8;
+  --amb-snow: #ffffff;
+  --amb-snow-shadow: rgba(92, 126, 176, 0.62);
+  --amb-rain: #86b0d8;
+
+  /* Default palette = day */
+  --amb-sky-top: #dcecff;
+  --amb-sky-mid: #eef4ff;
+  --amb-sky-bottom: #f9f9ff;
+  --amb-scrim: rgba(249, 249, 255, 0.6);
+  --amb-hill-far: #bfd3e8;
+  --amb-hill-near: #9fb9d4;
+  --amb-celestial: #ffd692;
+  --amb-celestial-glow: rgba(255, 214, 146, 0.45);
+  --amb-star-opacity: 0;
+  --amb-vignette: rgba(17, 28, 45, 0.06);
+  --amb-tint: rgba(255, 244, 224, 0.08);
+}
+
+[data-amb-phase="day"] {
+  --amb-sky-top: #bcdcff;
+  --amb-sky-mid: #e6f0ff;
+  --amb-sky-bottom: #f9f9ff;
+  --amb-scrim: rgba(249, 249, 255, 0.45);
+  --amb-hill-far: #a9c8e4;
+  --amb-hill-near: #86a9cb;
+  --amb-celestial: #ffd692;
+  --amb-celestial-glow: rgba(255, 214, 146, 0.5);
+  --amb-star-opacity: 0;
+  --amb-vignette: rgba(17, 28, 45, 0.06);
+  --amb-tint: rgba(255, 244, 224, 0.08);
+}
+
+[data-amb-phase="dawn"] {
+  --amb-sky-top: #ffd0b0;
+  --amb-sky-mid: #fde8d8;
+  --amb-sky-bottom: #fff9f2;
+  --amb-scrim: rgba(255, 250, 245, 0.4);
+  --amb-hill-far: #e8c0a8;
+  --amb-hill-near: #cba083;
+  --amb-celestial: #ffc98a;
+  --amb-celestial-glow: rgba(255, 200, 150, 0.55);
+  --amb-star-opacity: 0.05;
+  --amb-vignette: rgba(120, 72, 40, 0.06);
+  --amb-tint: rgba(255, 226, 196, 0.16);
+}
+
+[data-amb-phase="dusk"] {
+  --amb-sky-top: #ffbfa3;
+  --amb-sky-mid: #f3d6ef;
+  --amb-sky-bottom: #fbf6ff;
+  --amb-scrim: rgba(252, 246, 252, 0.38);
+  --amb-hill-far: #d3a9be;
+  --amb-hill-near: #b189a7;
+  --amb-celestial: #ffb37a;
+  --amb-celestial-glow: rgba(255, 150, 90, 0.55);
+  --amb-star-opacity: 0.22;
+  --amb-vignette: rgba(60, 34, 80, 0.08);
+  --amb-tint: rgba(255, 196, 176, 0.18);
+}
+
+[data-amb-phase="night"] {
+  --amb-sky-top: #a8b4dc;
+  --amb-sky-mid: #d3daf0;
+  --amb-sky-bottom: #f1f3fb;
+  --amb-scrim: rgba(240, 243, 252, 0.55);
+  --amb-hill-far: #8795b9;
+  --amb-hill-near: #6b7a9e;
+  --amb-celestial: #f2f4ff;
+  --amb-celestial-glow: rgba(226, 232, 255, 0.75);
+  --amb-star-opacity: 0.75;
+  --amb-vignette: rgba(20, 28, 60, 0.12);
+  --amb-tint: rgba(120, 146, 214, 0.18);
+}
+
+.amb-layer {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+  background: var(--exp-surface);
+}
+
+.amb-sky {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    var(--amb-sky-top) 0%,
+    var(--amb-sky-mid) 46%,
+    var(--amb-sky-bottom) 100%
+  );
+  transition: opacity 900ms ease;
+}
+
+.amb-stars {
+  position: absolute;
+  inset: 0;
+  opacity: var(--amb-star-opacity);
+  transition: opacity 1200ms ease;
+  background-repeat: no-repeat;
+  background-image:
+    radial-gradient(1.6px 1.6px at 12% 16%, var(--amb-snow) 50%, transparent 51%),
+    radial-gradient(1.2px 1.2px at 24% 8%, var(--amb-snow) 50%, transparent 51%),
+    radial-gradient(1.8px 1.8px at 38% 22%, var(--amb-snow) 50%, transparent 51%),
+    radial-gradient(1.1px 1.1px at 52% 12%, var(--amb-snow) 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 64% 26%, var(--amb-snow) 50%, transparent 51%),
+    radial-gradient(1.2px 1.2px at 78% 14%, var(--amb-snow) 50%, transparent 51%),
+    radial-gradient(1.9px 1.9px at 88% 30%, var(--amb-snow) 50%, transparent 51%),
+    radial-gradient(1.1px 1.1px at 8% 34%, var(--amb-snow) 50%, transparent 51%),
+    radial-gradient(1.4px 1.4px at 46% 38%, var(--amb-snow) 50%, transparent 51%),
+    radial-gradient(1.2px 1.2px at 70% 40%, var(--amb-snow) 50%, transparent 51%),
+    radial-gradient(1.6px 1.6px at 30% 44%, var(--amb-snow) 50%, transparent 51%),
+    radial-gradient(1.3px 1.3px at 58% 48%, var(--amb-snow) 50%, transparent 51%);
+}
+
+.amb-celestial {
+  position: absolute;
+  top: 7%;
+  right: 9%;
+  width: clamp(54px, 7vw, 92px);
+  aspect-ratio: 1;
+  border-radius: 9999px;
+  background: var(--amb-celestial);
+  box-shadow: 0 0 64px 34px var(--amb-celestial-glow);
+  opacity: 0.9;
+  transition: background 900ms ease, box-shadow 900ms ease;
+}
+
+[data-amb-phase="night"] .amb-celestial::after {
+  content: "";
+  position: absolute;
+  top: -10%;
+  right: -20%;
+  width: 82%;
+  height: 82%;
+  border-radius: 9999px;
+  background: var(--amb-sky-top);
+  opacity: 0.92;
+  filter: blur(1px);
+}
+
+.amb-hills {
+  position: absolute;
+  left: -5%;
+  right: -5%;
+  bottom: -2%;
+  height: 26%;
+  background: var(--amb-hill-far);
+  opacity: 0.5;
+  clip-path: polygon(
+    0 68%,
+    10% 56%,
+    20% 62%,
+    33% 44%,
+    46% 60%,
+    58% 48%,
+    70% 62%,
+    82% 50%,
+    92% 60%,
+    100% 52%,
+    100% 100%,
+    0 100%
+  );
+  transition: background 900ms ease;
+}
+
+.amb-hills-near {
+  height: 18%;
+  opacity: 0.38;
+  background: var(--amb-hill-near);
+  clip-path: polygon(
+    0 78%,
+    8% 66%,
+    18% 74%,
+    30% 58%,
+    42% 72%,
+    55% 62%,
+    68% 76%,
+    80% 64%,
+    92% 74%,
+    100% 66%,
+    100% 100%,
+    0 100%
+  );
+}
+
+.amb-scrim {
+  position: absolute;
+  inset: 0;
+  background: var(--amb-scrim);
+  transition: background 900ms ease;
+}
+
+.amb-particles {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Above content, below the sticky header: a soft mood tint on the cards and
+   weather that only shows near the screen edges, so dialogue stays readable. */
+.amb-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 55;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.amb-tint {
+  position: absolute;
+  inset: 0;
+  background: var(--amb-tint);
+  transition: background 900ms ease;
+}
+
+.amb-particles-edge {
+  opacity: 0.9;
+  -webkit-mask-image: radial-gradient(
+    130% 115% at 50% 45%,
+    transparent 16%,
+    #000 58%
+  );
+  mask-image: radial-gradient(130% 115% at 50% 45%, transparent 16%, #000 58%);
+}
+
+.amb-rain-veil {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(120, 156, 196, 0.18),
+    transparent 42%,
+    rgba(120, 156, 196, 0.12)
+  );
+}
+
+.amb-vignette {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    120% 90% at 50% 8%,
+    transparent 52%,
+    var(--amb-vignette) 100%
+  );
+}
+
+.amb-swatch {
+  display: grid;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
+  overflow: hidden;
+  border-radius: 9999px;
+  background: linear-gradient(160deg, var(--amb-sky-top), var(--amb-sky-bottom));
+  box-shadow: inset 0 0 0 1px var(--exp-container-high);
+}
+
+@media print {
+  .amb-layer {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .exp-float,
+  .exp-pulse-ring::before {
+    animation: none;
+  }
 }
 
 /* Scroll animations */
@@ -263,4 +991,37 @@ body {
 /* Smooth scroll */
 html {
   scroll-behavior: smooth;
+}
+
+/* Script-aware typography (FS-08 FR-14). Load the active script's stack only;
+   the system fallbacks prevent missing-glyph boxes without runtime CDNs. */
+.script-jpan {
+  font-family: "Noto Sans JP", "Hiragino Sans", "Yu Gothic", "Plus Jakarta Sans",
+    Arial, sans-serif;
+}
+.script-hang {
+  font-family: "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic",
+    "Plus Jakarta Sans", Arial, sans-serif;
+}
+.script-deva {
+  font-family: "Noto Sans Devanagari", "Kohinoor Devanagari", "Nirmala UI",
+    "Plus Jakarta Sans", Arial, sans-serif;
+}
+.script-arab {
+  font-family: "Noto Sans Arabic", "Geeza Pro", "Segoe UI", "Plus Jakarta Sans",
+    Arial, sans-serif;
+  line-height: 1.75;
+}
+.script-jpan,
+.script-hang,
+.script-deva {
+  line-height: 1.7;
+}
+
+/* Content text participates in bidi without leaking into UI chrome. */
+[lang="ja"],
+[lang="ko"],
+[lang="hi"],
+[lang="ar"] {
+  unicode-bidi: isolate;
 }
