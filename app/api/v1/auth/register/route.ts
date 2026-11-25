@@ -3,7 +3,7 @@ import { prisma } from "@/lib/prisma";
 import { authError, authOk, firstZodMessage } from "@/lib/api/auth-response";
 import { hashPassword } from "@/lib/auth/password";
 import { RegisterSchema } from "@/lib/auth/validation";
-import { createSession } from "@/lib/auth/session";
+import { prepareSession, writeSessionCookie } from "@/lib/auth/session";
 import { issueEmailVerification, toPublicUser } from "@/lib/auth/account";
 import { checkRateLimit } from "@/lib/auth/rate-limit";
 import { getClientIp, logAuthEvent } from "@/lib/auth/request";
@@ -60,6 +60,7 @@ export async function POST(request: NextRequest) {
   }
 
   const passwordHash = await hashPassword(password);
+  const session = prepareSession(rememberMe);
 
   const user = await prisma.$transaction(async (tx) => {
     const created = await tx.user.create({
@@ -95,10 +96,22 @@ export async function POST(request: NextRequest) {
     await tx.notificationSettings.create({ data: { userId: created.id } });
     await tx.appSettings.create({ data: { userId: created.id } });
 
+    // Keep the session in the same transaction as the account. If this insert
+    // fails, the user is rolled back instead of leaving an orphaned account
+    // that makes every retry return 409.
+    await tx.session.create({
+      data: {
+        userId: created.id,
+        tokenHash: session.tokenHash,
+        rememberMe: session.rememberMe,
+        expiresAt: session.expiresAt,
+      },
+    });
+
     return created;
   });
 
-  const session = await createSession(user.id, rememberMe);
+  await writeSessionCookie(session.token, session.expiresAt);
   if (isUiLocale(uiLocale)) await writeLocaleCookie(uiLocale);
   await logAuthEvent({ userId: user.id, event: "register", request });
 

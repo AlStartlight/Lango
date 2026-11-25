@@ -92,7 +92,34 @@ function toSessionUser(user: {
   };
 }
 
-async function writeSessionCookie(rawToken: string, expiresAt: Date) {
+export interface PreparedSession {
+  token: string;
+  tokenHash: string;
+  rememberMe: boolean;
+  expiresAt: Date;
+}
+
+/**
+ * Builds the session token and hash without touching the database. Callers
+ * that create a user and a session together can reuse the hash inside their
+ * transaction, so a failed session insert rolls the whole account back.
+ */
+export function prepareSession(rememberMe = false): PreparedSession {
+  const token = generateToken();
+  const expiresAt = addDays(
+    new Date(),
+    rememberMe ? REMEMBER_SESSION_DAYS : DEFAULT_SESSION_DAYS,
+  );
+
+  return {
+    token,
+    tokenHash: hashToken(token),
+    rememberMe,
+    expiresAt,
+  };
+}
+
+export async function writeSessionCookie(rawToken: string, expiresAt: Date) {
   const store = await cookies();
   store.set(SESSION_COOKIE, rawToken, {
     httpOnly: true,
@@ -109,23 +136,19 @@ export async function createSession(
 ): Promise<{ token: string; expiresAt: Date }> {
   if (!prisma) throw new Error("Database is not configured");
 
-  const token = generateToken();
-  const expiresAt = addDays(
-    new Date(),
-    rememberMe ? REMEMBER_SESSION_DAYS : DEFAULT_SESSION_DAYS,
-  );
+  const prepared = prepareSession(rememberMe);
 
   await prisma.session.create({
     data: {
       userId,
-      tokenHash: hashToken(token),
-      rememberMe,
-      expiresAt,
+      tokenHash: prepared.tokenHash,
+      rememberMe: prepared.rememberMe,
+      expiresAt: prepared.expiresAt,
     },
   });
 
-  await writeSessionCookie(token, expiresAt);
-  return { token, expiresAt };
+  await writeSessionCookie(prepared.token, prepared.expiresAt);
+  return { token: prepared.token, expiresAt: prepared.expiresAt };
 }
 
 export async function getSessionContext(): Promise<SessionContext | null> {

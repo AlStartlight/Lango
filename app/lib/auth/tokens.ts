@@ -1,15 +1,60 @@
 import "server-only";
-import { createHash, randomBytes, timingSafeEqual } from "node:crypto";
+import { createHash, createHmac, randomBytes, timingSafeEqual } from "node:crypto";
 
 const DEV_PEPPER = "lango-dev-token-pepper-change-me";
+const MIN_PEPPER_LENGTH = 16;
+const FALLBACK_PEPPER_LABEL = "lango-auth-token-pepper:v1";
+
+let warnedAboutFallback = false;
+
+function configuredPepper(): string | null {
+  const pepper = process.env.AUTH_TOKEN_PEPPER?.trim();
+  return pepper && pepper.length >= MIN_PEPPER_LENGTH ? pepper : null;
+}
+
+/**
+ * A deployment can be rolled out before `AUTH_TOKEN_PEPPER` is added to the
+ * host. Treating that as a hard request-time error used to take sign-in and
+ * registration down with an opaque 500. Instead, derive a stable, per-database
+ * pepper from `DATABASE_URL` (itself a secret) and keep auth available.
+ *
+ * The env var still wins whenever it is present; rotate it deliberately to
+ * invalidate every outstanding session and email token.
+ */
+function fallbackPepper(): string | null {
+  const databaseUrl = process.env.DATABASE_URL?.trim();
+  if (!databaseUrl) return null;
+
+  return createHmac("sha256", databaseUrl)
+    .update(FALLBACK_PEPPER_LABEL)
+    .digest("hex");
+}
 
 function getPepper(): string {
-  const pepper = process.env.AUTH_TOKEN_PEPPER;
-  if (pepper && pepper.length >= 16) return pepper;
+  const pepper = configuredPepper();
+  if (pepper) return pepper;
+
+  const fallback = fallbackPepper();
+  if (fallback) {
+    if (process.env.NODE_ENV === "production" && !warnedAboutFallback) {
+      warnedAboutFallback = true;
+      console.warn(
+        "[auth] AUTH_TOKEN_PEPPER is missing or shorter than " +
+          `${MIN_PEPPER_LENGTH} characters. Deriving a stable pepper from ` +
+          "DATABASE_URL instead. Set AUTH_TOKEN_PEPPER (openssl rand -hex 32) " +
+          "to keep sessions valid if the database URL changes.",
+      );
+    }
+    return fallback;
+  }
 
   if (process.env.NODE_ENV === "production") {
+    console.error(
+      "[auth] Neither AUTH_TOKEN_PEPPER nor DATABASE_URL is configured; " +
+        "session and email tokens cannot be hashed.",
+    );
     throw new Error(
-      "AUTH_TOKEN_PEPPER must be set to at least 16 characters in production.",
+      "AUTH_TOKEN_PEPPER or DATABASE_URL must be configured in production.",
     );
   }
 

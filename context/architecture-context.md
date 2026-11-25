@@ -35,6 +35,7 @@
 
 - Every user has a Lango account (`User`) with a bcrypt password hash and a role: `learner` or `tutor`.
 - Sessions are server-side rows referenced by an httpOnly `lango_session` cookie; `getSessionUser` is the authoritative guard.
+- Session, email-verification, and password-reset tokens are stored only as SHA-256 hashes. `AUTH_TOKEN_PEPPER` is the preferred pepper; when it is missing or too short in a deployment, a stable fallback is derived from the secret `DATABASE_URL` and a server warning is logged. Registration persists the user, profile rows, and session in one transaction, and login returns a typed 503 if a session cannot be created.
 - Learners own lesson plans, exercise history, bookings, and reports.
 - Tutors own availability slots and session records.
 - Only the owning learner can mutate their own plan or trigger AI generation.

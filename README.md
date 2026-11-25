@@ -76,7 +76,7 @@ npm run start
 See `.env.example` for required environment variables:
 
 - `DATABASE_URL` - PostgreSQL connection string, including `?schema=lango`
-- `AUTH_TOKEN_PEPPER` - at least 16 random characters (generate with `openssl rand -hex 32`)
+- `AUTH_TOKEN_PEPPER` - at least 16 random characters (generate with `openssl rand -hex 32`). Recommended in production; if it is missing or too short, the app derives a stable fallback from `DATABASE_URL` and logs a warning so sign-in stays available.
 - `APP_URL` - public app URL used in verification/reset emails
 - `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASSWORD`, `EMAIL_FROM` - transactional email
 - `NEXT_PUBLIC_GA_MEASUREMENT_ID` - Google Analytics 4 Measurement ID

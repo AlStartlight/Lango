@@ -78,7 +78,20 @@ export async function POST(request: NextRequest) {
   }
 
   resetRateLimit(`login:account:${email}`);
-  const session = await createSession(user.id, rememberMe);
+  let session: { token: string; expiresAt: Date };
+  try {
+    session = await createSession(user.id, rememberMe);
+  } catch (error) {
+    console.error("[auth] failed to create session", {
+      userId: user.id,
+      error: error instanceof Error ? error.message : "unknown",
+    });
+    return authError(
+      "Layanan masuk sedang tidak tersedia. Coba lagi sebentar.",
+      503,
+      "SERVICE_UNAVAILABLE",
+    );
+  }
   if (isUiLocale(user.uiLocale)) {
     await writeLocaleCookie(user.uiLocale);
   }
