@@ -198,3 +198,17 @@ A device-local atmosphere for the learner workspace: falling sakura, snowfall, d
 - **Performance & a11y.** Layers are `aria-hidden` and `pointer-events-none`; the canvas pauses when the tab is hidden, caps DPR at 2, and prints hidden. Sound state is announced with icon + text, never colour alone.
 
 Reference screenshots: `docs/assets/ambience-learn-day.png`, `ambience-learn-night.png`, `ambience-learn-rain.png`, `ambience-learn-snow.png`, `ambience-dock.png`, `ambience-settings.png`, `ambience-mobile.png`.
+
+## Visa Kerja (Interview Practice)
+
+`/[lang]/visa-kerja` is the interview-rehearsal surface inside the expedition shell. The sidebar entry sits directly above **Paspor** and is labelled `Visa Kerja` / `Work Visa` / `就労ビザ` (`app/components/expedition/copy.ts`).
+
+- **Surfaces.** Hub (readiness ring, language rail, three mode explainers, six track cards with drill/simulation actions, recent sessions), guided answers (`/visa-kerja/panduan`), runner (`/visa-kerja/sesi/:id`), report (`/visa-kerja/laporan/:id`).
+- **Copy.** `app/components/interview/interview-copy.ts` (EN/ID/JA, EN fallback) with `interviewFill()` for counts, durations and band labels. Feedback strings are keyed by `INTERVIEW_FEEDBACK_CODES`; the database stores only codes and metrics.
+- **Tokens and primitives.** Reuses `--exp-*`, `.exp-pill`, `exp-card` surfaces and the existing radius scale. New shared components: `ReadinessRing`, `BandPill`, `ScoreBars` (`app/components/interview/ui.tsx`). No raw colours; scores use token fills plus numeric labels.
+- **Runner.** Mobile-first card: track/level, progress dots, timer, prompt, TTS play button, translation/romanization disclosure, textarea with word + spoken-duration counters, optional browser dictation, submit; drill feedback shows the five dimension bars and two strengths/improvements, simulation hides scores until the report.
+- **Report.** Readiness ring, five-dimension bars, aggregated strengths/priorities, weakest-question retry, per-turn transcript, dimension bars and a disclosure with the model answer, skeleton, red flags and cultural note.
+- **Accessibility.** `aria-live` for saved answers and dictation status, `aria-current` on the nav item and language chips, 44px controls, visible focus, text fallback when the microphone is unavailable, and translated labels for every feedback code.
+- **Honesty.** Beta content banner, "practice signal, not a prediction" disclaimer on the hub and report, and model answers labelled as skeletons.
+
+Reference screenshots: `docs/assets/visa-kerja-hub.png`, `visa-kerja-session.png`, `visa-kerja-report.png`, `visa-kerja-guide.png`, `visa-kerja-mobile.png`.
