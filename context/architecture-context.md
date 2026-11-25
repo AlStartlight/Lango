@@ -6,8 +6,8 @@
 | ------------------ | ----------------------- | ------------------------------------------------------------------------ |
 | Framework          | Next.js 16 + TypeScript | Full-stack app with server/client boundaries                             |
 | UI                 | Tailwind + shadcn/ui    | Component composition and styling                                        |
-| Auth               | Clerk                   | User identity, route protection, and role differentiation (learner/tutor)|
-| Database           | Prisma + PostgreSQL      | Relational metadata: profiles, lesson plans, bookings, exercise history  |
+| Auth               | Custom email/password  | bcrypt + DB-backed sessions; route guards and role differentiation (learner/tutor) |
+| Database           | Prisma + PostgreSQL      | Relational metadata: profiles, multilingual curriculum, progress, lesson plans, bookings |
 | Real-time          | Liveblocks              | Live session shared text pad, presence, and co-pilot sidebar state       |
 | Background tasks   | Trigger.dev             | Durable AI lesson generation, exercise evaluation, and progress reports  |
 | Artifact storage   | Vercel Blob             | Generated lesson plan Markdown and progress report Markdown              |
@@ -18,21 +18,23 @@
 
 - `app/api` — Authenticated request handlers: input validation, ownership checks, task triggering, booking management, and persistence.
 - `trigger` — Long-running background jobs: AI lesson plan generation, free-text exercise evaluation, and progress report generation.
-- `lib` — Shared infrastructure: Prisma client, Clerk helpers, access control utilities, and type-safe wrappers.
+- `lib` — Shared infrastructure: Prisma client, session/auth helpers, locale registry, content repository, access control utilities, and type-safe wrappers.
+- `content` — Authoring source of truth for curriculum units (validated Zod JSON). Imported idempotently into PostgreSQL; never imported into the client bundle.
 - `components` — UI composition: lesson plan editor, exercise widgets, tutor cards, session room, and progress dashboard.
 - `prisma` — Database schema and generated client output.
 - `data` — Legacy local directory. Not used for new artifacts.
 
 ## Storage Model
 
-- **Database (PostgreSQL via Prisma)**: all metadata — learner profiles, tutor profiles, lesson plans (structure only), exercise records, booking records, session metadata, and progress snapshots.
+- **Database (PostgreSQL via Prisma)**: all metadata — learner profiles, tutor profiles, multilingual curriculum (curricula → levels → units → lessons → passages → questions), exercise records, booking records, session metadata, and progress snapshots.
 - **Vercel Blob**: generated artifacts — lesson plan Markdown at `lessons/{learnerId}/{planId}.md` and progress reports at `reports/{learnerId}/{reportId}.md`.
 - The blob URL is stored in the database (`filePath`) as the canonical reference to the generated artifact.
 - Exercise history and scores are stored as structured rows in PostgreSQL, not as blobs.
 
 ## Auth and Role Model
 
-- Every user has a Clerk identity with a role: `learner` or `tutor`.
+- Every user has a Lango account (`User`) with a bcrypt password hash and a role: `learner` or `tutor`.
+- Sessions are server-side rows referenced by an httpOnly `lango_session` cookie; `getSessionUser` is the authoritative guard.
 - Learners own lesson plans, exercise history, bookings, and reports.
 - Tutors own availability slots and session records.
 - Only the owning learner can mutate their own plan or trigger AI generation.
@@ -73,6 +75,43 @@
 - Execution: streaming server-sent events from the API route (short, interactive turns — not a background task).
 - Output: streamed text displayed in the chat UI.
 
+## Language Axes and Curriculum Platform
+
+Lango separates two independent language preferences:
+
+1. **UI locale** (`uiLocale`) — language of menus, buttons, and messages. It is the `[lang]` route segment (`en`, `id`, `jp`, …) and the request authority. It never implies what the learner studies.
+2. **Content language** (`targetLanguage` / `activeLanguageCode`) — canonical language code (`en`, `id`, `ja`, …) of the curriculum. It is stored on the account and never changes the URL by itself.
+
+Rules:
+
+- Route `jp` is an alias for content code `ja`; `ja` must never appear as a public route segment, and `jp` must never appear in API/DB content fields.
+- 13 canonical content languages: `en, es, id, ja, zh, hi, de, ar, fr, pt, it, nl, ko`. Twelve have UI locales; `zh` is content-first (Mandarin/HSK) and reuses the active UI locale until its UI translation ships. One registry (`app/lib/i18n/locales.ts`) drives UI, content, TTS, and API metadata.
+- Browser TTS never picks a voice from another language. `app/lib/speech/voice-catalog.ts` resolves the installed `SpeechSynthesisVoice` by the content language first, then by the learner's female/male preference (persisted per language in `lango:speech:gender:<lang>`); a missing target-language voice returns `no-voice` instead of reading with the default English voice.
+- UI fallback is allowed (`en`); content fallback across languages is forbidden. A language without published curriculum renders an honest empty state.
+- Curriculum content is stored in PostgreSQL and addressed by stable IDs (`ja-jlpt-n5-u01-l03-q0042`) with immutable `contentVersion`; JSON files under `content/curricula/**` are the authoring/import source.
+- Question `answerKey` is server-only and must never appear in learner DTOs before submission.
+- `LessonProgress` / `ExerciseAttempt` carry denormalized `languageCode` so per-language dashboards are index-friendly.
+
+
+## Story-First Curriculum (PRD v1.0 execution)
+
+The story layer is an additive extension of FS-09, not a second content platform.
+
+- **Authoring source:** `content/stories/{lang}/world.json` (story bible, characters, lexicon, culture notes, 10 arc seeds) and `kit.json` (80 sentence frames, lexicon, grammar, question phrases). `scripts/story/master-frames.ts` defines the shared 80-frame contract; every language kit covers every frame.
+- **Generated library:** `content/stories/{lang}/library/{worldId}-{tier}.json`, five files per language. Each level is 2 arcs × 20 episodes × 10 scenes = 400 scenes; each scene has 6–12 lines, 3–6 exercises, one cliffhanger and exactly four supporting materials (vocabulary, grammar, culture, review). One episode/story therefore contains 10 scenes × (1 + 4) = **50 learning objects**, inside the 20–100 target.
+- **Counts:** 13 languages × 5 levels × 400 scenes = **26,000 scenes**; 26,000 × 4 = **104,000 supporting materials**; **130,000 learning objects**; 2,600 episodes/stories.
+- **Future tiers:** Japanese `ja` maps N5–N1 to T1–T5; Mandarin `zh` maps HSK 1–2, 3, 4, 5, 6 to T1–T5; the other 11 languages map CEFR A1–C1.
+- **Runtime content:** the reader serves the immutable generated library files through `app/lib/story/content.ts` (server-only, lazy per-language cache). This keeps scene payloads small and avoids loading 130k DB rows on the request path. The same scenes can be bulk-imported into the FS-09 tables with `content:stories:import` for DB-backed deployments.
+- **Persisted state:** `StorySceneProgress` (resume, completion, minutes), `StoryProgress` (current scene, choices, affinity), `StoryPassportStamp`, `StoryFlag`, `StoryReview`, `StoryRevision`, plus the existing `LessonProgress`, `ExerciseAttempt`, `XpEvent`, `DailyActivity`, `UserLanguageStats`, and `LanguageDailyActivity`. Attempts are idempotent by `clientEventId`; scene completion awards XP once per scene.
+- **APIs:** `GET /api/v1/stories`, `/stories/:worldId`, `/stories/:worldId/arcs/:arcId`, `/episodes/:episodeId`, `/scenes/:sceneId`, `/materials/:materialId`, `/passport`, `/characters`, `/stories/:worldId/recap`; `POST /api/v1/story-progress`, `/story-choices`, `/story-attempts`, `/scenes/:sceneId/flag`, `/review`, `/review/rate`, `/review/complete`.
+- **Level & language rails:** `?tier=T1..T5` and `?language=<code>` are read-only selectors for story screens. They never persist to `User` and never change the `[lang]` UI locale.
+- **Derived reports:** chapter reports (`/results`, `/results/:episodeId`) are computed on read from `StorySceneProgress`, `ExerciseAttempt`, and `XpEvent`; no report table is added.
+- **Episode journey:** episode unlocks are derived on read from `StorySceneProgress` by `app/lib/story/journey.ts` (first episode per level open; next episode opens at 80% of the previous episode's scenes). No unlock table or column is added; the reader redirects locked episodes to `/[lang]/reader?locked=<episodeId>` and the completion response (`POST /api/v1/story-progress`) carries the episode snapshot (`complete`, `remaining`, `nextEpisodeUnlocked`). Attempts are attributed to an episode only when their `exerciseId` is one of that episode's scene exercises (story episode IDs share the curriculum lesson ID namespace).
+- **Word Vault SRS:** vocabulary cards reuse `SpacedReviewItem` (`moduleId='story'`, `sourceType='story_word'`, `conceptKey='story:word:<lang>:<sceneId>:<term>'`). `POST /api/v1/review/rate` applies SM-2 updates; `POST /api/v1/review/complete` awards the daily vault bonus. No new tables.
+- **Answer-key boundary:** the scene/material DTOs never include `answerKey` or `explanation`; grading happens in `POST /api/v1/story-attempts` (file-backed, works for all languages) or the existing `/api/v1/attempts` for imported curriculum rows.
+- **Romanization:** 100% of `ja`/`zh` lines carry romaji/pinyin in the generated library; `ja` lines carry kana readings. The reader defaults romanization on for `ja`/`zh`, supports furigana for `ja`, and persists toggles locally.
+- **Quality gate:** the generated library is schema-validated by `content:stories:validate` (0 errors, 0 warnings). Human native/culture/pedagogy review remains the publication gate; `StoryReview` rows are seeded as `pending` and the UI/report expose that backlog.
+
 ## Invariants
 
 1. Request handlers do not run long-lived AI work — that belongs in background tasks.
@@ -82,3 +121,7 @@
 5. The lesson plan schema must remain consistent between user-created, AI-generated, and imported template content.
 6. Exercise evaluation results are always persisted before being surfaced in the UI.
 7. Video/audio infrastructure is delegated to the third-party session provider; Lango AI owns only the metadata and co-pilot layers.
+
+8. UI locale changes never mutate `targetLanguage`; target-language changes never mutate the URL.
+9. Locale preferences are persisted before navigation (DB + `lango_locale` cookie), and the URL wins for the current request.
+10. Published curriculum content is immutable per `contentVersion`; retired questions are hidden from new learners but keep attempts/progress.
