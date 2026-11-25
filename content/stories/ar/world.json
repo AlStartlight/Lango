@@ -1,0 +1,1199 @@
+{
+  "id": "ar-hibr-wadaw",
+  "languageCode": "ar",
+  "slug": "hibr-wadaw",
+  "title": "Ink and Light",
+  "nativeTitle": "حبر وضوء",
+  "logline": "Nour, 19, magang di bengkel kaligrafi pamannya di Khan el-Khalili, meragukan tangannya sendiri sampai satu huruf yang hilang dari gulungan tua memaksanya membaca ulang nama keluarganya.",
+  "setting": "Kairo, Khan el-Khalili dan kawasan bersejarah di sekitarnya. Bengkel fiktif «حبر وضوء» di sebuah gang sempit dekat شارع المعز: meja kayu, rak gulungan, dinding bertinta, dan kedai kopi di ujung gang. Toko kertas dan tinta صابر, rumah أم خالد, dan jalan-jalan batu di sekitar pasar adalah bagian dari kehidupan sehari-hari.",
+  "era": "Masa kini; musim semi sampai Ramadan dan Idulfitri, lalu musim berikutnya.",
+  "tone": "Hangat, sabar, dan sedikit humor; potret keseharian pengrajin, bukan turis. Misteri kecil tentang nama dan keahlian, bukan kejahatan.",
+  "palette": "#2F3A45",
+  "motifs": [
+    "الحبر",
+    "الضوء",
+    "القلم القصبي",
+    "الفانوس",
+    "أزقة القاهرة",
+    "الكحك",
+    "القهوة",
+    "اللافتة القديمة"
+  ],
+  "sensitivityNotes": [
+    "Ramadan dan Idulfitri ditampilkan sebagai praktik budaya keluarga Mesir, tanpa instruksi keagamaan dan tanpa politisasi.",
+    "Khan el-Khalili dan Cairo bersejarah adalah tempat nyata; bengkel «حبر وضوء» dan para tokohnya fiktif dan ditandai demikian di catatan budaya.",
+    "Rahasia keluarga berkisar pada nama dan keahlian, bukan tindak pidana; tidak ada tuduhan atau skandal.",
+    "Dialog Mesir ditulis ringan dan ditandai di kit; narasi memakai bahasa Arab baku (MSA).",
+    "Tidak ada karikatur dialek, agama, atau kelas sosial; tokoh lokal punya keinginan dan konflik sendiri."
+  ],
+  "canon": {
+    "fictionalWorkshop": "بنجل «حبر وضوء» di gang sempit dekat شارع المعز, Khan el-Khalili, Kairo.",
+    "realAnchors": [
+      "Khan el-Khalili",
+      "شارع المعز",
+      "Cairo bersejarah (UNESCO)",
+      "ahwa",
+      "fanous Ramadan",
+      "Idulfitri",
+      "kaligrafi Arab"
+    ],
+    "timeline": "Masa kini. Musim semi (T1–T2), Ramadan dan Idulfitri (T3), musim panas dan pasar (T4), lalu musim gugur dan penutupan (T5).",
+    "rules": [
+      "Nour adalah cucu dari adik perempuan العم رشدي; ia mahasiswa desain dan magang di bengkel.",
+      "العم رشدي menyimpan gulungan latihan dan dokumen lama di lemari di belakang bengkel.",
+      "Huruf yang hilang pada gulungan tua adalah bagian dari nama keluarga yang tercatat di dokumen lama.",
+      "Nama keluarga «الكاتب» berasal dari keahlian menulis, bukan dari garis keturunan bangsawan.",
+      "Bengkel tidak pernah pindah lokasi; lantai atas dipakai sebagai ruang menyimpan kertas dan tinta.",
+      "Nour memanggil pamannya «عمّو رشدي» dalam dialog; narasi memakai «العم رشدي»."
+    ]
+  },
+  "levels": [
+    {
+      "tier": "T1",
+      "framework": "CEFR",
+      "levelCode": "A1",
+      "label": "CEFR A1",
+      "idPart": "a1",
+      "position": 1
+    },
+    {
+      "tier": "T2",
+      "framework": "CEFR",
+      "levelCode": "A2",
+      "label": "CEFR A2",
+      "idPart": "a2",
+      "position": 2
+    },
+    {
+      "tier": "T3",
+      "framework": "CEFR",
+      "levelCode": "B1",
+      "label": "CEFR B1",
+      "idPart": "b1",
+      "position": 3
+    },
+    {
+      "tier": "T4",
+      "framework": "CEFR",
+      "levelCode": "B2",
+      "label": "CEFR B2",
+      "idPart": "b2",
+      "position": 4
+    },
+    {
+      "tier": "T5",
+      "framework": "CEFR",
+      "levelCode": "C1",
+      "label": "CEFR C1",
+      "idPart": "c1",
+      "position": 5
+    }
+  ],
+  "characters": [
+    {
+      "id": "ar-hibr-wadaw-nour",
+      "name": "Nour",
+      "nativeName": "نور",
+      "role": "Protagonis, 19, mahasiswa desain dan magang kaligrafi",
+      "age": 19,
+      "bio": "Nour kuliah desain di Kairo dan magang di bengkel pamannya setiap sore. Ia cepat membaca bentuk dan warna, tetapi tidak percaya pada tangannya sendiri: setiap goresan terasa terlalu cepat atau terlalu miring. Ia ingin menyelesaikan satu karya yang bisa ia tanda tangani tanpa malu.",
+      "speechStyle": "Baku saat gugup, Mesir ringan saat bercanda; banyak bertanya dan sering meminta maaf.",
+      "quote": "يدي ترتجف أمام الورقة، لكنني أعود كل يوم.",
+      "position": 1,
+      "lexeme": {
+        "id": "ar-char-nour",
+        "native": "نور",
+        "gloss": {
+          "id": "Nour",
+          "en": "Nour"
+        },
+        "tags": [
+          "protagonist"
+        ]
+      }
+    },
+    {
+      "id": "ar-hibr-wadaw-rushdi",
+      "name": "Uncle Rushdi",
+      "nativeName": "العم رشدي",
+      "role": "Kaligrafer, 55, pemilik bengkel, teliti dan menyimpan gulungan lama",
+      "age": 55,
+      "bio": "العم رشدي mewarisi bengkel dari ayahnya dan menganggap ketelitian sebagai bentuk kasih sayang. Ia jarang memuji, tetapi menyimpan setiap latihan Nour di dalam map. Ia tahu ada satu halaman yang hilang dari gulungan keluarga, dan ia belum siap membicarakannya.",
+      "speechStyle": "Pendek, tenang, sering memakai peribahasa; nada Mesir saat menegur.",
+      "quote": "الخط صبر قبل أن يكون جمالا.",
+      "position": 2,
+      "lexeme": {
+        "id": "ar-char-rushdi",
+        "native": "العم رشدي",
+        "gloss": {
+          "id": "Paman Rushdi",
+          "en": "Uncle Rushdi"
+        },
+        "tags": [
+          "mentor"
+        ]
+      }
+    },
+    {
+      "id": "ar-hibr-wadaw-umm-khalid",
+      "name": "Umm Khalid",
+      "nativeName": "أم خالد",
+      "role": "Tetangga, 65, juru matchmaking dan sumber kabar gang",
+      "age": 65,
+      "bio": "أم خالد tinggal dua pintu dari bengkel dan mengenal setiap keluarga di gang. Ia senang menjodohkan orang, tetapi lebih senang lagi memastikan tidak ada yang makan sendirian. Kabar dari mulutnya biasanya benar, hanya saja urutannya sering terbalik.",
+      "speechStyle": "Ramah, cepat, penuh pertanyaan; dialek Mesir kental tetapi tidak diejek.",
+      "quote": "الحارة كلها بيت واحد، وبابي مفتوح.",
+      "position": 3,
+      "lexeme": {
+        "id": "ar-char-umm-khalid",
+        "native": "أم خالد",
+        "gloss": {
+          "id": "Umm Khalid",
+          "en": "Umm Khalid"
+        },
+        "tags": [
+          "neighbor"
+        ]
+      }
+    },
+    {
+      "id": "ar-hibr-wadaw-yassin",
+      "name": "Yassin",
+      "nativeName": "ياسين",
+      "role": "Kurir muda, 22, mengantar kertas dan pesanan antar-gang",
+      "age": 22,
+      "bio": "ياسين mengantar gulungan, kertas, dan pesanan di sekitar Khan el-Khalili dengan sepeda tua. Ia hafal gang dan jam sepi, dan kadang membawa kabar lebih cepat daripada telepon. Ia ingin membuka jasa antar sendiri, tetapi belum berani mengatakan pada keluarganya.",
+      "speechStyle": "Ceria, cepat, suka bercanda; dialek Mesir ringan.",
+      "quote": "الورقة تسبق الخبر، والخبر يسبقني.",
+      "position": 4,
+      "lexeme": {
+        "id": "ar-char-yassin",
+        "native": "ياسين",
+        "gloss": {
+          "id": "Yassin",
+          "en": "Yassin"
+        },
+        "tags": [
+          "friend"
+        ]
+      }
+    },
+    {
+      "id": "ar-hibr-wadaw-saber",
+      "name": "Saber the Paper Seller",
+      "nativeName": "صابر الورّاق",
+      "role": "Penjual kertas dan tinta, 60, sahabat lama bengkel",
+      "age": 60,
+      "bio": "صابر menjual kertas, tinta, dan alat tulis di toko kecil seberang gang. Ia menyimpan stok lama untuk pelanggan yang tahu apa yang mereka cari. Ia satu-satunya orang yang masih ingat nama lama bengkel dan alasan lantai atas tidak pernah dijual.",
+      "speechStyle": "Pelan, suka bercerita, ingatannya tajam untuk urusan kertas.",
+      "quote": "الورق الجيد يحفظ الاسم أكثر من الحجر.",
+      "position": 5,
+      "lexeme": {
+        "id": "ar-char-saber",
+        "native": "صابر الورّاق",
+        "gloss": {
+          "id": "Saber si Penjual Kertas",
+          "en": "Saber the Paper Seller"
+        },
+        "tags": [
+          "role"
+        ]
+      }
+    }
+  ],
+  "lexicon": {
+    "person": [
+      {
+        "id": "ar-person-customer",
+        "native": "الزبون",
+        "gloss": {
+          "id": "pelanggan",
+          "en": "the customer"
+        },
+        "tags": [
+          "role"
+        ]
+      },
+      {
+        "id": "ar-person-neighbor",
+        "native": "الجار",
+        "gloss": {
+          "id": "tetangga",
+          "en": "the neighbor"
+        },
+        "tags": [
+          "role"
+        ]
+      },
+      {
+        "id": "ar-person-child",
+        "native": "الطفل",
+        "gloss": {
+          "id": "anak",
+          "en": "the child"
+        },
+        "tags": [
+          "role"
+        ]
+      },
+      {
+        "id": "ar-person-porter",
+        "native": "الحمّال",
+        "gloss": {
+          "id": "kuli angkut",
+          "en": "the porter"
+        },
+        "tags": [
+          "role"
+        ]
+      }
+    ],
+    "place": [
+      {
+        "id": "ar-place-workshop",
+        "native": "الورشة",
+        "gloss": {
+          "id": "bengkel",
+          "en": "the workshop"
+        },
+        "tags": [
+          "home"
+        ]
+      },
+      {
+        "id": "ar-place-souk",
+        "native": "السوق",
+        "gloss": {
+          "id": "pasar",
+          "en": "the souk"
+        },
+        "tags": [
+          "market"
+        ]
+      },
+      {
+        "id": "ar-place-ahwa",
+        "native": "الأهوة",
+        "gloss": {
+          "id": "kedai kopi",
+          "en": "the coffeehouse"
+        },
+        "tags": [
+          "coffee"
+        ]
+      },
+      {
+        "id": "ar-place-alley",
+        "native": "الحارة",
+        "gloss": {
+          "id": "gang",
+          "en": "the alley"
+        },
+        "tags": [
+          "street"
+        ]
+      },
+      {
+        "id": "ar-place-moez",
+        "native": "شارع المعز",
+        "gloss": {
+          "id": "Jalan al-Muizz",
+          "en": "al-Muizz Street"
+        }
+      },
+      {
+        "id": "ar-place-umm-khalid",
+        "native": "بيت أم خالد",
+        "gloss": {
+          "id": "rumah Umm Khalid",
+          "en": "Umm Khalid's house"
+        }
+      },
+      {
+        "id": "ar-place-paper-shop",
+        "native": "دكان الورّاق",
+        "gloss": {
+          "id": "toko kertas",
+          "en": "the paper shop"
+        }
+      },
+      {
+        "id": "ar-place-khan",
+        "native": "خان الخليلي",
+        "gloss": {
+          "id": "Khan el-Khalili",
+          "en": "Khan el-Khalili"
+        }
+      }
+    ],
+    "object": [
+      {
+        "id": "ar-object-letter",
+        "native": "الحرف",
+        "gloss": {
+          "id": "huruf",
+          "en": "the letter"
+        },
+        "tags": [
+          "mystery",
+          "clue"
+        ]
+      },
+      {
+        "id": "ar-object-paper",
+        "native": "الورقة",
+        "gloss": {
+          "id": "kertas",
+          "en": "the paper"
+        },
+        "tags": [
+          "clue"
+        ]
+      },
+      {
+        "id": "ar-object-key",
+        "native": "المفتاح",
+        "gloss": {
+          "id": "kunci",
+          "en": "the key"
+        },
+        "tags": [
+          "clue"
+        ]
+      },
+      {
+        "id": "ar-object-notebook",
+        "native": "الدفتر",
+        "gloss": {
+          "id": "buku catatan",
+          "en": "the notebook"
+        },
+        "tags": [
+          "clue",
+          "account"
+        ]
+      },
+      {
+        "id": "ar-object-lantern",
+        "native": "الفانوس",
+        "gloss": {
+          "id": "lentera",
+          "en": "the lantern"
+        },
+        "tags": [
+          "ramadan"
+        ]
+      },
+      {
+        "id": "ar-object-scroll",
+        "native": "المخطوط",
+        "gloss": {
+          "id": "gulungan",
+          "en": "the scroll"
+        },
+        "tags": [
+          "mystery",
+          "memory"
+        ]
+      },
+      {
+        "id": "ar-object-sign",
+        "native": "اللافتة",
+        "gloss": {
+          "id": "papan nama",
+          "en": "the signboard"
+        },
+        "tags": [
+          "mystery"
+        ]
+      },
+      {
+        "id": "ar-object-ink",
+        "native": "المحبرة",
+        "gloss": {
+          "id": "wadah tinta",
+          "en": "the inkwell"
+        },
+        "tags": [
+          "craft"
+        ]
+      },
+      {
+        "id": "ar-object-letter-sheet",
+        "native": "الرسالة",
+        "gloss": {
+          "id": "surat",
+          "en": "the letter"
+        },
+        "tags": [
+          "clue",
+          "memory"
+        ]
+      }
+    ],
+    "food": [
+      {
+        "id": "ar-food-kahk",
+        "native": "الكحك",
+        "gloss": {
+          "id": "kue kahk",
+          "en": "kahk biscuits"
+        },
+        "tags": [
+          "eid"
+        ]
+      },
+      {
+        "id": "ar-food-foul",
+        "native": "الفول",
+        "gloss": {
+          "id": "fava bean",
+          "en": "fava beans"
+        },
+        "tags": [
+          "breakfast"
+        ]
+      },
+      {
+        "id": "ar-food-kanafa",
+        "native": "الكنافة",
+        "gloss": {
+          "id": "kunafa",
+          "en": "kunafa"
+        },
+        "tags": [
+          "ramadan"
+        ]
+      },
+      {
+        "id": "ar-food-dates",
+        "native": "البلح",
+        "gloss": {
+          "id": "kurma",
+          "en": "dates"
+        },
+        "tags": [
+          "ramadan"
+        ]
+      },
+      {
+        "id": "ar-food-taameya",
+        "native": "الطعمية",
+        "gloss": {
+          "id": "falafel",
+          "en": "taameya"
+        },
+        "tags": [
+          "breakfast"
+        ]
+      }
+    ],
+    "drink": [
+      {
+        "id": "ar-drink-tea",
+        "native": "الشاي",
+        "gloss": {
+          "id": "teh",
+          "en": "tea"
+        },
+        "tags": [
+          "ahwa"
+        ]
+      },
+      {
+        "id": "ar-drink-coffee",
+        "native": "القهوة التركية",
+        "gloss": {
+          "id": "kopi Turki",
+          "en": "Turkish coffee"
+        },
+        "tags": [
+          "ahwa"
+        ]
+      },
+      {
+        "id": "ar-drink-licorice",
+        "native": "العرقسوس",
+        "gloss": {
+          "id": "minuman akar manis",
+          "en": "licorice drink"
+        },
+        "tags": [
+          "ramadan"
+        ]
+      },
+      {
+        "id": "ar-drink-lemon",
+        "native": "عصير الليمون",
+        "gloss": {
+          "id": "jus lemon",
+          "en": "lemonade"
+        }
+      },
+      {
+        "id": "ar-drink-water",
+        "native": "الماء",
+        "gloss": {
+          "id": "air",
+          "en": "water"
+        }
+      }
+    ],
+    "time": [
+      {
+        "id": "ar-time-morning",
+        "native": "الصباح",
+        "gloss": {
+          "id": "pagi",
+          "en": "morning"
+        }
+      },
+      {
+        "id": "ar-time-noon",
+        "native": "الظهيرة",
+        "gloss": {
+          "id": "tengah hari",
+          "en": "noon"
+        }
+      },
+      {
+        "id": "ar-time-afternoon",
+        "native": "العصر",
+        "gloss": {
+          "id": "sore",
+          "en": "afternoon"
+        }
+      },
+      {
+        "id": "ar-time-evening",
+        "native": "المساء",
+        "gloss": {
+          "id": "malam",
+          "en": "evening"
+        }
+      },
+      {
+        "id": "ar-time-dawn",
+        "native": "الفجر",
+        "gloss": {
+          "id": "fajar",
+          "en": "dawn"
+        }
+      }
+    ],
+    "weather": [
+      {
+        "id": "ar-weather-clear",
+        "native": "الجو صحو.",
+        "gloss": {
+          "id": "Cuacanya cerah.",
+          "en": "The weather is clear."
+        },
+        "tags": [
+          "clear"
+        ]
+      },
+      {
+        "id": "ar-weather-dust",
+        "native": "الهواء فيه غبار خفيف.",
+        "gloss": {
+          "id": "Udaranya berdebu tipis.",
+          "en": "The air is slightly dusty."
+        },
+        "tags": [
+          "dust"
+        ]
+      },
+      {
+        "id": "ar-weather-warm",
+        "native": "الريح دافئة.",
+        "gloss": {
+          "id": "Anginnya hangat.",
+          "en": "The wind is warm."
+        },
+        "tags": [
+          "warm"
+        ]
+      },
+      {
+        "id": "ar-weather-rain",
+        "native": "المطر خفيف.",
+        "gloss": {
+          "id": "Hujannya ringan.",
+          "en": "The rain is light."
+        },
+        "tags": [
+          "rain"
+        ]
+      },
+      {
+        "id": "ar-weather-cool",
+        "native": "الهواء بارد في الظل.",
+        "gloss": {
+          "id": "Udaranya dingin di tempat teduh.",
+          "en": "The air is cold in the shade."
+        },
+        "tags": [
+          "cold"
+        ]
+      }
+    ],
+    "action": [
+      {
+        "id": "ar-action-wipe-table",
+        "native": "مسح الطاولة",
+        "gloss": {
+          "id": "membersihkan meja",
+          "en": "wiping the table"
+        }
+      },
+      {
+        "id": "ar-action-open-workshop",
+        "native": "فتح الورشة",
+        "gloss": {
+          "id": "membuka bengkel",
+          "en": "opening the workshop"
+        }
+      },
+      {
+        "id": "ar-action-read-scroll",
+        "native": "قراءة المخطوط",
+        "gloss": {
+          "id": "membaca gulungan",
+          "en": "reading the scroll"
+        }
+      },
+      {
+        "id": "ar-action-sort-pens",
+        "native": "ترتيب الأقلام",
+        "gloss": {
+          "id": "merapikan pena",
+          "en": "sorting the pens"
+        }
+      },
+      {
+        "id": "ar-action-make-coffee",
+        "native": "صنع القهوة",
+        "gloss": {
+          "id": "membuat kopi",
+          "en": "making coffee"
+        }
+      },
+      {
+        "id": "ar-action-hang-lantern",
+        "native": "تعليق الفانوس",
+        "gloss": {
+          "id": "menggantung lentera",
+          "en": "hanging the lantern"
+        }
+      },
+      {
+        "id": "ar-action-wash-inkwell",
+        "native": "غسل المحبرة",
+        "gloss": {
+          "id": "mencuci wadah tinta",
+          "en": "washing the inkwell"
+        }
+      },
+      {
+        "id": "ar-action-polish-sign",
+        "native": "تلميع اللافتة",
+        "gloss": {
+          "id": "memoles papan nama",
+          "en": "polishing the signboard"
+        }
+      }
+    ],
+    "quote": [
+      {
+        "id": "ar-quote-paper-missing",
+        "native": "الورقة ناقصة",
+        "gloss": {
+          "id": "Kertasnya hilang",
+          "en": "The paper is missing"
+        },
+        "tags": [
+          "mystery"
+        ]
+      },
+      {
+        "id": "ar-quote-first-letter",
+        "native": "الحرف الأول هو المفتاح",
+        "gloss": {
+          "id": "Huruf pertama adalah kuncinya",
+          "en": "The first letter is the key"
+        },
+        "tags": [
+          "mystery"
+        ]
+      },
+      {
+        "id": "ar-quote-name-last-line",
+        "native": "اسم العائلة في آخر السطر",
+        "gloss": {
+          "id": "Nama keluarga ada di baris terakhir",
+          "en": "The family name is on the last line"
+        },
+        "tags": [
+          "mystery"
+        ]
+      },
+      {
+        "id": "ar-quote-patience",
+        "native": "الخط يحتاج صبرا",
+        "gloss": {
+          "id": "Kaligrafi butuh kesabaran",
+          "en": "Calligraphy needs patience"
+        },
+        "tags": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "ar-quote-workshop-morning",
+        "native": "الورشة تفتح في الصباح",
+        "gloss": {
+          "id": "Bengkel buka pagi",
+          "en": "The workshop opens in the morning"
+        }
+      },
+      {
+        "id": "ar-quote-thank-visit",
+        "native": "شكرا لزيارتك",
+        "gloss": {
+          "id": "Terima kasih atas kunjunganmu",
+          "en": "Thank you for visiting"
+        }
+      },
+      {
+        "id": "ar-quote-wait",
+        "native": "استنى شوية",
+        "gloss": {
+          "id": "Tunggu sebentar (Mesir)",
+          "en": "Wait a bit (Egyptian)"
+        },
+        "tags": [
+          "dialect-eg"
+        ]
+      },
+      {
+        "id": "ar-quote-paper-gone",
+        "native": "الورقة راحت",
+        "gloss": {
+          "id": "Kertasnya sudah hilang (Mesir)",
+          "en": "The paper is gone (Egyptian)"
+        },
+        "tags": [
+          "dialect-eg"
+        ]
+      }
+    ],
+    "question": [
+      {
+        "id": "ar-question-who-wrote",
+        "native": "من كتب هذا؟",
+        "gloss": {
+          "id": "Siapa yang menulis ini?",
+          "en": "Who wrote this?"
+        }
+      },
+      {
+        "id": "ar-question-where-paper",
+        "native": "أين الورقة؟",
+        "gloss": {
+          "id": "Di mana kertasnya?",
+          "en": "Where is the paper?"
+        }
+      },
+      {
+        "id": "ar-question-what-letter",
+        "native": "ماذا يعني هذا الحرف؟",
+        "gloss": {
+          "id": "Apa arti huruf ini?",
+          "en": "What does this letter mean?"
+        }
+      },
+      {
+        "id": "ar-question-why-scroll",
+        "native": "لماذا أخذ المخطوط؟",
+        "gloss": {
+          "id": "Mengapa gulungan itu diambil?",
+          "en": "Why was the scroll taken?"
+        }
+      },
+      {
+        "id": "ar-question-family-name",
+        "native": "هل هذا اسم العائلة؟",
+        "gloss": {
+          "id": "Apakah ini nama keluarga?",
+          "en": "Is this the family name?"
+        }
+      }
+    ],
+    "greeting": [
+      {
+        "id": "ar-greeting-salam",
+        "native": "السلام عليكم",
+        "gloss": {
+          "id": "Semoga keselamatan menyertaimu",
+          "en": "Peace be upon you"
+        }
+      },
+      {
+        "id": "ar-greeting-welcome",
+        "native": "أهلا وسهلا",
+        "gloss": {
+          "id": "Selamat datang",
+          "en": "Welcome"
+        }
+      },
+      {
+        "id": "ar-greeting-morning",
+        "native": "صباح الخير",
+        "gloss": {
+          "id": "Selamat pagi",
+          "en": "Good morning"
+        }
+      },
+      {
+        "id": "ar-greeting-evening",
+        "native": "مساء الخير",
+        "gloss": {
+          "id": "Selamat malam",
+          "en": "Good evening"
+        }
+      },
+      {
+        "id": "ar-greeting-nour",
+        "native": "أهلا يا نور",
+        "gloss": {
+          "id": "Hai Nour",
+          "en": "Hello, Nour"
+        }
+      },
+      {
+        "id": "ar-greeting-ezayak",
+        "native": "إزيك",
+        "gloss": {
+          "id": "Apa kabar? (Mesir)",
+          "en": "How are you? (Egyptian)"
+        },
+        "tags": [
+          "dialect-eg"
+        ]
+      }
+    ],
+    "emotion": [
+      {
+        "id": "ar-emotion-joy",
+        "native": "فرح",
+        "gloss": {
+          "id": "kegembiraan",
+          "en": "joy"
+        }
+      },
+      {
+        "id": "ar-emotion-worry",
+        "native": "قلق",
+        "gloss": {
+          "id": "kecemasan",
+          "en": "worry"
+        }
+      },
+      {
+        "id": "ar-emotion-longing",
+        "native": "حنين",
+        "gloss": {
+          "id": "kerinduan",
+          "en": "longing"
+        }
+      },
+      {
+        "id": "ar-emotion-relief",
+        "native": "ارتياح",
+        "gloss": {
+          "id": "kelegaan",
+          "en": "relief"
+        }
+      },
+      {
+        "id": "ar-emotion-awe",
+        "native": "رهبة",
+        "gloss": {
+          "id": "kekaguman bercampur takut",
+          "en": "awe"
+        }
+      }
+    ]
+  },
+  "anchors": [
+    {
+      "id": "ar-culture-0001",
+      "title": "الخط العربي: حرفة تنتقل من يد إلى يد",
+      "body": {
+        "id": "Kaligrafi Arab adalah pengetahuan dan keterampilan menulis huruf Arab dengan proporsi, urutan goresan, dan alat yang diwariskan dari guru ke murid. UNESCO mencatatnya pada Daftar Representatif Warisan Budaya Takbenda pada 2021, diajukan enam belas negara termasuk Mesir. Di bengkel fiktif «حبر وضوء», Nour belajar bahwa huruf bukan gambar bebas: setiap garis punya arah dan tempat, dan kesabaran lebih penting daripada bakat.",
+        "en": "Arabic calligraphy is the knowledge and skill of writing Arabic letters with proportion, stroke order, and tools passed from teacher to student. UNESCO inscribed it on the Representative List of the Intangible Cultural Heritage of Humanity in 2021, nominated by sixteen countries including Egypt. In the fictional workshop «حبر وضوء», Nour learns that a letter is not free drawing: every stroke has a direction and a place, and patience matters more than talent."
+      },
+      "sources": [
+        "UNESCO Intangible Cultural Heritage, 'Arabic calligraphy: knowledge, skills and practices' (Representative List, 2021) — https://ich.unesco.org/en/RL/arabic-calligraphy-knowledge-skills-and-practices-01718"
+      ],
+      "reflection": {
+        "id": "Mengapa keahlian seperti kaligrafi lebih mudah diwariskan lewat latihan bersama daripada lewat buku?",
+        "en": "Why is a skill like calligraphy more easily passed on through shared practice than through books?"
+      },
+      "stampId": "ar-stamp-calligraphy",
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "ar-culture-0002",
+      "title": "القلم والمحبرة والورق: أدوات الخط",
+      "body": {
+        "id": "Alat utama kaligrafi adalah قلم (qalam) dari buluh yang dipotong dan dirayap sendiri, tinta dari jelaga dan gum Arab, serta kertas yang disiapkan sebelum dipakai. Museum Metropolitan mencatat bahwa setiap kaligrafer belajar menyiapkan pena, tinta, dan kertas karena kualitas alat menentukan hasil goresan. Nour menghabiskan sore pertamanya bukan untuk menulis, melainkan memotong buluh dan mencoba ujung pena.",
+        "en": "The main tools of calligraphy are the قلم (qalam), a reed cut and trimmed by hand, ink made from soot and gum Arabic, and paper prepared before use. The Metropolitan Museum of Art notes that every calligrapher learned to prepare pens, inks, and paper because the quality of the tools shapes the stroke. Nour spends her first afternoon not writing but cutting reed and testing the nib."
+      },
+      "sources": [
+        "The Metropolitan Museum of Art, 'Calligraphers and Their Tools' (The Art of the Islamic World, Unit Two) — https://www.metmuseum.org/learn/educators/curriculum-resources/art-of-the-islamic-world/unit-two/calligraphers-and-their-tools",
+        "UNESCO Intangible Cultural Heritage, 'Arabic calligraphy: knowledge, skills and practices' (2021) — https://ich.unesco.org/en/RL/arabic-calligraphy-knowledge-skills-and-practices-01718"
+      ],
+      "reflection": {
+        "id": "Mengapa menyiapkan alat bisa menjadi bagian dari keahlian itu sendiri?",
+        "en": "Why can preparing tools be part of the skill itself?"
+      },
+      "stampId": "ar-stamp-tools",
+      "tags": [
+        "craft"
+      ]
+    },
+    {
+      "id": "ar-culture-0003",
+      "title": "خان الخليلي: سوق منذ 1382",
+      "body": {
+        "id": "Khan el-Khalili adalah pasar di Kairo yang tumbuh di sekitar khan (penginapan dagang) yang dibangun Emir Jaharkas al-Khalili pada 1382, pada masa Sultan Barquq. Sampai hari ini ia menjadi tempat toko, bengkel, dan kafe yang hidup berdampingan. Bengkel «حبر وضوء» adalah fiktif, tetapi gang-gang sempit, meja kerja, dan suara pasar di sekitarnya mengikuti kawasan nyata ini.",
+        "en": "Khan el-Khalili is a Cairo market that grew around the khan (merchants' hostel) built by Emir Jaharkas al-Khalili in 1382 under Sultan Barquq. Today it is still a place where shops, workshops, and cafés live side by side. The workshop «حبر وضوء» is fictional, but the narrow lanes, workbenches, and market sounds around it follow this real quarter."
+      },
+      "sources": [
+        "Encyclopaedia Britannica, 'Khan al-Khalili' — https://www.britannica.com/place/Khan-al-Khalili",
+        "Ahram Online, 'Facelift begins for the tiled grounds of Old Cairo's Khan Al-Khalili' — https://english.ahram.org.eg/News/168731.aspx"
+      ],
+      "reflection": {
+        "id": "Apa perbedaan antara pasar sebagai tempat wisata dan pasar sebagai tempat kerja orang?",
+        "en": "What is the difference between a market as a tourist site and a market as a place where people work?"
+      },
+      "stampId": "ar-stamp-khan",
+      "tags": [
+        "market"
+      ]
+    },
+    {
+      "id": "ar-culture-0004",
+      "title": "الأزقة والدروب في القاهرة التاريخية",
+      "body": {
+        "id": "Kairo bersejarah masuk Daftar Warisan Dunia UNESCO pada 1979 dan mencakup ratusan monumen dari abad ke-7 hingga ke-20, termasuk jaringan gang dan jalan batu di sekitar Masjid al-Hussein dan شارع المعز. Gang-gang itu bukan hanya latar: di sanalah pintu-pintu tetangga, bengkel kecil, dan warung berbagi ruang. Nour menghitung bahwa ia melewati tujuh belokan dari halte sampai bengkel, dan setiap belokan punya bunyi sendiri.",
+        "en": "Historic Cairo was inscribed on the UNESCO World Heritage List in 1979 and contains hundreds of monuments from the seventh to the twentieth century, including the network of lanes and stone streets around the al-Hussein area and شارع المعز. Those lanes are not just a backdrop: neighbours' doors, small workshops, and stalls share the space. Nour counts seven turns from the bus stop to the workshop, and every turn has its own sound."
+      },
+      "sources": [
+        "UNESCO World Heritage Centre, 'Historic Cairo' (No. 89) — https://whc.unesco.org/en/list/89/"
+      ],
+      "reflection": {
+        "id": "Bagaimana bentuk gang memengaruhi cara orang saling mengenal?",
+        "en": "How does the shape of an alley affect the way people know one another?"
+      },
+      "stampId": "ar-stamp-alleys",
+      "tags": [
+        "street"
+      ]
+    },
+    {
+      "id": "ar-culture-0005",
+      "title": "الفانوس: ضوء رمضان",
+      "body": {
+        "id": "Fānūs (فانوس) adalah lentera kertas dan kaca yang muncul di rumah, toko, dan jalan Kairo selama Ramadan. Ahram Online mencatat tradisi lentera ini dikaitkan dengan Kairo masa Fatimiyah dan sampai hari ini dibuat serta dijual di pasar, termasuk kawasan Khan el-Khalili. Di bengkel, Nour menerima pesanan memperbaiki lentera lama; ia belajar bahwa lentera bukan sekadar hiasan, tetapi tanda bahwa keluarga dan tetangga akan berkumpul.",
+        "en": "A fānūs (فانوس) is a paper-and-glass lantern that appears in Cairo's homes, shops, and streets during Ramadan. Ahram Online notes that the lantern tradition is linked to Fatimid-era Cairo and is still made and sold in markets, including the Khan el-Khalili area. At the workshop, Nour takes an order to repair an old lantern; she learns that a lantern is not just decoration but a sign that family and neighbours will gather."
+      },
+      "sources": [
+        "Ahram Online, 'Folk: The Ramadan lantern' — https://english.ahram.org.eg/News/76367.aspx",
+        "UNESCO World Heritage Centre, 'Historic Cairo' (No. 89) — https://whc.unesco.org/en/list/89/"
+      ],
+      "reflection": {
+        "id": "Mengapa benda sederhana seperti lentera bisa menandai waktu bagi satu kota?",
+        "en": "Why can a simple object like a lantern mark time for a whole city?"
+      },
+      "stampId": "ar-stamp-fanous",
+      "tags": [
+        "ramadan"
+      ]
+    },
+    {
+      "id": "ar-culture-0006",
+      "title": "الأهوة: مقهى الحارة",
+      "body": {
+        "id": "Ahwa (أهوة) adalah kedai kopi lingkungan di Mesir: kursi plastik atau kayu, meja kecil, teh dan kopi Turki, serta pelanggan tetap yang datang pada jam yang sama. Dalia Mostafa dan Amina Elbendary mencatat ahwa sebagai ruang sosial tempat kabar, lelucon, dan perselisihan kecil berputar. Di seberang bengkel ada ahwa kecil tempat العم رشدي membaca koran dan Nour menunggu pesanan kertas.",
+        "en": "An ahwa (أهوة) is an Egyptian neighbourhood coffeehouse: plastic or wooden chairs, small tables, tea and Turkish coffee, and regulars who arrive at the same hour. Dalia Mostafa and Amina Elbendary describe the ahwa as a social space where news, jokes, and small arguments circulate. Across from the workshop is a small ahwa where Uncle Rushdi reads the paper and Nour waits for paper orders."
+      },
+      "sources": [
+        "Dalia Said Mostafa and Amina Elbendary, 'The Egyptian Coffeehouse: Culture, Politics and Urban Space' (I.B. Tauris/Bloomsbury, 2022) — https://books.google.com.sg/books?id=U3P_DwAAQBAJ"
+      ],
+      "reflection": {
+        "id": "Apa fungsi kedai kopi yang tidak bisa digantikan oleh telepon?",
+        "en": "What does a coffeehouse do that a phone cannot replace?"
+      },
+      "stampId": "ar-stamp-ahwa",
+      "tags": [
+        "coffee"
+      ]
+    },
+    {
+      "id": "ar-culture-0007",
+      "title": "القهوة والكرم: قواعد الضيافة",
+      "body": {
+        "id": "Menyajikan kopi adalah cara menerima tamu di banyak rumah dan kedai di Mesir. UNESCO mencatat tradisi kopi Arab sebagai simbol kemurahan hati pada 2022. Dalam praktik sehari-hari, urutan menyajikan, jumlah cangkir, dan siapa yang menuangkan semuanya punya arti. أم خالد selalu mengirim secangkir teh ke bengkel sebelum bertanya kabar; bagi Nour, itu tanda bahwa percakapan belum selesai.",
+        "en": "Serving coffee is a way of receiving guests in many Egyptian homes and shops. UNESCO inscribed the Arabic coffee tradition as a symbol of generosity in 2022. In daily practice, the order of serving, the number of cups, and who pours all carry meaning. Umm Khalid always sends a glass of tea to the workshop before asking for news; for Nour, it is a sign that the conversation is not over."
+      },
+      "sources": [
+        "UNESCO Intangible Cultural Heritage, 'Arabic coffee: a symbol of generosity' (Representative List, 2022) — https://ich.unesco.org/en/RL/arabic-coffee-a-symbol-of-generosity-02111"
+      ],
+      "reflection": {
+        "id": "Mengapa keramahan sering diukur dari hal-hal kecil, bukan dari kata-kata besar?",
+        "en": "Why is hospitality often measured in small things rather than grand words?"
+      },
+      "stampId": "ar-stamp-coffee",
+      "tags": [
+        "coffee"
+      ]
+    },
+    {
+      "id": "ar-culture-0008",
+      "title": "العيد في القاهرة: كحك وزيارات",
+      "body": {
+        "id": "Idulfitri di Kairo dirayakan dengan salat pagi bersama, pakaian baru, kue كحك, dan kunjungan ke rumah keluarga. Layanan Informasi Negara Mesir mencatat kebiasaan ini sebagai bagian dari tradisi masyarakat Mesir yang berubah bentuk dari masa ke masa. Di cerita ini, Idulfitri bukan pelajaran agama, melainkan hari ketika bengkel tutup, pesanan selesai, dan gang penuh suara anak-anak.",
+        "en": "Eid al-Fitr in Cairo is marked by morning prayer together, new clothes, كحك (kahk) biscuits, and visits to family homes. Egypt's State Information Service records these customs as part of Egyptian social tradition that has changed shape across periods. In this story, Eid is not a religious lesson but the day the workshop closes, orders are finished, and the alley fills with children's voices."
+      },
+      "sources": [
+        "Egypt State Information Service, 'عيد الفطر' (Eid al-Fitr) — https://sis.gov.eg/ar/مصر/المجتمع/اعياد-ومناسبات/عيد-الفطر/",
+        "Egypt Ministry of Tourism and Antiquities, Experience Egypt — https://www.experienceegypt.eg/en"
+      ],
+      "reflection": {
+        "id": "Apa yang berubah dan apa yang tetap dari perayaan keluarga selama bertahun-tahun?",
+        "en": "What changes and what stays the same in a family celebration over the years?"
+      },
+      "stampId": "ar-stamp-eid",
+      "tags": [
+        "eid"
+      ]
+    },
+    {
+      "id": "ar-culture-0009",
+      "title": "النقوش على العمارة: خط على الحجر",
+      "body": {
+        "id": "Di Cairo bersejarah, kaligrafi tidak hanya ada di kertas: prasasti dan pita huruf mengelilingi pintu, kubah, dan dinding monumen. UNESCO mencatat ratusan monumen di kawasan ini, dan banyak di antaranya membawa tulisan yang menjadi bagian dari bangunan itu sendiri. Nour mulai melihat bengkelnya sebagai bagian dari tradisi yang lebih luas ketika العم رشدي menunjukkan foto prasasti lama di dekat شارع المعز.",
+        "en": "In Historic Cairo, calligraphy is not only on paper: inscriptions and bands of letters run around doors, domes, and walls of monuments. UNESCO records hundreds of monuments in this area, and many carry writing that is part of the building itself. Nour begins to see her workshop as part of a wider tradition when Uncle Rushdi shows her a photograph of an old inscription near شارع المعز."
+      },
+      "sources": [
+        "UNESCO World Heritage Centre, 'Historic Cairo' (No. 89) — https://whc.unesco.org/en/list/89/",
+        "The Metropolitan Museum of Art, 'Calligraphers and Their Tools' (The Art of the Islamic World, Unit Two) — https://www.metmuseum.org/learn/educators/curriculum-resources/art-of-the-islamic-world/unit-two/calligraphers-and-their-tools"
+      ],
+      "reflection": {
+        "id": "Mengapa tulisan di dinding bisa bertahan lebih lama daripada tulisan di kertas?",
+        "en": "Why can writing on a wall outlast writing on paper?"
+      },
+      "stampId": "ar-stamp-inscription",
+      "tags": [
+        "craft"
+      ]
+    }
+  ],
+  "arcs": [
+    {
+      "tier": "T1",
+      "seasonNo": 1,
+      "title": "The First Letter",
+      "nativeTitle": "الحرف الأول",
+      "synopsis": "Nour memulai magang di bengkel pamannya. Pelanggan datang, pesanan membingungkan, dan sebuah latihan lama memperlihatkan satu huruf yang sengaja dihapus. Nour harus belajar membaca bentuk sebelum ia bisa menulisnya.",
+      "mystery": "ar-object-letter",
+      "cliffhanger": "Di bawah latihan yang dihapus ada satu nama keluarga, dan huruf pertamanya baru saja muncul kembali."
+    },
+    {
+      "tier": "T1",
+      "seasonNo": 2,
+      "title": "The Workshop Door",
+      "nativeTitle": "باب الورشة",
+      "synopsis": "Rutinitas bengkel: membuka pintu, merapikan pena, menyajikan teh, dan melayani pesanan kecil. Sebuah kunci lama tidak lagi cocok dengan pintu belakang, dan Nour mulai mencatat siapa yang datang setiap hari.",
+      "mystery": "ar-object-key",
+      "cliffhanger": "Kunci itu membuka lemari di lantai atas, bukan pintu belakang."
+    },
+    {
+      "tier": "T2",
+      "seasonNo": 1,
+      "title": "The Missing Paper",
+      "nativeTitle": "الورقة الناقصة",
+      "synopsis": "Satu halaman hilang dari «المخطوط» lama yang dipesan untuk diperbaiki. Nour dan Yassin menyusuri toko kertas dan ahwa untuk mencari jenis kertas yang sama, sementara العم رشدي menolak menjelaskan alasannya.",
+      "mystery": "ar-object-paper",
+      "cliffhanger": "Kertas pengganti itu ternyata membawa cap toko lain yang sudah lama tutup."
+    },
+    {
+      "tier": "T2",
+      "seasonNo": 2,
+      "title": "The Notebook of Names",
+      "nativeTitle": "دفتر الأسماء",
+      "synopsis": "Di laci meja kasir ada «الدفتر» berisi nama pelanggan dan tanggal pesanan selama puluhan tahun. Nour menemukan satu nama yang muncul berulang, tetapi tidak pernah diambil pesanannya.",
+      "mystery": "ar-object-notebook",
+      "cliffhanger": "Nama terakhir di «الدفتر» adalah nama keluarga Nour sendiri, ditulis dengan ejaan yang berbeda."
+    },
+    {
+      "tier": "T3",
+      "seasonNo": 1,
+      "title": "Ramadan",
+      "nativeTitle": "رمضان",
+      "synopsis": "Menjelang Ramadan, pesanan lentera dan hiasan membanjiri bengkel. Nour harus menyelesaikan pekerjaan sambil menjaga jam buka, dan أم خالد mengatur jadwal kunjungan yang tidak diminta siapa pun.",
+      "mystery": "ar-object-lantern",
+      "cliffhanger": "Di dalam lentera lama ada gulungan kecil yang tidak pernah dilihat Nour."
+    },
+    {
+      "tier": "T3",
+      "seasonNo": 2,
+      "title": "The Last Lantern",
+      "nativeTitle": "الفانوس الأخير",
+      "synopsis": "Seorang pelanggan meminta lentera tua diperbaiki untuk anaknya. Nour menemukan bahwa lentera itu dibuat oleh kakeknya, dan العم رشدي akhirnya menceritakan sebagian masa lalu bengkel.",
+      "mystery": "ar-object-scroll",
+      "cliffhanger": "Lentera itu menyimpan nama bengkel yang berbeda dari yang tertulis di papan sekarang."
+    },
+    {
+      "tier": "T4",
+      "seasonNo": 1,
+      "title": "The Souk",
+      "nativeTitle": "السوق",
+      "synopsis": "Pemilik bangunan ingin menaikkan sewa dan merenovasi deretan toko di gang. Nour harus memilih antara membantu bengkel bertahan atau menerima tawaran pekerjaan desain di tempat lain.",
+      "mystery": "ar-object-sign",
+      "cliffhanger": "Papan nama lama bengkel dibongkar, dan di belakangnya ada tulisan yang lebih tua."
+    },
+    {
+      "tier": "T4",
+      "seasonNo": 2,
+      "title": "The Paper Seller",
+      "nativeTitle": "الورّاق",
+      "synopsis": "صابر hendak menutup tokonya dan menjual stok lama. Nour dan Yassin mencoba menyelamatkan kertas-kertas yang masih bisa dipakai, dan menemukan hubungan lama antara keluarga mereka.",
+      "mystery": "ar-object-ink",
+      "cliffhanger": "Di dasar «المحبرة» lama ada nama yang sama dengan yang ada di «المخطوط» keluarga."
+    },
+    {
+      "tier": "T5",
+      "seasonNo": 1,
+      "title": "The Family Name",
+      "nativeTitle": "اسم العائلة",
+      "synopsis": "Nour membandingkan gulungan, «الدفتر»، dan papan nama lama. Ternyata nama keluarga «الكاتب» bukan diwarisi dari garis darah, melainkan diberikan seorang guru kepada leluhurnya setelah ia lulus ujian keahlian.",
+      "mystery": "ar-object-scroll",
+      "cliffhanger": "Di baris terakhir gulungan, nama leluhur itu ditulis dengan nama keluarga yang sama sekali lain."
+    },
+    {
+      "tier": "T5",
+      "seasonNo": 2,
+      "title": "Ink and Light",
+      "nativeTitle": "حبر وضوء",
+      "synopsis": "Idulfitri mendekat, dan bengkel harus memutuskan apakah nama lama dipulihkan atau nama baru dipertahankan. Nour menyelesaikan karya pertamanya dan menandatanganinya dengan nama yang akhirnya ia pahami.",
+      "mystery": "ar-object-letter",
+      "cliffhanger": "Nour menandatangani karyanya, lalu meletakkan pena untuk العم رشدي di sebelahnya."
+    }
+  ]
+}

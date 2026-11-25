@@ -1,0 +1,2603 @@
+{
+  "language": "ar",
+  "script": "arab",
+  "romanization": "none",
+  "lexicon": {
+    "person": [
+      {
+        "id": "ar-k-person-doorman",
+        "native": "البواب",
+        "gloss": {
+          "id": "penjaga pintu",
+          "en": "the doorman"
+        },
+        "tags": [
+          "role"
+        ]
+      },
+      {
+        "id": "ar-k-person-student",
+        "native": "الطالب",
+        "gloss": {
+          "id": "pelajar",
+          "en": "the student"
+        },
+        "tags": [
+          "role"
+        ]
+      },
+      {
+        "id": "ar-k-person-friend",
+        "native": "الصديق",
+        "gloss": {
+          "id": "teman",
+          "en": "the friend"
+        },
+        "tags": [
+          "friend"
+        ]
+      },
+      {
+        "id": "ar-k-person-passersby",
+        "native": "المارة",
+        "gloss": {
+          "id": "orang lewat",
+          "en": "the passer-by"
+        },
+        "tags": [
+          "role"
+        ]
+      },
+      {
+        "id": "ar-k-person-worker",
+        "native": "العامل",
+        "gloss": {
+          "id": "pekerja",
+          "en": "the worker"
+        },
+        "tags": [
+          "role"
+        ]
+      }
+    ],
+    "place": [
+      {
+        "id": "ar-k-place-shop",
+        "native": "الدكان",
+        "gloss": {
+          "id": "toko",
+          "en": "the shop"
+        }
+      },
+      {
+        "id": "ar-k-place-station",
+        "native": "المحطة",
+        "gloss": {
+          "id": "stasiun",
+          "en": "the station"
+        }
+      },
+      {
+        "id": "ar-k-place-kitchen",
+        "native": "المطبخ",
+        "gloss": {
+          "id": "dapur",
+          "en": "the kitchen"
+        }
+      },
+      {
+        "id": "ar-k-place-street",
+        "native": "الشارع",
+        "gloss": {
+          "id": "jalan",
+          "en": "the street"
+        }
+      },
+      {
+        "id": "ar-k-place-garden",
+        "native": "الحديقة",
+        "gloss": {
+          "id": "taman",
+          "en": "the garden"
+        }
+      }
+    ],
+    "object": [
+      {
+        "id": "ar-k-object-cup",
+        "native": "الكوب",
+        "gloss": {
+          "id": "cangkir",
+          "en": "the cup"
+        }
+      },
+      {
+        "id": "ar-k-object-photo",
+        "native": "الصورة",
+        "gloss": {
+          "id": "foto",
+          "en": "the photograph"
+        }
+      },
+      {
+        "id": "ar-k-object-envelope",
+        "native": "الظرف",
+        "gloss": {
+          "id": "amplop",
+          "en": "the envelope"
+        }
+      },
+      {
+        "id": "ar-k-object-pen",
+        "native": "القلم",
+        "gloss": {
+          "id": "pena",
+          "en": "the pen"
+        }
+      },
+      {
+        "id": "ar-k-object-bag",
+        "native": "الحقيبة",
+        "gloss": {
+          "id": "tas",
+          "en": "the bag"
+        }
+      }
+    ],
+    "food": [
+      {
+        "id": "ar-k-food-bread",
+        "native": "الخبز",
+        "gloss": {
+          "id": "roti",
+          "en": "the bread"
+        }
+      },
+      {
+        "id": "ar-k-food-cake",
+        "native": "الكعك",
+        "gloss": {
+          "id": "kue",
+          "en": "the cake"
+        }
+      },
+      {
+        "id": "ar-k-food-rice",
+        "native": "الأرز",
+        "gloss": {
+          "id": "nasi",
+          "en": "the rice"
+        }
+      },
+      {
+        "id": "ar-k-food-soup",
+        "native": "الشوربة",
+        "gloss": {
+          "id": "sup",
+          "en": "the soup"
+        }
+      },
+      {
+        "id": "ar-k-food-salad",
+        "native": "السلطة",
+        "gloss": {
+          "id": "salad",
+          "en": "the salad"
+        }
+      }
+    ],
+    "drink": [
+      {
+        "id": "ar-k-drink-mint-tea",
+        "native": "الشاي بالنعناع",
+        "gloss": {
+          "id": "teh mint",
+          "en": "mint tea"
+        }
+      },
+      {
+        "id": "ar-k-drink-coffee",
+        "native": "القهوة",
+        "gloss": {
+          "id": "kopi",
+          "en": "coffee"
+        }
+      },
+      {
+        "id": "ar-k-drink-water",
+        "native": "الماء",
+        "gloss": {
+          "id": "air",
+          "en": "water"
+        }
+      },
+      {
+        "id": "ar-k-drink-juice",
+        "native": "العصير",
+        "gloss": {
+          "id": "jus",
+          "en": "juice"
+        }
+      }
+    ],
+    "time": [
+      {
+        "id": "ar-k-time-daytime",
+        "native": "النهار",
+        "gloss": {
+          "id": "siang hari",
+          "en": "daytime"
+        }
+      },
+      {
+        "id": "ar-k-time-sunset",
+        "native": "الغروب",
+        "gloss": {
+          "id": "senja",
+          "en": "sunset"
+        }
+      },
+      {
+        "id": "ar-k-time-night",
+        "native": "الليل",
+        "gloss": {
+          "id": "malam",
+          "en": "night"
+        }
+      },
+      {
+        "id": "ar-k-time-early",
+        "native": "الصباح الباكر",
+        "gloss": {
+          "id": "pagi sekali",
+          "en": "early morning"
+        }
+      }
+    ],
+    "weather": [
+      {
+        "id": "ar-k-weather-mild",
+        "native": "الجو معتدل.",
+        "gloss": {
+          "id": "Cuacanya sedang.",
+          "en": "The weather is mild."
+        },
+        "tags": [
+          "clear"
+        ]
+      },
+      {
+        "id": "ar-k-weather-cloudy",
+        "native": "السماء غائمة.",
+        "gloss": {
+          "id": "Langitnya berawan.",
+          "en": "The sky is cloudy."
+        },
+        "tags": [
+          "cloud"
+        ]
+      },
+      {
+        "id": "ar-k-weather-sun",
+        "native": "الشمس قوية.",
+        "gloss": {
+          "id": "Mataharinya terik.",
+          "en": "The sun is strong."
+        },
+        "tags": [
+          "warm"
+        ]
+      },
+      {
+        "id": "ar-k-weather-breeze",
+        "native": "النسيم لطيف.",
+        "gloss": {
+          "id": "Anginnya sepoi-sepoi.",
+          "en": "The breeze is gentle."
+        },
+        "tags": [
+          "warm"
+        ]
+      }
+    ],
+    "action": [
+      {
+        "id": "ar-k-action-open-door",
+        "native": "فتح الباب",
+        "gloss": {
+          "id": "membuka pintu",
+          "en": "opening the door"
+        }
+      },
+      {
+        "id": "ar-k-action-sort-shelf",
+        "native": "ترتيب الرف",
+        "gloss": {
+          "id": "merapikan rak",
+          "en": "sorting the shelf"
+        }
+      },
+      {
+        "id": "ar-k-action-wash-cups",
+        "native": "غسل الأكواب",
+        "gloss": {
+          "id": "mencuci cangkir",
+          "en": "washing the cups"
+        }
+      },
+      {
+        "id": "ar-k-action-write-note",
+        "native": "كتابة ملاحظة",
+        "gloss": {
+          "id": "menulis catatan",
+          "en": "writing a note"
+        }
+      },
+      {
+        "id": "ar-k-action-wait-window",
+        "native": "الانتظار عند النافذة",
+        "gloss": {
+          "id": "menunggu di jendela",
+          "en": "waiting by the window"
+        }
+      }
+    ],
+    "quote": [
+      {
+        "id": "ar-k-quote-welcome",
+        "native": "أهلا بك",
+        "gloss": {
+          "id": "Selamat datang",
+          "en": "Welcome"
+        }
+      },
+      {
+        "id": "ar-k-quote-late",
+        "native": "الوقت متأخر",
+        "gloss": {
+          "id": "Waktunya sudah larut",
+          "en": "It is late"
+        }
+      },
+      {
+        "id": "ar-k-quote-nice-place",
+        "native": "هذا مكان جميل",
+        "gloss": {
+          "id": "Tempat ini indah",
+          "en": "This is a beautiful place"
+        }
+      },
+      {
+        "id": "ar-k-quote-thanks",
+        "native": "شكرا جزيلا",
+        "gloss": {
+          "id": "Terima kasih banyak",
+          "en": "Thank you very much"
+        }
+      },
+      {
+        "id": "ar-k-quote-not-forgotten",
+        "native": "لم أنس",
+        "gloss": {
+          "id": "Aku tidak lupa",
+          "en": "I have not forgotten"
+        }
+      }
+    ],
+    "question": [
+      {
+        "id": "ar-k-question-what",
+        "native": "ما هذا؟",
+        "gloss": {
+          "id": "Apa ini?",
+          "en": "What is this?"
+        }
+      },
+      {
+        "id": "ar-k-question-who-said",
+        "native": "من قال ذلك؟",
+        "gloss": {
+          "id": "Siapa yang mengatakan itu?",
+          "en": "Who said that?"
+        }
+      },
+      {
+        "id": "ar-k-question-where-notebook",
+        "native": "أين الدفتر؟",
+        "gloss": {
+          "id": "Di mana buku catatan itu?",
+          "en": "Where is the notebook?"
+        }
+      },
+      {
+        "id": "ar-k-question-why-now",
+        "native": "لماذا الآن؟",
+        "gloss": {
+          "id": "Mengapa sekarang?",
+          "en": "Why now?"
+        }
+      },
+      {
+        "id": "ar-k-question-arrived",
+        "native": "هل وصلت الرسالة؟",
+        "gloss": {
+          "id": "Apakah suratnya sudah tiba?",
+          "en": "Has the letter arrived?"
+        }
+      }
+    ],
+    "greeting": [
+      {
+        "id": "ar-k-greeting-hello",
+        "native": "أهلا",
+        "gloss": {
+          "id": "Halo",
+          "en": "Hello"
+        }
+      },
+      {
+        "id": "ar-k-greeting-morning-light",
+        "native": "صباح النور",
+        "gloss": {
+          "id": "Selamat pagi",
+          "en": "Good morning"
+        }
+      },
+      {
+        "id": "ar-k-greeting-evening",
+        "native": "طاب مساؤك",
+        "gloss": {
+          "id": "Semoga malammu baik",
+          "en": "Good evening"
+        }
+      },
+      {
+        "id": "ar-k-greeting-welcome",
+        "native": "مرحبا",
+        "gloss": {
+          "id": "Selamat datang",
+          "en": "Welcome"
+        }
+      }
+    ],
+    "emotion": [
+      {
+        "id": "ar-k-emotion-happiness",
+        "native": "سعادة",
+        "gloss": {
+          "id": "kebahagiaan",
+          "en": "happiness"
+        }
+      },
+      {
+        "id": "ar-k-emotion-confusion",
+        "native": "حيرة",
+        "gloss": {
+          "id": "kebingungan",
+          "en": "confusion"
+        }
+      },
+      {
+        "id": "ar-k-emotion-calm",
+        "native": "هدوء",
+        "gloss": {
+          "id": "ketenangan",
+          "en": "calm"
+        }
+      },
+      {
+        "id": "ar-k-emotion-curiosity",
+        "native": "فضول",
+        "gloss": {
+          "id": "rasa ingin tahu",
+          "en": "curiosity"
+        }
+      },
+      {
+        "id": "ar-k-emotion-gratitude",
+        "native": "امتنان",
+        "gloss": {
+          "id": "rasa syukur",
+          "en": "gratitude"
+        }
+      }
+    ]
+  },
+  "frames": [
+    {
+      "id": "f-l1-context-1",
+      "segments": [
+        {
+          "text": "في "
+        },
+        {
+          "slot": "time"
+        },
+        {
+          "text": "، كان وصول "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " إلى "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " هادئا. "
+        },
+        {
+          "slot": "weather"
+        }
+      ]
+    },
+    {
+      "id": "f-l1-context-2",
+      "segments": [
+        {
+          "text": "في "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " هدوء تام، و"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " في انتظار "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " قرب "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-greeting-1",
+      "segments": [
+        {
+          "text": "«"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "»، تحية "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " عند الباب، والضوء خفيف."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-greeting-2",
+      "segments": [
+        {
+          "text": "«"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "»، وابتسامة "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " تملأ الباب."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-task-1",
+      "segments": [
+        {
+          "text": "في "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "، كان "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": " على يد "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " بهدوء."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-task-2",
+      "segments": [
+        {
+          "slot": "action"
+        },
+        {
+          "text": "، ثم "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " أمام عيني "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " بلا حركة."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-request-1",
+      "segments": [
+        {
+          "text": "«"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "»، كان طلب "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " هادئا."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-request-2",
+      "segments": [
+        {
+          "text": "«"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " من فضلك»، كانت كلمات "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " قصيرة."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-complication-1",
+      "segments": [
+        {
+          "text": "لا فهم عند "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": ". «"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "» ثم صمت."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-complication-2",
+      "segments": [
+        {
+          "text": "مكان "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " خال. "
+        },
+        {
+          "slot": "weather"
+        },
+        {
+          "text": " لا أحد يعرف."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-clue-1",
+      "segments": [
+        {
+          "text": "تحت الطاولة، "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " بين يدي "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "، والغبار خفيف."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-clue-2",
+      "segments": [
+        {
+          "text": "على "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " اسم، وقراءة "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " له في صمت."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-turn-1",
+      "segments": [
+        {
+          "text": "«"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "»، ثم ابتسامة من "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " أخيرا."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-turn-2",
+      "segments": [
+        {
+          "text": "في "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": " الآن."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-cliffhanger-1",
+      "segments": [
+        {
+          "text": "ثم رنين الهاتف. و"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " مع "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "، والغرفة صامتة."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-cliffhanger-2",
+      "segments": [
+        {
+          "text": "«"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "» بصوت منخفض من "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "، ثم صمت."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-context-1",
+      "segments": [
+        {
+          "text": "عند وصول "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " إلى "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " في "
+        },
+        {
+          "slot": "time"
+        },
+        {
+          "text": "، كان المكان مزدحما. "
+        },
+        {
+          "slot": "weather"
+        }
+      ]
+    },
+    {
+      "id": "f-l2-context-2",
+      "segments": [
+        {
+          "text": "في "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " هدوء، و"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " في انتظار "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "، و"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " في يد "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-greeting-1",
+      "segments": [
+        {
+          "text": "«"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "»، تحية "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " عند الباب."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-greeting-2",
+      "segments": [
+        {
+          "text": "«"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "»، ردّ "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " مع إيماءة."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-task-1",
+      "segments": [
+        {
+          "text": "بسبب "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": "، كان حضور "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " إلى "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " قبل وصول "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-task-2",
+      "segments": [
+        {
+          "slot": "action"
+        },
+        {
+          "text": " على يد "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "، لكن "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " على الطاولة بلا حركة."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-request-1",
+      "segments": [
+        {
+          "text": "«"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "»، كلمات "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " بصوت هادئ."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-request-2",
+      "segments": [
+        {
+          "text": "سؤال "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " عن "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "، وسكوت "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " جواب."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-complication-1",
+      "segments": [
+        {
+          "text": "لا فهم عند "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "، والسؤال: «"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "»"
+        }
+      ]
+    },
+    {
+      "id": "f-l2-complication-2",
+      "segments": [
+        {
+          "slot": "object"
+        },
+        {
+          "text": " في مكان آخر، ولا أحد يعرف من نقله. لا جواب عند "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-clue-1",
+      "segments": [
+        {
+          "text": "في الدرج، تحت قماش قديم، "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " بين يدي "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-clue-2",
+      "segments": [
+        {
+          "text": "على "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " سطر صغير: «"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "»، ثم صمت."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-turn-1",
+      "segments": [
+        {
+          "text": "نظرة "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " إلى "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "، ثم «"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "»."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-turn-2",
+      "segments": [
+        {
+          "text": "لأول مرة، في "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-cliffhanger-1",
+      "segments": [
+        {
+          "text": "وفي تلك اللحظة، "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " عند الباب، و"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " مع "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-cliffhanger-2",
+      "segments": [
+        {
+          "text": "رنين الهاتف مرة أخرى. «"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "» صوت من الهاتف."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-context-1",
+      "segments": [
+        {
+          "text": "عند وصول "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " إلى "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " في "
+        },
+        {
+          "slot": "time"
+        },
+        {
+          "text": "، بدا المكان مختلفا عما في الذاكرة. "
+        },
+        {
+          "slot": "weather"
+        }
+      ]
+    },
+    {
+      "id": "f-l3-context-2",
+      "segments": [
+        {
+          "text": "في "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " كان الازدحام قديما؛ أما الآن ففيه هدوء، ولا يبقى في المكان نفسه إلا "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-greeting-1",
+      "segments": [
+        {
+          "text": "«"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "»، تحية "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " إلى "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "، وربما لم تصل."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-greeting-2",
+      "segments": [
+        {
+          "text": "«"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "»، تحية "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " كالعادة، و"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " أمام الباب."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-task-1",
+      "segments": [
+        {
+          "text": "أثناء "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": "، انتباه "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " إلى أشياء في "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " لم تر من قبل."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-task-2",
+      "segments": [
+        {
+          "text": "على "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " إتمام "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": " قبل وصول "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "، و"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " في المكان نفسه."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-request-1",
+      "segments": [
+        {
+          "text": "«"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "»، طلب "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " كأنه أسهل شيء في العالم."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-request-2",
+      "segments": [
+        {
+          "text": "سؤال "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " عن "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "، وهل عند "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " خبر؟ «"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "»"
+        }
+      ]
+    },
+    {
+      "id": "f-l3-complication-1",
+      "segments": [
+        {
+          "text": "لا جواب عند "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": ". "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " مثل مفتاح بلا باب. «"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "»"
+        }
+      ]
+    },
+    {
+      "id": "f-l3-complication-2",
+      "segments": [
+        {
+          "text": "نقل أحدهم "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "، وبدأ في "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " شكّ أن الأمر ليس مصادفة."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-clue-1",
+      "segments": [
+        {
+          "text": "خلف "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "، ورقة قديمة: «"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "»، وقراءة "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " لها."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-clue-2",
+      "segments": [
+        {
+          "slot": "object"
+        },
+        {
+          "text": " من "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "، من زمن قبل ولادة "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-turn-1",
+      "segments": [
+        {
+          "text": "«"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "»، كلمات "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": ". وفي "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-turn-2",
+      "segments": [
+        {
+          "text": "انتقال "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " من يد "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " إلى يد "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "، ولحظة من "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-cliffhanger-1",
+      "segments": [
+        {
+          "text": "«"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "»، و"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " في يد "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " للمرة الأولى."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-cliffhanger-2",
+      "segments": [
+        {
+          "text": "في تلك الليلة، لا أحد في "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "، لكن "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " على الطاولة."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-context-1",
+      "segments": [
+        {
+          "text": "قبيل "
+        },
+        {
+          "slot": "time"
+        },
+        {
+          "text": "، كان قدوم "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " إلى "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " بعد غياب طويل. "
+        },
+        {
+          "slot": "weather"
+        }
+      ]
+    },
+    {
+      "id": "f-l4-context-2",
+      "segments": [
+        {
+          "text": "في "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "، "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " في المكان نفسه منذ سنوات."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-greeting-1",
+      "segments": [
+        {
+          "text": "«"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "»، تحية "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " بأدب، مع أن العلاقة بينهما لم تكن قريبة يوما."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-greeting-2",
+      "segments": [
+        {
+          "text": "«"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "»، ردّ "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "، ثم إشارة إلى الداخل. "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " في العتبة."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-task-1",
+      "segments": [
+        {
+          "text": "بعد "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": "، "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " أمام "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "، ولم يعد فيه ما كان."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-task-2",
+      "segments": [
+        {
+          "text": "أثناء "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": "، شرح "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " لماذا "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " بهذه الأهمية، و"
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " حاضر."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-request-1",
+      "segments": [
+        {
+          "text": "«"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "»، كلمات "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "، و"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " في اتجاه "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-request-2",
+      "segments": [
+        {
+          "text": "«"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "»، وطلب "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " من "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " نظرة أخرى إلى "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-complication-1",
+      "segments": [
+        {
+          "text": "وجود "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " هنا بلا سبب مستحيل. وفي عيني "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " السؤال: «"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "»"
+        }
+      ]
+    },
+    {
+      "id": "f-l4-complication-2",
+      "segments": [
+        {
+          "text": "انتقال "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " من "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " حدث دون علم "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-clue-1",
+      "segments": [
+        {
+          "text": "داخل "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "، رسالة بخط اليد: «"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "». قراءة "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " لها."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-clue-2",
+      "segments": [
+        {
+          "text": "من حفظ "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " في "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " لم يرد ذكر اسمه."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-turn-1",
+      "segments": [
+        {
+          "text": "«"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "»، كلمات "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": ". وفي عيني "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": " بلا إخفاء."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-turn-2",
+      "segments": [
+        {
+          "text": "عند انتقال "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " من يد "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " إلى يد "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "، إدراك: "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": " من زمن بعيد."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-cliffhanger-1",
+      "segments": [
+        {
+          "text": "قبل سؤال "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "، «"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "» من "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-cliffhanger-2",
+      "segments": [
+        {
+          "text": "باب "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " يفتح، و"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " خارج المكان."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-context-1",
+      "segments": [
+        {
+          "text": "في "
+        },
+        {
+          "slot": "time"
+        },
+        {
+          "text": "، "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " مثل ذكرى لم تكتمل. "
+        },
+        {
+          "slot": "weather"
+        }
+      ]
+    },
+    {
+      "id": "f-l5-context-2",
+      "segments": [
+        {
+          "text": "بعد سنوات، في ذاكرة "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": ": "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " في "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "، في المكان نفسه."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-greeting-1",
+      "segments": [
+        {
+          "text": "«"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "»، تحية "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "، تبدو اعتذارا متأخرا."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-greeting-2",
+      "segments": [
+        {
+          "text": "«"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "»، ردّ "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "، وفي الجانبين معرفة بما لم يقل."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-task-1",
+      "segments": [
+        {
+          "text": "بينما "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": "، "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " مثل من يحبس نفسه، و"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " في انتظار ما لن يأتي."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-task-2",
+      "segments": [
+        {
+          "text": "بحرص شديد، "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": "، و"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " أمام "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "، كأن كلمة واحدة تكفي."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-request-1",
+      "segments": [
+        {
+          "text": "«"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "»، كلمات "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "، و"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " في يد "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "، وثقل لم يكن."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-request-2",
+      "segments": [
+        {
+          "text": "لا طلب لجواب، فقط «"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "»، وعينا "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " على "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-complication-1",
+      "segments": [
+        {
+          "text": "وأخيرا، فهم "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": ": السر ليس في "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "، بل في رغبة أحدهم أن يذكر. «"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "»"
+        }
+      ]
+    },
+    {
+      "id": "f-l5-complication-2",
+      "segments": [
+        {
+          "text": "الأصعب ليس فقدان "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "، بل إدراك أن "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " في انتظار "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " منذ زمن."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-clue-1",
+      "segments": [
+        {
+          "text": "داخل "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "، جملة واحدة بخط عناية: «"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "». و"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " أمامها."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-clue-2",
+      "segments": [
+        {
+          "text": "في "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " اسم "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "، وهذا الاسم يفتح بابا ظل مغلقا."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-turn-1",
+      "segments": [
+        {
+          "text": "«"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "»، كلمات "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " أخيرا. وفي "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": " بلا إخفاء."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-turn-2",
+      "segments": [
+        {
+          "text": "عند انتقال "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "، إدراك "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": ": "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": " أطول عمرا من أي شيء."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-cliffhanger-1",
+      "segments": [
+        {
+          "text": "نظرة "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " من "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " إلى "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "، ثم: «"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "»"
+        }
+      ]
+    },
+    {
+      "id": "f-l5-cliffhanger-2",
+      "segments": [
+        {
+          "text": "عند العتبة، همس من "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": ": «"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "»، و"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " من يد "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " إلى الأرض."
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "ar-g1",
+      "level": 1,
+      "pattern": "الجملة الاسمية: المبتدأ والخبر",
+      "meaning": {
+        "id": "kalimat nominal tanpa kata kerja",
+        "en": "nominal sentences without a verb"
+      },
+      "example": "نور في الورشة.",
+      "note": "Narasi memakai bahasa Arab baku (MSA); dialog Mesir ringan ditandai dengan tag dialect-eg pada leksikon world, sedangkan literal frame tetap MSA."
+    },
+    {
+      "id": "ar-g2",
+      "level": 1,
+      "pattern": "حروف الجر: في، على، عند، قرب",
+      "meaning": {
+        "id": "keterangan tempat dan waktu",
+        "en": "prepositions of place and time"
+      },
+      "example": "الورقة على الطاولة."
+    },
+    {
+      "id": "ar-g3",
+      "level": 2,
+      "pattern": "الإضافة: باب الورشة",
+      "meaning": {
+        "id": "kepemilikan dan hubungan antarkata",
+        "en": "possession and construct phrases"
+      },
+      "example": "باب الورشة مفتوح."
+    },
+    {
+      "id": "ar-g4",
+      "level": 2,
+      "pattern": "السبب والنتيجة: بسبب، لذلك",
+      "meaning": {
+        "id": "menyatakan sebab dan akibat",
+        "en": "cause and result"
+      },
+      "example": "بسبب المطر، تأخر الحضور."
+    },
+    {
+      "id": "ar-g5",
+      "level": 3,
+      "pattern": "كان وأخواتها",
+      "meaning": {
+        "id": "menceritakan keadaan masa lalu",
+        "en": "describing a past state"
+      },
+      "example": "كان المكان هادئا."
+    },
+    {
+      "id": "ar-g6",
+      "level": 3,
+      "pattern": "إذا الشرطية",
+      "meaning": {
+        "id": "pengandaian yang mungkin terjadi",
+        "en": "open conditionals"
+      },
+      "example": "إذا قرأت الحرف، عرفت الاسم."
+    },
+    {
+      "id": "ar-g7",
+      "level": 4,
+      "pattern": "المبني للمجهول",
+      "meaning": {
+        "id": "fokus pada tindakan, bukan pelaku",
+        "en": "focus on the action rather than the doer"
+      },
+      "example": "حفظ المخطوط في الدرج."
+    },
+    {
+      "id": "ar-g8",
+      "level": 4,
+      "pattern": "المصدر بدل الفعل",
+      "meaning": {
+        "id": "gaya nominal yang lebih formal",
+        "en": "nominal style for formal narration"
+      },
+      "example": "انتقال الورقة من يد إلى يد حدث دون علم أحد."
+    },
+    {
+      "id": "ar-g9",
+      "level": 5,
+      "pattern": "التشبيه والاستعارة",
+      "meaning": {
+        "id": "gaya kiasan sastra",
+        "en": "literary simile and metaphor"
+      },
+      "example": "الورشة مثل ذكرى لم تكتمل."
+    },
+    {
+      "id": "ar-g10",
+      "level": 5,
+      "pattern": "التوكيد بإن واللام",
+      "meaning": {
+        "id": "penekanan pada pernyataan",
+        "en": "emphasis and assertion"
+      },
+      "example": "إن الاسم ليبقى بعد أن يجف الحبر."
+    }
+  ],
+  "questionPhrases": {
+    "meaning": "ماذا تعني كلمة «{term}»؟",
+    "who": "من ذكر في المشهد؟",
+    "where": "أين يحدث المشهد؟",
+    "when": "متى يحدث المشهد؟",
+    "why": "لماذا يحدث هذا؟",
+    "detail": "أي تفصيل صحيح في المشهد؟",
+    "next": "ما الذي سيحدث بعد ذلك على الأرجح؟",
+    "culture": "أي تفصيل ثقافي يظهر في المشهد؟",
+    "grammar": "اختر الصيغة الصحيحة."
+  }
+}

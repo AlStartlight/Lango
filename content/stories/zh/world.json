@@ -1,0 +1,998 @@
+{
+  "id": "zh-hutong-moli",
+  "languageCode": "zh",
+  "slug": "hutong-moli",
+  "title": "胡同里的茉莉",
+  "nativeTitle": "胡同里的茉莉",
+  "logline": "在上海工作的林小雨回北京过年，只想待几天就走；奶奶的记忆在退，一只铁盒子、一张一九八五年的照片和一纸茶方，把她留在了南槐胡同。",
+  "setting": "北京，什刹海西南一条虚构的胡同——南槐胡同。茉莉茶馆在17号院，临街两间，门口有一棵老槐树，往南走十分钟是银锭桥。胡同口有早市，琉璃厂在不远处。",
+  "era": "当代，腊月初到清明前：冬天 → 春节 → 元宵节 → 春天",
+  "tone": "克制的家庭故事，带一点胡同的幽默和茶香；不煽情，不把遗忘写成奇观。",
+  "palette": "#4F6B4A",
+  "motifs": ["茉莉花香", "盖碗", "铁盒子", "一九八五年的茶方", "胡同里的雪", "红灯笼", "兔儿爷", "高铁车票"],
+  "sensitivityNotes": [
+    "林奶奶的记忆衰退写得平实：她仍有判断力、手艺和幽默，遗忘被当作事实，不是笑料。",
+    "不给出医学诊断，也不把照护写成单方面的牺牲；家人会犯错，会不耐烦，也会道歉。",
+    "陈爷爷的怀念克制，一九八五年的往事是友情与一场没说完整的告别，不暗示越界关系。",
+    "胡同改造中的每一方都有实际理由，没有把事务所、街道或居民写成反派。",
+    "13+：没有暴力或性内容；丧亲与离别只作背景，用具体物件和日常动作带过。",
+    "北京话只作语气色彩（儿化、'得嘞'），不写成方言表演；对白以普通话为主。"
+  ],
+  "canon": {
+    "fictionalHutong": "南槐胡同（虚构），位于什刹海西南，步行十分钟到银锭桥",
+    "teahouse": "茉莉茶馆，南槐胡同17号院，临街两间，后院有灶和一间放杂物的小屋",
+    "timeline": "腊月初到清明前；一九八五年的元宵节是所有往事的原点",
+    "recurringObjects": [
+      "铁盒子：陈爷爷每年元宵节带来，里面有一九八五年的照片和一张茶方",
+      "茶方：五颗桂圆、三朵茉莉、一块冰糖，用滚水冲，盖碗闷三分钟",
+      "房契：一九八五年由原房主周先生签字，陈爷爷作见证人",
+      "账本：茶馆的赊账本，最后一页记着街坊凑的修缮钱"
+    ],
+    "rules": [
+      "17号院的产权一九八五年转到林奶奶名下，见证人是陈爷爷。",
+      "照片上第四个人是原房主周先生，他要求把自己剪掉，不留名字。",
+      "林小雨在上海做空间设计，回程车票订在初五。",
+      "赵磊所在的建筑事务所负责南槐胡同的修缮测绘。",
+      "奶奶把备忘写在纸条上，贴在柜台、茶罐和门后。"
+    ]
+  },
+  "levels": [
+    { "tier": "T1", "framework": "HSK", "levelCode": "HSK 1–2", "label": "HSK 1–2 · 入门", "idPart": "t1", "position": 1 },
+    { "tier": "T2", "framework": "HSK", "levelCode": "HSK 3", "label": "HSK 3 · 初级", "idPart": "t2", "position": 2 },
+    { "tier": "T3", "framework": "HSK", "levelCode": "HSK 4", "label": "HSK 4 · 中级", "idPart": "t3", "position": 3 },
+    { "tier": "T4", "framework": "HSK", "levelCode": "HSK 5", "label": "HSK 5 · 中高级", "idPart": "t4", "position": 4 },
+    { "tier": "T5", "framework": "HSK", "levelCode": "HSK 6", "label": "HSK 6 · 高级", "idPart": "t5", "position": 5 }
+  ],
+  "characters": [
+    {
+      "id": "zh-hutong-moli-xiaoyu",
+      "name": "Lin Xiaoyu",
+      "nativeName": "林小雨",
+      "role": "主角，22岁，在上海工作，回胡同过年",
+      "age": 22,
+      "bio": "在上海做空间设计助理，租着一间不到三十平方米的房子，来回都坐京沪高铁。回北京过年是她今年唯一的长假，初五的票早就订好了。她习惯把时间排满，不习惯在一条胡同里等一壶水烧开。",
+      "speechStyle": "句子短，先讲安排，后讲感受；一被问到家事就换话题。",
+      "quote": "我初五就走，票都买好了。",
+      "position": 1,
+      "lexeme": {
+        "id": "zh-char-xiaoyu",
+        "native": "林小雨",
+        "romanization": "Lín Xiǎoyǔ",
+        "gloss": { "id": "Lin Xiaoyu", "en": "Lin Xiaoyu" },
+        "tags": ["protagonist"]
+      }
+    },
+    {
+      "id": "zh-hutong-moli-nainai",
+      "name": "Grandma Lin",
+      "nativeName": "林奶奶",
+      "role": "茉莉茶馆的老板，76岁，记忆开始退",
+      "age": 76,
+      "bio": "十六岁进茶馆当学徒，一九八五年把17号院买下来，一个人把茶馆开到现在。这两年她开始把同一个问题问两遍，开始在茶罐上贴纸条。她仍能凭手感试出水温，仍记得老客人不加糖。",
+      "speechStyle": "慢，爱用反问；说到茶就清醒，说到人常常停一下。",
+      "quote": "水开了没有？你听声音。",
+      "position": 2,
+      "lexeme": {
+        "id": "zh-char-nainai",
+        "native": "林奶奶",
+        "romanization": "Lín nǎinai",
+        "gloss": { "id": "Nenek Lin", "en": "Grandma Lin" },
+        "tags": ["mentor", "memory"]
+      }
+    },
+    {
+      "id": "zh-hutong-moli-chen",
+      "name": "Grandpa Chen",
+      "nativeName": "陈爷爷",
+      "role": "老顾客，80岁，每年元宵节带来铁盒子",
+      "age": 80,
+      "bio": "退休的铁路职工，年轻时跑京沪线，一年里有半年在车上。每年元宵节，他提着那只铁盒子来茶馆，坐靠窗的位置，喝一壶茉莉花茶。他是一九八五年那场买卖的见证人，也是少数还记得全部细节的人。",
+      "speechStyle": "话不多，用词老派，习惯说'您'。",
+      "quote": "我答应过的事，就得来。",
+      "position": 3,
+      "lexeme": {
+        "id": "zh-char-chen",
+        "native": "陈爷爷",
+        "romanization": "Chén yéye",
+        "gloss": { "id": "Kakek Chen", "en": "Grandpa Chen" },
+        "tags": ["friend", "memory"]
+      }
+    },
+    {
+      "id": "zh-hutong-moli-wang",
+      "name": "Auntie Wang",
+      "nativeName": "王阿姨",
+      "role": "邻居，60岁，会做饭，管着半条胡同的消息",
+      "age": 60,
+      "bio": "在胡同里长大，嫁到隔壁院，会做炸酱面和豌豆黄。她替奶奶照看灶台，也替整条胡同传话。改造的事一传开，她最担心的是早点摊以后没有地方摆。",
+      "speechStyle": "快，爱插话，边说边干活。",
+      "quote": "你们家的事，我比你自己清楚。",
+      "position": 4,
+      "lexeme": {
+        "id": "zh-char-wang",
+        "native": "王阿姨",
+        "romanization": "Wáng āyí",
+        "gloss": { "id": "Bibi Wang", "en": "Auntie Wang" },
+        "tags": ["neighbor", "cook"]
+      }
+    },
+    {
+      "id": "zh-hutong-moli-zhao",
+      "name": "Zhao Lei",
+      "nativeName": "赵磊",
+      "role": "童年的朋友，23岁，建筑事务所职员，参与胡同修缮",
+      "age": 23,
+      "bio": "小时候在17号院写作业，现在在建筑事务所画修缮图。他负责南槐胡同的测绘，一边要保住门楼和槐树，一边要算清每一间房的账。他说话讲数据，讲到旧事时会停下来。",
+      "speechStyle": "讲数据，也讲旧事；一急就翻图纸。",
+      "quote": "门楼留着，别的都可以谈。",
+      "position": 5,
+      "lexeme": {
+        "id": "zh-char-zhao",
+        "native": "赵磊",
+        "romanization": "Zhào Lěi",
+        "gloss": { "id": "Zhao Lei", "en": "Zhao Lei" },
+        "tags": ["friend", "architect"]
+      }
+    }
+  ],
+  "lexicon": {
+    "person": [
+      {
+        "id": "zh-person-neighbor",
+        "native": "街坊",
+        "romanization": "jiēfang",
+        "gloss": { "id": "tetangga", "en": "the neighbor" },
+        "tags": ["neighborhood"]
+      },
+      {
+        "id": "zh-person-guest",
+        "native": "喝茶的客人",
+        "romanization": "hē chá de kèren",
+        "gloss": { "id": "pelanggan yang minum teh", "en": "a tea customer" },
+        "tags": ["teahouse"]
+      },
+      {
+        "id": "zh-person-courier",
+        "native": "送快递的小伙子",
+        "romanization": "sòng kuàidì de xiǎohuǒzi",
+        "gloss": { "id": "kurir paket", "en": "the delivery courier" },
+        "tags": ["street"]
+      },
+      {
+        "id": "zh-person-carpenter",
+        "native": "修房顶的师傅",
+        "romanization": "xiū fángdǐng de shīfu",
+        "gloss": { "id": "tukang atap", "en": "the roof repairer" },
+        "tags": ["renovation"]
+      }
+    ],
+    "place": [
+      {
+        "id": "zh-place-teahouse",
+        "native": "茉莉茶馆",
+        "romanization": "Mòlì Cháguǎn",
+        "gloss": { "id": "Kedai Teh Moli", "en": "Moli Teahouse" },
+        "tags": ["home"]
+      },
+      {
+        "id": "zh-place-hutong-mouth",
+        "native": "南槐胡同口",
+        "romanization": "Nánhuái Hútòng kǒu",
+        "gloss": { "id": "mulut Gang Nanhuai", "en": "the mouth of Nanhuai Hutong" },
+        "tags": ["hutong"]
+      },
+      {
+        "id": "zh-place-shichahai",
+        "native": "什刹海",
+        "romanization": "Shíchàhǎi",
+        "gloss": { "id": "Shichahai", "en": "Shichahai" },
+        "tags": ["water"]
+      },
+      {
+        "id": "zh-place-yinding",
+        "native": "银锭桥",
+        "romanization": "Yíndìng Qiáo",
+        "gloss": { "id": "Jembatan Yinding", "en": "Yinding Bridge" },
+        "tags": ["water"]
+      },
+      {
+        "id": "zh-place-morning-market",
+        "native": "早市",
+        "romanization": "zǎoshì",
+        "gloss": { "id": "pasar pagi", "en": "the morning market" },
+        "tags": ["food"]
+      },
+      {
+        "id": "zh-place-backyard",
+        "native": "后院",
+        "romanization": "hòuyuàn",
+        "gloss": { "id": "halaman belakang", "en": "the back courtyard" },
+        "tags": ["home"]
+      },
+      {
+        "id": "zh-place-liulichang",
+        "native": "琉璃厂",
+        "romanization": "Liúlí Chǎng",
+        "gloss": { "id": "Liulichang", "en": "Liulichang" },
+        "tags": ["market"]
+      },
+      {
+        "id": "zh-place-gulou-west",
+        "native": "鼓楼西大街",
+        "romanization": "Gǔlóu Xī Dàjiē",
+        "gloss": { "id": "Jalan Gulou Barat", "en": "Gulou West Street" },
+        "tags": ["hutong"]
+      }
+    ],
+    "object": [
+      {
+        "id": "zh-object-tin",
+        "native": "铁盒子",
+        "romanization": "tiě hézi",
+        "gloss": { "id": "kotak besi", "en": "the tin box" },
+        "tags": ["clue", "1985"]
+      },
+      {
+        "id": "zh-object-photo",
+        "native": "老照片",
+        "romanization": "lǎo zhàopiàn",
+        "gloss": { "id": "foto lama", "en": "the old photograph" },
+        "tags": ["memory", "1985"]
+      },
+      {
+        "id": "zh-object-ledger",
+        "native": "账本",
+        "romanization": "zhàngběn",
+        "gloss": { "id": "buku kas", "en": "the account ledger" },
+        "tags": ["clue", "money"]
+      },
+      {
+        "id": "zh-object-tuerye",
+        "native": "兔儿爷",
+        "romanization": "tù'eryé",
+        "gloss": { "id": "Tù'eryé (boneka kelinci Tanah)", "en": "the clay rabbit figurine" },
+        "tags": ["toy", "festival"]
+      },
+      {
+        "id": "zh-object-riddle",
+        "native": "灯谜",
+        "romanization": "dēngmí",
+        "gloss": { "id": "teka-teki lampion", "en": "the lantern riddle" },
+        "tags": ["festival", "clue"]
+      },
+      {
+        "id": "zh-object-tea-caddy",
+        "native": "茶罐",
+        "romanization": "cháguàn",
+        "gloss": { "id": "kaleng teh", "en": "the tea caddy" },
+        "tags": ["tea", "clue"]
+      },
+      {
+        "id": "zh-object-lock",
+        "native": "铜锁",
+        "romanization": "tóngsuǒ",
+        "gloss": { "id": "gembok tembaga", "en": "the brass padlock" },
+        "tags": ["clue", "door"]
+      },
+      {
+        "id": "zh-object-recipe",
+        "native": "茶方",
+        "romanization": "cháfāng",
+        "gloss": { "id": "resep teh", "en": "the tea recipe" },
+        "tags": ["tea", "1985"]
+      },
+      {
+        "id": "zh-object-deed",
+        "native": "房契",
+        "romanization": "fángqì",
+        "gloss": { "id": "surat tanah", "en": "the property deed" },
+        "tags": ["house", "1985"]
+      },
+      {
+        "id": "zh-object-letter",
+        "native": "旧信",
+        "romanization": "jiù xìn",
+        "gloss": { "id": "surat lama", "en": "the old letter" },
+        "tags": ["memory", "clue"]
+      }
+    ],
+    "food": [
+      {
+        "id": "zh-food-dumplings",
+        "native": "饺子",
+        "romanization": "jiǎozi",
+        "gloss": { "id": "pangsit Tiongkok", "en": "dumplings" },
+        "tags": ["festival"]
+      },
+      {
+        "id": "zh-food-tanghulu",
+        "native": "糖葫芦",
+        "romanization": "tánghúlu",
+        "gloss": { "id": "tanghulu (tusuk buah bersalut gula)", "en": "candied hawthorn skewer" },
+        "tags": ["winter", "street"]
+      },
+      {
+        "id": "zh-food-yuanxiao",
+        "native": "元宵",
+        "romanization": "yuánxiāo",
+        "gloss": { "id": "yuanxiao (bola ketan isi manis)", "en": "yuanxiao rice balls" },
+        "tags": ["festival"]
+      },
+      {
+        "id": "zh-food-lvdagun",
+        "native": "驴打滚",
+        "romanization": "lǘdǎgǔn",
+        "gloss": { "id": "lüdagun (kue ketan bubuk kedelai)", "en": "lüdagun glutinous rolls" },
+        "tags": ["snack"]
+      },
+      {
+        "id": "zh-food-wandouhuang",
+        "native": "豌豆黄",
+        "romanization": "wāndòuhuáng",
+        "gloss": { "id": "kue kacang hijau manis", "en": "sweet pea-flour cake" },
+        "tags": ["snack"]
+      },
+      {
+        "id": "zh-food-zhajiangmian",
+        "native": "炸酱面",
+        "romanization": "zhájiàngmiàn",
+        "gloss": { "id": "mi saus kacang hitam", "en": "noodles with soybean paste" },
+        "tags": ["home"]
+      }
+    ],
+    "drink": [
+      {
+        "id": "zh-drink-jasmine-tea",
+        "native": "茉莉花茶",
+        "romanization": "mòlì huāchá",
+        "gloss": { "id": "teh melati", "en": "jasmine tea" },
+        "tags": ["anchor"]
+      },
+      {
+        "id": "zh-drink-gaosui",
+        "native": "高碎",
+        "romanization": "gāosuì",
+        "gloss": { "id": "gaosui (teh remuk murah)", "en": "gaosui, cheap broken tea" },
+        "tags": ["anchor"]
+      },
+      {
+        "id": "zh-drink-white-tea",
+        "native": "白茶",
+        "romanization": "báichá",
+        "gloss": { "id": "teh putih", "en": "white tea" },
+        "tags": ["tea"]
+      },
+      {
+        "id": "zh-drink-hot-water",
+        "native": "热水",
+        "romanization": "rèshuǐ",
+        "gloss": { "id": "air panas", "en": "hot water" },
+        "tags": ["home"]
+      },
+      {
+        "id": "zh-drink-date-tea",
+        "native": "枣茶",
+        "romanization": "zǎochá",
+        "gloss": { "id": "teh kurma merah", "en": "red date tea" },
+        "tags": ["winter"]
+      }
+    ],
+    "time": [
+      {
+        "id": "zh-time-early-morning",
+        "native": "清晨",
+        "romanization": "Qīngchén",
+        "gloss": { "id": "subuh", "en": "early morning" }
+      },
+      {
+        "id": "zh-time-morning",
+        "native": "上午",
+        "romanization": "Shàngwǔ",
+        "gloss": { "id": "pagi", "en": "morning" }
+      },
+      {
+        "id": "zh-time-afternoon",
+        "native": "午后",
+        "romanization": "Wǔhòu",
+        "gloss": { "id": "siang", "en": "afternoon" }
+      },
+      {
+        "id": "zh-time-dusk",
+        "native": "傍晚",
+        "romanization": "Bàngwǎn",
+        "gloss": { "id": "senja", "en": "dusk" }
+      },
+      {
+        "id": "zh-time-night",
+        "native": "夜里",
+        "romanization": "Yèlǐ",
+        "gloss": { "id": "malam", "en": "night" }
+      },
+      {
+        "id": "zh-time-layue-28",
+        "native": "腊月二十八",
+        "romanization": "Làyuè èrshíbā",
+        "gloss": { "id": "28 bulan ke-12 (kalender lunar)", "en": "the 28th of the twelfth lunar month" }
+      },
+      {
+        "id": "zh-time-new-years-eve",
+        "native": "年三十",
+        "romanization": "Niánsānshí",
+        "gloss": { "id": "malam Tahun Baru Imlek", "en": "Lunar New Year's Eve" }
+      },
+      {
+        "id": "zh-time-lantern-festival",
+        "native": "正月十五",
+        "romanization": "Zhēngyuè shíwǔ",
+        "gloss": { "id": "Cap Go Meh (bulan ke-1, tanggal 15)", "en": "the Lantern Festival (first month, day 15)" }
+      }
+    ],
+    "weather": [
+      {
+        "id": "zh-weather-snow",
+        "native": "外面下着小雪。",
+        "romanization": "Wàimiàn xiàzhe xiǎo xuě.",
+        "gloss": { "id": "Di luar turun salju tipis.", "en": "Light snow is falling outside." },
+        "tags": ["snow"]
+      },
+      {
+        "id": "zh-weather-wind",
+        "native": "风从胡同口灌进来。",
+        "romanization": "Fēng cóng hútòng kǒu guàn jìnlái.",
+        "gloss": { "id": "Angin bertiup masuk dari mulut gang.", "en": "Wind pours in from the mouth of the hutong." },
+        "tags": ["cold"]
+      },
+      {
+        "id": "zh-weather-cold",
+        "native": "天冷得厉害。",
+        "romanization": "Tiān lěng de lìhai.",
+        "gloss": { "id": "Cuacanya sangat dingin.", "en": "It is bitterly cold." },
+        "tags": ["cold"]
+      },
+      {
+        "id": "zh-weather-melting",
+        "native": "雪停了，屋檐上滴着水。",
+        "romanization": "Xuě tíng le, wūyán shàng dīzhe shuǐ.",
+        "gloss": { "id": "Salju berhenti; air menetes dari atap.", "en": "The snow has stopped; water drips from the eaves." },
+        "tags": ["clear"]
+      },
+      {
+        "id": "zh-weather-sun",
+        "native": "阳光照在窗纸上。",
+        "romanization": "Yángguāng zhào zài chuāngzhǐ shàng.",
+        "gloss": { "id": "Cahaya matahari jatuh di kertas jendela.", "en": "Sunlight falls on the paper window." },
+        "tags": ["warm"]
+      },
+      {
+        "id": "zh-weather-overcast",
+        "native": "天阴着，像要下雪。",
+        "romanization": "Tiān yīnzhe, xiàng yào xià xuě.",
+        "gloss": { "id": "Langit mendung, sepertinya akan turun salju.", "en": "The sky is grey, as if snow is coming." },
+        "tags": ["snow"]
+      },
+      {
+        "id": "zh-weather-frost",
+        "native": "槐树上落了一层白霜。",
+        "romanization": "Huáishù shàng luò le yì céng báishuāng.",
+        "gloss": { "id": "Lapisan embun beku putih menyelimuti pohon huai.", "en": "A layer of white frost has settled on the huai tree." },
+        "tags": ["cold"]
+      }
+    ],
+    "action": [
+      {
+        "id": "zh-action-wipe-table",
+        "native": "擦干净桌子",
+        "romanization": "cā gānjìng zhuōzi",
+        "gloss": { "id": "mengelap meja sampai bersih", "en": "wipe the table clean" }
+      },
+      {
+        "id": "zh-action-boil-water",
+        "native": "烧上一壶水",
+        "romanization": "shāo shàng yì hú shuǐ",
+        "gloss": { "id": "merebus satu teko air", "en": "put a kettle of water on to boil" }
+      },
+      {
+        "id": "zh-action-set-gaiwan",
+        "native": "摆好盖碗",
+        "romanization": "bǎi hǎo gàiwǎn",
+        "gloss": { "id": "menata mangkuk gaiwan", "en": "set out the gaiwan bowls" }
+      },
+      {
+        "id": "zh-action-sweep-snow",
+        "native": "扫门前的雪",
+        "romanization": "sǎo ménqián de xuě",
+        "gloss": { "id": "menyapu salju di depan pintu", "en": "sweep the snow in front of the door" }
+      },
+      {
+        "id": "zh-action-make-dumplings",
+        "native": "包饺子",
+        "romanization": "bāo jiǎozi",
+        "gloss": { "id": "membuat pangsit", "en": "wrap dumplings" }
+      },
+      {
+        "id": "zh-action-write-couplets",
+        "native": "写春联",
+        "romanization": "xiě chūnlián",
+        "gloss": { "id": "menulis pantun tahun baru", "en": "write New Year couplets" }
+      },
+      {
+        "id": "zh-action-add-coal",
+        "native": "添炭",
+        "romanization": "tiān tàn",
+        "gloss": { "id": "menambah batu bara", "en": "add coal to the stove" }
+      },
+      {
+        "id": "zh-action-wash-bowls",
+        "native": "洗茶碗",
+        "romanization": "xǐ cháwǎn",
+        "gloss": { "id": "mencuci mangkuk teh", "en": "wash the tea bowls" }
+      }
+    ],
+    "quote": [
+      {
+        "id": "zh-quote-one-tea",
+        "native": "我只要一杯茉莉花茶。",
+        "romanization": "Wǒ zhǐyào yì bēi mòlì huāchá",
+        "gloss": { "id": "Saya hanya mau secangkir teh melati.", "en": "I only want a cup of jasmine tea." }
+      },
+      {
+        "id": "zh-quote-1985-taste",
+        "native": "这茶还是一九八五年的味道。",
+        "romanization": "Zhè chá háishi yī jiǔ bā wǔ nián de wèidào",
+        "gloss": { "id": "Teh ini masih terasa seperti tahun 1985.", "en": "This tea still tastes like 1985." },
+        "tags": ["memory"]
+      },
+      {
+        "id": "zh-quote-forget-ok",
+        "native": "有些事，忘了也没关系。",
+        "romanization": "Yǒuxiē shì, wàng le yě méi guānxi",
+        "gloss": { "id": "Ada hal-hal yang lupa pun tidak apa-apa.", "en": "Some things are all right to forget." },
+        "tags": ["emotion"]
+      },
+      {
+        "id": "zh-quote-recipe",
+        "native": "五颗桂圆，三朵茉莉，一块冰糖。",
+        "romanization": "Wǔ kē guìyuán, sān duǒ mòlì, yí kuài bīngtáng",
+        "gloss": { "id": "Lima lengkeng, tiga kuntum melati, satu bongkah gula batu.", "en": "Five longans, three jasmine blossoms, one lump of rock sugar." },
+        "tags": ["mystery"]
+      },
+      {
+        "id": "zh-quote-dont-rush",
+        "native": "别急着走。",
+        "romanization": "Bié jízhe zǒu",
+        "gloss": { "id": "Jangan buru-buru pergi.", "en": "Don't rush off." }
+      },
+      {
+        "id": "zh-quote-next-month",
+        "native": "我下个月就回上海。",
+        "romanization": "Wǒ xià ge yuè jiù huí Shànghǎi",
+        "gloss": { "id": "Bulan depan saya kembali ke Shanghai.", "en": "I'm going back to Shanghai next month." }
+      },
+      {
+        "id": "zh-quote-cant-let-go",
+        "native": "我舍不得这间屋子。",
+        "romanization": "Wǒ shěbudé zhè jiān wūzi",
+        "gloss": { "id": "Saya tidak tega meninggalkan ruangan ini.", "en": "I can't bear to let this room go." },
+        "tags": ["emotion"]
+      },
+      {
+        "id": "zh-quote-tea-goes-cold",
+        "native": "茶凉了就不好喝了。",
+        "romanization": "Chá liáng le jiù bù hǎo hē le",
+        "gloss": { "id": "Kalau tehnya dingin, rasanya tidak enak lagi.", "en": "Once the tea goes cold, it doesn't taste right." }
+      }
+    ],
+    "question": [
+      {
+        "id": "zh-question-who-wrote",
+        "native": "这是谁写的？",
+        "romanization": "Zhè shì shéi xiě de?",
+        "gloss": { "id": "Siapa yang menulis ini?", "en": "Who wrote this?" }
+      },
+      {
+        "id": "zh-question-who-put-box",
+        "native": "盒子是谁放在这儿的？",
+        "romanization": "Hézi shì shéi fàng zài zhèr de?",
+        "gloss": { "id": "Siapa yang menaruh kotak ini di sini?", "en": "Who put the box here?" }
+      },
+      {
+        "id": "zh-question-remember-person",
+        "native": "奶奶还记得这个人吗？",
+        "romanization": "Nǎinai hái jìde zhège rén ma?",
+        "gloss": { "id": "Apakah Nenek masih ingat orang ini?", "en": "Does Grandma still remember this person?" }
+      },
+      {
+        "id": "zh-question-1985",
+        "native": "一九八五年发生了什么？",
+        "romanization": "Yī jiǔ bā wǔ nián fāshēng le shénme?",
+        "gloss": { "id": "Apa yang terjadi pada tahun 1985?", "en": "What happened in 1985?" }
+      },
+      {
+        "id": "zh-question-tea-taste",
+        "native": "这茶为什么是这个味道？",
+        "romanization": "Zhè chá wèishénme shì zhège wèidào?",
+        "gloss": { "id": "Mengapa teh ini rasanya seperti ini?", "en": "Why does this tea taste like this?" }
+      },
+      {
+        "id": "zh-question-who-holds-deed",
+        "native": "房契在谁手里？",
+        "romanization": "Fángqì zài shéi shǒu lǐ?",
+        "gloss": { "id": "Siapa yang memegang surat tanah?", "en": "Who holds the deed?" }
+      },
+      {
+        "id": "zh-question-how-long-stay",
+        "native": "我们还能在这儿住多久？",
+        "romanization": "Wǒmen hái néng zài zhèr zhù duōjiǔ?",
+        "gloss": { "id": "Berapa lama lagi kita bisa tinggal di sini?", "en": "How much longer can we stay here?" }
+      },
+      {
+        "id": "zh-question-when-shanghai",
+        "native": "你什么时候回上海？",
+        "romanization": "Nǐ shénme shíhou huí Shànghǎi?",
+        "gloss": { "id": "Kapan kamu kembali ke Shanghai?", "en": "When are you going back to Shanghai?" }
+      }
+    ],
+    "greeting": [
+      {
+        "id": "zh-greeting-arrived",
+        "native": "来了",
+        "romanization": "Lái le",
+        "gloss": { "id": "Sudah datang", "en": "You're here" }
+      },
+      {
+        "id": "zh-greeting-new-year",
+        "native": "过年好",
+        "romanization": "Guònián hǎo",
+        "gloss": { "id": "Selamat Tahun Baru", "en": "Happy New Year" }
+      },
+      {
+        "id": "zh-greeting-lantern",
+        "native": "元宵节快乐",
+        "romanization": "Yuánxiāojié kuàilè",
+        "gloss": { "id": "Selamat Festival Lampion", "en": "Happy Lantern Festival" }
+      },
+      {
+        "id": "zh-greeting-come-in",
+        "native": "进来坐",
+        "romanization": "Jìnlái zuò",
+        "gloss": { "id": "Silakan masuk dan duduk", "en": "Come in and sit" }
+      },
+      {
+        "id": "zh-greeting-tea",
+        "native": "喝茶",
+        "romanization": "Hē chá",
+        "gloss": { "id": "Minum teh", "en": "Have some tea" }
+      },
+      {
+        "id": "zh-greeting-back",
+        "native": "回来啦",
+        "romanization": "Huílái la",
+        "gloss": { "id": "Sudah pulang", "en": "You're back" }
+      },
+      {
+        "id": "zh-greeting-take-care",
+        "native": "慢走",
+        "romanization": "Màn zǒu",
+        "gloss": { "id": "Hati-hati di jalan", "en": "Take care on your way" }
+      }
+    ],
+    "emotion": [
+      {
+        "id": "zh-emotion-sad",
+        "native": "难过",
+        "romanization": "nánguò",
+        "gloss": { "id": "sedih", "en": "sad" }
+      },
+      {
+        "id": "zh-emotion-uneasy",
+        "native": "不安",
+        "romanization": "bù'ān",
+        "gloss": { "id": "gelisah", "en": "uneasy" }
+      },
+      {
+        "id": "zh-emotion-wronged",
+        "native": "委屈",
+        "romanization": "wěiqu",
+        "gloss": { "id": "merasa diperlakukan tidak adil", "en": "wronged" }
+      },
+      {
+        "id": "zh-emotion-bitter",
+        "native": "心酸",
+        "romanization": "xīnsuān",
+        "gloss": { "id": "perih di hati", "en": "heartache" }
+      },
+      {
+        "id": "zh-emotion-glad",
+        "native": "高兴",
+        "romanization": "gāoxìng",
+        "gloss": { "id": "senang", "en": "glad" }
+      },
+      {
+        "id": "zh-emotion-warm",
+        "native": "温暖",
+        "romanization": "wēnnuǎn",
+        "gloss": { "id": "hangat", "en": "warm" }
+      },
+      {
+        "id": "zh-emotion-guilty",
+        "native": "愧疚",
+        "romanization": "kuìjiù",
+        "gloss": { "id": "merasa bersalah", "en": "guilty" }
+      }
+    ]
+  },
+  "anchors": [
+    {
+      "id": "zh-culture-0001",
+      "title": "胡同与四合院：一条巷子的日常",
+      "body": {
+        "id": "南槐胡同一带的院子是灰砖灰瓦，门墩被几代人摸得发亮，影壁后面堆着白菜、纸箱和旧自行车。一个院子住进好几户人家，就成了'大杂院'。北京老城划定了二十五片历史文化保护区，什刹海一带是其中之一；二〇二一年施行的《北京历史文化名城保护条例》要求保护胡同肌理和院落格局。条例能保住墙和瓦，日子还得住在里面的人自己过。",
+        "en": "Courtyards around Nanhuai Hutong are built of grey brick and tile; the stone door blocks are polished by generations of hands, and the screen wall hides cabbages, cardboard boxes and old bicycles. When several families share one courtyard it becomes a 'big mixed courtyard'. Beijing's old city has designated 25 historic conservation areas, and the Shichahai area is one of them; the 2021 Regulations on the Conservation of Beijing Historical and Cultural City require protecting hutong fabric and courtyard layouts. Regulations can keep the walls and tiles, but daily life is still lived by the people inside."
+      },
+      "sources": [
+        "《北京历史文化名城保护条例》（2021年3月1日施行）· 北京市规划和自然资源委员会：https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/zcfg/fg/202104/t20210422_2366134.html",
+        "UNESCO World Heritage Centre, 'Beijing Central Axis: A Building Ensemble Exhibiting the Ideal Order of the Chinese Capital' (2024)：https://whc.unesco.org/en/list/1714/",
+        "北京市西城区人民政府·什刹海街道办事处：https://www.bjxch.gov.cn/xxgk/jgzn/qjd/schdbsc/nsjg.html"
+      ],
+      "reflection": {
+        "id": "一条胡同被修得更整齐，却住进了完全不同的人，它还算同一条胡同吗？",
+        "en": "If a hutong is repaired to look the same but is lived in by completely different people, is it still the same hutong?"
+      },
+      "stampId": "zh-stamp-hutong",
+      "tags": ["hutong", "winter"]
+    },
+    {
+      "id": "zh-culture-0002",
+      "title": "茉莉花茶：只闻花香，不见花",
+      "body": {
+        "id": "北京人日常喝的花茶多是茉莉花茶。前门大栅栏的张一元开业于一九〇八年，用福建的烘青绿茶作茶坯，和新鲜茉莉花反复窨制，做到'只闻花香，不见花'。二〇二二年，联合国教科文组织把'中国传统制茶技艺及其相关习俗'列入人类非物质文化遗产代表作名录，茉莉花茶的窨制是其中一项。茶馆里另有一种便宜的碎茶，老北京叫'高碎'，味道重，耐泡。",
+        "en": "The scented tea most Beijingers drink every day is jasmine tea. Zhangyiyuan, opened in 1908 on Dashilan Street near Qianmen, uses baked green tea from Fujian as the base and scents it repeatedly with fresh jasmine blossoms, until the flowers are gone but the fragrance stays. In 2022 UNESCO inscribed China's traditional tea processing techniques and associated social practices on the Representative List of the Intangible Cultural Heritage of Humanity, and jasmine tea scenting is one of them. Teahouses also sell a cheap broken-leaf tea that old Beijingers call gaosui: strong and long-lasting."
+      },
+      "sources": [
+        "UNESCO Intangible Cultural Heritage, 'Traditional tea processing techniques and associated social practices in China' (2022)：https://ich.unesco.org/en/RL/traditional-tea-processing-techniques-and-associated-social-practices-in-china-01884",
+        "北京旅游网《老北京的“喝茶话事”》：https://www.visitbeijing.com.cn/article/4B2UekHwhm1",
+        "Visit Beijing, 'Divine-Gifted Capital Region, Joyous Chinese New Year｜Something delicious'：https://english.visitbeijing.com.cn/article/4L505PJYRVX"
+      ],
+      "reflection": {
+        "id": "为什么一杯茶的味道，能让人记住一个年份？",
+        "en": "Why can the taste of one cup of tea fix a whole year in memory?"
+      },
+      "stampId": "zh-stamp-jasmine",
+      "tags": ["tea", "winter"]
+    },
+    {
+      "id": "zh-culture-0003",
+      "title": "盖碗：盖子、碗和托",
+      "body": {
+        "id": "盖碗由盖、碗、托三件组成，讲究的说法把它比作天、地、人，所以又叫'三才碗'。盖子可以拨开浮沫，托能防烫，茶汤淡了就把盖子掀开一条缝。中国茶叶博物馆收藏的清代盖碗多在碗身画梅、瓜瓞一类纹样，今天的茶馆仍用同样的形制。客人坐下，伙计提铜壶续水，水线从高处落下，盖碗里只起一层细沫。",
+        "en": "A gaiwan has three parts: lid, bowl and saucer. A fastidious explanation compares them to heaven, earth and humanity, which is why it is also called the 'three-talents bowl'. The lid pushes back the foam, the saucer keeps the fingers from the heat, and when the tea grows weak you lift the lid a crack. The Qing-dynasty gaiwan in the China National Tea Museum are often painted with plum or melon-vine patterns, and teahouses still use the same shape. When a guest sits down, the server lifts a copper kettle and pours from high, so only a thin film of foam rises in the bowl."
+      },
+      "sources": [
+        "中国茶叶博物馆·文创茶具（以馆藏“乾隆红底梅花纹碗”创制盖碗）：https://www.teamuseum.cn/news/goods-detail.htm?id=1824",
+        "中国茶叶博物馆官网：https://www.teamuseum.cn/"
+      ],
+      "reflection": {
+        "id": "一件器物要怎样被使用，才算真的被保存下来？",
+        "en": "How does an object have to be used before we can say it has really been preserved?"
+      },
+      "stampId": "zh-stamp-gaiwan",
+      "tags": ["tea"]
+    },
+    {
+      "id": "zh-culture-0004",
+      "title": "糖葫芦：冬天的糖壳",
+      "body": {
+        "id": "糖葫芦是山楂串裹上熬好的糖稀，冬天在胡同口和庙会上最常见。糖一冷就脆，咬开先是糖壳，再是酸的山楂。现在也有葡萄、草莓、山药豆的版本，价钱比山楂贵一些。北京市文化和旅游局的冬季指南把'吃一串糖葫芦'列进冬天来北京要试的十件事。",
+        "en": "Tanghulu is hawthorn berries on a skewer, dipped in hot sugar syrup; it appears at hutong corners and temple fairs in winter. The sugar hardens as it cools, so the first bite is shell, then sour hawthorn. There are now versions with grapes, strawberries or Chinese yam beans, which cost more than hawthorn. The Beijing municipal culture and tourism bureau's winter guide lists eating a stick of tanghulu among ten things to try in Beijing in winter."
+      },
+      "sources": [
+        "Visit Beijing（北京市文化和旅游局）, 'Winter has arrived in Beijing—10 tips to master it'：https://english.visitbeijing.com.cn/article/4KVER6B87CG"
+      ],
+      "reflection": {
+        "id": "小吃换了几种水果，还是同一种小吃吗？",
+        "en": "When a snack swaps in new fruits, is it still the same snack?"
+      },
+      "stampId": "zh-stamp-tanghulu",
+      "tags": ["winter", "street"]
+    },
+    {
+      "id": "zh-culture-0005",
+      "title": "元宵节：春节的最后一天",
+      "body": {
+        "id": "正月十五是元宵节，也是春节的最后一天。北方吃元宵：馅先做成小块，放在糯米粉里一层层摇出来；南方的汤圆是包出来的，口感不一样。北京的锦芳元宵是市级非物质文化遗产，节前店门口常排长队。晚上有灯会，灯笼下挂着灯谜，猜中了可以换小礼物。什刹海一带的灯笼会一直挂到正月十五以后。",
+        "en": "The fifteenth of the first lunar month is the Lantern Festival, the last day of the Spring Festival. In the north people eat yuanxiao: the filling is made into small blocks and rolled in layers of glutinous rice flour; southern tangyuan are wrapped by hand, which gives a different texture. Jinfang yuanxiao in Beijing is a municipal intangible cultural heritage, and queues form outside the shop before the festival. In the evening there are lantern fairs, with riddles hanging under the lanterns and small prizes for correct answers. Around Shichahai the lanterns stay up past the fifteenth."
+      },
+      "sources": [
+        "Visit Beijing, 'Come and experience time-honored yuanxiao during the Lantern Festival'：https://english.visitbeijing.com.cn/article/4QaqQS7uU1S",
+        "UNESCO Intangible Cultural Heritage, 'Spring festival, social practices of the Chinese people in celebration of traditional new year' (2024)：https://ich.unesco.org/en/RL/spring-festival-social-practices-of-the-chinese-people-in-celebration-of-traditional-new-year-02126"
+      ],
+      "reflection": {
+        "id": "为什么一个节日要用“吃”来记住？",
+        "en": "Why do we remember a festival through what we eat?"
+      },
+      "stampId": "zh-stamp-lantern",
+      "tags": ["festival", "winter"]
+    },
+    {
+      "id": "zh-culture-0006",
+      "title": "厂甸庙会：一年只开几天",
+      "body": {
+        "id": "厂甸庙会有四百多年历史，每年春节在琉璃厂一带开市。摊位卖旧书、字画、小吃和给孩子的小玩意儿，锣鼓声、风车声和叫卖声混在一起。庙会不是博物馆里的展品：它每年重新搭起来，也每年重新散掉，摊位的位置靠熟人之间的招呼维持。",
+        "en": "Changdian temple fair has a history of more than four hundred years and opens every Spring Festival around Liulichang. Stalls sell old books, calligraphy and paintings, snacks and small toys for children; drums, pinwheels and hawkers' calls mix together. The fair is not a museum exhibit: it is built again every year and taken down again every year, and the arrangement of stalls is held together by greetings between people who know each other."
+      },
+      "sources": [
+        "北京市人民政府《文脉润新春 潮韵焕西城》（厂甸庙会、琉璃厂）：https://www.beijing.gov.cn/ywdt/gqrd/202602/t20260227_4544553.html"
+      ],
+      "reflection": {
+        "id": "一年只出现几天的市场，为什么能留在人的记忆里？",
+        "en": "Why does a market that exists for only a few days a year stay in people's memory?"
+      },
+      "stampId": "zh-stamp-templefair",
+      "tags": ["festival", "market"]
+    },
+    {
+      "id": "zh-culture-0007",
+      "title": "兔儿爷：一尊泥塑的兔子",
+      "body": {
+        "id": "兔儿爷是北京的彩塑玩具，兔首人身，穿着戏装似的盔甲，旧时中秋前后要“请”一尊回家。'彩塑兔儿爷'列在北京市级非物质文化遗产代表性项目名录里，类别是传统美术，申报单位是双彦泥彩塑工作室。今天的兔儿爷多是小摆件，脸画得比从前更圆，孩子拿在手里玩的不多了。",
+        "en": "Tu'erye is a Beijing painted-clay toy: a rabbit's head on a human body, dressed in armour like a stage general. In the old days a family would 'invite' one home around the Mid-Autumn Festival. 'Painted-clay Tu'erye' is on the Beijing municipal list of intangible cultural heritage, under traditional fine arts, submitted by the Shuangyan Clay Figure Studio. Today's Tu'erye are mostly small ornaments with rounder faces, and few children actually play with them."
+      },
+      "sources": [
+        "北京市人民政府·北京市级非物质文化遗产代表性项目（传统美术·彩塑“兔儿爷”）：https://www.beijing.gov.cn/fwcj/quickQuery/page/fwzwhyc/index.html"
+      ],
+      "reflection": {
+        "id": "一个玩具变成“非遗”以后，孩子还会拿它玩吗？",
+        "en": "Once a toy becomes 'intangible heritage', do children still play with it?"
+      },
+      "stampId": "zh-stamp-tuerye",
+      "tags": ["festival", "toy"]
+    },
+    {
+      "id": "zh-culture-0008",
+      "title": "京沪高铁：四个多小时",
+      "body": {
+        "id": "京沪高铁全长一千三百一十八公里，设计时速三百五十公里，二〇一一年六月三十日开通，把北京到上海的时间压到四个多小时。国家铁路局的资料说，它是当时世界上一次建成线路最长的高速铁路。春运期间，北京南站去上海虹桥的车票仍然紧张；林小雨回上海，坐的就是这条线。",
+        "en": "The Beijing–Shanghai high-speed railway is 1,318 kilometres long, designed for 350 km/h, and opened on 30 June 2011, cutting the trip between Beijing and Shanghai to a little over four hours. The National Railway Administration describes it as the longest high-speed line built in a single project at the time. During the Spring Festival travel rush, tickets from Beijing South to Shanghai Hongqiao are still hard to get; it is the line Lin Xiaoyu takes back to Shanghai."
+      },
+      "sources": [
+        "国家铁路局《京沪高铁概况》（全长1318公里，设计时速350公里）：https://www.nra.gov.cn/ztzl/hy/gcjs2023/xmjj/gtjj/201311/t20131127_344128.shtml",
+        "China.org.cn, 'Beijing-Shanghai high-speed rail serves over 2.3 billion passenger trips in 15 years'：http://en.chinagate.cn/2026-07/08/content_118588587.htm"
+      ],
+      "reflection": {
+        "id": "当四个小时就能到家，“离家远”还是同一个意思吗？",
+        "en": "When home is four hours away, does 'living far from home' still mean the same thing?"
+      },
+      "stampId": "zh-stamp-hsr",
+      "tags": ["travel"]
+    },
+    {
+      "id": "zh-culture-0009",
+      "title": "饺子：一家人一起包",
+      "body": {
+        "id": "北方年夜饭要有饺子。一家人围着一张桌子，一个擀皮，一个包，孩子把饺子摆整齐。饺子形似元宝，名字的来历有一种说法和“交子”有关——旧年与新年在子时相交。初五“破五”还要再吃一次，包的时候把边捏紧，叫“捏小人嘴”。包饺子费时间，这段时间本身就是年夜饭的一部分。",
+        "en": "A northern New Year's Eve dinner needs dumplings. The family gathers round one table: one person rolls the wrappers, one fills and folds, the children line the dumplings up neatly. The shape suggests a silver ingot, and one explanation of the name links it to jiaozi, the hour when the old year and the new year meet at midnight. On the fifth day, 'breaking the fifth', dumplings are eaten again, and the edges are pinched tight, a custom called 'pinching the petty man's mouth'. Wrapping dumplings takes time, and that time is itself part of the dinner."
+      },
+      "sources": [
+        "中国长安网《春节习俗趣谈：清朝后才叫“饺子”》：http://www.chinapeace.gov.cn/chinapeace/c25030/2013-02/06/content_11998597.shtml",
+        "UNESCO Intangible Cultural Heritage, 'Spring festival, social practices of the Chinese people…' (2024)：https://ich.unesco.org/en/RL/spring-festival-social-practices-of-the-chinese-people-in-celebration-of-traditional-new-year-02126"
+      ],
+      "reflection": {
+        "id": "为什么一家人要一起做一件很费时间的事？",
+        "en": "Why does a family choose to do something together that takes so long?"
+      },
+      "stampId": "zh-stamp-dumplings",
+      "tags": ["festival", "food"]
+    },
+    {
+      "id": "zh-culture-0010",
+      "title": "胡同更新：修，还是换",
+      "body": {
+        "id": "二〇一五年，西城区启动白塔寺片区的保护性更新，用“申请式换租”“整院申请式退租”的办法：想搬走的居民可以搬，想留下的修房。到二〇二五年，一千二百三十户的住房条件得到改善，架空线入了地，胡同口多了口袋公园。更早的杨梅竹斜街从二〇一二年开始做“微更新”，不拆整条街，只改院子和门脸。修缮能让房子留下来，房租和租金却可能让原来的住户搬走。",
+        "en": "In 2015 the Xicheng district began a conservation-oriented renewal of the Baitasi area, using 'application-based exchange leases' and 'whole-courtyard application-based vacating': residents who wanted to move could, and those who stayed had their houses repaired. By 2025, 1,230 households had better housing, overhead cables went underground, and pocket parks appeared at hutong mouths. Earlier, from 2012, Yangmeizhu Xiejie practiced 'micro-renewal', repairing courtyards and shopfronts instead of demolishing the street. Repair can keep the buildings, but rising rents can still push the old residents out."
+      },
+      "sources": [
+        "人民网《微循环微更新探索北京老城保护街区治理之路 白塔寺还原老城温暖》：http://bj.people.com.cn/n2/2021/0706/c82840-34808253.html",
+        "北京市人民政府《十年蝶变提质升级 三条线路沉浸式游览 白塔寺东西岔街区正式开街》：https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202507/t20250713_4147788.html",
+        "人民政协网《北京杨梅竹斜街 彰显城市更新的精度与温度》：http://mobile.rmzxw.com.cn/tranm/index/url/www.rmzxw.com.cn/c/2026-02-03/3864539.shtml"
+      ],
+      "reflection": {
+        "id": "如果修缮让房租上涨、原来的住户搬走了，这算保护还是替换？",
+        "en": "If repair raises the rent and the old residents move out, is that preservation or replacement?"
+      },
+      "stampId": "zh-stamp-renewal",
+      "tags": ["renewal", "hutong"]
+    }
+  ],
+  "arcs": [
+    {
+      "tier": "T1",
+      "seasonNo": 1,
+      "title": "茉莉茶馆",
+      "nativeTitle": "茉莉茶馆",
+      "synopsis": "腊月，林小雨回到南槐胡同过年，只想住几天就走。奶奶的茶馆还开着，客人还是那几位，柜台底下却多了一只谁也说不出来历的铁盒子。",
+      "mystery": "zh-object-tin",
+      "cliffhanger": "铁盒子里是一张一九八五年的照片，照片上有四个人，其中一个被人剪掉了。"
+    },
+    {
+      "tier": "T1",
+      "seasonNo": 2,
+      "title": "高碎",
+      "nativeTitle": "高碎",
+      "synopsis": "第一场雪落下，炉子烧得更旺。小雨学着烧水、摆盖碗，也学着听客人说话。陈爷爷说，柜子里那罐茶不是店里的。",
+      "mystery": "zh-object-tea-caddy",
+      "cliffhanger": "茶罐底下贴着一张一九八五年的茶票，上面写着奶奶的名字。"
+    },
+    {
+      "tier": "T2",
+      "seasonNo": 1,
+      "title": "一九八五",
+      "nativeTitle": "一九八五",
+      "synopsis": "元宵节前，胡同里挂起红灯笼。小雨照着茶方泡出一壶茶，陈爷爷喝完没有出声。照片背面的一行字，把一九八五年的元宵节拉回眼前。",
+      "mystery": "zh-object-photo",
+      "cliffhanger": "照片背面写着：“一九八五，元宵，茉莉。还有一个人没来。”"
+    },
+    {
+      "tier": "T2",
+      "seasonNo": 2,
+      "title": "灯谜",
+      "nativeTitle": "灯谜",
+      "synopsis": "灯会上，一条灯谜连着三年没人猜中。谜面说的是茶，谜底却像一个人的名字。王阿姨说，这条谜是奶奶写的。",
+      "mystery": "zh-object-riddle",
+      "cliffhanger": "谜底是奶奶年轻时的名字——那个名字，连小雨都没听过。"
+    },
+    {
+      "tier": "T3",
+      "seasonNo": 1,
+      "title": "胡同改造",
+      "nativeTitle": "胡同改造",
+      "synopsis": "改造方案贴到了胡同口。赵磊所在的建筑事务所负责修缮，茶馆在图纸上被标成“待定”。街坊各有各的算法，小雨第一次认真看那份图纸。",
+      "mystery": "zh-object-deed",
+      "cliffhanger": "图纸上，17号院被画成一条通道——茶馆的位置，正好在路中间。"
+    },
+    {
+      "tier": "T3",
+      "seasonNo": 2,
+      "title": "房契",
+      "nativeTitle": "房契",
+      "synopsis": "一份一九八五年的房契被翻出来，签字的人不是奶奶。赵磊说，如果产权说不清，修缮款一分也批不下来。",
+      "mystery": "zh-object-deed",
+      "cliffhanger": "房契的见证人一栏，写着陈爷爷的名字。"
+    },
+    {
+      "tier": "T4",
+      "seasonNo": 1,
+      "title": "老照片",
+      "nativeTitle": "老照片",
+      "synopsis": "小雨开始问人。王阿姨记得一半，陈爷爷记得另一半，奶奶记得的那一半正在退。照片上被剪掉的人，慢慢有了轮廓。",
+      "mystery": "zh-object-photo",
+      "cliffhanger": "被剪掉的人，是把院子卖给奶奶的原房主——他要求不留名字。"
+    },
+    {
+      "tier": "T4",
+      "seasonNo": 2,
+      "title": "旧信",
+      "nativeTitle": "旧信",
+      "synopsis": "奶奶开始给自己写信，贴在柜台上、茶罐上、门后。小雨读到一封写给“忘了的自己”的信，才知道奶奶早就知道自己会忘。",
+      "mystery": "zh-object-letter",
+      "cliffhanger": "最后一封信上写着：“如果我不记得，就让她替我记住。”"
+    },
+    {
+      "tier": "T5",
+      "seasonNo": 1,
+      "title": "新城",
+      "nativeTitle": "新城",
+      "synopsis": "春天，方案定下来：17号院保留门楼，茶馆可以留下，但要自己出修缮的钱。上海的工作催她回去，胡同这边，一把铜锁等着她开。",
+      "mystery": "zh-object-lock",
+      "cliffhanger": "她打开铜锁，里面是那本账本，最后一页记着街坊们凑的钱。"
+    },
+    {
+      "tier": "T5",
+      "seasonNo": 2,
+      "title": "春茶",
+      "nativeTitle": "春茶",
+      "synopsis": "清明前，新茶到了。奶奶把茶方交给小雨，又忘了她是谁。小雨把回上海的票改到清明以后，茶馆门口的牌子重新刷了一遍。",
+      "mystery": "zh-object-recipe",
+      "cliffhanger": "奶奶忽然叫出她的名字，又说：“茶凉了就不好喝了。”"
+    }
+  ]
+}

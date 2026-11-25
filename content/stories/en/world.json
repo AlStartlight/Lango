@@ -1,0 +1,257 @@
+{
+  "id": "en-marrow-bay",
+  "languageCode": "en",
+  "slug": "marrow-bay",
+  "title": "The Lighthouse Postcard",
+  "nativeTitle": "The Lighthouse Postcard",
+  "logline": "Nora returns to her childhood coastal town to sell her aunt's bookstore, then a postcard from 1994 arrives and changes the plan.",
+  "setting": "Marrow Bay, a fictional harbor town on the Maine coast: the bookstore at the end of the pier, the diner, the lighthouse, the town hall, and the ferry dock.",
+  "era": "Present day, autumn to winter",
+  "tone": "Warm coastal slice-of-life with a gentle mystery and dry New England humor.",
+  "palette": "#23404B",
+  "motifs": ["fog", "brass keys", "postcards", "lobster buoys", "tide charts", "blueberry pie", "the lighthouse beam"],
+  "sensitivityNotes": [
+    "Grief for Aunt June is present but never graphic.",
+    "The town's economic decline is shown with respect, not pity.",
+    "No caricature of rural Maine accents; regional speech is light and glossed."
+  ],
+  "canon": {
+    "fictionalTown": "Marrow Bay, Maine",
+    "realAnchors": ["Maine coast", "lobster fishing", "town meeting", "county fair"],
+    "timeline": "Late September to December, present day; the postcard is dated 1994.",
+    "rules": ["The lighthouse is decommissioned but maintained by the town.", "The bookstore cat is named Page.", "Aunt June died in August."]
+  },
+  "levels": [
+    { "tier": "T1", "framework": "CEFR", "levelCode": "A1", "label": "CEFR A1", "idPart": "a1", "position": 1 },
+    { "tier": "T2", "framework": "CEFR", "levelCode": "A2", "label": "CEFR A2", "idPart": "a2", "position": 2 },
+    { "tier": "T3", "framework": "CEFR", "levelCode": "B1", "label": "CEFR B1", "idPart": "b1", "position": 3 },
+    { "tier": "T4", "framework": "CEFR", "levelCode": "B2", "label": "CEFR B2", "idPart": "b2", "position": 4 },
+    { "tier": "T5", "framework": "CEFR", "levelCode": "C1", "label": "CEFR C1", "idPart": "c1", "position": 5 }
+  ],
+  "characters": [
+    {
+      "id": "en-marrow-bay-nora",
+      "name": "Nora",
+      "nativeName": "Nora",
+      "role": "Protagonist, 26, returns to sell the bookstore",
+      "age": 26,
+      "bio": "Nora left Marrow Bay at eighteen and built a careful life in Boston. She comes back to settle her aunt's estate and plans to leave before the first snow.",
+      "speechStyle": "Dry, practical, softer than she admits",
+      "quote": "I'm not staying. I just need to sell the place.",
+      "position": 1,
+      "lexeme": { "id": "en-char-nora", "native": "Nora", "gloss": { "id": "Nora", "en": "Nora" }, "tags": ["protagonist"] }
+    },
+    {
+      "id": "en-marrow-bay-eli",
+      "name": "Eli",
+      "nativeName": "Eli",
+      "role": "Lobster fisherman, 30, Nora's old friend",
+      "age": 30,
+      "bio": "Eli stayed in Marrow Bay and fishes the same waters his father did. He remembers Nora better than she remembers herself.",
+      "speechStyle": "Few words, warm, observant",
+      "quote": "The town remembers you, even if you don't.",
+      "position": 2,
+      "lexeme": { "id": "en-char-eli", "native": "Eli", "gloss": { "id": "Eli", "en": "Eli" }, "tags": ["friend"] }
+    },
+    {
+      "id": "en-marrow-bay-hale",
+      "name": "Mrs. Hale",
+      "nativeName": "Mrs. Hale",
+      "role": "Librarian, 68, keeper of local history",
+      "age": 68,
+      "bio": "Mrs. Hale has catalogued every town meeting since 1978. She is the first to notice that the postcard is not ordinary mail.",
+      "speechStyle": "Precise, amused, never rushed",
+      "quote": "Libraries keep what towns forget.",
+      "position": 3,
+      "lexeme": { "id": "en-char-hale", "native": "Mrs. Hale", "gloss": { "id": "Nyonya Hale", "en": "Mrs. Hale" }, "tags": ["mentor"] }
+    },
+    {
+      "id": "en-marrow-bay-page",
+      "name": "Page",
+      "nativeName": "Page",
+      "role": "Bookstore cat, silent witness",
+      "age": 9,
+      "bio": "Page has slept on the same stack of nautical charts for nine years. He sits on anything important.",
+      "speechStyle": "Silent",
+      "quote": "Mrrrp.",
+      "position": 4,
+      "lexeme": { "id": "en-char-page", "native": "Page", "gloss": { "id": "Page", "en": "Page" }, "tags": ["cat"] }
+    },
+    {
+      "id": "en-marrow-bay-june",
+      "name": "Aunt June",
+      "nativeName": "Aunt June",
+      "role": "Nora's late aunt, the bookstore's owner",
+      "age": 71,
+      "bio": "June ran the bookstore for forty years. She wrote postcards she never sent and kept every receipt in a blue ledger.",
+      "speechStyle": "Wry, private, generous",
+      "quote": "Some letters arrive late on purpose.",
+      "position": 5,
+      "lexeme": { "id": "en-char-june", "native": "Aunt June", "gloss": { "id": "Bibi June", "en": "Aunt June" }, "tags": ["memory"] }
+    }
+  ],
+  "lexicon": {
+    "person": [
+      { "id": "en-person-ferryman", "native": "the ferryman", "gloss": { "id": "tukang feri", "en": "the ferryman" } },
+      { "id": "en-person-neighbor", "native": "the neighbor", "gloss": { "id": "tetangga", "en": "the neighbor" } },
+      { "id": "en-person-customer", "native": "the customer", "gloss": { "id": "pelanggan", "en": "the customer" } },
+      { "id": "en-person-boy", "native": "the boy from the diner", "gloss": { "id": "anak laki-laki dari diner", "en": "the boy from the diner" } }
+    ],
+    "place": [
+      { "id": "en-place-bookstore", "native": "the bookstore", "gloss": { "id": "toko buku", "en": "the bookstore" }, "tags": ["home"] },
+      { "id": "en-place-diner", "native": "the diner", "gloss": { "id": "diner", "en": "the diner" }, "tags": ["food"] },
+      { "id": "en-place-lighthouse", "native": "the lighthouse", "gloss": { "id": "mercusuar", "en": "the lighthouse" }, "tags": ["mystery"] },
+      { "id": "en-place-harbor", "native": "the harbor", "gloss": { "id": "pelabuhan", "en": "the harbor" }, "tags": ["sea"] },
+      { "id": "en-place-town-hall", "native": "the town hall", "gloss": { "id": "balai kota", "en": "the town hall" } },
+      { "id": "en-place-pier", "native": "the pier", "gloss": { "id": "dermaga", "en": "the pier" } }
+    ],
+    "object": [
+      { "id": "en-object-postcard", "native": "the postcard", "gloss": { "id": "kartu pos", "en": "the postcard" }, "tags": ["mystery", "clue"] },
+      { "id": "en-object-key", "native": "the brass key", "gloss": { "id": "kunci kuningan", "en": "the brass key" }, "tags": ["mystery", "clue"] },
+      { "id": "en-object-ledger", "native": "the blue ledger", "gloss": { "id": "buku besar biru", "en": "the blue ledger" }, "tags": ["clue", "account"] },
+      { "id": "en-object-photo", "native": "the photograph", "gloss": { "id": "foto", "en": "the photograph" }, "tags": ["memory"] },
+      { "id": "en-object-lamp", "native": "the lighthouse lamp", "gloss": { "id": "lampu mercusuar", "en": "the lighthouse lamp" }, "tags": ["mystery"] },
+      { "id": "en-object-letter", "native": "the letter", "gloss": { "id": "surat", "en": "the letter" }, "tags": ["clue"] },
+      { "id": "en-object-buoy", "native": "the lobster buoy", "gloss": { "id": "pelampung lobster", "en": "the lobster buoy" }, "tags": ["sea"] },
+      { "id": "en-object-tide-chart", "native": "the tide chart", "gloss": { "id": "tabel pasang surut", "en": "the tide chart" }, "tags": ["sea"] }
+    ],
+    "food": [
+      { "id": "en-food-lobster-roll", "native": "the lobster roll", "gloss": { "id": "lobster roll", "en": "the lobster roll" }, "tags": ["anchor"] },
+      { "id": "en-food-blueberry-pie", "native": "the blueberry pie", "gloss": { "id": "pai blueberry", "en": "the blueberry pie" }, "tags": ["anchor"] },
+      { "id": "en-food-chowder", "native": "the clam chowder", "gloss": { "id": "sup kerang", "en": "the clam chowder" }, "tags": ["anchor"] },
+      { "id": "en-food-cornbread", "native": "the cornbread", "gloss": { "id": "roti jagung", "en": "the cornbread" } }
+    ],
+    "drink": [
+      { "id": "en-drink-coffee", "native": "the coffee", "gloss": { "id": "kopi", "en": "the coffee" } },
+      { "id": "en-drink-tea", "native": "the tea", "gloss": { "id": "teh", "en": "the tea" } },
+      { "id": "en-drink-cider", "native": "the apple cider", "gloss": { "id": "sari apel", "en": "the apple cider" } },
+      { "id": "en-drink-water", "native": "the water", "gloss": { "id": "air", "en": "the water" } }
+    ],
+    "time": [
+      { "id": "en-time-dawn", "native": "dawn", "gloss": { "id": "subuh", "en": "dawn" } },
+      { "id": "en-time-morning", "native": "morning", "gloss": { "id": "pagi", "en": "morning" } },
+      { "id": "en-time-afternoon", "native": "afternoon", "gloss": { "id": "siang", "en": "afternoon" } },
+      { "id": "en-time-evening", "native": "evening", "gloss": { "id": "malam", "en": "evening" } },
+      { "id": "en-time-low-tide", "native": "low tide", "gloss": { "id": "air surut", "en": "low tide" } }
+    ],
+    "weather": [
+      { "id": "en-weather-fog", "native": "Fog covers the harbor.", "gloss": { "id": "Kabut menutupi pelabuhan.", "en": "Fog covers the harbor." }, "tags": ["fog"] },
+      { "id": "en-weather-cold", "native": "The wind is cold.", "gloss": { "id": "Anginnya dingin.", "en": "The wind is cold." }, "tags": ["cold"] },
+      { "id": "en-weather-clear", "native": "The sky is clear.", "gloss": { "id": "Langitnya cerah.", "en": "The sky is clear." }, "tags": ["clear"] },
+      { "id": "en-weather-rain", "native": "It is raining.", "gloss": { "id": "Hari sedang hujan.", "en": "It is raining." }, "tags": ["rain"] }
+    ],
+    "action": [
+      { "id": "en-action-open-store", "native": "opened the bookstore", "gloss": { "id": "membuka toko buku", "en": "opened the bookstore" } },
+      { "id": "en-action-wipe-counter", "native": "wiped the counter", "gloss": { "id": "membersihkan meja", "en": "wiped the counter" } },
+      { "id": "en-action-read-postcard", "native": "read the postcard", "gloss": { "id": "membaca kartu pos", "en": "read the postcard" } },
+      { "id": "en-action-walk-light", "native": "walked to the lighthouse", "gloss": { "id": "berjalan ke mercusuar", "en": "walked to the lighthouse" } },
+      { "id": "en-action-lock-door", "native": "locked the door", "gloss": { "id": "mengunci pintu", "en": "locked the door" } },
+      { "id": "en-action-make-coffee", "native": "made coffee", "gloss": { "id": "membuat kopi", "en": "made coffee" } }
+    ],
+    "quote": [
+      { "id": "en-quote-meet-light", "native": "Meet me at the light when the fog lifts.", "gloss": { "id": "Temui aku di mercusuar saat kabut menyingkir.", "en": "Meet me at the light when the fog lifts." }, "tags": ["mystery"] },
+      { "id": "en-quote-usual", "native": "The usual, please.", "gloss": { "id": "Yang biasa, ya.", "en": "The usual, please." } },
+      { "id": "en-quote-long-time", "native": "It's been a long time.", "gloss": { "id": "Sudah lama tidak bertemu.", "en": "It's been a long time." } },
+      { "id": "en-quote-closed", "native": "The store is closed.", "gloss": { "id": "Tokonya tutup.", "en": "The store is closed." } },
+      { "id": "en-quote-not-selling", "native": "I'm not selling.", "gloss": { "id": "Aku tidak akan menjualnya.", "en": "I'm not selling." } },
+      { "id": "en-quote-remember", "native": "The town remembers you.", "gloss": { "id": "Kota ini mengingatmu.", "en": "The town remembers you." }, "tags": ["emotion"] }
+    ],
+    "question": [
+      { "id": "en-question-who-wrote", "native": "Who wrote this?", "gloss": { "id": "Siapa yang menulis ini?", "en": "Who wrote this?" } },
+      { "id": "en-question-who-e", "native": "Who is E?", "gloss": { "id": "Siapa E?", "en": "Who is E?" } },
+      { "id": "en-question-why-keep", "native": "Why did she keep it?", "gloss": { "id": "Mengapa dia menyimpannya?", "en": "Why did she keep it?" } },
+      { "id": "en-question-where-key", "native": "Where is the key?", "gloss": { "id": "Di mana kuncinya?", "en": "Where is the key?" } },
+      { "id": "en-question-what-next", "native": "What happens now?", "gloss": { "id": "Apa yang terjadi sekarang?", "en": "What happens now?" } }
+    ],
+    "greeting": [
+      { "id": "en-greeting-morning", "native": "Good morning", "gloss": { "id": "Selamat pagi", "en": "Good morning" } },
+      { "id": "en-greeting-hello", "native": "Hello", "gloss": { "id": "Halo", "en": "Hello" } },
+      { "id": "en-greeting-evening", "native": "Good evening", "gloss": { "id": "Selamat malam", "en": "Good evening" } },
+      { "id": "en-greeting-welcome", "native": "Welcome back", "gloss": { "id": "Selamat datang kembali", "en": "Welcome back" } }
+    ],
+    "emotion": [
+      { "id": "en-emotion-relieved", "native": "relieved", "gloss": { "id": "lega", "en": "relieved" } },
+      { "id": "en-emotion-uneasy", "native": "uneasy", "gloss": { "id": "gelisah", "en": "uneasy" } },
+      { "id": "en-emotion-hopeful", "native": "hopeful", "gloss": { "id": "penuh harap", "en": "hopeful" } },
+      { "id": "en-emotion-nostalgic", "native": "nostalgic", "gloss": { "id": "rindu", "en": "nostalgic" } }
+    ]
+  },
+  "anchors": [
+    {
+      "id": "en-culture-0001",
+      "title": "The Maine diner",
+      "body": { "id": "Diner pesisir Maine adalah ruang makan sederhana yang buka pagi-pagi, dengan counter panjang, kopi refill, dan pelanggan yang dikenal namanya. Di Marrow Bay, diner menjadi tempat pertama orang mendengar kabar.", "en": "A Maine coastal diner is a plain, early-opening room with a long counter, refill coffee, and customers known by name. In Marrow Bay, the diner is where news travels first." },
+      "sources": ["Maine Office of Tourism, 'Maine Diners and Lobster Shacks' (reference)", "Interview notes with coastal Maine residents (fictionalized composite)"],
+      "reflection": { "id": "Mengapa diner penting bagi komunitas kecil?", "en": "Why does a diner matter to a small community?" },
+      "stampId": "en-stamp-diner"
+    },
+    {
+      "id": "en-culture-0002",
+      "title": "The lobster roll",
+      "body": { "id": "Lobster roll adalah roti panjang berisi daging lobster yang dimasak ringan, disajikan dingin dengan mayones atau hangat dengan mentega. Harganya mengikuti hasil tangkapan dan musim.", "en": "A lobster roll is a split-top bun filled with lightly cooked lobster, served cold with mayonnaise or warm with butter. Its price follows the catch and the season." },
+      "sources": ["Maine Lobster Marketing Collaborative, 'Lobster Roll Basics' (reference)"],
+      "reflection": { "id": "Bagaimana makanan mengikuti musim dan kerja orang?", "en": "How does food follow seasons and people's work?" },
+      "stampId": "en-stamp-lobster"
+    },
+    {
+      "id": "en-culture-0003",
+      "title": "Lighthouses and fog signals",
+      "body": { "id": "Mercusuar di pesisir Maine dibangun untuk menandai tanjung dan pelabuhan. Saat kabut turun, suara kabut (foghorn) menggantikan cahaya sebagai penanda. Banyak mercusuar kini otomatis, tetapi tetap menjadi lambang kota.", "en": "Maine's coastal lighthouses mark headlands and harbors. When fog rolls in, a foghorn replaces the light as the signal. Many are now automated, but they remain town symbols." },
+      "sources": ["National Park Service, 'Maine Lighthouses' (reference)", "U.S. Coast Guard navigation history (reference)"],
+      "reflection": { "id": "Mengapa mercusuar tetap penting setelah otomatis?", "en": "Why do lighthouses still matter after automation?" },
+      "stampId": "en-stamp-lighthouse"
+    },
+    {
+      "id": "en-culture-0004",
+      "title": "The town meeting",
+      "body": { "id": "Town meeting adalah pertemuan warga yang memutuskan anggaran, jalan, dan proyek bersama. Di banyak kota kecil New England, keputusan besar diambil dengan suara terbuka, bukan hanya oleh dewan.", "en": "A town meeting is a residents' assembly that decides budgets, roads, and shared projects. In many small New England towns, major decisions are made by open vote, not only by a council." },
+      "sources": ["Maine Municipal Association, 'Town Meeting Guide' (reference)"],
+      "reflection": { "id": "Apa untung dan rugi keputusan bersama?", "en": "What are the costs and benefits of deciding together?" },
+      "stampId": "en-stamp-townmeeting"
+    },
+    {
+      "id": "en-culture-0005",
+      "title": "The county fair",
+      "body": { "id": "County fair menampilkan hasil pertanian, kerajinan, dan makanan lokal, serta kompetisi kecil seperti pai terbaik atau labu terbesar. Fair adalah kalender sosial desa.", "en": "A county fair displays local agriculture, crafts, and food, with small competitions such as best pie or largest pumpkin. It is a village's social calendar." },
+      "sources": ["Maine Association of Agricultural Fairs (reference)"],
+      "reflection": { "id": "Mengapa kompetisi kecil bisa merekatkan warga?", "en": "Why can small competitions bring people together?" },
+      "stampId": "en-stamp-fair"
+    },
+    {
+      "id": "en-culture-0006",
+      "title": "Thanksgiving in a harbor town",
+      "body": { "id": "Thanksgiving di kota pelabuhan sering menjadi momen keluarga pulang, dengan makan malam besar dan cerita tentang musim tangkapan. Bagi keluarga nelayan, musim menentukan siapa yang bisa hadir.", "en": "Thanksgiving in a harbor town is often when family returns, with a large dinner and stories about the fishing season. For fishing families, the season decides who can be there." },
+      "sources": ["Maine Historical Society, seasonal customs (reference)"],
+      "reflection": { "id": "Bagaimana pekerjaan musiman membentuk keluarga?", "en": "How does seasonal work shape family life?" },
+      "stampId": "en-stamp-thanksgiving"
+    },
+    {
+      "id": "en-culture-0007",
+      "title": "The small-town library",
+      "body": { "id": "Perpustakaan kecil di kota pesisir menyimpan surat kabar lama, peta, dan arsip keluarga. Pustakawan sering menjadi penghubung antara generasi.", "en": "A small coastal library keeps old newspapers, maps, and family archives. The librarian often becomes a bridge between generations." },
+      "sources": ["American Library Association, small and rural libraries (reference)"],
+      "reflection": { "id": "Apa yang disimpan perpustakaan yang tidak disimpan tempat lain?", "en": "What does a library keep that nowhere else does?" },
+      "stampId": "en-stamp-library"
+    },
+    {
+      "id": "en-culture-0008",
+      "title": "Dry New England humor",
+      "body": { "id": "Humor New England sering datar, singkat, dan tidak menjelaskan leluconnya. Keheningan adalah bagian dari percakapan; keramahan ditunjukkan lewat tindakan, bukan kata-kata besar.", "en": "New England humor is often dry, brief, and does not explain itself. Silence is part of conversation; kindness is shown through action, not grand words." },
+      "sources": ["Oral history collections, Maine coast (reference)"],
+      "reflection": { "id": "Bagaimana humor menunjukkan kedekatan tanpa banyak kata?", "en": "How can humor show closeness without many words?" },
+      "stampId": "en-stamp-humor"
+    }
+  ],
+  "arcs": [
+    { "tier": "T1", "seasonNo": 1, "title": "The Key", "nativeTitle": "The Key", "synopsis": "Nora plans to sell the bookstore in a week. A brass key and a cat make that plan difficult.", "mystery": "en-object-key", "cliffhanger": "The key opens the lighthouse door, but someone has been inside." },
+    { "tier": "T1", "seasonNo": 2, "title": "The Cat and the Clock", "nativeTitle": "The Cat and the Clock", "synopsis": "Page the cat keeps sitting on a clock that stopped in 1994. Nora follows the cat's routine through the town.", "mystery": "en-object-postcard", "cliffhanger": "The clock starts again at midnight." },
+    { "tier": "T2", "seasonNo": 1, "title": "The Postcard", "nativeTitle": "The Postcard", "synopsis": "A postcard dated 1994 arrives with no stamp. Nora and Eli trace the handwriting through the harbor.", "mystery": "en-object-postcard", "cliffhanger": "The handwriting is Aunt June's, but the signature is E." },
+    { "tier": "T2", "seasonNo": 2, "title": "The Ferry Schedule", "nativeTitle": "The Ferry Schedule", "synopsis": "The last ferry is cancelled, and a stranger asks Nora to keep a package until morning.", "mystery": "en-object-letter", "cliffhanger": "The package contains the missing half of the postcard." },
+    { "tier": "T3", "seasonNo": 1, "title": "The Storm", "nativeTitle": "The Storm", "synopsis": "A nor'easter damages the lighthouse lens. The town must decide whether to repair it or let it go.", "mystery": "en-object-lamp", "cliffhanger": "The storm uncovers a box buried under the lighthouse steps." },
+    { "tier": "T3", "seasonNo": 2, "title": "The Missing Boat", "nativeTitle": "The Missing Boat", "synopsis": "Eli's boat disappears before the season's last haul. Nora finds a tide chart marked with a route no one uses.", "mystery": "en-object-tide-chart", "cliffhanger": "The boat is anchored beyond the lighthouse, empty." },
+    { "tier": "T4", "seasonNo": 1, "title": "The Town Meeting", "nativeTitle": "The Town Meeting", "synopsis": "A developer wants the pier for a hotel. Nora must choose between selling the bookstore and speaking for the town.", "mystery": "en-object-ledger", "cliffhanger": "The ledger shows the pier was sold once before, in 1994." },
+    { "tier": "T4", "seasonNo": 2, "title": "The Ledger", "nativeTitle": "The Ledger", "synopsis": "The blue ledger records every loan Aunt June forgave. One name repeats for thirty years.", "mystery": "en-object-ledger", "cliffhanger": "The name is Eli's father." },
+    { "tier": "T5", "seasonNo": 1, "title": "The Light", "nativeTitle": "The Light", "synopsis": "Nora reads the letters Aunt June never sent and learns why the lighthouse was kept dark one winter.", "mystery": "en-object-letter", "cliffhanger": "The last letter is addressed to Nora." },
+    { "tier": "T5", "seasonNo": 2, "title": "The Last Ferry", "nativeTitle": "The Last Ferry", "synopsis": "Nora's last day in Marrow Bay arrives. The town, the bookstore, and Eli wait for her decision.", "mystery": "en-object-postcard", "cliffhanger": "At the dock, Nora buys a one-way ticket back." }
+  ]
+}

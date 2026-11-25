@@ -1,0 +1,1556 @@
+{
+  "id": "ko-seoul-dawn",
+  "languageCode": "ko",
+  "slug": "seoul-dawn",
+  "title": "Seoul, 5 A.M.",
+  "nativeTitle": "서울, 새벽 다섯 시",
+  "logline": "Yuna spends her nights behind the counter of a 24-hour convenience store in Hongdae, saving for a design job she is not sure she deserves; when a street musician's lyrics notebook goes missing, the words inside turn out to be hers.",
+  "setting": "Hongdae, Mapo-gu, Seoul: a 24-hour convenience store on a fictional side alley off the R2 busking street, the print shop next door, the PC bang and noraebang upstairs, Hongik University Station, and the dawn streets after the last train.",
+  "era": "Present day; late summer through Chuseok, then winter to the first snow.",
+  "tone": "Quiet late-night slice-of-life with a light mystery, dry Seoul humour, and the fluorescent hum of a store at five in the morning.",
+  "palette": "#274060",
+  "motifs": [
+    "새벽 다섯 시",
+    "편의점 형광등",
+    "가사 수첩",
+    "라면 김",
+    "막차",
+    "포스트잇",
+    "홍대 골목",
+    "추석 송편",
+    "노래방 불빛",
+    "첫차"
+  ],
+  "sensitivityNotes": [
+    "Yuna's doubt about her design work is shown through ordinary work and money, not through a saviour; no character tells her she is talented in the first scene.",
+    "Min's ambition is treated with dignity: busking is work, and his setbacks are practical (slots, rent, a day job), never comic.",
+    "No K-pop or beauty-industry stereotypes; Hongdae appears as a working neighbourhood with rent, noise complaints and night shifts.",
+    "Chuseok is shown as a family obligation some people cannot afford to fulfil, without judging those who stay in the city.",
+    "The lyrics are original lines written for this story; no real song lyrics are quoted.",
+    "Rating 13+: no explicit sex, graphic violence, hate speech or party politics."
+  ],
+  "canon": {
+    "fictionalStore": "별빛편의점 (Byeolbit Pyeonjeom), a fictional 24-hour convenience store in a side alley off the Hongdae R2 busking street, Mapo-gu, Seoul",
+    "realAnchors": [
+      "Hongdae (Hongik University area), Mapo-gu, Seoul",
+      "R2 busking street, Hongdae",
+      "Hongik University Station (Seoul Metro Line 2, AREX)",
+      "24-hour convenience stores (pyeonjeom)",
+      "PC bang and noraebang upstairs rooms",
+      "Chuseok (fifteenth day of the eighth lunar month)",
+      "Seoul night buses and the city's 24-hour economy"
+    ],
+    "timeline": "T1: late summer. T2: autumn, before Chuseok. T3: Chuseok week. T4: late autumn. T5: winter, first snow.",
+    "rules": [
+      "The store is open 24 hours; Yuna works the 22:00–06:00 shift, five nights a week.",
+      "Yuna is 22, has a design portfolio she has never shown anyone, and earns the night-shift differential on purpose.",
+      "Min is 25, busks on the R2 street, takes delivery shifts in bad weather, and has one paid stage a month.",
+      "The lyrics in the notebook were written by Yuna in high school; Min set them to music without knowing she would ever hear them again.",
+      "The notebook is never a speaking character; it is an object that passes between people.",
+      "The last subway from Hongik University Station leaves around midnight; after that come night buses and taxis.",
+      "The store's owner, Manager Jeong, controls the morning shift and the transfer application, not Yuna's talent."
+    ]
+  },
+  "levels": [
+    {
+      "tier": "T1",
+      "framework": "CEFR",
+      "levelCode": "A1",
+      "label": "CEFR A1",
+      "idPart": "a1",
+      "position": 1
+    },
+    {
+      "tier": "T2",
+      "framework": "CEFR",
+      "levelCode": "A2",
+      "label": "CEFR A2",
+      "idPart": "a2",
+      "position": 2
+    },
+    {
+      "tier": "T3",
+      "framework": "CEFR",
+      "levelCode": "B1",
+      "label": "CEFR B1",
+      "idPart": "b1",
+      "position": 3
+    },
+    {
+      "tier": "T4",
+      "framework": "CEFR",
+      "levelCode": "B2",
+      "label": "CEFR B2",
+      "idPart": "b2",
+      "position": 4
+    },
+    {
+      "tier": "T5",
+      "framework": "CEFR",
+      "levelCode": "C1",
+      "label": "CEFR C1",
+      "idPart": "c1",
+      "position": 5
+    }
+  ],
+  "characters": [
+    {
+      "id": "ko-seoul-dawn-yuna",
+      "name": "Yuna",
+      "nativeName": "유나",
+      "role": "Protagonist, 22, night-shift worker at a 24-hour convenience store; wants to transfer to a design job",
+      "age": 22,
+      "bio": "Yuna has worked the night shift at a Hongdae convenience store for two years. On her phone there is a folder of posters and packaging designs she has never shown anyone. She is quick, watchful, polite to customers and blunt with Min, and she distrusts praise because praise is cheap at four in the morning.",
+      "speechStyle": "Low, dry, quick; softens when she is tired",
+      "quote": "새벽엔 손님이 없어서 좋아요. 아무도 제 얼굴을 안 봐요.",
+      "position": 0,
+      "lexeme": {
+        "id": "ko-char-yuna",
+        "native": "유나",
+        "gloss": {
+          "id": "Yuna",
+          "en": "Yuna"
+        },
+        "tags": [
+          "protagonist"
+        ]
+      }
+    },
+    {
+      "id": "ko-seoul-dawn-min",
+      "name": "Min",
+      "nativeName": "민",
+      "role": "Street musician and delivery rider, 25, a regular at the store",
+      "age": 25,
+      "bio": "Min plays guitar on the R2 busking street and takes delivery shifts when the weather is bad. He has one real stage a month and treats it like a job: he registers for slots, prints set lists, and counts the take afterwards. He knows every cheap meal within three blocks of the store.",
+      "speechStyle": "Warm, indirect, jokes when he is nervous; serious about the work",
+      "quote": "무대는 다음 달이에요. 이번엔 진짜로.",
+      "position": 1,
+      "lexeme": {
+        "id": "ko-char-min",
+        "native": "민",
+        "gloss": {
+          "id": "Min",
+          "en": "Min"
+        },
+        "tags": [
+          "friend",
+          "regular"
+        ]
+      }
+    },
+    {
+      "id": "ko-seoul-dawn-miseon",
+      "name": "Miseon",
+      "nativeName": "미선",
+      "role": "Owner of the print shop next door, 47",
+      "age": 47,
+      "bio": "Miseon runs a small print shop that makes banners, menus and gig posters. She has watched the alley change for twenty years and has opinions about all of it. She trades printing for coffee, knows exactly when Yuna's shift ends, and is the first person to say out loud that Yuna's posters are good.",
+      "speechStyle": "Fast, affectionate, no patience for nonsense",
+      "quote": "인쇄는 새벽이 제일 싸. 사람이 없거든.",
+      "position": 2,
+      "lexeme": {
+        "id": "ko-char-miseon",
+        "native": "미선",
+        "gloss": {
+          "id": "Miseon",
+          "en": "Miseon"
+        },
+        "tags": [
+          "neighbor",
+          "mentor"
+        ]
+      }
+    },
+    {
+      "id": "ko-seoul-dawn-park",
+      "name": "Mr. Park",
+      "nativeName": "박 기사님",
+      "role": "Taxi driver on the night shift, 58, a regular at four in the morning",
+      "age": 58,
+      "bio": "Mr. Park drives the night shift and stops at the store around four for a cup of coffee and five minutes of quiet. He has driven half the neighbourhood home and remembers who lives where, but he never says so. He knows the last-train crowd by their faces.",
+      "speechStyle": "Soft, unhurried, teases gently",
+      "quote": "이 시간엔 손님이 없어서 좋아. 대신 이야기가 많지.",
+      "position": 3,
+      "lexeme": {
+        "id": "ko-char-park",
+        "native": "박 기사님",
+        "gloss": {
+          "id": "Pak Park",
+          "en": "Mr. Park"
+        },
+        "tags": [
+          "regular",
+          "elder"
+        ]
+      }
+    },
+    {
+      "id": "ko-seoul-dawn-jeong",
+      "name": "Manager Jeong",
+      "nativeName": "정 사장",
+      "role": "Owner of the store, 51; decides whether Yuna gets the design transfer",
+      "age": 51,
+      "bio": "Manager Jeong owns the store and works the morning shift. He is fair, tired, and sceptical of plans that do not come with numbers. He has to approve Yuna's application to the design team at the franchise headquarters, if a position ever opens, and he has never once said her posters were bad.",
+      "speechStyle": "Blunt, kind underneath, speaks in short sentences",
+      "quote": "디자인은 숫자로 말해야 해. 예쁘다고 되는 일이 아니야.",
+      "position": 4,
+      "lexeme": {
+        "id": "ko-char-jeong",
+        "native": "정 사장",
+        "gloss": {
+          "id": "Pak Jeong",
+          "en": "Manager Jeong"
+        },
+        "tags": [
+          "boss",
+          "role"
+        ]
+      }
+    },
+    {
+      "id": "ko-seoul-dawn-jihoon",
+      "name": "Jihoon",
+      "nativeName": "지훈",
+      "role": "Art student, 20, dawn regular; applying to the design department Yuna once wanted",
+      "age": 20,
+      "bio": "Jihoon comes in at dawn with charcoal on his sleeves and buys two triangle kimbap. He is applying to the same design department Yuna once dreamed about, and he has no idea. He asks her opinion of his posters because he thinks she is just being kind.",
+      "speechStyle": "Earnest, slightly awkward, asks direct questions",
+      "quote": "누나, 이거 포스터인데… 어떻게 생각해요?",
+      "position": 5,
+      "lexeme": {
+        "id": "ko-char-jihoon",
+        "native": "지훈",
+        "gloss": {
+          "id": "Jihoon",
+          "en": "Jihoon"
+        },
+        "tags": [
+          "friend",
+          "regular"
+        ]
+      }
+    }
+  ],
+  "lexicon": {
+    "person": [
+      {
+        "id": "ko-person-customer",
+        "native": "손님",
+        "gloss": {
+          "id": "pelanggan",
+          "en": "the customer"
+        },
+        "tags": [
+          "role"
+        ]
+      },
+      {
+        "id": "ko-person-regular",
+        "native": "단골",
+        "gloss": {
+          "id": "pelanggan tetap",
+          "en": "the regular"
+        },
+        "tags": [
+          "role"
+        ]
+      },
+      {
+        "id": "ko-person-night-worker",
+        "native": "야간 알바생",
+        "gloss": {
+          "id": "pekerja shift malam",
+          "en": "the night-shift worker"
+        },
+        "tags": [
+          "role"
+        ]
+      },
+      {
+        "id": "ko-person-taxi-driver",
+        "native": "택시 기사",
+        "gloss": {
+          "id": "sopir taksi",
+          "en": "the taxi driver"
+        },
+        "tags": [
+          "role"
+        ]
+      },
+      {
+        "id": "ko-person-neighbor",
+        "native": "옆 가게 주인",
+        "gloss": {
+          "id": "pemilik toko sebelah",
+          "en": "the owner of the shop next door"
+        },
+        "tags": [
+          "role"
+        ]
+      }
+    ],
+    "place": [
+      {
+        "id": "ko-place-store",
+        "native": "편의점",
+        "gloss": {
+          "id": "minimarket",
+          "en": "the convenience store"
+        },
+        "tags": [
+          "home"
+        ]
+      },
+      {
+        "id": "ko-place-alley",
+        "native": "홍대 골목",
+        "gloss": {
+          "id": "gang di Hongdae",
+          "en": "the Hongdae alley"
+        },
+        "tags": [
+          "street"
+        ]
+      },
+      {
+        "id": "ko-place-station",
+        "native": "지하철역",
+        "gloss": {
+          "id": "stasiun kereta bawah tanah",
+          "en": "the subway station"
+        },
+        "tags": [
+          "night"
+        ]
+      },
+      {
+        "id": "ko-place-pcbang",
+        "native": "PC방",
+        "gloss": {
+          "id": "PC bang",
+          "en": "the PC bang"
+        },
+        "tags": [
+          "night"
+        ]
+      },
+      {
+        "id": "ko-place-noraebang",
+        "native": "노래방",
+        "gloss": {
+          "id": "noraebang",
+          "en": "the noraebang"
+        },
+        "tags": [
+          "night"
+        ]
+      },
+      {
+        "id": "ko-place-ramen-shop",
+        "native": "라멘집",
+        "gloss": {
+          "id": "kedai ramen",
+          "en": "the ramen shop"
+        },
+        "tags": [
+          "food"
+        ]
+      },
+      {
+        "id": "ko-place-bus-stop",
+        "native": "버스 정류장",
+        "gloss": {
+          "id": "halte bus",
+          "en": "the bus stop"
+        },
+        "tags": [
+          "night"
+        ]
+      },
+      {
+        "id": "ko-place-rooftop",
+        "native": "옥탑방",
+        "gloss": {
+          "id": "kamar di atap",
+          "en": "the rooftop room"
+        },
+        "tags": [
+          "home"
+        ]
+      },
+      {
+        "id": "ko-place-plaza",
+        "native": "홍대 광장",
+        "gloss": {
+          "id": "alun-alun Hongdae",
+          "en": "the Hongdae plaza"
+        },
+        "tags": [
+          "street"
+        ]
+      },
+      {
+        "id": "ko-place-printshop",
+        "native": "인쇄점",
+        "gloss": {
+          "id": "percetakan",
+          "en": "the print shop"
+        },
+        "tags": [
+          "work"
+        ]
+      },
+      {
+        "id": "ko-place-alley-end",
+        "native": "골목 끝",
+        "gloss": {
+          "id": "ujung gang",
+          "en": "the end of the alley"
+        },
+        "tags": [
+          "street"
+        ]
+      }
+    ],
+    "object": [
+      {
+        "id": "ko-object-lyrics-notebook",
+        "native": "가사 수첩",
+        "gloss": {
+          "id": "buku lirik",
+          "en": "the lyrics notebook"
+        },
+        "tags": [
+          "mystery",
+          "clue"
+        ]
+      },
+      {
+        "id": "ko-object-receipt",
+        "native": "영수증",
+        "gloss": {
+          "id": "struk",
+          "en": "the receipt"
+        },
+        "tags": [
+          "clue"
+        ]
+      },
+      {
+        "id": "ko-object-umbrella",
+        "native": "우산",
+        "gloss": {
+          "id": "payung",
+          "en": "the umbrella"
+        },
+        "tags": []
+      },
+      {
+        "id": "ko-object-photo",
+        "native": "사진",
+        "gloss": {
+          "id": "foto",
+          "en": "the photograph"
+        },
+        "tags": [
+          "memory"
+        ]
+      },
+      {
+        "id": "ko-object-wallet",
+        "native": "지갑",
+        "gloss": {
+          "id": "dompet",
+          "en": "the wallet"
+        },
+        "tags": []
+      },
+      {
+        "id": "ko-object-business-card",
+        "native": "명함",
+        "gloss": {
+          "id": "kartu nama",
+          "en": "the business card"
+        },
+        "tags": [
+          "clue"
+        ]
+      },
+      {
+        "id": "ko-object-cup-ramyeon",
+        "native": "컵라면",
+        "gloss": {
+          "id": "mi instan cup",
+          "en": "the cup ramyeon"
+        },
+        "tags": [
+          "food"
+        ]
+      },
+      {
+        "id": "ko-object-earphones",
+        "native": "이어폰",
+        "gloss": {
+          "id": "earphone",
+          "en": "the earphones"
+        },
+        "tags": []
+      },
+      {
+        "id": "ko-object-gloves",
+        "native": "장갑",
+        "gloss": {
+          "id": "sarung tangan",
+          "en": "the gloves"
+        },
+        "tags": []
+      },
+      {
+        "id": "ko-object-mug",
+        "native": "머그컵",
+        "gloss": {
+          "id": "mug",
+          "en": "the mug"
+        },
+        "tags": []
+      },
+      {
+        "id": "ko-object-guitar-strings",
+        "native": "기타 줄",
+        "gloss": {
+          "id": "senar gitar",
+          "en": "the guitar strings"
+        },
+        "tags": [
+          "music"
+        ]
+      },
+      {
+        "id": "ko-object-postit",
+        "native": "포스트잇",
+        "gloss": {
+          "id": "sticky note",
+          "en": "the sticky note"
+        },
+        "tags": [
+          "clue"
+        ]
+      },
+      {
+        "id": "ko-object-phone",
+        "native": "핸드폰",
+        "gloss": {
+          "id": "ponsel",
+          "en": "the phone"
+        },
+        "tags": []
+      }
+    ],
+    "food": [
+      {
+        "id": "ko-food-ramyeon",
+        "native": "라면",
+        "gloss": {
+          "id": "ramyeon",
+          "en": "the ramyeon"
+        },
+        "tags": [
+          "anchor"
+        ]
+      },
+      {
+        "id": "ko-food-triangle-kimbap",
+        "native": "삼각김밥",
+        "gloss": {
+          "id": "nasi kepal segitiga",
+          "en": "the triangle kimbap"
+        },
+        "tags": [
+          "anchor"
+        ]
+      },
+      {
+        "id": "ko-food-bungeoppang",
+        "native": "붕어빵",
+        "gloss": {
+          "id": "kue ikan",
+          "en": "the bungeoppang"
+        },
+        "tags": []
+      },
+      {
+        "id": "ko-food-songpyeon",
+        "native": "송편",
+        "gloss": {
+          "id": "songpyeon",
+          "en": "the songpyeon"
+        },
+        "tags": [
+          "chuseok"
+        ]
+      },
+      {
+        "id": "ko-food-eomuk",
+        "native": "어묵",
+        "gloss": {
+          "id": "eomuk",
+          "en": "the fish cake"
+        },
+        "tags": []
+      }
+    ],
+    "drink": [
+      {
+        "id": "ko-drink-coffee",
+        "native": "커피",
+        "gloss": {
+          "id": "kopi",
+          "en": "the coffee"
+        }
+      },
+      {
+        "id": "ko-drink-mix-coffee",
+        "native": "믹스커피",
+        "gloss": {
+          "id": "kopi instan",
+          "en": "the instant coffee"
+        }
+      },
+      {
+        "id": "ko-drink-sikhye",
+        "native": "식혜",
+        "gloss": {
+          "id": "sikhye",
+          "en": "the sikhye"
+        }
+      },
+      {
+        "id": "ko-drink-yuja-tea",
+        "native": "유자차",
+        "gloss": {
+          "id": "teh yuja",
+          "en": "the yuja tea"
+        }
+      },
+      {
+        "id": "ko-drink-sparkling-water",
+        "native": "탄산수",
+        "gloss": {
+          "id": "air soda",
+          "en": "the sparkling water"
+        }
+      }
+    ],
+    "time": [
+      {
+        "id": "ko-time-dawn",
+        "native": "새벽녘",
+        "gloss": {
+          "id": "saat fajar",
+          "en": "dawn"
+        }
+      },
+      {
+        "id": "ko-time-five-am",
+        "native": "새벽 다섯 시 무렵",
+        "gloss": {
+          "id": "sekitar pukul lima pagi",
+          "en": "around five in the morning"
+        },
+        "tags": [
+          "dawn"
+        ]
+      },
+      {
+        "id": "ko-time-morning",
+        "native": "아침",
+        "gloss": {
+          "id": "pagi",
+          "en": "morning"
+        }
+      },
+      {
+        "id": "ko-time-noon",
+        "native": "점심",
+        "gloss": {
+          "id": "siang",
+          "en": "noon"
+        }
+      },
+      {
+        "id": "ko-time-evening",
+        "native": "저녁",
+        "gloss": {
+          "id": "petang",
+          "en": "evening"
+        }
+      },
+      {
+        "id": "ko-time-midnight",
+        "native": "자정",
+        "gloss": {
+          "id": "tengah malam",
+          "en": "midnight"
+        }
+      },
+      {
+        "id": "ko-time-last-train",
+        "native": "막차 시간",
+        "gloss": {
+          "id": "waktu kereta terakhir",
+          "en": "last-train time"
+        },
+        "tags": [
+          "night"
+        ]
+      },
+      {
+        "id": "ko-time-sunset",
+        "native": "해질녘",
+        "gloss": {
+          "id": "saat matahari terbenam",
+          "en": "sunset"
+        }
+      }
+    ],
+    "weather": [
+      {
+        "id": "ko-weather-cold",
+        "native": "바람이 차갑다.",
+        "gloss": {
+          "id": "Anginnya dingin.",
+          "en": "The wind is cold."
+        },
+        "tags": [
+          "cold"
+        ]
+      },
+      {
+        "id": "ko-weather-rain",
+        "native": "비가 내린다.",
+        "gloss": {
+          "id": "Hujan turun.",
+          "en": "It is raining."
+        },
+        "tags": [
+          "rain"
+        ]
+      },
+      {
+        "id": "ko-weather-fog",
+        "native": "골목에 안개가 내려앉아 있다.",
+        "gloss": {
+          "id": "Kabut turun di gang.",
+          "en": "Fog has settled in the alley."
+        },
+        "tags": [
+          "fog"
+        ]
+      },
+      {
+        "id": "ko-weather-clear",
+        "native": "하늘은 맑다.",
+        "gloss": {
+          "id": "Langitnya cerah.",
+          "en": "The sky is clear."
+        },
+        "tags": [
+          "clear"
+        ]
+      },
+      {
+        "id": "ko-weather-snow",
+        "native": "눈이 흩날린다.",
+        "gloss": {
+          "id": "Salju berjatuhan.",
+          "en": "Snow is drifting down."
+        },
+        "tags": [
+          "cold"
+        ]
+      },
+      {
+        "id": "ko-weather-humid",
+        "native": "공기가 축축하다.",
+        "gloss": {
+          "id": "Udaranya lembap.",
+          "en": "The air is damp."
+        },
+        "tags": [
+          "warm"
+        ]
+      }
+    ],
+    "action": [
+      {
+        "id": "ko-action-counter",
+        "native": "카운터 정리",
+        "gloss": {
+          "id": "merapikan meja kasir",
+          "en": "tidying the counter"
+        },
+        "tags": [
+          "store"
+        ]
+      },
+      {
+        "id": "ko-action-brew",
+        "native": "커피 내리기",
+        "gloss": {
+          "id": "menyeduh kopi",
+          "en": "brewing coffee"
+        },
+        "tags": [
+          "store"
+        ]
+      },
+      {
+        "id": "ko-action-shelves",
+        "native": "진열대 정리",
+        "gloss": {
+          "id": "merapikan rak pajangan",
+          "en": "restocking the shelves"
+        },
+        "tags": [
+          "store"
+        ]
+      },
+      {
+        "id": "ko-action-floor",
+        "native": "바닥 청소",
+        "gloss": {
+          "id": "menyapu lantai",
+          "en": "sweeping the floor"
+        },
+        "tags": [
+          "store"
+        ]
+      },
+      {
+        "id": "ko-action-ramyeon",
+        "native": "라면 끓이기",
+        "gloss": {
+          "id": "merebus ramyeon",
+          "en": "boiling ramyeon"
+        },
+        "tags": [
+          "food"
+        ]
+      },
+      {
+        "id": "ko-action-trash",
+        "native": "쓰레기 버리기",
+        "gloss": {
+          "id": "membuang sampah",
+          "en": "taking out the trash"
+        },
+        "tags": [
+          "store"
+        ]
+      },
+      {
+        "id": "ko-action-parcels",
+        "native": "택배 정리",
+        "gloss": {
+          "id": "merapikan paket",
+          "en": "sorting parcels"
+        },
+        "tags": [
+          "store"
+        ]
+      },
+      {
+        "id": "ko-action-stock",
+        "native": "재고 세기",
+        "gloss": {
+          "id": "menghitung stok",
+          "en": "counting stock"
+        },
+        "tags": [
+          "store"
+        ]
+      },
+      {
+        "id": "ko-action-glass",
+        "native": "유리창 닦기",
+        "gloss": {
+          "id": "membersihkan kaca",
+          "en": "wiping the glass"
+        },
+        "tags": [
+          "store"
+        ]
+      },
+      {
+        "id": "ko-action-umbrella-stand",
+        "native": "우산꽂이 정리",
+        "gloss": {
+          "id": "merapikan tempat payung",
+          "en": "tidying the umbrella stand"
+        },
+        "tags": [
+          "store"
+        ]
+      },
+      {
+        "id": "ko-action-receipts",
+        "native": "계산서 정리",
+        "gloss": {
+          "id": "merapikan struk",
+          "en": "sorting the receipts"
+        },
+        "tags": [
+          "store"
+        ]
+      },
+      {
+        "id": "ko-action-fridge",
+        "native": "냉장고 정리",
+        "gloss": {
+          "id": "merapikan kulkas",
+          "en": "tidying the fridge"
+        },
+        "tags": [
+          "store"
+        ]
+      }
+    ],
+    "quote": [
+      {
+        "id": "ko-quote-five",
+        "native": "내일도 다섯 시에 올게요.",
+        "gloss": {
+          "id": "Aku akan datang lagi besok jam lima.",
+          "en": "I'll come again at five tomorrow."
+        },
+        "tags": [
+          "mystery"
+        ]
+      },
+      {
+        "id": "ko-quote-unfinished",
+        "native": "이 노래는 아직 끝이 없어요.",
+        "gloss": {
+          "id": "Lagu ini belum ada akhirnya.",
+          "en": "This song doesn't have an ending yet."
+        },
+        "tags": [
+          "emotion",
+          "mystery"
+        ]
+      },
+      {
+        "id": "ko-quote-owner",
+        "native": "가사에는 원래 주인이 있어요.",
+        "gloss": {
+          "id": "Lirik itu selalu punya pemiliknya.",
+          "en": "Lyrics always have an owner."
+        },
+        "tags": [
+          "mystery"
+        ]
+      },
+      {
+        "id": "ko-quote-notebook",
+        "native": "그 수첩은 제가 맡을게요.",
+        "gloss": {
+          "id": "Buku itu akan kujaga.",
+          "en": "I'll look after that notebook."
+        },
+        "tags": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "ko-quote-wait",
+        "native": "조금만 더 기다려 주세요.",
+        "gloss": {
+          "id": "Tolong tunggu sebentar lagi.",
+          "en": "Please wait a little longer."
+        },
+        "tags": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "ko-quote-name",
+        "native": "이름을 넣어도 괜찮아요.",
+        "gloss": {
+          "id": "Tidak apa-apa kalau namaku dicantumkan.",
+          "en": "It's all right to put my name on it."
+        },
+        "tags": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "ko-quote-stage",
+        "native": "무대는 다음 달이에요.",
+        "gloss": {
+          "id": "Panggungnya bulan depan.",
+          "en": "The stage is next month."
+        }
+      },
+      {
+        "id": "ko-quote-ramyeon",
+        "native": "여기 라면은 늘 맛이 같네요.",
+        "gloss": {
+          "id": "Ramyeon di sini rasanya selalu sama.",
+          "en": "The ramyeon here always tastes the same."
+        }
+      }
+    ],
+    "question": [
+      {
+        "id": "ko-question-what",
+        "native": "이거 뭐예요?",
+        "gloss": {
+          "id": "Ini apa?",
+          "en": "What is this?"
+        }
+      },
+      {
+        "id": "ko-question-who",
+        "native": "누가 쓴 거예요?",
+        "gloss": {
+          "id": "Siapa yang menulis ini?",
+          "en": "Who wrote this?"
+        }
+      },
+      {
+        "id": "ko-question-where",
+        "native": "어디서 찾았어요?",
+        "gloss": {
+          "id": "Di mana menemukannya?",
+          "en": "Where did you find it?"
+        }
+      },
+      {
+        "id": "ko-question-why-me",
+        "native": "왜 저한테 말해요?",
+        "gloss": {
+          "id": "Kenapa memberi tahu aku?",
+          "en": "Why are you telling me?"
+        }
+      },
+      {
+        "id": "ko-question-now",
+        "native": "이제 어떻게 해요?",
+        "gloss": {
+          "id": "Sekarang bagaimana?",
+          "en": "What do we do now?"
+        }
+      },
+      {
+        "id": "ko-question-notebook",
+        "native": "그 수첩, 보셨어요?",
+        "gloss": {
+          "id": "Apakah Anda melihat buku itu?",
+          "en": "Have you seen that notebook?"
+        }
+      },
+      {
+        "id": "ko-question-tomorrow",
+        "native": "내일도 오세요?",
+        "gloss": {
+          "id": "Apakah besok juga datang?",
+          "en": "Are you coming tomorrow too?"
+        }
+      },
+      {
+        "id": "ko-question-name",
+        "native": "이름을 밝혀도 될까요?",
+        "gloss": {
+          "id": "Bolehkah aku mencantumkan namaku?",
+          "en": "May I put my name on it?"
+        }
+      }
+    ],
+    "greeting": [
+      {
+        "id": "ko-greeting-welcome",
+        "native": "어서 오세요",
+        "gloss": {
+          "id": "Selamat datang",
+          "en": "Welcome"
+        }
+      },
+      {
+        "id": "ko-greeting-hello",
+        "native": "안녕하세요",
+        "gloss": {
+          "id": "Halo",
+          "en": "Hello"
+        }
+      },
+      {
+        "id": "ko-greeting-goodwork",
+        "native": "수고하셨어요",
+        "gloss": {
+          "id": "Kerja bagus",
+          "en": "Good work"
+        }
+      },
+      {
+        "id": "ko-greeting-again",
+        "native": "또 오셨네요",
+        "gloss": {
+          "id": "Datang lagi, ya",
+          "en": "You're back"
+        }
+      },
+      {
+        "id": "ko-greeting-dawn",
+        "native": "좋은 새벽이에요",
+        "gloss": {
+          "id": "Selamat pagi sekali",
+          "en": "Good early morning"
+        }
+      },
+      {
+        "id": "ko-greeting-today",
+        "native": "오늘도 반가워요",
+        "gloss": {
+          "id": "Senang bertemu lagi hari ini",
+          "en": "Nice to see you today"
+        }
+      }
+    ],
+    "emotion": [
+      {
+        "id": "ko-emotion-longing",
+        "native": "그리운",
+        "gloss": {
+          "id": "rindu",
+          "en": "longing"
+        },
+        "tags": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "ko-emotion-hurt",
+        "native": "서운한",
+        "gloss": {
+          "id": "kecewa",
+          "en": "hurt"
+        },
+        "tags": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "ko-emotion-glad",
+        "native": "반가운",
+        "gloss": {
+          "id": "senang bertemu",
+          "en": "glad"
+        },
+        "tags": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "ko-emotion-sorry",
+        "native": "미안한",
+        "gloss": {
+          "id": "merasa bersalah",
+          "en": "sorry"
+        },
+        "tags": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "ko-emotion-thankful",
+        "native": "고마운",
+        "gloss": {
+          "id": "berterima kasih",
+          "en": "grateful"
+        },
+        "tags": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "ko-emotion-lonely",
+        "native": "외로운",
+        "gloss": {
+          "id": "kesepian",
+          "en": "lonely"
+        },
+        "tags": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "ko-emotion-proud",
+        "native": "뿌듯한",
+        "gloss": {
+          "id": "bangga",
+          "en": "proud"
+        },
+        "tags": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "ko-emotion-empty",
+        "native": "허전한",
+        "gloss": {
+          "id": "hampa",
+          "en": "hollow"
+        },
+        "tags": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "ko-emotion-anxious",
+        "native": "조마조마한",
+        "gloss": {
+          "id": "cemas",
+          "en": "anxious"
+        },
+        "tags": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "ko-emotion-regretful",
+        "native": "아쉬운",
+        "gloss": {
+          "id": "sayang sekali",
+          "en": "regretful"
+        },
+        "tags": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "ko-emotion-fluttered",
+        "native": "설레는",
+        "gloss": {
+          "id": "berdebar",
+          "en": "fluttered"
+        },
+        "tags": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "ko-emotion-choked",
+        "native": "먹먹한",
+        "gloss": {
+          "id": "terharu",
+          "en": "choked up"
+        },
+        "tags": [
+          "emotion"
+        ]
+      }
+    ]
+  },
+  "anchors": [
+    {
+      "id": "ko-culture-0001",
+      "title": "24-hour pyeonjeom: the store that does not close",
+      "body": {
+        "id": "Pyeonjeom (편의점) adalah minimarket 24 jam yang menjadi bagian ritme kota Seoul: lampu terang sepanjang malam, kopi dan mi instan, air panas gratis, meja kecil di dekat jendela, dan layanan kirim paket. Jaringan seperti GS25, CU, dan 7-Eleven membuka ribuan gerai di seluruh negeri. Pada 2023 Korea Tourism Organization menggandeng GS Retail agar convenience store masuk ke peta wisata resmi, dan pada 2024 menggarap kerja sama serupa dengan BGF Retail. Bagi pekerja shift malam seperti Yuna, toko ini bukan sekadar tempat jualan: ia titik temu antara orang yang pulang dan orang yang baru mulai bekerja.",
+        "en": "A pyeonjeom (편의점) is a 24-hour convenience store that is part of Seoul's rhythm: lights on all night, coffee and instant noodles, free hot water, a small table by the window, and parcel delivery. Chains such as GS25, CU and 7-Eleven run thousands of branches nationwide. In 2023 the Korea Tourism Organization partnered with GS Retail to put convenience stores on the official tourist map, and in 2024 it signed a similar agreement with BGF Retail. For a night-shift worker like Yuna, the store is not just a shop: it is where people going home meet people starting work."
+      },
+      "sources": [
+        "Korea Tourism Organization, press release on convenience-store tourism with BGF Retail (CU), 2023 — https://knto.or.kr/pressRelease/548623",
+        "Yonhap News Agency, 'Korea Tourism Organization and GS25 partner to make convenience stores a tourist staple', 11 May 2023 — https://m-jp.yna.co.kr/view/AJP20230511001600882"
+      ],
+      "reflection": {
+        "id": "Apa yang membuat sebuah toko kecil terasa seperti tempat publik, bukan sekadar tempat belanja?",
+        "en": "What makes a small shop feel like a public place rather than just a place to buy things?"
+      },
+      "stampId": "ko-stamp-pyeonjeom",
+      "tags": [
+        "store",
+        "city"
+      ]
+    },
+    {
+      "id": "ko-culture-0002",
+      "title": "Cup ramyeon and the hot-water tap",
+      "body": {
+        "id": "Ramyeon (라면) dalam cup dijual di hampir setiap pyeonjeom, lengkap dengan dispenser air panas dan sumpit kayu. Pelanggan boleh makan di meja toko, kadang berdiri di depan pintu, lalu membuang wadahnya di tempat sampah khusus. Pada Juni 2024 Korea Tourism Organization menandatangani kerja sama dengan Nongshim untuk memakai K-food, termasuk ramyeon, sebagai daya tarik wisata. Di Hongdae, semangkuk ramyeon pukul empat pagi adalah tanda bahwa satu shift hampir selesai dan shift berikutnya belum dimulai.",
+        "en": "Cup ramyeon (라면) is sold at almost every pyeonjeom, with a hot-water dispenser and wooden chopsticks. Customers may eat at the store's table, sometimes standing by the door, then put the container in a dedicated bin. In June 2024 the Korea Tourism Organization signed an agreement with Nongshim to use K-food, including ramyeon, as a tourism draw. In Hongdae, a bowl of ramyeon at four in the morning means one shift is almost over and the next has not begun."
+      },
+      "sources": [
+        "Korea Tourism Organization, 'KTO and Nongshim sign MOU to attract foreign visitors with K-food', 14 June 2024 — https://knto.or.kr/pressRelease/548531",
+        "Korea Tourism Organization, convenience-store tourism press release (BGF Retail), 2023 — https://knto.or.kr/pressRelease/548623"
+      ],
+      "reflection": {
+        "id": "Mengapa makanan yang sederhana bisa menandai waktu dan pertemuan orang?",
+        "en": "Why can simple food mark time and the meeting of people?"
+      },
+      "stampId": "ko-stamp-ramyeon",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "ko-culture-0003",
+      "title": "Chuseok: the fifteenth night of the eighth lunar month",
+      "body": {
+        "id": "Chuseok (추석), juga disebut Han-gawi (한가위), jatuh pada tanggal 15 bulan ke-8 kalender lunar, biasanya September atau awal Oktober. Keluarga berkumpul di rumah orang tua, mengunjungi makam leluhur, dan berbagi makanan. Jalan antarkota padat, banyak toko tutup, dan pusat kota justru lebih lengang. Pada 2026 Chuseok diperingati 25 September; kantor Kota Seoul menerbitkan panduan libur khusus berisi jam buka museum dan acara kota. Bagi pekerja shift seperti Yuna, Chuseok adalah ujian: pulang berarti kehilangan upah, tidak pulang berarti harus menjelaskan alasannya berkali-kali.",
+        "en": "Chuseok (추석), also called Han-gawi (한가위), falls on the fifteenth day of the eighth lunar month, usually in September or early October. Families gather at the parents' home, visit ancestral graves, and share food. Intercity roads jam, many shops close, and the city centre is quieter than usual. In 2026 Chuseok falls on 25 September, and the Seoul Metropolitan Government publishes a dedicated holiday guide with museum hours and city events. For shift workers like Yuna, Chuseok is a test: going home means losing pay, staying means explaining why, again and again."
+      },
+      "sources": [
+        "Seoul Metropolitan Government, '2026 Chuseok Holiday Information' — https://world.seoul.go.kr/2026-chuseok-holiday-information/",
+        "Korea Tourism Organization, domestic travel and festival recommendations for the Chuseok holiday, October 2025 — https://www.asiae.co.kr/lang/print.htm?idxno=2025100117085999024&lang=en"
+      ],
+      "reflection": {
+        "id": "Apa yang sebenarnya dirayakan orang saat Chuseok: keluarga, istirahat, atau kewajiban?",
+        "en": "What do people actually celebrate at Chuseok: family, rest, or obligation?"
+      },
+      "stampId": "ko-stamp-chuseok",
+      "tags": [
+        "chuseok",
+        "family"
+      ]
+    },
+    {
+      "id": "ko-culture-0004",
+      "title": "Charye and songpyeon",
+      "body": {
+        "id": "Pagi Chuseok, banyak keluarga menggelar charye (차례), ritual singkat untuk mengingat leluhur dengan meja berisi makanan: buah, ikan kering, jeon, dan songpyeon. Songpyeon (송편) adalah kue beras berbentuk setengah bulan yang dikukus dengan isi kacang, wijen, atau gula; adonannya dibuat dari beras panen baru, dan seluruh keluarga biasanya membuatnya bersama sehari sebelumnya. Karena bentuknya setengah bulan, ada pepatah lama bahwa songpyeon yang cantik akan membuat anak perempuan tumbuh cantik — pepatah yang sekarang ditertawakan banyak keluarga sendiri. Di cerita ini, songpyeon adalah hal yang dikirim Yuna lewat kurir, bukan sesuatu yang ia buat di rumah.",
+        "en": "On Chuseok morning many families hold charye (차례), a short rite honouring ancestors with a table of food: fruit, dried fish, jeon and songpyeon. Songpyeon (송편) are half-moon rice cakes steamed with bean, sesame or sugar filling; the dough is made from the new rice harvest, and the whole family usually shapes them together the day before. Because of the half-moon shape, an old saying claims that a well-made songpyeon makes a daughter grow up beautiful — a saying many families now laugh at themselves. In this story, songpyeon is something Yuna sends by courier, not something she makes at home."
+      },
+      "sources": [
+        "National Folk Museum of Korea, 'Chuseok' (한가위) — https://www.nfm.go.kr",
+        "Korea.net (Korean Culture and Information Service), 'Chuseok, also known as hangawi' — https://newsroom.korea.net/upload/e-book/access/ecatalogt.jsp?callmode=normal&catimage=&eclang=en&Dir=562&um=s&start=14"
+      ],
+      "reflection": {
+        "id": "Mengapa makanan ritual lebih sering dibuat bersama daripada dibeli?",
+        "en": "Why is ritual food more often made together than bought?"
+      },
+      "stampId": "ko-stamp-songpyeon",
+      "tags": [
+        "chuseok",
+        "food"
+      ]
+    },
+    {
+      "id": "ko-culture-0005",
+      "title": "PC bang: the room with the fastest computers",
+      "body": {
+        "id": "PC bang (PC방) adalah ruang bermain komputer dengan tarif per jam, PC berperforma tinggi, kursi nyaman, dan menu mi instan yang diantar ke meja. Menurut Game White Paper Korea Creative Content Agency 2025, penjualan PC bang naik 12,8% dibanding tahun sebelumnya, sementara jumlah usahanya terus menurun. Di Hongdae, PC bang ada di lantai dua atau tiga bangunan pertokoan, buka 24 jam, dan dipakai bukan hanya untuk bermain: sebagian orang menyelesaikan tugas, mengirim lamaran, atau tidur sebentar sebelum kelas pagi.",
+        "en": "A PC bang (PC방) is a computer room billed by the hour, with high-performance PCs, comfortable chairs, and instant noodles delivered to the desk. According to the Korea Creative Content Agency's 2025 Game White Paper, PC bang sales rose 12.8% year on year while the number of businesses kept falling. In Hongdae, PC bangs sit on the second or third floor of shop buildings, stay open 24 hours, and are not only for gaming: some people finish assignments, send job applications, or nap before a morning class."
+      },
+      "sources": [
+        "Korea Creative Content Agency (KOCCA), '2025 Korea Game White Paper' (2025 대한민국 게임백서) — https://www.kocca.kr",
+        "Digital Today, 'KOCCA publishes 2025 Korea Game White Paper; game sales hit 23.9 trillion won' — https://www.digitaltoday.co.kr/en/view/42982/kocca-publishes-2025-korea-game-white-paper-game-sales-hit-23-9-trillion-won"
+      ],
+      "reflection": {
+        "id": "Mengapa ruang bermain bisa juga menjadi tempat bekerja dan beristirahat?",
+        "en": "Why can a gaming room also become a place to work and rest?"
+      },
+      "stampId": "ko-stamp-pcbang",
+      "tags": [
+        "night",
+        "youth"
+      ]
+    },
+    {
+      "id": "ko-culture-0006",
+      "title": "Noraebang: a room rented by the hour",
+      "body": {
+        "id": "Noraebang (노래방) adalah ruang karaoke sewaan per jam: bilik kecil dengan TV, mikrofon, remote, dan buku lagu tebal. Ada juga coin noraebang yang buka 24 jam dan lebih murah, cocok untuk dua atau tiga orang. Di Hongdae, noraebang memenuhi lantai atas bangunan pertokoan dan menjadi tempat orang merayakan hal kecil: ulang tahun, wawancara kerja yang akhirnya selesai, atau shift yang berakhir pukul lima. VisitKorea mencatat beberapa lokasi noraebang Hongdae yang pernah muncul dalam drama Korea; tempat-tempat itu tetap berjalan sebagai bisnis biasa, bukan panggung wisata.",
+        "en": "A noraebang (노래방) is a karaoke room rented by the hour: a small booth with a TV, microphones, a remote and a thick song book. There are also coin noraebangs open 24 hours and cheaper, good for two or three people. In Hongdae, noraebangs fill the upper floors of shop buildings and are where people celebrate small things: a birthday, a job interview that finally happened, a shift that ended at five. VisitKorea lists several Hongdae noraebang locations that have appeared in Korean dramas; they still run as ordinary businesses, not tourist stages."
+      },
+      "sources": [
+        "VisitKorea (Korea Tourism Organization), 'Experience Korean Room Culture as Seen in K-Content' — https://english.visitkorea.or.kr/svc/contents/contentsView.do?dataSetId=76&menuSn=862&vcontsId=177335",
+        "Korea.net, 'Noraebang: singing rooms in Korea' (Honorary Reporters) — https://german.korea.net/NewsFocus/HonoraryReporters/view?articleId=257275"
+      ],
+      "reflection": {
+        "id": "Mengapa orang menyanyi di ruang tertutup bersama teman, bukan di panggung?",
+        "en": "Why do people sing in a closed room with friends rather than on a stage?"
+      },
+      "stampId": "ko-stamp-noraebang",
+      "tags": [
+        "night",
+        "music"
+      ]
+    },
+    {
+      "id": "ko-culture-0007",
+      "title": "The first train and the last train",
+      "body": {
+        "id": "Seoul Metro mengoperasikan kereta pertama sekitar pukul lima pagi dan kereta terakhir sekitar tengah malam, dengan jadwal berbeda di tiap stasiun. Di Hongik University Station, Jalur 2 dan kereta bandara AREX bertemu, jadi setelah lewat tengah malam pilihan pulang menyusut menjadi bus malam dan taksi. Pemerintah kota Seoul pada 2026 merencanakan penyesuaian jam operasi untuk pekerja malam, sementara warga dan pedagang menimbang dampaknya. Yuna hafal jam itu karena ia pulang saat kereta pertama mulai berjalan, bukan saat kereta terakhir pergi.",
+        "en": "Seoul Metro runs its first trains around five in the morning and its last trains around midnight, with different timetables at each station. At Hongik University Station, Line 2 meets the AREX airport train, so after midnight the way home narrows to night buses and taxis. In 2026 the Seoul Metropolitan Government announced plans to adjust operating hours for night workers, while residents and shopkeepers weighed the effects. Yuna knows the timetable by heart because she goes home when the first train starts running, not when the last one leaves."
+      },
+      "sources": [
+        "Seoul Metro, station first/last train timetable (Hongik University Station) — http://www.seoulmetro.co.kr/en/getStationInfo.do?action=info&stationId=1017",
+        "Seoul Metropolitan Government, 'Seoul Steps Up Its Nighttime Economy' (24-hour economy, 6 PM–6 AM) — https://english.seoul.go.kr/not-more-nighttime-spending-but-better-nights-seoul-steps-up-its-nighttime-economy/"
+      ],
+      "reflection": {
+        "id": "Apa arti 'pulang' kalau kereta terakhir sudah lewat?",
+        "en": "What does 'going home' mean after the last train has gone?"
+      },
+      "stampId": "ko-stamp-subway",
+      "tags": [
+        "night",
+        "city"
+      ]
+    },
+    {
+      "id": "ko-culture-0008",
+      "title": "A city that keeps its own hours",
+      "body": {
+        "id": "Pada Agustus 2026 Pemerintah Kota Seoul mengumumkan visi 'Vibrant 24-Hour Economy' untuk pukul 18.00 sampai 06.00: museum dan fasilitas olahraga buka lebih malam, bus malam N dan bus 'Firefly' menghubungkan Hongdae, Gwanghwamun, DDP, dan Gangnam dengan stasiun, serta ada program kebersihan dan keselamatan malam. Yang menarik dari kebijakan ini bukan angka targetnya, melainkan pengakuan bahwa kota punya jam yang tidak tidur dan bahwa jam itu punya warga tetap: pekerja shift, sopir, pedagang, dan musisi. Cerita ini berlangsung di jam itu.",
+        "en": "In August 2026 the Seoul Metropolitan Government announced a 'Vibrant 24-Hour Economy' vision covering 6 PM to 6 AM: museums and sports facilities open later, N night buses and new 'Firefly' buses link Hongdae, Gwanghwamun, DDP and Gangnam with stations, and there are night cleaning and safety programmes. What matters in this policy is not the target numbers but the admission that the city keeps hours that never sleep, and that those hours have permanent residents: shift workers, drivers, shopkeepers and musicians. This story takes place in those hours."
+      },
+      "sources": [
+        "Seoul Metropolitan Government, 'Not More Nighttime Spending, but Better Nights: Seoul Steps Up Its Nighttime Economy', 24 August 2026 — https://english.seoul.go.kr/not-more-nighttime-spending-but-better-nights-seoul-steps-up-its-nighttime-economy/"
+      ],
+      "reflection": {
+        "id": "Siapa yang sebenarnya menjaga kota tetap hidup pada pukul tiga pagi?",
+        "en": "Who actually keeps a city alive at three in the morning?"
+      },
+      "stampId": "ko-stamp-nightcity",
+      "tags": [
+        "city",
+        "night"
+      ]
+    },
+    {
+      "id": "ko-culture-0009",
+      "title": "Hongdae R2: busking with a registration list",
+      "body": {
+        "id": "R2, atau 'Street You Want to Walk' di Hongdae, adalah jalan pejalan kaki tempat musisi jalanan tampil. Menurut Visit Seoul, pertunjukan di kawasan ini mencakup pop, tari, sulap, dan pantomim, dan dilakukan melalui sistem pendaftaran sebelumnya. Artinya busking bukan sekadar spontan: ada slot, aturan volume, dan antrean. Min mendaftar untuk slot malam, tahu berapa menit ia boleh bermain, dan menghitung uang receh di kotak gitar sebelum pulang. Bagi tetangga, R2 juga berarti suara: keuntungan dan keluhan datang dari sumber yang sama.",
+        "en": "R2, or the 'Street You Want to Walk' in Hongdae, is a pedestrian street where street musicians perform. According to Visit Seoul, performances there cover pop, dance, magic and mime, and are arranged through an advance registration system. Busking is therefore not purely spontaneous: there are slots, volume rules and queues. Min registers for an evening slot, knows how many minutes he may play, and counts the coins in his guitar case before going home. For residents, R2 also means noise: the income and the complaints come from the same source."
+      },
+      "sources": [
+        "Visit Seoul (Seoul Tourism Organization), 'Hongdae R2 Busking Street – Live Shows & Culture Experience' — https://english.visitseoul.net/attractions/HONGDAE-R2_/48933"
+      ],
+      "reflection": {
+        "id": "Apakah pertunjukan jalanan masih 'jalanan' kalau harus mendaftar lebih dulu?",
+        "en": "Is street performance still 'street' if you have to register first?"
+      },
+      "stampId": "ko-stamp-busking",
+      "tags": [
+        "music",
+        "street"
+      ]
+    },
+    {
+      "id": "ko-culture-0010",
+      "title": "Chuseok in the city: the people who stay",
+      "body": {
+        "id": "Selama libur Chuseok, sebagian warga Seoul tidak pulang kampung. Toko-toko kecil tutup, jalan lebih lengang, dan museum kota membuka jam khusus; Pemerintah Kota Seoul menerbitkan daftar acara dan jam buka selama libur. Bagi pekerja lepas, pekerja shift, dan mahasiswa yang tidak mampu membeli tiket antarkota, tinggal di kota saat Chuseok bisa berarti ketenangan, bisa juga berarti kesepian yang harus dijelaskan lewat panggilan video. Yuna memilih tinggal dan mengirim songpyeon lewat kurir, lalu menutup telepon sebelum ibunya sempat bertanya kapan pulang.",
+        "en": "During the Chuseok holiday some Seoul residents do not travel home. Small shops close, roads empty, and city museums open special hours; the Seoul Metropolitan Government publishes a list of holiday events and opening times. For freelancers, shift workers and students who cannot afford an intercity ticket, staying in the city at Chuseok can mean calm, or loneliness that has to be explained over a video call. Yuna chooses to stay and sends songpyeon by courier, then ends the call before her mother can ask when she is coming home."
+      },
+      "sources": [
+        "Seoul Metropolitan Government, '2026 Chuseok Holiday Information' — https://world.seoul.go.kr/2026-chuseok-holiday-information/",
+        "Korea Tourism Organization, Chuseok travel recommendations, October 2025 — https://www.asiae.co.kr/lang/print.htm?idxno=2025100117085999024&lang=en"
+      ],
+      "reflection": {
+        "id": "Apakah tinggal di kota saat hari raya bisa menjadi pilihan yang sah, bukan kegagalan?",
+        "en": "Can staying in the city during a family holiday be a legitimate choice, not a failure?"
+      },
+      "stampId": "ko-stamp-citychuseok",
+      "tags": [
+        "chuseok",
+        "city"
+      ]
+    }
+  ],
+  "arcs": [
+    {
+      "tier": "T1",
+      "seasonNo": 1,
+      "title": "Lima Pagi",
+      "nativeTitle": "새벽 다섯 시",
+      "synopsis": "Shift Yuna mulai pukul sepuluh malam dan berakhir pukul enam pagi. Di antara pelanggan, ia menghafal aplikasi desain di ponselnya. Pukul 4.50 Min masuk membawa gitar dan air panas, dan pada pukul lima toko cukup sunyi untuk mendengar bus pertama lewat.",
+      "mystery": "ko-object-lyrics-notebook",
+      "cliffhanger": "Di halaman pertama buku lirik itu ada satu baris yang Yuna tulis semasa sekolah menengah, dan namanya belum tercantum di mana pun."
+    },
+    {
+      "tier": "T1",
+      "seasonNo": 2,
+      "title": "Semangkuk Ramyeon",
+      "nativeTitle": "라면 한 그릇",
+      "synopsis": "Pekan hujan: meja toko penuh pekerja malam dan satu gitaris yang basah kuyup. Yuna mulai menyiapkan semangkuk ramyeon pada pukul lima, dan pelan-pelan memahami mengapa Min tidak pernah memesan dua.",
+      "mystery": "ko-object-receipt",
+      "cliffhanger": "Min membayar dengan struk yang di belakangnya ia tulis judul lagu yang belum pernah didengar Yuna."
+    },
+    {
+      "tier": "T2",
+      "seasonNo": 1,
+      "title": "Lirik yang Hilang",
+      "nativeTitle": "잃어버린 가사",
+      "synopsis": "Buku lirik Min hilang tiga hari sebelum panggung berbayar pertamanya. Yuna dan Min menyusuri PC bang, noraebang, dan halte bus malam, sambil mulai berdebat tentang siapa yang berhak menuliskan nama di sebuah lagu.",
+      "mystery": "ko-object-lyrics-notebook",
+      "cliffhanger": "Buku itu ditemukan di ruang noraebang, tetapi halaman berisi lirik terakhir sudah disobek dan dibawa pergi."
+    },
+    {
+      "tier": "T2",
+      "seasonNo": 2,
+      "title": "Catatan Tempel",
+      "nativeTitle": "포스트잇",
+      "synopsis": "Dinding di belakang kasir penuh post-it dari pelanggan: nomor telepon, gambar kucing, pesan untuk diri sendiri. Satu post-it bertuliskan satu baris lirik dengan tulisan tangan Yuna, dan Yuna tidak ingat pernah menempelkannya.",
+      "mystery": "ko-object-postit",
+      "cliffhanger": "Post-it terakhir di dinding bertuliskan tanggal dan jam: besok, pukul lima pagi."
+    },
+    {
+      "tier": "T3",
+      "seasonNo": 1,
+      "title": "Chuseok",
+      "nativeTitle": "추석",
+      "synopsis": "Pekan Chuseok. Yuna tidak pulang karena shift dan ongkos, sementara Min harus memilih antara panggung keluarga dan panggung musik. Toko menjadi tempat singgah orang-orang yang tinggal di kota, dan songpyeon yang dikirim lewat kurir tiba terlambat.",
+      "mystery": "ko-object-photo",
+      "cliffhanger": "Malam Chuseok, seorang perempuan tua membeli satu songpyeon dan bertanya apakah Yuna masih menulis lirik."
+    },
+    {
+      "tier": "T3",
+      "seasonNo": 2,
+      "title": "Semalam di PC Bang",
+      "nativeTitle": "PC방 밤샘",
+      "synopsis": "Jihoon mengejar tenggat portofolio di PC bang, Min menyiapkan pengumuman panggung, dan Yuna melihat untuk pertama kali pekerjaan desain orang lain dari dekat. Semalam itu mengubah cara Yuna menilai portofolionya sendiri.",
+      "mystery": "ko-object-cup-ramyeon",
+      "cliffhanger": "Di dasar cup ramyeon ada catatan kecil: nama Yuna dan satu alamat studio desain."
+    },
+    {
+      "tier": "T4",
+      "seasonNo": 1,
+      "title": "Hongdae",
+      "nativeTitle": "홍대",
+      "synopsis": "Aturan busking di R2 berubah dan Min kehilangan slot malamnya. Sewa naik, toko-toko kecil berganti, dan Yuna mendapat kesempatan membuat poster untuk festival jalanan — kesempatan yang ternyata harus dibayar dengan namanya sendiri.",
+      "mystery": "ko-object-guitar-strings",
+      "cliffhanger": "Poster buatan Yuna dipasang di R2, tetapi di sudut poster namanya diganti dengan nama orang lain."
+    },
+    {
+      "tier": "T4",
+      "seasonNo": 2,
+      "title": "Toko Sebelah",
+      "nativeTitle": "옆 가게",
+      "synopsis": "Pemilik gedung menaikkan sewa dan percetakan Miseon harus tutup. Yuna membuat poster perpisahan, Min menyiapkan panggung terakhir di ruang yang akan hilang, dan Manager Jeong membuka ujian transfer desain untuk Yuna.",
+      "mystery": "ko-object-business-card",
+      "cliffhanger": "Surat penawaran transfer datang dengan tenggat tiga hari, dan di dalamnya ada satu syarat yang tidak pernah Yuna duga."
+    },
+    {
+      "tier": "T5",
+      "seasonNo": 1,
+      "title": "Kereta Terakhir",
+      "nativeTitle": "마지막 지하철",
+      "synopsis": "Musim dingin dan salju pertama. Min mendapat panggung besar, Yuna mendapat tawaran pindah ke tim desain, dan buku lirik kembali ke tangan yang seharusnya. Pertanyaannya bukan lagi siapa yang menulis, tetapi apakah Yuna berani menuliskan namanya.",
+      "mystery": "ko-object-lyrics-notebook",
+      "cliffhanger": "Di poster panggung Min tercetak satu baris kecil: lirik oleh Yuna."
+    },
+    {
+      "tier": "T5",
+      "seasonNo": 2,
+      "title": "Merancang Fajar",
+      "nativeTitle": "새벽의 설계",
+      "synopsis": "Yuna menerima pekerjaan desain, tetapi menegosiasikan satu hal: toko dan gang itu tetap masuk ke dalam pekerjaannya. Min merekam lagu pertama yang liriknya berisi nama lengkap Yuna, dan buku lirik itu akhirnya berpindah tangan untuk terakhir kali.",
+      "mystery": "ko-object-lyrics-notebook",
+      "cliffhanger": "Pukul lima pagi, Yuna menyerahkan buku lirik kepada Min dengan satu halaman baru yang belum pernah dibaca siapa pun."
+    }
+  ]
+}

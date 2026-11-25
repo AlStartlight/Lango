@@ -1,0 +1,2408 @@
+{
+  "language": "hi",
+  "script": "deva",
+  "romanization": "none",
+  "lexicon": {
+    "person": [
+      {
+        "id": "hi-k-person-malik",
+        "native": "मालिक",
+        "gloss": {
+          "id": "pemilik",
+          "en": "the owner"
+        },
+        "tags": [
+          "role"
+        ]
+      },
+      {
+        "id": "hi-k-person-grahak",
+        "native": "ग्राहक",
+        "gloss": {
+          "id": "pelanggan",
+          "en": "the customer"
+        },
+        "tags": [
+          "role"
+        ]
+      },
+      {
+        "id": "hi-k-person-padosi",
+        "native": "पड़ोसी",
+        "gloss": {
+          "id": "tetangga",
+          "en": "the neighbour"
+        }
+      },
+      {
+        "id": "hi-k-person-bachchi",
+        "native": "बच्ची",
+        "gloss": {
+          "id": "anak perempuan",
+          "en": "the little girl"
+        }
+      },
+      {
+        "id": "hi-k-person-mitra",
+        "native": "पुराना मित्र",
+        "gloss": {
+          "id": "teman lama",
+          "en": "the old friend"
+        }
+      }
+    ],
+    "place": [
+      {
+        "id": "hi-k-place-dukan",
+        "native": "दुकान",
+        "gloss": {
+          "id": "toko",
+          "en": "the shop"
+        }
+      },
+      {
+        "id": "hi-k-place-gali",
+        "native": "गली",
+        "gloss": {
+          "id": "gang",
+          "en": "the lane"
+        }
+      },
+      {
+        "id": "hi-k-place-station",
+        "native": "स्टेशन",
+        "gloss": {
+          "id": "stasiun",
+          "en": "the station"
+        }
+      },
+      {
+        "id": "hi-k-place-chhat",
+        "native": "छत",
+        "gloss": {
+          "id": "atap",
+          "en": "the rooftop"
+        }
+      },
+      {
+        "id": "hi-k-place-ghar",
+        "native": "घर",
+        "gloss": {
+          "id": "rumah",
+          "en": "the house"
+        }
+      }
+    ],
+    "object": [
+      {
+        "id": "hi-k-object-kitab",
+        "native": "किताब",
+        "gloss": {
+          "id": "buku",
+          "en": "the book"
+        }
+      },
+      {
+        "id": "hi-k-object-chaabi",
+        "native": "चाबी",
+        "gloss": {
+          "id": "kunci",
+          "en": "the key"
+        }
+      },
+      {
+        "id": "hi-k-object-kap",
+        "native": "कप",
+        "gloss": {
+          "id": "cangkir",
+          "en": "the cup"
+        }
+      },
+      {
+        "id": "hi-k-object-tasveer",
+        "native": "तस्वीर",
+        "gloss": {
+          "id": "foto",
+          "en": "the photograph"
+        }
+      },
+      {
+        "id": "hi-k-object-parchi",
+        "native": "पर्ची",
+        "gloss": {
+          "id": "catatan kecil",
+          "en": "the note"
+        }
+      }
+    ],
+    "food": [
+      {
+        "id": "hi-k-food-samosa",
+        "native": "समोसा",
+        "gloss": {
+          "id": "samosa",
+          "en": "the samosa"
+        }
+      },
+      {
+        "id": "hi-k-food-roti",
+        "native": "रोटी",
+        "gloss": {
+          "id": "roti",
+          "en": "the flatbread"
+        }
+      },
+      {
+        "id": "hi-k-food-kheer",
+        "native": "खीर",
+        "gloss": {
+          "id": "kheer",
+          "en": "the rice pudding"
+        }
+      },
+      {
+        "id": "hi-k-food-chivda",
+        "native": "चिवड़ा",
+        "gloss": {
+          "id": "chivda",
+          "en": "the poha mix"
+        }
+      }
+    ],
+    "drink": [
+      {
+        "id": "hi-k-drink-chai",
+        "native": "चाय",
+        "gloss": {
+          "id": "teh",
+          "en": "the tea"
+        }
+      },
+      {
+        "id": "hi-k-drink-paani",
+        "native": "पानी",
+        "gloss": {
+          "id": "air",
+          "en": "the water"
+        }
+      },
+      {
+        "id": "hi-k-drink-lassi",
+        "native": "लस्सी",
+        "gloss": {
+          "id": "lassi",
+          "en": "the lassi"
+        }
+      },
+      {
+        "id": "hi-k-drink-coffee",
+        "native": "कॉफ़ी",
+        "gloss": {
+          "id": "kopi",
+          "en": "the coffee"
+        }
+      }
+    ],
+    "time": [
+      {
+        "id": "hi-k-time-subah",
+        "native": "सुबह",
+        "gloss": {
+          "id": "pagi",
+          "en": "morning"
+        }
+      },
+      {
+        "id": "hi-k-time-dopahar",
+        "native": "दोपहर",
+        "gloss": {
+          "id": "siang",
+          "en": "afternoon"
+        }
+      },
+      {
+        "id": "hi-k-time-shaam",
+        "native": "शाम",
+        "gloss": {
+          "id": "sore",
+          "en": "evening"
+        }
+      },
+      {
+        "id": "hi-k-time-raat",
+        "native": "रात",
+        "gloss": {
+          "id": "malam",
+          "en": "night"
+        }
+      }
+    ],
+    "weather": [
+      {
+        "id": "hi-k-weather-rain",
+        "native": "बारिश हो रही है।",
+        "gloss": {
+          "id": "Hari sedang hujan.",
+          "en": "It is raining."
+        },
+        "tags": [
+          "rain"
+        ]
+      },
+      {
+        "id": "hi-k-weather-sun",
+        "native": "धूप है।",
+        "gloss": {
+          "id": "Matahari sedang terik.",
+          "en": "The sun is out."
+        },
+        "tags": [
+          "warm"
+        ]
+      },
+      {
+        "id": "hi-k-weather-cold",
+        "native": "ठंड है।",
+        "gloss": {
+          "id": "Udara dingin.",
+          "en": "It is cold."
+        },
+        "tags": [
+          "cold"
+        ]
+      },
+      {
+        "id": "hi-k-weather-wind",
+        "native": "हवा चल रही है।",
+        "gloss": {
+          "id": "Angin bertiup.",
+          "en": "The wind is blowing."
+        },
+        "tags": [
+          "cold"
+        ]
+      }
+    ],
+    "action": [
+      {
+        "id": "hi-k-action-kaam",
+        "native": "काम किया",
+        "gloss": {
+          "id": "bekerja",
+          "en": "worked"
+        }
+      },
+      {
+        "id": "hi-k-action-safai",
+        "native": "सफ़ाई की",
+        "gloss": {
+          "id": "membersihkan",
+          "en": "cleaned up"
+        }
+      },
+      {
+        "id": "hi-k-action-paani",
+        "native": "पानी भरा",
+        "gloss": {
+          "id": "mengisi air",
+          "en": "filled the water"
+        }
+      },
+      {
+        "id": "hi-k-action-chulha",
+        "native": "चूल्हा जलाया",
+        "gloss": {
+          "id": "menyalakan tungku",
+          "en": "lit the stove"
+        }
+      },
+      {
+        "id": "hi-k-action-baat",
+        "native": "बात की",
+        "gloss": {
+          "id": "berbicara",
+          "en": "talked"
+        }
+      }
+    ],
+    "quote": [
+      {
+        "id": "hi-k-quote-aajao",
+        "native": "आ जाओ, चाय ठंडी हो रही है",
+        "gloss": {
+          "id": "Ayo masuk, tehnya jadi dingin.",
+          "en": "Come in, the tea is getting cold."
+        }
+      },
+      {
+        "id": "hi-k-quote-baitho",
+        "native": "यहाँ बैठो",
+        "gloss": {
+          "id": "Duduk di sini.",
+          "en": "Sit here."
+        }
+      },
+      {
+        "id": "hi-k-quote-dheere",
+        "native": "धीरे बोलो",
+        "gloss": {
+          "id": "Bicara pelan-pelan.",
+          "en": "Speak softly."
+        }
+      },
+      {
+        "id": "hi-k-quote-phir",
+        "native": "फिर मिलेंगे",
+        "gloss": {
+          "id": "Sampai jumpa lagi.",
+          "en": "See you again."
+        }
+      }
+    ],
+    "question": [
+      {
+        "id": "hi-k-question-kya",
+        "native": "यह क्या है?",
+        "gloss": {
+          "id": "Apa ini?",
+          "en": "What is this?"
+        }
+      },
+      {
+        "id": "hi-k-question-kaun",
+        "native": "कौन आया?",
+        "gloss": {
+          "id": "Siapa yang datang?",
+          "en": "Who came?"
+        }
+      },
+      {
+        "id": "hi-k-question-kahan",
+        "native": "कहाँ जाना है?",
+        "gloss": {
+          "id": "Ke mana harus pergi?",
+          "en": "Where do we go?"
+        }
+      },
+      {
+        "id": "hi-k-question-kab",
+        "native": "कब तक इंतज़ार करें?",
+        "gloss": {
+          "id": "Sampai kapan menunggu?",
+          "en": "How long should we wait?"
+        }
+      }
+    ],
+    "greeting": [
+      {
+        "id": "hi-k-greeting-namaste",
+        "native": "नमस्ते",
+        "gloss": {
+          "id": "Namaste",
+          "en": "Namaste"
+        }
+      },
+      {
+        "id": "hi-k-greeting-namaskar",
+        "native": "नमस्कार",
+        "gloss": {
+          "id": "Namaskar",
+          "en": "Namaskar"
+        }
+      },
+      {
+        "id": "hi-k-greeting-suprabhat",
+        "native": "सुप्रभात",
+        "gloss": {
+          "id": "Selamat pagi",
+          "en": "Good morning"
+        }
+      },
+      {
+        "id": "hi-k-greeting-sandhya",
+        "native": "शुभ संध्या",
+        "gloss": {
+          "id": "Selamat malam",
+          "en": "Good evening"
+        }
+      }
+    ],
+    "emotion": [
+      {
+        "id": "hi-k-emotion-khushi",
+        "native": "खुशी",
+        "gloss": {
+          "id": "kebahagiaan",
+          "en": "happiness"
+        }
+      },
+      {
+        "id": "hi-k-emotion-udaasi",
+        "native": "उदासी",
+        "gloss": {
+          "id": "kesedihan",
+          "en": "sadness"
+        }
+      },
+      {
+        "id": "hi-k-emotion-ghabrahat",
+        "native": "घबराहट",
+        "gloss": {
+          "id": "kepanikan",
+          "en": "nervousness"
+        }
+      },
+      {
+        "id": "hi-k-emotion-shaanti",
+        "native": "शांति",
+        "gloss": {
+          "id": "ketenangan",
+          "en": "calm"
+        }
+      },
+      {
+        "id": "hi-k-emotion-bechaini",
+        "native": "बेचैनी",
+        "gloss": {
+          "id": "kegelisahan",
+          "en": "restlessness"
+        }
+      }
+    ]
+  },
+  "frames": [
+    {
+      "id": "f-l1-context-1",
+      "segments": [
+        {
+          "slot": "time"
+        },
+        {
+          "text": " को "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " तक पहुँचता है। "
+        },
+        {
+          "slot": "weather"
+        }
+      ]
+    },
+    {
+      "id": "f-l1-context-2",
+      "segments": [
+        {
+          "slot": "place"
+        },
+        {
+          "text": " अभी भी ख़ामोश है। "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " के पास "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " का इंतज़ार कर रहा है।"
+        }
+      ]
+    },
+    {
+      "id": "f-l1-greeting-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " ने \""
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "\" सुना।"
+        }
+      ]
+    },
+    {
+      "id": "f-l1-greeting-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " की आँखों में हँसी आई। \""
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "\" — "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " ने कहा।"
+        }
+      ]
+    },
+    {
+      "id": "f-l1-task-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " ने "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " में "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": "।"
+        }
+      ]
+    },
+    {
+      "id": "f-l1-task-2",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " ने "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": ", फिर "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " को देखा।"
+        }
+      ]
+    },
+    {
+      "id": "f-l1-request-1",
+      "segments": [
+        {
+          "text": "\""
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "\" — "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " ने कहा।"
+        }
+      ]
+    },
+    {
+      "id": "f-l1-request-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " ने "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " के लिए हाथ बढ़ाया, जैसे कोई छोटी-सी माँग हो।"
+        }
+      ]
+    },
+    {
+      "id": "f-l1-complication-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " कुछ समझ नहीं पाया, इसलिए उसने पूछा, \""
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "\" — और फिर चुप हो गया।"
+        }
+      ]
+    },
+    {
+      "id": "f-l1-complication-2",
+      "segments": [
+        {
+          "slot": "object"
+        },
+        {
+          "text": " अपनी जगह पर नहीं है। "
+        },
+        {
+          "slot": "weather"
+        }
+      ]
+    },
+    {
+      "id": "f-l1-clue-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " ने मेज़ के नीचे "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " को देखा।"
+        }
+      ]
+    },
+    {
+      "id": "f-l1-clue-2",
+      "segments": [
+        {
+          "slot": "object"
+        },
+        {
+          "text": " पर एक नाम लिखा है। "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " ने उसे पढ़ा।"
+        }
+      ]
+    },
+    {
+      "id": "f-l1-turn-1",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " की हँसी फूट पड़ी। \""
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "\" — और बात हल्की हो गई।"
+        }
+      ]
+    },
+    {
+      "id": "f-l1-turn-2",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " को "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": " महसूस हुई।"
+        }
+      ]
+    },
+    {
+      "id": "f-l1-cliffhanger-1",
+      "segments": [
+        {
+          "text": "तभी फ़ोन बजा। "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " के हाथ में "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " है।"
+        }
+      ]
+    },
+    {
+      "id": "f-l1-cliffhanger-2",
+      "segments": [
+        {
+          "text": "\""
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "\" — "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " ने धीरे से कहा, और कमरे में सन्नाटा छा गया।"
+        }
+      ]
+    },
+    {
+      "id": "f-l2-context-1",
+      "segments": [
+        {
+          "text": "जब "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " पहुँचा, तो "
+        },
+        {
+          "slot": "time"
+        },
+        {
+          "text": " पहले से चहल-पहल से भरी थी। "
+        },
+        {
+          "slot": "weather"
+        }
+      ]
+    },
+    {
+      "id": "f-l2-context-2",
+      "segments": [
+        {
+          "slot": "place"
+        },
+        {
+          "text": " में बहुत सन्नाटा था, इसलिए "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " को हाथ में लेकर "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " का इंतज़ार करता रहा।"
+        }
+      ]
+    },
+    {
+      "id": "f-l2-greeting-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " दरवाज़ा खोल ही रहा था कि \""
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "\" सुनाई दिया।"
+        }
+      ]
+    },
+    {
+      "id": "f-l2-greeting-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " ने सिर हिलाया और कहा, \""
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "\" — और बातचीत वहीं से शुरू हुई।"
+        }
+      ]
+    },
+    {
+      "id": "f-l2-task-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " ने "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": ", इसलिए "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " को "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " की ओर जल्दी भेजा गया।"
+        }
+      ]
+    },
+    {
+      "id": "f-l2-task-2",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " ने "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": ", लेकिन "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " अब भी मेज़ पर रखा है।"
+        }
+      ]
+    },
+    {
+      "id": "f-l2-request-1",
+      "segments": [
+        {
+          "text": "\""
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "\" — "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " ने धीमी आवाज़ में कहा।"
+        }
+      ]
+    },
+    {
+      "id": "f-l2-request-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " ने "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " से "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " के बारे में पूछा।"
+        }
+      ]
+    },
+    {
+      "id": "f-l2-complication-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " समझ नहीं पाया, इसलिए उसने पूछा, \""
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "\" — और जवाब का इंतज़ार करने लगा।"
+        }
+      ]
+    },
+    {
+      "id": "f-l2-complication-2",
+      "segments": [
+        {
+          "slot": "object"
+        },
+        {
+          "text": " को किसी ने हटा दिया है, और "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " नहीं जानता कि किसने किया।"
+        }
+      ]
+    },
+    {
+      "id": "f-l2-clue-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " ने पुराने कपड़े के नीचे, दराज़ में "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " को ढूँढ़ निकाला।"
+        }
+      ]
+    },
+    {
+      "id": "f-l2-clue-2",
+      "segments": [
+        {
+          "slot": "object"
+        },
+        {
+          "text": " पर एक छोटी पर्ची चिपकी थी: \""
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "\" — स्याही अब भी गीली लग रही थी।"
+        }
+      ]
+    },
+    {
+      "id": "f-l2-turn-1",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " ने "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " की ओर देखा। \""
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "\" — फिर कुछ देर चुप्पी रही।"
+        }
+      ]
+    },
+    {
+      "id": "f-l2-turn-2",
+      "segments": [
+        {
+          "text": "पहली बार "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " को "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": " महसूस हुई।"
+        }
+      ]
+    },
+    {
+      "id": "f-l2-cliffhanger-1",
+      "segments": [
+        {
+          "text": "तभी दरवाज़े पर "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " की परछाई दिखी, हाथ में "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "।"
+        }
+      ]
+    },
+    {
+      "id": "f-l2-cliffhanger-2",
+      "segments": [
+        {
+          "text": "फ़ोन फिर बजा। \""
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "\" — फ़ोन से किसी की आवाज़ आई।"
+        }
+      ]
+    },
+    {
+      "id": "f-l3-context-1",
+      "segments": [
+        {
+          "text": "जब "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " "
+        },
+        {
+          "slot": "time"
+        },
+        {
+          "text": " को "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " पहुँचा, तो सब कुछ उसकी याद से अलग लगा। "
+        },
+        {
+          "slot": "weather"
+        }
+      ]
+    },
+    {
+      "id": "f-l3-context-2",
+      "segments": [
+        {
+          "text": "जहाँ कभी चहल-पहल रहती थी, वह "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " अब ख़ामोश है; बस "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " अब भी अपनी जगह पर है।"
+        }
+      ]
+    },
+    {
+      "id": "f-l3-greeting-1",
+      "segments": [
+        {
+          "text": "\""
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "\" — आवाज़ "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " के पीछे से आई; उसे पता नहीं था कि "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " ने सुना या नहीं।"
+        }
+      ]
+    },
+    {
+      "id": "f-l3-greeting-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " ने रोज़ की तरह \""
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "\" कहकर "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " का अभिवादन किया।"
+        }
+      ]
+    },
+    {
+      "id": "f-l3-task-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " ने "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": ", और देखा कि "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " में बहुत कुछ है जो उसने पहले कभी नहीं देखा।"
+        }
+      ]
+    },
+    {
+      "id": "f-l3-task-2",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " ने "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": ", क्योंकि "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " के आने से पहले तैयार होना था।"
+        }
+      ]
+    },
+    {
+      "id": "f-l3-request-1",
+      "segments": [
+        {
+          "text": "\""
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "\" — "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " ने ऐसे कहा जैसे यह दुनिया की सबसे आम बात हो।"
+        }
+      ]
+    },
+    {
+      "id": "f-l3-request-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " ने पूछा कि "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " के बारे में जानता है या नहीं। \""
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "\" — और सवाल हवा में लटक गया।"
+        }
+      ]
+    },
+    {
+      "id": "f-l3-complication-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " कोई जवाब नहीं दे पाया। उसे लगा जैसे "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " बिना दरवाज़े की चाबी है। \""
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "\" — और बात वहीं अटक गई।"
+        }
+      ]
+    },
+    {
+      "id": "f-l3-complication-2",
+      "segments": [
+        {
+          "text": "किसी ने "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " को हटा दिया था, और "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " को शक होने लगा कि यह महज़ इत्तेफ़ाक़ नहीं है।"
+        }
+      ]
+    },
+    {
+      "id": "f-l3-clue-1",
+      "segments": [
+        {
+          "slot": "object"
+        },
+        {
+          "text": " के पीछे "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " को एक पुरानी पर्ची मिली: \""
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "\" — लिखावट धुँधली हो चली थी।"
+        }
+      ]
+    },
+    {
+      "id": "f-l3-clue-2",
+      "segments": [
+        {
+          "text": "यह "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " से है, "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " के पैदा होने से बहुत पहले की चीज़।"
+        }
+      ]
+    },
+    {
+      "id": "f-l3-turn-1",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " के चेहरे पर वही बात थी: \""
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "\" — और "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " को "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": " महसूस हुई।"
+        }
+      ]
+    },
+    {
+      "id": "f-l3-turn-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " ने "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " को "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " के हाथ में दिया, और पल भर के लिए "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " को "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": " महसूस हुई।"
+        }
+      ]
+    },
+    {
+      "id": "f-l3-cliffhanger-1",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " ने "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " की ओर इशारा किया। \""
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "\" — और बात वहीं रुक गई।"
+        }
+      ]
+    },
+    {
+      "id": "f-l3-cliffhanger-2",
+      "segments": [
+        {
+          "text": "उस रात "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " में कोई नहीं था; बस मेज़ पर "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "।"
+        }
+      ]
+    },
+    {
+      "id": "f-l4-context-1",
+      "segments": [
+        {
+          "slot": "time"
+        },
+        {
+          "text": " की ओर बढ़ते हुए "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " पहुँचा, जहाँ वह बरसों से नहीं आया था। "
+        },
+        {
+          "slot": "weather"
+        }
+      ]
+    },
+    {
+      "id": "f-l4-context-2",
+      "segments": [
+        {
+          "slot": "place"
+        },
+        {
+          "text": " में "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " बरसों से एक ही जगह पर है।"
+        }
+      ]
+    },
+    {
+      "id": "f-l4-greeting-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " ने \""
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "\" सुना और शालीनता से सिर हिलाया, हालाँकि रिश्ता कभी करीबी नहीं रहा।"
+        }
+      ]
+    },
+    {
+      "id": "f-l4-greeting-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " ने \""
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "\" कहकर जवाब दिया और "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " को अंदर आने का इशारा किया।"
+        }
+      ]
+    },
+    {
+      "id": "f-l4-task-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " ने "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": ", और उसे लगा कि "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " में अब पहले वाली बात नहीं रही।"
+        }
+      ]
+    },
+    {
+      "id": "f-l4-task-2",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " ने "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": ", और "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " को बताया कि "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " क्यों ज़रूरी है।"
+        }
+      ]
+    },
+    {
+      "id": "f-l4-request-1",
+      "segments": [
+        {
+          "text": "\""
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "\" — "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " ने कहा और "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " को "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " की ओर सरका दिया।"
+        }
+      ]
+    },
+    {
+      "id": "f-l4-request-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " ने "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " को "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " फिर से देखने को कहा। \""
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "\" — और कमरा ख़ामोश रहा।"
+        }
+      ]
+    },
+    {
+      "id": "f-l4-complication-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " को लगा कि "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " का यहाँ होना बिना वजह नहीं है। \""
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "\" — सवाल वहीं ठहर गया।"
+        }
+      ]
+    },
+    {
+      "id": "f-l4-complication-2",
+      "segments": [
+        {
+          "text": "किसी ने "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " को "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " से हटा दिया, और "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " को बताया ही नहीं गया।"
+        }
+      ]
+    },
+    {
+      "id": "f-l4-clue-1",
+      "segments": [
+        {
+          "slot": "object"
+        },
+        {
+          "text": " के अंदर "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " को हाथ से लिखा एक खत मिला: \""
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "\" — काग़ज़ पुराना था, स्याही नई।"
+        }
+      ]
+    },
+    {
+      "id": "f-l4-clue-2",
+      "segments": [
+        {
+          "slot": "object"
+        },
+        {
+          "text": " को "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " में किसी ने रखा था, जो अपना नाम नहीं बताना चाहता था।"
+        }
+      ]
+    },
+    {
+      "id": "f-l4-turn-1",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " ने कुछ कहना चाहा। \""
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "\" — और "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " अपनी "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": " छिपा नहीं पाया।"
+        }
+      ]
+    },
+    {
+      "id": "f-l4-turn-2",
+      "segments": [
+        {
+          "text": "जब "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " ने "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " को "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " के हाथ में दिया, तब "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " को एहसास हुआ कि वह "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": " उसने बहुत समय से संजोई थी।"
+        }
+      ]
+    },
+    {
+      "id": "f-l4-cliffhanger-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " के पूछने से पहले ही "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " ने कहा, \""
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "\" — और फिर बात रुक गई।"
+        }
+      ]
+    },
+    {
+      "id": "f-l4-cliffhanger-2",
+      "segments": [
+        {
+          "slot": "place"
+        },
+        {
+          "text": " का दरवाज़ा खुला था, और जो "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " बंद होना चाहिए था — वह वहाँ से ग़ायब।"
+        }
+      ]
+    },
+    {
+      "id": "f-l5-context-1",
+      "segments": [
+        {
+          "slot": "time"
+        },
+        {
+          "text": " को "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " में जैसे कोई अधूरी याद ठहर गई हो। "
+        },
+        {
+          "slot": "weather"
+        }
+      ]
+    },
+    {
+      "id": "f-l5-context-2",
+      "segments": [
+        {
+          "text": "बरसों बाद भी "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " को "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " के साथ बिताया वह पल याद है, जो "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " में था।"
+        }
+      ]
+    },
+    {
+      "id": "f-l5-greeting-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " को \""
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "\" सुनाई दिया; वह अभिवादन एक टाले हुए माफ़ीनामे जैसा लगा।"
+        }
+      ]
+    },
+    {
+      "id": "f-l5-greeting-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " ने \""
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "\" कहकर जवाब दिया, और दोनों जानते थे कि कुछ बात अब भी अनकही है।"
+        }
+      ]
+    },
+    {
+      "id": "f-l5-task-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " ने "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": ", और "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " में जैसे सब कुछ थम गया।"
+        }
+      ]
+    },
+    {
+      "id": "f-l5-task-2",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " ने बड़े ध्यान से "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": ", जैसे "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " के आस-पास की हर चीज़ नाज़ुक हो।"
+        }
+      ]
+    },
+    {
+      "id": "f-l5-request-1",
+      "segments": [
+        {
+          "text": "\""
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "\" — "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " ने कहा, और उसका हाथ "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " को पकड़े हुए भारी हो गया।"
+        }
+      ]
+    },
+    {
+      "id": "f-l5-request-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " ने जवाब नहीं माँगा; बस "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " की ओर देखकर कहा, \""
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "\" — और उसके बाद खामोशी छा गई।"
+        }
+      ]
+    },
+    {
+      "id": "f-l5-complication-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " को आख़िरकार समझ आया कि "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " कोई राज़ नहीं, बल्कि किसी का याद किए जाने का तरीका है। \""
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "\" — और यही सबसे ज़रूरी बात थी।"
+        }
+      ]
+    },
+    {
+      "id": "f-l5-complication-2",
+      "segments": [
+        {
+          "text": "सबसे ज़्यादा दुख "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " के जाने का नहीं, बल्कि यह जानने में है कि "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " में बरसों से "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " का इंतज़ार बाकी था।"
+        }
+      ]
+    },
+    {
+      "id": "f-l5-clue-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " ने "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " को खोला और उसमें ध्यान से लिखा एक वाक्य पाया: \""
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "\" — बाकी सब मिट चुका था।"
+        }
+      ]
+    },
+    {
+      "id": "f-l5-clue-2",
+      "segments": [
+        {
+          "slot": "object"
+        },
+        {
+          "text": " में "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " का नाम है, और वह नाम एक ऐसा दरवाज़ा खोलता है जो अब तक बंद था।"
+        }
+      ]
+    },
+    {
+      "id": "f-l5-turn-1",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " ने आख़िर में वही कहा जो सब जानते थे: \""
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "\" — और "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " को वह "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": " महसूस हुई जो अब छिपाई नहीं जा सकती।"
+        }
+      ]
+    },
+    {
+      "id": "f-l5-turn-2",
+      "segments": [
+        {
+          "text": "जब "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " को एक हाथ से दूसरे हाथ में दिया गया, तब "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " जान गया कि वह "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": " किसी भी चीज़ से ज़्यादा देर तक साथ रहेगी।"
+        }
+      ]
+    },
+    {
+      "id": "f-l5-cliffhanger-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " ने "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " को देखा, फिर "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " की ओर देखा। \""
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "\" — और बाहर बारिश शुरू हो चुकी थी।"
+        }
+      ]
+    },
+    {
+      "id": "f-l5-cliffhanger-2",
+      "segments": [
+        {
+          "text": "दरवाज़े की दहलीज़ पर "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " ने फुसफुसाकर कहा, \""
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "\" — और "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " का हाथ "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " की ओर से ढीला पड़ गया।"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "hi-g1",
+      "level": 1,
+      "pattern": "वर्तमान सामान्य काल: -ता है / -ती है",
+      "meaning": {
+        "id": "kebiasaan dan fakta",
+        "en": "habits and facts"
+      },
+      "example": "आरव रोज़ सुबह दुकान खोलता है।",
+      "note": "क्रिया कर्ता के लिंग और वचन के अनुसार बदलती है।"
+    },
+    {
+      "id": "hi-g2",
+      "level": 1,
+      "pattern": "सरल भूतकाल: -या / -ई / -ए",
+      "meaning": {
+        "id": "kejadian yang selesai",
+        "en": "completed events"
+      },
+      "example": "कल रात बारिश हुई।"
+    },
+    {
+      "id": "hi-g3",
+      "level": 2,
+      "pattern": "कारण और परिणाम: क्योंकि ... इसलिए",
+      "meaning": {
+        "id": "sebab dan akibat",
+        "en": "cause and result"
+      },
+      "example": "दुकान खुली थी, इसलिए लोग बैठ गए।"
+    },
+    {
+      "id": "hi-g4",
+      "level": 2,
+      "pattern": "अपूर्ण भूतकाल: -रहा था / -रही थी",
+      "meaning": {
+        "id": "aksi yang sedang berlangsung di masa lalu",
+        "en": "an ongoing past action"
+      },
+      "example": "जब वह आया, बारिश हो रही थी।"
+    },
+    {
+      "id": "hi-g5",
+      "level": 3,
+      "pattern": "संबंधवाचक: जो ... वह",
+      "meaning": {
+        "id": "menjelaskan orang atau benda",
+        "en": "identifying people and things"
+      },
+      "example": "जो खत डिब्बे में था, वह पुराना था।"
+    },
+    {
+      "id": "hi-g6",
+      "level": 3,
+      "pattern": "पूर्ण भूतकाल: ने + क्रिया",
+      "meaning": {
+        "id": "tindakan selesai dengan fokus pada hasil",
+        "en": "a completed action with focus on the result"
+      },
+      "example": "नानी ने डिब्बा अलमारी में रखा था।"
+    },
+    {
+      "id": "hi-g7",
+      "level": 4,
+      "pattern": "कर्मवाच्य: दिया गया / रखा गया",
+      "meaning": {
+        "id": "fokus pada tindakan, bukan pelaku",
+        "en": "focus on the action rather than the doer"
+      },
+      "example": "खत नौ साल पहले लिखा गया था।"
+    },
+    {
+      "id": "hi-g8",
+      "level": 4,
+      "pattern": "अपेक्षा और अनुमान: होना चाहिए था",
+      "meaning": {
+        "id": "harapan, dugaan, dan kewajiban",
+        "en": "expectation, inference, and obligation"
+      },
+      "example": "डिब्बा बंद होना चाहिए था।"
+    },
+    {
+      "id": "hi-g9",
+      "level": 5,
+      "pattern": "उपमा और संभावना: जैसे ... हो",
+      "meaning": {
+        "id": "perbandingan dan pengandaian",
+        "en": "comparison and hypothesis"
+      },
+      "example": "लगा जैसे बारिश कुछ कह रही हो।"
+    },
+    {
+      "id": "hi-g10",
+      "level": 5,
+      "pattern": "विरोध और स्वीकृति: हालाँकि ... फिर भी",
+      "meaning": {
+        "id": "kontras dan pengakuan",
+        "en": "contrast and concession"
+      },
+      "example": "हालाँकि बारिश तेज़ थी, फिर भी दुकान खुली रही।"
+    }
+  ],
+  "questionPhrases": {
+    "meaning": "\"{term}\" का अर्थ क्या है?",
+    "who": "इस दृश्य में किसका ज़िक्र है?",
+    "where": "यह दृश्य कहाँ होता है?",
+    "when": "यह दृश्य कब होता है?",
+    "why": "ऐसा क्यों होता है?",
+    "detail": "इस दृश्य में कौन-सी बात सही है?",
+    "next": "आगे क्या हो सकता है?",
+    "culture": "इस दृश्य में कौन-सी सांस्कृतिक बात दिखती है?",
+    "grammar": "सही रूप चुनिए।"
+  }
+}

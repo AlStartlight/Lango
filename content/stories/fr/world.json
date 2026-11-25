@@ -1,0 +1,1224 @@
+{
+  "id": "fr-lettres-de-lyon",
+  "languageCode": "fr",
+  "slug": "lettres-de-lyon",
+  "title": "Lettres de Lyon",
+  "nativeTitle": "Lettres de Lyon",
+  "logline": "Camille, 24 ans, hérite de la librairie de sa tante à Lyon et reçoit une lettre sans timbre adressée à la boutique: elle y découvre non pas un secret criminel, mais les choix que sa tante a faits pour rester.",
+  "setting": "Lyon, Presqu'île et pentes de la Croix-Rousse: la librairie des Deux-Rives, le bouchon voisin, le marché du quai Saint-Antoine, les traboules, le cinéma et les quais de Saône. De l'automne à l'hiver suivant.",
+  "era": "De nos jours; de la Toussaint à la Fête des Lumières et au-delà.",
+  "tone": "Tranche de vie lyonnaise: deuil discret, humour sec, conversations qui prennent leur temps et un mystère de famille qui ne crie jamais.",
+  "palette": "#B5533F",
+  "motifs": [
+    "les lumignons",
+    "la lettre sans timbre",
+    "les clefs de la cour",
+    "les pralines roses",
+    "le carnet de comptes",
+    "la vitrine de la librairie",
+    "les quais de Saône",
+    "le pot lyonnais"
+  ],
+  "sensitivityNotes": [
+    "La mort de la tante Sylvie est évoquée avec pudeur; aucun détail médical, aucune scène de deuil spectaculaire.",
+    "La lettre porte sur les choix de Sylvie, pas sur un crime: il n'y a ni coupable ni enquête policière.",
+    "Camille n'est pas une touriste: elle a grandi à Lyon, et le quartier n'est pas un décor pour son histoire.",
+    "Bibi, le Chef et Yanis ont leur propre travail et leurs propres soucis; ils ne servent pas de guides à Camille.",
+    "On évite les clichés parisiens et les images de carte postale: Lyon est une ville qui travaille, qui se lève tôt et qui ferme ses boutiques."
+  ],
+  "canon": {
+    "fictionalPlaces": [
+      "la librairie des Deux-Rives",
+      "l'appartement de Camille au-dessus de la librairie",
+      "la réserve de la librairie"
+    ],
+    "realAnchors": [
+      "Lyon",
+      "la Presqu'île",
+      "la Croix-Rousse",
+      "le Vieux Lyon",
+      "le quai Saint-Antoine",
+      "la Saône",
+      "le Rhône",
+      "l'Institut Lumière",
+      "Fourvière"
+    ],
+    "timeline": "T1 : automne (octobre-novembre). T2 : hiver (décembre-janvier). T3 : fin janvier (Fête des Lumières et cinéma). T4 : février-mars (traboules et Croix-Rousse). T5 : mars-avril (décision et quais de Saône).",
+    "rules": [
+      "Camille a 24 ans; elle a quitté Lyon à dix-huit ans pour étudier à Grenoble et a travaillé trois ans dans une librairie de quartier là-bas.",
+      "Sylvie, la tante de Camille, est morte en septembre; elle a tenu la librairie des Deux-Rives pendant trente-deux ans.",
+      "Bibi, 60 ans, a tenu une librairie de livres anciens dans le Vieux Lyon; elle connaît la boutique depuis trente ans.",
+      "Le Chef, 35 ans, tient le bouchon voisin; son prénom n'apparaît pas dans l'histoire, tout le quartier l'appelle « le Chef ».",
+      "Yanis, 25 ans, est facteur dans la Presqu'île et ami d'enfance de Camille.",
+      "La lettre qui arrive à la librairie n'a ni timbre ni signature; elle est adressée à la boutique, pas à une personne.",
+      "La lettre ne révèle aucun crime: elle raconte que Sylvie a refusé de partir de Lyon et de vendre la librairie, et pourquoi.",
+      "La Fête des Lumières se déroule autour du 8 décembre; les lumignons sur les rebords de fenêtres sont une habitude des habitants, pas un décor installé par la ville."
+    ]
+  },
+  "levels": [
+    {
+      "tier": "T1",
+      "framework": "CEFR",
+      "levelCode": "A1",
+      "label": "CEFR A1",
+      "idPart": "a1",
+      "position": 1
+    },
+    {
+      "tier": "T2",
+      "framework": "CEFR",
+      "levelCode": "A2",
+      "label": "CEFR A2",
+      "idPart": "a2",
+      "position": 2
+    },
+    {
+      "tier": "T3",
+      "framework": "CEFR",
+      "levelCode": "B1",
+      "label": "CEFR B1",
+      "idPart": "b1",
+      "position": 3
+    },
+    {
+      "tier": "T4",
+      "framework": "CEFR",
+      "levelCode": "B2",
+      "label": "CEFR B2",
+      "idPart": "b2",
+      "position": 4
+    },
+    {
+      "tier": "T5",
+      "framework": "CEFR",
+      "levelCode": "C1",
+      "label": "CEFR C1",
+      "idPart": "c1",
+      "position": 5
+    }
+  ],
+  "characters": [
+    {
+      "id": "fr-lettres-de-lyon-camille",
+      "name": "Camille",
+      "nativeName": "Camille",
+      "role": "Protagoniste, 24 ans, hérite de la librairie de sa tante",
+      "age": 24,
+      "bio": "Camille a quitté Lyon à dix-huit ans pour étudier à Grenoble, puis a travaillé trois ans dans une librairie de quartier. Elle revient pour régler la succession de sa tante Sylvie et veut vendre la boutique avant la fin de l'hiver. Elle lit vite, décide lentement et n'aime pas qu'on lui raconte les histoires à moitié.",
+      "speechStyle": "Directe, un peu sèche quand elle a peur; pose deux fois la même question avant de croire une réponse.",
+      "quote": "Je ne reste pas. Je vends et je repars.",
+      "position": 1,
+      "lexeme": {
+        "id": "fr-char-camille",
+        "native": "Camille",
+        "gloss": {
+          "id": "Camille",
+          "en": "Camille"
+        },
+        "tags": [
+          "protagonist"
+        ]
+      }
+    },
+    {
+      "id": "fr-lettres-de-lyon-bibi",
+      "name": "Bibi",
+      "nativeName": "Bibi",
+      "role": "Amie de la tante, 60 ans, ancienne libraire",
+      "age": 60,
+      "bio": "Bibi a tenu une librairie de livres anciens dans le Vieux Lyon avant de prendre sa retraite. Elle connaît la boutique de Sylvie depuis trente ans, les clients par leur prénom et les lettres qui n'ont jamais été postées. Elle aide Camille à ranger la réserve, mais elle ne dit pas tout de suite ce qu'elle sait.",
+      "speechStyle": "Lente, précise, avec un humour qui arrive après coup.",
+      "quote": "Ta tante n'a jamais rien fait par hasard.",
+      "position": 2,
+      "lexeme": {
+        "id": "fr-char-bibi",
+        "native": "Bibi",
+        "gloss": {
+          "id": "Bibi",
+          "en": "Bibi"
+        },
+        "tags": [
+          "mentor"
+        ]
+      }
+    },
+    {
+      "id": "fr-lettres-de-lyon-chef",
+      "name": "Chef",
+      "nativeName": "le Chef",
+      "role": "Cuisinier du bouchon voisin, 35 ans",
+      "age": 35,
+      "bio": "Tout le quartier l'appelle « le Chef »; son prénom, il ne le donne qu'aux fourneaux. Il a repris le bouchon de son père à vingt-huit ans et sert une carte courte qui change avec le marché. Il garde une table près de la fenêtre pour la librairie depuis des années, sans jamais expliquer pourquoi.",
+      "speechStyle": "Voix haute, phrases courtes, générosité qui ne se dit pas.",
+      "quote": "Une table, ça se garde. Comme une promesse.",
+      "position": 3,
+      "lexeme": {
+        "id": "fr-char-chef",
+        "native": "le Chef",
+        "gloss": {
+          "id": "Chef",
+          "en": "the Chef"
+        },
+        "tags": [
+          "neighbor"
+        ]
+      }
+    },
+    {
+      "id": "fr-lettres-de-lyon-yanis",
+      "name": "Yanis",
+      "nativeName": "Yanis",
+      "role": "Ami d'enfance, 25 ans, facteur",
+      "age": 25,
+      "bio": "Yanis fait sa tournée à vélo dans la Presqu'île. Il a grandi dans la même cour que Camille et connaît les boîtes aux lettres du quartier mieux que personne. C'est lui qui remarque que la lettre de la librairie n'a ni timbre ni expéditeur, et il refuse de la laisser disparaître dans un tri.",
+      "speechStyle": "Rapide, moqueur, tendre sans le montrer.",
+      "quote": "Les lettres n'arrivent pas par hasard. Elles sont portées.",
+      "position": 4,
+      "lexeme": {
+        "id": "fr-char-yanis",
+        "native": "Yanis",
+        "gloss": {
+          "id": "Yanis",
+          "en": "Yanis"
+        },
+        "tags": [
+          "friend"
+        ]
+      }
+    }
+  ],
+  "lexicon": {
+    "person": [
+      {
+        "id": "fr-person-voisine",
+        "native": "la voisine du deuxième étage",
+        "gloss": {
+          "id": "tetangga lantai dua",
+          "en": "the neighbour on the second floor"
+        }
+      },
+      {
+        "id": "fr-person-client",
+        "native": "le client du mardi",
+        "gloss": {
+          "id": "pelanggan hari Selasa",
+          "en": "the Tuesday customer"
+        }
+      },
+      {
+        "id": "fr-person-libraire",
+        "native": "la libraire de la rue Mercière",
+        "gloss": {
+          "id": "pemilik toko buku di rue Mercière",
+          "en": "the bookseller on rue Mercière"
+        }
+      },
+      {
+        "id": "fr-person-etudiant",
+        "native": "l'étudiant en lettres",
+        "gloss": {
+          "id": "mahasiswa sastra",
+          "en": "the literature student"
+        }
+      },
+      {
+        "id": "fr-person-fleuriste",
+        "native": "la fleuriste des halles",
+        "gloss": {
+          "id": "penjual bunga di halles",
+          "en": "the florist at the halls"
+        }
+      }
+    ],
+    "place": [
+      {
+        "id": "fr-place-librairie",
+        "native": "la librairie",
+        "gloss": {
+          "id": "toko buku",
+          "en": "the bookshop"
+        },
+        "tags": [
+          "home"
+        ]
+      },
+      {
+        "id": "fr-place-bouchon",
+        "native": "le bouchon",
+        "gloss": {
+          "id": "bouchon",
+          "en": "the bouchon"
+        },
+        "tags": [
+          "food"
+        ]
+      },
+      {
+        "id": "fr-place-marche",
+        "native": "le marché",
+        "gloss": {
+          "id": "pasar",
+          "en": "the market"
+        },
+        "tags": [
+          "market"
+        ]
+      },
+      {
+        "id": "fr-place-traboule",
+        "native": "la traboule",
+        "gloss": {
+          "id": "traboule",
+          "en": "the traboule"
+        },
+        "tags": [
+          "heritage"
+        ]
+      },
+      {
+        "id": "fr-place-cinema",
+        "native": "le cinéma",
+        "gloss": {
+          "id": "bioskop",
+          "en": "the cinema"
+        },
+        "tags": [
+          "cinema"
+        ]
+      },
+      {
+        "id": "fr-place-merciere",
+        "native": "la rue Mercière",
+        "gloss": {
+          "id": "rue Mercière",
+          "en": "rue Mercière"
+        }
+      },
+      {
+        "id": "fr-place-saint-jean",
+        "native": "le quartier Saint-Jean",
+        "gloss": {
+          "id": "kawasan Saint-Jean",
+          "en": "the Saint-Jean quarter"
+        }
+      },
+      {
+        "id": "fr-place-jardin",
+        "native": "le jardin des Curiosités",
+        "gloss": {
+          "id": "taman des Curiosités",
+          "en": "the Jardin des Curiosités"
+        }
+      },
+      {
+        "id": "fr-place-atelier",
+        "native": "l'atelier de la Croix-Rousse",
+        "gloss": {
+          "id": "atelier di Croix-Rousse",
+          "en": "the workshop on the Croix-Rousse"
+        }
+      },
+      {
+        "id": "fr-place-croix-rousse",
+        "native": "la Croix-Rousse",
+        "gloss": {
+          "id": "Croix-Rousse",
+          "en": "the Croix-Rousse"
+        }
+      }
+    ],
+    "object": [
+      {
+        "id": "fr-object-lettre",
+        "native": "la lettre",
+        "gloss": {
+          "id": "surat",
+          "en": "the letter"
+        },
+        "tags": [
+          "mystery",
+          "clue"
+        ]
+      },
+      {
+        "id": "fr-object-enveloppe",
+        "native": "l'enveloppe",
+        "gloss": {
+          "id": "amplop",
+          "en": "the envelope"
+        },
+        "tags": [
+          "clue"
+        ]
+      },
+      {
+        "id": "fr-object-carnet",
+        "native": "le carnet de comptes",
+        "gloss": {
+          "id": "buku catatan keuangan",
+          "en": "the accounts notebook"
+        },
+        "tags": [
+          "clue",
+          "account"
+        ]
+      },
+      {
+        "id": "fr-object-boite-fer",
+        "native": "la boîte en fer",
+        "gloss": {
+          "id": "kotak besi",
+          "en": "the tin box"
+        },
+        "tags": [
+          "mystery"
+        ]
+      },
+      {
+        "id": "fr-object-livre-ancien",
+        "native": "le livre ancien",
+        "gloss": {
+          "id": "buku lama",
+          "en": "the old book"
+        },
+        "tags": [
+          "books"
+        ]
+      },
+      {
+        "id": "fr-object-roman-dedicace",
+        "native": "le roman dédicacé",
+        "gloss": {
+          "id": "novel bertanda tangan",
+          "en": "the signed novel"
+        },
+        "tags": [
+          "books"
+        ]
+      },
+      {
+        "id": "fr-object-paquet",
+        "native": "le paquet de livres",
+        "gloss": {
+          "id": "paket buku",
+          "en": "the parcel of books"
+        },
+        "tags": [
+          "books"
+        ]
+      },
+      {
+        "id": "fr-object-classeur",
+        "native": "le classeur vert",
+        "gloss": {
+          "id": "map hijau",
+          "en": "the green file"
+        },
+        "tags": [
+          "clue"
+        ]
+      }
+    ],
+    "food": [
+      {
+        "id": "fr-food-quenelle",
+        "native": "la quenelle",
+        "gloss": {
+          "id": "quenelle",
+          "en": "the quenelle"
+        },
+        "tags": [
+          "anchor"
+        ]
+      },
+      {
+        "id": "fr-food-saucisson-brioche",
+        "native": "le saucisson brioché",
+        "gloss": {
+          "id": "saucisson brioché",
+          "en": "the brioche sausage"
+        },
+        "tags": [
+          "anchor"
+        ]
+      },
+      {
+        "id": "fr-food-salade-lyonnaise",
+        "native": "la salade lyonnaise",
+        "gloss": {
+          "id": "salad Lyon",
+          "en": "the Lyonnaise salad"
+        },
+        "tags": [
+          "anchor"
+        ]
+      },
+      {
+        "id": "fr-food-praline",
+        "native": "la tarte aux pralines",
+        "gloss": {
+          "id": "tarte aux pralines",
+          "en": "the pink praline tart"
+        },
+        "tags": [
+          "anchor"
+        ]
+      },
+      {
+        "id": "fr-food-cardons",
+        "native": "le gratin de cardons",
+        "gloss": {
+          "id": "gratin cardon",
+          "en": "the cardoon gratin"
+        }
+      }
+    ],
+    "drink": [
+      {
+        "id": "fr-drink-cafe",
+        "native": "le café",
+        "gloss": {
+          "id": "kopi",
+          "en": "the coffee"
+        }
+      },
+      {
+        "id": "fr-drink-the",
+        "native": "le thé",
+        "gloss": {
+          "id": "teh",
+          "en": "the tea"
+        }
+      },
+      {
+        "id": "fr-drink-vin",
+        "native": "le vin rouge",
+        "gloss": {
+          "id": "anggur merah",
+          "en": "the red wine"
+        }
+      },
+      {
+        "id": "fr-drink-pot",
+        "native": "le pot lyonnais",
+        "gloss": {
+          "id": "pot lyonnais",
+          "en": "the pot lyonnais"
+        }
+      },
+      {
+        "id": "fr-drink-limonade",
+        "native": "la limonade",
+        "gloss": {
+          "id": "limun",
+          "en": "the lemonade"
+        }
+      }
+    ],
+    "time": [
+      {
+        "id": "fr-time-matin",
+        "native": "le matin",
+        "gloss": {
+          "id": "pagi",
+          "en": "the morning"
+        }
+      },
+      {
+        "id": "fr-time-apres-midi",
+        "native": "l'après-midi",
+        "gloss": {
+          "id": "siang",
+          "en": "the afternoon"
+        }
+      },
+      {
+        "id": "fr-time-soir",
+        "native": "le soir",
+        "gloss": {
+          "id": "malam",
+          "en": "the evening"
+        }
+      },
+      {
+        "id": "fr-time-nuit",
+        "native": "la nuit",
+        "gloss": {
+          "id": "malam hari",
+          "en": "the night"
+        }
+      },
+      {
+        "id": "fr-time-tot",
+        "native": "tôt le matin",
+        "gloss": {
+          "id": "pagi-pagi",
+          "en": "early in the morning"
+        }
+      },
+      {
+        "id": "fr-time-fin-journee",
+        "native": "en fin de journée",
+        "gloss": {
+          "id": "menjelang akhir hari",
+          "en": "at the end of the day"
+        }
+      }
+    ],
+    "weather": [
+      {
+        "id": "fr-weather-pluie",
+        "native": "Il pleut sur les toits.",
+        "gloss": {
+          "id": "Hujan turun di atas atap.",
+          "en": "It is raining on the roofs."
+        },
+        "tags": [
+          "rain"
+        ]
+      },
+      {
+        "id": "fr-weather-gris",
+        "native": "Le ciel est gris.",
+        "gloss": {
+          "id": "Langitnya kelabu.",
+          "en": "The sky is grey."
+        },
+        "tags": [
+          "cold"
+        ]
+      },
+      {
+        "id": "fr-weather-froid",
+        "native": "Il fait froid.",
+        "gloss": {
+          "id": "Dingin sekali.",
+          "en": "It is cold."
+        },
+        "tags": [
+          "cold"
+        ]
+      },
+      {
+        "id": "fr-weather-soleil",
+        "native": "Un rayon de soleil traverse la rue.",
+        "gloss": {
+          "id": "Seberkas sinar matahari menembus jalan.",
+          "en": "A ray of sun crosses the street."
+        },
+        "tags": [
+          "clear"
+        ]
+      },
+      {
+        "id": "fr-weather-doux",
+        "native": "Il fait doux pour la saison.",
+        "gloss": {
+          "id": "Hangat untuk musim ini.",
+          "en": "It is mild for the season."
+        },
+        "tags": [
+          "warm"
+        ]
+      },
+      {
+        "id": "fr-weather-pluie-fin",
+        "native": "L'air sent la pluie.",
+        "gloss": {
+          "id": "Udara berbau hujan.",
+          "en": "The air smells of rain."
+        },
+        "tags": [
+          "rain"
+        ]
+      }
+    ],
+    "action": [
+      {
+        "id": "fr-action-ouvrir",
+        "native": "ouvrir la boutique",
+        "gloss": {
+          "id": "membuka toko",
+          "en": "open the shop"
+        }
+      },
+      {
+        "id": "fr-action-cafe",
+        "native": "préparer le café",
+        "gloss": {
+          "id": "menyiapkan kopi",
+          "en": "make coffee"
+        }
+      },
+      {
+        "id": "fr-action-comptoir",
+        "native": "essuyer le comptoir",
+        "gloss": {
+          "id": "mengelap meja",
+          "en": "wipe the counter"
+        }
+      },
+      {
+        "id": "fr-action-ranger",
+        "native": "ranger les livres",
+        "gloss": {
+          "id": "merapikan buku",
+          "en": "shelve the books"
+        }
+      },
+      {
+        "id": "fr-action-attendre",
+        "native": "attendre devant la vitrine",
+        "gloss": {
+          "id": "menunggu di depan jendela",
+          "en": "wait in front of the window"
+        }
+      },
+      {
+        "id": "fr-action-ecrire",
+        "native": "écrire un mot",
+        "gloss": {
+          "id": "menulis catatan",
+          "en": "write a note"
+        }
+      },
+      {
+        "id": "fr-action-allumer",
+        "native": "allumer la lumière",
+        "gloss": {
+          "id": "menyalakan lampu",
+          "en": "turn on the light"
+        }
+      },
+      {
+        "id": "fr-action-caisse",
+        "native": "fermer la caisse",
+        "gloss": {
+          "id": "menutup kasir",
+          "en": "close the till"
+        }
+      }
+    ],
+    "quote": [
+      {
+        "id": "fr-quote-vends-pas",
+        "native": "On ne vend pas cette lettre.",
+        "gloss": {
+          "id": "Surat ini tidak dijual.",
+          "en": "This letter is not for sale."
+        },
+        "tags": [
+          "mystery"
+        ]
+      },
+      {
+        "id": "fr-quote-lettre-tante",
+        "native": "C'est la lettre de Sylvie.",
+        "gloss": {
+          "id": "Itu surat Sylvie.",
+          "en": "It is Sylvie's letter."
+        },
+        "tags": [
+          "mystery"
+        ]
+      },
+      {
+        "id": "fr-quote-demain",
+        "native": "Passez demain matin.",
+        "gloss": {
+          "id": "Mampirlah besok pagi.",
+          "en": "Come by tomorrow morning."
+        }
+      },
+      {
+        "id": "fr-quote-merci",
+        "native": "Merci d'être venue.",
+        "gloss": {
+          "id": "Terima kasih sudah datang.",
+          "en": "Thank you for coming."
+        }
+      },
+      {
+        "id": "fr-quote-temps",
+        "native": "Ici, on prend le temps.",
+        "gloss": {
+          "id": "Di sini orang meluangkan waktu.",
+          "en": "Here, people take their time."
+        }
+      },
+      {
+        "id": "fr-quote-choisir",
+        "native": "Il faut choisir, Camille.",
+        "gloss": {
+          "id": "Kamu harus memilih, Camille.",
+          "en": "You have to choose, Camille."
+        },
+        "tags": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "fr-quote-bouchon",
+        "native": "On se voit au bouchon.",
+        "gloss": {
+          "id": "Sampai jumpa di bouchon.",
+          "en": "See you at the bouchon."
+        }
+      }
+    ],
+    "question": [
+      {
+        "id": "fr-question-qui",
+        "native": "Qui a écrit cette lettre?",
+        "gloss": {
+          "id": "Siapa yang menulis surat ini?",
+          "en": "Who wrote this letter?"
+        }
+      },
+      {
+        "id": "fr-question-ou",
+        "native": "Où est la clé?",
+        "gloss": {
+          "id": "Di mana kuncinya?",
+          "en": "Where is the key?"
+        }
+      },
+      {
+        "id": "fr-question-pourquoi",
+        "native": "Pourquoi maintenant?",
+        "gloss": {
+          "id": "Mengapa sekarang?",
+          "en": "Why now?"
+        }
+      },
+      {
+        "id": "fr-question-faire",
+        "native": "Qu'est-ce que je fais?",
+        "gloss": {
+          "id": "Apa yang harus aku lakukan?",
+          "en": "What do I do?"
+        }
+      },
+      {
+        "id": "fr-question-tante",
+        "native": "Vous connaissiez ma tante?",
+        "gloss": {
+          "id": "Apakah Anda mengenal tanteku?",
+          "en": "Did you know my aunt?"
+        }
+      },
+      {
+        "id": "fr-question-vendre",
+        "native": "C'est à vendre?",
+        "gloss": {
+          "id": "Apakah ini dijual?",
+          "en": "Is it for sale?"
+        }
+      }
+    ],
+    "greeting": [
+      {
+        "id": "fr-greeting-bonjour",
+        "native": "Bonjour",
+        "gloss": {
+          "id": "Selamat pagi",
+          "en": "Hello"
+        }
+      },
+      {
+        "id": "fr-greeting-bonsoir",
+        "native": "Bonsoir",
+        "gloss": {
+          "id": "Selamat malam",
+          "en": "Good evening"
+        }
+      },
+      {
+        "id": "fr-greeting-salut",
+        "native": "Salut",
+        "gloss": {
+          "id": "Hai",
+          "en": "Hi"
+        }
+      },
+      {
+        "id": "fr-greeting-bienvenue",
+        "native": "Bienvenue",
+        "gloss": {
+          "id": "Selamat datang",
+          "en": "Welcome"
+        }
+      },
+      {
+        "id": "fr-greeting-aurevoir",
+        "native": "Coucou",
+        "gloss": {
+          "id": "Hai",
+          "en": "Hi"
+        }
+      },
+      {
+        "id": "fr-greeting-ademain",
+        "native": "Ça fait plaisir",
+        "gloss": {
+          "id": "Senang bertemu",
+          "en": "Good to see you"
+        }
+      }
+    ],
+    "emotion": [
+      {
+        "id": "fr-emotion-joie",
+        "native": "joie",
+        "gloss": {
+          "id": "kegembiraan",
+          "en": "joy"
+        }
+      },
+      {
+        "id": "fr-emotion-tristesse",
+        "native": "tristesse",
+        "gloss": {
+          "id": "kesedihan",
+          "en": "sadness"
+        }
+      },
+      {
+        "id": "fr-emotion-nostalgie",
+        "native": "nostalgie",
+        "gloss": {
+          "id": "nostalgia",
+          "en": "nostalgia"
+        }
+      },
+      {
+        "id": "fr-emotion-peur",
+        "native": "peur",
+        "gloss": {
+          "id": "ketakutan",
+          "en": "fear"
+        }
+      },
+      {
+        "id": "fr-emotion-fatigue",
+        "native": "fatigue",
+        "gloss": {
+          "id": "kelelahan",
+          "en": "tiredness"
+        }
+      },
+      {
+        "id": "fr-emotion-gratitude",
+        "native": "gratitude",
+        "gloss": {
+          "id": "rasa syukur",
+          "en": "gratitude"
+        }
+      }
+    ]
+  },
+  "anchors": [
+    {
+      "id": "fr-culture-bouchon",
+      "title": "Le bouchon ne se visite pas, il se partage",
+      "body": {
+        "id": "Bouchon adalah kata Lyon untuk rumah makan kecil dengan menu terbatas yang ditulis di papan, bukan sebutan untuk semua restoran di kota. Di sana orang memesan pot lyonnais, quenelle, atau salade lyonnaise, dan makan siang bisa lama karena percakapan ikut dihidangkan. Sejak 2010 « Le repas gastronomique des Français » tercatat di UNESCO sebagai warisan budaya takbenda, dan bouchon adalah salah satu cara tradisi itu dijalankan di Lyon.",
+        "en": "Bouchon is the Lyon word for a small restaurant with a short menu chalked on a board, not a label for every restaurant in the city. People order a pot lyonnais, a quenelle or a salade lyonnaise, and lunch can last a long time because conversation is part of the service. Since 2010 UNESCO has listed the gastronomic meal of the French as intangible cultural heritage, and the bouchon is one of the ways that tradition is practised in Lyon."
+      },
+      "sources": [
+        "UNESCO, Liste représentative du patrimoine culturel immatériel — « Le repas gastronomique des Français » (2010), https://ich.unesco.org/en/RL/the-gastronomic-meal-of-the-french-00437",
+        "Office de tourisme et des congrès de Lyon — « Les bouchons lyonnais », https://www.visiterlyon.com/",
+        "Les Toques Blanches Lyonnaises — charte professionnelle des bouchons, https://www.toques-blanches-lyonnaises.com/"
+      ],
+      "reflection": {
+        "id": "Apa yang diwariskan sebuah rumah makan selain resepnya?",
+        "en": "What does a restaurant pass on besides its recipes?"
+      },
+      "stampId": "fr-stamp-bouchon",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "fr-culture-marche",
+      "title": "Le marché se tient avant que la ville se réveille",
+      "body": {
+        "id": "Pasar pagi di Lyon bukan satu tempat: ada pasar di quai Saint-Antoine di tepi Saône, pasar panjang di boulevard de la Croix-Rousse, dan Halles de Lyon Paul Bocuse untuk produk yang lebih mahal. Pedagangnya sering datang dari Monts du Lyonnais atau Dombes, dan isi lapak mengikuti musim: cardon di musim dingin, praline rose sepanjang tahun, keju dan ikan dari sungai. Warga memakai pasar untuk hal yang tidak bisa dilakukan supermarket: bertanya asal barang dan memilih sendiri.",
+        "en": "Morning markets in Lyon are not one place: there is the market on quai Saint-Antoine along the Saône, the long market on boulevard de la Croix-Rousse, and the Halles de Lyon Paul Bocuse for pricier produce. Many stallholders come from the Monts du Lyonnais or the Dombes, and the stalls follow the seasons: cardoon in winter, pink praline all year, cheese and fish from the rivers. Residents use the market for something a supermarket cannot do: asking where food comes from and choosing it themselves."
+      },
+      "sources": [
+        "Office de tourisme et des congrès de Lyon — « Marché Saint-Antoine Célestins », https://www.visiterlyon.com/",
+        "Ville de Lyon — « Les marchés de Lyon », https://www.lyon.fr/",
+        "Halles de Lyon Paul Bocuse — https://www.halles-de-lyon-paulbocuse.com/"
+      ],
+      "reflection": {
+        "id": "Mengapa pasar pagi mengubah cara orang mengenal kotanya?",
+        "en": "How does a morning market change the way people know their city?"
+      },
+      "stampId": "fr-stamp-marche",
+      "tags": [
+        "market"
+      ]
+    },
+    {
+      "id": "fr-culture-lumieres",
+      "title": "Le 8 décembre n'est pas seulement un festival de lumière",
+      "body": {
+        "id": "Setiap 8 Desember warga Lyon meletakkan lumignon, lilin kecil di dalam gelas, di ambang jendela. Kebiasaan ini bermula pada 1852, ketika peresmian patung Perawan Maria di Fourvière ditunda karena banjir Saône, lalu warga menyalakan lampu di rumah masing-masing pada tanggal yang baru. Sejak 1999 kota menggelar Fête des Lumières selama beberapa hari, tetapi warga masih menyalakan lilin mereka sendiri di luar jalur instalasi.",
+        "en": "Every 8 December, people in Lyon put lumignons — small candles in glasses — on their windowsills. The custom goes back to 1852, when the inauguration of the statue of the Virgin Mary on Fourvière was postponed because the Saône flooded, and residents lit lamps at home on the new date. Since 1999 the city has run the multi-day Fête des Lumières, but residents still light their own candles outside the installation routes."
+      },
+      "sources": [
+        "Fête des Lumières, site officiel de la Ville de Lyon — https://www.fetedeslumieres.lyon.fr/",
+        "Ville de Lyon — « Illuminons notre ville ! », https://www.lyon.fr/actualite/culture/illuminons-notre-ville",
+        "Office de tourisme et des congrès de Lyon — « La Fête des Lumières », https://www.visiterlyon.com/"
+      ],
+      "reflection": {
+        "id": "Apa bedanya cahaya yang dinyalakan warga dengan cahaya yang dipasang kota?",
+        "en": "What is the difference between light lit by residents and light installed by a city?"
+      },
+      "stampId": "fr-stamp-lumieres",
+      "tags": [
+        "festival"
+      ]
+    },
+    {
+      "id": "fr-culture-traboules",
+      "title": "Les traboules sont des couloirs habités, pas des passages secrets",
+      "body": {
+        "id": "Traboule adalah lorong yang menembus gedung dan halaman untuk menghubungkan dua jalan, banyak terdapat di Vieux Lyon dan di Croix-Rousse. Para pekerja sutra memakainya untuk mengangkut kain tanpa melewati jalan yang basah, dan warga masih memakainya sebagai jalan pintas sehari-hari. Sebagian traboule terbuka untuk pengunjung, tetapi banyak yang tetap menjadi pintu rumah: masuk tanpa suara dan jangan memotret orang.",
+        "en": "A traboule is a passage that cuts through buildings and courtyards to link two streets, common in Vieux Lyon and on the Croix-Rousse. Silk workers used them to carry fabric without crossing wet streets, and residents still use them as everyday shortcuts. Some traboules are open to visitors, but many remain the front door of people's homes: enter quietly and do not photograph people."
+      },
+      "sources": [
+        "Office de tourisme et des congrès de Lyon — « Les traboules de Lyon », https://www.visiterlyon.com/",
+        "Ville de Lyon — patrimoine et traboules, https://www.lyon.fr/",
+        "UNESCO, Centre du patrimoine mondial — « Site historique de Lyon », n° 872 (1998), https://whc.unesco.org/en/list/872"
+      ],
+      "reflection": {
+        "id": "Siapa yang berhak menentukan sebuah lorong itu milik siapa?",
+        "en": "Who gets to decide who a passage belongs to?"
+      },
+      "stampId": "fr-stamp-traboules",
+      "tags": [
+        "heritage"
+      ]
+    },
+    {
+      "id": "fr-culture-cinema",
+      "title": "Le cinéma est né dans une usine de Lyon",
+      "body": {
+        "id": "Auguste dan Louis Lumière memproduksi film pertama mereka di Lyon, di sebuah pabrik di rue du Premier-Film, dan memproyeksikannya untuk publik pada 1895. Villa Lumière sekarang menjadi Institut Lumière, dengan bioskop, perpustakaan, dan arsip; di seberang jalan ada hangar tempat La Sortie de l'usine Lumière difilmkan. Pada 2005, UNESCO mendaftarkan kumpulan film Lumière ke Memory of the World.",
+        "en": "Auguste and Louis Lumière made their first films in Lyon, in a factory on rue du Premier-Film, and screened them publicly in 1895. Villa Lumière is now the Institut Lumière, with a cinema, a library and archives; across the street stands the hangar where La Sortie de l'usine Lumière was shot. In 2005 UNESCO added the Lumière film collection to the Memory of the World register."
+      },
+      "sources": [
+        "Institut Lumière — https://www.institut-lumiere.org/",
+        "UNESCO, Mémoire du monde — « Films Lumière » (2005), https://www.unesco.org/fr/memory-world/lumiere-films",
+        "Office de tourisme et des congrès de Lyon — « Institut Lumière », https://www.visiterlyon.com/"
+      ],
+      "reflection": {
+        "id": "Apa yang berubah ketika sebuah penemuan dirawat sebagai museum?",
+        "en": "What changes when an invention is cared for as a museum?"
+      },
+      "stampId": "fr-stamp-cinema",
+      "tags": [
+        "cinema"
+      ]
+    },
+    {
+      "id": "fr-culture-fleuves",
+      "title": "Deux fleuves, une ville qui n'a jamais fini de se faire",
+      "body": {
+        "id": "Lyon tumbuh di antara Saône yang lambat di barat dan Rhône yang lebih cepat di timur, dengan Presqu'île di antaranya. Kedua sungai pernah membanjiri kota, termasuk banjir 1852 yang menunda peresmian Fourvière, dan tanggul serta taman di tepi sungai sekarang menjadi tempat orang berjalan, berlari, dan membaca di bangku. Di selatan, kedua sungai bertemu di Confluence, kawasan pelabuhan lama yang berubah menjadi museum dan taman.",
+        "en": "Lyon grew between the slow Saône to the west and the faster Rhône to the east, with the Presqu'île between them. Both rivers have flooded the city, including the 1852 flood that delayed the Fourvière inauguration, and the embankments and riverside parks are now where people walk, run and read on benches. In the south the two rivers meet at Confluence, an old port area turned into a museum and public park."
+      },
+      "sources": [
+        "Ville de Lyon — « Les fleuves et la Confluence », https://www.lyon.fr/",
+        "Musée des Confluences — https://www.museedesconfluences.fr/",
+        "Office de tourisme et des congrès de Lyon — « La Saône et le Rhône », https://www.visiterlyon.com/"
+      ],
+      "reflection": {
+        "id": "Apa yang dua sungai ajarkan tentang hidup bersama?",
+        "en": "What can two rivers teach about living together?"
+      },
+      "stampId": "fr-stamp-fleuves",
+      "tags": [
+        "river"
+      ]
+    },
+    {
+      "id": "fr-culture-librairie",
+      "title": "Une librairie indépendante tient par ses lecteurs",
+      "body": {
+        "id": "Librairie indépendante di Prancis adalah toko yang memilih sendiri stoknya, bukan cabang jaringan besar, dan sering menjadi tempat peluncuran buku, klub baca, atau sekadar bertanya. Di Lyon, toko seperti ini bertahan karena pembeli memesan lewat toko, bukan lewat algoritma, dan karena sekolah serta perpustakaan bekerja dengan mereka. Syndicat de la librairie française mewakili toko-toko ini, dan Fête du Livre de Bron setiap tahun mempertemukan penulis, penerbit, dan pembaca muda di kota sebelah.",
+        "en": "An independent bookshop in France chooses its own stock rather than being a branch of a large chain, and often hosts launches, reading groups, or simply questions. In Lyon these shops survive because readers order through them rather than through an algorithm, and because schools and libraries work with them. The Syndicat de la librairie française represents these shops, and the Fête du Livre de Bron brings writers, publishers and young readers together in the neighbouring town each year."
+      },
+      "sources": [
+        "Syndicat de la librairie française — https://www.syndicat-librairie.fr/",
+        "Ville de Bron — « La Fête du Livre de Bron », https://www.ville-bron.fr/",
+        "Office de tourisme et des congrès de Lyon — librairies et vie culturelle, https://www.visiterlyon.com/"
+      ],
+      "reflection": {
+        "id": "Mengapa toko buku kecil masih penting di kota yang serba cepat?",
+        "en": "Why do small bookshops still matter in a fast city?"
+      },
+      "stampId": "fr-stamp-librairie",
+      "tags": [
+        "books"
+      ]
+    },
+    {
+      "id": "fr-culture-canuts",
+      "title": "La Croix-Rousse a été une usine à ciel ouvert",
+      "body": {
+        "id": "Pada abad ke-19, Croix-Rousse adalah pusat tenun sutra Lyon. Ribuan canut bekerja di ruang atas rumah dengan langit-langit tinggi agar alat tenun Jacquard muat, dan traboule memudahkan kain berpindah tanpa turun ke jalan. Upah dan kondisi kerja memicu pemberontakan pada 1831 dan 1834; hari ini Maison des Canuts di rue d'Ivry masih menenun dengan alat tenun tangan dan menjelaskan sejarah itu kepada pengunjung.",
+        "en": "In the 19th century the Croix-Rousse was the centre of Lyon's silk weaving. Thousands of canuts worked in upstairs rooms with high ceilings so that Jacquard looms would fit, and traboules let fabric move without going down to the street. Pay and working conditions triggered uprisings in 1831 and 1834; today the Maison des Canuts on rue d'Ivry still weaves on hand looms and explains that history to visitors."
+      },
+      "sources": [
+        "Maison des Canuts — https://maisondescanuts.fr/",
+        "Ville de Lyon — « Maison des Canuts, musée du tissage », https://www.lyon.fr/lieu/musees/maison-des-canuts-musee-du-tissage",
+        "Musées Gadagne, Musée d'histoire de Lyon — https://www.gadagne.musees.lyon.fr/"
+      ],
+      "reflection": {
+        "id": "Bagaimana sebuah pekerjaan membentuk bentuk kota?",
+        "en": "How does a trade shape the shape of a city?"
+      },
+      "stampId": "fr-stamp-canuts",
+      "tags": [
+        "silk"
+      ]
+    },
+    {
+      "id": "fr-culture-vieux-lyon",
+      "title": "Le Vieux Lyon est un quartier habité, pas un décor",
+      "body": {
+        "id": "Vieux Lyon adalah salah satu kawasan Renaisans terbesar di Eropa dan masuk daftar Warisan Dunia UNESCO pada 1998 (kriteria ii dan iv), bersama Fourvière dan Presqu'île. Di balik fasad Renaissance ada halaman, tangga spiral, dan lorong yang masih dipakai sebagai alamat tinggal. Tekanan pariwisata dan harga sewa membuat keseimbangan antara tinggal dan berkunjung menjadi persoalan nyata bagi warga.",
+        "en": "Vieux Lyon is one of Europe's largest Renaissance quarters and was inscribed on the UNESCO World Heritage list in 1998 (criteria ii and iv), together with Fourvière and the Presqu'île. Behind the Renaissance façades are courtyards, spiral staircases and passages that are still people's home addresses. Tourism pressure and rents make the balance between living and visiting a real issue for residents."
+      },
+      "sources": [
+        "UNESCO, Centre du patrimoine mondial — « Site historique de Lyon », n° 872 (1998), https://whc.unesco.org/en/list/872",
+        "Ville de Lyon — site patrimoine mondial, https://www.lyon.fr/",
+        "Office de tourisme et des congrès de Lyon — « Vieux Lyon », https://www.visiterlyon.com/"
+      ],
+      "reflection": {
+        "id": "Apa yang hilang ketika sebuah lingkungan menjadi foto?",
+        "en": "What is lost when a neighbourhood becomes a photograph?"
+      },
+      "stampId": "fr-stamp-vieux-lyon",
+      "tags": [
+        "heritage"
+      ]
+    },
+    {
+      "id": "fr-culture-murs-peints",
+      "title": "Les murs peints racontent le travail des quartiers",
+      "body": {
+        "id": "Sejak 1980-an, kolektif seniman CitéCréation melukis dinding besar di Lyon bersama warga: Mur des Canuts di Croix-Rousse menggambarkan alat tenun, tangga, dan kehidupan pekerja; fresque des Lyonnais di tepi Saône memuat tokoh-tokoh sejarah kota. Lukisan-lukisan ini menipu mata dengan perspektif dan jendela palsu, tetapi yang penting adalah prosesnya: warga ikut memilih siapa yang muncul di dinding.",
+        "en": "Since the 1980s the artists' collective CitéCréation has painted large walls in Lyon with residents: the Mur des Canuts on the Croix-Rousse shows looms, stairways and workers' lives; the fresco of Lyonnais figures along the Saône includes people from the city's history. The murals fool the eye with perspective and painted windows, but the important part is the process: residents help choose who appears on the wall."
+      },
+      "sources": [
+        "CitéCréation — https://www.citecreation.fr/",
+        "Office de tourisme et des congrès de Lyon — « Les murs peints », https://www.visiterlyon.com/",
+        "Ville de Lyon — parcours des murs peints, https://www.lyon.fr/"
+      ],
+      "reflection": {
+        "id": "Kalau dinding bercerita, siapa yang memilih ceritanya?",
+        "en": "If walls tell stories, who chooses the story?"
+      },
+      "stampId": "fr-stamp-murs-peints",
+      "tags": [
+        "art"
+      ]
+    }
+  ],
+  "arcs": [
+    {
+      "tier": "T1",
+      "seasonNo": 1,
+      "title": "La lettre",
+      "nativeTitle": "La lettre",
+      "synopsis": "Camille revient à Lyon pour vendre la librairie de sa tante Sylvie. Le premier matin, une lettre sans timbre arrive dans la boîte de la boutique: elle est adressée à la librairie, pas à sa tante.",
+      "mystery": "fr-object-lettre",
+      "cliffhanger": "Au dos de la lettre, une phrase que Camille n'oubliera pas: « J'ai choisi de rester. Toi aussi, tu choisiras. »"
+    },
+    {
+      "tier": "T1",
+      "seasonNo": 2,
+      "title": "Le carnet de comptes",
+      "nativeTitle": "Le carnet de comptes",
+      "synopsis": "Bibi apporte le carnet de comptes de Sylvie. Entre deux factures, il y a des noms de lecteurs, des dates et un prêt qui n'a jamais été remboursé.",
+      "mystery": "fr-object-carnet",
+      "cliffhanger": "Une ligne du carnet n'est pas de l'écriture de la tante: quelqu'un a ajouté un rendez-vous pour le mardi suivant."
+    },
+    {
+      "tier": "T2",
+      "seasonNo": 1,
+      "title": "Le marché",
+      "nativeTitle": "Le marché",
+      "synopsis": "Le samedi, Camille accompagne Bibi au marché du quai Saint-Antoine. Une caisse de livres réservée à la librairie attend quelqu'un que personne n'a vu.",
+      "mystery": "fr-object-boite-fer",
+      "cliffhanger": "Dans la boîte en fer, sous les livres, il y a une carte au nom de Camille."
+    },
+    {
+      "tier": "T2",
+      "seasonNo": 2,
+      "title": "Le client de midi",
+      "nativeTitle": "Le client de midi",
+      "synopsis": "Au bouchon voisin, le Chef garde une table près de la fenêtre. Camille apprend que sa tante y déjeunait chaque mardi avec quelqu'un qu'elle n'a jamais nommé.",
+      "mystery": "fr-object-roman-dedicace",
+      "cliffhanger": "Le roman posé sur la table est dédicacé à Camille par une main qu'elle ne connaît pas."
+    },
+    {
+      "tier": "T3",
+      "seasonNo": 1,
+      "title": "La Fête des Lumières",
+      "nativeTitle": "La Fête des Lumières",
+      "synopsis": "Le 8 décembre, le quartier allume ses lumignons. Une vitrine reste éteinte, et Camille doit décider si la librairie participe encore à la fête.",
+      "mystery": "fr-object-lettre",
+      "cliffhanger": "Sur le rebord de la vitrine, un lumignon et une lettre adressée à la librairie."
+    },
+    {
+      "tier": "T3",
+      "seasonNo": 2,
+      "title": "La séance",
+      "nativeTitle": "La séance",
+      "synopsis": "À l'Institut Lumière, Bibi retrouve un film que Sylvie projetait dans la cour l'été. La bobine manque, mais un livre ancien garde les notes de la séance.",
+      "mystery": "fr-object-livre-ancien",
+      "cliffhanger": "La dernière page du livre porte une date: le jour où la librairie a failli fermer pour de bon."
+    },
+    {
+      "tier": "T4",
+      "seasonNo": 1,
+      "title": "Les traboules",
+      "nativeTitle": "Les traboules",
+      "synopsis": "Pour livrer un lecteur malade, Camille emprunte le raccourci de sa tante à travers les traboules de la Croix-Rousse. Une porte ne s'ouvre pas comme prévu.",
+      "mystery": "fr-object-classeur",
+      "cliffhanger": "Derrière la porte, un classeur vert porte le nom de la librairie et une date de 1994."
+    },
+    {
+      "tier": "T4",
+      "seasonNo": 2,
+      "title": "La Croix-Rousse",
+      "nativeTitle": "La Croix-Rousse",
+      "synopsis": "Une ancienne canuse veut racheter les livres de Sylvie. Camille monte à l'atelier et découvre ce que sa tante a fait des collections invendables.",
+      "mystery": "fr-object-boite-fer",
+      "cliffhanger": "Dans la boîte en fer, une lettre de Sylvie n'a jamais été envoyée à son destinataire."
+    },
+    {
+      "tier": "T5",
+      "seasonNo": 1,
+      "title": "La librairie",
+      "nativeTitle": "La librairie",
+      "synopsis": "Un acheteur sérieux veut la librairie pour en faire un local. Camille relit toutes les lettres de sa tante et comprend ce que la boutique a été pour le quartier.",
+      "mystery": "fr-object-lettre",
+      "cliffhanger": "La dernière lettre sans signature dit seulement: « La librairie n'est pas un mur. C'est une adresse. »"
+    },
+    {
+      "tier": "T5",
+      "seasonNo": 2,
+      "title": "Les quais",
+      "nativeTitle": "Les quais",
+      "synopsis": "Camille doit signer ou refuser la vente. Elle marche du Vieux Lyon aux quais de Saône avec Yanis, Bibi et le Chef, et choisit ce qu'elle veut transmettre à son tour.",
+      "mystery": "fr-object-roman-dedicace",
+      "cliffhanger": "Au bout du quai, Camille ne signe pas l'acte et glisse la lettre dans la poche de sa veste."
+    }
+  ]
+}
