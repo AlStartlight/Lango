@@ -46,8 +46,7 @@ export const languagesList = [
   { name: 'Dutch', flag: flagImages.nl, href: '/learn/dutch' },
   { name: 'Portuguese', flag: flagImages.pt, href: '/learn/portuguese' },
   { name: 'Arabic', flag: flagImages.ar, href: '/learn/arabic' },
-  { name: 'India', flag: flagImages.hi, href: '/learn/hindi' },
-  { name: 'Bengali', flag: flagImages.bn, href: '/learn/bengali' },
+  { name: 'Hindi', flag: flagImages.hi, href: '/learn/hindi' },
 ];
 
 export function getFlagPath(locale: string): string {
