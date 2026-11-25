@@ -1,0 +1,41 @@
+{
+  "version": "2026.11.0",
+  "generatedAt": "2026-11-25T10:20:32.027Z",
+  "units": 2,
+  "lessons": 10,
+  "questions": 350,
+  "curricula": [
+    {
+      "id": "en-cefr",
+      "languageCode": "en",
+      "framework": "CEFR",
+      "version": "2026.11.0",
+      "status": "published",
+      "totalQuestions": 175,
+      "totalLessons": 5,
+      "levels": [
+        {
+          "code": "A1",
+          "totalQuestions": 175,
+          "totalLessons": 5
+        }
+      ]
+    },
+    {
+      "id": "ja-jlpt",
+      "languageCode": "ja",
+      "framework": "JLPT",
+      "version": "2026.11.0",
+      "status": "published",
+      "totalQuestions": 175,
+      "totalLessons": 5,
+      "levels": [
+        {
+          "code": "N5",
+          "totalQuestions": 175,
+          "totalLessons": 5
+        }
+      ]
+    }
+  ]
+}
