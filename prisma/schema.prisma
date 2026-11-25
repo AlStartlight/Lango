@@ -11,14 +11,27 @@ datasource db {
 
 model Language {
   id         String   @id
+  code       String   @unique
+  uiLocale   String   @unique
   label      String
   native     String
   icon       String
   iconColor  String
+  script     String   @default("latn")
+  direction  String   @default("ltr")
   isFeatured Boolean  @default(false)
   corner     String   @default("none")
+  isActive   Boolean  @default(true)
   createdAt  DateTime @default(now())
   updatedAt  DateTime @updatedAt
+
+  curricula     Curriculum[]
+  storyWorlds   StoryWorld[]
+  profiles      UserLanguageProfile[]
+  languageStats UserLanguageStats[]
+  dailyActivity LanguageDailyActivity[]
+
+  @@index([isActive])
 }
 
 model GoalOption {
@@ -33,13 +46,13 @@ model GoalOption {
 }
 
 model Achievement {
-  id              String             @id
-  icon            String
-  iconBg          String
-  iconColor       String
-  title           String
-  description     String
-  createdAt       DateTime           @default(now())
+  id               String            @id
+  icon             String
+  iconBg           String
+  iconColor        String
+  title            String
+  description      String
+  createdAt        DateTime          @default(now())
   userAchievements UserAchievement[]
 }
 
@@ -54,20 +67,20 @@ model DailyChallenge {
 }
 
 model Exercise {
-  id                     String           @id
-  dailyChallengeId       String?
-  xpReward               Int
-  masteryLevel           Int
-  flipCardWordTarget     String
-  flipCardPronunciation  String
-  flipCardWordNative     String
-  flipCardDefinition     String
-  correctChoiceId        String
-  aiFeedbackMessage      String
-  createdAt              DateTime         @default(now())
-  updatedAt              DateTime         @updatedAt
-  dailyChallenge         DailyChallenge?  @relation(fields: [dailyChallengeId], references: [id], onDelete: Cascade)
-  choices                Choice[]
+  id                    String          @id
+  dailyChallengeId      String?
+  xpReward              Int
+  masteryLevel          Int
+  flipCardWordTarget    String
+  flipCardPronunciation String
+  flipCardWordNative    String
+  flipCardDefinition    String
+  correctChoiceId       String
+  aiFeedbackMessage     String
+  createdAt             DateTime        @default(now())
+  updatedAt             DateTime        @updatedAt
+  dailyChallenge        DailyChallenge? @relation(fields: [dailyChallengeId], references: [id], onDelete: Cascade)
+  choices               Choice[]
 }
 
 model Choice {
@@ -154,52 +167,299 @@ model StudyGroup {
 }
 
 model GlobalChallenge {
-  id               String                @id
+  id               String                  @id
   title            String
   description      String
-  isActive         Boolean               @default(false)
-  participantCount Int                   @default(0)
-  createdAt        DateTime              @default(now())
+  isActive         Boolean                 @default(false)
+  participantCount Int                     @default(0)
+  createdAt        DateTime                @default(now())
   userProgress     UserChallengeProgress[]
 }
 
 // ──────── User / Account ────────
 
 model User {
-  id                   String    @id @default(cuid())
-  email                String    @unique
-  name                 String
-  password             String
-  avatarUrl            String?
-  nativeLanguage       String
-  learningLanguage     String
-  dailyGoalMinutes     Int       @default(15)
-  streakDays           Int       @default(0)
-  badge                String    @default("Beginner")
-  xpPoints             Int       @default(0)
-  globalRank           Int       @default(0)
-  level                Int       @default(1)
-  levelLabel           String    @default("Beginner")
-  levelProgressPercent Int       @default(0)
-  isPro                Boolean   @default(false)
-  pronunciationAccuracyPercent  Int  @default(0)
-  pronunciationTrendPercent     Int  @default(0)
-  createdAt            DateTime  @default(now())
-  updatedAt            DateTime  @updatedAt
+  id                           String    @id @default(cuid())
+  email                        String    @unique
+  name                         String
+  passwordHash                 String?
+  emailVerifiedAt              DateTime?
+  role                         String    @default("learner")
+  avatarUrl                    String?
+  nativeLanguage               String
+  learningLanguage             String
+  targetLanguage               String    @default("en")
+  cefrLevel                    String    @default("A1")
+  timezone                     String    @default("Asia/Jakarta")
+  onboardingCompletedAt        DateTime?
+  dailyGoalMinutes             Int       @default(15)
+  streakDays                   Int       @default(0)
+  badge                        String    @default("Beginner")
+  xpPoints                     Int       @default(0)
+  globalRank                   Int       @default(0)
+  level                        Int       @default(1)
+  levelLabel                   String    @default("Beginner")
+  levelProgressPercent         Int       @default(0)
+  isPro                        Boolean   @default(false)
+  pronunciationAccuracyPercent Int       @default(0)
+  pronunciationTrendPercent    Int       @default(0)
+  createdAt                    DateTime  @default(now())
+  updatedAt                    DateTime  @updatedAt
 
-  settings              UserSettings?
-  learning              LearningSettings?
-  notifications         NotificationSettings?
-  app                   AppSettings?
-  activities            UserActivity[]
-  achievements          UserAchievement[]
-  fluencies             UserFluency[]
-  exerciseProgress      UserExerciseProgress?
-  lessonResults         LessonResult[]
-  grammarHistory        UserGrammarHistory?
-  groupMembers          GroupMember[]
-  challengeProgress     UserChallengeProgress[]
-  tutorSessions         TutorSession[]
+  settings          UserSettings?
+  learning          LearningSettings?
+  notifications     NotificationSettings?
+  app               AppSettings?
+  activities        UserActivity[]
+  achievements      UserAchievement[]
+  fluencies         UserFluency[]
+  exerciseProgress  UserExerciseProgress?
+  lessonResults     LessonResult[]
+  grammarHistory    UserGrammarHistory?
+  groupMembers      GroupMember[]
+  challengeProgress UserChallengeProgress[]
+  tutorSessions     TutorSession[]
+
+  // v1 auth
+  sessions                Session[]
+  emailVerificationTokens EmailVerificationToken[]
+  passwordResetTokens     PasswordResetToken[]
+  authEvents              AuthEvent[]
+
+  // v1 learning progress
+  stats             UserStats?
+  lessonProgress    LessonProgress[]
+  exerciseAttempts  ExerciseAttempt[]
+  numberAttempts    NumberAttempt[]
+  spacedReviewItems SpacedReviewItem[]
+  xpEvents          XpEvent[]
+  dailyActivities   DailyActivity[]
+
+  // v1.2 multilingual
+  uiLocale             String                  @default("en")
+  explanationLocale    String                  @default("en")
+  activeLanguageCode   String?
+  curriculumLevel      String?
+  alwaysShowTranscript Boolean                 @default(false)
+  languageProfiles     UserLanguageProfile[]
+  languageStats        UserLanguageStats[]
+  languageDaily        LanguageDailyActivity[]
+  questionReports      QuestionReport[]
+
+  // v1.3 story-first curriculum
+  storySceneProgress  StorySceneProgress[]
+  storyProgress       StoryProgress[]
+  storyPassportStamps StoryPassportStamp[]
+  storyFlags          StoryFlag[]
+}
+
+// ──────── v1 Auth ────────
+
+model Session {
+  id            String    @id @default(cuid())
+  userId        String
+  tokenHash     String    @unique
+  rememberMe    Boolean   @default(false)
+  expiresAt     DateTime
+  lastUsedAt    DateTime  @default(now())
+  revokedAt     DateTime?
+  ipHash        String?
+  userAgentHash String?
+  createdAt     DateTime  @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, revokedAt])
+  @@index([expiresAt])
+}
+
+model EmailVerificationToken {
+  id        String    @id @default(cuid())
+  userId    String
+  tokenHash String    @unique
+  expiresAt DateTime
+  usedAt    DateTime?
+  createdAt DateTime  @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, expiresAt])
+}
+
+model PasswordResetToken {
+  id              String    @id @default(cuid())
+  userId          String
+  tokenHash       String    @unique
+  expiresAt       DateTime
+  usedAt          DateTime?
+  requestedIpHash String?
+  createdAt       DateTime  @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, expiresAt])
+}
+
+model AuthEvent {
+  id            String   @id @default(cuid())
+  userId        String?
+  event         String
+  ipHash        String?
+  userAgentHash String?
+  metadata      Json?
+  createdAt     DateTime @default(now())
+
+  user User? @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([event, createdAt])
+}
+
+// ──────── v1 Learning Progress ────────
+
+model UserStats {
+  userId           String    @id
+  xpTotal          Int       @default(0)
+  level            Int       @default(1)
+  streakCurrent    Int       @default(0)
+  streakLongest    Int       @default(0)
+  lastActivityDate DateTime?
+  hearts           Int       @default(5)
+  heartsUpdatedAt  DateTime  @default(now())
+  dailyXp          Int       @default(0)
+  dailyXpDate      DateTime?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model LessonProgress {
+  id                   String    @id @default(cuid())
+  userId               String
+  lessonId             String
+  status               String    @default("not_started")
+  bestAccuracy         Int       @default(0)
+  lastAccuracy         Int       @default(0)
+  attemptCount         Int       @default(0)
+  currentExerciseIndex Int       @default(0)
+  timeSpentSeconds     Int       @default(0)
+  startedAt            DateTime?
+  completedAt          DateTime?
+  masteredAt           DateTime?
+  updatedAt            DateTime  @updatedAt
+  languageCode         String?
+  curriculumId         String?
+  lastQuestionId       String?
+  resumeState          Json?
+  contentVersion       String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, lessonId])
+  @@index([userId, status])
+  @@index([userId, languageCode, status])
+}
+
+model ExerciseAttempt {
+  id              String   @id @default(cuid())
+  clientAttemptId String
+  userId          String
+  exerciseId      String
+  lessonId        String
+  answer          Json
+  isCorrect       Boolean
+  score           Int
+  timeSpentMs     Int
+  attemptNumber   Int
+  xpAwarded       Int      @default(0)
+  createdAt       DateTime @default(now())
+  languageCode    String?
+  curriculumId    String?
+  questionType    String?
+  questionVersion Int?
+  answerKeyHash   String?
+  accommodation   Boolean  @default(false)
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, clientAttemptId])
+  @@index([userId, createdAt])
+  @@index([exerciseId])
+  @@index([userId, languageCode, createdAt])
+  @@index([exerciseId, questionVersion])
+}
+
+model NumberAttempt {
+  id              String   @id @default(cuid())
+  clientAttemptId String
+  userId          String
+  languageCode    String
+  value           Int
+  phase           String
+  isCorrect       Boolean
+  timeMs          Int
+  xpAwarded       Int      @default(0)
+  createdAt       DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, clientAttemptId])
+  @@index([userId, createdAt])
+  @@index([languageCode, value])
+}
+
+model SpacedReviewItem {
+  id             String    @id @default(cuid())
+  userId         String
+  moduleId       String
+  languageCode   String?
+  curriculumId   String?
+  conceptKey     String
+  sourceType     String
+  sourceId       String?
+  easeFactor     Float     @default(2.5)
+  intervalDays   Int       @default(1)
+  dueAt          DateTime
+  lapses         Int       @default(0)
+  reviewCount    Int       @default(0)
+  priority       String    @default("medium")
+  status         String    @default("active")
+  lastReviewedAt DateTime?
+  createdAt      DateTime  @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, conceptKey])
+  @@index([userId, dueAt, status])
+  @@index([userId, languageCode, dueAt, status])
+}
+
+model XpEvent {
+  id             String   @id @default(cuid())
+  userId         String
+  amount         Int
+  sourceType     String
+  sourceId       String?
+  idempotencyKey String
+  createdAt      DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, idempotencyKey])
+  @@index([userId, createdAt])
+}
+
+model DailyActivity {
+  id               String   @id @default(cuid())
+  userId           String
+  date             DateTime
+  minutes          Int      @default(0)
+  xp               Int      @default(0)
+  lessonsCompleted Int      @default(0)
+  reviewsCompleted Int      @default(0)
+  goalMet          Boolean  @default(false)
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, date])
 }
 
 model UserSettings {
@@ -207,8 +467,8 @@ model UserSettings {
   userId String @unique
   user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
 
-  name   String
-  email  String
+  name      String
+  email     String
   avatarUrl String?
 }
 
@@ -231,19 +491,19 @@ model NotificationSettings {
 }
 
 model AppSettings {
-  id          String @id @default(cuid())
-  userId      String @unique
+  id          String  @id @default(cuid())
+  userId      String  @unique
   darkMode    Boolean @default(false)
-  appLanguage String @default("English (US)")
+  appLanguage String  @default("English (US)")
   user        User    @relation(fields: [userId], references: [id], onDelete: Cascade)
 }
 
 model UserActivity {
-  id     String @id @default(cuid())
+  id     String   @id @default(cuid())
   userId String
   date   DateTime
-  color  String @default("#e2e2e2")
-  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  color  String   @default("#e2e2e2")
+  user   User     @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@unique([userId, date])
 }
@@ -280,7 +540,7 @@ model UserExerciseProgress {
 }
 
 model LessonResult {
-  id                  String   @id @default(cuid())
+  id                  String    @id @default(cuid())
   lessonId            String
   userId              String
   userName            String
@@ -290,13 +550,13 @@ model LessonResult {
   streakDays          Int
   outperformedPercent Int
   expertTip           String
-  createdAt           DateTime @default(now())
-  user                User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt           DateTime  @default(now())
+  user                User      @relation(fields: [userId], references: [id], onDelete: Cascade)
   mistakes            Mistake[]
 }
 
 model Mistake {
-  id             String       @id
+  id             String        @id
   lessonResultId String?
   type           String
   prompt         String
@@ -308,36 +568,36 @@ model Mistake {
 }
 
 model UserGrammarHistory {
-  id                  String   @id @default(cuid())
-  userId              String   @unique
-  masteryPercent      Int      @default(0)
-  outperformedPercent Int      @default(0)
-  updatedAt           DateTime @updatedAt
-  user                User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  id                  String          @id @default(cuid())
+  userId              String          @unique
+  masteryPercent      Int             @default(0)
+  outperformedPercent Int             @default(0)
+  updatedAt           DateTime        @updatedAt
+  user                User            @relation(fields: [userId], references: [id], onDelete: Cascade)
   reviewItems         ReviewItem[]
   timelineEntries     TimelineEntry[]
 }
 
 model ReviewItem {
-  id              String             @id
+  id                   String             @id
   userGrammarHistoryId String
-  icon            String
-  title           String
-  description     String
-  isUrgent        Boolean            @default(false)
-  history         UserGrammarHistory @relation(fields: [userGrammarHistoryId], references: [id], onDelete: Cascade)
+  icon                 String
+  title                String
+  description          String
+  isUrgent             Boolean            @default(false)
+  history              UserGrammarHistory @relation(fields: [userGrammarHistoryId], references: [id], onDelete: Cascade)
 }
 
 model TimelineEntry {
-  id              String             @id
+  id                   String             @id
   userGrammarHistoryId String
-  score           Int
-  title           String
-  date            String
-  description     String
-  status          String
-  level           String
-  history         UserGrammarHistory @relation(fields: [userGrammarHistoryId], references: [id], onDelete: Cascade)
+  score                Int
+  title                String
+  date                 String
+  description          String
+  status               String
+  level                String
+  history              UserGrammarHistory @relation(fields: [userGrammarHistoryId], references: [id], onDelete: Cascade)
 }
 
 model GroupMember {
@@ -359,4 +619,695 @@ model UserChallengeProgress {
   challenge       GlobalChallenge @relation(fields: [challengeId], references: [id], onDelete: Cascade)
 
   @@unique([userId, challengeId])
+}
+
+// ──────── v1.2 Multilingual Curriculum ────────
+
+model UserLanguageProfile {
+  id              String    @id @default(cuid())
+  userId          String
+  languageCode    String
+  curriculumId    String?
+  activeLevelCode String?
+  isActive        Boolean   @default(false)
+  startedAt       DateTime  @default(now())
+  lastActiveAt    DateTime?
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  user       User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  language   Language    @relation(fields: [languageCode], references: [code], onDelete: Restrict)
+  curriculum Curriculum? @relation(fields: [curriculumId], references: [id], onDelete: SetNull)
+
+  @@unique([userId, languageCode])
+  @@index([userId, isActive])
+  @@index([languageCode, lastActiveAt])
+}
+
+model UserLanguageStats {
+  id                String    @id @default(cuid())
+  userId            String
+  languageCode      String
+  xpTotal           Int       @default(0)
+  minutesTotal      Int       @default(0)
+  lessonsCompleted  Int       @default(0)
+  lessonsMastered   Int       @default(0)
+  questionsAnswered Int       @default(0)
+  accuracyPercent   Int       @default(0)
+  lastActivityAt    DateTime?
+  updatedAt         DateTime  @updatedAt
+
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  language Language @relation(fields: [languageCode], references: [code], onDelete: Restrict)
+
+  @@unique([userId, languageCode])
+  @@index([languageCode, lastActivityAt])
+}
+
+model LanguageDailyActivity {
+  id               String   @id @default(cuid())
+  userId           String
+  languageCode     String
+  date             DateTime
+  minutes          Int      @default(0)
+  xp               Int      @default(0)
+  lessonsCompleted Int      @default(0)
+  reviewsCompleted Int      @default(0)
+  goalMet          Boolean  @default(false)
+
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  language Language @relation(fields: [languageCode], references: [code], onDelete: Restrict)
+
+  @@unique([userId, languageCode, date])
+  @@index([userId, date])
+}
+
+model Curriculum {
+  id             String    @id
+  languageCode   String
+  framework      String
+  variant        String    @default("standard")
+  version        String
+  status         String    @default("draft")
+  totalQuestions Int       @default(0)
+  totalLessons   Int       @default(0)
+  publishedAt    DateTime?
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  language Language              @relation(fields: [languageCode], references: [code], onDelete: Restrict)
+  levels   CurriculumLevel[]
+  profiles UserLanguageProfile[]
+
+  @@unique([languageCode, framework])
+  @@index([languageCode, status])
+  @@index([status])
+}
+
+model CurriculumLevel {
+  id             String   @id
+  curriculumId   String
+  code           String
+  position       Int
+  title          String
+  description    String?
+  canDo          String[]
+  estimatedHours Int?
+  totalQuestions Int      @default(0)
+  totalLessons   Int      @default(0)
+
+  curriculum Curriculum       @relation(fields: [curriculumId], references: [id], onDelete: Cascade)
+  units      CurriculumUnit[]
+
+  @@unique([curriculumId, code])
+  @@index([curriculumId, position])
+}
+
+model CurriculumUnit {
+  id                      String @id
+  levelId                 String
+  position                Int
+  title                   String
+  goal                    String
+  checkpointQuestionCount Int    @default(20)
+
+  level    CurriculumLevel    @relation(fields: [levelId], references: [id], onDelete: Cascade)
+  lessons  CurriculumLesson[]
+  storyArc StoryArcMeta?
+
+  @@unique([levelId, position])
+  @@index([levelId, position])
+}
+
+model CurriculumLesson {
+  id               String    @id
+  unitId           String
+  position         Int
+  slug             String
+  title            String
+  objective        String
+  skill            String
+  kind             String    @default("lesson")
+  estimatedMinutes Int       @default(8)
+  status           String    @default("draft")
+  contentVersion   String
+  version          Int       @default(1)
+  publishedAt      DateTime?
+
+  unit          CurriculumUnit       @relation(fields: [unitId], references: [id], onDelete: Cascade)
+  questions     Question[]
+  passages      Passage[]
+  localizations LessonLocalization[]
+  reviews       ContentReview[]
+  storyEpisode  StoryEpisodeMeta?
+
+  @@unique([unitId, position])
+  @@index([unitId, status])
+  @@index([status, skill])
+}
+
+model LessonLocalization {
+  lessonId          String
+  locale            String
+  title             String?
+  objective         String?
+  body              Json?
+  translationStatus String  @default("reviewed")
+
+  lesson CurriculumLesson @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+
+  @@id([lessonId, locale])
+}
+
+model AudioAsset {
+  id           String   @id
+  storageKey   String   @unique
+  url          String
+  languageCode String
+  durationMs   Int
+  transcript   String
+  voice        String?
+  provider     String?
+  checksum     String   @unique
+  license      String?
+  createdAt    DateTime @default(now())
+
+  passages  Passage[]
+  questions Question[]
+}
+
+model Passage {
+  id            String  @id
+  lessonId      String
+  languageCode  String
+  kind          String
+  title         String
+  body          String?
+  promptSupport Json?
+  translation   String?
+  audioAssetId  String?
+  wordCount     Int     @default(0)
+  difficulty    Int     @default(1)
+  fingerprint   String? @unique
+
+  lesson     CurriculumLesson @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  audio      AudioAsset?      @relation(fields: [audioAssetId], references: [id], onDelete: SetNull)
+  questions  Question[]
+  storyScene StorySceneMeta?
+
+  @@index([lessonId, kind])
+  @@index([languageCode, kind])
+}
+
+model Question {
+  id                String    @id
+  lessonId          String
+  passageId         String?
+  audioAssetId      String?
+  position          Int
+  type              String
+  skill             String
+  prompt            String
+  promptSupport     Json?
+  answerKey         Json
+  answerKeyHash     String
+  explanation       String
+  explanationLocale String    @default("en")
+  conceptKey        String
+  difficulty        Int       @default(1)
+  tags              String[]
+  fingerprint       String    @unique
+  status            String    @default("draft")
+  contentVersion    String
+  version           Int       @default(1)
+  source            String?
+  license           String?
+  generationMeta    Json?
+  reviewedBy        String?
+  reviewedAt        DateTime?
+  reviewStatus      String    @default("automated")
+  retiredAt         DateTime?
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+
+  lesson        CurriculumLesson       @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  passage       Passage?               @relation(fields: [passageId], references: [id], onDelete: SetNull)
+  audio         AudioAsset?            @relation(fields: [audioAssetId], references: [id], onDelete: SetNull)
+  choices       QuestionChoice[]
+  localizations QuestionLocalization[]
+  revisions     QuestionRevision[]
+  reviews       ContentReview[]
+  stats         QuestionStat[]
+  reports       QuestionReport[]
+  releaseItems  ContentReleaseItem[]
+
+  @@unique([lessonId, position])
+  @@index([lessonId, status])
+  @@index([status, type])
+  @@index([skill, status])
+  @@index([conceptKey])
+  @@index([reviewStatus])
+}
+
+model QuestionChoice {
+  id         String
+  questionId String
+  label      String
+  position   Int
+  side       String?
+
+  question Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@id([questionId, id])
+  @@unique([questionId, position])
+}
+
+model QuestionLocalization {
+  questionId        String
+  locale            String
+  prompt            String?
+  explanation       String?
+  translationStatus String  @default("reviewed")
+
+  question Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@id([questionId, locale])
+}
+
+model QuestionRevision {
+  id            String    @id @default(cuid())
+  questionId    String
+  version       Int
+  snapshot      Json
+  answerKeyHash String
+  publishedAt   DateTime?
+  publishedBy   String?
+  createdAt     DateTime  @default(now())
+
+  question Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@unique([questionId, version])
+  @@index([questionId, createdAt])
+}
+
+model ContentReview {
+  id           String   @id @default(cuid())
+  lessonId     String?
+  questionId   String?
+  reviewerId   String
+  reviewerName String
+  authorId     String?
+  locale       String?
+  role         String
+  status       String
+  checklist    Json
+  notes        String?
+  createdAt    DateTime @default(now())
+
+  lesson   CurriculumLesson? @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  question Question?         @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@unique([questionId, locale, reviewerId])
+  @@index([lessonId, status])
+  @@index([questionId, status])
+}
+
+model QuestionStat {
+  questionId      String
+  questionVersion Int
+  attempts        Int       @default(0)
+  correct         Int       @default(0)
+  pValue          Float?
+  pointBiserial   Float?
+  avgTimeMs       Int?
+  flag            String?
+  lastComputedAt  DateTime?
+
+  question Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@id([questionId, questionVersion])
+  @@index([flag])
+  @@index([pValue])
+}
+
+model QuestionReport {
+  id         String    @id @default(cuid())
+  questionId String
+  userId     String
+  reason     String
+  note       String?
+  status     String    @default("open")
+  createdAt  DateTime  @default(now())
+  resolvedAt DateTime?
+
+  question Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([status, createdAt])
+  @@index([questionId])
+}
+
+model ContentRelease {
+  id          String    @id @default(cuid())
+  version     String    @unique
+  status      String    @default("draft")
+  manifest    Json
+  checksum    String
+  notes       String?
+  publishedAt DateTime?
+  publishedBy String?
+  createdAt   DateTime  @default(now())
+
+  items ContentReleaseItem[]
+
+  @@index([status, publishedAt])
+}
+
+model ContentReleaseItem {
+  releaseId   String
+  questionId  String
+  action      String
+  fromVersion Int?
+  toVersion   Int?
+
+  release  ContentRelease @relation(fields: [releaseId], references: [id], onDelete: Cascade)
+  question Question       @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@id([releaseId, questionId])
+  @@index([questionId])
+}
+
+model ContentImportJob {
+  id             String    @id @default(cuid())
+  releaseVersion String
+  status         String    @default("running")
+  stats          Json?
+  error          String?
+  startedAt      DateTime  @default(now())
+  finishedAt     DateTime?
+
+  @@index([status, startedAt])
+}
+
+model ContentMigrationMap {
+  id         String  @id @default(cuid())
+  legacyType String
+  legacyId   String
+  newId      String
+  note       String?
+
+  @@unique([legacyType, legacyId])
+  @@index([newId])
+}
+
+// ──────── v1.3 Story-First Curriculum ────────
+// Additive extension of the FS-09 content platform. CurriculumUnit,
+// CurriculumLesson, and Passage remain the structural spine; Story*Meta rows
+// add narrative metadata, and StoryLine/StoryMaterial hold the learnable text.
+
+model StoryWorld {
+  id               String   @id
+  languageCode     String
+  slug             String
+  title            String
+  nativeTitle      String
+  logline          String
+  setting          String
+  era              String?
+  tone             String
+  sensitivityNotes Json?
+  coverAssetKey    String?
+  palette          String?
+  canon            Json?
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  language     Language           @relation(fields: [languageCode], references: [code], onDelete: Restrict)
+  characters   StoryCharacter[]
+  arcs         StoryArcMeta[]
+  cultureNotes StoryCultureNote[]
+  progress     StoryProgress[]
+
+  @@unique([languageCode, slug])
+  @@index([languageCode])
+}
+
+model StoryCharacter {
+  id             String  @id
+  worldId        String
+  name           String
+  nativeName     String
+  role           String
+  age            Int?
+  bio            String
+  avatarAssetKey String?
+  speechStyle    String?
+  quote          String?
+  position       Int     @default(0)
+
+  world StoryWorld @relation(fields: [worldId], references: [id], onDelete: Cascade)
+
+  @@index([worldId, position])
+}
+
+model StoryArcMeta {
+  id              String  @id
+  worldId         String
+  unitId          String  @unique
+  seasonNo        Int
+  tier            String
+  framework       String
+  level           String
+  position        Int     @default(0)
+  title           String
+  nativeTitle     String
+  synopsis        String
+  culturalAnchors Json
+  cliffhanger     String?
+  episodeCount    Int     @default(20)
+
+  world    StoryWorld         @relation(fields: [worldId], references: [id], onDelete: Cascade)
+  unit     CurriculumUnit     @relation(fields: [unitId], references: [id], onDelete: Cascade)
+  episodes StoryEpisodeMeta[]
+
+  @@unique([worldId, tier, seasonNo])
+  @@index([worldId, seasonNo])
+}
+
+model StoryEpisodeMeta {
+  id             String    @id
+  lessonId       String    @unique
+  arcId          String
+  episodeNo      Int
+  title          String
+  nativeTitle    String
+  hook           String
+  recap          String?
+  cliffhanger    String?
+  focusObject    String?
+  culturalAnchor String?
+  publishedAt    DateTime?
+
+  lesson CurriculumLesson @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  arc    StoryArcMeta     @relation(fields: [arcId], references: [id], onDelete: Cascade)
+  scenes StorySceneMeta[]
+
+  @@unique([arcId, episodeNo])
+  @@index([arcId, episodeNo])
+}
+
+model StorySceneMeta {
+  id                String    @id
+  passageId         String    @unique
+  arcId             String
+  episodeId         String
+  sceneNo           Int
+  title             String
+  titleRomanization String?
+  titleTranslation  Json
+  setting           String
+  estimatedMinutes  Int       @default(4)
+  cliffhanger       String?
+  cultureNoteIds    String[]
+  beat              Json?
+  contentVersion    String
+  status            String    @default("published")
+  publishedAt       DateTime?
+  createdAt         DateTime  @default(now())
+
+  passage   Passage          @relation(fields: [passageId], references: [id], onDelete: Cascade)
+  episode   StoryEpisodeMeta @relation(fields: [episodeId], references: [id], onDelete: Cascade)
+  lines     StoryLine[]
+  materials StoryMaterial[]
+  choices   StoryChoice[]
+  reviews   StoryReview[]
+  revisions StoryRevision[]
+  flags     StoryFlag[]
+
+  @@unique([episodeId, sceneNo])
+  @@index([arcId, sceneNo])
+  @@index([status])
+}
+
+model StoryLine {
+  id           String  @id
+  sceneId      String
+  order        Int
+  speakerId    String?
+  speakerName  String?
+  text         String
+  script       String  @default("latn")
+  reading      String?
+  romanization Json?
+  translation  Json
+  tokens       Json?
+  audio        Json?
+  audioStartMs Int?
+  audioEndMs   Int?
+
+  scene StorySceneMeta @relation(fields: [sceneId], references: [id], onDelete: Cascade)
+
+  @@unique([sceneId, order])
+  @@index([sceneId])
+}
+
+model StoryMaterial {
+  id      String @id
+  sceneId String
+  type    String // vocabulary | grammar | culture | review
+  order   Int
+  title   String
+  body    Json
+  audio   Json?
+
+  scene StorySceneMeta @relation(fields: [sceneId], references: [id], onDelete: Cascade)
+
+  @@unique([sceneId, type, order])
+  @@index([sceneId, type])
+}
+
+model StoryCultureNote {
+  id                String   @id
+  languageCode      String
+  worldId           String
+  title             String
+  body              Json
+  sources           Json
+  reflection        Json?
+  sensitivityStatus String   @default("pending")
+  stampId           String?
+  createdAt         DateTime @default(now())
+
+  world StoryWorld @relation(fields: [worldId], references: [id], onDelete: Cascade)
+
+  @@index([languageCode])
+  @@index([worldId])
+}
+
+model StoryChoice {
+  id      String @id
+  sceneId String
+  prompt  String
+  options Json
+  effects Json?
+
+  scene StorySceneMeta @relation(fields: [sceneId], references: [id], onDelete: Cascade)
+
+  @@index([sceneId])
+}
+
+model StorySceneProgress {
+  userId       String
+  sceneId      String
+  worldId      String
+  languageCode String
+  status       String    @default("in_progress")
+  lastLineId   String?
+  minutes      Int       @default(0)
+  completedAt  DateTime?
+  updatedAt    DateTime  @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@id([userId, sceneId])
+  @@index([userId, languageCode, status])
+  @@index([userId, updatedAt])
+}
+
+model StoryProgress {
+  userId           String
+  languageCode     String
+  worldId          String
+  currentArcId     String?
+  currentEpisodeId String?
+  currentSceneId   String?
+  choices          Json?
+  affinity         Json?
+  updatedAt        DateTime @updatedAt
+
+  user  User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  world StoryWorld @relation(fields: [worldId], references: [id], onDelete: Cascade)
+
+  @@id([userId, languageCode, worldId])
+  @@index([userId, languageCode])
+}
+
+model StoryPassportStamp {
+  userId       String
+  stampId      String
+  languageCode String
+  earnedAt     DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@id([userId, stampId])
+  @@index([userId, languageCode])
+}
+
+model StoryReview {
+  id         String   @id
+  sceneId    String
+  reviewerId String
+  role       String
+  status     String
+  notes      String?
+  checklist  Json?
+  createdAt  DateTime @default(now())
+
+  scene StorySceneMeta @relation(fields: [sceneId], references: [id], onDelete: Cascade)
+
+  @@index([sceneId, role])
+  @@index([status, role])
+}
+
+model StoryRevision {
+  id             String    @id
+  sceneId        String
+  version        Int
+  contentVersion String
+  snapshot       Json
+  createdAt      DateTime  @default(now())
+  publishedAt    DateTime?
+
+  scene StorySceneMeta @relation(fields: [sceneId], references: [id], onDelete: Cascade)
+
+  @@unique([sceneId, version])
+  @@index([sceneId, createdAt])
+}
+
+model StoryFlag {
+  id         String    @id
+  sceneId    String
+  userId     String
+  reason     String
+  note       String?
+  status     String    @default("open")
+  createdAt  DateTime  @default(now())
+  resolvedAt DateTime?
+
+  scene StorySceneMeta @relation(fields: [sceneId], references: [id], onDelete: Cascade)
+  user  User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([status, createdAt])
+  @@index([sceneId])
 }
