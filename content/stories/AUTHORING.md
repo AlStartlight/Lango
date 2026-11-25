@@ -112,3 +112,19 @@ files instead.
   guides for a foreign protagonist.
 - The four supporting materials must quote the scene: vocabulary examples,
   grammar examples, culture reflection, and review cards all point at line ids.
+
+## Packed production assets
+
+`content/stories/{lang}/library/` is generated and gitignored. The files that
+actually ship to production are Brotli-packed and committed under
+`content/stories/compiled/`. After changing `world.json`, `kit.json`, the
+generator, or the packer:
+
+```bash
+npm run content:stories:generate
+npm run content:stories:pack
+npm run check:story:packed
+```
+
+Commit both the source changes and the regenerated `content/stories/compiled/`
+files. CI runs the same check on pull requests that touch story content.
