@@ -396,6 +396,43 @@ body {
   box-shadow: none;
 }
 
+/* Loading shimmer
+   The learner workspace streams a skeleton the moment a navigation starts.
+   A moving highlight makes the in-flight server render legible without
+   faking progress. Colour comes from expedition tokens only. */
+@keyframes exp-shimmer {
+  from {
+    background-position: 150% 0;
+  }
+  to {
+    background-position: -50% 0;
+  }
+}
+
+.exp-skeleton {
+  background-color: var(--exp-container-high);
+  background-image: linear-gradient(
+    100deg,
+    transparent 20%,
+    var(--exp-surface-lowest) 45%,
+    transparent 70%
+  );
+  background-repeat: no-repeat;
+  background-position: 150% 0;
+  background-size: 220% 100%;
+  animation: exp-shimmer 1.6s ease-in-out infinite;
+}
+
+.exp-skeleton-inverse {
+  background-color: rgba(255, 255, 255, 0.16);
+  background-image: linear-gradient(
+    100deg,
+    transparent 20%,
+    rgba(255, 255, 255, 0.34) 45%,
+    transparent 70%
+  );
+}
+
 .exp-pill {
   display: inline-flex;
   align-items: center;
@@ -841,8 +878,14 @@ body {
 
 @media (prefers-reduced-motion: reduce) {
   .exp-float,
-  .exp-pulse-ring::before {
+  .exp-pulse-ring::before,
+  .exp-skeleton {
     animation: none;
+  }
+
+  .exp-skeleton,
+  .exp-skeleton-inverse {
+    background-image: none;
   }
 }
 
