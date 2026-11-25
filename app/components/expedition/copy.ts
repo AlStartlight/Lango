@@ -9,6 +9,8 @@ export interface ExpeditionCopy {
   leaderboard: string;
   store: string;
   survival: string;
+  visaKerja: string;
+  visaKerjaTip: string;
   passport: string;
   adventurer: string;
   shellTip: string;
@@ -233,6 +235,8 @@ const EN: ExpeditionCopy = {
   store: "Avatar & Reward Shop",
   survival: "Survival & Trial",
   passport: "Passport",
+  visaKerja: "Work Visa",
+  visaKerjaTip: "Interview practice",
   adventurer: "Active Adventurer",
   shellTip: "Finish one more chapter today to unlock the mystery chest!",
   survivalTip: "Focused drill",
@@ -449,6 +453,8 @@ const ID: ExpeditionCopy = {
   store: "Toko Avatar & Hadiah",
   survival: "Survival & Trial",
   passport: "Paspor",
+  visaKerja: "Visa Kerja",
+  visaKerjaTip: "Latihan wawancara",
   adventurer: "Petualang Aktif",
   shellTip: "Selesaikan 1 bab lagi hari ini untuk membuka peti misteri!",
   survivalTip: "Latihan fokus",
@@ -664,6 +670,8 @@ const JA: ExpeditionCopy = {
   store: "アバター & 報酬ショップ",
   survival: "サバイバル & トライアル",
   passport: "パスポート",
+  visaKerja: "就労ビザ",
+  visaKerjaTip: "面接練習",
   adventurer: "アクティブな冒険者",
   shellTip: "今日もう1章クリアしてミステリーチェストを開けよう！",
   survivalTip: "集中ドリル",
