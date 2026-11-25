@@ -108,6 +108,12 @@ Lucide React. Stroke-based icons only — no filled variants. Icon sizes: `h-4 w
 - Lesson plan card hover: `translateY(-2px)` + shadow deepens, 150ms ease.
 - Session live badge: slow pulse animation on the red dot indicator.
 
+## Loading States
+
+- **Workspace route transitions use a shimmer skeleton.** `app/[lang]/(expedition)/loading.tsx` streams `WorkspaceDashboardSkeleton` from `app/components/expedition/loading-skeleton.tsx`; it mirrors the dashboard geometry (hero → language/level rail → two-column card grid) so the skeleton-to-content swap does not shift layout. The shell (sidebar/HUD) stays mounted and is never part of the skeleton.
+- **Primitives:** `.exp-skeleton` (light surfaces) and `.exp-skeleton-inverse` (on the green hero) in `globals.css`; the moving highlight is the `exp-shimmer` keyframe. Use `<Skeleton>` blocks from the shared module instead of `animate-pulse` or raw grey utilities, and never show fake progress percentages.
+- **Accessibility:** the loading region is `role="status"` + `aria-busy` with a short visible-to-screen-readers label; blocks are `aria-hidden`. The shimmer stops under `prefers-reduced-motion` while the base fill remains legible.
+
 ## Survival & Trial (Drill Training Camp)
 
 The classic drill workspace moved to `/[lang]/learn/survival` (legacy `/[lang]/editor`, which now redirects) and renders inside the same `StoryShell` / `ExpeditionShell` as every other learner screen. There is no separate dark studio chrome any more: the camp hub (`app/components/expedition/survival-camp.tsx`) opens drills in the main expedition canvas, and each drill runs in a contained module frame with a "Back to camp" control.
