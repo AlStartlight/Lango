@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-11-26",
+  "review": "draft",
+  "note": "Seed v1 for Visa Kerja interview practice. Draft content: native review pending before any 'full' label.",
+  "languages": {
+    "en": {
+      "count": 20,
+      "status": "beta"
+    },
+    "id": {
+      "count": 20,
+      "status": "beta"
+    },
+    "ja": {
+      "count": 20,
+      "status": "beta"
+    }
+  },
+  "tracks": {
+    "screening": 5,
+    "behavioral": 4,
+    "technical": 3,
+    "case": 3,
+    "closing": 3,
+    "panel": 2
+  }
+}

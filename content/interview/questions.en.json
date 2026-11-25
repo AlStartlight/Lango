@@ -1,0 +1,1043 @@
+[
+  {
+    "canonicalId": "iv-scr-001",
+    "track": "screening",
+    "rolePack": "general",
+    "level": "B1",
+    "prompt": "Tell me about yourself.",
+    "translation": "Ceritakan tentang diri Anda.",
+    "romanization": null,
+    "competencies": [
+      "self_presentation",
+      "motivation"
+    ],
+    "expectedLengthSec": [
+      60,
+      90
+    ],
+    "timeLimitSec": 150,
+    "followUps": [
+      "Which part of your background is most relevant to this role?",
+      "Which project are you proudest of, and why?"
+    ],
+    "skeleton": [
+      "Present role and years of experience",
+      "One flagship result with a number",
+      "The strength you are known for",
+      "Why this role, in one sentence"
+    ],
+    "modelAnswer": "I'm a full-stack engineer with seven years of experience building web and mobile products. In my last project I led a five-person team rebuilding a government investment dashboard, cutting report processing from two days to four hours for about 50,000 users. My strength is turning messy requirements into a system that ships. I'm interested in this role because it combines backend depth with product-facing frontend work, which is where I do my best work.",
+    "keyPhrases": [
+      {
+        "target": "cut processing time from two days to four hours",
+        "note": "Concrete result with a before and after."
+      }
+    ],
+    "rubricPoints": [
+      "States current role and years of experience",
+      "Includes at least one measurable result",
+      "Explains why this role specifically"
+    ],
+    "redFlags": [
+      "Recites the CV line by line",
+      "No outcome or number",
+      "Talks for more than two minutes"
+    ],
+    "culturalNote": "60-90 seconds. End with why this role, not with your hobbies.",
+    "keywords": [
+      "years",
+      "experience",
+      "project",
+      "impact",
+      "role"
+    ]
+  },
+  {
+    "canonicalId": "iv-scr-002",
+    "track": "screening",
+    "rolePack": "general",
+    "level": "B1",
+    "prompt": "Why are you interested in this role?",
+    "translation": "Mengapa Anda tertarik dengan posisi ini?",
+    "romanization": null,
+    "competencies": [
+      "motivation",
+      "research"
+    ],
+    "expectedLengthSec": [
+      45,
+      75
+    ],
+    "timeLimitSec": 135,
+    "followUps": [
+      "What do you know about our product?",
+      "What would you change about it?"
+    ],
+    "skeleton": [
+      "Name one concrete thing about the product or team",
+      "Connect it to a problem you have solved",
+      "State what you want to learn here"
+    ],
+    "modelAnswer": "The role connects the two things I do best: backend systems and user-facing interfaces. I looked at your product and noticed the reporting flow still requires manual exports; that is the kind of problem I solved in my last two projects. I also want to work on a team that ships weekly, because that pace keeps my decisions honest.",
+    "keyPhrases": [
+      {
+        "target": "the reporting flow still requires manual exports",
+        "note": "Shows you actually used the product."
+      }
+    ],
+    "rubricPoints": [
+      "Shows specific knowledge of the company",
+      "Connects the role to personal experience",
+      "Avoids generic praise"
+    ],
+    "redFlags": [
+      "Only says the company is famous",
+      "No link to your own work",
+      "Talks only about salary or location"
+    ],
+    "culturalNote": "Research one real detail. Generic enthusiasm is the most common rejection reason.",
+    "keywords": [
+      "product",
+      "team",
+      "problem",
+      "learn",
+      "role"
+    ]
+  },
+  {
+    "canonicalId": "iv-scr-003",
+    "track": "screening",
+    "rolePack": "general",
+    "level": "B1",
+    "prompt": "What are your strengths?",
+    "translation": "Apa kelebihan Anda?",
+    "romanization": null,
+    "competencies": [
+      "self_awareness",
+      "evidence"
+    ],
+    "expectedLengthSec": [
+      45,
+      75
+    ],
+    "timeLimitSec": 135,
+    "followUps": [
+      "Can you give me an example of that?",
+      "How would a teammate describe that strength?"
+    ],
+    "skeleton": [
+      "Name one strength",
+      "Give a short example with a result",
+      "Tie it to the job"
+    ],
+    "modelAnswer": "My strength is breaking a vague problem into steps a team can execute. When we had to migrate authentication without downtime, I split it into audit, dual-write, gradual cutover, and cleanup. About 50,000 users moved with no reported outages, and the checklist became the team standard.",
+    "keyPhrases": [
+      {
+        "target": "without downtime",
+        "note": "Names the constraint that made the work hard."
+      }
+    ],
+    "rubricPoints": [
+      "One strength, not a list",
+      "Includes a concrete example",
+      "Shows the result"
+    ],
+    "redFlags": [
+      "Lists five adjectives",
+      "No example",
+      "Calls yourself a perfectionist"
+    ],
+    "culturalNote": "One strength with evidence beats five adjectives.",
+    "keywords": [
+      "strength",
+      "team",
+      "result",
+      "problem"
+    ]
+  },
+  {
+    "canonicalId": "iv-scr-004",
+    "track": "screening",
+    "rolePack": "general",
+    "level": "B1",
+    "prompt": "What is your biggest weakness?",
+    "translation": "Apa kekurangan Anda?",
+    "romanization": null,
+    "competencies": [
+      "self_awareness",
+      "growth"
+    ],
+    "expectedLengthSec": [
+      45,
+      75
+    ],
+    "timeLimitSec": 135,
+    "followUps": [
+      "What have you done to improve it?",
+      "When did it last affect your work?"
+    ],
+    "skeleton": [
+      "Name a real weakness",
+      "Show the impact it had",
+      "Describe the system you now use"
+    ],
+    "modelAnswer": "I tend to go deep on technical details before updating stakeholders. I noticed it when a design decision sat with me for a week and delayed a client review. Now I send a short Friday note with decisions and open risks, and I timebox exploration to two days before asking for input.",
+    "keyPhrases": [
+      {
+        "target": "I timebox exploration to two days",
+        "note": "Shows a concrete mechanism, not a promise."
+      }
+    ],
+    "rubricPoints": [
+      "Names a real weakness",
+      "Owns the impact",
+      "Shows a specific improvement mechanism"
+    ],
+    "redFlags": [
+      "Claims no weaknesses",
+      "Uses the perfectionist cliché without a mechanism",
+      "Chooses a weakness that is fatal to the role"
+    ],
+    "culturalNote": "Pick a real, non-fatal weakness and show the system you built around it.",
+    "keywords": [
+      "weakness",
+      "improve",
+      "feedback",
+      "impact"
+    ]
+  },
+  {
+    "canonicalId": "iv-scr-005",
+    "track": "screening",
+    "rolePack": "general",
+    "level": "B1",
+    "prompt": "Why are you leaving your current job?",
+    "translation": "Mengapa Anda ingin resign dari pekerjaan sekarang?",
+    "romanization": null,
+    "competencies": [
+      "motivation",
+      "diplomacy"
+    ],
+    "expectedLengthSec": [
+      45,
+      75
+    ],
+    "timeLimitSec": 135,
+    "followUps": [
+      "What would you miss about it?",
+      "What would make you stay?"
+    ],
+    "skeleton": [
+      "Thank the current employer",
+      "State a forward-looking reason",
+      "Connect it to this role"
+    ],
+    "modelAnswer": "I've learned a lot about regulated systems and stakeholder management there. What's missing is the pace and scale of a product team that ships weekly. I want to work where experiments are measured and architecture decisions are revisited with data, and that is what this role offers.",
+    "keyPhrases": [
+      {
+        "target": "What's missing is the pace and scale",
+        "note": "Forward-looking, not a complaint."
+      }
+    ],
+    "rubricPoints": [
+      "Frame the move as growth",
+      "No criticism of people",
+      "Consistent with why you applied here"
+    ],
+    "redFlags": [
+      "Badmouths a manager",
+      "Says only money",
+      "Contradicts your motivation for this role"
+    ],
+    "culturalNote": "Never criticise people. Frame the gap, not the grievance.",
+    "keywords": [
+      "growth",
+      "team",
+      "learn",
+      "role"
+    ]
+  },
+  {
+    "canonicalId": "iv-beh-001",
+    "track": "behavioral",
+    "rolePack": "general",
+    "level": "B2",
+    "prompt": "Tell me about a time you handled a difficult deadline.",
+    "translation": "Ceritakan pengalaman Anda menghadapi tenggat yang ketat.",
+    "romanization": null,
+    "competencies": [
+      "time_management",
+      "prioritization"
+    ],
+    "expectedLengthSec": [
+      90,
+      120
+    ],
+    "timeLimitSec": 180,
+    "followUps": [
+      "What did you cut, and how did you decide?",
+      "Who did you tell, and when?"
+    ],
+    "skeleton": [
+      "Situation and the deadline",
+      "Your specific responsibility",
+      "What you cut, changed, or escalated",
+      "The result with a number"
+    ],
+    "modelAnswer": "We had a two-week window to ship a compliance feature for a government client, and I owned the API and the migration. On day four I realised the legacy data cleanup was underestimated, so I flagged it immediately, cut one non-critical report, and paired with QA on a staged rollout. We shipped one day late with zero data issues.",
+    "keyPhrases": [
+      {
+        "target": "flagged it immediately",
+        "note": "Shows early escalation, not heroics."
+      }
+    ],
+    "rubricPoints": [
+      "States the constraint",
+      "Shows a personal action",
+      "Explains the trade-off",
+      "Ends with a result"
+    ],
+    "redFlags": [
+      "Blames the team",
+      "No trade-off explained",
+      "Ends before the outcome"
+    ],
+    "culturalNote": "One missed deadline can be a strong answer if the escalation is early and specific.",
+    "keywords": [
+      "deadline",
+      "trade-off",
+      "result",
+      "team"
+    ]
+  },
+  {
+    "canonicalId": "iv-beh-002",
+    "track": "behavioral",
+    "rolePack": "general",
+    "level": "B2",
+    "prompt": "Describe a conflict with a colleague and how you resolved it.",
+    "translation": "Bagaimana Anda menyelesaikan konflik dengan rekan kerja?",
+    "romanization": null,
+    "competencies": [
+      "conflict",
+      "collaboration"
+    ],
+    "expectedLengthSec": [
+      90,
+      120
+    ],
+    "timeLimitSec": 180,
+    "followUps": [
+      "What would you do differently?",
+      "How is your relationship now?"
+    ],
+    "skeleton": [
+      "The disagreement, in neutral terms",
+      "What you did to understand the other side",
+      "The decision rule you agreed on",
+      "The outcome"
+    ],
+    "modelAnswer": "A QA lead and I disagreed on whether a flaky test should block a release. I asked for 30 minutes to map user impact per failing case, and we agreed on a shared severity rubric. We shipped the critical fixes first, and that rubric became our team's triage standard.",
+    "keyPhrases": [
+      {
+        "target": "map user impact per failing case",
+        "note": "Moves the argument from opinion to criteria."
+      }
+    ],
+    "rubricPoints": [
+      "Describes the conflict without blaming",
+      "Shows a concrete de-escalation step",
+      "Outcome benefits the team"
+    ],
+    "redFlags": [
+      "Says you never have conflicts",
+      "Portrays the other person as irrational",
+      "Resolves it by avoiding the person"
+    ],
+    "culturalNote": "Focus on the decision rule, not on who was right.",
+    "keywords": [
+      "conflict",
+      "agree",
+      "team",
+      "result"
+    ]
+  },
+  {
+    "canonicalId": "iv-beh-003",
+    "track": "behavioral",
+    "rolePack": "general",
+    "level": "B1",
+    "prompt": "Tell me about a time you failed.",
+    "translation": "Ceritakan pengalaman gagal Anda.",
+    "romanization": null,
+    "competencies": [
+      "resilience",
+      "accountability"
+    ],
+    "expectedLengthSec": [
+      90,
+      120
+    ],
+    "timeLimitSec": 180,
+    "followUps": [
+      "What did you change afterwards?",
+      "Did the same problem happen again?"
+    ],
+    "skeleton": [
+      "The failure and your role in it",
+      "The impact",
+      "The root cause",
+      "The prevention you built"
+    ],
+    "modelAnswer": "I once released a payment change without testing the refund path. Two customers were charged twice, and I owned the fix and the apology. The root cause was that our checklist relied on memory, so I turned it into a required pull-request template. We had no repeat in the next year.",
+    "keyPhrases": [
+      {
+        "target": "I owned the fix and the apology",
+        "note": "Accountability without drama."
+      }
+    ],
+    "rubricPoints": [
+      "Owns the mistake",
+      "States real impact",
+      "Shows prevention, not just regret"
+    ],
+    "redFlags": [
+      "Blames a teammate",
+      "Picks a fake failure",
+      "No prevention step"
+    ],
+    "culturalNote": "Choose a failure with real consequences and show the system you changed.",
+    "keywords": [
+      "failure",
+      "impact",
+      "prevent",
+      "learn"
+    ]
+  },
+  {
+    "canonicalId": "iv-beh-004",
+    "track": "behavioral",
+    "rolePack": "general",
+    "level": "B2",
+    "prompt": "Tell me about a time you led a project.",
+    "translation": "Ceritakan pengalaman Anda memimpin proyek.",
+    "romanization": null,
+    "competencies": [
+      "leadership",
+      "planning"
+    ],
+    "expectedLengthSec": [
+      90,
+      120
+    ],
+    "timeLimitSec": 180,
+    "followUps": [
+      "How did you handle a teammate who disagreed?",
+      "What did you delegate?"
+    ],
+    "skeleton": [
+      "The goal and the team size",
+      "How you split the work",
+      "How you tracked and unblocked",
+      "The result"
+    ],
+    "modelAnswer": "I led five engineers rebuilding an investment dashboard for a ministry. I split the work by risk, ran a 15-minute daily unblock session, and kept a public decision log. We delivered two weeks early and cut report processing from two days to four hours. Two of the engineers later led their own modules.",
+    "keyPhrases": [
+      {
+        "target": "kept a public decision log",
+        "note": "Shows a repeatable leadership practice."
+      }
+    ],
+    "rubricPoints": [
+      "States team size and goal",
+      "Shows how work was split",
+      "Mentions unblocking or decisions",
+      "Ends with a result"
+    ],
+    "redFlags": [
+      "Describes only coding",
+      "Takes all the credit",
+      "No result"
+    ],
+    "culturalNote": "Leadership is about unblocking and decisions, not about doing everything yourself.",
+    "keywords": [
+      "led",
+      "team",
+      "result",
+      "decision"
+    ]
+  },
+  {
+    "canonicalId": "iv-tec-001",
+    "track": "technical",
+    "rolePack": "software",
+    "level": "B2",
+    "prompt": "Walk me through the architecture of a system you built.",
+    "translation": "Jelaskan arsitektur sistem yang pernah Anda bangun.",
+    "romanization": null,
+    "competencies": [
+      "architecture",
+      "communication"
+    ],
+    "expectedLengthSec": [
+      90,
+      180
+    ],
+    "timeLimitSec": 240,
+    "followUps": [
+      "What would you change if traffic grew ten times?",
+      "Where is the single point of failure?"
+    ],
+    "skeleton": [
+      "The requirements and constraints",
+      "The main components and data flow",
+      "The trade-offs you chose",
+      "What you would change now"
+    ],
+    "modelAnswer": "It was a government reporting platform: a Next.js frontend, a Spring Boot API, PostgreSQL, and a queue for heavy exports. The constraint was a strict audit trail, so every write went through the API and into an append-only event table. Exports moved to a worker to keep requests under 300 milliseconds. Today I would add read replicas earlier.",
+    "keyPhrases": [
+      {
+        "target": "every write went through the API",
+        "note": "Ties a component choice to a requirement."
+      }
+    ],
+    "rubricPoints": [
+      "Explains requirements first",
+      "Names components and data flow",
+      "States at least one trade-off",
+      "Mentions what you would change"
+    ],
+    "redFlags": [
+      "Lists technologies with no reason",
+      "No data flow",
+      "Pretends there were no trade-offs"
+    ],
+    "culturalNote": "Lead with constraints, then components, then trade-offs.",
+    "keywords": [
+      "architecture",
+      "api",
+      "database",
+      "trade-off"
+    ]
+  },
+  {
+    "canonicalId": "iv-tec-002",
+    "track": "technical",
+    "rolePack": "software",
+    "level": "B2",
+    "prompt": "Tell me about a trade-off you made for performance.",
+    "translation": "Ceritakan trade-off yang Anda ambil demi performa.",
+    "romanization": null,
+    "competencies": [
+      "performance",
+      "judgment"
+    ],
+    "expectedLengthSec": [
+      90,
+      150
+    ],
+    "timeLimitSec": 210,
+    "followUps": [
+      "How did you measure the improvement?",
+      "What did you give up?"
+    ],
+    "skeleton": [
+      "The slow path and how you measured it",
+      "The options you considered",
+      "The trade-off you chose",
+      "The measured result"
+    ],
+    "modelAnswer": "A dashboard query took nine seconds on 200,000 rows. I added a composite index and a nightly materialised summary. It dropped to under 400 milliseconds, at the cost of data being up to one day stale for one widget. We labelled that widget with a timestamp so users understood the delay.",
+    "keyPhrases": [
+      {
+        "target": "at the cost of data being up to one day stale",
+        "note": "Names the price of the optimisation."
+      }
+    ],
+    "rubricPoints": [
+      "Quantifies the before and after",
+      "Names the cost of the trade-off",
+      "Shows measurement, not intuition"
+    ],
+    "redFlags": [
+      "Says it was simply faster",
+      "No numbers",
+      "Hides the downside"
+    ],
+    "culturalNote": "A trade-off answer needs the cost, not only the win.",
+    "keywords": [
+      "performance",
+      "measure",
+      "cost",
+      "result"
+    ]
+  },
+  {
+    "canonicalId": "iv-tec-003",
+    "track": "technical",
+    "rolePack": "software",
+    "level": "B2",
+    "prompt": "Describe a production incident you handled.",
+    "translation": "Ceritakan insiden produksi yang pernah Anda tangani.",
+    "romanization": null,
+    "competencies": [
+      "operations",
+      "composure"
+    ],
+    "expectedLengthSec": [
+      90,
+      150
+    ],
+    "timeLimitSec": 210,
+    "followUps": [
+      "What was the root cause?",
+      "What changed in your process?"
+    ],
+    "skeleton": [
+      "The symptom and impact",
+      "Your immediate action",
+      "The root cause",
+      "The prevention"
+    ],
+    "modelAnswer": "A release caused 12 percent of API requests to fail. I was on call, so I rolled back within eight minutes and opened an incident timeline. The cause was a migration that dropped an index. We restored the index, then added a migration checklist and index monitoring. There was no repeat in six months.",
+    "keyPhrases": [
+      {
+        "target": "rolled back within eight minutes",
+        "note": "Shows action under pressure."
+      }
+    ],
+    "rubricPoints": [
+      "States impact",
+      "Shows immediate mitigation",
+      "Identifies root cause",
+      "Adds prevention"
+    ],
+    "redFlags": [
+      "Panics or blames the deployer",
+      "No mitigation step",
+      "Stops at the fix"
+    ],
+    "culturalNote": "Interviewers care more about your process than about the outage itself.",
+    "keywords": [
+      "incident",
+      "rollback",
+      "root cause",
+      "prevent"
+    ]
+  },
+  {
+    "canonicalId": "iv-cas-001",
+    "track": "case",
+    "rolePack": "software",
+    "level": "B2",
+    "prompt": "You have three urgent requests and one engineer. How do you prioritize?",
+    "translation": "Ada tiga permintaan mendesak dan satu engineer. Bagaimana Anda memprioritaskan?",
+    "romanization": null,
+    "competencies": [
+      "prioritization",
+      "communication"
+    ],
+    "expectedLengthSec": [
+      120,
+      180
+    ],
+    "timeLimitSec": 240,
+    "followUps": [
+      "What if the CEO owns one of them?",
+      "How do you communicate the delay?"
+    ],
+    "skeleton": [
+      "Clarify impact and reversibility",
+      "Rank by damage if delayed",
+      "Decide and tell stakeholders",
+      "Set a review point"
+    ],
+    "modelAnswer": "First I separate impact from urgency: what breaks, for whom, and can it be undone. Then I rank by damage per day of delay. I would fix the data-loss issue, schedule the revenue-blocking fix for tomorrow, and tell the third stakeholder the date and the reason. I confirm the ranking with my manager in writing.",
+    "keyPhrases": [
+      {
+        "target": "damage per day of delay",
+        "note": "A clear, defensible ranking rule."
+      }
+    ],
+    "rubricPoints": [
+      "Uses explicit criteria",
+      "Communicates the delay",
+      "Names the trade-off"
+    ],
+    "redFlags": [
+      "Says everything is urgent",
+      "Prioritises by who shouted loudest",
+      "No stakeholder communication"
+    ],
+    "culturalNote": "Give a rule, then apply it to the three items.",
+    "keywords": [
+      "prioritize",
+      "impact",
+      "stakeholder",
+      "risk"
+    ]
+  },
+  {
+    "canonicalId": "iv-cas-002",
+    "track": "case",
+    "rolePack": "software",
+    "level": "B2",
+    "prompt": "A key feature is failing for 10% of users. How do you investigate?",
+    "translation": "Fitur utama gagal untuk 10% pengguna. Bagaimana Anda menyelidikinya?",
+    "romanization": null,
+    "competencies": [
+      "diagnosis",
+      "data"
+    ],
+    "expectedLengthSec": [
+      120,
+      180
+    ],
+    "timeLimitSec": 240,
+    "followUps": [
+      "What data would you look at first?",
+      "How do you decide to roll back?"
+    ],
+    "skeleton": [
+      "Confirm the scope with data",
+      "Form a hypothesis about the common factor",
+      "Test the hypothesis safely",
+      "Decide on rollback or fix"
+    ],
+    "modelAnswer": "I would first check whether the 10 percent correlates with device, region, role, or a recent release. If it started with the last deploy, I roll back first and investigate after. Then I reproduce with one affected account, add logging if needed, and ship a fix behind a flag to a small group.",
+    "keyPhrases": [
+      {
+        "target": "If it started with the last deploy, I roll back first",
+        "note": "Prioritises restoring service."
+      }
+    ],
+    "rubricPoints": [
+      "Starts from data, not guesses",
+      "Separates mitigation from diagnosis",
+      "Uses a safe rollout"
+    ],
+    "redFlags": [
+      "Immediately rewrites the feature",
+      "No rollback consideration",
+      "No measurement plan"
+    ],
+    "culturalNote": "State the first diagnostic cut before proposing a fix.",
+    "keywords": [
+      "debug",
+      "scope",
+      "rollback",
+      "data"
+    ]
+  },
+  {
+    "canonicalId": "iv-cas-003",
+    "track": "case",
+    "rolePack": "general",
+    "level": "B2",
+    "prompt": "How would you reduce onboarding drop-off by half?",
+    "translation": "Bagaimana Anda mengurangi drop-off onboarding hingga setengah?",
+    "romanization": null,
+    "competencies": [
+      "product",
+      "analytics"
+    ],
+    "expectedLengthSec": [
+      120,
+      180
+    ],
+    "timeLimitSec": 240,
+    "followUps": [
+      "Which step would you test first?",
+      "How would you know it worked?"
+    ],
+    "skeleton": [
+      "Define the funnel and the biggest drop",
+      "Pick one hypothesis",
+      "Design a small experiment",
+      "Set the success metric"
+    ],
+    "modelAnswer": "I would map the funnel step by step and find where the largest drop happens. If it is the email verification step, I would test social login and a resumable flow for one cohort. Success is verification completion within 24 hours, measured against a holdout group before a full rollout.",
+    "keyPhrases": [
+      {
+        "target": "measured against a holdout group",
+        "note": "Shows a real experiment design."
+      }
+    ],
+    "rubricPoints": [
+      "Names the funnel and the metric",
+      "Prioritises one hypothesis",
+      "Includes a control group"
+    ],
+    "redFlags": [
+      "Suggests a redesign with no metric",
+      "Tests many things at once",
+      "No baseline"
+    ],
+    "culturalNote": "Pick one step, one change, one metric.",
+    "keywords": [
+      "funnel",
+      "experiment",
+      "metric",
+      "drop-off"
+    ]
+  },
+  {
+    "canonicalId": "iv-clo-001",
+    "track": "closing",
+    "rolePack": "general",
+    "level": "B1",
+    "prompt": "What are your salary expectations?",
+    "translation": "Berapa ekspektasi gaji Anda?",
+    "romanization": null,
+    "competencies": [
+      "negotiation",
+      "research"
+    ],
+    "expectedLengthSec": [
+      45,
+      75
+    ],
+    "timeLimitSec": 135,
+    "followUps": [
+      "What is your minimum?",
+      "How did you arrive at that range?"
+    ],
+    "skeleton": [
+      "Give a researched range",
+      "Name the basis",
+      "Signal flexibility on the package",
+      "Ask for their band"
+    ],
+    "modelAnswer": "Based on market data for a senior role with backend and mobile scope, I'm targeting a range of 18 to 24 million gross per month, and I'm open to discussing the total package. Could you share the band for this role so we can align?",
+    "keyPhrases": [
+      {
+        "target": "open to discussing the total package",
+        "note": "Keeps the conversation alive."
+      }
+    ],
+    "rubricPoints": [
+      "Gives a range, not one number",
+      "Explains the basis",
+      "Invites their band"
+    ],
+    "redFlags": [
+      "Names a number with no basis",
+      "Immediately lowers the range",
+      "Refuses to answer"
+    ],
+    "culturalNote": "Say gross, say range, and ask for their band.",
+    "keywords": [
+      "salary",
+      "range",
+      "market",
+      "package"
+    ]
+  },
+  {
+    "canonicalId": "iv-clo-002",
+    "track": "closing",
+    "rolePack": "general",
+    "level": "B1",
+    "prompt": "What is your notice period, and are you authorized to work here?",
+    "translation": "Berapa lama notice period Anda, dan bagaimana status izin kerja Anda?",
+    "romanization": null,
+    "competencies": [
+      "logistics",
+      "honesty"
+    ],
+    "expectedLengthSec": [
+      45,
+      75
+    ],
+    "timeLimitSec": 135,
+    "followUps": [
+      "Would you need relocation support?",
+      "When could you start?"
+    ],
+    "skeleton": [
+      "State the notice period",
+      "State your work authorization honestly",
+      "Offer the earliest start date",
+      "Mention relocation needs early"
+    ],
+    "modelAnswer": "My notice period is one month, so I could start in early March. I currently hold an Indonesian passport and would need a work visa for this role; I have the documents ready and can start the process immediately. I am also open to relocating.",
+    "keyPhrases": [
+      {
+        "target": "would need a work visa",
+        "note": "Honest and specific about authorization."
+      }
+    ],
+    "rubricPoints": [
+      "States notice period clearly",
+      "Is honest about visa status",
+      "Gives a realistic start date"
+    ],
+    "redFlags": [
+      "Vague about authorization",
+      "Promises a start date you cannot meet",
+      "Hides relocation needs"
+    ],
+    "culturalNote": "Never guess about visa status; say what you know and what you will handle.",
+    "keywords": [
+      "notice",
+      "visa",
+      "start",
+      "relocate"
+    ]
+  },
+  {
+    "canonicalId": "iv-clo-003",
+    "track": "closing",
+    "rolePack": "general",
+    "level": "A2",
+    "prompt": "Do you have any questions for us?",
+    "translation": "Apa pertanyaan Anda untuk kami?",
+    "romanization": null,
+    "competencies": [
+      "engagement",
+      "research"
+    ],
+    "expectedLengthSec": [
+      30,
+      60
+    ],
+    "timeLimitSec": 120,
+    "followUps": [
+      "Apa yang ingin Anda ketahui sebelum menerima tawaran?",
+      "Apa pertanyaan Anda tentang tim ini?"
+    ],
+    "skeleton": [
+      "Ask about success in the first six months",
+      "Ask how decisions are made",
+      "Ask about the hardest current problem"
+    ],
+    "modelAnswer": "Yes, three things. What does success look like in the first six months? How do product and engineering make technical trade-offs? And what is the hardest problem the team wants to solve this year?",
+    "keyPhrases": [
+      {
+        "target": "What does success look like in the first six months?",
+        "note": "Signals you plan to deliver, not just attend."
+      }
+    ],
+    "rubricPoints": [
+      "Asks two or three specific questions",
+      "Shows research",
+      "Avoids salary and leave in the first question"
+    ],
+    "redFlags": [
+      "Says you have no questions",
+      "Asks only about holidays",
+      "Asks something answered on the website"
+    ],
+    "culturalNote": "Have three questions ready; two about the work, one about the team.",
+    "keywords": [
+      "questions",
+      "success",
+      "team",
+      "problem"
+    ]
+  },
+  {
+    "canonicalId": "iv-pan-001",
+    "track": "panel",
+    "rolePack": "general",
+    "level": "B2",
+    "prompt": "Why is there a six-month gap in your CV?",
+    "translation": "Mengapa ada jeda enam bulan di CV Anda?",
+    "romanization": null,
+    "competencies": [
+      "composure",
+      "honesty"
+    ],
+    "expectedLengthSec": [
+      45,
+      90
+    ],
+    "timeLimitSec": 150,
+    "followUps": [
+      "What did you learn during that time?",
+      "How did you stay current?"
+    ],
+    "skeleton": [
+      "State the reason briefly and factually",
+      "Say what you did during the gap",
+      "Show how you stayed current",
+      "Return to the role"
+    ],
+    "modelAnswer": "I took six months to care for a family member and to complete a cloud certification. I kept a small open-source project active and stayed in touch with two former colleagues. The situation is resolved, and I am ready to work full time.",
+    "keyPhrases": [
+      {
+        "target": "I kept a small open-source project active",
+        "note": "Shows the gap was not passive."
+      }
+    ],
+    "rubricPoints": [
+      "Explains the gap without oversharing",
+      "Shows activity during it",
+      "Confirms availability"
+    ],
+    "redFlags": [
+      "Apologises repeatedly",
+      "Invents a story",
+      "Leaves the gap unexplained"
+    ],
+    "culturalNote": "Be brief, factual, and end with availability.",
+    "keywords": [
+      "gap",
+      "learn",
+      "available",
+      "reason"
+    ]
+  },
+  {
+    "canonicalId": "iv-pan-002",
+    "track": "panel",
+    "rolePack": "general",
+    "level": "C1",
+    "prompt": "You disagree with the whole panel. How do you say it?",
+    "translation": "Anda tidak setuju dengan seluruh panel. Bagaimana Anda menyampaikannya?",
+    "romanization": null,
+    "competencies": [
+      "courage",
+      "diplomacy"
+    ],
+    "expectedLengthSec": [
+      60,
+      120
+    ],
+    "timeLimitSec": 180,
+    "followUps": [
+      "What if they still disagree?",
+      "How do you decide when to stop pushing?"
+    ],
+    "skeleton": [
+      "Acknowledge the shared goal",
+      "State your concern with evidence",
+      "Offer a test or a compromise",
+      "Commit to the decision once made"
+    ],
+    "modelAnswer": "I would start from the goal we share, then say what evidence makes me hesitate. I would propose a small test that could settle it, and if the panel still decides otherwise, I would commit and document my concern so we can revisit it with data.",
+    "keyPhrases": [
+      {
+        "target": "a small test that could settle it",
+        "note": "Turns disagreement into a decision mechanism."
+      }
+    ],
+    "rubricPoints": [
+      "Disagrees with evidence",
+      "Offers a test or compromise",
+      "Commits after the decision"
+    ],
+    "redFlags": [
+      "Stays silent and resents it",
+      "Becomes combative",
+      "Refuses to commit"
+    ],
+    "culturalNote": "Disagree and commit, with the concern written down.",
+    "keywords": [
+      "disagree",
+      "evidence",
+      "commit",
+      "decision"
+    ]
+  }
+]

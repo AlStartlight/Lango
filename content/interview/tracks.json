@@ -1,0 +1,62 @@
+[
+  {
+    "id": "screening",
+    "label": {
+      "en": "Screening & introduction",
+      "id": "Screening & perkenalan",
+      "ja": "スクリーニング・自己紹介"
+    },
+    "level": "A2",
+    "minutes": 5
+  },
+  {
+    "id": "behavioral",
+    "label": {
+      "en": "Behavioural (STAR)",
+      "id": "Perilaku (STAR)",
+      "ja": "行動面接（STAR）"
+    },
+    "level": "B1",
+    "minutes": 8
+  },
+  {
+    "id": "technical",
+    "label": {
+      "en": "Technical",
+      "id": "Teknis",
+      "ja": "技術面接"
+    },
+    "level": "B2",
+    "minutes": 10
+  },
+  {
+    "id": "case",
+    "label": {
+      "en": "Case & problem solving",
+      "id": "Studi kasus",
+      "ja": "ケース面接"
+    },
+    "level": "B2",
+    "minutes": 12
+  },
+  {
+    "id": "closing",
+    "label": {
+      "en": "Salary & closing",
+      "id": "Gaji & penutup",
+      "ja": "条件・交渉"
+    },
+    "level": "B1",
+    "minutes": 6
+  },
+  {
+    "id": "panel",
+    "label": {
+      "en": "Panel & pressure",
+      "id": "Panel & tekanan",
+      "ja": "パネル・圧迫"
+    },
+    "level": "B2",
+    "minutes": 10
+  }
+]
