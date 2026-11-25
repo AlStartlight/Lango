@@ -58,3 +58,4 @@ app/lib/generated/
 
 # generated story libraries (deterministic; rebuild with `npm run content:stories:generate`)
 content/stories/*/library/
+content/stories/compiled/

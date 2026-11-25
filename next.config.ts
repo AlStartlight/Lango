@@ -8,6 +8,46 @@ const nextConfig: NextConfig = {
   // Next blocks dev-only resources (HMR) from non-initial hostnames by default,
   // which leaves the error overlay stuck on stale errors. Allow it in dev.
   allowedDevOrigins: ["127.0.0.1"],
+
+  // Story content is generated at build time and stored as Brotli files under
+  // content/stories/compiled. Only the routes that can render story content
+  // need those files in their server trace; including them everywhere would
+  // multiply ~14 MB by every function in the deployment.
+  outputFileTracingIncludes: (() => {
+    const storyContent = ["./content/stories/compiled/**/*.json.br"];
+    const pages = [
+      "/*/leaderboard",
+      "/*/learn",
+      "/*/learn/**",
+      "/*/passport",
+      "/*/practice",
+      "/*/reader",
+      "/*/reader/**",
+      "/*/results",
+      "/*/results/**",
+      "/*/settings/**",
+      "/*/store",
+      "/*/stories",
+      "/*/stories/**",
+      "/*/vault",
+    ];
+    const api = [
+      "/api/v1/characters",
+      "/api/v1/episodes/**",
+      "/api/v1/materials/**",
+      "/api/v1/passport",
+      "/api/v1/review/rate",
+      "/api/v1/scenes/**",
+      "/api/v1/stories",
+      "/api/v1/stories/**",
+      "/api/v1/story-attempts",
+      "/api/v1/story-choices",
+      "/api/v1/story-progress",
+    ];
+    return Object.fromEntries(
+      [...pages, ...api].map((route) => [route, storyContent]),
+    );
+  })(),
   
   // Image optimization
   images: {

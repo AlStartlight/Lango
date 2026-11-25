@@ -1,6 +1,7 @@
 import "server-only";
 import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
+import { brotliDecompressSync } from "node:zlib";
 import type {
   ArcExport,
   EpisodeExport,
@@ -35,14 +36,45 @@ globalCache.__langoStoryContentCache = cache;
 const MAX_CACHE = 3;
 
 function readLanguage(language: string): StoryWorldContent {
-  const directory = join(process.cwd(), "content", "stories", language, "library");
+  // Production builds ship only the Brotli-compressed libraries (about 13 MB
+  // for all 13 languages) so the server bundle stays inside Vercel's limit.
+  // Local development and content validation use the raw JSON.
+  const candidates = [
+    {
+      directory: join(process.cwd(), "content", "stories", "compiled", language),
+      suffix: ".json.br",
+      packed: true,
+    },
+    {
+      directory: join(process.cwd(), "content", "stories", language, "library"),
+      suffix: ".json",
+      packed: false,
+    },
+  ];
+
+  let directory = "";
   let files: string[] = [];
-  try {
-    files = readdirSync(directory).filter((file) => file.endsWith(".json")).sort();
-  } catch {
+  let packed = false;
+
+  for (const candidate of candidates) {
+    try {
+      const found = readdirSync(candidate.directory)
+        .filter((file) => file.endsWith(candidate.suffix))
+        .sort();
+      if (found.length > 0) {
+        directory = candidate.directory;
+        files = found;
+        packed = candidate.packed;
+        break;
+      }
+    } catch {
+      // Try the next representation.
+    }
+  }
+
+  if (files.length === 0) {
     throw new Error(`Story library not found for ${language}`);
   }
-  if (files.length === 0) throw new Error(`Story library is empty for ${language}`);
 
   let world: LibraryExport["world"] | null = null;
   const levels: LibraryExport["level"][] = [];
@@ -52,7 +84,11 @@ function readLanguage(language: string): StoryWorldContent {
   const materials = new Map<string, StoryMaterialExport>();
 
   for (const file of files) {
-    const library = JSON.parse(readFileSync(join(directory, file), "utf8")) as LibraryExport;
+    const raw = readFileSync(join(directory, file));
+    const text = packed
+      ? brotliDecompressSync(raw).toString("utf8")
+      : raw.toString("utf8");
+    const library = JSON.parse(text) as LibraryExport;
     if (library.language !== language) continue;
     world ??= library.world;
     levels.push(library.level);

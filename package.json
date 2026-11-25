@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run content:stories:generate && npm run content:stories:pack && next build",
     "start": "next start",
     "lint": "eslint",
     "seed": "tsx prisma/seed.ts",
@@ -23,6 +23,7 @@
     "test:speech": "tsx scripts/test-speech.ts",
     "content:publish": "tsx scripts/content/publish.ts",
     "content:stories:generate": "tsx scripts/story/generate.ts",
+    "content:stories:pack": "tsx scripts/story/pack.ts",
     "content:stories:validate": "tsx scripts/story/validate.ts",
     "content:stories:report": "tsx scripts/story/report.ts",
     "content:stories:import": "tsx scripts/story/copy-import.ts",
