@@ -1,11 +1,13 @@
 "use client";
 
 import { useState, useRef } from "react";
+import { useTranslation } from "react-i18next";
+import { ExerciseFeedback } from "./exercise-feedback";
 import type { GrammarExercise } from "./types";
 
 interface CorrectionProps {
   exercise: GrammarExercise;
-  onAnswer: (correct: boolean) => void;
+  onAnswer: (correct: boolean, answer: string) => void;
 }
 
 function normalizeCorrection(input: string): string {
@@ -16,10 +18,7 @@ function normalizeCorrection(input: string): string {
     .replace(/\s+/g, " ");
 }
 
-function isCorrectionCorrect(
-  input: string,
-  exercise: GrammarExercise,
-): boolean {
+function isCorrectionCorrect(input: string, exercise: GrammarExercise): boolean {
   const normalized = normalizeCorrection(input);
   const allAnswers = [
     exercise.correctAnswer,
@@ -29,19 +28,24 @@ function isCorrectionCorrect(
   return allAnswers.includes(normalized);
 }
 
+function answerText(value: string | string[]): string {
+  return Array.isArray(value) ? value[0] ?? "" : value;
+}
+
 export function Correction({ exercise, onAnswer }: CorrectionProps) {
+  const { t } = useTranslation();
   const [input, setInput] = useState(exercise.context ?? "");
   const [showResult, setShowResult] = useState(false);
   const [correct, setCorrect] = useState(false);
   const [showHint, setShowHint] = useState(false);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
 
+  const correctAnswer = answerText(exercise.correctAnswer);
+
   const handleSubmit = () => {
     if (showResult || !input.trim()) return;
-    const isCorrect = isCorrectionCorrect(input, exercise);
-    setCorrect(isCorrect);
+    setCorrect(isCorrectionCorrect(input, exercise));
     setShowResult(true);
-    setTimeout(() => onAnswer(isCorrect), 1000);
   };
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
@@ -50,20 +54,27 @@ export function Correction({ exercise, onAnswer }: CorrectionProps) {
     }
   };
 
+  const handleContinue = () => {
+    onAnswer(correct, input);
+  };
+
   return (
     <div className="space-y-4">
-      <p className="text-sm text-white/90 font-medium">{exercise.question}</p>
+      <p className="text-sm font-medium text-exp-on-surface">{exercise.question}</p>
 
       {exercise.hint && !showResult && (
-        <div className="flex items-start gap-2">
+        <div className="flex flex-wrap items-start gap-2">
           <button
+            type="button"
             onClick={() => setShowHint(!showHint)}
-            className="text-xs text-white/30 hover:text-white/50 transition-colors"
+            className="min-h-11 text-xs text-exp-on-surface-muted underline-offset-4 hover:text-exp-on-surface-variant hover:underline"
           >
-            {showHint ? "Hide hint" : "Show hint"}
+            {showHint
+              ? t("learning.grammar.hideHint")
+              : t("learning.grammar.showHint")}
           </button>
           {showHint && (
-            <p className="text-xs text-yellow-400/70 italic animate-fade-in-up">
+            <p className="text-xs italic text-exp-secondary animate-fade-in-up">
               {exercise.hint}
             </p>
           )}
@@ -71,32 +82,36 @@ export function Correction({ exercise, onAnswer }: CorrectionProps) {
       )}
 
       <div className="space-y-3">
-        <div className="rounded-xl bg-red-600/10 border border-red-500/20 px-4 py-3">
-          <p className="text-xs text-red-400/60 font-medium mb-1">
-            Sentence with error:
+        <div className="rounded-xl border border-exp-error/20 bg-exp-error/10 px-4 py-3">
+          <p className="mb-1 text-xs font-medium text-exp-error/80">
+            {t("learning.grammar.sentenceWithError")}:
           </p>
-          <p className="text-sm text-red-400/80 line-through">
+          <p className="text-sm text-exp-error/90 line-through">
             {exercise.context}
           </p>
         </div>
 
         <div>
-          <label className="text-xs text-white/40 font-medium mb-1.5 block">
-            Write the corrected sentence:
+          <label
+            htmlFor="grammar-correction-input"
+            className="mb-1.5 block text-xs font-medium text-exp-on-surface-variant"
+          >
+            {t("learning.grammar.writeCorrection")}
           </label>
           <textarea
+            id="grammar-correction-input"
             ref={textareaRef}
             value={input}
             onChange={(e) => !showResult && setInput(e.target.value)}
             onKeyDown={handleKeyDown}
             disabled={showResult}
             rows={2}
-            className={`w-full rounded-xl border bg-[#1e1e1e] px-4 py-3 text-sm text-white placeholder-white/20 outline-none resize-none transition-all duration-200 ${
+            className={`w-full resize-none rounded-xl border bg-exp-surface-lowest px-4 py-3 text-sm text-exp-on-surface placeholder:text-exp-on-surface-muted outline-none transition-colors duration-200 ${
               showResult
                 ? correct
-                  ? "border-green-500/50 bg-green-600/10"
-                  : "border-red-500/40 bg-red-600/10"
-                : "border-[#2a2a2a] focus:border-lime/50 focus:ring-2 focus:ring-lime/20"
+                  ? "border-exp-success/60 bg-exp-primary-container/10"
+                  : "border-exp-error/50 bg-exp-error/10"
+                : "border-exp-container-high focus:border-exp-primary-container/60 focus:ring-2 focus:ring-exp-primary/20"
             }`}
             autoFocus
           />
@@ -104,38 +119,24 @@ export function Correction({ exercise, onAnswer }: CorrectionProps) {
 
         {!showResult && (
           <button
+            type="button"
             onClick={handleSubmit}
             disabled={!input.trim()}
-            className="px-5 py-2.5 rounded-xl bg-lime text-[#171717] font-semibold text-sm hover:bg-lime-dark disabled:opacity-30 disabled:cursor-not-allowed active:scale-[0.97] transition-all duration-150"
+            className="exp-btn exp-btn-primary disabled:cursor-not-allowed"
           >
-            Check Correction
+            {t("learning.grammar.checkAnswer")}
           </button>
         )}
       </div>
 
       {showResult && (
-        <div className="animate-fade-in-up rounded-xl bg-[#252525] border border-[#333] p-4 space-y-2">
-          <p
-            className={`text-sm font-medium ${
-              correct ? "text-green-400" : "text-red-400"
-            }`}
-          >
-            {correct
-              ? "✓ Perfect correction!"
-              : "✗ Not quite right"}
-          </p>
-          {!correct && (
-            <p className="text-sm text-white/60">
-              Correct version:{" "}
-              <span className="text-white/90 font-medium">
-                {exercise.correctAnswer}
-              </span>
-            </p>
-          )}
-          <p className="text-sm text-white/50 leading-relaxed">
-            {exercise.explanation}
-          </p>
-        </div>
+        <ExerciseFeedback
+          correct={correct}
+          explanation={exercise.explanation}
+          userAnswer={input}
+          correctAnswer={correctAnswer}
+          onContinue={handleContinue}
+        />
       )}
     </div>
   );

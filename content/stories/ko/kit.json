@@ -1,0 +1,2406 @@
+{
+  "language": "ko",
+  "script": "hang",
+  "romanization": "none",
+  "lexicon": {
+    "person": [
+      {
+        "id": "ko-kit-person-clerk",
+        "native": "점원",
+        "gloss": {
+          "id": "petugas toko",
+          "en": "the clerk"
+        },
+        "tags": [
+          "role"
+        ]
+      },
+      {
+        "id": "ko-kit-person-owner",
+        "native": "가게 주인",
+        "gloss": {
+          "id": "pemilik toko",
+          "en": "the shop owner"
+        },
+        "tags": [
+          "role"
+        ]
+      },
+      {
+        "id": "ko-kit-person-student",
+        "native": "학생",
+        "gloss": {
+          "id": "pelajar",
+          "en": "the student"
+        },
+        "tags": [
+          "role"
+        ]
+      },
+      {
+        "id": "ko-kit-person-neighbor",
+        "native": "이웃 사람",
+        "gloss": {
+          "id": "tetangga",
+          "en": "the neighbour"
+        },
+        "tags": [
+          "role"
+        ]
+      }
+    ],
+    "place": [
+      {
+        "id": "ko-kit-place-shop",
+        "native": "가게",
+        "gloss": {
+          "id": "toko",
+          "en": "the shop"
+        }
+      },
+      {
+        "id": "ko-kit-place-park",
+        "native": "공원",
+        "gloss": {
+          "id": "taman",
+          "en": "the park"
+        }
+      },
+      {
+        "id": "ko-kit-place-cafe",
+        "native": "카페",
+        "gloss": {
+          "id": "kafe",
+          "en": "the cafe"
+        }
+      },
+      {
+        "id": "ko-kit-place-home",
+        "native": "집",
+        "gloss": {
+          "id": "rumah",
+          "en": "home"
+        }
+      },
+      {
+        "id": "ko-kit-place-market",
+        "native": "시장",
+        "gloss": {
+          "id": "pasar",
+          "en": "the market"
+        }
+      }
+    ],
+    "object": [
+      {
+        "id": "ko-kit-object-bag",
+        "native": "가방",
+        "gloss": {
+          "id": "tas",
+          "en": "the bag"
+        }
+      },
+      {
+        "id": "ko-kit-object-note",
+        "native": "노트",
+        "gloss": {
+          "id": "buku catatan",
+          "en": "the note"
+        }
+      },
+      {
+        "id": "ko-kit-object-bottle",
+        "native": "물병",
+        "gloss": {
+          "id": "botol air",
+          "en": "the water bottle"
+        }
+      },
+      {
+        "id": "ko-kit-object-scissors",
+        "native": "가위",
+        "gloss": {
+          "id": "gunting",
+          "en": "the scissors"
+        }
+      }
+    ],
+    "food": [
+      {
+        "id": "ko-kit-food-kimbap",
+        "native": "김밥",
+        "gloss": {
+          "id": "kimbap",
+          "en": "the kimbap"
+        }
+      },
+      {
+        "id": "ko-kit-food-tteokbokki",
+        "native": "떡볶이",
+        "gloss": {
+          "id": "tteokbokki",
+          "en": "the tteokbokki"
+        }
+      },
+      {
+        "id": "ko-kit-food-bread",
+        "native": "빵",
+        "gloss": {
+          "id": "roti",
+          "en": "the bread"
+        }
+      },
+      {
+        "id": "ko-kit-food-fruit",
+        "native": "과일",
+        "gloss": {
+          "id": "buah",
+          "en": "the fruit"
+        }
+      }
+    ],
+    "drink": [
+      {
+        "id": "ko-kit-drink-water",
+        "native": "물",
+        "gloss": {
+          "id": "air",
+          "en": "water"
+        }
+      },
+      {
+        "id": "ko-kit-drink-juice",
+        "native": "주스",
+        "gloss": {
+          "id": "jus",
+          "en": "the juice"
+        }
+      },
+      {
+        "id": "ko-kit-drink-milk",
+        "native": "우유",
+        "gloss": {
+          "id": "susu",
+          "en": "the milk"
+        }
+      },
+      {
+        "id": "ko-kit-drink-tea",
+        "native": "차",
+        "gloss": {
+          "id": "teh",
+          "en": "the tea"
+        }
+      }
+    ],
+    "time": [
+      {
+        "id": "ko-kit-time-morning",
+        "native": "오전",
+        "gloss": {
+          "id": "pagi",
+          "en": "the morning"
+        }
+      },
+      {
+        "id": "ko-kit-time-afternoon",
+        "native": "오후",
+        "gloss": {
+          "id": "siang",
+          "en": "the afternoon"
+        }
+      },
+      {
+        "id": "ko-kit-time-night",
+        "native": "밤",
+        "gloss": {
+          "id": "malam",
+          "en": "night"
+        }
+      },
+      {
+        "id": "ko-kit-time-weekend",
+        "native": "주말",
+        "gloss": {
+          "id": "akhir pekan",
+          "en": "the weekend"
+        }
+      }
+    ],
+    "weather": [
+      {
+        "id": "ko-kit-weather-nice",
+        "native": "날씨가 좋다.",
+        "gloss": {
+          "id": "Cuacanya bagus.",
+          "en": "The weather is good."
+        },
+        "tags": [
+          "warm"
+        ]
+      },
+      {
+        "id": "ko-kit-weather-wind",
+        "native": "바람이 분다.",
+        "gloss": {
+          "id": "Angin bertiup.",
+          "en": "The wind is blowing."
+        },
+        "tags": [
+          "cold"
+        ]
+      },
+      {
+        "id": "ko-kit-weather-stopped",
+        "native": "비가 그쳤다.",
+        "gloss": {
+          "id": "Hujannya berhenti.",
+          "en": "The rain has stopped."
+        },
+        "tags": [
+          "rain"
+        ]
+      },
+      {
+        "id": "ko-kit-weather-snow",
+        "native": "눈이 온다.",
+        "gloss": {
+          "id": "Salju turun.",
+          "en": "It is snowing."
+        },
+        "tags": [
+          "cold"
+        ]
+      }
+    ],
+    "action": [
+      {
+        "id": "ko-kit-action-clean",
+        "native": "청소하기",
+        "gloss": {
+          "id": "membersihkan",
+          "en": "cleaning"
+        }
+      },
+      {
+        "id": "ko-kit-action-cook",
+        "native": "요리하기",
+        "gloss": {
+          "id": "memasak",
+          "en": "cooking"
+        }
+      },
+      {
+        "id": "ko-kit-action-walk",
+        "native": "산책하기",
+        "gloss": {
+          "id": "berjalan-jalan",
+          "en": "taking a walk"
+        }
+      },
+      {
+        "id": "ko-kit-action-work",
+        "native": "일하기",
+        "gloss": {
+          "id": "bekerja",
+          "en": "working"
+        }
+      }
+    ],
+    "quote": [
+      {
+        "id": "ko-kit-quote-okay",
+        "native": "괜찮아요.",
+        "gloss": {
+          "id": "Tidak apa-apa.",
+          "en": "It's all right."
+        }
+      },
+      {
+        "id": "ko-kit-quote-slow",
+        "native": "천천히 하세요.",
+        "gloss": {
+          "id": "Lakukan perlahan.",
+          "en": "Take your time."
+        }
+      },
+      {
+        "id": "ko-kit-quote-see-you",
+        "native": "또 봐요.",
+        "gloss": {
+          "id": "Sampai jumpa lagi.",
+          "en": "See you again."
+        }
+      },
+      {
+        "id": "ko-kit-quote-thanks",
+        "native": "고마워요.",
+        "gloss": {
+          "id": "Terima kasih.",
+          "en": "Thank you."
+        }
+      }
+    ],
+    "question": [
+      {
+        "id": "ko-kit-question-where",
+        "native": "어디예요?",
+        "gloss": {
+          "id": "Di mana?",
+          "en": "Where is it?"
+        }
+      },
+      {
+        "id": "ko-kit-question-when",
+        "native": "언제예요?",
+        "gloss": {
+          "id": "Kapan?",
+          "en": "When is it?"
+        }
+      },
+      {
+        "id": "ko-kit-question-who",
+        "native": "누구예요?",
+        "gloss": {
+          "id": "Siapa?",
+          "en": "Who is it?"
+        }
+      },
+      {
+        "id": "ko-kit-question-why",
+        "native": "왜요?",
+        "gloss": {
+          "id": "Kenapa?",
+          "en": "Why?"
+        }
+      }
+    ],
+    "greeting": [
+      {
+        "id": "ko-kit-greeting-hello",
+        "native": "안녕하세요",
+        "gloss": {
+          "id": "Halo",
+          "en": "Hello"
+        }
+      },
+      {
+        "id": "ko-kit-greeting-welcome",
+        "native": "어서 오세요",
+        "gloss": {
+          "id": "Selamat datang",
+          "en": "Welcome"
+        }
+      },
+      {
+        "id": "ko-kit-greeting-bye",
+        "native": "잘 가요",
+        "gloss": {
+          "id": "Selamat jalan",
+          "en": "Goodbye"
+        }
+      },
+      {
+        "id": "ko-kit-greeting-nice",
+        "native": "반가워요",
+        "gloss": {
+          "id": "Senang bertemu",
+          "en": "Nice to meet you"
+        }
+      }
+    ],
+    "emotion": [
+      {
+        "id": "ko-kit-emotion-happy",
+        "native": "기쁜",
+        "gloss": {
+          "id": "senang",
+          "en": "happy"
+        }
+      },
+      {
+        "id": "ko-kit-emotion-sad",
+        "native": "슬픈",
+        "gloss": {
+          "id": "sedih",
+          "en": "sad"
+        }
+      },
+      {
+        "id": "ko-kit-emotion-calm",
+        "native": "편안한",
+        "gloss": {
+          "id": "tenang",
+          "en": "calm"
+        }
+      },
+      {
+        "id": "ko-kit-emotion-nervous",
+        "native": "긴장한",
+        "gloss": {
+          "id": "gugup",
+          "en": "nervous"
+        }
+      }
+    ]
+  },
+  "frames": [
+    {
+      "id": "f-l1-context-1",
+      "segments": [
+        {
+          "slot": "time"
+        },
+        {
+          "text": "에 "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "가 "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "에 도착했다. 골목은 아직 조용하다. "
+        },
+        {
+          "slot": "weather"
+        }
+      ]
+    },
+    {
+      "id": "f-l1-context-2",
+      "segments": [
+        {
+          "slot": "place"
+        },
+        {
+          "text": "은 아직 조용하다. "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "는 "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " 옆에서 "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "을 기다린다."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-greeting-1",
+      "segments": [
+        {
+          "text": "「"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "」라고 "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "가 고개를 들며 말했다."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-greeting-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "이 젖은 어깨로 웃었다. 「"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "」라고 "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "이 말했다."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-task-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "가 "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "에서 "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": "를 하고 시계를 보았다."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-task-2",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "가 "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": "를 하고, 문가의 "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "을 한참 바라보았다."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-request-1",
+      "segments": [
+        {
+          "text": "「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "」라고 "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "이 작게 말했다."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-request-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "이 계산대 앞에서 "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "을 달라고 했다."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-complication-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "는 무슨 말인지 몰랐다. 「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」라고 "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "가 물었다."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-complication-2",
+      "segments": [
+        {
+          "slot": "object"
+        },
+        {
+          "text": "이 제자리에 없다. 계산대 아래에서도 아무것도 나오지 않았다. "
+        },
+        {
+          "slot": "weather"
+        }
+      ]
+    },
+    {
+      "id": "f-l1-clue-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "가 탁자를 치우다가 밑에서 "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "을 찾았다."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-clue-2",
+      "segments": [
+        {
+          "slot": "object"
+        },
+        {
+          "text": " 뒤쪽에 이름이 적혀 있었다. "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "가 그 이름을 두 번 읽었다."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-turn-1",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "이 웃었다. 「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "」라고 "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "이 조용히 말했다."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-turn-2",
+      "segments": [
+        {
+          "text": "그 순간 "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "는 "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": " 기분이 들었다."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-cliffhanger-1",
+      "segments": [
+        {
+          "text": "그때 계산대 전화가 울렸다. "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "이 젖은 "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "을 들고 있었다."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-cliffhanger-2",
+      "segments": [
+        {
+          "text": "「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」라고 "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "이 계산대 너머로 조용히 말했다."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-context-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "가 "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "에 닿았을 때, "
+        },
+        {
+          "slot": "time"
+        },
+        {
+          "text": "인데도 안은 이미 붐볐다. "
+        },
+        {
+          "slot": "weather"
+        }
+      ]
+    },
+    {
+      "id": "f-l2-context-2",
+      "segments": [
+        {
+          "slot": "place"
+        },
+        {
+          "text": "은 아주 조용해서, "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "는 "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "을 든 채 "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "을 기다렸다."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-greeting-1",
+      "segments": [
+        {
+          "text": "문을 열면서 "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "가 말했다. 「"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l2-greeting-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "이 고개를 끄덕이고 대답했다. 「"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l2-task-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "가 "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": "를 하던 중이라, "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "이 "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "에 더 일찍 왔다."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-task-2",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "가 "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": "를 했지만, "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "은 아직 탁자 위에 있었다."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-request-1",
+      "segments": [
+        {
+          "text": "「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "」라고 "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "이 낮은 목소리로 말했다."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-request-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "이 "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "에게 "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "에 대해 물었다."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-complication-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "는 이해하지 못해서 물었다. 「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l2-complication-2",
+      "segments": [
+        {
+          "slot": "object"
+        },
+        {
+          "text": "이 옮겨져 있었고, "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "는 누가 그랬는지 몰랐다."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-clue-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "가 서랍 안, 낡은 천 아래에서 "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "을 찾았다."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-clue-2",
+      "segments": [
+        {
+          "slot": "object"
+        },
+        {
+          "text": " 위에 작은 글씨가 있었다. 「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l2-turn-1",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "이 "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "를 보고 말했다. 「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l2-turn-2",
+      "segments": [
+        {
+          "text": "그때 처음으로 "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "는 "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": " 기분이 들었다."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-cliffhanger-1",
+      "segments": [
+        {
+          "text": "바로 그때, "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "이 "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "을 들고 문가에 나타났다."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-cliffhanger-2",
+      "segments": [
+        {
+          "text": "전화가 다시 울렸다. 「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」라는 목소리가 들려왔다."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-context-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "가 "
+        },
+        {
+          "slot": "time"
+        },
+        {
+          "text": "에 "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "에 도착했을 때, 그곳은 기억과 달랐다. "
+        },
+        {
+          "slot": "weather"
+        }
+      ]
+    },
+    {
+      "id": "f-l3-context-2",
+      "segments": [
+        {
+          "text": "한때 붐비던 "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "은 이제 조용하고, "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "만 제자리에 남아 있었다."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-greeting-1",
+      "segments": [
+        {
+          "text": "「"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "」라고 "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "가 말했지만, "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "이 들었는지는 확실하지 않았다."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-greeting-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "이 늘 그렇듯 "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "에게 「"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "」라고 인사했다."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-task-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "가 "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": "를 하는 동안, "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "에는 처음 보는 물건이 많다는 것을 알았다."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-task-2",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "가 "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": "를 했다. "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "이 오기 전에 "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "을 준비해야 했기 때문이다."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-request-1",
+      "segments": [
+        {
+          "text": "「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "」라고 "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "이, 마치 세상에서 가장 흔한 부탁이라는 듯 말했다."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-request-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "이 "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "에게 "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "에 대해 아는지 물었다. 「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l3-complication-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "는 대답할 수 없었다. "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "은 문이 없는 열쇠 같았다. 「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l3-complication-2",
+      "segments": [
+        {
+          "text": "누군가 "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "을 옮겨 놓았고, "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "는 그것이 우연이 아니라고 느끼기 시작했다."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-clue-1",
+      "segments": [
+        {
+          "slot": "object"
+        },
+        {
+          "text": " 뒤에서 "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "가 오래된 쪽지를 발견했다. 「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l3-clue-2",
+      "segments": [
+        {
+          "slot": "object"
+        },
+        {
+          "text": "은 "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "가 태어나기 훨씬 전부터 "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "에 있던 물건이었다."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-turn-1",
+      "segments": [
+        {
+          "text": "「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "」라고 "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "이 말했다. "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "는 "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": " 기분이 들었다."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-turn-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "이 "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "을 "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "에게 건넸고, 잠시 "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "는 "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": " 마음이 되었다."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-cliffhanger-1",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "이 새 "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "을 보여 주었다. 「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l3-cliffhanger-2",
+      "segments": [
+        {
+          "text": "그날 밤, "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "은 비어 있었지만 "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "은 탁자 위에 남아 있었다."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-context-1",
+      "segments": [
+        {
+          "slot": "time"
+        },
+        {
+          "text": "에, "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "가 오랜만에 "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "에 도착했다. "
+        },
+        {
+          "slot": "weather"
+        }
+      ]
+    },
+    {
+      "id": "f-l4-context-2",
+      "segments": [
+        {
+          "slot": "place"
+        },
+        {
+          "text": "에서 "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "은 몇 해째 같은 자리에 놓여 있었다."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-greeting-1",
+      "segments": [
+        {
+          "text": "「"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "」라고 "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "가 정중히 말했다. 두 사람이 그리 가까웠던 적은 없었다."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-greeting-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "이 「"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "」라고 받아 주고, "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "를 안으로 들였다."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-task-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "가 "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": "를 한 뒤, "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "이 더는 예전 같지 않다는 것을 깨달았다."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-task-2",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "가 "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": "를 하면서, "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "이 왜 그렇게 중요한지 "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "에게 설명했다."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-request-1",
+      "segments": [
+        {
+          "text": "「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "」라고 "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "이 "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "을 "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " 쪽으로 밀며 말했다."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-request-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "이 "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "에게 "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "을 다시 확인해 달라고 부탁했다. 「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l4-complication-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "는 "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "이 아무 이유 없이 여기 있을 수 없다는 것을 알았다. 「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l4-complication-2",
+      "segments": [
+        {
+          "text": "누군가 "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "을 "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "에서 옮겼지만, "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "에게는 아무 말도 없었다."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-clue-1",
+      "segments": [
+        {
+          "slot": "object"
+        },
+        {
+          "text": " 안에서 "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "가 손으로 쓴 편지를 발견했다. 「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l4-clue-2",
+      "segments": [
+        {
+          "slot": "object"
+        },
+        {
+          "text": "은 이름을 밝히지 않은 누군가가 "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "에 보관해 둔 물건이었다."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-turn-1",
+      "segments": [
+        {
+          "text": "「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "」라고 "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "이 말했다. "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "는 "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": " 마음을 감출 수 없었다."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-turn-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "이 "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "을 건네자, "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "는 그 "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": " 마음을 오래 품고 있었다는 것을 알았다."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-cliffhanger-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "가 묻기 전에 "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "이 말했다. 「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l4-cliffhanger-2",
+      "segments": [
+        {
+          "slot": "place"
+        },
+        {
+          "text": "의 문이 열렸고, 잠겨 있어야 했던 "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "이 사라져 있었다."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-context-1",
+      "segments": [
+        {
+          "slot": "time"
+        },
+        {
+          "text": "의 "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "은 아직 다 빚어지지 않은 기억처럼 보였다. "
+        },
+        {
+          "slot": "weather"
+        }
+      ]
+    },
+    {
+      "id": "f-l5-context-2",
+      "segments": [
+        {
+          "text": "몇 해가 지나도 "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "는 "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "에 놓여 있던 "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "을 잊지 못한다."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-greeting-1",
+      "segments": [
+        {
+          "text": "「"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "」라고 "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "가 말했다. 그 인사는 오래 미룬 사과처럼 들렸다."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-greeting-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "이 「"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "」라고 답했고, 두 사람은 아직 하지 못한 말이 있다는 것을 알고 있었다."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-task-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "가 "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": "를 하는 동안, "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "은 숨을 죽이고 오지 않을 무언가를 기다리는 것 같았다."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-task-2",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "가 "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": "를 조심스럽게 했다. 마치 "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "이 한마디에 부서질 수 있는 것처럼."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-request-1",
+      "segments": [
+        {
+          "text": "「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "」라고 "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "이 말했고, 손안의 "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "은 전보다 무거워 보였다."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-request-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "은 대답을 요구하지 않았다. 그저 "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "을 바라보며 「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」라고 말했다."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-complication-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "는 마침내 "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "이 비밀이 아니라 누군가 기억해 주기를 바라는 방식이라는 것을 이해했다. 「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l5-complication-2",
+      "segments": [
+        {
+          "text": "가장 아픈 것은 "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "을 잃는 일이 아니라, "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "이 오래 "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "를 기다려 왔다는 사실이었다."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-clue-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "가 "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "을 열자, 정성스럽게 쓴 한 문장이 나왔다. 「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l5-clue-2",
+      "segments": [
+        {
+          "slot": "object"
+        },
+        {
+          "text": "에는 "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "의 이름이 담겨 있었고, 그 이름이 오래 닫혀 있던 문을 열었다."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-turn-1",
+      "segments": [
+        {
+          "text": "「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "」라고 "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "이 마침내 말했다. "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "는 더는 감출 수 없는 "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": " 마음을 느꼈다."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-turn-2",
+      "segments": [
+        {
+          "slot": "object"
+        },
+        {
+          "text": "이 손을 옮겨 갔을 때, "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "는 그 "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": " 마음이 어떤 물건보다 오래 남으리라는 것을 알았다."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-cliffhanger-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "가 "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "을, 그리고 "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "을 바라보았다. 「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l5-cliffhanger-2",
+      "segments": [
+        {
+          "text": "문턱에서 "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "이 속삭였다. 「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」 그리고 "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "이 "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "의 손에서 미끄러졌다."
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "ko-g1",
+      "level": 1,
+      "pattern": "-(으)세요",
+      "meaning": {
+        "id": "permintaan sopan",
+        "en": "polite requests and instructions"
+      },
+      "example": "어서 오세요. 여기 앉으세요.",
+      "note": "Bentuk sopan untuk meminta atau menyarankan; dipakai terus oleh Yuna kepada pelanggan."
+    },
+    {
+      "id": "ko-g2",
+      "level": 1,
+      "pattern": "-아요/어요",
+      "meaning": {
+        "id": "kalimat sopan sehari-hari",
+        "en": "polite everyday present tense"
+      },
+      "example": "새벽 다섯 시에 라면을 먹어요.",
+      "note": "Akhiran sopan paling umum dalam percakapan Seoul; bentuk dasarnya mengikuti vokal akhir kata kerja."
+    },
+    {
+      "id": "ko-g3",
+      "level": 2,
+      "pattern": "-고 싶어요",
+      "meaning": {
+        "id": "mengungkapkan keinginan",
+        "en": "expressing what one wants"
+      },
+      "example": "저는 디자인 일을 하고 싶어요.",
+      "note": "Melekat pada akar kata kerja: 하고 싶다, 가고 싶다, 쉬고 싶다."
+    },
+    {
+      "id": "ko-g4",
+      "level": 2,
+      "pattern": "-(으)러 가다/오다",
+      "meaning": {
+        "id": "pergi/ datang untuk melakukan sesuatu",
+        "en": "going or coming in order to do something"
+      },
+      "example": "라면을 사러 왔어요.",
+      "note": "Dipakai dengan kata kerja gerak; bentuk ini menjelaskan tujuan keberangkatan atau kedatangan."
+    },
+    {
+      "id": "ko-g5",
+      "level": 3,
+      "pattern": "-는데",
+      "meaning": {
+        "id": "latar atau pertentangan",
+        "en": "background information or contrast"
+      },
+      "example": "새벽인데 손님이 많아요.",
+      "note": "Memberi latar sebelum informasi utama; sering terasa seperti 'padahal' atau 'sementara itu'."
+    },
+    {
+      "id": "ko-g6",
+      "level": 3,
+      "pattern": "-기 때문에",
+      "meaning": {
+        "id": "sebab yang tegas",
+        "en": "a clear cause"
+      },
+      "example": "막차가 끊기기 때문에 걸어서 갔어요.",
+      "note": "Lebih tegas daripada -아서/어서 dan lazim dalam tulisan maupun penjelasan lisan."
+    },
+    {
+      "id": "ko-g7",
+      "level": 4,
+      "pattern": "-기로 했어요",
+      "meaning": {
+        "id": "keputusan yang disepakati",
+        "en": "a decision or agreement"
+      },
+      "example": "다음 달에 무대를 하기로 했어요.",
+      "note": "Menandai keputusan yang diambil pembicara atau kesepakatan bersama; sering muncul saat membicarakan rencana."
+    },
+    {
+      "id": "ko-g8",
+      "level": 4,
+      "pattern": "-(으)ㄴ/는 반면에",
+      "meaning": {
+        "id": "pertentangan dua sisi",
+        "en": "contrast between two sides"
+      },
+      "example": "가게는 조용한 반면에 골목은 시끄러워요.",
+      "note": "Membandingkan dua keadaan yang berlawanan tanpa menyalahkan salah satunya."
+    },
+    {
+      "id": "ko-g9",
+      "level": 5,
+      "pattern": "-곤 했다",
+      "meaning": {
+        "id": "kebiasaan masa lalu",
+        "en": "a repeated habit in the past"
+      },
+      "example": "새벽 다섯 시면 라면을 끓이곤 했다.",
+      "note": "Menyiratkan kebiasaan yang sudah berhenti atau tinggal kenangan; nada reflektif."
+    },
+    {
+      "id": "ko-g10",
+      "level": 5,
+      "pattern": "-(으)ㄹ 수밖에 없다",
+      "meaning": {
+        "id": "tidak ada pilihan lain",
+        "en": "having no choice but to"
+      },
+      "example": "이번엔 이름을 밝힐 수밖에 없었다.",
+      "note": "Menegaskan bahwa satu-satunya jalan adalah tindakan itu; sering dipakai dalam keputusan yang berat."
+    }
+  ],
+  "questionPhrases": {
+    "meaning": "‘{term}’의 뜻이 뭐예요?",
+    "who": "이 장면에는 누가 나와요?",
+    "where": "이 장면은 어디에서 일어나요?",
+    "when": "이 장면은 언제 일어나요?",
+    "why": "왜 이런 일이 일어나요?",
+    "detail": "장면에서 맞는 내용은 어느 것이에요?",
+    "next": "다음에 무슨 일이 일어날까요?",
+    "culture": "이 장면에 나오는 문화 요소는 무엇이에요?",
+    "grammar": "맞는 표현을 고르세요."
+  }
+}

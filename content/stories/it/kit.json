@@ -1,0 +1,2538 @@
+{
+  "language": "it",
+  "script": "latn",
+  "romanization": "none",
+  "lexicon": {
+    "person": [
+      {
+        "id": "it-person-fornaio-2",
+        "native": "il fornaio del quartiere",
+        "gloss": {
+          "id": "tukang roti lingkungan",
+          "en": "the neighbourhood baker"
+        }
+      },
+      {
+        "id": "it-person-vicina-2",
+        "native": "la vicina",
+        "gloss": {
+          "id": "tetangga",
+          "en": "the neighbour"
+        }
+      },
+      {
+        "id": "it-person-cliente-2",
+        "native": "il cliente",
+        "gloss": {
+          "id": "pelanggan",
+          "en": "the customer"
+        }
+      },
+      {
+        "id": "it-person-ragazza-banco",
+        "native": "la ragazza del banco",
+        "gloss": {
+          "id": "gadis di konter",
+          "en": "the girl at the counter"
+        }
+      },
+      {
+        "id": "it-person-consegne",
+        "native": "il ragazzo delle consegne",
+        "gloss": {
+          "id": "kurir pengantaran",
+          "en": "the delivery boy"
+        }
+      }
+    ],
+    "place": [
+      {
+        "id": "it-place-cucina",
+        "native": "la cucina",
+        "gloss": {
+          "id": "dapur",
+          "en": "the kitchen"
+        }
+      },
+      {
+        "id": "it-place-strada",
+        "native": "la strada",
+        "gloss": {
+          "id": "jalan",
+          "en": "the street"
+        }
+      },
+      {
+        "id": "it-place-cortile",
+        "native": "il cortile",
+        "gloss": {
+          "id": "halaman dalam",
+          "en": "the courtyard"
+        }
+      },
+      {
+        "id": "it-place-corridoio",
+        "native": "il corridoio",
+        "gloss": {
+          "id": "lorong",
+          "en": "the corridor"
+        }
+      },
+      {
+        "id": "it-place-piazza",
+        "native": "la piazza",
+        "gloss": {
+          "id": "alun-alun",
+          "en": "the square"
+        }
+      }
+    ],
+    "object": [
+      {
+        "id": "it-object-quaderno-2",
+        "native": "il quaderno",
+        "gloss": {
+          "id": "buku catatan",
+          "en": "the notebook"
+        }
+      },
+      {
+        "id": "it-object-tazza",
+        "native": "la tazza",
+        "gloss": {
+          "id": "cangkir",
+          "en": "the cup"
+        }
+      },
+      {
+        "id": "it-object-chiave-2",
+        "native": "la chiave",
+        "gloss": {
+          "id": "kunci",
+          "en": "the key"
+        }
+      },
+      {
+        "id": "it-object-fotografia",
+        "native": "la fotografia",
+        "gloss": {
+          "id": "foto",
+          "en": "the photograph"
+        }
+      },
+      {
+        "id": "it-object-busta",
+        "native": "la busta",
+        "gloss": {
+          "id": "amplop",
+          "en": "the envelope"
+        }
+      }
+    ],
+    "food": [
+      {
+        "id": "it-food-pane-2",
+        "native": "il pane",
+        "gloss": {
+          "id": "roti",
+          "en": "the bread"
+        }
+      },
+      {
+        "id": "it-food-tortellini-2",
+        "native": "i tortellini",
+        "gloss": {
+          "id": "tortellini",
+          "en": "the tortellini"
+        }
+      },
+      {
+        "id": "it-food-sfoglia-2",
+        "native": "la sfoglia",
+        "gloss": {
+          "id": "sfoglia",
+          "en": "the pasta sheet"
+        }
+      },
+      {
+        "id": "it-food-riso",
+        "native": "il riso",
+        "gloss": {
+          "id": "nasi",
+          "en": "the rice"
+        }
+      },
+      {
+        "id": "it-food-formaggio",
+        "native": "il formaggio",
+        "gloss": {
+          "id": "keju",
+          "en": "the cheese"
+        }
+      }
+    ],
+    "drink": [
+      {
+        "id": "it-drink-acqua-2",
+        "native": "l'acqua",
+        "gloss": {
+          "id": "air",
+          "en": "the water"
+        }
+      },
+      {
+        "id": "it-drink-caffe",
+        "native": "il caffè",
+        "gloss": {
+          "id": "kopi",
+          "en": "the coffee"
+        }
+      },
+      {
+        "id": "it-drink-te-2",
+        "native": "il tè",
+        "gloss": {
+          "id": "teh",
+          "en": "the tea"
+        }
+      },
+      {
+        "id": "it-drink-vino-2",
+        "native": "il vino",
+        "gloss": {
+          "id": "anggur",
+          "en": "the wine"
+        }
+      },
+      {
+        "id": "it-drink-latte-2",
+        "native": "il latte",
+        "gloss": {
+          "id": "susu",
+          "en": "the milk"
+        }
+      }
+    ],
+    "time": [
+      {
+        "id": "it-time-mattina-2",
+        "native": "di mattina",
+        "gloss": {
+          "id": "pagi hari",
+          "en": "morning"
+        }
+      },
+      {
+        "id": "it-time-pomeriggio-2",
+        "native": "di pomeriggio",
+        "gloss": {
+          "id": "sore hari",
+          "en": "afternoon"
+        }
+      },
+      {
+        "id": "it-time-sera-2",
+        "native": "di sera",
+        "gloss": {
+          "id": "malam hari",
+          "en": "evening"
+        }
+      },
+      {
+        "id": "it-time-alba-2",
+        "native": "all'alba",
+        "gloss": {
+          "id": "saat fajar",
+          "en": "early morning"
+        }
+      },
+      {
+        "id": "it-time-mezzogiorno-2",
+        "native": "a mezzogiorno",
+        "gloss": {
+          "id": "tengah hari",
+          "en": "middle of the day"
+        }
+      }
+    ],
+    "weather": [
+      {
+        "id": "it-weather-freddo-2",
+        "native": "Fa freddo.",
+        "gloss": {
+          "id": "Dingin.",
+          "en": "It is cold."
+        },
+        "tags": [
+          "cold"
+        ]
+      },
+      {
+        "id": "it-weather-pioggia-2",
+        "native": "Piove.",
+        "gloss": {
+          "id": "Hujan.",
+          "en": "It is raining."
+        },
+        "tags": [
+          "rain"
+        ]
+      },
+      {
+        "id": "it-weather-sole",
+        "native": "C'è il sole.",
+        "gloss": {
+          "id": "Matahari bersinar.",
+          "en": "The sun is out."
+        },
+        "tags": [
+          "clear"
+        ]
+      },
+      {
+        "id": "it-weather-vento-2",
+        "native": "C'è vento.",
+        "gloss": {
+          "id": "Ada angin.",
+          "en": "It is windy."
+        },
+        "tags": [
+          "wind"
+        ]
+      },
+      {
+        "id": "it-weather-grigio",
+        "native": "Il cielo è grigio.",
+        "gloss": {
+          "id": "Langitnya kelabu.",
+          "en": "The sky is grey."
+        },
+        "tags": [
+          "fog"
+        ]
+      }
+    ],
+    "action": [
+      {
+        "id": "it-action-luci-2",
+        "native": "accende le luci",
+        "gloss": {
+          "id": "menyalakan lampu",
+          "en": "turns on the lights"
+        }
+      },
+      {
+        "id": "it-action-caffe-2",
+        "native": "prepara il caffè",
+        "gloss": {
+          "id": "menyiapkan kopi",
+          "en": "makes the coffee"
+        }
+      },
+      {
+        "id": "it-action-tavolo",
+        "native": "pulisce il tavolo",
+        "gloss": {
+          "id": "membersihkan meja",
+          "en": "cleans the table"
+        }
+      },
+      {
+        "id": "it-action-aspetta",
+        "native": "aspetta un momento",
+        "gloss": {
+          "id": "menunggu sebentar",
+          "en": "waits a moment"
+        }
+      },
+      {
+        "id": "it-action-nota",
+        "native": "scrive una nota",
+        "gloss": {
+          "id": "menulis catatan",
+          "en": "writes a note"
+        }
+      }
+    ],
+    "quote": [
+      {
+        "id": "it-quote-va-bene",
+        "native": "Va bene.",
+        "gloss": {
+          "id": "Baiklah.",
+          "en": "All right."
+        }
+      },
+      {
+        "id": "it-quote-grazie-2",
+        "native": "Grazie.",
+        "gloss": {
+          "id": "Terima kasih.",
+          "en": "Thank you."
+        }
+      },
+      {
+        "id": "it-quote-non-ora",
+        "native": "Non ora.",
+        "gloss": {
+          "id": "Bukan sekarang.",
+          "en": "Not now."
+        }
+      },
+      {
+        "id": "it-quote-ci-penso-io",
+        "native": "Ci penso io.",
+        "gloss": {
+          "id": "Biar aku yang urus.",
+          "en": "I'll take care of it."
+        }
+      },
+      {
+        "id": "it-quote-andiamo",
+        "native": "Andiamo.",
+        "gloss": {
+          "id": "Ayo pergi.",
+          "en": "Let's go."
+        }
+      }
+    ],
+    "question": [
+      {
+        "id": "it-question-che-cose",
+        "native": "Che cos'è questo?",
+        "gloss": {
+          "id": "Apa ini?",
+          "en": "What is this?"
+        }
+      },
+      {
+        "id": "it-question-dove-siamo",
+        "native": "Dove siamo?",
+        "gloss": {
+          "id": "Di mana kita?",
+          "en": "Where are we?"
+        }
+      },
+      {
+        "id": "it-question-chi-e",
+        "native": "Chi è?",
+        "gloss": {
+          "id": "Siapa itu?",
+          "en": "Who is it?"
+        }
+      },
+      {
+        "id": "it-question-quando-torniamo",
+        "native": "Quando torniamo?",
+        "gloss": {
+          "id": "Kapan kita kembali?",
+          "en": "When do we come back?"
+        }
+      },
+      {
+        "id": "it-question-perche-2",
+        "native": "Perché?",
+        "gloss": {
+          "id": "Kenapa?",
+          "en": "Why?"
+        }
+      },
+      {
+        "id": "it-question-quanto-manca",
+        "native": "Quanto manca?",
+        "gloss": {
+          "id": "Berapa lama lagi?",
+          "en": "How much longer?"
+        }
+      }
+    ],
+    "greeting": [
+      {
+        "id": "it-greeting-buongiorno-2",
+        "native": "Buongiorno",
+        "gloss": {
+          "id": "Selamat pagi",
+          "en": "Good morning"
+        }
+      },
+      {
+        "id": "it-greeting-buonasera-2",
+        "native": "Buonasera",
+        "gloss": {
+          "id": "Selamat malam",
+          "en": "Good evening"
+        }
+      },
+      {
+        "id": "it-greeting-ciao-2",
+        "native": "Ciao",
+        "gloss": {
+          "id": "Hai",
+          "en": "Hi"
+        }
+      },
+      {
+        "id": "it-greeting-salve-2",
+        "native": "Salve",
+        "gloss": {
+          "id": "Halo",
+          "en": "Hello"
+        }
+      },
+      {
+        "id": "it-greeting-presto",
+        "native": "A presto",
+        "gloss": {
+          "id": "Sampai jumpa",
+          "en": "See you soon"
+        }
+      }
+    ],
+    "emotion": [
+      {
+        "id": "it-emotion-gioia",
+        "native": "la gioia",
+        "gloss": {
+          "id": "kegembiraan",
+          "en": "joy"
+        }
+      },
+      {
+        "id": "it-emotion-paura",
+        "native": "la paura",
+        "gloss": {
+          "id": "ketakutan",
+          "en": "fear"
+        }
+      },
+      {
+        "id": "it-emotion-calma",
+        "native": "la calma",
+        "gloss": {
+          "id": "ketenangan",
+          "en": "calm"
+        }
+      },
+      {
+        "id": "it-emotion-sorpresa",
+        "native": "la sorpresa",
+        "gloss": {
+          "id": "kejutan",
+          "en": "surprise"
+        }
+      },
+      {
+        "id": "it-emotion-fiducia",
+        "native": "la fiducia",
+        "gloss": {
+          "id": "kepercayaan",
+          "en": "trust"
+        }
+      }
+    ]
+  },
+  "frames": [
+    {
+      "id": "f-l1-context-1",
+      "segments": [
+        {
+          "slot": "time"
+        },
+        {
+          "text": ", "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " arriva e va verso "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": ". C'è ancora silenzio. "
+        },
+        {
+          "slot": "weather"
+        }
+      ]
+    },
+    {
+      "id": "f-l1-context-2",
+      "segments": [
+        {
+          "text": "Dentro "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " non c'è ancora nessuno. "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " aspetta "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " con "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " in mano."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-greeting-1",
+      "segments": [
+        {
+          "text": "«"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "», dice "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-greeting-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " sorride. «"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "», dice "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-task-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": " e guarda "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-task-2",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": ", poi guarda "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-request-1",
+      "segments": [
+        {
+          "text": "«"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "», dice "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-request-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " chiede "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-complication-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " non capisce. «"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "», chiede."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-complication-2",
+      "segments": [
+        {
+          "slot": "object"
+        },
+        {
+          "text": " non è al suo posto. "
+        },
+        {
+          "slot": "weather"
+        }
+      ]
+    },
+    {
+      "id": "f-l1-clue-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " trova "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " sotto il tavolo."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-clue-2",
+      "segments": [
+        {
+          "text": "Sopra "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " c'è un nome. "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " lo legge."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-turn-1",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " sorride. «"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "», dice "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-turn-2",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " sente "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-cliffhanger-1",
+      "segments": [
+        {
+          "text": "Poi squilla il telefono. "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " tiene in mano "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-cliffhanger-2",
+      "segments": [
+        {
+          "text": "«"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "», dice piano "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-context-1",
+      "segments": [
+        {
+          "slot": "time"
+        },
+        {
+          "text": ", "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " arriva: dentro "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " c'è già molta gente. "
+        },
+        {
+          "slot": "weather"
+        }
+      ]
+    },
+    {
+      "id": "f-l2-context-2",
+      "segments": [
+        {
+          "text": "Dentro "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " non c'è più nessuno, così "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " aspetta "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " con "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " in mano."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-greeting-1",
+      "segments": [
+        {
+          "text": "«"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "», dice "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " mentre apre la porta."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-greeting-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " fa un cenno e risponde: «"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "»."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-task-1",
+      "segments": [
+        {
+          "text": "Siccome "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": ", "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " arriva prima. Insieme vanno verso "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-task-2",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": ", ma "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " è ancora sul tavolo."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-request-1",
+      "segments": [
+        {
+          "text": "«"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "», dice "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " a voce bassa."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-request-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " chiede a "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-complication-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " non capisce e chiede: «"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "»"
+        }
+      ]
+    },
+    {
+      "id": "f-l2-complication-2",
+      "segments": [
+        {
+          "text": "Qualcuno ha spostato "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " e "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " non sa chi."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-clue-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " trova "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " in un cassetto, sotto un panno vecchio."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-clue-2",
+      "segments": [
+        {
+          "text": "Sopra "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " c'è un biglietto: «"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "»."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-turn-1",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " guarda "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " e dice: «"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "»."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-turn-2",
+      "segments": [
+        {
+          "text": "Per la prima volta, "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " sente "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-cliffhanger-1",
+      "segments": [
+        {
+          "text": "In quel momento "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " compare sulla porta con "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " in mano."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-cliffhanger-2",
+      "segments": [
+        {
+          "text": "Squilla di nuovo il telefono. «"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "», dice una voce."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-context-1",
+      "segments": [
+        {
+          "slot": "time"
+        },
+        {
+          "text": ", "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " arriva: dentro "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " non è più come prima. "
+        },
+        {
+          "slot": "weather"
+        }
+      ]
+    },
+    {
+      "id": "f-l3-context-2",
+      "segments": [
+        {
+          "text": "Prima dentro "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " c'era sempre gente; adesso c'è silenzio, e solo "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " è ancora qui."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-greeting-1",
+      "segments": [
+        {
+          "text": "«"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "», dice "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": ", anche se non sa se "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " lo sente."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-greeting-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " saluta "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " con un «"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "», come sempre."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-task-1",
+      "segments": [
+        {
+          "text": "Mentre "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": ", si accorge che dentro "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " ci sono cose che non ha mai visto."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-task-2",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": " perché "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " deve essere al suo posto prima che arrivi "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-request-1",
+      "segments": [
+        {
+          "text": "«"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "», dice "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": ", come se fosse la richiesta più normale del mondo."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-request-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " chiede a "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " se conosce "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": ". «"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "»"
+        }
+      ]
+    },
+    {
+      "id": "f-l3-complication-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " non sa rispondere: "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " è come una chiave senza porta. «"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "»"
+        }
+      ]
+    },
+    {
+      "id": "f-l3-complication-2",
+      "segments": [
+        {
+          "text": "Qualcuno ha spostato "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " e "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " comincia a pensare che non sia un caso."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-clue-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " sposta "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " e trova un biglietto: «"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "»."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-clue-2",
+      "segments": [
+        {
+          "slot": "object"
+        },
+        {
+          "text": " era già dentro "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " prima che "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " nascesse."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-turn-1",
+      "segments": [
+        {
+          "text": "«"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "», dice "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": ". "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " sente "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-turn-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " mette "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " nelle mani di "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": ", e per un momento "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " sente "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-cliffhanger-1",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " mostra "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": ". «"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "»"
+        }
+      ]
+    },
+    {
+      "id": "f-l3-cliffhanger-2",
+      "segments": [
+        {
+          "text": "Quella notte dentro "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " non c'è gente, ma "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " è ancora sul tavolo."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-context-1",
+      "segments": [
+        {
+          "slot": "time"
+        },
+        {
+          "text": ", "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " torna. Non vedeva "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " da tanto tempo. "
+        },
+        {
+          "slot": "weather"
+        }
+      ]
+    },
+    {
+      "id": "f-l4-context-2",
+      "segments": [
+        {
+          "text": "Dentro "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": ", "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " è nello stesso angolo da anni."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-greeting-1",
+      "segments": [
+        {
+          "text": "«"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "», dice "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " con educazione, anche se tra loro non sono mai stati vicini."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-greeting-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " risponde con un «"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "» e fa entrare "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-task-1",
+      "segments": [
+        {
+          "text": "Appena "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": ", capisce che dentro "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " non è più come prima."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-task-2",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": " mentre spiega a "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " perché "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " conta così tanto."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-request-1",
+      "segments": [
+        {
+          "text": "«"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "», dice "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " e spinge "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " verso "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-request-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " chiede a "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " di controllare "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " un'altra volta. «"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "»"
+        }
+      ]
+    },
+    {
+      "id": "f-l4-complication-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " capisce che "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " non può essere qui senza un motivo. «"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "»"
+        }
+      ]
+    },
+    {
+      "id": "f-l4-complication-2",
+      "segments": [
+        {
+          "slot": "object"
+        },
+        {
+          "text": " non è più dentro "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": ", e nessuno ha avvertito "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-clue-1",
+      "segments": [
+        {
+          "text": "Sotto "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": ", "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " trova una lettera scritta a mano: «"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "»."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-clue-2",
+      "segments": [
+        {
+          "text": "Dentro "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " c'era "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": ", per qualcuno che non voleva fare il suo nome."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-turn-1",
+      "segments": [
+        {
+          "text": "«"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "», dice "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": ". "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " non riesce a nascondere "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-turn-2",
+      "segments": [
+        {
+          "text": "Quando "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " passa "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " a "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": ", "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " capisce che "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": " è lì da anni."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-cliffhanger-1",
+      "segments": [
+        {
+          "text": "Prima che "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " possa chiedere, "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " dice: «"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "»"
+        }
+      ]
+    },
+    {
+      "id": "f-l4-cliffhanger-2",
+      "segments": [
+        {
+          "text": "Dentro "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " la porta è aperta, e "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " che doveva essere al sicuro non c'è più."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-context-1",
+      "segments": [
+        {
+          "slot": "time"
+        },
+        {
+          "text": ", dentro "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " tutto sembra una memoria che non ha finito di prendere forma. "
+        },
+        {
+          "slot": "weather"
+        }
+      ]
+    },
+    {
+      "id": "f-l5-context-2",
+      "segments": [
+        {
+          "text": "Anni dopo, "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " ricorda ancora "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": ": era qui, in questo angolo, e dentro "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " tutto era come allora."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-greeting-1",
+      "segments": [
+        {
+          "text": "«"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "», dice "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "; il saluto sembra una scusa arrivata in ritardo."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-greeting-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " risponde con un «"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "», e tutti e due sanno che c'è ancora qualcosa da dire."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-task-1",
+      "segments": [
+        {
+          "text": "Mentre "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": ", dentro "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " tutto sembra trattenere il respiro, in attesa di qualcosa che non arriva."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-task-2",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": " con cautela, come se "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " potesse rompersi per una parola."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-request-1",
+      "segments": [
+        {
+          "text": "«"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "», dice "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": ", e "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " tra le mani sembra più pesante di prima."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-request-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " non chiede una risposta: dice solo «"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "», guardando "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-complication-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " capisce finalmente che "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " non è un segreto, ma il modo in cui qualcuno chiede di essere ricordato. «"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "»"
+        }
+      ]
+    },
+    {
+      "id": "f-l5-complication-2",
+      "segments": [
+        {
+          "text": "La cosa più difficile non è perdere "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": ", ma capire che dentro "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " qualcuno aspetta "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " da molto tempo."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-clue-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " tiene "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " tra le mani e trova una frase scritta con cura: «"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "»."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-clue-2",
+      "segments": [
+        {
+          "text": "Sopra "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " c'è un nome, e quel nome indica "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": ": apre una porta chiusa da anni."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-turn-1",
+      "segments": [
+        {
+          "text": "«"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "», dice alla fine "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": ". "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " sente "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": " e non riesce più a nascondere niente."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-turn-2",
+      "segments": [
+        {
+          "text": "Quando "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " passa di mano, "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " sa che "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": " resterà più a lungo di qualsiasi oggetto."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-cliffhanger-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " guarda "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": ", poi "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": ". «"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "»"
+        }
+      ]
+    },
+    {
+      "id": "f-l5-cliffhanger-2",
+      "segments": [
+        {
+          "text": "Sulla soglia, "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " sussurra: «"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "», e "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " cade dalle mani di "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "."
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "it-gram-l1-presente",
+      "level": 1,
+      "pattern": "presente indicativo",
+      "meaning": {
+        "id": "kata kerja sekarang untuk kebiasaan dan fakta",
+        "en": "present indicative for habits and facts"
+      },
+      "example": "Marco apre la saracinesca ogni mattina alle cinque.",
+      "note": "A1: rutinitas forno, deskripsi tempat dan orang."
+    },
+    {
+      "id": "it-gram-l1-passato-prossimo",
+      "level": 1,
+      "pattern": "passato prossimo",
+      "meaning": {
+        "id": "lampau selesai dengan avere",
+        "en": "passato prossimo with avere"
+      },
+      "example": "Nonna ha preparato la sfoglia per i tortellini.",
+      "note": "A1: kejadian yang sudah selesai; di Bologna bentuk ini dipakai sehari-hari."
+    },
+    {
+      "id": "it-gram-l2-imperfetto",
+      "level": 2,
+      "pattern": "imperfetto",
+      "meaning": {
+        "id": "lampau berulang dan latar cerita",
+        "en": "imperfect for habits and background"
+      },
+      "example": "Da ragazzo, Marco passava i pomeriggi al forno.",
+      "note": "A2: kebiasaan masa lalu dan deskripsi suasana."
+    },
+    {
+      "id": "it-gram-l2-gerundio",
+      "level": 2,
+      "pattern": "stare + gerundio",
+      "meaning": {
+        "id": "sedang berlangsung",
+        "en": "present progressive"
+      },
+      "example": "Chiara sta sistemando i vassoi per la sagra.",
+      "note": "A2: aksi yang sedang terjadi saat ini."
+    },
+    {
+      "id": "it-gram-l3-imperfetto-passato",
+      "level": 3,
+      "pattern": "imperfetto e passato prossimo",
+      "meaning": {
+        "id": "latar dan peristiwa dalam satu cerita",
+        "en": "background versus event in the past"
+      },
+      "example": "Mentre Chiara impastava, Marco ha trovato la pagina.",
+      "note": "B1: imperfetto sebagai latar, passato prossimo sebagai kejadian."
+    },
+    {
+      "id": "it-gram-l3-congiuntivo",
+      "level": 3,
+      "pattern": "congiuntivo presente",
+      "meaning": {
+        "id": "harapan, dugaan, dan penilaian",
+        "en": "present subjunctive for wishes, doubts and judgments"
+      },
+      "example": "Penso che la ricetta sia di famiglia.",
+      "note": "B1: setelah verba seperti pensare, credere, sperare, sembrare."
+    },
+    {
+      "id": "it-gram-l4-passivo",
+      "level": 4,
+      "pattern": "passivo con essere",
+      "meaning": {
+        "id": "fokus pada tindakan dan hasilnya",
+        "en": "passive voice with essere"
+      },
+      "example": "La pagina è stata conservata per vent'anni in un cassetto.",
+      "note": "B2: ketika pelaku tidak penting atau tidak ingin disebut."
+    },
+    {
+      "id": "it-gram-l4-trapassato",
+      "level": 4,
+      "pattern": "trapassato prossimo",
+      "meaning": {
+        "id": "lampau yang terjadi sebelum lampau lain",
+        "en": "pluperfect"
+      },
+      "example": "Ettore aveva già visto quella pagina, ma non aveva detto niente.",
+      "note": "B2: urutan dua peristiwa masa lalu."
+    },
+    {
+      "id": "it-gram-l5-ipotetico",
+      "level": 5,
+      "pattern": "periodo ipotetico del terzo tipo",
+      "meaning": {
+        "id": "pengandaian lampau yang tidak terjadi",
+        "en": "third conditional / unreal past"
+      },
+      "example": "Se Nonna avesse saputo, avrebbe parlato prima.",
+      "note": "C1: penyesalan dan kemungkinan yang tidak terwujud."
+    },
+    {
+      "id": "it-gram-l5-come-se",
+      "level": 5,
+      "pattern": "come se + congiuntivo imperfetto",
+      "meaning": {
+        "id": "seolah-olah",
+        "en": "as if + imperfect subjunctive"
+      },
+      "example": "Parlava del forno come se fosse ancora suo.",
+      "note": "C1: perbandingan irrealis dan jarak emosional."
+    }
+  ],
+  "questionPhrases": {
+    "meaning": "Che cosa significa «{term}»?",
+    "who": "Chi è il personaggio principale di questa scena?",
+    "where": "Dove si svolge la scena?",
+    "when": "Quando si svolge la scena?",
+    "why": "Quale emozione spiega questa battuta?",
+    "detail": "Quale dettaglio del testo lo conferma?",
+    "next": "Che cosa dice Marco?",
+    "culture": "Con quale nota culturale è legata questa scena?",
+    "grammar": "Quale regola grammaticale riconosci in questa frase?"
+  }
+}

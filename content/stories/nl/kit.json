@@ -1,0 +1,2529 @@
+{
+  "language": "nl",
+  "script": "latn",
+  "romanization": "none",
+  "lexicon": {
+    "person": [
+      {
+        "id": "nl-kit-person-klant",
+        "native": "de klant",
+        "gloss": {
+          "id": "pelanggan",
+          "en": "the customer"
+        },
+        "tags": [
+          "role"
+        ]
+      },
+      {
+        "id": "nl-kit-person-buurman",
+        "native": "de buurman",
+        "gloss": {
+          "id": "tetangga laki-laki",
+          "en": "the neighbour"
+        },
+        "tags": [
+          "role"
+        ]
+      },
+      {
+        "id": "nl-kit-person-koerier",
+        "native": "de koerier",
+        "gloss": {
+          "id": "kurir",
+          "en": "the courier"
+        },
+        "tags": [
+          "role"
+        ]
+      },
+      {
+        "id": "nl-kit-person-meisje",
+        "native": "het meisje van de markt",
+        "gloss": {
+          "id": "anak perempuan dari pasar",
+          "en": "the girl from the market"
+        },
+        "tags": [
+          "role"
+        ]
+      },
+      {
+        "id": "nl-kit-person-fietsenmaker",
+        "native": "de fietsenmaker",
+        "gloss": {
+          "id": "tukang sepeda",
+          "en": "the bicycle repairer"
+        },
+        "tags": [
+          "role"
+        ]
+      }
+    ],
+    "place": [
+      {
+        "id": "nl-kit-place-winkel",
+        "native": "de winkel",
+        "gloss": {
+          "id": "toko",
+          "en": "the shop"
+        }
+      },
+      {
+        "id": "nl-kit-place-station",
+        "native": "het station",
+        "gloss": {
+          "id": "stasiun",
+          "en": "the station"
+        }
+      },
+      {
+        "id": "nl-kit-place-keuken",
+        "native": "de keuken",
+        "gloss": {
+          "id": "dapur",
+          "en": "the kitchen"
+        }
+      },
+      {
+        "id": "nl-kit-place-straat",
+        "native": "de straat",
+        "gloss": {
+          "id": "jalan",
+          "en": "the street"
+        }
+      },
+      {
+        "id": "nl-kit-place-gracht",
+        "native": "de gracht",
+        "gloss": {
+          "id": "kanal",
+          "en": "the canal"
+        }
+      },
+      {
+        "id": "nl-kit-place-oudegracht",
+        "native": "de Oudegracht",
+        "gloss": {
+          "id": "Kanal Oude",
+          "en": "the Oudegracht canal"
+        }
+      },
+      {
+        "id": "nl-kit-place-werfkelder",
+        "native": "de werfkelder",
+        "gloss": {
+          "id": "gudang bawah tanah di dermaga",
+          "en": "the wharf cellar"
+        }
+      },
+      {
+        "id": "nl-kit-place-kade",
+        "native": "de kade",
+        "gloss": {
+          "id": "dermaga",
+          "en": "the quay"
+        }
+      }
+    ],
+    "object": [
+      {
+        "id": "nl-kit-object-notitieboek",
+        "native": "het notitieboek",
+        "gloss": {
+          "id": "buku catatan",
+          "en": "the notebook"
+        }
+      },
+      {
+        "id": "nl-kit-object-kopje",
+        "native": "het kopje",
+        "gloss": {
+          "id": "cangkir",
+          "en": "the cup"
+        }
+      },
+      {
+        "id": "nl-kit-object-sleutel",
+        "native": "de sleutel",
+        "gloss": {
+          "id": "kunci",
+          "en": "the key"
+        }
+      },
+      {
+        "id": "nl-kit-object-foto",
+        "native": "de foto",
+        "gloss": {
+          "id": "foto",
+          "en": "the photograph"
+        }
+      },
+      {
+        "id": "nl-kit-object-brief",
+        "native": "de brief",
+        "gloss": {
+          "id": "surat",
+          "en": "the letter"
+        }
+      }
+    ],
+    "food": [
+      {
+        "id": "nl-kit-food-brood",
+        "native": "het brood",
+        "gloss": {
+          "id": "roti",
+          "en": "the bread"
+        }
+      },
+      {
+        "id": "nl-kit-food-taart",
+        "native": "de taart",
+        "gloss": {
+          "id": "kue",
+          "en": "the cake"
+        }
+      },
+      {
+        "id": "nl-kit-food-rijst",
+        "native": "de rijst",
+        "gloss": {
+          "id": "nasi",
+          "en": "the rice"
+        }
+      },
+      {
+        "id": "nl-kit-food-kaas",
+        "native": "de kaas",
+        "gloss": {
+          "id": "keju",
+          "en": "the cheese"
+        }
+      },
+      {
+        "id": "nl-kit-food-stroopwafel",
+        "native": "de stroopwafel",
+        "gloss": {
+          "id": "stroopwafel",
+          "en": "the stroopwafel"
+        }
+      },
+      {
+        "id": "nl-kit-food-hagelslag",
+        "native": "de hagelslag",
+        "gloss": {
+          "id": "taburan cokelat",
+          "en": "the chocolate sprinkles"
+        }
+      }
+    ],
+    "drink": [
+      {
+        "id": "nl-kit-drink-koffie",
+        "native": "de koffie",
+        "gloss": {
+          "id": "kopi",
+          "en": "the coffee"
+        }
+      },
+      {
+        "id": "nl-kit-drink-thee",
+        "native": "de thee",
+        "gloss": {
+          "id": "teh",
+          "en": "the tea"
+        }
+      },
+      {
+        "id": "nl-kit-drink-water",
+        "native": "het water",
+        "gloss": {
+          "id": "air",
+          "en": "the water"
+        }
+      },
+      {
+        "id": "nl-kit-drink-melk",
+        "native": "de melk",
+        "gloss": {
+          "id": "susu",
+          "en": "the milk"
+        }
+      }
+    ],
+    "time": [
+      {
+        "id": "nl-kit-time-ochtend",
+        "native": "ochtend",
+        "gloss": {
+          "id": "pagi",
+          "en": "morning"
+        }
+      },
+      {
+        "id": "nl-kit-time-middag",
+        "native": "middag",
+        "gloss": {
+          "id": "siang",
+          "en": "afternoon"
+        }
+      },
+      {
+        "id": "nl-kit-time-avond",
+        "native": "avond",
+        "gloss": {
+          "id": "malam",
+          "en": "evening"
+        }
+      },
+      {
+        "id": "nl-kit-time-nacht",
+        "native": "nacht",
+        "gloss": {
+          "id": "malam buta",
+          "en": "night"
+        }
+      }
+    ],
+    "weather": [
+      {
+        "id": "nl-kit-weather-warm",
+        "native": "Het is warm.",
+        "gloss": {
+          "id": "Cuacanya hangat.",
+          "en": "It is warm."
+        },
+        "tags": [
+          "warm"
+        ]
+      },
+      {
+        "id": "nl-kit-weather-regen",
+        "native": "Het regent.",
+        "gloss": {
+          "id": "Hari sedang hujan.",
+          "en": "It is raining."
+        },
+        "tags": [
+          "rain"
+        ]
+      },
+      {
+        "id": "nl-kit-weather-koud",
+        "native": "Het is koud.",
+        "gloss": {
+          "id": "Cuacanya dingin.",
+          "en": "It is cold."
+        },
+        "tags": [
+          "cold"
+        ]
+      },
+      {
+        "id": "nl-kit-weather-helder",
+        "native": "De lucht is helder.",
+        "gloss": {
+          "id": "Langitnya cerah.",
+          "en": "The sky is clear."
+        },
+        "tags": [
+          "clear"
+        ]
+      }
+    ],
+    "action": [
+      {
+        "id": "nl-kit-action-koffie",
+        "native": "maakte koffie",
+        "gloss": {
+          "id": "membuat kopi",
+          "en": "made coffee"
+        }
+      },
+      {
+        "id": "nl-kit-action-open",
+        "native": "opende de winkel",
+        "gloss": {
+          "id": "membuka toko",
+          "en": "opened the shop"
+        }
+      },
+      {
+        "id": "nl-kit-action-veeg",
+        "native": "veegde de toonbank",
+        "gloss": {
+          "id": "membersihkan meja",
+          "en": "wiped the counter"
+        }
+      },
+      {
+        "id": "nl-kit-action-wacht",
+        "native": "wachtte bij het raam",
+        "gloss": {
+          "id": "menunggu di dekat jendela",
+          "en": "waited by the window"
+        }
+      },
+      {
+        "id": "nl-kit-action-schrijf",
+        "native": "schreef een briefje",
+        "gloss": {
+          "id": "menulis catatan",
+          "en": "wrote a note"
+        }
+      }
+    ],
+    "quote": [
+      {
+        "id": "nl-kit-quote-welkom",
+        "native": "Welkom.",
+        "gloss": {
+          "id": "Selamat datang.",
+          "en": "Welcome."
+        }
+      },
+      {
+        "id": "nl-kit-quote-gewoon",
+        "native": "Het gewone, graag.",
+        "gloss": {
+          "id": "Yang biasa, ya.",
+          "en": "The usual, please."
+        }
+      },
+      {
+        "id": "nl-kit-quote-lang",
+        "native": "Het is lang geleden.",
+        "gloss": {
+          "id": "Sudah lama tidak bertemu.",
+          "en": "It has been a long time."
+        }
+      },
+      {
+        "id": "nl-kit-quote-smaak",
+        "native": "Het smaakt hetzelfde.",
+        "gloss": {
+          "id": "Rasanya sama.",
+          "en": "It tastes the same."
+        }
+      },
+      {
+        "id": "nl-kit-quote-dank",
+        "native": "Dank je.",
+        "gloss": {
+          "id": "Terima kasih.",
+          "en": "Thank you."
+        }
+      }
+    ],
+    "question": [
+      {
+        "id": "nl-kit-question-wat",
+        "native": "Wat is dit?",
+        "gloss": {
+          "id": "Apa ini?",
+          "en": "What is this?"
+        }
+      },
+      {
+        "id": "nl-kit-question-wie",
+        "native": "Wie heeft dit geschreven?",
+        "gloss": {
+          "id": "Siapa yang menulis ini?",
+          "en": "Who wrote this?"
+        }
+      },
+      {
+        "id": "nl-kit-question-waar",
+        "native": "Waar is het notitieboek?",
+        "gloss": {
+          "id": "Di mana buku catatan itu?",
+          "en": "Where is the notebook?"
+        }
+      },
+      {
+        "id": "nl-kit-question-waarom",
+        "native": "Waarom ben je teruggekomen?",
+        "gloss": {
+          "id": "Mengapa kamu kembali?",
+          "en": "Why did you come back?"
+        }
+      }
+    ],
+    "greeting": [
+      {
+        "id": "nl-kit-greeting-morgen",
+        "native": "Goedemorgen",
+        "gloss": {
+          "id": "Selamat pagi",
+          "en": "Good morning"
+        }
+      },
+      {
+        "id": "nl-kit-greeting-hoi",
+        "native": "Hoi",
+        "gloss": {
+          "id": "Halo",
+          "en": "Hi"
+        }
+      },
+      {
+        "id": "nl-kit-greeting-avond",
+        "native": "Goedenavond",
+        "gloss": {
+          "id": "Selamat malam",
+          "en": "Good evening"
+        }
+      },
+      {
+        "id": "nl-kit-greeting-welkom",
+        "native": "Welkom",
+        "gloss": {
+          "id": "Selamat datang",
+          "en": "Welcome"
+        }
+      }
+    ],
+    "emotion": [
+      {
+        "id": "nl-kit-emotion-opgelucht",
+        "native": "opgelucht",
+        "gloss": {
+          "id": "lega",
+          "en": "relieved"
+        }
+      },
+      {
+        "id": "nl-kit-emotion-blij",
+        "native": "blij",
+        "gloss": {
+          "id": "senang",
+          "en": "happy"
+        }
+      },
+      {
+        "id": "nl-kit-emotion-verdrietig",
+        "native": "verdrietig",
+        "gloss": {
+          "id": "sedih",
+          "en": "sad"
+        }
+      },
+      {
+        "id": "nl-kit-emotion-weemoedig",
+        "native": "weemoedig",
+        "gloss": {
+          "id": "rindu",
+          "en": "wistful"
+        }
+      }
+    ]
+  },
+  "frames": [
+    {
+      "id": "f-l1-context-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " komt in de "
+        },
+        {
+          "slot": "time"
+        },
+        {
+          "text": " aan bij "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": ". "
+        },
+        {
+          "slot": "weather"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-context-2",
+      "segments": [
+        {
+          "slot": "place"
+        },
+        {
+          "text": " is nog stil. "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " wacht op "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " bij "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-greeting-1",
+      "segments": [
+        {
+          "text": "\""
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": ",\" zegt "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-greeting-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " lacht. \""
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": ",\" zegt "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-task-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": " bij "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-task-2",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": " en keek naar "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-request-1",
+      "segments": [
+        {
+          "text": "\""
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": ",\" zegt "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-request-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " vraagt om "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-complication-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " begrijpt het niet. \""
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "\" vraagt "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-complication-2",
+      "segments": [
+        {
+          "slot": "object"
+        },
+        {
+          "text": " is niet waar het hoort te zijn. "
+        },
+        {
+          "slot": "weather"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-clue-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " vond "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " onder de toonbank."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-clue-2",
+      "segments": [
+        {
+          "text": "Er staat een naam op "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": ". "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " leest het."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-turn-1",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " lacht. \""
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": ",\" zegt "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-turn-2",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " voelt zich "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-cliffhanger-1",
+      "segments": [
+        {
+          "text": "Dan gaat de telefoon. "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " houdt "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " vast."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-cliffhanger-2",
+      "segments": [
+        {
+          "text": "\""
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "\" zegt "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " zacht."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-context-1",
+      "segments": [
+        {
+          "text": "Als "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " in de "
+        },
+        {
+          "slot": "time"
+        },
+        {
+          "text": " bij "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " komt, is het er al druk. "
+        },
+        {
+          "slot": "weather"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-context-2",
+      "segments": [
+        {
+          "slot": "place"
+        },
+        {
+          "text": " is heel stil, dus "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " wacht op "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " met "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " in haar hand."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-greeting-1",
+      "segments": [
+        {
+          "text": "\""
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": ",\" zegt "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " terwijl ze de deur opendoet."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-greeting-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " knikt en antwoordt: \""
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": ".\""
+        }
+      ]
+    },
+    {
+      "id": "f-l2-task-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": ", daarom kwam "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " eerder naar "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-task-2",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": ", maar "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " lag nog op de toonbank."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-request-1",
+      "segments": [
+        {
+          "text": "\""
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": ",\" zegt "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " met een zachte stem."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-request-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " vraagt "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " hoe het met "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " zit."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-complication-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " begrijpt het niet en vraagt: \""
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "\""
+        }
+      ]
+    },
+    {
+      "id": "f-l2-complication-2",
+      "segments": [
+        {
+          "slot": "object"
+        },
+        {
+          "text": " is verplaatst, en "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " weet niet door wie."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-clue-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " vond "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " in een la, onder een oude doek."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-clue-2",
+      "segments": [
+        {
+          "text": "Op "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " staat een klein briefje: \""
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": ".\""
+        }
+      ]
+    },
+    {
+      "id": "f-l2-turn-1",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " kijkt naar "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " en zegt: \""
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": ".\""
+        }
+      ]
+    },
+    {
+      "id": "f-l2-turn-2",
+      "segments": [
+        {
+          "text": "Voor het eerst voelt "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " zich "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-cliffhanger-1",
+      "segments": [
+        {
+          "text": "Net dan staat "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " in de deuropening met "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " in de hand."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-cliffhanger-2",
+      "segments": [
+        {
+          "text": "De telefoon gaat weer. \""
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "\" zegt een stem."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-context-1",
+      "segments": [
+        {
+          "text": "Als "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " in de "
+        },
+        {
+          "slot": "time"
+        },
+        {
+          "text": " bij "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " aankomt, ziet het er anders uit dan in haar herinnering. "
+        },
+        {
+          "slot": "weather"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-context-2",
+      "segments": [
+        {
+          "slot": "place"
+        },
+        {
+          "text": " waar het vroeger druk was, is nu stil; alleen "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " ligt nog op dezelfde plek."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-greeting-1",
+      "segments": [
+        {
+          "text": "\""
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": ",\" zegt "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": ", ook al weet ze niet of "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " het hoort."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-greeting-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " groet "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " met \""
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "\" zoals altijd."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-task-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": " en zag dat "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " veel dingen bewaarde die ze nooit eerder had gezien."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-task-2",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": " omdat "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " klaar moest zijn voordat "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " kwam."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-request-1",
+      "segments": [
+        {
+          "text": "\""
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": ",\" zegt "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": ", alsof het de gewoonste vraag van de wereld is."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-request-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " vraagt of "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " iets van "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " weet. \""
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "\""
+        }
+      ]
+    },
+    {
+      "id": "f-l3-complication-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " kan geen antwoord geven; "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " is als een sleutel zonder deur. \""
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "\""
+        }
+      ]
+    },
+    {
+      "id": "f-l3-complication-2",
+      "segments": [
+        {
+          "text": "Iemand heeft "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " verplaatst, en "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " begint te vermoeden dat het geen toeval is."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-clue-1",
+      "segments": [
+        {
+          "text": "Achter "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " vindt "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " een oude notitie: \""
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": ".\""
+        }
+      ]
+    },
+    {
+      "id": "f-l3-clue-2",
+      "segments": [
+        {
+          "slot": "object"
+        },
+        {
+          "text": " komt uit "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": ", van lang voordat "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " geboren werd."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-turn-1",
+      "segments": [
+        {
+          "text": "\""
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": ",\" zegt "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": ". "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " voelt zich "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-turn-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " geeft "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " aan "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": ", en even voelt "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " zich "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-cliffhanger-1",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " laat iets zien: "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": ". \""
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "\""
+        }
+      ]
+    },
+    {
+      "id": "f-l3-cliffhanger-2",
+      "segments": [
+        {
+          "text": "Die avond is "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " leeg, maar "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " ligt nog op de toonbank."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-context-1",
+      "segments": [
+        {
+          "text": "Tegen de "
+        },
+        {
+          "slot": "time"
+        },
+        {
+          "text": " komt "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " bij "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " aan, waar ze lang niet is geweest. "
+        },
+        {
+          "slot": "weather"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-context-2",
+      "segments": [
+        {
+          "text": "Bij "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " ligt "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " al jaren op dezelfde plek."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-greeting-1",
+      "segments": [
+        {
+          "text": "\""
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": ",\" zegt "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " beleefd, ook al is de band tussen hen nooit echt hecht geweest."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-greeting-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " antwoordt met \""
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "\" en vraagt "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " binnen."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-task-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": " en besefte dat "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " niet meer was zoals vroeger."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-task-2",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": " en legde "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " uit waarom "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " zo belangrijk was."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-request-1",
+      "segments": [
+        {
+          "text": "\""
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": ",\" zegt "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " en duwt "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " naar "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " toe."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-request-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " vraagt "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " om "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " nog één keer te bekijken. \""
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "\""
+        }
+      ]
+    },
+    {
+      "id": "f-l4-complication-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " beseft dat "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " hier niet kan zijn zonder reden. \""
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "\""
+        }
+      ]
+    },
+    {
+      "id": "f-l4-complication-2",
+      "segments": [
+        {
+          "text": "Iemand heeft "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " uit "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " weggehaald, en "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " is daar niets van verteld."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-clue-1",
+      "segments": [
+        {
+          "text": "Bij "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " vindt "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " een handgeschreven brief: \""
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": ".\""
+        }
+      ]
+    },
+    {
+      "id": "f-l4-clue-2",
+      "segments": [
+        {
+          "slot": "object"
+        },
+        {
+          "text": " werd bij "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " bewaard door iemand die niet bekend wilde worden."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-turn-1",
+      "segments": [
+        {
+          "text": "\""
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": ",\" zegt "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": ". "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " kan niet verbergen hoe "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": " ze zich voelt."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-turn-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " overhandigt "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": ", en "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " weet dat ze zich al lang zo voelt: "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-cliffhanger-1",
+      "segments": [
+        {
+          "text": "Voordat "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " iets kan vragen, zegt "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": ": \""
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "\""
+        }
+      ]
+    },
+    {
+      "id": "f-l4-cliffhanger-2",
+      "segments": [
+        {
+          "text": "De deur van "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " gaat open, en "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " dat op slot had moeten zitten, is weg."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-context-1",
+      "segments": [
+        {
+          "text": "In de "
+        },
+        {
+          "slot": "time"
+        },
+        {
+          "text": " lijkt "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " op een herinnering die nog niet af is. "
+        },
+        {
+          "slot": "weather"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-context-2",
+      "segments": [
+        {
+          "text": "Jaren later weet "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " nog hoe "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " bij "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " lag."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-greeting-1",
+      "segments": [
+        {
+          "text": "\""
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": ",\" zegt "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "; de groet klinkt als een verlate verontschuldiging."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-greeting-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " antwoordt met \""
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "\", en beiden weten dat er iets ongezegd blijft."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-task-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": " en "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " leek de adem in te houden, wachtend op iets dat nooit kwam."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-task-2",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " "
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": " voorzichtig, alsof "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " bij één woord uit elkaar kon vallen."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-request-1",
+      "segments": [
+        {
+          "text": "\""
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": ",\" zegt "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": ". In diens handen lijkt "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " zwaarder dan ooit."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-request-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " vraagt niet om een antwoord en zegt alleen: \""
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "\" en de blik blijft op "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " rusten."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-complication-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " begrijpt eindelijk dat "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " geen geheim is, maar de manier waarop iemand heeft gevraagd om niet vergeten te worden. \""
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "\""
+        }
+      ]
+    },
+    {
+      "id": "f-l5-complication-2",
+      "segments": [
+        {
+          "text": "Wat het meest pijn doet, is niet het verlies van "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": ", maar het besef dat "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": " al lang op "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " heeft gewacht."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-clue-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " bekijkt "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " en vindt één zorgvuldig geschreven zin: \""
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": ".\""
+        }
+      ]
+    },
+    {
+      "id": "f-l5-clue-2",
+      "segments": [
+        {
+          "slot": "object"
+        },
+        {
+          "text": " bewaart de naam van "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": ", en die naam opent een deur die al die tijd dicht is gebleven."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-turn-1",
+      "segments": [
+        {
+          "text": "\""
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": ",\" zegt "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": " uiteindelijk. "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " voelt zich "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": " en kan dat niet langer verbergen."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-turn-2",
+      "segments": [
+        {
+          "text": "Als "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " van hand verandert, weet "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " dat ze zich nog lang "
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": " zal voelen, langer dan welk voorwerp ook."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-cliffhanger-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": " kijkt naar "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": ", dan naar "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": ". \""
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "\""
+        }
+      ]
+    },
+    {
+      "id": "f-l5-cliffhanger-2",
+      "segments": [
+        {
+          "text": "Op de drempel fluistert "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": ": \""
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "\" — en "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": " glijdt uit de handen van "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "."
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "nl-gram-l1-presens",
+      "level": 1,
+      "pattern": "presens: stam + t",
+      "meaning": {
+        "id": "kata kerja bentuk sekarang untuk orang ketiga",
+        "en": "present tense, third person singular"
+      },
+      "example": "Noor opent de winkel en kijkt naar de fiets.",
+      "note": "A1: rutinitas dan kejadian yang berlangsung sekarang; subjek orang ketiga mendapat -t."
+    },
+    {
+      "id": "nl-gram-l1-vraagwoord",
+      "level": 1,
+      "pattern": "vraagwoord + werkwoord + onderwerp",
+      "meaning": {
+        "id": "kalimat tanya dengan kata tanya",
+        "en": "question word + verb + subject"
+      },
+      "example": "Waar is de fiets?",
+      "note": "A1: pertanyaan sederhana; kata kerja di posisi kedua, subjek setelahnya."
+    },
+    {
+      "id": "nl-gram-l2-perfectum",
+      "level": 2,
+      "pattern": "perfectum: hebben/zijn + voltooid deelwoord",
+      "meaning": {
+        "id": "kala lampau sempurna",
+        "en": "present perfect"
+      },
+      "example": "Sem heeft de fiets bij de brug gezet.",
+      "note": "A2: tindakan lampau yang masih terasa akibatnya sekarang."
+    },
+    {
+      "id": "nl-gram-l2-verleden",
+      "level": 2,
+      "pattern": "onvoltooid verleden tijd: -te / -de",
+      "meaning": {
+        "id": "kala lampau sederhana",
+        "en": "simple past"
+      },
+      "example": "Noor vond de sleutel onder de toonbank.",
+      "note": "A2: peristiwa yang selesai di masa lalu."
+    },
+    {
+      "id": "nl-gram-l3-bijzin",
+      "level": 3,
+      "pattern": "bijzin met omdat/als: werkwoord achteraan",
+      "meaning": {
+        "id": "anak kalimat dengan kata kerja di akhir",
+        "en": "subordinate clause with final verb"
+      },
+      "example": "Noor blijft omdat Opa niet om hulp wil vragen.",
+      "note": "B1: urutan kata dalam anak kalimat berbeda dari kalimat utama."
+    },
+    {
+      "id": "nl-gram-l3-zou",
+      "level": 3,
+      "pattern": "zou + infinitief",
+      "meaning": {
+        "id": "pengandaian dan permintaan sopan",
+        "en": "conditional and polite request"
+      },
+      "example": "Zou je de fiets morgen willen brengen?",
+      "note": "B1: dugaan, saran, dan permintaan yang tidak menuntut."
+    },
+    {
+      "id": "nl-gram-l4-passief",
+      "level": 4,
+      "pattern": "passief: worden + voltooid deelwoord",
+      "meaning": {
+        "id": "kalimat pasif",
+        "en": "passive voice"
+      },
+      "example": "De fiets werd door de buurvrouw naar de kade gebracht.",
+      "note": "B2: pelaku tidak penting atau tidak diketahui."
+    },
+    {
+      "id": "nl-gram-l4-plusquamperfectum",
+      "level": 4,
+      "pattern": "plusquamperfectum: had/was + voltooid deelwoord",
+      "meaning": {
+        "id": "lampau sempurna yang mendahului lampau",
+        "en": "pluperfect"
+      },
+      "example": "Opa had de bel al teruggehangen voordat Noor het vroeg.",
+      "note": "B2: peristiwa yang selesai sebelum peristiwa lampau lainnya."
+    },
+    {
+      "id": "nl-gram-l5-alsof",
+      "level": 5,
+      "pattern": "alsof + onvoltooid verleden tijd",
+      "meaning": {
+        "id": "seolah-olah (pengandaian tidak nyata)",
+        "en": "as if + past tense (unreal)"
+      },
+      "example": "Opa praatte over de polder alsof hij er nog woonde.",
+      "note": "C1: perbandingan yang tidak nyata dan jarak emosional."
+    },
+    {
+      "id": "nl-gram-l5-beknopte",
+      "level": 5,
+      "pattern": "beknopte bijzin: na te hebben + voltooid deelwoord",
+      "meaning": {
+        "id": "anak kalimat ringkas dengan 'setelah'",
+        "en": "reduced clause with 'after having'"
+      },
+      "example": "Na de fiets te hebben gevonden, bleef Noor nog een uur op de kade zitten.",
+      "note": "C1: gaya naratif padat; subjek anak kalimat sama dengan kalimat utama."
+    }
+  ],
+  "questionPhrases": {
+    "meaning": "Wat betekent «{term}»?",
+    "who": "Wie is de hoofdpersoon in deze scène?",
+    "where": "Waar speelt deze scène zich af?",
+    "when": "Wanneer speelt deze scène zich af?",
+    "why": "Welke emotie past bij deze regel?",
+    "detail": "Welk detail in de tekst bevestigt dat?",
+    "next": "Wat zegt de hoofdpersoon?",
+    "culture": "Bij welke cultuurnoot hoort deze scène?",
+    "grammar": "Welk grammatical patroon herken je in deze regel?"
+  }
+}

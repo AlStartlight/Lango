@@ -24,7 +24,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
       const alternateUrls: Record<string, string> = {};
       languages.forEach((altLang) => {
-        alternateUrls[altLang] = `${baseUrl}/${altLang}${page.url}`;
+        const hreflang = altLang === "jp" ? "ja" : altLang;
+        alternateUrls[hreflang] = `${baseUrl}/${altLang}${page.url}`;
       });
 
       sitemapEntries.push({

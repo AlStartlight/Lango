@@ -1,0 +1,1640 @@
+{
+  "id": "de-baeckerei-elbe",
+  "languageCode": "de",
+  "slug": "baeckerei-elbe",
+  "title": "Die Bäckerei an der Elbe",
+  "nativeTitle": "Die Bäckerei an der Elbe",
+  "logline": "Lena kommt nach ihrer Ausbildung in München zurück nach Dresden, um Opa in der Bäckerei zu helfen – und entdeckt, dass im Familienrezeptbuch eine Seite fehlt.",
+  "setting": "Dresden: die Bäckerei Klinger in der erfundenen Elisenstraße in Löbtau, zwanzig Minuten zu Fuß von der Elbe. Backstube und Verkaufsraum, Straßenbahn, Altmarkt, Striezelmarkt, Elbwiesen und die Sächsische Schweiz.",
+  "era": "Gegenwart, vom Spätherbst bis zum Frühjahr",
+  "tone": "Warmherzige Alltagsgeschichte mit leiser Familienspannung, trockenem sächsischem Humor und viel Mehlstaub.",
+  "palette": "#6B4A2F",
+  "motifs": [
+    "Mehlstaub",
+    "Brötchen",
+    "Elbnebel",
+    "Pfandflaschen",
+    "Striezel",
+    "die Straßenbahn",
+    "Ofenwärme",
+    "Omis Handschrift"
+  ],
+  "sensitivityNotes": [
+    "Opas Nachlassen wird respektvoll erzählt: Er entscheidet selbst, was er weitergibt und wann; Müdigkeit ist kein Witz.",
+    "Die Bäckerei ist ein kleiner Familienbetrieb mit knapper Kasse – wirtschaftlicher Druck wird gezeigt, nicht bemitleidet.",
+    "Die Lernenden produzieren Hochdeutsch; sächsische Färbung erscheint höchstens in einzelnen Wörtern der Figurenrede und wird im Glossar erklärt.",
+    "Keine Verherrlichung von Krieg oder Nationalismus: Die Frauenkirche steht für Zerstörung, Wiederaufbau und Versöhnung.",
+    "Dresden ist keine Bayern-Kulisse: kein Oktoberfest, keine Dirndl, keine Lederhosen."
+  ],
+  "canon": {
+    "fictionalPlaces": [
+      "Bäckerei Klinger, Elisenstraße 7, Dresden-Löbtau (erfunden)",
+      "der Mehlschrank in der Backstube",
+      "das Familienrezeptbuch der Klingers"
+    ],
+    "realAnchors": [
+      "Dresden",
+      "Elbe",
+      "Altmarkt",
+      "Striezelmarkt",
+      "Frauenkirche",
+      "Hauptbahnhof",
+      "Sächsische Schweiz",
+      "Malerweg",
+      "Dresdner Verkehrsbetriebe"
+    ],
+    "timeline": "Gegenwart. T1: Spätherbst und Advent. T2: Advent bis Anfang Januar. T3: Advent und Striezelmarkt. T4: Winter bis Frühjahr. T5: ein Jahr später, Advent.",
+    "rules": [
+      "Lena ist 21 und hat gerade ihre Hotelfach-Ausbildung in München beendet.",
+      "Opa Werner Klinger ist 77, Bäckermeister und wird schneller müde als früher.",
+      "Jonas ist 23, Straßenbahnfahrer und Lenas Kindheitsfreund.",
+      "Frau Berger ist 70, Stammkundin und seit vierzig Jahren im Viertel.",
+      "Das Familienrezeptbuch hat eine fehlende Seite; sie taucht erst am Ende wieder auf.",
+      "Die Bäckerei liegt in Dresden, nicht in Bayern.",
+      "Sächsische Färbung bleibt auf einzelne Wörter wie „nu“ beschränkt; sie werden im Glossar erklärt, die Lernsprache bleibt Hochdeutsch."
+    ]
+  },
+  "levels": [
+    {
+      "tier": "T1",
+      "framework": "CEFR",
+      "levelCode": "A1",
+      "label": "CEFR A1",
+      "idPart": "a1",
+      "position": 1
+    },
+    {
+      "tier": "T2",
+      "framework": "CEFR",
+      "levelCode": "A2",
+      "label": "CEFR A2",
+      "idPart": "a2",
+      "position": 2
+    },
+    {
+      "tier": "T3",
+      "framework": "CEFR",
+      "levelCode": "B1",
+      "label": "CEFR B1",
+      "idPart": "b1",
+      "position": 3
+    },
+    {
+      "tier": "T4",
+      "framework": "CEFR",
+      "levelCode": "B2",
+      "label": "CEFR B2",
+      "idPart": "b2",
+      "position": 4
+    },
+    {
+      "tier": "T5",
+      "framework": "CEFR",
+      "levelCode": "C1",
+      "label": "CEFR C1",
+      "idPart": "c1",
+      "position": 5
+    }
+  ],
+  "characters": [
+    {
+      "id": "de-baeckerei-elbe-lena",
+      "name": "Lena",
+      "nativeName": "Lena",
+      "role": "Protagonistin, 21, kommt aus der Hotelfach-Ausbildung in München zurück",
+      "age": 21,
+      "bio": "Lena hat in München Hotelfach gelernt und wollte nie in die Backstube zurück. Als Opa immer öfter um vier Uhr morgens stehen bleibt, kommt sie für ein paar Wochen nach Dresden – und bleibt länger, als sie geplant hat.",
+      "speechStyle": "Direkt, trocken, wird weicher, wenn sie über Teig spricht",
+      "quote": "Ich bin nur für sechs Wochen da.",
+      "position": 1,
+      "lexeme": {
+        "id": "de-char-lena",
+        "native": "Lena",
+        "gloss": {
+          "id": "Lena",
+          "en": "Lena"
+        },
+        "tags": [
+          "protagonist"
+        ]
+      }
+    },
+    {
+      "id": "de-baeckerei-elbe-opa",
+      "name": "Opa",
+      "nativeName": "Opa",
+      "role": "Lenas Großvater, 77, Bäckermeister, wird langsamer",
+      "age": 77,
+      "bio": "Werner Klinger hat die Bäckerei 1972 übernommen und fünfzig Jahre lang um drei Uhr morgens den Ofen angeheizt. Er merkt selbst am besten, dass die Nächte kürzer werden, und will trotzdem nicht, dass jemand Mitleid mit ihm hat.",
+      "speechStyle": "Kurze Sätze, sächsische Färbung, selten ein großes Wort",
+      "quote": "Ein Brot braucht Zeit. Ich auch.",
+      "position": 2,
+      "lexeme": {
+        "id": "de-char-opa",
+        "native": "Opa",
+        "gloss": {
+          "id": "Opa",
+          "en": "Opa"
+        },
+        "tags": [
+          "mentor"
+        ]
+      }
+    },
+    {
+      "id": "de-baeckerei-elbe-jonas",
+      "name": "Jonas",
+      "nativeName": "Jonas",
+      "role": "Kindheitsfreund, 23, Straßenbahnfahrer in Dresden",
+      "age": 23,
+      "bio": "Jonas fährt seit zwei Jahren die Linie vom Hauptbahnhof Richtung Elbe und kennt die Stammkunden der Bäckerei besser als deren Namen. Er bringt Pfandflaschen zurück, bleibt zum Kaffee und sagt nie, was er eigentlich will.",
+      "speechStyle": "Ruhig, beobachtend, mit trockenem Humor",
+      "quote": "Die Bahn fährt immer wieder. Ich auch.",
+      "position": 3,
+      "lexeme": {
+        "id": "de-char-jonas",
+        "native": "Jonas",
+        "gloss": {
+          "id": "Jonas",
+          "en": "Jonas"
+        },
+        "tags": [
+          "friend"
+        ]
+      }
+    },
+    {
+      "id": "de-baeckerei-elbe-berger",
+      "name": "Frau Berger",
+      "nativeName": "Frau Berger",
+      "role": "Stammkundin, 70, kennt das Viertel seit vierzig Jahren",
+      "age": 70,
+      "bio": "Frau Berger kauft seit 1985 jeden Morgen zwei Brötchen und weiß, welcher Handwerker wann pleiteging. Sie erinnert sich an das Rezeptbuch, bevor Lena geboren wurde, und sagt nur, wenn man sie fragt.",
+      "speechStyle": "Bestimmt, warm, sehr genau bei Details",
+      "quote": "Ich kaufe hier, seit die Straße noch anders hieß.",
+      "position": 4,
+      "lexeme": {
+        "id": "de-char-berger",
+        "native": "Frau Berger",
+        "gloss": {
+          "id": "Frau Berger",
+          "en": "Frau Berger"
+        },
+        "tags": [
+          "mentor"
+        ]
+      }
+    }
+  ],
+  "lexicon": {
+    "person": [
+      {
+        "id": "de-w-person-stammkundin",
+        "native": "die Stammkundin",
+        "gloss": {
+          "id": "pelanggan tetap",
+          "en": "the regular customer"
+        },
+        "tags": [
+          "role"
+        ]
+      },
+      {
+        "id": "de-w-person-nachbarin",
+        "native": "die Nachbarin",
+        "gloss": {
+          "id": "tetangga",
+          "en": "the neighbour"
+        },
+        "tags": [
+          "role"
+        ]
+      },
+      {
+        "id": "de-w-person-fahrgast",
+        "native": "der Fahrgast",
+        "gloss": {
+          "id": "penumpang",
+          "en": "the passenger"
+        },
+        "tags": [
+          "role"
+        ]
+      },
+      {
+        "id": "de-w-person-lehrling",
+        "native": "der Bäckerlehrling",
+        "gloss": {
+          "id": "murid magang pembuat roti",
+          "en": "the baker's apprentice"
+        },
+        "tags": [
+          "role"
+        ]
+      }
+    ],
+    "place": [
+      {
+        "id": "de-w-place-backstube",
+        "native": "in der Backstube",
+        "gloss": {
+          "id": "ruang panggang",
+          "en": "the bakehouse"
+        },
+        "tags": [
+          "home"
+        ]
+      },
+      {
+        "id": "de-w-place-verkaufsraum",
+        "native": "im Verkaufsraum",
+        "gloss": {
+          "id": "ruang penjualan",
+          "en": "the shop"
+        },
+        "tags": [
+          "home"
+        ]
+      },
+      {
+        "id": "de-w-place-elbufer",
+        "native": "am Elbufer",
+        "gloss": {
+          "id": "tepi Elbe",
+          "en": "the Elbe embankment"
+        },
+        "tags": [
+          "river"
+        ]
+      },
+      {
+        "id": "de-w-place-striezelmarkt",
+        "native": "auf dem Striezelmarkt",
+        "gloss": {
+          "id": "Striezelmarkt",
+          "en": "the Striezelmarkt"
+        },
+        "tags": [
+          "market"
+        ]
+      },
+      {
+        "id": "de-w-place-altmarkt",
+        "native": "auf dem Altmarkt",
+        "gloss": {
+          "id": "Altmarkt",
+          "en": "the Altmarkt"
+        },
+        "tags": [
+          "market"
+        ]
+      },
+      {
+        "id": "de-w-place-hauptbahnhof",
+        "native": "am Hauptbahnhof",
+        "gloss": {
+          "id": "stasiun pusat",
+          "en": "the main station"
+        },
+        "tags": [
+          "city"
+        ]
+      },
+      {
+        "id": "de-w-place-malerweg",
+        "native": "auf dem Malerweg",
+        "gloss": {
+          "id": "jalur Malerweg",
+          "en": "the Malerweg trail"
+        },
+        "tags": [
+          "nature"
+        ]
+      },
+      {
+        "id": "de-w-place-frauenkirche",
+        "native": "an der Frauenkirche",
+        "gloss": {
+          "id": "Frauenkirche",
+          "en": "the Frauenkirche"
+        },
+        "tags": [
+          "city"
+        ]
+      },
+      {
+        "id": "de-w-place-haltestelle",
+        "native": "an der Haltestelle",
+        "gloss": {
+          "id": "halte trem",
+          "en": "the tram stop"
+        },
+        "tags": [
+          "city"
+        ]
+      },
+      {
+        "id": "de-w-place-dresden",
+        "native": "in Dresden",
+        "gloss": {
+          "id": "Dresden",
+          "en": "Dresden"
+        },
+        "tags": [
+          "city"
+        ]
+      },
+      {
+        "id": "de-w-place-nachbarhaus",
+        "native": "im Nachbarhaus",
+        "gloss": {
+          "id": "rumah sebelah",
+          "en": "the house next door"
+        },
+        "tags": [
+          "home"
+        ]
+      },
+      {
+        "id": "de-w-place-elbwiesen",
+        "native": "auf den Elbwiesen",
+        "gloss": {
+          "id": "padang rumput Elbe",
+          "en": "the Elbe meadows"
+        },
+        "tags": [
+          "river"
+        ]
+      },
+      {
+        "id": "de-w-place-konditorei",
+        "native": "in der Konditorei",
+        "gloss": {
+          "id": "toko kue",
+          "en": "the cake shop"
+        },
+        "tags": [
+          "food"
+        ]
+      },
+      {
+        "id": "de-w-place-markthalle",
+        "native": "in der Markthalle",
+        "gloss": {
+          "id": "aula pasar",
+          "en": "the market hall"
+        },
+        "tags": [
+          "market"
+        ]
+      }
+    ],
+    "object": [
+      {
+        "id": "de-w-object-rezeptseite",
+        "native": "die Rezeptseite",
+        "gloss": {
+          "id": "halaman resep",
+          "en": "the recipe page"
+        },
+        "tags": [
+          "mystery",
+          "clue"
+        ]
+      },
+      {
+        "id": "de-w-object-rezeptbuch",
+        "native": "das Rezeptbuch",
+        "gloss": {
+          "id": "buku resep",
+          "en": "the recipe book"
+        },
+        "tags": [
+          "memory",
+          "clue"
+        ]
+      },
+      {
+        "id": "de-w-object-brotdose",
+        "native": "die Brotdose",
+        "gloss": {
+          "id": "kotak roti",
+          "en": "the bread box"
+        },
+        "tags": [
+          "clue"
+        ]
+      },
+      {
+        "id": "de-w-object-quittung",
+        "native": "die Quittung",
+        "gloss": {
+          "id": "struk",
+          "en": "the receipt"
+        },
+        "tags": [
+          "clue"
+        ]
+      },
+      {
+        "id": "de-w-object-stollenform",
+        "native": "die Stollenform",
+        "gloss": {
+          "id": "cetakan stollen",
+          "en": "the stollen tin"
+        },
+        "tags": [
+          "season"
+        ]
+      },
+      {
+        "id": "de-w-object-postkarte",
+        "native": "die Postkarte",
+        "gloss": {
+          "id": "kartu pos",
+          "en": "the postcard"
+        },
+        "tags": [
+          "clue"
+        ]
+      },
+      {
+        "id": "de-w-object-zeitungsseite",
+        "native": "die Zeitungsseite",
+        "gloss": {
+          "id": "halaman koran",
+          "en": "the newspaper page"
+        },
+        "tags": [
+          "memory"
+        ]
+      },
+      {
+        "id": "de-w-object-foto",
+        "native": "das Foto",
+        "gloss": {
+          "id": "foto",
+          "en": "the photograph"
+        },
+        "tags": [
+          "memory"
+        ]
+      },
+      {
+        "id": "de-w-object-teigschuessel",
+        "native": "die Teigschüssel",
+        "gloss": {
+          "id": "mangkuk adonan",
+          "en": "the dough bowl"
+        },
+        "tags": [
+          "work"
+        ]
+      },
+      {
+        "id": "de-w-object-etikett",
+        "native": "das Etikett",
+        "gloss": {
+          "id": "label",
+          "en": "the label"
+        },
+        "tags": [
+          "clue"
+        ]
+      },
+      {
+        "id": "de-w-object-backblech",
+        "native": "das Backblech",
+        "gloss": {
+          "id": "loyang",
+          "en": "the baking tray"
+        },
+        "tags": [
+          "work"
+        ]
+      },
+      {
+        "id": "de-w-object-mehltuete",
+        "native": "die Mehltüte",
+        "gloss": {
+          "id": "kantong tepung",
+          "en": "the bag of flour"
+        },
+        "tags": [
+          "work"
+        ]
+      }
+    ],
+    "food": [
+      {
+        "id": "de-w-food-broetchen",
+        "native": "das Brötchen",
+        "gloss": {
+          "id": "roti kecil",
+          "en": "the bread roll"
+        },
+        "tags": [
+          "anchor"
+        ]
+      },
+      {
+        "id": "de-w-food-christstollen",
+        "native": "der Dresdner Christstollen",
+        "gloss": {
+          "id": "stollen Dresden",
+          "en": "the Dresden stollen"
+        },
+        "tags": [
+          "anchor"
+        ]
+      },
+      {
+        "id": "de-w-food-streuselkuchen",
+        "native": "der Streuselkuchen",
+        "gloss": {
+          "id": "kue streusel",
+          "en": "the crumb cake"
+        },
+        "tags": [
+          "anchor"
+        ]
+      },
+      {
+        "id": "de-w-food-eierschecke",
+        "native": "die Eierschecke",
+        "gloss": {
+          "id": "kue eierschecke",
+          "en": "the Eierschecke cake"
+        },
+        "tags": [
+          "anchor"
+        ]
+      },
+      {
+        "id": "de-w-food-brezel",
+        "native": "die Brezel",
+        "gloss": {
+          "id": "brezel",
+          "en": "the pretzel"
+        }
+      },
+      {
+        "id": "de-w-food-roggenbrot",
+        "native": "das Roggenbrot",
+        "gloss": {
+          "id": "roti gandum hitam",
+          "en": "the rye bread"
+        }
+      },
+      {
+        "id": "de-w-food-quarkkeulchen",
+        "native": "die Quarkkeulchen",
+        "gloss": {
+          "id": "kue quark",
+          "en": "the quark dumplings"
+        },
+        "tags": [
+          "anchor"
+        ]
+      },
+      {
+        "id": "de-w-food-bienenstich",
+        "native": "der Bienenstich",
+        "gloss": {
+          "id": "kue madu",
+          "en": "the bee sting cake"
+        }
+      }
+    ],
+    "drink": [
+      {
+        "id": "de-w-drink-kaffee",
+        "native": "der Kaffee",
+        "gloss": {
+          "id": "kopi",
+          "en": "the coffee"
+        },
+        "tags": [
+          "anchor"
+        ]
+      },
+      {
+        "id": "de-w-drink-tee",
+        "native": "der Tee",
+        "gloss": {
+          "id": "teh",
+          "en": "the tea"
+        }
+      },
+      {
+        "id": "de-w-drink-milch",
+        "native": "die Milch",
+        "gloss": {
+          "id": "susu",
+          "en": "the milk"
+        }
+      },
+      {
+        "id": "de-w-drink-kakao",
+        "native": "der Kakao",
+        "gloss": {
+          "id": "cokelat panas",
+          "en": "the cocoa"
+        }
+      },
+      {
+        "id": "de-w-drink-wasser",
+        "native": "das Wasser",
+        "gloss": {
+          "id": "air",
+          "en": "the water"
+        }
+      },
+      {
+        "id": "de-w-drink-gluehwein",
+        "native": "der Glühwein",
+        "gloss": {
+          "id": "anggur panas",
+          "en": "the mulled wine"
+        },
+        "tags": [
+          "market"
+        ]
+      },
+      {
+        "id": "de-w-drink-apfelsaft",
+        "native": "der Apfelsaft",
+        "gloss": {
+          "id": "jus apel",
+          "en": "the apple juice"
+        }
+      },
+      {
+        "id": "de-w-drink-kraeutertee",
+        "native": "der Kräutertee",
+        "gloss": {
+          "id": "teh herbal",
+          "en": "the herbal tea"
+        }
+      }
+    ],
+    "time": [
+      {
+        "id": "de-w-time-morgen",
+        "native": "am Morgen",
+        "gloss": {
+          "id": "pagi hari",
+          "en": "morning"
+        }
+      },
+      {
+        "id": "de-w-time-frueh",
+        "native": "am frühen Morgen",
+        "gloss": {
+          "id": "pagi buta",
+          "en": "early morning"
+        }
+      },
+      {
+        "id": "de-w-time-vormittag",
+        "native": "am Vormittag",
+        "gloss": {
+          "id": "menjelang siang",
+          "en": "late morning"
+        }
+      },
+      {
+        "id": "de-w-time-mittag",
+        "native": "am Mittag",
+        "gloss": {
+          "id": "tengah hari",
+          "en": "midday"
+        }
+      },
+      {
+        "id": "de-w-time-nachmittag",
+        "native": "am Nachmittag",
+        "gloss": {
+          "id": "sore hari",
+          "en": "afternoon"
+        }
+      },
+      {
+        "id": "de-w-time-abend",
+        "native": "am Abend",
+        "gloss": {
+          "id": "malam hari",
+          "en": "evening"
+        }
+      },
+      {
+        "id": "de-w-time-nacht",
+        "native": "in der Nacht",
+        "gloss": {
+          "id": "malam",
+          "en": "night"
+        }
+      },
+      {
+        "id": "de-w-time-advent",
+        "native": "im Advent",
+        "gloss": {
+          "id": "masa Advent",
+          "en": "Advent"
+        }
+      },
+      {
+        "id": "de-w-time-weihnachtszeit",
+        "native": "in der Weihnachtszeit",
+        "gloss": {
+          "id": "musim Natal",
+          "en": "Christmas season"
+        }
+      },
+      {
+        "id": "de-w-time-winter",
+        "native": "im Winter",
+        "gloss": {
+          "id": "musim dingin",
+          "en": "winter"
+        }
+      },
+      {
+        "id": "de-w-time-sommer",
+        "native": "im Sommer",
+        "gloss": {
+          "id": "musim panas",
+          "en": "summer"
+        }
+      },
+      {
+        "id": "de-w-time-wochenende",
+        "native": "am Wochenende",
+        "gloss": {
+          "id": "akhir pekan",
+          "en": "weekend"
+        }
+      },
+      {
+        "id": "de-w-time-adventszeit",
+        "native": "in der Adventszeit",
+        "gloss": {
+          "id": "musim Advent",
+          "en": "Advent season"
+        }
+      }
+    ],
+    "weather": [
+      {
+        "id": "de-w-weather-grau",
+        "native": "Der Himmel ist grau.",
+        "gloss": {
+          "id": "Langitnya kelabu.",
+          "en": "The sky is grey."
+        },
+        "tags": [
+          "fog"
+        ]
+      },
+      {
+        "id": "de-w-weather-regen",
+        "native": "Es regnet leise.",
+        "gloss": {
+          "id": "Hujan turun perlahan.",
+          "en": "It is raining quietly."
+        },
+        "tags": [
+          "rain"
+        ]
+      },
+      {
+        "id": "de-w-weather-kalt",
+        "native": "Es ist kalt.",
+        "gloss": {
+          "id": "Cuacanya dingin.",
+          "en": "It is cold."
+        },
+        "tags": [
+          "cold"
+        ]
+      },
+      {
+        "id": "de-w-weather-dunkel",
+        "native": "Draußen ist es noch dunkel.",
+        "gloss": {
+          "id": "Di luar masih gelap.",
+          "en": "It is still dark outside."
+        },
+        "tags": [
+          "cold"
+        ]
+      },
+      {
+        "id": "de-w-weather-sonne",
+        "native": "Die Sonne scheint.",
+        "gloss": {
+          "id": "Matahari bersinar.",
+          "en": "The sun is shining."
+        },
+        "tags": [
+          "clear"
+        ]
+      },
+      {
+        "id": "de-w-weather-schnee",
+        "native": "Es riecht nach Schnee.",
+        "gloss": {
+          "id": "Udara berbau salju.",
+          "en": "It smells of snow."
+        },
+        "tags": [
+          "cold"
+        ]
+      },
+      {
+        "id": "de-w-weather-wind",
+        "native": "Der Wind kommt von der Elbe.",
+        "gloss": {
+          "id": "Angin bertiup dari Elbe.",
+          "en": "The wind comes from the Elbe."
+        },
+        "tags": [
+          "wind"
+        ]
+      },
+      {
+        "id": "de-w-weather-nebel",
+        "native": "Über der Elbe liegt Nebel.",
+        "gloss": {
+          "id": "Kabut menyelimuti Elbe.",
+          "en": "Fog lies over the Elbe."
+        },
+        "tags": [
+          "fog"
+        ]
+      },
+      {
+        "id": "de-w-weather-frost",
+        "native": "Es ist frostig.",
+        "gloss": {
+          "id": "Cuacanya dingin membeku.",
+          "en": "It is frosty."
+        },
+        "tags": [
+          "cold"
+        ]
+      },
+      {
+        "id": "de-w-weather-warm",
+        "native": "Es ist warm und still.",
+        "gloss": {
+          "id": "Cuacanya hangat dan tenang.",
+          "en": "It is warm and still."
+        },
+        "tags": [
+          "warm"
+        ]
+      }
+    ],
+    "action": [
+      {
+        "id": "de-w-action-kneten",
+        "native": "knetet den Teig",
+        "gloss": {
+          "id": "menguleni adonan",
+          "en": "kneads the dough"
+        }
+      },
+      {
+        "id": "de-w-action-ofen",
+        "native": "schiebt die Brötchen in den Ofen",
+        "gloss": {
+          "id": "memasukkan roti ke oven",
+          "en": "slides the rolls into the oven"
+        }
+      },
+      {
+        "id": "de-w-action-fegen",
+        "native": "fegt den Boden",
+        "gloss": {
+          "id": "menyapu lantai",
+          "en": "sweeps the floor"
+        }
+      },
+      {
+        "id": "de-w-action-tresen",
+        "native": "wischt den Tresen ab",
+        "gloss": {
+          "id": "mengelap meja",
+          "en": "wipes the counter"
+        }
+      },
+      {
+        "id": "de-w-action-mehl",
+        "native": "wiegt das Mehl ab",
+        "gloss": {
+          "id": "menimbang tepung",
+          "en": "weighs the flour"
+        }
+      },
+      {
+        "id": "de-w-action-zaehlen",
+        "native": "zählt die Brötchen",
+        "gloss": {
+          "id": "menghitung roti",
+          "en": "counts the rolls"
+        }
+      },
+      {
+        "id": "de-w-action-stuehle",
+        "native": "stellt die Stühle hoch",
+        "gloss": {
+          "id": "menaikkan kursi",
+          "en": "puts the chairs up"
+        }
+      },
+      {
+        "id": "de-w-action-heizen",
+        "native": "heizt den Ofen an",
+        "gloss": {
+          "id": "menyalakan oven",
+          "en": "heats the oven"
+        }
+      },
+      {
+        "id": "de-w-action-brot",
+        "native": "schneidet das Brot an",
+        "gloss": {
+          "id": "mengiris roti",
+          "en": "cuts into the bread"
+        }
+      },
+      {
+        "id": "de-w-action-bleche",
+        "native": "spült die Bleche",
+        "gloss": {
+          "id": "mencuci loyang",
+          "en": "rinses the trays"
+        }
+      },
+      {
+        "id": "de-w-action-eier",
+        "native": "schlägt die Eier auf",
+        "gloss": {
+          "id": "memecahkan telur",
+          "en": "cracks the eggs"
+        }
+      },
+      {
+        "id": "de-w-action-auslage",
+        "native": "räumt die Auslage ein",
+        "gloss": {
+          "id": "menata etalase",
+          "en": "fills the display"
+        }
+      }
+    ],
+    "quote": [
+      {
+        "id": "de-w-quote-schluessel",
+        "native": "Der Schlüssel liegt nicht mehr da.",
+        "gloss": {
+          "id": "Kuncinya sudah tidak ada di sana.",
+          "en": "The key is no longer there."
+        },
+        "tags": [
+          "mystery"
+        ]
+      },
+      {
+        "id": "de-w-quote-seite",
+        "native": "Auf dieser Seite fehlt etwas.",
+        "gloss": {
+          "id": "Di halaman ini ada yang hilang.",
+          "en": "Something is missing on this page."
+        },
+        "tags": [
+          "mystery"
+        ]
+      },
+      {
+        "id": "de-w-quote-aelter",
+        "native": "Das Rezept ist älter als wir beide.",
+        "gloss": {
+          "id": "Resep ini lebih tua dari kita berdua.",
+          "en": "The recipe is older than both of us."
+        },
+        "tags": [
+          "mystery"
+        ]
+      },
+      {
+        "id": "de-w-quote-elbe",
+        "native": "Die Elbe vergisst nichts.",
+        "gloss": {
+          "id": "Elbe tidak melupakan apa pun.",
+          "en": "The Elbe forgets nothing."
+        },
+        "tags": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "de-w-quote-zuhause",
+        "native": "Riechst du das? Das ist Zuhause.",
+        "gloss": {
+          "id": "Kamu menciumnya? Ini rumah.",
+          "en": "Can you smell that? That is home."
+        },
+        "tags": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "de-w-quote-zeit",
+        "native": "Nimm dir Zeit.",
+        "gloss": {
+          "id": "Ambillah waktumu.",
+          "en": "Take your time."
+        }
+      },
+      {
+        "id": "de-w-quote-danke",
+        "native": "Danke, dass du da bist.",
+        "gloss": {
+          "id": "Terima kasih sudah ada di sini.",
+          "en": "Thank you for being here."
+        },
+        "tags": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "de-w-quote-geduld",
+        "native": "Ein Brot braucht Geduld.",
+        "gloss": {
+          "id": "Roti butuh kesabaran.",
+          "en": "Bread needs patience."
+        }
+      },
+      {
+        "id": "de-w-quote-bleiben",
+        "native": "Opa, ich bleibe noch ein bisschen.",
+        "gloss": {
+          "id": "Opa, aku tinggal sebentar lagi.",
+          "en": "Opa, I'll stay a little longer."
+        },
+        "tags": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "de-w-quote-handschrift",
+        "native": "Das ist Omis Handschrift.",
+        "gloss": {
+          "id": "Itu tulisan tangan Oma.",
+          "en": "That is Grandma's handwriting."
+        },
+        "tags": [
+          "mystery"
+        ]
+      },
+      {
+        "id": "de-w-quote-backen",
+        "native": "Heute backen wir zusammen.",
+        "gloss": {
+          "id": "Hari ini kita memanggang bersama.",
+          "en": "Today we bake together."
+        }
+      },
+      {
+        "id": "de-w-quote-nu",
+        "native": "Nu mach dir mal keine Sorgen.",
+        "gloss": {
+          "id": "Sudah, jangan khawatir (nu = ya, khas Sachsen).",
+          "en": "Nu (well), don't worry."
+        },
+        "tags": [
+          "emotion"
+        ]
+      }
+    ],
+    "question": [
+      {
+        "id": "de-w-question-seite",
+        "native": "Wo ist die fehlende Seite?",
+        "gloss": {
+          "id": "Di mana halaman yang hilang?",
+          "en": "Where is the missing page?"
+        }
+      },
+      {
+        "id": "de-w-question-rezept",
+        "native": "Wer hat das Rezept aufgeschrieben?",
+        "gloss": {
+          "id": "Siapa yang menulis resep itu?",
+          "en": "Who wrote down the recipe?"
+        }
+      },
+      {
+        "id": "de-w-question-gebacken",
+        "native": "Wann hat Opa das letzte Mal gebacken?",
+        "gloss": {
+          "id": "Kapan Opa terakhir memanggang?",
+          "en": "When did Opa last bake?"
+        }
+      },
+      {
+        "id": "de-w-question-elbe",
+        "native": "Warum steht die Elbe im Rezept?",
+        "gloss": {
+          "id": "Mengapa Elbe ada di resep?",
+          "en": "Why is the Elbe in the recipe?"
+        }
+      },
+      {
+        "id": "de-w-question-ofen",
+        "native": "Was ist mit dem Ofen passiert?",
+        "gloss": {
+          "id": "Apa yang terjadi dengan oven?",
+          "en": "What happened to the oven?"
+        }
+      },
+      {
+        "id": "de-w-question-kennen",
+        "native": "Kennst du dieses Rezept?",
+        "gloss": {
+          "id": "Apakah kamu tahu resep ini?",
+          "en": "Do you know this recipe?"
+        }
+      },
+      {
+        "id": "de-w-question-weg",
+        "native": "Wo warst du so lange?",
+        "gloss": {
+          "id": "Ke mana saja kamu selama ini?",
+          "en": "Where were you for so long?"
+        }
+      },
+      {
+        "id": "de-w-question-schluessel",
+        "native": "Hast du den Schlüssel gesehen?",
+        "gloss": {
+          "id": "Apakah kamu melihat kuncinya?",
+          "en": "Have you seen the key?"
+        }
+      }
+    ],
+    "greeting": [
+      {
+        "id": "de-w-greeting-morgen",
+        "native": "Guten Morgen",
+        "gloss": {
+          "id": "Selamat pagi",
+          "en": "Good morning"
+        }
+      },
+      {
+        "id": "de-w-greeting-tag",
+        "native": "Guten Tag",
+        "gloss": {
+          "id": "Selamat siang",
+          "en": "Good day"
+        }
+      },
+      {
+        "id": "de-w-greeting-hallo",
+        "native": "Hallo",
+        "gloss": {
+          "id": "Halo",
+          "en": "Hello"
+        }
+      },
+      {
+        "id": "de-w-greeting-gruess",
+        "native": "Grüß dich",
+        "gloss": {
+          "id": "Hai",
+          "en": "Hi there"
+        }
+      },
+      {
+        "id": "de-w-greeting-abend",
+        "native": "Guten Abend",
+        "gloss": {
+          "id": "Selamat malam",
+          "en": "Good evening"
+        }
+      },
+      {
+        "id": "de-w-greeting-spaeter",
+        "native": "Bis später",
+        "gloss": {
+          "id": "Sampai nanti",
+          "en": "See you later"
+        }
+      },
+      {
+        "id": "de-w-greeting-tschues",
+        "native": "Tschüss",
+        "gloss": {
+          "id": "Dadah",
+          "en": "Bye"
+        }
+      },
+      {
+        "id": "de-w-greeting-zusammen",
+        "native": "Hallo zusammen",
+        "gloss": {
+          "id": "Halo semuanya",
+          "en": "Hello everyone"
+        }
+      }
+    ],
+    "emotion": [
+      {
+        "id": "de-w-emotion-erleichterung",
+        "native": "die Erleichterung",
+        "gloss": {
+          "id": "lega",
+          "en": "relief"
+        }
+      },
+      {
+        "id": "de-w-emotion-unruhe",
+        "native": "die Unruhe",
+        "gloss": {
+          "id": "gelisah",
+          "en": "unease"
+        }
+      },
+      {
+        "id": "de-w-emotion-muedigkeit",
+        "native": "die Müdigkeit",
+        "gloss": {
+          "id": "lelah",
+          "en": "tiredness"
+        }
+      },
+      {
+        "id": "de-w-emotion-freude",
+        "native": "die Freude",
+        "gloss": {
+          "id": "senang",
+          "en": "joy"
+        }
+      },
+      {
+        "id": "de-w-emotion-traurigkeit",
+        "native": "die Traurigkeit",
+        "gloss": {
+          "id": "sedih",
+          "en": "sadness"
+        }
+      },
+      {
+        "id": "de-w-emotion-nervositaet",
+        "native": "die Nervosität",
+        "gloss": {
+          "id": "gugup",
+          "en": "nervousness"
+        }
+      },
+      {
+        "id": "de-w-emotion-zufriedenheit",
+        "native": "die Zufriedenheit",
+        "gloss": {
+          "id": "puas",
+          "en": "contentment"
+        }
+      },
+      {
+        "id": "de-w-emotion-wehmut",
+        "native": "die Wehmut",
+        "gloss": {
+          "id": "rindu",
+          "en": "wistfulness"
+        }
+      },
+      {
+        "id": "de-w-emotion-zuversicht",
+        "native": "die Zuversicht",
+        "gloss": {
+          "id": "yakin",
+          "en": "confidence"
+        }
+      },
+      {
+        "id": "de-w-emotion-sorge",
+        "native": "die Sorge",
+        "gloss": {
+          "id": "khawatir",
+          "en": "worry"
+        }
+      },
+      {
+        "id": "de-w-emotion-waerme",
+        "native": "die Wärme",
+        "gloss": {
+          "id": "hangat",
+          "en": "warmth"
+        }
+      }
+    ]
+  },
+  "anchors": [
+    {
+      "id": "de-culture-broetchen",
+      "title": "Das Brötchen am Morgen",
+      "body": {
+        "id": "Brötchen adalah roti kecil yang dipanggang pagi-pagi dan dijual hangat sebelum orang berangkat kerja. Bentuk dan namanya berbeda menurut daerah: di banyak tempat di Jerman timur orang menyebutnya Brötchen, di Bayern Semmel. Di toko roti kecil, pelanggan tetap sering memesan jumlah yang sama setiap hari, dan antrean pagi menjadi semacam jam sosial lingkungan.",
+        "en": "A Brötchen is a small roll baked early in the morning and sold warm before people leave for work. Shape and name vary by region: in much of eastern Germany people say Brötchen, in Bavaria Semmel. In a small bakery, regulars often order the same number every day, and the morning queue works as the neighbourhood's social clock."
+      },
+      "sources": [
+        "Zentralverband des Deutschen Bäckerhandwerks e. V. — „Brot und Brötchen“ (baeckerhandwerk.de)",
+        "Bundesministerium für Ernährung und Landwirtschaft — „Brot und Backwaren“ (bmel.de)"
+      ],
+      "reflection": {
+        "id": "Mengapa roti kecil bisa menjadi ukuran waktu sebuah kota?",
+        "en": "Why can a small bread roll measure a city's day?"
+      },
+      "stampId": "de-stamp-broetchen",
+      "tags": [
+        "bread"
+      ]
+    },
+    {
+      "id": "de-culture-striezelmarkt",
+      "title": "Der Striezelmarkt",
+      "body": {
+        "id": "Striezelmarkt di Dresden adalah salah satu pasar Natal tertua di Jerman. Namanya diambil dari Striezel, roti anyaman memanjang yang kemudian dikenal sebagai Christstollen. Pasar ini berlangsung di Altmarkt dari akhir November sampai malam Natal (tahun 2025: 26 November–24 Desember) dan tetap menampung pedagang daerah serta kerajinan tangan, bukan hanya wahana foto.",
+        "en": "The Striezelmarkt in Dresden is one of Germany's oldest Christmas markets. Its name comes from the Striezel, a long braided loaf later known as Christstollen. It runs on the Altmarkt from late November until Christmas Eve (2025: 26 November–24 December) and still hosts regional traders and crafts rather than only photo attractions."
+      },
+      "sources": [
+        "Landeshauptstadt Dresden — „Dresdner Striezelmarkt“ (striezelmarkt.dresden.de)",
+        "Dresden Elbland Tourismus — „Christmas markets in Dresden“ (visit-dresden-elbland.de)"
+      ],
+      "reflection": {
+        "id": "Apa yang hilang dari pasar Natal kalau ia hanya menjadi latar foto?",
+        "en": "What is lost when a Christmas market becomes only a photo backdrop?"
+      },
+      "stampId": "de-stamp-striezelmarkt",
+      "tags": [
+        "market"
+      ]
+    },
+    {
+      "id": "de-culture-christstollen",
+      "title": "Der Dresdner Christstollen",
+      "body": {
+        "id": "Dresdner Christstollen adalah kue ragi berat dengan kismis, almond, dan marzipan, ditaburi gula halus tebal. Sejak 2010 nama „Dresdner Christstollen“ dilindungi di Uni Eropa sebagai indikasi geografis (g.g.A.); hanya stollen dari Dresden dan sekitarnya yang boleh memakai nama itu. Setelah dipanggang, stollen biasanya didiamkan beberapa minggu agar rasanya matang.",
+        "en": "Dresdner Christstollen is a heavy yeast cake with raisins, almonds and marzipan, dusted thickly with icing sugar. Since 2010 the name “Dresdner Christstollen” has been protected in the EU as a geographical indication (PGI); only stollen from Dresden and its region may use it. After baking, a stollen usually rests for several weeks so the flavour matures."
+      },
+      "sources": [
+        "Amtsblatt der Europäischen Union — Verordnung (EU) Nr. 1098/2010 „Dresdner Christstollen“ (eur-lex.europa.eu)",
+        "Schutzverband Dresdner Stollen e. V. — „Dresdner Christstollen“ (dresdnerstollen.de)"
+      ],
+      "reflection": {
+        "id": "Mengapa nama tempat bisa dilindungi hukum untuk sebuah makanan?",
+        "en": "Why can a place name be protected by law for a food?"
+      },
+      "stampId": "de-stamp-christstollen",
+      "tags": [
+        "bread",
+        "season"
+      ]
+    },
+    {
+      "id": "de-culture-elbe",
+      "title": "Die Elbe und ihre Wiesen",
+      "body": {
+        "id": "Elbe mengalir di tengah Dresden; di antara jembatan-jembatannya terbentang Elbwiesen yang lebar dan dipakai warga sebagai ruang terbuka. Sungai ini juga menyimpan ingatan: saat banjir 2002 dan 2013 sebagian kota tua dan banyak toko roti terendam. Hari ini Elberadweg termasuk jalur sepeda paling sering dipakai di Jerman.",
+        "en": "The Elbe runs through the middle of Dresden; between its bridges lie broad Elbwiesen used as public open space. The river also holds memory: in the floods of 2002 and 2013 parts of the old town and many bakeries were under water. Today the Elberadweg is one of Germany's most-used cycle routes."
+      },
+      "sources": [
+        "Landeshauptstadt Dresden — „Elbwiesen und Elberadweg“ (dresden.de)",
+        "Sächsisches Landesamt für Umwelt, Landwirtschaft und Geologie — „Hochwasser 2002 und 2013“ (umwelt.sachsen.de)"
+      ],
+      "reflection": {
+        "id": "Bagaimana sungai membentuk cara sebuah kota mengingat?",
+        "en": "How does a river shape the way a city remembers?"
+      },
+      "stampId": "de-stamp-elbe",
+      "tags": [
+        "river"
+      ]
+    },
+    {
+      "id": "de-culture-ausbildung",
+      "title": "Die duale Ausbildung",
+      "body": {
+        "id": "Di Jerman banyak profesi dipelajari lewat sistem ganda (duale Ausbildung): peserta magang bekerja di perusahaan dan juga belajar di sekolah kejuruan. Bäckerin/Bäcker adalah profesi magang resmi selama tiga tahun; kamar dagang dan kerajinan — di Dresden Handwerkskammer — mengawal ujiannya. Lena menyelesaikan Ausbildung perhotelan di München dan tahu bedanya bekerja di dapur hotel dan di backstube.",
+        "en": "In Germany many professions are learned through the dual system (duale Ausbildung): apprentices work at a company and also attend a vocational school. Baker is an official three-year apprenticeship; the chambers — in Dresden the Handwerkskammer — oversee the exams. Lena completed a hotel apprenticeship in Munich and knows the difference between a hotel kitchen and a bakehouse."
+      },
+      "sources": [
+        "Bundesinstitut für Berufsbildung (BIBB) — „Duales System der Berufsausbildung“ (bibb.de)",
+        "Handwerkskammer Dresden — „Ausbildung im Bäckerhandwerk“ (hwk-dresden.de)"
+      ],
+      "reflection": {
+        "id": "Apa bedanya belajar di tempat kerja dan belajar di sekolah?",
+        "en": "What is the difference between learning at work and learning at school?"
+      },
+      "stampId": "de-stamp-ausbildung",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "id": "de-culture-pfand",
+      "title": "Das Pfand",
+      "body": {
+        "id": "Di Jerman, botol plastik sekali pakai dan kaleng minuman dikenai Pfand 25 sen sejak 2003; botol yang bisa dipakai ulang biasanya 8–15 sen tergantung ukuran. Botol kosong dikembalikan ke toko dan uangnya dibayarkan di kasir. Di banyak keluarga uang Pfand menjadi tambahan kecil, dan di toko roti ada keranjang khusus untuk botol yang dikembalikan pelanggan.",
+        "en": "In Germany single-use plastic bottles and drink cans carry a 25-cent deposit (Pfand) since 2003; reusable bottles usually carry 8–15 cents depending on size. Empty bottles go back to a shop and the deposit is paid out at the till. In many families the Pfand money is a small extra, and a bakery keeps a crate for bottles customers return."
+      },
+      "sources": [
+        "Umweltbundesamt — „Einweg- und Mehrwegpfand“ (umweltbundesamt.de)",
+        "Verbraucherzentrale Bundesverband — „Pfand und Rückgabe“ (vzbv.de)"
+      ],
+      "reflection": {
+        "id": "Mengapa uang kecil bisa mengubah kebiasaan membuang?",
+        "en": "Why can a small deposit change the habit of throwing things away?"
+      },
+      "stampId": "de-stamp-pfand",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "id": "de-culture-kaffee-kuchen",
+      "title": "Kaffee und Kuchen",
+      "body": {
+        "id": "„Kaffee und Kuchen“ adalah ritual sore di Jerman, sering sekitar pukul tiga, terutama pada hari Minggu dan hari raya. Di Dresden orang biasa memesan Eierschecke atau Streuselkuchen; di toko roti kue biasanya dipanggang pagi agar sore masih segar. Bagi banyak pelanggan tetap ini bukan camilan, melainkan janji bertemu.",
+        "en": "“Kaffee und Kuchen” is an afternoon ritual in Germany, often around three o'clock, especially on Sundays and holidays. In Dresden people often order Eierschecke or Streuselkuchen; in a bakery the cakes are usually baked in the morning so they are still fresh in the afternoon. For many regulars it is not a snack but an appointment."
+      },
+      "sources": [
+        "Deutscher Kaffeeverband e. V. — „Kaffeekultur in Deutschland“ (kaffeeverband.de)",
+        "Landeshauptstadt Dresden — „Dresdner Kaffeehauskultur“ (dresden.de)"
+      ],
+      "reflection": {
+        "id": "Apa fungsi sosial dari waktu minum kopi bersama?",
+        "en": "What is the social function of a shared coffee hour?"
+      },
+      "stampId": "de-stamp-kaffee",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "de-culture-malerweg",
+      "title": "Wandern in der Sächsischen Schweiz",
+      "body": {
+        "id": "Di selatan Dresden terletak Sächsische Schweiz, pegunungan batu pasir dengan mesa, jurang, dan jalur pendakian Malerweg. Malerweg panjangnya sekitar 112 kilometer dan dibagi menjadi delapan etape; banyak warga Dresden memakainya untuk akhir pekan. Untuk pendaki yang lebih tua ada bagian yang lebih pendek, tetapi juga banyak tangga dan tangga besi — Opa mengenal keduanya.",
+        "en": "South of Dresden lies Saxon Switzerland, a sandstone landscape of table mountains, gorges and the Malerweg hiking trail. The Malerweg is about 112 kilometres long and divided into eight stages; many Dresdeners use it at weekends. For older hikers there are shorter sections, but also many stairs and iron ladders — Opa knows both."
+      },
+      "sources": [
+        "Tourismusverband Sächsische Schweiz e. V. — „Malerweg“ (saechsische-schweiz.de)",
+        "Nationalpark Sächsische Schweiz — „Wandern und Wege“ (nationalpark-saechsische-schweiz.de)"
+      ],
+      "reflection": {
+        "id": "Mengapa orang mendaki meski tahu badannya tidak lagi sekuat dulu?",
+        "en": "Why do people hike even when they know their body is no longer as strong?"
+      },
+      "stampId": "de-stamp-malerweg",
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "de-culture-strassenbahn",
+      "title": "Die Straßenbahn",
+      "body": {
+        "id": "Dresden punya jaringan trem yang rapat, dan kereta Dresdner Verkehrsbetriebe juga melewati Löbtau. Bagi banyak warga Dresden, trem lebih sehari-hari daripada mobil. Jonas mengemudikan satu jalur yang menyusuri Elbe sampai ke arah Sächsische Schweiz dan hafal setiap halte di jalurnya.",
+        "en": "Dresden has a dense tram network, and Dresdner Verkehrsbetriebe trains also pass through Löbtau. For many people in Dresden the tram is more everyday than a car. Jonas drives a line that follows the Elbe towards Saxon Switzerland and knows every stop on his route."
+      },
+      "sources": [
+        "Dresdner Verkehrsbetriebe AG — „Straßenbahn in Dresden“ (dvb.de)",
+        "Landeshauptstadt Dresden — „Nahverkehr in Dresden“ (dresden.de)"
+      ],
+      "reflection": {
+        "id": "Apa yang bisa diketahui seorang pengemudi dari penumpangnya?",
+        "en": "What can a driver learn from his passengers?"
+      },
+      "stampId": "de-stamp-strassenbahn",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "id": "de-culture-frauenkirche",
+      "title": "Die Frauenkirche",
+      "body": {
+        "id": "Frauenkirche di Neumarkt hancur pada Perang Dunia II dan selama era DDR dibiarkan sebagai reruntuhan peringatan. Pada 1994 pemugaran dimulai dengan sumbangan dari banyak negara, dan pada 2005 gereja itu ditahbiskan kembali. Kini tempat itu menjadi tanda bahwa kota bisa berubah tanpa melupakan apa yang terjadi.",
+        "en": "The Frauenkirche on the Neumarkt was destroyed in the Second World War and was left standing as a memorial ruin during the GDR era. In 1994 reconstruction began with donations from many countries, and in 2005 the church was reconsecrated. Today it is a sign that a city can change without forgetting what happened."
+      },
+      "sources": [
+        "Stiftung Frauenkirche Dresden — „Geschichte der Frauenkirche“ (frauenkirche-dresden.de)",
+        "Landeshauptstadt Dresden — „Neumarkt und Frauenkirche“ (dresden.de)"
+      ],
+      "reflection": {
+        "id": "Bagaimana kota memberi makna pada bangunan yang pernah hancur?",
+        "en": "How does a city give meaning to a building that was once destroyed?"
+      },
+      "stampId": "de-stamp-frauenkirche",
+      "tags": [
+        "history"
+      ]
+    }
+  ],
+  "arcs": [
+    {
+      "tier": "T1",
+      "seasonNo": 1,
+      "title": "Der Schlüssel",
+      "nativeTitle": "Der Schlüssel",
+      "synopsis": "Lena kommt für sechs Wochen nach Dresden und bekommt von Opa den kleinen Schlüssel zum Mehlschrank, in dem das Familienrezeptbuch liegt. Beim ersten Blick ins Buch fehlt eine Seite – die mit dem Weihnachtsstollen.",
+      "mystery": "de-w-object-rezeptseite",
+      "cliffhanger": "Am Abend steckt ein fremder Schlüssel in der Backstube, und das Rezeptbuch liegt offen auf dem Tisch."
+    },
+    {
+      "tier": "T1",
+      "seasonNo": 2,
+      "title": "Die Morgenstunde",
+      "nativeTitle": "Die Morgenstunde",
+      "synopsis": "Lenas erster richtiger Morgen beginnt um vier. Sie lernt, wie Brötchen, Frau Berger und die erste Straßenbahn den Takt der Bäckerei bestimmen, und wie müde Opa danach wirklich ist.",
+      "mystery": "de-w-object-brotdose",
+      "cliffhanger": "In der Brotdose liegt ein Zettel in einer Handschrift, die Lena kennt."
+    },
+    {
+      "tier": "T2",
+      "seasonNo": 1,
+      "title": "Das Rezept",
+      "nativeTitle": "Das Rezept",
+      "synopsis": "Lena will den Christstollen nachbacken und merkt, dass die Mengen fehlen. Frau Berger erinnert sich an Details, die in keinem Rezept stehen, und Jonas mischt mit, obwohl er davon nichts versteht.",
+      "mystery": "de-w-object-rezeptbuch",
+      "cliffhanger": "Im Rezeptbuch fehlt genau die Seite, auf der die Gewürze stehen."
+    },
+    {
+      "tier": "T2",
+      "seasonNo": 2,
+      "title": "Das Pfand",
+      "nativeTitle": "Das Pfand",
+      "synopsis": "Jonas bringt Pfandflaschen vorbei und bleibt zum Kaffee. Die Bäckerei rechnet mit jedem Cent, und Lena merkt, wie eng und wie genau dieses kleine Geschäft ist.",
+      "mystery": "de-w-object-quittung",
+      "cliffhanger": "Auf einer alten Quittung steht ein Datum, das dreißig Jahre zurückliegt."
+    },
+    {
+      "tier": "T3",
+      "seasonNo": 1,
+      "title": "Der Striezelmarkt",
+      "nativeTitle": "Der Striezelmarkt",
+      "synopsis": "Im Advent baut die Bäckerei einen Stand auf dem Striezelmarkt auf. Zwischen Glühweinduft und Stollenformen streiten Lena und Opa zum ersten Mal offen darüber, wie es weitergehen soll.",
+      "mystery": "de-w-object-stollenform",
+      "cliffhanger": "Auf dem Markt erkennt Frau Berger die fehlende Seite in einer Vitrine wieder."
+    },
+    {
+      "tier": "T3",
+      "seasonNo": 2,
+      "title": "Die Straßenbahn",
+      "nativeTitle": "Die Straßenbahn",
+      "synopsis": "Jonas nimmt Lena eine Schicht lang mit. Sie sprechen über Bleiben und Gehen, und Lena versteht, warum er die Linie nicht wechseln will.",
+      "mystery": "de-w-object-postkarte",
+      "cliffhanger": "Eine Postkarte ohne Absender ist an die Bäckerei adressiert."
+    },
+    {
+      "tier": "T4",
+      "seasonNo": 1,
+      "title": "Die Elbe",
+      "nativeTitle": "Die Elbe",
+      "synopsis": "Im Viertel wird an das Hochwasser erinnert. Opa will nicht noch einmal aufräumen, Lena will nicht aufgeben, und die alte Zeitungsseite zeigt, wer damals geholfen hat.",
+      "mystery": "de-w-object-zeitungsseite",
+      "cliffhanger": "Auf der Zeitungsseite steht der Name der Bäckerei – und ein zweiter Name."
+    },
+    {
+      "tier": "T4",
+      "seasonNo": 2,
+      "title": "Der Malerweg",
+      "nativeTitle": "Der Malerweg",
+      "synopsis": "Opa will noch einmal auf den Malerweg. Lena plant die kürzeste Etappe, und unterwegs merkt sie, dass er nicht mehr derselbe Wanderer ist – und dass er das längst weiß.",
+      "mystery": "de-w-object-foto",
+      "cliffhanger": "Auf dem Foto steht Opa vor einer Bäckerei, die es heute nicht mehr gibt."
+    },
+    {
+      "tier": "T5",
+      "seasonNo": 1,
+      "title": "Das Brot",
+      "nativeTitle": "Das Brot",
+      "synopsis": "Lena beginnt zu begreifen, dass Brot Zeit braucht und dass Opa ihr etwas beibringen will, solange er es noch kann. Das Rezept und die fehlende Seite gehören zusammen.",
+      "mystery": "de-w-object-rezeptseite",
+      "cliffhanger": "Die fehlende Seite liegt in Omis Handschrift auf dem Tisch."
+    },
+    {
+      "tier": "T5",
+      "seasonNo": 2,
+      "title": "Der letzte Advent",
+      "nativeTitle": "Der letzte Advent",
+      "synopsis": "Die Bäckerei steht vor einer Entscheidung, und Lena backt zum ersten Mal allein den Stollen. Opa sieht zu, sagt wenig und lässt sie machen.",
+      "mystery": "de-w-object-rezeptbuch",
+      "cliffhanger": "Am Morgen brennt das Licht in der Backstube, bevor es draußen hell wird."
+    }
+  ]
+}

@@ -16,6 +16,30 @@ interface Metric {
   navigationType: string;
 }
 
+/**
+ * Resolve the optional analytics endpoint.
+ *
+ * Returns null when the variable is unset, malformed, or still holds the
+ * placeholder shipped in `.env.example`. Without this guard a placeholder
+ * host such as `https://your-analytics-endpoint.com` makes every metric
+ * beacon fail with `TypeError: Failed to fetch`.
+ */
+function getVitalsEndpoint(): string | null {
+  const endpoint = process.env.NEXT_PUBLIC_WEB_VITALS_ENDPOINT?.trim();
+  if (!endpoint) return null;
+
+  try {
+    const url = new URL(endpoint);
+    if (url.protocol !== 'http:' && url.protocol !== 'https:') return null;
+    if (url.hostname === 'your-analytics-endpoint.com' || url.hostname.endsWith('.example')) {
+      return null;
+    }
+    return url.toString();
+  } catch {
+    return null;
+  }
+}
+
 function reportWebVitals(metric: Metric) {
   if (!hasConsent('analytics')) return;
 
@@ -38,14 +62,22 @@ function reportWebVitals(metric: Metric) {
     metric_rating: metric.rating,
   });
 
-  // Optional: Send to your own analytics endpoint
-  if (process.env.NEXT_PUBLIC_WEB_VITALS_ENDPOINT) {
-    fetch(process.env.NEXT_PUBLIC_WEB_VITALS_ENDPOINT, {
+  // Optional: Send to your own analytics endpoint.
+  // Telemetry must never surface errors to the user, so failures are swallowed.
+  const endpoint = getVitalsEndpoint();
+  if (!endpoint) return;
+
+  try {
+    void fetch(endpoint, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(body),
       keepalive: true,
-    }).catch(console.error);
+    }).catch(() => {
+      /* Endpoint unreachable or blocked — ignore. */
+    });
+  } catch {
+    /* Ignore synchronous fetch errors (invalid URL, blocked by policy). */
   }
 }
 

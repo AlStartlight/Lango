@@ -1,0 +1,2759 @@
+{
+  "language": "zh",
+  "script": "hans",
+  "romanization": "pinyin",
+  "lexicon": {
+    "person": [
+      {
+        "id": "zh-k-person-owner",
+        "native": "老板",
+        "romanization": "lǎobǎn",
+        "gloss": {
+          "id": "pemilik",
+          "en": "the owner"
+        }
+      },
+      {
+        "id": "zh-k-person-guest",
+        "native": "客人",
+        "romanization": "kèrén",
+        "gloss": {
+          "id": "pelanggan",
+          "en": "the customer"
+        }
+      },
+      {
+        "id": "zh-k-person-neighbor",
+        "native": "邻居",
+        "romanization": "línjū",
+        "gloss": {
+          "id": "tetangga",
+          "en": "the neighbor"
+        }
+      },
+      {
+        "id": "zh-k-person-child",
+        "native": "孩子",
+        "romanization": "háizi",
+        "gloss": {
+          "id": "anak",
+          "en": "the child"
+        }
+      },
+      {
+        "id": "zh-k-person-friend",
+        "native": "朋友",
+        "romanization": "péngyou",
+        "gloss": {
+          "id": "teman",
+          "en": "the friend"
+        }
+      }
+    ],
+    "place": [
+      {
+        "id": "zh-k-place-teahouse",
+        "native": "茶馆",
+        "romanization": "cháguǎn",
+        "gloss": {
+          "id": "kedai teh",
+          "en": "the teahouse"
+        }
+      },
+      {
+        "id": "zh-k-place-station",
+        "native": "车站",
+        "romanization": "chēzhàn",
+        "gloss": {
+          "id": "stasiun",
+          "en": "the station"
+        }
+      },
+      {
+        "id": "zh-k-place-kitchen",
+        "native": "厨房",
+        "romanization": "chúfáng",
+        "gloss": {
+          "id": "dapur",
+          "en": "the kitchen"
+        }
+      },
+      {
+        "id": "zh-k-place-street",
+        "native": "街口",
+        "romanization": "jiēkǒu",
+        "gloss": {
+          "id": "mulut jalan",
+          "en": "the street corner"
+        }
+      },
+      {
+        "id": "zh-k-place-courtyard",
+        "native": "院子",
+        "romanization": "yuànzi",
+        "gloss": {
+          "id": "halaman",
+          "en": "the courtyard"
+        }
+      }
+    ],
+    "object": [
+      {
+        "id": "zh-k-object-pot",
+        "native": "茶壶",
+        "romanization": "cháhú",
+        "gloss": {
+          "id": "teko teh",
+          "en": "the teapot"
+        }
+      },
+      {
+        "id": "zh-k-object-cup",
+        "native": "杯子",
+        "romanization": "bēizi",
+        "gloss": {
+          "id": "cangkir",
+          "en": "the cup"
+        }
+      },
+      {
+        "id": "zh-k-object-key",
+        "native": "钥匙",
+        "romanization": "yàoshi",
+        "gloss": {
+          "id": "kunci",
+          "en": "the key"
+        }
+      },
+      {
+        "id": "zh-k-object-photo",
+        "native": "照片",
+        "romanization": "zhàopiàn",
+        "gloss": {
+          "id": "foto",
+          "en": "the photograph"
+        }
+      },
+      {
+        "id": "zh-k-object-letter",
+        "native": "信",
+        "romanization": "xìn",
+        "gloss": {
+          "id": "surat",
+          "en": "the letter"
+        }
+      }
+    ],
+    "food": [
+      {
+        "id": "zh-k-food-dumplings",
+        "native": "饺子",
+        "romanization": "jiǎozi",
+        "gloss": {
+          "id": "pangsit",
+          "en": "dumplings"
+        }
+      },
+      {
+        "id": "zh-k-food-tanghulu",
+        "native": "糖葫芦",
+        "romanization": "tánghúlu",
+        "gloss": {
+          "id": "tanghulu",
+          "en": "candied hawthorn"
+        }
+      },
+      {
+        "id": "zh-k-food-snack",
+        "native": "点心",
+        "romanization": "diǎnxin",
+        "gloss": {
+          "id": "kudapan",
+          "en": "pastries"
+        }
+      },
+      {
+        "id": "zh-k-food-noodles",
+        "native": "面条",
+        "romanization": "miàntiáo",
+        "gloss": {
+          "id": "mi",
+          "en": "noodles"
+        }
+      }
+    ],
+    "drink": [
+      {
+        "id": "zh-k-drink-tea",
+        "native": "茶",
+        "romanization": "chá",
+        "gloss": {
+          "id": "teh",
+          "en": "tea"
+        }
+      },
+      {
+        "id": "zh-k-drink-hot-water",
+        "native": "热水",
+        "romanization": "rèshuǐ",
+        "gloss": {
+          "id": "air panas",
+          "en": "hot water"
+        }
+      },
+      {
+        "id": "zh-k-drink-soy",
+        "native": "豆浆",
+        "romanization": "dòujiāng",
+        "gloss": {
+          "id": "susu kedelai",
+          "en": "soy milk"
+        }
+      },
+      {
+        "id": "zh-k-drink-flower-tea",
+        "native": "花茶",
+        "romanization": "huāchá",
+        "gloss": {
+          "id": "teh bunga",
+          "en": "scented tea"
+        }
+      }
+    ],
+    "time": [
+      {
+        "id": "zh-k-time-morning",
+        "native": "早上",
+        "romanization": "zǎoshang",
+        "gloss": {
+          "id": "pagi",
+          "en": "morning"
+        }
+      },
+      {
+        "id": "zh-k-time-afternoon",
+        "native": "下午",
+        "romanization": "xiàwǔ",
+        "gloss": {
+          "id": "sore",
+          "en": "afternoon"
+        }
+      },
+      {
+        "id": "zh-k-time-evening",
+        "native": "晚上",
+        "romanization": "wǎnshang",
+        "gloss": {
+          "id": "malam",
+          "en": "evening"
+        }
+      },
+      {
+        "id": "zh-k-time-night",
+        "native": "夜里",
+        "romanization": "yèlǐ",
+        "gloss": {
+          "id": "tengah malam",
+          "en": "night"
+        }
+      }
+    ],
+    "weather": [
+      {
+        "id": "zh-k-weather-cold",
+        "native": "天很冷。",
+        "romanization": "Tiān hěn lěng.",
+        "gloss": {
+          "id": "Cuaca sangat dingin.",
+          "en": "It is very cold."
+        }
+      },
+      {
+        "id": "zh-k-weather-snow",
+        "native": "下雪了。",
+        "romanization": "Xià xuě le.",
+        "gloss": {
+          "id": "Turun salju.",
+          "en": "It is snowing."
+        }
+      },
+      {
+        "id": "zh-k-weather-clear",
+        "native": "天晴了。",
+        "romanization": "Tiān qíng le.",
+        "gloss": {
+          "id": "Langit cerah.",
+          "en": "The sky has cleared."
+        }
+      },
+      {
+        "id": "zh-k-weather-wind",
+        "native": "起风了。",
+        "romanization": "Qǐ fēng le.",
+        "gloss": {
+          "id": "Angin bertiup.",
+          "en": "The wind has come up."
+        }
+      }
+    ],
+    "action": [
+      {
+        "id": "zh-k-action-wipe",
+        "native": "擦桌子",
+        "romanization": "cā zhuōzi",
+        "gloss": {
+          "id": "mengelap meja",
+          "en": "wipe the table"
+        }
+      },
+      {
+        "id": "zh-k-action-boil",
+        "native": "烧水",
+        "romanization": "shāo shuǐ",
+        "gloss": {
+          "id": "merebus air",
+          "en": "boil water"
+        }
+      },
+      {
+        "id": "zh-k-action-dumplings",
+        "native": "包饺子",
+        "romanization": "bāo jiǎozi",
+        "gloss": {
+          "id": "membuat pangsit",
+          "en": "wrap dumplings"
+        }
+      },
+      {
+        "id": "zh-k-action-sweep",
+        "native": "扫地",
+        "romanization": "sǎo dì",
+        "gloss": {
+          "id": "menyapu",
+          "en": "sweep the floor"
+        }
+      },
+      {
+        "id": "zh-k-action-write",
+        "native": "写信",
+        "romanization": "xiě xìn",
+        "gloss": {
+          "id": "menulis surat",
+          "en": "write a letter"
+        }
+      }
+    ],
+    "quote": [
+      {
+        "id": "zh-k-quote-thanks",
+        "native": "谢谢。",
+        "romanization": "Xièxie.",
+        "gloss": {
+          "id": "Terima kasih.",
+          "en": "Thank you."
+        }
+      },
+      {
+        "id": "zh-k-quote-come-in",
+        "native": "请进。",
+        "romanization": "Qǐng jìn.",
+        "gloss": {
+          "id": "Silakan masuk.",
+          "en": "Please come in."
+        }
+      },
+      {
+        "id": "zh-k-quote-same",
+        "native": "还是老样子。",
+        "romanization": "Háishi lǎo yàngzi.",
+        "gloss": {
+          "id": "Masih seperti biasa.",
+          "en": "Still the same as ever."
+        }
+      },
+      {
+        "id": "zh-k-quote-leave",
+        "native": "我该走了。",
+        "romanization": "Wǒ gāi zǒu le.",
+        "gloss": {
+          "id": "Saya harus pergi.",
+          "en": "I should go."
+        }
+      }
+    ],
+    "question": [
+      {
+        "id": "zh-k-question-whose",
+        "native": "这是谁的？",
+        "romanization": "Zhè shì shéi de?",
+        "gloss": {
+          "id": "Ini punya siapa?",
+          "en": "Whose is this?"
+        }
+      },
+      {
+        "id": "zh-k-question-time",
+        "native": "现在几点？",
+        "romanization": "Xiànzài jǐ diǎn?",
+        "gloss": {
+          "id": "Sekarang jam berapa?",
+          "en": "What time is it?"
+        }
+      },
+      {
+        "id": "zh-k-question-why",
+        "native": "为什么？",
+        "romanization": "Wèishénme?",
+        "gloss": {
+          "id": "Mengapa?",
+          "en": "Why?"
+        }
+      },
+      {
+        "id": "zh-k-question-how",
+        "native": "怎么办？",
+        "romanization": "Zěnme bàn?",
+        "gloss": {
+          "id": "Bagaimana?",
+          "en": "What should we do?"
+        }
+      }
+    ],
+    "greeting": [
+      {
+        "id": "zh-k-greeting-hello",
+        "native": "您好",
+        "romanization": "Nín hǎo",
+        "gloss": {
+          "id": "Selamat",
+          "en": "Hello"
+        }
+      },
+      {
+        "id": "zh-k-greeting-morning",
+        "native": "早",
+        "romanization": "Zǎo",
+        "gloss": {
+          "id": "Pagi",
+          "en": "Morning"
+        }
+      },
+      {
+        "id": "zh-k-greeting-arrived",
+        "native": "来了",
+        "romanization": "Lái le",
+        "gloss": {
+          "id": "Sudah datang",
+          "en": "You're here"
+        }
+      },
+      {
+        "id": "zh-k-greeting-new-year",
+        "native": "过年好",
+        "romanization": "Guònián hǎo",
+        "gloss": {
+          "id": "Selamat Tahun Baru",
+          "en": "Happy New Year"
+        }
+      }
+    ],
+    "emotion": [
+      {
+        "id": "zh-k-emotion-glad",
+        "native": "高兴",
+        "romanization": "gāoxìng",
+        "gloss": {
+          "id": "senang",
+          "en": "glad"
+        }
+      },
+      {
+        "id": "zh-k-emotion-sad",
+        "native": "难过",
+        "romanization": "nánguò",
+        "gloss": {
+          "id": "sedih",
+          "en": "sad"
+        }
+      },
+      {
+        "id": "zh-k-emotion-calm",
+        "native": "安心",
+        "romanization": "ānxīn",
+        "gloss": {
+          "id": "tenang",
+          "en": "reassured"
+        }
+      },
+      {
+        "id": "zh-k-emotion-nervous",
+        "native": "紧张",
+        "romanization": "jǐnzhāng",
+        "gloss": {
+          "id": "tegang",
+          "en": "nervous"
+        }
+      }
+    ]
+  },
+  "frames": [
+    {
+      "id": "f-l1-context-1",
+      "segments": [
+        {
+          "slot": "time"
+        },
+        {
+          "text": "，",
+          "romanization": ","
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "到了",
+          "romanization": "dàole"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "。",
+          "romanization": "."
+        },
+        {
+          "slot": "weather"
+        }
+      ]
+    },
+    {
+      "id": "f-l1-context-2",
+      "segments": [
+        {
+          "text": "这时候，",
+          "romanization": "Zhè shíhou, "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "还很安静。",
+          "romanization": "hái hěn ānjìng. "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "在等",
+          "romanization": "zài děng"
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "，",
+          "romanization": ","
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "放在桌上。",
+          "romanization": "fàng zài zhuō shàng."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-greeting-1",
+      "segments": [
+        {
+          "text": "「"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "。",
+          "romanization": "."
+        },
+        {
+          "text": "」"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "说。",
+          "romanization": "shuō."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-greeting-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "笑了笑，说：「",
+          "romanization": "xiàole xiào, shuō: 「"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "。",
+          "romanization": "."
+        },
+        {
+          "text": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l1-task-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "在",
+          "romanization": "zài"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": "。",
+          "romanization": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-task-2",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": "，然后看了看",
+          "romanization": ", ránhòu kànle kàn"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "。",
+          "romanization": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-request-1",
+      "segments": [
+        {
+          "text": "「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "。",
+          "romanization": "."
+        },
+        {
+          "text": "」"
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "说。",
+          "romanization": "shuō."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-request-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "让我去拿",
+          "romanization": "ràng wǒ qù ná"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "。",
+          "romanization": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-complication-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "没听懂。「",
+          "romanization": "méi tīngdǒng. 「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l1-complication-2",
+      "segments": [
+        {
+          "text": "桌上，",
+          "romanization": "Zhuō shàng, "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "不见了。",
+          "romanization": "bú jiàn le. "
+        },
+        {
+          "slot": "weather"
+        }
+      ]
+    },
+    {
+      "id": "f-l1-clue-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "在桌子下面找到了",
+          "romanization": "zài zhuōzi xiàmiàn zhǎodào le"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "。",
+          "romanization": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-clue-2",
+      "segments": [
+        {
+          "text": "仔细一看，",
+          "romanization": "Zǐxì yí kàn, "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "上写着一个名字。",
+          "romanization": "shàng xiězhe yí gè míngzi. "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "念了出来。",
+          "romanization": "niàn le chūlái."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-turn-1",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "笑了，说：「",
+          "romanization": "xiàole, shuō: 「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "。",
+          "romanization": "."
+        },
+        {
+          "text": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l1-turn-2",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "觉得很",
+          "romanization": "juéde hěn"
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": "。",
+          "romanization": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-cliffhanger-1",
+      "segments": [
+        {
+          "text": "电话响了。",
+          "romanization": "Diànhuà xiǎng le. "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "手里拿着",
+          "romanization": "shǒu lǐ názhe"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "。",
+          "romanization": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-cliffhanger-2",
+      "segments": [
+        {
+          "text": "「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」"
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "小声问。",
+          "romanization": "xiǎoshēng wèn."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-context-1",
+      "segments": [
+        {
+          "slot": "time"
+        },
+        {
+          "text": "，",
+          "romanization": ","
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "到了",
+          "romanization": "dàole"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "，那里已经很热闹。",
+          "romanization": ", nàlǐ yǐjīng hěn rènao. "
+        },
+        {
+          "slot": "weather"
+        }
+      ]
+    },
+    {
+      "id": "f-l2-context-2",
+      "segments": [
+        {
+          "text": "推开门，",
+          "romanization": "Tuī kāi mén, "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "很安静，",
+          "romanization": "hěn ānjìng, "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "一边等",
+          "romanization": "yìbiān děng"
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "，一边看",
+          "romanization": ", yìbiān kàn"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "。",
+          "romanization": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-greeting-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "推开门，说：「",
+          "romanization": "tuī kāi mén, shuō: 「"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "。",
+          "romanization": "."
+        },
+        {
+          "text": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l2-greeting-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "点点头，回答说：「",
+          "romanization": "diǎndian tóu, huídá shuō: 「"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "。",
+          "romanization": "."
+        },
+        {
+          "text": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l2-task-1",
+      "segments": [
+        {
+          "text": "因为",
+          "romanization": "Yīnwèi "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "要",
+          "romanization": "yào"
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": "，",
+          "romanization": ","
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "早早就到了",
+          "romanization": "zǎozǎo jiù dào le"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "。",
+          "romanization": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-task-2",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": "，可是",
+          "romanization": ", kěshì"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "还在桌上。",
+          "romanization": "hái zài zhuō shàng."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-request-1",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "把声音压得很低：「",
+          "romanization": "bǎ shēngyīn yā de hěn dī: 「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "。",
+          "romanization": "."
+        },
+        {
+          "text": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l2-request-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "向",
+          "romanization": "xiàng"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "问起",
+          "romanization": "wèn qǐ"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "的事。",
+          "romanization": "de shì."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-complication-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "不太明白，所以问：「",
+          "romanization": "bú tài míngbai, suǒyǐ wèn: 「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l2-complication-2",
+      "segments": [
+        {
+          "text": "后来发现，",
+          "romanization": "Hòulái fāxiàn, "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "被人挪动过，",
+          "romanization": "bèi rén nuódòng guo, "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "不知道是谁做的。",
+          "romanization": "bù zhīdào shì shéi zuò de."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-clue-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "在柜子里找到了",
+          "romanization": "zài guìzi lǐ zhǎodào le"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "，上面盖着一块旧布。",
+          "romanization": ", shàngmiàn gàizhe yí kuài jiù bù."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-clue-2",
+      "segments": [
+        {
+          "text": "翻过来看，",
+          "romanization": "Fān guòlái kàn, "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "上有一行小字：「",
+          "romanization": "shàng yǒu yì háng xiǎo zì: 「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "。",
+          "romanization": "."
+        },
+        {
+          "text": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l2-turn-1",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "看着",
+          "romanization": "kànzhe"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "，说：「",
+          "romanization": ", shuō: 「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "。",
+          "romanization": "."
+        },
+        {
+          "text": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l2-turn-2",
+      "segments": [
+        {
+          "text": "第一次，",
+          "romanization": "Dì-yī cì, "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "觉得心里很",
+          "romanization": "juéde xīnli hěn"
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": "。",
+          "romanization": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-cliffhanger-1",
+      "segments": [
+        {
+          "text": "就在这时，",
+          "romanization": "Jiù zài zhè shí, "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "拿着",
+          "romanization": "názhe"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "出现在门口。",
+          "romanization": "chūxiàn zài ménkǒu."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-cliffhanger-2",
+      "segments": [
+        {
+          "text": "电话又响了。「",
+          "romanization": "Diànhuà yòu xiǎng le. 「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」电话那头的人只说了一句。",
+          "romanization": "」 diànhuà nàtóu de rén zhǐ shuō le yí jù."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-context-1",
+      "segments": [
+        {
+          "slot": "time"
+        },
+        {
+          "text": "，",
+          "romanization": ","
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "到了",
+          "romanization": "dàole"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "，觉得这里和记忆里不太一样。",
+          "romanization": ", juéde zhèlǐ hé jìyì lǐ bú tài yíyàng. "
+        },
+        {
+          "slot": "weather"
+        }
+      ]
+    },
+    {
+      "id": "f-l3-context-2",
+      "segments": [
+        {
+          "text": "从前热闹的",
+          "romanization": "Cóngqián rènao de "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "现在很安静，只有",
+          "romanization": "xiànzài hěn ānjìng, zhǐyǒu"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "还放在原来的地方。",
+          "romanization": "hái fàng zài yuánlái de dìfang."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-greeting-1",
+      "segments": [
+        {
+          "text": "「"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "。",
+          "romanization": "."
+        },
+        {
+          "text": "」"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "说，虽然她不确定",
+          "romanization": "shuō, suīrán tā bú quèdìng"
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "有没有听见。",
+          "romanization": "yǒu méi yǒu tīngjiàn."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-greeting-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "像往常一样，用「",
+          "romanization": "xiàng wǎngcháng yíyàng, yòng 「"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "」跟",
+          "romanization": "」 gēn"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "打招呼。",
+          "romanization": "dǎ zhāohu."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-task-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "一边",
+          "romanization": "yìbiān"
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": "，一边发现",
+          "romanization": ", yìbiān fāxiàn"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "有许多她没见过的东西。",
+          "romanization": "yǒu xǔduō tā méi jiànguo de dōngxi."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-task-2",
+      "segments": [
+        {
+          "text": "因为",
+          "romanization": "Yīnwèi "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "还没准备好，",
+          "romanization": "hái méi zhǔnbèi hǎo, "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "得在",
+          "romanization": "děi zài"
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "来之前",
+          "romanization": "lái zhīqián"
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": "。",
+          "romanization": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-request-1",
+      "segments": [
+        {
+          "text": "「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "。",
+          "romanization": "."
+        },
+        {
+          "text": "」"
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "说，好像这是世界上最平常不过的请求。",
+          "romanization": "shuō, hǎoxiàng zhè shì shìjiè shàng zuì píngcháng búguò de qǐngqiú."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-request-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "问",
+          "romanization": "wèn"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "知不知道",
+          "romanization": "zhī bù zhīdào"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "的事。「",
+          "romanization": "de shì. 「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l3-complication-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "答不上来。",
+          "romanization": "dá bú shànglái. "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "像一把没有锁的钥匙。「",
+          "romanization": "xiàng yì bǎ méiyǒu suǒ de yàoshi. 「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l3-complication-2",
+      "segments": [
+        {
+          "text": "有人动过",
+          "romanization": "Yǒu rén dòngguo"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "，",
+          "romanization": ","
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "开始怀疑这不是巧合。",
+          "romanization": "kāishǐ huáiyí zhè bú shì qiǎohé."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-clue-1",
+      "segments": [
+        {
+          "text": "在",
+          "romanization": "Zài"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "后面，",
+          "romanization": "hòumiàn, "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "找到一张旧纸条：「",
+          "romanization": "zhǎodào yì zhāng jiù zhǐtiáo: 「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "。",
+          "romanization": "."
+        },
+        {
+          "text": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l3-clue-2",
+      "segments": [
+        {
+          "text": "原来，",
+          "romanization": "Yuánlái, "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "是从",
+          "romanization": "shì cóng"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "找到的，比",
+          "romanization": "zhǎodào de, bǐ"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "的年纪还大。",
+          "romanization": "de niánjì hái dà."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-turn-1",
+      "segments": [
+        {
+          "text": "「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "。",
+          "romanization": "."
+        },
+        {
+          "text": "」"
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "说。",
+          "romanization": "shuō. "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "心里有些",
+          "romanization": "xīnli yǒuxiē"
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": "。",
+          "romanization": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-turn-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "把",
+          "romanization": "bǎ"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "交到",
+          "romanization": "jiāo dào"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "手里，有那么一刻，",
+          "romanization": "shǒu lǐ, yǒu nàme yí kè, "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "心里很",
+          "romanization": "xīnli hěn"
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": "。",
+          "romanization": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-cliffhanger-1",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "把",
+          "romanization": "bǎ"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "推到灯下。「",
+          "romanization": "tuī dào dēng xià. 「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l3-cliffhanger-2",
+      "segments": [
+        {
+          "text": "那天夜里，",
+          "romanization": "Nà tiān yèlǐ, "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "空无一人，",
+          "romanization": "kōng wú yì rén, "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "却留在桌上。",
+          "romanization": "què liú zài zhuō shàng."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-context-1",
+      "segments": [
+        {
+          "slot": "time"
+        },
+        {
+          "text": "，",
+          "romanization": ","
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "走进",
+          "romanization": "zǒujìn"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "，这里她已经很久没来过了。",
+          "romanization": ", zhèlǐ tā yǐjīng hěn jiǔ méi láiguo le. "
+        },
+        {
+          "slot": "weather"
+        }
+      ]
+    },
+    {
+      "id": "f-l4-context-2",
+      "segments": [
+        {
+          "text": "在",
+          "romanization": "Zài"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "，",
+          "romanization": ","
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "还放在多年前的位置上。",
+          "romanization": "hái fàng zài duō nián qián de wèizhi shàng."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-greeting-1",
+      "segments": [
+        {
+          "text": "「"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "。",
+          "romanization": "."
+        },
+        {
+          "text": "」"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "客气地说，虽然两个人从来没有这么亲近。",
+          "romanization": "kèqi de shuō, suīrán liǎng ge rén cónglái méiyǒu zhème qīnjìn."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-greeting-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "回了一句「",
+          "romanization": "huí le yí jù 「"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "」，然后把",
+          "romanization": "」, ránhòu bǎ"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "让进屋里。",
+          "romanization": "ràng jìn wū lǐ."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-task-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": "以后，才发觉",
+          "romanization": "yǐhòu, cái fājué"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "已经不是从前的样子。",
+          "romanization": "yǐjīng bú shì cóngqián de yàngzi."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-task-2",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "一边",
+          "romanization": "yìbiān"
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": "，一边跟",
+          "romanization": ", yìbiān gēn"
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "解释",
+          "romanization": "jiěshì"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "为什么这么重要。",
+          "romanization": "wèishénme zhème zhòngyào."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-request-1",
+      "segments": [
+        {
+          "text": "「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "。",
+          "romanization": "."
+        },
+        {
+          "text": "」"
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "说着，把",
+          "romanization": "shuōzhe, bǎ"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "推到",
+          "romanization": "tuī dào"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "面前。",
+          "romanization": "miànqián."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-request-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "请",
+          "romanization": "qǐng"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "再把",
+          "romanization": "zài bǎ"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "看一遍。「",
+          "romanization": "kàn yí biàn. 「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l4-complication-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "明白过来：",
+          "romanization": "míngbai guòlái: "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "不可能无缘无故放在这里。「",
+          "romanization": "bù kěnéng wúyuánwúgù fàng zài zhèlǐ. 「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l4-complication-2",
+      "segments": [
+        {
+          "text": "有人把",
+          "romanization": "Yǒu rén bǎ"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "从",
+          "romanization": "cóng"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "拿走了，却没有告诉",
+          "romanization": "názǒu le, què méiyǒu gàosu"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "。",
+          "romanization": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-clue-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "在",
+          "romanization": "zài"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "旁边发现一封手写的信：「",
+          "romanization": "pángbiān fāxiàn yì fēng shǒuxiě de xìn: 「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "。",
+          "romanization": "."
+        },
+        {
+          "text": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l4-clue-2",
+      "segments": [
+        {
+          "text": "后来才知道，",
+          "romanization": "Hòulái cái zhīdào, "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "一直收在",
+          "romanization": "yìzhí shōu zài"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "，收东西的人没有留下名字。",
+          "romanization": ", shōu dōngxi de rén méiyǒu liúxià míngzi."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-turn-1",
+      "segments": [
+        {
+          "text": "「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "。",
+          "romanization": "."
+        },
+        {
+          "text": "」"
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "说。",
+          "romanization": "shuō. "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "再也藏不住的",
+          "romanization": "zài yě cáng bú zhù de"
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": "，全写在脸上。",
+          "romanization": ", quán xiě zài liǎn shàng."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-turn-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "把",
+          "romanization": "bǎ"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "递过来的时候，",
+          "romanization": "dì guòlái de shíhou, "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "才发现这份",
+          "romanization": "cái fāxiàn zhè fèn"
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": "已经放了很久。",
+          "romanization": "yǐjīng fàng le hěn jiǔ."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-cliffhanger-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "还没来得及开口问，",
+          "romanization": "hái méi láidejí kāikǒu wèn, "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "就说：「",
+          "romanization": "jiù shuō: 「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l4-cliffhanger-2",
+      "segments": [
+        {
+          "text": "推开门，",
+          "romanization": "Tuī kāi mén, "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "还亮着灯，原本放在那里的",
+          "romanization": "hái liàngzhe dēng, yuánběn fàng zài nàlǐ de"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "却不见了。",
+          "romanization": "què bú jiàn le."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-context-1",
+      "segments": [
+        {
+          "slot": "time"
+        },
+        {
+          "text": "的",
+          "romanization": "de"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "，像一段没有讲完的往事。",
+          "romanization": ", xiàng yí duàn méiyǒu jiǎng wán de wǎngshì. "
+        },
+        {
+          "slot": "weather"
+        }
+      ]
+    },
+    {
+      "id": "f-l5-context-2",
+      "segments": [
+        {
+          "text": "许多年以后，",
+          "romanization": "Xǔduō nián yǐhòu, "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "仍然记得",
+          "romanization": "réngrán jìde"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "放在",
+          "romanization": "fàng zài"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "的样子。",
+          "romanization": "de yàngzi."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-greeting-1",
+      "segments": [
+        {
+          "text": "「"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "。",
+          "romanization": "."
+        },
+        {
+          "text": "」"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "说。这一声问候，听起来像一句迟到的道歉。",
+          "romanization": "shuō. Zhè yì shēng wènhòu, tīng qǐlái xiàng yí jù chídào de dàoqiàn."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-greeting-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "以「",
+          "romanization": "yǐ 「"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "」作答，两个人都知道，有些话始终没有说出口。",
+          "romanization": "」 zuòdá, liǎng ge rén dōu zhīdào, yǒuxiē huà shǐzhōng méiyǒu shuō chūkǒu."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-task-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": "的时候，",
+          "romanization": "de shíhou, "
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "仿佛屏住了呼吸，等着什么永远不会来的东西。",
+          "romanization": "fǎngfú bǐng zhù le hūxī, děngzhe shénme yǒngyuǎn bú huì lái de dōngxi."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-task-2",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "小心地",
+          "romanization": "xiǎoxīn de"
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": "，仿佛",
+          "romanization": ", fǎngfú"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "会被一句话碰碎。",
+          "romanization": "huì bèi yí jù huà pèngsuì."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-request-1",
+      "segments": [
+        {
+          "text": "「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "。",
+          "romanization": "."
+        },
+        {
+          "text": "」"
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "说，手里的",
+          "romanization": "shuō, shǒu lǐ de"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "似乎比刚才更重了。",
+          "romanization": "sìhū bǐ gāngcái gèng zhòng le."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-request-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "并不等答案，只是看着",
+          "romanization": "bìng bù děng dá'àn, zhǐshì kànzhe"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "，说：「",
+          "romanization": ", shuō: 「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l5-complication-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "终于明白，",
+          "romanization": "zhōngyú míngbai, "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "并不是秘密，而是一个人请求被记住的方式。「",
+          "romanization": "bìng bú shì mìmì, ér shì yí gè rén qǐngqiú bèi jìzhù de fāngshì. 「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l5-complication-2",
+      "segments": [
+        {
+          "text": "最让人难受的不是失去",
+          "romanization": "Zuì ràng rén nánshòu de bú shì shīqù"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "，而是发现",
+          "romanization": ", ér shì fāxiàn"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "已经等了",
+          "romanization": "yǐjīng děng le"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "很久。",
+          "romanization": "hěn jiǔ."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-clue-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "仔细看",
+          "romanization": "zǐxì kàn"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "，上面有一句写得很慢的话：「",
+          "romanization": ", shàngmiàn yǒu yí jù xiě de hěn màn de huà: 「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "。",
+          "romanization": "."
+        },
+        {
+          "text": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l5-clue-2",
+      "segments": [
+        {
+          "text": "原来，",
+          "romanization": "Yuánlái, "
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "上留着",
+          "romanization": "shàng liúzhe"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "的旧名字，这个名字打开了一扇一直关着的门。",
+          "romanization": "de jiù míngzi, zhège míngzi dǎkāi le yí shàn yìzhí guānzhe de mén."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-turn-1",
+      "segments": [
+        {
+          "text": "「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "。",
+          "romanization": "."
+        },
+        {
+          "text": "」"
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "终于说出口。",
+          "romanization": "zhōngyú shuō chūkǒu. "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "再也不想藏住的",
+          "romanization": "zài yě bù xiǎng cáng zhù de"
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": "，一下子涌了上来。",
+          "romanization": ", yíxiàzi yǒng le shànglái."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-turn-2",
+      "segments": [
+        {
+          "text": "当",
+          "romanization": "Dāng"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "递到",
+          "romanization": "dì dào"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "手里的时候，",
+          "romanization": "shǒu lǐ de shíhou, "
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "知道，这种",
+          "romanization": "zhīdào, zhè zhǒng"
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": "会比任何东西留得更久。",
+          "romanization": "huì bǐ rènhé dōngxi liú de gèng jiǔ."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-cliffhanger-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "看看",
+          "romanization": "kànkan"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "，又看看",
+          "romanization": ", yòu kànkan"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "。「",
+          "romanization": "。 「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l5-cliffhanger-2",
+      "segments": [
+        {
+          "text": "在门口，",
+          "romanization": "Zài ménkǒu, "
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "低声说：「",
+          "romanization": "dīshēng shuō: 「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "从",
+          "romanization": "cóng"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "手里滑了下去。",
+          "romanization": "shǒu lǐ huá le xiàqù."
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "zh-g1",
+      "level": 1,
+      "pattern": "在 + 地点 + 动词",
+      "meaning": {
+        "id": "tindakan berlangsung di suatu tempat",
+        "en": "an action happens at a place"
+      },
+      "example": "林小雨在茶馆擦桌子。",
+      "note": "地点放在动词前面；'在'不能省。"
+    },
+    {
+      "id": "zh-g2",
+      "level": 1,
+      "pattern": "了（变化与完成）",
+      "meaning": {
+        "id": "perubahan atau tindakan yang selesai",
+        "en": "a change of state or a completed action"
+      },
+      "example": "雪停了。",
+      "note": "句尾的'了'常表示情况变了。"
+    },
+    {
+      "id": "zh-g3",
+      "level": 2,
+      "pattern": "因为……所以……",
+      "meaning": {
+        "id": "sebab dan akibat",
+        "en": "cause and result"
+      },
+      "example": "因为下雪，所以街上很安静。",
+      "note": "'所以'可以省略，但'因为'保留。"
+    },
+    {
+      "id": "zh-g4",
+      "level": 2,
+      "pattern": "一边……一边……",
+      "meaning": {
+        "id": "dua tindakan berlangsung bersamaan",
+        "en": "two actions happening at once"
+      },
+      "example": "她一边烧水，一边看照片。",
+      "note": "两个动词的主语必须相同。"
+    },
+    {
+      "id": "zh-g5",
+      "level": 3,
+      "pattern": "把 + 宾语 + 动词",
+      "meaning": {
+        "id": "menekankan akibat tindakan pada objek",
+        "en": "emphasis on what happens to the object"
+      },
+      "example": "他把铁盒子放在桌上。",
+      "note": "宾语必须是已知的、具体的东西。"
+    },
+    {
+      "id": "zh-g6",
+      "level": 3,
+      "pattern": "动词 + 过",
+      "meaning": {
+        "id": "pengalaman yang pernah terjadi",
+        "en": "experience up to now"
+      },
+      "example": "奶奶跟我说过这件事。",
+      "note": "否定用'没……过'。"
+    },
+    {
+      "id": "zh-g7",
+      "level": 4,
+      "pattern": "被 + 动词",
+      "meaning": {
+        "id": "kalimat pasif",
+        "en": "the passive voice"
+      },
+      "example": "账本被人拿走了。",
+      "note": "施事者可以省略；'被'字句多带不如意的语气。"
+    },
+    {
+      "id": "zh-g8",
+      "level": 4,
+      "pattern": "再也……不……",
+      "meaning": {
+        "id": "tidak bisa lagi untuk seterusnya",
+        "en": "no longer able, from now on"
+      },
+      "example": "她再也藏不住眼里的担心。",
+      "note": "常与'了'呼应，语气比'不'更重。"
+    },
+    {
+      "id": "zh-g9",
+      "level": 5,
+      "pattern": "并非……而是……",
+      "meaning": {
+        "id": "bukan A, melainkan B (ragam tulis)",
+        "en": "not A, but B (formal)"
+      },
+      "example": "这并非秘密，而是一种记忆的方式。",
+      "note": "书面语，用于纠正前面的误解。"
+    },
+    {
+      "id": "zh-g10",
+      "level": 5,
+      "pattern": "仿佛……似的",
+      "meaning": {
+        "id": "seolah-olah",
+        "en": "as if"
+      },
+      "example": "茶馆仿佛屏住了呼吸似的。",
+      "note": "'似的'可省，但'仿佛'多用于书面语。"
+    }
+  ],
+  "questionPhrases": {
+    "meaning": "「{term}」是什么意思？",
+    "who": "句子里说到了谁？",
+    "where": "这一段发生在哪里？",
+    "when": "这件事发生在什么时候？",
+    "why": "为什么会这样？",
+    "detail": "下面哪个细节是对的？",
+    "next": "接下来最可能发生什么？",
+    "culture": "场景里出现了哪个文化细节？",
+    "grammar": "请选出正确的说法。"
+  }
+}

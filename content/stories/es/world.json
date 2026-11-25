@@ -1,0 +1,1439 @@
+{
+  "id": "es-camino-naranjas",
+  "languageCode": "es",
+  "slug": "camino-naranjas",
+  "title": "El Camino de las Naranjas",
+  "nativeTitle": "El Camino de las Naranjas",
+  "logline": "Lucía vuelve a Écija dos semanas para ayudar a su abuelo y encuentra un mapa de la campiña con una huerta marcada a lápiz y el nombre de su madre en el margen.",
+  "setting": "Andalucía, de Écija a la sierra de Cádiz: la casa del abuelo, el patio, la campiña de la naranja y la aceituna, una peña de Jerez y los pueblos blancos. La ruta se hace en una furgoneta de reparto.",
+  "era": "Presente; un año largo, del otoño de la naranja a la Semana Santa siguiente.",
+  "tone": "Road trip andaluz de interiores: humor seco, conversaciones de sobremesa y un misterio familiar que no necesita gritos.",
+  "palette": "#C4562B",
+  "motifs": [
+    "el mapa a lápiz",
+    "las etiquetas de naranja",
+    "el compás de las palmas",
+    "el olor a azahar",
+    "la libreta de cuentas",
+    "las llaves",
+    "el aceite en una lata"
+  ],
+  "sensitivityNotes": [
+    "La memoria de Rafael se trata con respeto: no es un misterio que resolver ni un chiste. Él decide qué contar y cuándo contarlo.",
+    "La ausencia de la madre de Lucía se aborda sin sentimentalismo y sin escenas de duelo explícito.",
+    "El flamenco se muestra como oficio, ensayo y economía, no como espectáculo para turistas.",
+    "Andalucía no es un decorado soleado: hay frío, lluvia, bares cerrados y pueblos que pierden población fuera de temporada.",
+    "No se caricaturiza el habla andaluza; el seseo y el léxico local aparecen con naturalidad y sin burla."
+  ],
+  "canon": {
+    "fictionalPlaces": [
+      "la huerta de los Cuatro Vientos",
+      "el cortijo del guarda",
+      "la peña El Compás"
+    ],
+    "realAnchors": [
+      "Écija",
+      "Carmona",
+      "Osuna",
+      "Antequera",
+      "Ronda",
+      "Grazalema",
+      "Jerez de la Frontera",
+      "Córdoba"
+    ],
+    "timeline": "T1: otoño (octubre-noviembre). T2: invierno (diciembre-enero). T3: primavera (marzo-abril). T4: verano (junio-julio). T5: otoño siguiente (noviembre-diciembre).",
+    "rules": [
+      "Lucía tiene 24 años y trabaja en un taller de restauración de muebles en Sevilla.",
+      "Rafael tiene 78 años, fue jornalero de la naranja y la aceituna y lleva una libreta de cuentas en el bolsillo de la camisa.",
+      "Mateo reparte aceite y naranjas con una furgoneta que todavía no es suya.",
+      "Carmen da clases de baile en Écija y prepara una actuación en una peña.",
+      "La madre de Lucía se llama Marisa y no aparece como personaje presente: solo existe en cartas, mapas y recuerdos.",
+      "La huerta de los Cuatro Vientos es ficticia y no corresponde a ninguna finca real."
+    ]
+  },
+  "levels": [
+    {
+      "tier": "T1",
+      "framework": "CEFR",
+      "levelCode": "A1",
+      "label": "CEFR A1",
+      "idPart": "a1",
+      "position": 1
+    },
+    {
+      "tier": "T2",
+      "framework": "CEFR",
+      "levelCode": "A2",
+      "label": "CEFR A2",
+      "idPart": "a2",
+      "position": 2
+    },
+    {
+      "tier": "T3",
+      "framework": "CEFR",
+      "levelCode": "B1",
+      "label": "CEFR B1",
+      "idPart": "b1",
+      "position": 3
+    },
+    {
+      "tier": "T4",
+      "framework": "CEFR",
+      "levelCode": "B2",
+      "label": "CEFR B2",
+      "idPart": "b2",
+      "position": 4
+    },
+    {
+      "tier": "T5",
+      "framework": "CEFR",
+      "levelCode": "C1",
+      "label": "CEFR C1",
+      "idPart": "c1",
+      "position": 5
+    }
+  ],
+  "characters": [
+    {
+      "id": "es-camino-naranjas-lucia",
+      "name": "Lucía",
+      "nativeName": "Lucía",
+      "role": "Protagonista, 24, restauradora de muebles",
+      "age": 24,
+      "bio": "Restauradora de muebles, 24 años. Se fue de Écija a los dieciocho y ha vuelto dos semanas para ayudar a su abuelo con la casa y con un pie torcido. Quiere alquilar un taller en Sevilla antes de fin de año; el mapa le desordena el calendario.",
+      "speechStyle": "Directa y un poco seca cuando está nerviosa; pregunta dos veces antes de creer una respuesta.",
+      "quote": "«Yo solo venía a ayudar dos semanas.»",
+      "position": 1,
+      "lexeme": {
+        "id": "es-char-lucia",
+        "native": "Lucía",
+        "gloss": {
+          "id": "Lucía",
+          "en": "Lucía"
+        },
+        "tags": [
+          "protagonist"
+        ]
+      }
+    },
+    {
+      "id": "es-camino-naranjas-rafael",
+      "name": "Rafael",
+      "nativeName": "Rafael",
+      "role": "Abuelo, 78, jornalero jubilado de la naranja y la aceituna",
+      "age": 78,
+      "bio": "Jornalero jubilado, 78 años. Cuarenta temporadas de naranja y aceituna en fincas que no eran suyas. Recuerda los nombres de las fincas y los años con precisión, y a veces no recuerda dónde dejó las gafas. Lleva una libreta de cuentas en el bolsillo de la camisa.",
+      "speechStyle": "Frases cortas, refranes del campo y humor seco; se enfada si le hablan como a un niño.",
+      "quote": "«Los árboles no se olvidan de quién los plantó.»",
+      "position": 2,
+      "lexeme": {
+        "id": "es-char-rafael",
+        "native": "Rafael",
+        "gloss": {
+          "id": "Rafael",
+          "en": "Rafael"
+        },
+        "tags": [
+          "abuelo",
+          "role"
+        ]
+      }
+    },
+    {
+      "id": "es-camino-naranjas-mateo",
+      "name": "Mateo",
+      "nativeName": "Mateo",
+      "role": "Amigo, 27, repartidor con una furgoneta prestada",
+      "age": 27,
+      "bio": "Repartidor, 27 años. Lleva aceite y naranjas por los pueblos con una furgoneta del 2004 que quiere comprarle a su tío. Calcula en voz baja: kilómetros, gasoil, horas. Cuando algo le importa, lo dice con una cifra.",
+      "speechStyle": "Contesta con datos; el humor le sale de lado.",
+      "quote": "«La furgoneta va donde yo digo, no donde dice el mapa.»",
+      "position": 3,
+      "lexeme": {
+        "id": "es-char-mateo",
+        "native": "Mateo",
+        "gloss": {
+          "id": "Mateo",
+          "en": "Mateo"
+        },
+        "tags": [
+          "friend"
+        ]
+      }
+    },
+    {
+      "id": "es-camino-naranjas-carmen",
+      "name": "Carmen",
+      "nativeName": "Carmen",
+      "role": "Maestra de flamenco, 50, viaja con ellos",
+      "age": 50,
+      "bio": "Maestra de baile, 50 años. Da clases en un local con espejos y tarima y prepara a un grupo para actuar en la peña. Le duelen las rodillas desde hace dos inviernos y no lo dice. Viaja con ellos porque conoce a la gente que sabe las letras viejas.",
+      "speechStyle": "Habla con las manos; corrige el compás de todo el mundo, también el suyo.",
+      "quote": "«El compás no se explica: se cuenta.»",
+      "position": 4,
+      "lexeme": {
+        "id": "es-char-carmen",
+        "native": "Carmen",
+        "gloss": {
+          "id": "Carmen",
+          "en": "Carmen"
+        },
+        "tags": [
+          "mentor"
+        ]
+      }
+    }
+  ],
+  "lexicon": {
+    "person": [
+      {
+        "id": "es-person-vecina",
+        "native": "la vecina del patio",
+        "gloss": {
+          "id": "tetangga di halaman",
+          "en": "the neighbour from the courtyard"
+        }
+      },
+      {
+        "id": "es-person-guarda",
+        "native": "el guarda de la finca",
+        "gloss": {
+          "id": "penjaga kebun",
+          "en": "the estate watchman"
+        }
+      },
+      {
+        "id": "es-person-molinero",
+        "native": "el molinero",
+        "gloss": {
+          "id": "penggiling minyak zaitun",
+          "en": "the miller"
+        }
+      },
+      {
+        "id": "es-person-camarero",
+        "native": "el camarero del bar",
+        "gloss": {
+          "id": "pelayan bar",
+          "en": "the bar waiter"
+        }
+      },
+      {
+        "id": "es-person-nina",
+        "native": "la niña del pueblo",
+        "gloss": {
+          "id": "anak perempuan desa",
+          "en": "the girl from the village"
+        }
+      }
+    ],
+    "place": [
+      {
+        "id": "es-place-casa",
+        "native": "la casa del abuelo",
+        "gloss": {
+          "id": "rumah kakek",
+          "en": "the grandfather's house"
+        },
+        "tags": [
+          "home"
+        ]
+      },
+      {
+        "id": "es-place-patio",
+        "native": "el patio de la casa",
+        "gloss": {
+          "id": "halaman dalam rumah",
+          "en": "the courtyard"
+        },
+        "tags": [
+          "home"
+        ]
+      },
+      {
+        "id": "es-place-plaza",
+        "native": "la plaza del pueblo",
+        "gloss": {
+          "id": "alun-alun desa",
+          "en": "the village square"
+        }
+      },
+      {
+        "id": "es-place-bar",
+        "native": "el bar de tapas",
+        "gloss": {
+          "id": "bar tapas",
+          "en": "the tapas bar"
+        },
+        "tags": [
+          "food"
+        ]
+      },
+      {
+        "id": "es-place-huerta",
+        "native": "la huerta de los Cuatro Vientos",
+        "gloss": {
+          "id": "kebun jeruk Cuatro Vientos",
+          "en": "the Cuatro Vientos grove"
+        },
+        "tags": [
+          "mystery"
+        ]
+      },
+      {
+        "id": "es-place-ermita",
+        "native": "la ermita del cerro",
+        "gloss": {
+          "id": "kapel di bukit",
+          "en": "the hill chapel"
+        }
+      },
+      {
+        "id": "es-place-mercado",
+        "native": "el mercado de abastos",
+        "gloss": {
+          "id": "pasar kota",
+          "en": "the market hall"
+        }
+      },
+      {
+        "id": "es-place-carretera",
+        "native": "la venta de la carretera",
+        "gloss": {
+          "id": "rumah makan pinggir jalan",
+          "en": "the roadside inn"
+        }
+      },
+      {
+        "id": "es-place-molino",
+        "native": "el molino de aceite",
+        "gloss": {
+          "id": "pabrik minyak zaitun",
+          "en": "the oil mill"
+        }
+      },
+      {
+        "id": "es-place-pena",
+        "native": "la peña flamenca",
+        "gloss": {
+          "id": "klub penggemar flamenco",
+          "en": "the flamenco club"
+        },
+        "tags": [
+          "music"
+        ]
+      },
+      {
+        "id": "es-place-iglesia",
+        "native": "la iglesia del pueblo",
+        "gloss": {
+          "id": "gereja desa",
+          "en": "the village church"
+        }
+      },
+      {
+        "id": "es-place-cortijo",
+        "native": "el cortijo del guarda",
+        "gloss": {
+          "id": "rumah penjaga kebun",
+          "en": "the watchman's farmhouse"
+        }
+      },
+      {
+        "id": "es-place-estacion",
+        "native": "la estación de autobuses",
+        "gloss": {
+          "id": "terminal bus",
+          "en": "the bus station"
+        }
+      }
+    ],
+    "object": [
+      {
+        "id": "es-object-mapa",
+        "native": "el mapa del abuelo",
+        "gloss": {
+          "id": "peta kakek",
+          "en": "the grandfather's map"
+        },
+        "tags": [
+          "mystery",
+          "clue"
+        ]
+      },
+      {
+        "id": "es-object-libreta",
+        "native": "la libreta de cuentas",
+        "gloss": {
+          "id": "buku catatan utang",
+          "en": "the account notebook"
+        },
+        "tags": [
+          "clue"
+        ]
+      },
+      {
+        "id": "es-object-llave",
+        "native": "la llave del cuarto de arriba",
+        "gloss": {
+          "id": "kunci kamar atas",
+          "en": "the key to the upstairs room"
+        },
+        "tags": [
+          "clue"
+        ]
+      },
+      {
+        "id": "es-object-foto",
+        "native": "la fotografía de 1963",
+        "gloss": {
+          "id": "foto tahun 1963",
+          "en": "the 1963 photograph"
+        },
+        "tags": [
+          "memory"
+        ]
+      },
+      {
+        "id": "es-object-carta",
+        "native": "la carta sin sello",
+        "gloss": {
+          "id": "surat tanpa perangko",
+          "en": "the unstamped letter"
+        },
+        "tags": [
+          "mystery"
+        ]
+      },
+      {
+        "id": "es-object-programa",
+        "native": "el programa de mano",
+        "gloss": {
+          "id": "program acara",
+          "en": "the printed programme"
+        },
+        "tags": [
+          "clue"
+        ]
+      },
+      {
+        "id": "es-object-etiqueta",
+        "native": "la etiqueta de la naranja",
+        "gloss": {
+          "id": "etiket jeruk",
+          "en": "the orange label"
+        },
+        "tags": [
+          "clue"
+        ]
+      },
+      {
+        "id": "es-object-naranja",
+        "native": "la naranja seca",
+        "gloss": {
+          "id": "jeruk kering",
+          "en": "the dried orange"
+        },
+        "tags": [
+          "memory"
+        ]
+      },
+      {
+        "id": "es-object-recorte",
+        "native": "el recorte de periódico",
+        "gloss": {
+          "id": "potongan koran",
+          "en": "the newspaper clipping"
+        },
+        "tags": [
+          "clue"
+        ]
+      },
+      {
+        "id": "es-object-radio",
+        "native": "la radio vieja",
+        "gloss": {
+          "id": "radio tua",
+          "en": "the old radio"
+        }
+      },
+      {
+        "id": "es-object-aceite",
+        "native": "la botella de aceite",
+        "gloss": {
+          "id": "botol minyak zaitun",
+          "en": "the bottle of oil"
+        }
+      }
+    ],
+    "food": [
+      {
+        "id": "es-food-tortilla",
+        "native": "la tortilla de patatas",
+        "gloss": {
+          "id": "tortilla kentang",
+          "en": "the potato omelette"
+        },
+        "tags": [
+          "anchor"
+        ]
+      },
+      {
+        "id": "es-food-pringa",
+        "native": "el pringá",
+        "gloss": {
+          "id": "pringá (daging rebus)",
+          "en": "pringá"
+        },
+        "tags": [
+          "anchor"
+        ]
+      },
+      {
+        "id": "es-food-pescaito",
+        "native": "el pescaíto frito",
+        "gloss": {
+          "id": "ikan goreng kecil",
+          "en": "fried small fish"
+        },
+        "tags": [
+          "anchor"
+        ]
+      },
+      {
+        "id": "es-food-gazpacho",
+        "native": "el gazpacho",
+        "gloss": {
+          "id": "sup tomat dingin",
+          "en": "the cold tomato soup"
+        }
+      },
+      {
+        "id": "es-food-tostada",
+        "native": "la tostada con aceite",
+        "gloss": {
+          "id": "roti panggang dengan minyak zaitun",
+          "en": "toast with olive oil"
+        }
+      },
+      {
+        "id": "es-food-aceitunas",
+        "native": "las aceitunas aliñadas",
+        "gloss": {
+          "id": "zaitun berbumbu",
+          "en": "dressed olives"
+        }
+      },
+      {
+        "id": "es-food-mantecados",
+        "native": "los mantecados de Estepa",
+        "gloss": {
+          "id": "kue mantecado dari Estepa",
+          "en": "Estepa shortbread"
+        }
+      }
+    ],
+    "drink": [
+      {
+        "id": "es-drink-fino",
+        "native": "el fino de Jerez",
+        "gloss": {
+          "id": "fino dari Jerez",
+          "en": "fino from Jerez"
+        }
+      },
+      {
+        "id": "es-drink-cana",
+        "native": "la caña de cerveza",
+        "gloss": {
+          "id": "segelas kecil bir",
+          "en": "a small glass of beer"
+        }
+      },
+      {
+        "id": "es-drink-zumo",
+        "native": "el zumo de naranja",
+        "gloss": {
+          "id": "jus jeruk",
+          "en": "orange juice"
+        }
+      },
+      {
+        "id": "es-drink-cafe",
+        "native": "el café solo",
+        "gloss": {
+          "id": "kopi hitam",
+          "en": "black coffee"
+        }
+      },
+      {
+        "id": "es-drink-manzanilla",
+        "native": "la manzanilla de Sanlúcar",
+        "gloss": {
+          "id": "manzanilla dari Sanlúcar",
+          "en": "manzanilla from Sanlúcar"
+        }
+      }
+    ],
+    "time": [
+      {
+        "id": "es-time-manana",
+        "native": "por la mañana",
+        "gloss": {
+          "id": "pagi hari",
+          "en": "in the morning"
+        }
+      },
+      {
+        "id": "es-time-mediodia",
+        "native": "a mediodía",
+        "gloss": {
+          "id": "tengah hari",
+          "en": "at midday"
+        }
+      },
+      {
+        "id": "es-time-tarde",
+        "native": "por la tarde",
+        "gloss": {
+          "id": "sore hari",
+          "en": "in the afternoon"
+        }
+      },
+      {
+        "id": "es-time-atardecer",
+        "native": "al atardecer",
+        "gloss": {
+          "id": "menjelang senja",
+          "en": "at dusk"
+        }
+      },
+      {
+        "id": "es-time-noche",
+        "native": "de noche",
+        "gloss": {
+          "id": "malam hari",
+          "en": "at night"
+        }
+      },
+      {
+        "id": "es-time-madrugada",
+        "native": "de madrugada",
+        "gloss": {
+          "id": "dini hari",
+          "en": "in the early hours"
+        }
+      },
+      {
+        "id": "es-time-primera",
+        "native": "a primera hora",
+        "gloss": {
+          "id": "pagi-pagi sekali",
+          "en": "first thing"
+        }
+      },
+      {
+        "id": "es-time-siesta",
+        "native": "en plena siesta",
+        "gloss": {
+          "id": "saat jam tidur siang",
+          "en": "in the middle of the siesta"
+        }
+      }
+    ],
+    "weather": [
+      {
+        "id": "es-weather-calor",
+        "native": "Hace calor.",
+        "gloss": {
+          "id": "Cuacanya panas.",
+          "en": "It is hot."
+        },
+        "tags": [
+          "warm"
+        ]
+      },
+      {
+        "id": "es-weather-levante",
+        "native": "Sopla el levante.",
+        "gloss": {
+          "id": "Angin levante bertiup.",
+          "en": "The east wind is blowing."
+        },
+        "tags": [
+          "warm"
+        ]
+      },
+      {
+        "id": "es-weather-gris",
+        "native": "El cielo está gris.",
+        "gloss": {
+          "id": "Langitnya kelabu.",
+          "en": "The sky is grey."
+        },
+        "tags": [
+          "cold"
+        ]
+      },
+      {
+        "id": "es-weather-lluvia",
+        "native": "Llovizna.",
+        "gloss": {
+          "id": "Gerimis.",
+          "en": "It is drizzling."
+        },
+        "tags": [
+          "rain"
+        ]
+      },
+      {
+        "id": "es-weather-frio",
+        "native": "Hace frío de verdad.",
+        "gloss": {
+          "id": "Dinginnya sungguh terasa.",
+          "en": "It is really cold."
+        },
+        "tags": [
+          "cold"
+        ]
+      },
+      {
+        "id": "es-weather-azahar",
+        "native": "El aire huele a azahar.",
+        "gloss": {
+          "id": "Udara berbau bunga jeruk.",
+          "en": "The air smells of orange blossom."
+        },
+        "tags": [
+          "clear"
+        ]
+      },
+      {
+        "id": "es-weather-niebla",
+        "native": "Hay niebla en la campiña.",
+        "gloss": {
+          "id": "Ada kabut di dataran.",
+          "en": "There is fog over the plain."
+        },
+        "tags": [
+          "fog"
+        ]
+      },
+      {
+        "id": "es-weather-despejado",
+        "native": "El cielo está despejado.",
+        "gloss": {
+          "id": "Langitnya cerah.",
+          "en": "The sky is clear."
+        },
+        "tags": [
+          "clear"
+        ]
+      }
+    ],
+    "action": [
+      {
+        "id": "es-action-ventana",
+        "native": "abrió la ventana",
+        "gloss": {
+          "id": "membuka jendela",
+          "en": "opened the window"
+        }
+      },
+      {
+        "id": "es-action-mesa",
+        "native": "puso la mesa",
+        "gloss": {
+          "id": "menata meja",
+          "en": "set the table"
+        }
+      },
+      {
+        "id": "es-action-vasos",
+        "native": "limpió los vasos",
+        "gloss": {
+          "id": "membersihkan gelas",
+          "en": "wiped the glasses"
+        }
+      },
+      {
+        "id": "es-action-silla",
+        "native": "sacó una silla",
+        "gloss": {
+          "id": "mengeluarkan kursi",
+          "en": "brought out a chair"
+        }
+      },
+      {
+        "id": "es-action-radio",
+        "native": "encendió la radio",
+        "gloss": {
+          "id": "menyalakan radio",
+          "en": "turned on the radio"
+        }
+      },
+      {
+        "id": "es-action-cafe",
+        "native": "preparó café",
+        "gloss": {
+          "id": "menyiapkan kopi",
+          "en": "made coffee"
+        }
+      },
+      {
+        "id": "es-action-puerta",
+        "native": "cerró la puerta",
+        "gloss": {
+          "id": "menutup pintu",
+          "en": "closed the door"
+        }
+      },
+      {
+        "id": "es-action-nombre",
+        "native": "apuntó un nombre",
+        "gloss": {
+          "id": "mencatat nama",
+          "en": "wrote down a name"
+        }
+      },
+      {
+        "id": "es-action-geranios",
+        "native": "regó los geranios",
+        "gloss": {
+          "id": "menyiram geranium",
+          "en": "watered the geraniums"
+        }
+      },
+      {
+        "id": "es-action-pan",
+        "native": "partió pan",
+        "gloss": {
+          "id": "memotong roti",
+          "en": "cut bread"
+        }
+      },
+      {
+        "id": "es-action-foto",
+        "native": "colgó una foto",
+        "gloss": {
+          "id": "menggantung foto",
+          "en": "hung a photo"
+        }
+      },
+      {
+        "id": "es-action-cuaderno",
+        "native": "guardó el cuaderno",
+        "gloss": {
+          "id": "menyimpan buku catatan",
+          "en": "put the notebook away"
+        }
+      }
+    ],
+    "quote": [
+      {
+        "id": "es-quote-nadie",
+        "native": "No queda nadie.",
+        "gloss": {
+          "id": "Tidak ada yang tersisa.",
+          "en": "No one is left."
+        },
+        "tags": [
+          "mystery"
+        ]
+      },
+      {
+        "id": "es-quote-mapa",
+        "native": "El mapa no miente.",
+        "gloss": {
+          "id": "Peta tidak berbohong.",
+          "en": "The map does not lie."
+        },
+        "tags": [
+          "mystery"
+        ]
+      },
+      {
+        "id": "es-quote-cena",
+        "native": "Aquí se cena tarde.",
+        "gloss": {
+          "id": "Di sini orang makan malam larut.",
+          "en": "Here people eat dinner late."
+        }
+      },
+      {
+        "id": "es-quote-madre",
+        "native": "Mi madre también lo decía.",
+        "gloss": {
+          "id": "Ibuku juga bilang begitu.",
+          "en": "My mother said the same thing."
+        },
+        "tags": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "es-quote-pagina",
+        "native": "No toques esa página.",
+        "gloss": {
+          "id": "Jangan sentuh halaman itu.",
+          "en": "Don't touch that page."
+        },
+        "tags": [
+          "mystery"
+        ]
+      },
+      {
+        "id": "es-quote-cerro",
+        "native": "La huerta está detrás del cerro.",
+        "gloss": {
+          "id": "Kebun itu ada di balik bukit.",
+          "en": "The grove is behind the hill."
+        },
+        "tags": [
+          "mystery"
+        ]
+      },
+      {
+        "id": "es-quote-lleguemos",
+        "native": "Te lo contaré cuando lleguemos.",
+        "gloss": {
+          "id": "Aku akan cerita kalau kita sudah sampai.",
+          "en": "I'll tell you when we get there."
+        },
+        "tags": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "es-quote-nino",
+        "native": "No me trates como a un niño.",
+        "gloss": {
+          "id": "Jangan perlakukan aku seperti anak kecil.",
+          "en": "Don't treat me like a child."
+        },
+        "tags": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "es-quote-letra",
+        "native": "Esa letra la cantaba mi madre.",
+        "gloss": {
+          "id": "Lagu itu dinyanyikan ibuku.",
+          "en": "My mother used to sing that letra."
+        },
+        "tags": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "es-quote-aceite",
+        "native": "El aceite se cata con pan.",
+        "gloss": {
+          "id": "Minyak zaitun dicicip dengan roti.",
+          "en": "Olive oil is tasted with bread."
+        }
+      }
+    ],
+    "question": [
+      {
+        "id": "es-question-mapa",
+        "native": "¿Dónde está el mapa?",
+        "gloss": {
+          "id": "Di mana petanya?",
+          "en": "Where is the map?"
+        }
+      },
+      {
+        "id": "es-question-quien",
+        "native": "¿Quién escribió esto?",
+        "gloss": {
+          "id": "Siapa yang menulis ini?",
+          "en": "Who wrote this?"
+        }
+      },
+      {
+        "id": "es-question-autobus",
+        "native": "¿A qué hora sale el autobús?",
+        "gloss": {
+          "id": "Jam berapa busnya berangkat?",
+          "en": "What time does the bus leave?"
+        }
+      },
+      {
+        "id": "es-question-porque",
+        "native": "¿Por qué no me lo dijiste?",
+        "gloss": {
+          "id": "Kenapa kamu tidak bilang?",
+          "en": "Why didn't you tell me?"
+        }
+      },
+      {
+        "id": "es-question-huerta",
+        "native": "¿Qué hay en la huerta?",
+        "gloss": {
+          "id": "Apa yang ada di kebun itu?",
+          "en": "What is in the grove?"
+        }
+      },
+      {
+        "id": "es-question-marisa",
+        "native": "¿Quién es Marisa?",
+        "gloss": {
+          "id": "Siapa Marisa?",
+          "en": "Who is Marisa?"
+        }
+      },
+      {
+        "id": "es-question-acuerdas",
+        "native": "¿Te acuerdas de ese año?",
+        "gloss": {
+          "id": "Kamu ingat tahun itu?",
+          "en": "Do you remember that year?"
+        }
+      },
+      {
+        "id": "es-question-billete",
+        "native": "¿Cuánto cuesta el billete?",
+        "gloss": {
+          "id": "Berapa harga tiketnya?",
+          "en": "How much is the ticket?"
+        }
+      },
+      {
+        "id": "es-question-volver",
+        "native": "¿Podemos volver mañana?",
+        "gloss": {
+          "id": "Bisakah kita kembali besok?",
+          "en": "Can we come back tomorrow?"
+        }
+      }
+    ],
+    "greeting": [
+      {
+        "id": "es-greeting-dias",
+        "native": "Buenos días",
+        "gloss": {
+          "id": "Selamat pagi",
+          "en": "Good morning"
+        }
+      },
+      {
+        "id": "es-greeting-buenas",
+        "native": "Buenas",
+        "gloss": {
+          "id": "Halo",
+          "en": "Hello"
+        }
+      },
+      {
+        "id": "es-greeting-hola",
+        "native": "Hola",
+        "gloss": {
+          "id": "Hai",
+          "en": "Hi"
+        }
+      },
+      {
+        "id": "es-greeting-tal",
+        "native": "¿Qué tal?",
+        "gloss": {
+          "id": "Apa kabar?",
+          "en": "How are you?"
+        }
+      },
+      {
+        "id": "es-greeting-tardes",
+        "native": "Buenas tardes",
+        "gloss": {
+          "id": "Selamat sore",
+          "en": "Good afternoon"
+        }
+      },
+      {
+        "id": "es-greeting-luego",
+        "native": "Hasta luego",
+        "gloss": {
+          "id": "Sampai jumpa",
+          "en": "See you later"
+        }
+      }
+    ],
+    "emotion": [
+      {
+        "id": "es-emotion-nostalgia",
+        "native": "nostalgia",
+        "gloss": {
+          "id": "kerinduan",
+          "en": "nostalgia"
+        }
+      },
+      {
+        "id": "es-emotion-alegria",
+        "native": "alegría",
+        "gloss": {
+          "id": "kegembiraan",
+          "en": "joy"
+        }
+      },
+      {
+        "id": "es-emotion-anoranza",
+        "native": "añoranza",
+        "gloss": {
+          "id": "kerinduan mendalam",
+          "en": "longing"
+        }
+      },
+      {
+        "id": "es-emotion-preocupacion",
+        "native": "preocupación",
+        "gloss": {
+          "id": "kekhawatiran",
+          "en": "worry"
+        }
+      },
+      {
+        "id": "es-emotion-ternura",
+        "native": "ternura",
+        "gloss": {
+          "id": "kelembutan hati",
+          "en": "tenderness"
+        }
+      },
+      {
+        "id": "es-emotion-verguenza",
+        "native": "vergüenza",
+        "gloss": {
+          "id": "rasa malu",
+          "en": "shame"
+        }
+      },
+      {
+        "id": "es-emotion-melancolia",
+        "native": "melancolía",
+        "gloss": {
+          "id": "kemurungan",
+          "en": "melancholy"
+        }
+      },
+      {
+        "id": "es-emotion-ilusion",
+        "native": "ilusión",
+        "gloss": {
+          "id": "harapan yang membara",
+          "en": "hopeful excitement"
+        }
+      },
+      {
+        "id": "es-emotion-calma",
+        "native": "calma",
+        "gloss": {
+          "id": "ketenangan",
+          "en": "calm"
+        }
+      },
+      {
+        "id": "es-emotion-culpa",
+        "native": "culpa",
+        "gloss": {
+          "id": "rasa bersalah",
+          "en": "guilt"
+        }
+      }
+    ]
+  },
+  "anchors": [
+    {
+      "id": "es-culture-tapas",
+      "title": "La tapa no es un plato pequeño",
+      "body": {
+        "id": "Tapa bukan porsi kecil atau camilan pembuka: tapa adalah cara orang Andalusia makan sambil berdiri di kedai, dengan minuman dan percakapan yang tidak terburu-buru. Di bar Écija orang memesan pringá, zaitun berbumbu, atau ikan goreng kecil, dan bon datang ketika rombongan memutuskan sudah cukup. Ukurannya yang kecil adalah akibat, bukan tujuan.",
+        "en": "A tapa is not a small portion or a passing appetiser: it is the Andalusian way of eating standing up in a tavern, with a drink and a conversation that is in no hurry. In an Écija bar people order pringá, dressed olives or fried fish, and the bill comes when the group decides it is done. Smallness is a consequence, not the point."
+      },
+      "sources": [
+        "Junta de Andalucía, Turismo de Andalucía — «La tapa andaluza» (andalucia.org)",
+        "Real Academia Española — Diccionario de la lengua española, voz «tapa» (acepción gastronómica)"
+      ],
+      "reflection": {
+        "id": "Apa yang berubah kalau makanan dimakan sambil berdiri bersama orang lain?",
+        "en": "What changes when food is eaten standing up with other people?"
+      },
+      "stampId": "es-stamp-tapas",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "es-culture-sobremesa",
+      "title": "La sobremesa dura más que la comida",
+      "body": {
+        "id": "Sobremesa adalah waktu setelah makan, ketika piring sudah tidak penting dan percakapan menjadi penting. Di rumah Andalusia, sobremesa bisa berlangsung satu atau dua jam dan tidak dianggap membuang waktu. Di meja itu orang membicarakan panen, orang yang sudah pergi, dan hal-hal yang tidak sempat dikatakan saat makan.",
+        "en": "Sobremesa is the time after a meal, when the plates no longer matter and conversation does. In an Andalusian house it can last one or two hours and is not considered wasted time. At that table people talk about harvests, about people who have left, and about things there was no time to say while eating."
+      },
+      "sources": [
+        "Fundación Dieta Mediterránea — «La sobremesa» (fdmed.org)",
+        "UNESCO — «La dieta mediterránea», Lista Representativa del Patrimonio Cultural Inmaterial (2010)"
+      ],
+      "reflection": {
+        "id": "Mengapa berbicara setelah makan dianggap bagian dari makan itu sendiri?",
+        "en": "Why is talking after a meal considered part of the meal itself?"
+      },
+      "stampId": "es-stamp-sobremesa",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "es-culture-flamenco",
+      "title": "El flamenco se ensaya",
+      "body": {
+        "id": "Flamenco yang dipelajari di kampung dimulai dari compás: tepukan tangan, hentakan kaki, satu letra yang diulang sampai badan mengingatnya. Tablao untuk turis dan peña lingkungan adalah dua ekonomi yang berbeda; di peña orang bernyanyi untuk penonton yang sudah tahu liriknya. Pada 2010 UNESCO mencatatnya sebagai warisan budaya takbenda, dan label itu tidak membuatnya lebih mudah ditarikan.",
+        "en": "Flamenco learned in a neighbourhood starts with compás: clapping, footwork, one letra repeated until the body remembers it. The tourist tablao and the local peña are two different economies; in a peña people sing for listeners who already know the lyrics. UNESCO listed it as intangible heritage in 2010, and that label does not make it easier to dance."
+      },
+      "sources": [
+        "UNESCO — «El flamenco», Lista Representativa del Patrimonio Cultural Inmaterial (2010)",
+        "Junta de Andalucía, Instituto Andaluz del Flamenco (creado en 2005)"
+      ],
+      "reflection": {
+        "id": "Apa bedanya menonton pertunjukan dan mengenal lagunya?",
+        "en": "What is the difference between watching a show and knowing the song?"
+      },
+      "stampId": "es-stamp-flamenco",
+      "tags": [
+        "music"
+      ]
+    },
+    {
+      "id": "es-culture-semana-santa",
+      "title": "La Semana Santa de un pueblo",
+      "body": {
+        "id": "Pada Semana Santa Andalusia, persaudaraan (hermandades) membawa paso ke jalan dengan costaleros, lilin, dan band musik; rutenya disebut carrera oficial dan diatur per jam. Di kota kecil, prosesi juga daftar nama: siapa yang memikul, siapa yang menyanyi, siapa yang membuka balkon. Perayaan ini religius dan sekaligus urusan tetangga; keduanya tidak dipisahkan.",
+        "en": "During Andalusian Semana Santa, brotherhoods carry their floats through the streets with costaleros, candles and bands; the route is called the carrera oficial and runs on a timetable. In a small town the procession is also a list of names: who carries, who sings, who opens a balcony. The feast is religious and neighbourly at once, and the two are not separated."
+      },
+      "sources": [
+        "Junta de Andalucía, Turismo de Andalucía — «Semana Santa en Andalucía»",
+        "Consejo General de Hermandades y Cofradías de la Ciudad de Sevilla — «Carrera oficial»"
+      ],
+      "reflection": {
+        "id": "Siapa yang sebenarnya menjadi tuan rumah sebuah prosesi: gereja, persaudaraan, atau tetangga?",
+        "en": "Who actually hosts a procession: the church, the brotherhood, or the neighbours?"
+      },
+      "stampId": "es-stamp-semana-santa",
+      "tags": [
+        "religion"
+      ]
+    },
+    {
+      "id": "es-culture-saeta",
+      "title": "La saeta no es un concierto",
+      "body": {
+        "id": "Saeta adalah nyanyian tanpa iringan alat musik yang dilepaskan dari balkon atau dari jalan ketika sebuah paso lewat. Melodinya berkerabat dengan palo flamenco seperti seguiriya, dan setiap kota punya lirik serta penyanyinya sendiri. Ia bukan lagu konser: usianya hanya selama paso lewat.",
+        "en": "A saeta is an unaccompanied song launched from a balcony or from the street as a float passes. Its melody is related to flamenco palos such as the seguiriya, and every town has its own lyrics and singers. It is not a concert song: it lasts only as long as the float takes to pass."
+      },
+      "sources": [
+        "Junta de Andalucía, Instituto Andaluz del Flamenco — documentación sobre la saeta",
+        "Junta de Andalucía, Turismo de Andalucía — «La saeta en la Semana Santa»"
+      ],
+      "reflection": {
+        "id": "Mengapa nyanyian yang hanya berlangsung beberapa detik bisa diingat bertahun-tahun?",
+        "en": "Why can a song that lasts seconds be remembered for years?"
+      },
+      "stampId": "es-stamp-saeta",
+      "tags": [
+        "music"
+      ]
+    },
+    {
+      "id": "es-culture-patios",
+      "title": "Los patios no son jardines",
+      "body": {
+        "id": "Patio rumah Andalusia mengatur hidup sehari-hari: memberi cahaya, udara, dan tempat bersama untuk menjemur, menyiram, dan berbicara. Di Córdoba, Fiesta de los Patios membuka rumah pribadi untuk umum setiap Mei dan dicatat UNESCO pada 2012; patio yang dipamerkan adalah patio yang juga dipel.",
+        "en": "The Andalusian courtyard organises daily life: it gives light, air and a shared place to hang washing, water plants and talk. In Córdoba, the Fiesta de los Patios opens private houses to the public every May and was listed by UNESCO in 2012; the courtyard on display is the same one that gets mopped."
+      },
+      "sources": [
+        "UNESCO — «La fiesta de los patios de Córdoba», Lista Representativa (2012)",
+        "Ayuntamiento de Córdoba — «Fiesta de los Patios»"
+      ],
+      "reflection": {
+        "id": "Apa yang hilang dari sebuah rumah kalau halamannya menjadi ruang pamer?",
+        "en": "What does a house lose when its courtyard becomes a display?"
+      },
+      "stampId": "es-stamp-patios",
+      "tags": [
+        "home"
+      ]
+    },
+    {
+      "id": "es-culture-naranjos",
+      "title": "La naranja se recoge en invierno",
+      "body": {
+        "id": "Musim jeruk Andalusia terkonsentrasi di lembah Guadalquivir dan, tergantung varietasnya, berlangsung dari musim gugur sampai musim semi. Jeruk dipetik dengan tangan memakai gunting agar kulitnya tidak rusak, dan setiap peti diberi etiket berisi nama kebun atau merek. Wangi azahar datang lebih dulu daripada buahnya: bunga muncul di musim semi, buah dipanen di musim dingin.",
+        "en": "The Andalusian citrus season is concentrated in the Guadalquivir valley and, depending on the variety, runs from autumn to spring. Oranges are picked by hand with scissors so the skin is not damaged, and every crate carries a label with the name of the grove or the brand. The scent of orange blossom arrives before the fruit: it flowers in spring and is picked in winter."
+      },
+      "sources": [
+        "Junta de Andalucía, Consejería de Agricultura, Pesca y Desarrollo Rural — «El sector citrícola andaluz»",
+        "Ministerio de Agricultura, Pesca y Alimentación — «Cítricos: campaña y variedades»"
+      ],
+      "reflection": {
+        "id": "Bagaimana sebuah jeruk bisa membawa nama tempat dan nama orang?",
+        "en": "How can an orange carry the name of a place and of a person?"
+      },
+      "stampId": "es-stamp-naranja",
+      "tags": [
+        "agriculture"
+      ]
+    },
+    {
+      "id": "es-culture-aceite",
+      "title": "El aceite se cata",
+      "body": {
+        "id": "Minyak zaitun virgen extra dinilai oleh panel pencicip dengan gelas gelap dan kosakata sendiri: fruity, pahit, pedas. DOP Estepa di provinsi Sevilla mensertifikasi minyak dari campiña; pabrik bekerja siang malam selama panen, dari akhir musim gugur sampai awal musim dingin. Minyak tidak lebih baik hanya karena lebih lembut: rasa pahit justru dianggap kualitas.",
+        "en": "Extra virgin olive oil is assessed by tasting panels using dark glasses and a vocabulary of its own: fruity, bitter, pungent. The Estepa PDO in Seville province certifies oils from the campiña; the mill runs day and night during harvest, from late autumn to early winter. An oil is not better merely for being mild: bitterness counts as a quality."
+      },
+      "sources": [
+        "Consejo Regulador de la DOP Estepa — «El análisis sensorial del aceite» (doestepa.com)",
+        "Junta de Andalucía, Consejería de Agricultura — «El olivar andaluz»"
+      ],
+      "reflection": {
+        "id": "Mengapa rasa pahit bisa dianggap kualitas, bukan cacat?",
+        "en": "Why can bitterness count as a quality rather than a flaw?"
+      },
+      "stampId": "es-stamp-aceite",
+      "tags": [
+        "agriculture"
+      ]
+    },
+    {
+      "id": "es-culture-pueblos",
+      "title": "Pueblos blancos: la ruta y la despoblación",
+      "body": {
+        "id": "Rute pueblos blancos melintasi pegunungan Cádiz dan Málaga: Grazalema, Zahara de la Sierra, Olvera, Setenil. Dinding yang dikapur bukan sekadar estetika: kapur memantulkan panas dan membantu sanitasi. Banyak desa ini kehilangan penduduk di luar musim ramai, dan pariwisata tidak selalu menggantikan pekerjaan tetap.",
+        "en": "The pueblos blancos route crosses the mountains of Cádiz and Málaga: Grazalema, Zahara de la Sierra, Olvera, Setenil. Whitewashed walls are not only aesthetics: lime reflects heat and helps sanitation. Many of these villages lose population outside the high season, and tourism does not always replace steady work."
+      },
+      "sources": [
+        "Junta de Andalucía, Turismo de Andalucía — «Pueblos Blancos: mapa y rutas» (publicación oficial)",
+        "Instituto Nacional de Estadística — «Cifras de población por municipios»"
+      ],
+      "reflection": {
+        "id": "Apa yang tersisa dari sebuah desa ketika rumah-rumahnya hanya dipakai pada musim ramai?",
+        "en": "What remains of a village when its houses are only used in high season?"
+      },
+      "stampId": "es-stamp-pueblos",
+      "tags": [
+        "landscape"
+      ]
+    },
+    {
+      "id": "es-culture-habla",
+      "title": "El habla andaluza no es una sola",
+      "body": {
+        "id": "Bahasa Andalusia bukan satu cara bicara: di bagian barat (Sevilla, Cádiz, Córdoba) orang cenderung seseo, sedangkan di bagian timur pembedaan s dan z masih hidup. Atlas Lingüístico y Etnográfico de Andalucía mendokumentasikan keragaman itu pada 1961–1973. Dalam bahasa Spanyol peninsular, vosotros dipakai untuk jamak informal; di Andalusia juga begitu.",
+        "en": "Andalusian speech is not one way of talking: in the west (Seville, Cádiz, Córdoba) people tend to seseo, while in the east the distinction between s and z survives. The Atlas Lingüístico y Etnográfico de Andalucía documented that variety between 1961 and 1973. Peninsular Spanish uses vosotros for informal plurals; so does Andalusia."
+      },
+      "sources": [
+        "Manuel Alvar, con A. Llorente y G. Salvador — Atlas Lingüístico y Etnográfico de Andalucía (ALEA), 1961–1973",
+        "Real Academia Española y ASALE — Diccionario panhispánico de dudas, voz «seseo»"
+      ],
+      "reflection": {
+        "id": "Mengapa cara bicara seseorang sering dianggap sifat pribadi, bukan fakta geografis?",
+        "en": "Why is a way of speaking often taken as a personality trait rather than a geographic fact?"
+      },
+      "stampId": "es-stamp-habla",
+      "tags": [
+        "language"
+      ]
+    }
+  ],
+  "arcs": [
+    {
+      "tier": "T1",
+      "seasonNo": 1,
+      "title": "El mapa",
+      "nativeTitle": "El mapa",
+      "synopsis": "Lucía vuelve a Écija dos semanas para ayudar a su abuelo Rafael con la casa y encuentra, en un cajón de la cómoda, un mapa de la campiña con una huerta marcada a lápiz. En el margen, con letra menuda, está el nombre de su madre.",
+      "mystery": "es-object-mapa",
+      "cliffhanger": "Rafael mira el mapa y dice que esa huerta no existe; esa misma noche, alguien llama a la puerta."
+    },
+    {
+      "tier": "T1",
+      "seasonNo": 2,
+      "title": "La furgoneta",
+      "nativeTitle": "La furgoneta",
+      "synopsis": "Mateo tiene que repartir aceite por tres pueblos y convence a Lucía de acompañarlo. La furgoneta se queda sin batería en la carretera de la campiña y la llave del taller desaparece del bolsillo de Mateo.",
+      "mystery": "es-object-llave",
+      "cliffhanger": "La llave aparece en el abrigo de Rafael, y Rafael no recuerda haberla cogido."
+    },
+    {
+      "tier": "T2",
+      "seasonNo": 1,
+      "title": "El patio",
+      "nativeTitle": "El patio",
+      "synopsis": "En diciembre, Carmen ensaya en el patio de la casa y Rafael se sienta a escuchar con la manta en las rodillas. La libreta de cuentas del abuelo tiene una página arrancada y, en el hueco, una fecha de 1987.",
+      "mystery": "es-object-libreta",
+      "cliffhanger": "En el reverso de la página arrancada hay una letra de flamenco y, en el pie, el nombre de la huerta."
+    },
+    {
+      "tier": "T2",
+      "seasonNo": 2,
+      "title": "La peña",
+      "nativeTitle": "La peña",
+      "synopsis": "Carmen lleva a Lucía a una peña de Jerez donde canta un viejo conocido de Rafael. En la pared del cuarto de atrás hay una etiqueta de naranja enmarcada, igual que la que aparece dibujada en el mapa.",
+      "mystery": "es-object-etiqueta",
+      "cliffhanger": "El cantaor reconoce la etiqueta y dice que esa huerta tuvo dos dueños y un solo comprador."
+    },
+    {
+      "tier": "T3",
+      "seasonNo": 1,
+      "title": "La Semana Santa",
+      "nativeTitle": "La Semana Santa",
+      "synopsis": "En Osuna, Rafael quiere ver una vez más el paso de la Virgen y cantar una saeta desde el balcón de una vecina. En el archivo de la hermandad aparece una fotografía de 1963 con los nombres escritos detrás.",
+      "mystery": "es-object-foto",
+      "cliffhanger": "En la foto, Rafael sostiene un cirio junto a una mujer joven; detrás, con lápiz, alguien escribió «Marisa»."
+    },
+    {
+      "tier": "T3",
+      "seasonNo": 2,
+      "title": "El desvío",
+      "nativeTitle": "El desvío",
+      "synopsis": "De vuelta a Écija, la furgoneta se desvía hacia un molino de aceite. El molinero guarda un recorte de periódico sobre la helada que arruinó media campiña y habla de un guarda que denunció el abandono de una finca.",
+      "mystery": "es-object-recorte",
+      "cliffhanger": "El recorte nombra al guarda: Rafael Aguilar, 1962."
+    },
+    {
+      "tier": "T4",
+      "seasonNo": 1,
+      "title": "El pueblo",
+      "nativeTitle": "El pueblo",
+      "synopsis": "En un pueblo blanco de la sierra, Lucía encuentra a la mujer que compró la huerta en los años noventa. La mujer guarda una carta sin sello en una caja de galletas.",
+      "mystery": "es-object-carta",
+      "cliffhanger": "La carta está firmada por Marisa y fechada el día en que Lucía cumplió siete años."
+    },
+    {
+      "tier": "T4",
+      "seasonNo": 2,
+      "title": "La casa",
+      "nativeTitle": "La casa",
+      "synopsis": "La casa de Écija tiene comprador y hay que vaciar los armarios antes de agosto. En un sobre de papel de estraza aparece un programa de mano de la Semana Santa de 1963 con un nombre tachado.",
+      "mystery": "es-object-programa",
+      "cliffhanger": "El nombre tachado es el de Rafael y, debajo, alguien escribió: «No vino»."
+    },
+    {
+      "tier": "T5",
+      "seasonNo": 1,
+      "title": "La naranja",
+      "nativeTitle": "La naranja",
+      "synopsis": "En noviembre, Lucía y Rafael llegan por fin a la huerta con la naranja seca que el abuelo guardó durante treinta años. Rafael cuenta lo que pasó con Marisa sin pedir perdón y sin pedir permiso.",
+      "mystery": "es-object-naranja",
+      "cliffhanger": "Rafael dice que la huerta no era para él, sino para su hija, y que nunca se atrevió a volver."
+    },
+    {
+      "tier": "T5",
+      "seasonNo": 2,
+      "title": "El camino de vuelta",
+      "nativeTitle": "El camino de vuelta",
+      "synopsis": "Lucía decide qué hacer con la casa y con el mapa; Mateo le propone una última ruta y Carmen estrena una letra en la peña. El viaje termina donde empezó, pero con otra gente dentro de la furgoneta.",
+      "mystery": "es-object-aceite",
+      "cliffhanger": "Lucía se queda en Écija, pero no por el mapa: por el camino."
+    }
+  ]
+}

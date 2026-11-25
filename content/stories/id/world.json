@@ -1,0 +1,1312 @@
+{
+  "id": "id-pasar-subuh",
+  "languageCode": "id",
+  "slug": "pasar-subuh",
+  "title": "Pasar Subuh",
+  "nativeTitle": "Pasar Subuh",
+  "logline": "Sari membantu ibunya berjualan gudeg di Pasar Sari dan menemukan buku utang 1998 yang menyimpan satu janji yang belum ditepati, sementara pasar tua itu menunggu keputusan renovasi.",
+  "setting": "Pasar Sari, pasar subuh fiktif di Yogyakarta: los gudeg, los batik, gang sempit, angkringan di ujung pasar, pendopo kampung, dan jalan menuju Malioboro.",
+  "era": "Masa kini; akhir musim kemarau, Ramadan, Lebaran, lalu awal musim hujan.",
+  "tone": "Hangat dan konkret, dengan humor kering dan taruhan ekonomi kecil yang nyata.",
+  "palette": "#6B3F2A",
+  "motifs": [
+    "asap gudeg",
+    "lampu petromaks",
+    "bathok",
+    "cap tembaga",
+    "becak",
+    "tabuh gamelan",
+    "buku utang",
+    "tikar lesehan"
+  ],
+  "sensitivityNotes": [
+    "Peringkat 13+: tidak ada seks eksplisit, kekerasan grafis, ujaran kebencian, atau kampanye politik.",
+    "Krisis ekonomi 1998 ditampilkan lewat pengalaman keluarga dan utang kecil; tanpa nama partai, tanpa tuduhan politik, dan tanpa menyederhanakan sebab.",
+    "Ramadan dan Lebaran ditulis sebagai praktik sehari-hari warga, bukan tontonan wisata.",
+    "Kata dan sapaan Jawa selalu diberi glosa; bahasa utama tetap Indonesia baku yang hangat.",
+    "Mbah Putri bukan nenek eksotis yang hanya menjelaskan budaya; ia punya rahasia, pendapat, dan keputusan sendiri.",
+    "Pasar Sari, nama tokoh, dan angka harga adalah fiksi; rujukan budaya memakai lembaga dan publikasi nyata."
+  ],
+  "canon": {
+    "fictionalMarket": "Pasar Sari, pasar subuh fiktif di Yogyakarta, sepuluh menit becak dari Malioboro.",
+    "realAnchors": [
+      "Yogyakarta",
+      "Malioboro",
+      "Pasar Beringharjo",
+      "gudeg",
+      "batik",
+      "angkringan",
+      "becak",
+      "gamelan"
+    ],
+    "timeline": "Masa kini; akhir musim kemarau, Ramadan, Lebaran, lalu awal musim hujan.",
+    "rules": [
+      "Pasar Sari punya dua los utama: los gudeg (C) dan los batik (B).",
+      "Los gudeg Bu Wati ada di los C nomor 7, warisan dari Mbah Putri.",
+      "Mbah Putri adalah ibu Ibu Wati; Dimas bekerja sebagai kurir ojek daring.",
+      "Buku utang 1998 disimpan di bawah meja kasir los C nomor 7.",
+      "Nama Ningsih hanya muncul di buku utang dan surat; ia tidak pernah tampil langsung.",
+      "Tamu subuh di arc A2 musim kedua adalah Ratna, anak Ningsih.",
+      "Renovasi Pasar Sari dijadwalkan setelah Lebaran; denah barunya menjadi konflik utama B1."
+    ]
+  },
+  "levels": [
+    {
+      "tier": "T1",
+      "framework": "CEFR",
+      "levelCode": "A1",
+      "label": "CEFR A1",
+      "idPart": "a1",
+      "position": 1
+    },
+    {
+      "tier": "T2",
+      "framework": "CEFR",
+      "levelCode": "A2",
+      "label": "CEFR A2",
+      "idPart": "a2",
+      "position": 2
+    },
+    {
+      "tier": "T3",
+      "framework": "CEFR",
+      "levelCode": "B1",
+      "label": "CEFR B1",
+      "idPart": "b1",
+      "position": 3
+    },
+    {
+      "tier": "T4",
+      "framework": "CEFR",
+      "levelCode": "B2",
+      "label": "CEFR B2",
+      "idPart": "b2",
+      "position": 4
+    },
+    {
+      "tier": "T5",
+      "framework": "CEFR",
+      "levelCode": "C1",
+      "label": "CEFR C1",
+      "idPart": "c1",
+      "position": 5
+    }
+  ],
+  "characters": [
+    {
+      "id": "id-pasar-subuh-sari",
+      "name": "Sari",
+      "nativeName": "Sari",
+      "role": "Mahasiswi 21 tahun, membantu ibunya berjualan gudeg",
+      "age": 21,
+      "bio": "Sari kuliah di Yogyakarta dan membantu los gudeg ibunya sebelum kelas. Ia ingin menyelesaikan studi dan mendokumentasikan pasar, tetapi belum yakin apakah itu berarti pergi atau tetap.",
+      "speechStyle": "Tenang, banyak mengamati, bertanya pendek dan tepat.",
+      "quote": "Aku cuma ingin tahu siapa yang menulis ini.",
+      "position": 1,
+      "lexeme": {
+        "id": "id-char-sari",
+        "native": "Sari",
+        "gloss": {
+          "id": "Sari",
+          "en": "Sari"
+        },
+        "tags": [
+          "protagonist"
+        ]
+      }
+    },
+    {
+      "id": "id-pasar-subuh-wati",
+      "name": "Ibu Wati",
+      "nativeName": "Ibu Wati",
+      "role": "Pemilik los gudeg, 48 tahun, praktis dan bangga",
+      "age": 48,
+      "bio": "Ibu Wati mengambil alih los C nomor 7 dari Mbah Putri. Ia mengatur harga, utang, dan renovasi tanpa banyak bicara, dan tidak suka dikasihani.",
+      "speechStyle": "Langsung, hemat kata, kadang menyindir dengan halus.",
+      "quote": "Pasar ini tidak butuh dikasihani. Butuh pembeli.",
+      "position": 2,
+      "lexeme": {
+        "id": "id-char-wati",
+        "native": "Ibu Wati",
+        "gloss": {
+          "id": "Ibu Wati",
+          "en": "Ibu Wati"
+        },
+        "tags": [
+          "family"
+        ]
+      }
+    },
+    {
+      "id": "id-pasar-subuh-putri",
+      "name": "Mbah Putri",
+      "nativeName": "Mbah Putri",
+      "role": "Nenek, 72 tahun, penjaga cerita lama",
+      "age": 72,
+      "bio": "Mbah Putri dulu berjualan gudeg di los yang sama. Sekarang ia menyortir daun pisang di belakang warung dan mengingat nama pelanggan lama; ingatannya kadang melompat, tetapi pendapatnya tetap tegas.",
+      "speechStyle": "Pelan, suka peribahasa Jawa, sering berhenti di tengah cerita.",
+      "quote": "Gudeg itu bukan resep. Gudeg itu siapa yang menunggu.",
+      "position": 3,
+      "lexeme": {
+        "id": "id-char-putri",
+        "native": "Mbah Putri",
+        "gloss": {
+          "id": "Mbah Putri",
+          "en": "Mbah Putri"
+        },
+        "tags": [
+          "mentor"
+        ]
+      }
+    },
+    {
+      "id": "id-pasar-subuh-dimas",
+      "name": "Dimas",
+      "nativeName": "Dimas",
+      "role": "Kurir ojek daring, 23 tahun, teman Sari",
+      "age": 23,
+      "bio": "Dimas mengantar pesanan dari pagi sampai malam dan menabung untuk bengkel kecil. Ia hafal gang dan jam pasar, dan sudah berteman dengan Sari sejak SMA.",
+      "speechStyle": "Cepat, jenaka, suka istilah teknis dan nama aplikasi.",
+      "quote": "Kalau lewat Gang Sari jam empat, jangan pakai lampu jauh.",
+      "position": 4,
+      "lexeme": {
+        "id": "id-char-dimas",
+        "native": "Dimas",
+        "gloss": {
+          "id": "Dimas",
+          "en": "Dimas"
+        },
+        "tags": [
+          "friend"
+        ]
+      }
+    },
+    {
+      "id": "id-pasar-subuh-slamet",
+      "name": "Pak Slamet",
+      "nativeName": "Pak Slamet",
+      "role": "Pedagang batik, 55 tahun, humor kering",
+      "age": 55,
+      "bio": "Pak Slamet berjualan batik cap di los B. Ia bertahan ketika kain cetak murah membanjiri pasar; kadang ia menerima pesanan daring, kadang menolaknya karena harganya tidak masuk.",
+      "speechStyle": "Kering, singkat, suka menguji orang dengan pertanyaan.",
+      "quote": "Batik cap itu sabar. Kalau buru-buru, jadinya cap bolong.",
+      "position": 5,
+      "lexeme": {
+        "id": "id-char-slamet",
+        "native": "Pak Slamet",
+        "gloss": {
+          "id": "Pak Slamet",
+          "en": "Pak Slamet"
+        },
+        "tags": [
+          "elder"
+        ]
+      }
+    }
+  ],
+  "lexicon": {
+    "person": [
+      {
+        "id": "id-person-pembeli-pertama",
+        "native": "pembeli pertama",
+        "gloss": {
+          "id": "pembeli pertama",
+          "en": "the first buyer"
+        }
+      },
+      {
+        "id": "id-person-penjual-sayur",
+        "native": "penjual sayur",
+        "gloss": {
+          "id": "penjual sayur",
+          "en": "the vegetable seller"
+        }
+      },
+      {
+        "id": "id-person-tukang-becak",
+        "native": "tukang becak",
+        "gloss": {
+          "id": "tukang becak",
+          "en": "the becak driver"
+        }
+      },
+      {
+        "id": "id-person-anak-kos",
+        "native": "anak kos",
+        "gloss": {
+          "id": "anak kos",
+          "en": "the student renter"
+        }
+      },
+      {
+        "id": "id-person-pelanggan-langganan",
+        "native": "pelanggan langganan",
+        "gloss": {
+          "id": "pelanggan langganan",
+          "en": "the regular customer"
+        }
+      },
+      {
+        "id": "id-person-petugas-pasar",
+        "native": "petugas pasar",
+        "gloss": {
+          "id": "petugas pasar",
+          "en": "the market officer"
+        }
+      }
+    ],
+    "place": [
+      {
+        "id": "id-place-pasar",
+        "native": "pasar subuh",
+        "gloss": {
+          "id": "pasar dini hari",
+          "en": "the dawn market"
+        },
+        "tags": [
+          "market"
+        ]
+      },
+      {
+        "id": "id-place-los-gudeg",
+        "native": "los gudeg",
+        "gloss": {
+          "id": "deretan warung gudeg",
+          "en": "the gudeg row"
+        },
+        "tags": [
+          "food"
+        ]
+      },
+      {
+        "id": "id-place-los-batik",
+        "native": "los batik",
+        "gloss": {
+          "id": "deretan toko batik",
+          "en": "the batik row"
+        },
+        "tags": [
+          "market"
+        ]
+      },
+      {
+        "id": "id-place-angkringan",
+        "native": "angkringan",
+        "gloss": {
+          "id": "warung makan sederhana",
+          "en": "the angkringan"
+        },
+        "tags": [
+          "food"
+        ]
+      },
+      {
+        "id": "id-place-gang",
+        "native": "gang sempit",
+        "gloss": {
+          "id": "lorong sempit",
+          "en": "the narrow alley"
+        }
+      },
+      {
+        "id": "id-place-pendopo",
+        "native": "pendopo kampung",
+        "gloss": {
+          "id": "balai pertemuan kampung",
+          "en": "the neighbourhood pendopo"
+        },
+        "tags": [
+          "gamelan"
+        ]
+      },
+      {
+        "id": "id-place-terminal",
+        "native": "terminal bus",
+        "gloss": {
+          "id": "pangkalan bus",
+          "en": "the bus terminal"
+        }
+      },
+      {
+        "id": "id-place-tepi-code",
+        "native": "tepi Sungai Code",
+        "gloss": {
+          "id": "bantaran Kali Code",
+          "en": "the bank of the Code River"
+        }
+      }
+    ],
+    "object": [
+      {
+        "id": "id-object-buku-catatan",
+        "native": "buku catatan",
+        "gloss": {
+          "id": "buku catatan",
+          "en": "the notebook"
+        },
+        "tags": [
+          "clue"
+        ]
+      },
+      {
+        "id": "id-object-buku-utang",
+        "native": "buku utang",
+        "gloss": {
+          "id": "buku utang",
+          "en": "the debt book"
+        },
+        "tags": [
+          "mystery",
+          "clue"
+        ]
+      },
+      {
+        "id": "id-object-timbangan",
+        "native": "timbangan",
+        "gloss": {
+          "id": "timbangan",
+          "en": "the scale"
+        },
+        "tags": [
+          "tool"
+        ]
+      },
+      {
+        "id": "id-object-petromaks",
+        "native": "petromaks",
+        "gloss": {
+          "id": "petromaks",
+          "en": "the pressure lamp"
+        },
+        "tags": [
+          "light"
+        ]
+      },
+      {
+        "id": "id-object-bathok",
+        "native": "bathok",
+        "gloss": {
+          "id": "mangkuk tempurung kelapa",
+          "en": "the coconut-shell bowl"
+        },
+        "tags": [
+          "kitchen"
+        ]
+      },
+      {
+        "id": "id-object-kain-batik",
+        "native": "kain batik",
+        "gloss": {
+          "id": "kain batik",
+          "en": "the batik cloth"
+        },
+        "tags": [
+          "batik"
+        ]
+      },
+      {
+        "id": "id-object-foto-lama",
+        "native": "foto lama",
+        "gloss": {
+          "id": "foto lama",
+          "en": "the old photograph"
+        },
+        "tags": [
+          "memory"
+        ]
+      },
+      {
+        "id": "id-object-surat",
+        "native": "surat",
+        "gloss": {
+          "id": "surat",
+          "en": "the letter"
+        },
+        "tags": [
+          "clue"
+        ]
+      },
+      {
+        "id": "id-object-denah",
+        "native": "denah pasar",
+        "gloss": {
+          "id": "denah pasar",
+          "en": "the market plan"
+        },
+        "tags": [
+          "clue"
+        ]
+      },
+      {
+        "id": "id-object-tiket",
+        "native": "tiket bus",
+        "gloss": {
+          "id": "tiket bus",
+          "en": "the bus ticket"
+        },
+        "tags": [
+          "travel"
+        ]
+      },
+      {
+        "id": "id-object-kaleng",
+        "native": "kaleng biskuit",
+        "gloss": {
+          "id": "kaleng biskuit",
+          "en": "the biscuit tin"
+        },
+        "tags": [
+          "memory"
+        ]
+      },
+      {
+        "id": "id-object-buku-resep",
+        "native": "buku resep",
+        "gloss": {
+          "id": "buku resep",
+          "en": "the recipe book"
+        },
+        "tags": [
+          "heritage"
+        ]
+      },
+      {
+        "id": "id-object-kunci",
+        "native": "kunci",
+        "gloss": {
+          "id": "kunci",
+          "en": "the key"
+        },
+        "tags": [
+          "mystery"
+        ]
+      }
+    ],
+    "food": [
+      {
+        "id": "id-food-gudeg",
+        "native": "gudeg",
+        "gloss": {
+          "id": "gudeg",
+          "en": "gudeg, young jackfruit stew"
+        },
+        "tags": [
+          "anchor"
+        ]
+      },
+      {
+        "id": "id-food-nasi-kucing",
+        "native": "nasi kucing",
+        "gloss": {
+          "id": "nasi kucing",
+          "en": "nasi kucing, a small rice portion"
+        },
+        "tags": [
+          "anchor"
+        ]
+      },
+      {
+        "id": "id-food-sate-usus",
+        "native": "sate usus",
+        "gloss": {
+          "id": "sate usus",
+          "en": "chicken-intestine skewers"
+        }
+      },
+      {
+        "id": "id-food-tempe-bacem",
+        "native": "tempe bacem",
+        "gloss": {
+          "id": "tempe bacem",
+          "en": "braised tempeh"
+        }
+      },
+      {
+        "id": "id-food-krecek",
+        "native": "krecek",
+        "gloss": {
+          "id": "krecek",
+          "en": "spicy beef-skin stew"
+        }
+      },
+      {
+        "id": "id-food-lupis",
+        "native": "kue lupis",
+        "gloss": {
+          "id": "kue lupis",
+          "en": "lupis, sticky rice in palm sugar"
+        }
+      }
+    ],
+    "drink": [
+      {
+        "id": "id-drink-teh",
+        "native": "teh",
+        "gloss": {
+          "id": "teh",
+          "en": "tea"
+        }
+      },
+      {
+        "id": "id-drink-kopi-joss",
+        "native": "kopi joss",
+        "gloss": {
+          "id": "kopi joss",
+          "en": "kopi joss, coffee with charcoal"
+        }
+      },
+      {
+        "id": "id-drink-wedang-jahe",
+        "native": "wedang jahe",
+        "gloss": {
+          "id": "wedang jahe",
+          "en": "ginger drink"
+        }
+      },
+      {
+        "id": "id-drink-es-teh",
+        "native": "es teh",
+        "gloss": {
+          "id": "es teh",
+          "en": "iced tea"
+        }
+      },
+      {
+        "id": "id-drink-air",
+        "native": "air putih",
+        "gloss": {
+          "id": "air putih",
+          "en": "water"
+        }
+      },
+      {
+        "id": "id-drink-kopi-tubruk",
+        "native": "kopi tubruk",
+        "gloss": {
+          "id": "kopi tubruk",
+          "en": "kopi tubruk, unfiltered coffee"
+        }
+      }
+    ],
+    "time": [
+      {
+        "id": "id-time-subuh",
+        "native": "subuh",
+        "gloss": {
+          "id": "subuh",
+          "en": "dawn"
+        }
+      },
+      {
+        "id": "id-time-pagi",
+        "native": "pagi hari",
+        "gloss": {
+          "id": "pagi hari",
+          "en": "morning"
+        }
+      },
+      {
+        "id": "id-time-siang",
+        "native": "siang hari",
+        "gloss": {
+          "id": "siang hari",
+          "en": "midday"
+        }
+      },
+      {
+        "id": "id-time-sore",
+        "native": "sore hari",
+        "gloss": {
+          "id": "sore hari",
+          "en": "late afternoon"
+        }
+      },
+      {
+        "id": "id-time-petang",
+        "native": "petang",
+        "gloss": {
+          "id": "petang",
+          "en": "evening"
+        }
+      },
+      {
+        "id": "id-time-malam",
+        "native": "malam hari",
+        "gloss": {
+          "id": "malam hari",
+          "en": "night"
+        }
+      },
+      {
+        "id": "id-time-puasa",
+        "native": "bulan puasa",
+        "gloss": {
+          "id": "bulan puasa",
+          "en": "the fasting month"
+        },
+        "tags": [
+          "ramadan"
+        ]
+      },
+      {
+        "id": "id-time-kemarau",
+        "native": "musim kemarau",
+        "gloss": {
+          "id": "musim kemarau",
+          "en": "the dry season"
+        },
+        "tags": [
+          "season"
+        ]
+      }
+    ],
+    "weather": [
+      {
+        "id": "id-weather-dingin",
+        "native": "Udara masih dingin.",
+        "gloss": {
+          "id": "Udara masih dingin.",
+          "en": "The air is still cold."
+        },
+        "tags": [
+          "cold"
+        ]
+      },
+      {
+        "id": "id-weather-kabut",
+        "native": "Kabut tipis menutup gang.",
+        "gloss": {
+          "id": "Kabut tipis menutup gang.",
+          "en": "Thin fog covers the alley."
+        },
+        "tags": [
+          "fog"
+        ]
+      },
+      {
+        "id": "id-weather-panas",
+        "native": "Hari mulai panas.",
+        "gloss": {
+          "id": "Hari mulai panas.",
+          "en": "The day is turning hot."
+        },
+        "tags": [
+          "warm"
+        ]
+      },
+      {
+        "id": "id-weather-hujan",
+        "native": "Hujan turun sejak subuh.",
+        "gloss": {
+          "id": "Hujan turun sejak subuh.",
+          "en": "It has been raining since dawn."
+        },
+        "tags": [
+          "rain"
+        ]
+      },
+      {
+        "id": "id-weather-cerah",
+        "native": "Langit cerah sejak pagi.",
+        "gloss": {
+          "id": "Langit cerah sejak pagi.",
+          "en": "The sky has been clear since morning."
+        },
+        "tags": [
+          "clear"
+        ]
+      }
+    ],
+    "action": [
+      {
+        "id": "id-action-menata",
+        "native": "menata dagangan",
+        "gloss": {
+          "id": "menata dagangan",
+          "en": "arrange the goods"
+        }
+      },
+      {
+        "id": "id-action-mengaduk",
+        "native": "mengaduk gudeg",
+        "gloss": {
+          "id": "mengaduk gudeg",
+          "en": "stir the gudeg"
+        }
+      },
+      {
+        "id": "id-action-membungkus",
+        "native": "membungkus nasi",
+        "gloss": {
+          "id": "membungkus nasi",
+          "en": "wrap the rice"
+        }
+      },
+      {
+        "id": "id-action-menyapu",
+        "native": "menyapu lantai",
+        "gloss": {
+          "id": "menyapu lantai",
+          "en": "sweep the floor"
+        }
+      },
+      {
+        "id": "id-action-mencuci-bathok",
+        "native": "mencuci bathok",
+        "gloss": {
+          "id": "mencuci bathok",
+          "en": "wash the coconut-shell bowls"
+        }
+      },
+      {
+        "id": "id-action-menimbang",
+        "native": "menimbang gula",
+        "gloss": {
+          "id": "menimbang gula",
+          "en": "weigh the sugar"
+        }
+      },
+      {
+        "id": "id-action-mengangkat",
+        "native": "mengangkat kuali",
+        "gloss": {
+          "id": "mengangkat kuali",
+          "en": "lift the wok"
+        }
+      },
+      {
+        "id": "id-action-menyalakan",
+        "native": "menyalakan petromaks",
+        "gloss": {
+          "id": "menyalakan petromaks",
+          "en": "light the pressure lamp"
+        }
+      }
+    ],
+    "quote": [
+      {
+        "id": "id-quote-jangan-jual",
+        "native": "Jangan jual dulu.",
+        "gloss": {
+          "id": "Jangan jual dulu.",
+          "en": "Don't sell it yet."
+        },
+        "tags": [
+          "mystery"
+        ]
+      },
+      {
+        "id": "id-quote-bukan-milik",
+        "native": "Ini bukan milik kita.",
+        "gloss": {
+          "id": "Ini bukan milik kita.",
+          "en": "This is not ours."
+        },
+        "tags": [
+          "mystery"
+        ]
+      },
+      {
+        "id": "id-quote-simpan",
+        "native": "Simpan baik-baik.",
+        "gloss": {
+          "id": "Simpan baik-baik.",
+          "en": "Keep it safe."
+        },
+        "tags": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "id-quote-belum-selesai",
+        "native": "Kita belum selesai.",
+        "gloss": {
+          "id": "Kita belum selesai.",
+          "en": "We are not finished."
+        },
+        "tags": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "id-quote-buka-lebih-pagi",
+        "native": "Besok kita buka lebih pagi.",
+        "gloss": {
+          "id": "Besok kita buka lebih pagi.",
+          "en": "Tomorrow we open earlier."
+        },
+        "tags": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "id-quote-tidak-lupa",
+        "native": "Aku tidak akan lupa.",
+        "gloss": {
+          "id": "Aku tidak akan lupa.",
+          "en": "I will not forget."
+        },
+        "tags": [
+          "emotion"
+        ]
+      }
+    ],
+    "question": [
+      {
+        "id": "id-question-siapa-menulis",
+        "native": "Siapa yang menulis ini?",
+        "gloss": {
+          "id": "Siapa yang menulis ini?",
+          "en": "Who wrote this?"
+        }
+      },
+      {
+        "id": "id-question-siapa-ibu",
+        "native": "Siapa nama ibu itu?",
+        "gloss": {
+          "id": "Siapa nama ibu itu?",
+          "en": "What is that woman's name?"
+        }
+      },
+      {
+        "id": "id-question-mengapa-disimpan",
+        "native": "Mengapa disimpan sampai sekarang?",
+        "gloss": {
+          "id": "Mengapa disimpan sampai sekarang?",
+          "en": "Why keep it until now?"
+        }
+      },
+      {
+        "id": "id-question-buku-satunya",
+        "native": "Di mana buku yang satunya?",
+        "gloss": {
+          "id": "Di mana buku yang satunya?",
+          "en": "Where is the other book?"
+        }
+      },
+      {
+        "id": "id-question-harus-apa",
+        "native": "Apa yang harus aku lakukan?",
+        "gloss": {
+          "id": "Apa yang harus aku lakukan?",
+          "en": "What should I do?"
+        }
+      },
+      {
+        "id": "id-question-utang-kita",
+        "native": "Apakah ini utang kita?",
+        "gloss": {
+          "id": "Apakah ini utang kita?",
+          "en": "Is this our debt?"
+        }
+      },
+      {
+        "id": "id-question-kapan-kembali",
+        "native": "Kapan dia akan kembali?",
+        "gloss": {
+          "id": "Kapan dia akan kembali?",
+          "en": "When will she come back?"
+        }
+      }
+    ],
+    "greeting": [
+      {
+        "id": "id-greeting-pagi",
+        "native": "Selamat pagi",
+        "gloss": {
+          "id": "Selamat pagi",
+          "en": "Good morning"
+        }
+      },
+      {
+        "id": "id-greeting-sugeng",
+        "native": "Sugeng enjing",
+        "gloss": {
+          "id": "selamat pagi (Jawa)",
+          "en": "good morning (Javanese)"
+        }
+      },
+      {
+        "id": "id-greeting-assalamualaikum",
+        "native": "Assalamualaikum",
+        "gloss": {
+          "id": "Assalamualaikum",
+          "en": "Peace be upon you"
+        }
+      },
+      {
+        "id": "id-greeting-monggo",
+        "native": "Monggo",
+        "gloss": {
+          "id": "silakan (Jawa)",
+          "en": "please, come in (Javanese)"
+        }
+      },
+      {
+        "id": "id-greeting-halo",
+        "native": "Halo",
+        "gloss": {
+          "id": "Halo",
+          "en": "Hello"
+        }
+      }
+    ],
+    "emotion": [
+      {
+        "id": "id-emotion-lega",
+        "native": "lega",
+        "gloss": {
+          "id": "lega",
+          "en": "relieved"
+        }
+      },
+      {
+        "id": "id-emotion-cemas",
+        "native": "cemas",
+        "gloss": {
+          "id": "cemas",
+          "en": "anxious"
+        }
+      },
+      {
+        "id": "id-emotion-bangga",
+        "native": "bangga",
+        "gloss": {
+          "id": "bangga",
+          "en": "proud"
+        }
+      },
+      {
+        "id": "id-emotion-haru",
+        "native": "haru",
+        "gloss": {
+          "id": "haru",
+          "en": "moved"
+        }
+      },
+      {
+        "id": "id-emotion-rindu",
+        "native": "rindu",
+        "gloss": {
+          "id": "rindu",
+          "en": "longing"
+        }
+      },
+      {
+        "id": "id-emotion-letih",
+        "native": "letih",
+        "gloss": {
+          "id": "letih",
+          "en": "tired"
+        }
+      },
+      {
+        "id": "id-emotion-tenang",
+        "native": "tenang",
+        "gloss": {
+          "id": "tenang",
+          "en": "calm"
+        }
+      },
+      {
+        "id": "id-emotion-waswas",
+        "native": "waswas",
+        "gloss": {
+          "id": "waswas",
+          "en": "uneasy"
+        }
+      }
+    ]
+  },
+  "anchors": [
+    {
+      "id": "id-culture-0001",
+      "title": "Pasar subuh dan ekonomi jam empat",
+      "body": {
+        "id": "Pasar subuh di Yogyakarta mulai ramai antara pukul tiga dan enam pagi. Pembeli pertama biasanya pedagang warung, juru masak, dan pekerja yang butuh bahan sebelum toko lain buka. Harga ditawar, utang dicatat, dan pelanggan langganan dilayani lebih dulu. Pasar Sari adalah pasar fiktif; Pasar Beringharjo di Malioboro adalah pasar nyata yang dikelola Dinas Perdagangan Kota Yogyakarta dan tetap menjadi pusat ekonomi, bukan hanya tujuan wisata.",
+        "en": "Yogyakarta's dawn markets come alive between three and six in the morning. The first buyers are usually food-stall owners, cooks, and workers who need supplies before other shops open. Prices are negotiated, credit is written down, and regular customers are served first. Pasar Sari is fictional; Pasar Beringharjo on Malioboro is a real market managed by the Yogyakarta City Trade Office and remains an economic centre, not only a tourist stop."
+      },
+      "sources": [
+        "Dinas Pariwisata DIY, 'Wisata Belanja Pasar Beringharjo' — https://visitingjogja.jogjaprov.go.id/30551/wisata-belanja-pasar-beringharjo-tujuan-wajib-dikunjungi-saat-ke-jogja/",
+        "Studi 'Smart Market (SEMAR) di Pasar Beringharjo', Jurnal JPALG Universitas Tidar — https://journal.untidar.ac.id/index.php/jpalg/article/download/1777/802/10040"
+      ],
+      "reflection": {
+        "id": "Mengapa pasar yang buka sebelum matahari terbit masih dibutuhkan di kota?",
+        "en": "Why does a market that opens before sunrise still matter in a city?"
+      },
+      "stampId": "id-stamp-pasar"
+    },
+    {
+      "id": "id-culture-0002",
+      "title": "Gudeg: nangka muda, santan, dan waktu",
+      "body": {
+        "id": "Gudeg dibuat dari nangka muda yang dimasak berjam-jam dengan santan, gula jawa, dan bumbu. Di Yogyakarta, gudeg dijual pagi hari bersama nasi, krecek, dan areh; kawasan Wijilan adalah salah satu pusatnya. Harga santan dan gula langsung memotong margin penjual, jadi takaran dan lama memasak adalah keputusan ekonomi, bukan sekadar tradisi.",
+        "en": "Gudeg is made from young jackfruit simmered for hours with coconut milk, palm sugar, and spices. In Yogyakarta it is sold in the morning with rice, krecek, and areh; the Wijilan area is one of its centres. The price of coconut milk and sugar cuts directly into a seller's margin, so measuring and cooking time are economic decisions, not only tradition."
+      },
+      "sources": [
+        "Dinas Pariwisata DIY, 'Wisata Kuliner Jogja: Gudeg' — https://visitingjogja.jogjaprov.go.id/kuliner-wisata-jogja/"
+      ],
+      "reflection": {
+        "id": "Apa yang menentukan harga seporsi gudeg?",
+        "en": "What determines the price of a plate of gudeg?"
+      },
+      "stampId": "id-stamp-gudeg"
+    },
+    {
+      "id": "id-culture-0003",
+      "title": "Batik cap dan harga kain",
+      "body": {
+        "id": "Batik cap dibuat dengan stempel tembaga yang dicelup malam panas, lalu kain diwarnai dan direbus. Teknik ini lebih cepat daripada batik tulis, tetapi tetap butuh ketelitian agar motif tidak meleset. UNESCO mencatat batik Indonesia sebagai warisan budaya takbenda pada 2009. Di pasar, pedagang harus menjelaskan bedanya dengan kain cetak agar harga tetap masuk akal.",
+        "en": "Batik cap is made with copper stamps dipped in hot wax; the cloth is then dyed and boiled. It is faster than hand-drawn batik tulis but still demands care so the motif does not slip. UNESCO inscribed Indonesian batik on its intangible heritage list in 2009. In the market, traders must explain the difference from printed cloth so that prices remain fair."
+      },
+      "sources": [
+        "UNESCO Intangible Cultural Heritage, 'Indonesian Batik' (2009) — https://ich.unesco.org/en/RL/indonesian-batik-00170",
+        "Dinas Pariwisata DIY, 'Wisata Belanja Pasar Beringharjo' — https://visitingjogja.jogjaprov.go.id/30551/wisata-belanja-pasar-beringharjo-tujuan-wajib-dikunjungi-saat-ke-jogja/"
+      ],
+      "reflection": {
+        "id": "Bagaimana pembeli bisa tahu sebuah kain benar-benar batik cap?",
+        "en": "How can a buyer tell whether cloth is truly batik cap?"
+      },
+      "stampId": "id-stamp-batik"
+    },
+    {
+      "id": "id-culture-0004",
+      "title": "Angkringan dan kopi joss",
+      "body": {
+        "id": "Angkringan adalah warung kecil tempat orang makan nasi kucing, sate usus, gorengan, dan wedang. Di Yogyakarta, angkringan buka sore hingga malam dan menjadi ruang bertemu mahasiswa, pekerja, dan tetangga. Kopi joss, kopi hitam yang diberi arang membara, dikenal dari angkringan di sekitar Stasiun Tugu.",
+        "en": "An angkringan is a small stall serving nasi kucing, sate usus, fried snacks, and hot drinks. In Yogyakarta, angkringan open from afternoon into the night and become meeting rooms for students, workers, and neighbours. Kopi joss, black coffee with a glowing piece of charcoal, is associated with angkringan near Tugu Station."
+      },
+      "sources": [
+        "Dinas Pariwisata DIY, '5 Angkringan Terkenal di Yogyakarta' — https://visitingjogja.jogjaprov.go.id/28739/5-angkringan-terkenal-di-yogyakarta-angkringan-kr-sampai-wijilan/",
+        "Dinas Pariwisata DIY, 'Angkringan Lik Man' — https://visitingjogja.jogjaprov.go.id/31308/jangan-lupakan-mampir-angkringan-lik-man-saat-di-jogja/"
+      ],
+      "reflection": {
+        "id": "Mengapa tempat makan sederhana bisa menjadi ruang sosial?",
+        "en": "Why can a simple food stall become a social space?"
+      },
+      "stampId": "id-stamp-angkringan"
+    },
+    {
+      "id": "id-culture-0005",
+      "title": "Gamelan di pendopo kampung",
+      "body": {
+        "id": "Gamelan adalah ansambel perkusi logam dengan laras slendro dan pelog. Di kampung, gamelan disimpan di pendopo dan dipakai untuk latihan, wayang, atau hajatan; biaya perawatan dan honor guru ditanggung bersama. UNESCO mencatat gamelan sebagai warisan budaya takbenda pada 2021.",
+        "en": "Gamelan is a metal percussion ensemble tuned to slendro and pelog. In a neighbourhood, the instruments are kept in a pendopo and used for rehearsals, wayang, or celebrations; maintenance and teacher fees are shared. UNESCO inscribed gamelan in 2021."
+      },
+      "sources": [
+        "UNESCO Intangible Cultural Heritage, 'Gamelan' (2021) — https://ich.unesco.org/en/RL/gamelan-01607"
+      ],
+      "reflection": {
+        "id": "Apa yang membuat latihan gamelan bertahan atau berhenti?",
+        "en": "What keeps a gamelan group going, or makes it stop?"
+      },
+      "stampId": "id-stamp-gamelan"
+    },
+    {
+      "id": "id-culture-0006",
+      "title": "Ramadan mengubah jam pasar",
+      "body": {
+        "id": "Selama Ramadan, jam pasar bergeser: pembeli datang lebih awal sebelum imsak, lalu pasar sepi menjelang sore. Pemerintah menetapkan awal Ramadan melalui sidang isbat yang diumumkan Kementerian Agama. Bagi pedagang, bulan ini adalah kalender dagang: permintaan kolak, sirup, dan kurma naik, sementara jam kerja dan jumlah pembeli berubah.",
+        "en": "During Ramadan, market hours shift: buyers come earlier before imsak, and the market empties toward the afternoon. The government sets the start of Ramadan through an isbat session announced by the Ministry of Religious Affairs. For traders, the month is a commercial calendar: demand for kolak, syrup, and dates rises while working hours and foot traffic change."
+      },
+      "sources": [
+        "Kementerian Agama RI, 'Pemerintah Tetapkan 1 Ramadan 1446 H Jatuh pada 1 Maret 2025' — https://kemenag.go.id/pers-rilis/pemerintah-tetapkan-1-ramadan-1446-h-jatuh-pada-1-maret-2025-YzheO"
+      ],
+      "reflection": {
+        "id": "Bagaimana kalender keagamaan mengubah jam kerja dan pendapatan?",
+        "en": "How does a religious calendar change working hours and income?"
+      },
+      "stampId": "id-stamp-ramadan"
+    },
+    {
+      "id": "id-culture-0007",
+      "title": "Mudik, tiket, dan ongkos pulang",
+      "body": {
+        "id": "Mudik adalah perjalanan pulang kampung menjelang Lebaran. Survei Kementerian Perhubungan memperkirakan 193,6 juta orang bergerak pada Lebaran 2024, sekitar 71,7% penduduk. Tiket bus dan kereta cepat habis dan harganya naik; banyak pekerja memilih sepeda motor atau menunda pulang karena ongkos.",
+        "en": "Mudik is the journey home before Lebaran. A Ministry of Transportation survey estimated 193.6 million people would travel for Lebaran 2024, about 71.7% of the population. Bus and train tickets sell out and prices rise; many workers choose motorbikes or postpone the trip because of the cost."
+      },
+      "sources": [
+        "Badan Kebijakan Transportasi, Kementerian Perhubungan, 'Potensi Pergerakan Masyarakat Selama Lebaran 2024' — https://baketrans.kemenhub.go.id/publikasi/view/potensi-pergerakan-masyarakat-selama-lebaran-2024-mencapai-193-6-juta-orang"
+      ],
+      "reflection": {
+        "id": "Siapa yang tidak bisa mudik, dan apa yang mereka korbankan?",
+        "en": "Who cannot go home, and what do they give up?"
+      },
+      "stampId": "id-stamp-mudik"
+    },
+    {
+      "id": "id-culture-0008",
+      "title": "Becak sebagai kendaraan yang diatur",
+      "body": {
+        "id": "Becak kayuh masih beroperasi di Yogyakarta dan diatur sebagai kendaraan tidak bermotor. Peraturan Walikota Yogyakarta Nomor 50 Tahun 2008 mewajibkan Surat Izin Operasional Kendaraan Tidak Bermotor dan Tanda Nomor Kendaraan. Tarif dinegosiasikan; sejak ojek daring muncul, penumpang becak menurun, terutama di kalangan muda.",
+        "en": "Pedal becak still operate in Yogyakarta and are regulated as non-motorised vehicles. Yogyakarta Mayor's Regulation No. 50 of 2008 requires an operating permit and a vehicle number plate. Fares are negotiated; since ride-hailing arrived, becak passengers have declined, especially among younger riders."
+      },
+      "sources": [
+        "Peraturan Walikota Yogyakarta Nomor 50 Tahun 2008 tentang Kendaraan Tidak Bermotor di Kota Yogyakarta — https://peraturan.bpk.go.id/Download/20084/Perwal%20Yogyakarta%20No.%2050%20Tahun%202008%20ttg%20Kendaraan%20Tidak%20Bermotor%20di%20Kota%20Yogyakarta.pdf"
+      ],
+      "reflection": {
+        "id": "Apa yang berubah bagi tukang becak ketika transportasi menjadi aplikasi?",
+        "en": "What changes for a becak driver when transport becomes an app?"
+      },
+      "stampId": "id-stamp-becak"
+    },
+    {
+      "id": "id-culture-0009",
+      "title": "Gotong royong sebagai modal dagang",
+      "body": {
+        "id": "Gotong royong di pasar bukan slogan: pedagang bergiliran membersihkan saluran, menutup los yang ditinggal sakit, atau mengumpulkan uang untuk memperbaiki atap. Studi tentang komunitas pedagang Pasar Sentral Palopo menunjukkan gotong royong berfungsi sebagai modal sosial ekonomi, tetapi bisa melemah ketika persaingan dan biaya meningkat.",
+        "en": "Gotong royong in a market is not a slogan: traders take turns clearing drains, cover a stall left by a sick owner, or pool money to repair a roof. A study of traders at Pasar Sentral Palopo shows mutual aid working as social and economic capital, but also weakening when competition and costs rise."
+      },
+      "sources": [
+        "Garuda (Garba Rujukan Digital), 'Gotong Royong Sebagai Modal Sosial Ekonomi: Studi pada Komunitas Pedagang di Pasar Sentral Palopo' — https://garuda.kemdiktisaintek.go.id/documents/detail/5798077"
+      ],
+      "reflection": {
+        "id": "Kapan gotong royong menolong, dan kapan ia menjadi beban?",
+        "en": "When does mutual aid help, and when does it become a burden?"
+      },
+      "stampId": "id-stamp-gotong"
+    },
+    {
+      "id": "id-culture-0010",
+      "title": "Petromaks, lesehan, dan biaya penerangan",
+      "body": {
+        "id": "Sebelum listrik masuk ke los pasar, lampu petromaks berbahan bakar minyak tanah menerangi meja dagang. Di Malioboro, lesehan atau makan sambil duduk di tikar masih dipakai warung gudeg dan angkringan karena murah dan cepat dibuka. Keduanya menghemat biaya, tetapi membuat pedagang bergantung pada cuaca dan penerangan seadanya.",
+        "en": "Before electricity reached market stalls, kerosene pressure lamps called petromaks lit the tables. In Malioboro, lesehan, eating seated on mats, is still used by gudeg stalls and angkringan because it is cheap and quick to set up. Both save money but leave traders dependent on weather and basic lighting."
+      },
+      "sources": [
+        "Skripsi Universitas Negeri Yogyakarta tentang pasar subuh dan lesehan — https://eprints.uny.ac.id/43931/",
+        "Dinas Pariwisata DIY, '5 Spot Wisata di Malioboro' — https://visitingjogja.jogjaprov.go.id/32076/5-spot-wisata-di-malioboro-cukup-jalan-kaki-aja-nomer-2-wajib-mampir/"
+      ],
+      "reflection": {
+        "id": "Apa arti 'murah' bagi pedagang dan pembeli?",
+        "en": "What does 'cheap' mean for a trader and for a buyer?"
+      },
+      "stampId": "id-stamp-petromaks"
+    },
+    {
+      "id": "id-culture-0011",
+      "title": "Renovasi pasar dan ruang berjualan",
+      "body": {
+        "id": "Renovasi pasar tradisional sering berarti pindah sementara, sewa kios baru, dan kehilangan pelanggan yang sudah hafal lokasi. Program digitalisasi seperti SEMAR di Pasar Beringharjo mencoba menghubungkan pedagang dengan pembeli daring, tetapi tidak semua pedagang siap. Keputusan renovasi adalah negosiasi antara pemerintah kota, pedagang, dan pembeli.",
+        "en": "Renovating a traditional market often means temporary relocation, new kiosk rent, and losing customers who knew the old spot by heart. Digital programmes such as SEMAR at Pasar Beringharjo try to connect traders with online buyers, but not every trader is ready. A renovation is a negotiation among city government, traders, and buyers."
+      },
+      "sources": [
+        "Studi 'Smart Market (SEMAR) Sebagai Upaya Meningkatkan Transaksi Penjualan Pasca Pandemi di Pasar Beringharjo', Jurnal JPALG Universitas Tidar — https://journal.untidar.ac.id/index.php/jpalg/article/download/1777/802/10040"
+      ],
+      "reflection": {
+        "id": "Siapa yang paling dirugikan ketika pasar dipindahkan?",
+        "en": "Who loses most when a market is moved?"
+      },
+      "stampId": "id-stamp-renovasi"
+    },
+    {
+      "id": "id-culture-0012",
+      "title": "Buku utang dan krisis 1998",
+      "body": {
+        "id": "Buku utang pedagang mencatat nama, tanggal, jumlah, dan kadang janji. Pada 1998, ketika rupiah jatuh dan harga kebutuhan melonjak, banyak keluarga membeli makanan secara utang dan membayarnya dengan tenaga, barang, atau jasa. Catatan seperti ini adalah arsip ekonomi kecil yang jarang masuk museum, tetapi menyimpan cara orang saling menolong saat uang sulit.",
+        "en": "A trader's debt book records names, dates, amounts, and sometimes promises. In 1998, when the rupiah fell and staple prices surged, many families bought food on credit and repaid with labour, goods, or services. Such notebooks are small economic archives that rarely reach a museum, yet they preserve how people helped one another when money was scarce."
+      },
+      "sources": [
+        "World Bank, 'Indonesia in Crisis: A Macroeconomic Update' (16 Juli 1998) — https://timeline.worldbank.org/en/timeline/eventdetail/2381",
+        "Bank Indonesia, Laporan Perekonomian Indonesia 1998/1999 (publikasi resmi)"
+      ],
+      "reflection": {
+        "id": "Mengapa utang kecil bisa diingat puluhan tahun?",
+        "en": "Why can a small debt be remembered for decades?"
+      },
+      "stampId": "id-stamp-utang"
+    }
+  ],
+  "arcs": [
+    {
+      "tier": "T1",
+      "seasonNo": 1,
+      "title": "Pagi Pertama",
+      "nativeTitle": "Pagi Pertama",
+      "synopsis": "Sari ikut Ibu Wati ke Pasar Sari sebelum subuh untuk pertama kalinya setelah lama kuliah. Ia belajar menimbang, membungkus, dan menghadapi pembeli pertama. Di bawah meja, ia menemukan buku catatan berisi pesanan dan satu nama yang tidak dikenal.",
+      "mystery": "id-object-buku-catatan",
+      "cliffhanger": "Nama di halaman terakhir buku itu bukan nama pelanggan mana pun yang dikenal Sari."
+    },
+    {
+      "tier": "T1",
+      "seasonNo": 2,
+      "title": "Timbangan Tua",
+      "nativeTitle": "Timbangan Tua",
+      "synopsis": "Timbangan tua di los gudeg berselisih sedikit, dan seorang pembeli menuduh Wati mengurangi berat. Sari dan Dimas mencari anak timbangan yang hilang dan belajar bahwa kepercayaan lebih mahal daripada selisih seratus gram.",
+      "mystery": "id-object-timbangan",
+      "cliffhanger": "Anak timbangan itu ditemukan di kaleng biskuit, bersama nama yang sama seperti di buku catatan."
+    },
+    {
+      "tier": "T2",
+      "seasonNo": 1,
+      "title": "Buku Utang",
+      "nativeTitle": "Buku Utang",
+      "synopsis": "Buku utang dari 1998 ditemukan di bawah meja kasir. Sari menelusuri nama peminjam, sementara Ibu Wati menolak membicarakannya. Utang itu ternyata bukan uang, melainkan janji mengajari seorang anak memasak.",
+      "mystery": "id-object-buku-utang",
+      "cliffhanger": "Ibu Wati menangis dan berkata bahwa ia belum pernah menepati janji itu."
+    },
+    {
+      "tier": "T2",
+      "seasonNo": 2,
+      "title": "Tamu Subuh",
+      "nativeTitle": "Tamu Subuh",
+      "synopsis": "Seorang perempuan datang sebelum subuh, memesan gudeg tanpa areh, dan meninggalkan surat untuk Ibu Wati. Sari harus memilih antara membuka surat itu atau menghormati privasi ibunya.",
+      "mystery": "id-object-surat",
+      "cliffhanger": "Surat itu berisi tiket kereta dan satu permintaan: 'Ajari anak saya memasak, seperti janji Ibu dulu.'"
+    },
+    {
+      "tier": "T3",
+      "seasonNo": 1,
+      "title": "Pasar Baru",
+      "nativeTitle": "Pasar Baru",
+      "synopsis": "Pemerintah kota mengumumkan renovasi Pasar Sari. Pedagang harus pindah ke los sementara, dan denah baru menghapus baris angkringan. Sari membantu mencatat barang dagangan dan menemukan bahwa satu los dialokasikan untuk jaringan minimarket.",
+      "mystery": "id-object-denah",
+      "cliffhanger": "Di denah itu, tempat angkringan ditandai sebagai area parkir."
+    },
+    {
+      "tier": "T3",
+      "seasonNo": 2,
+      "title": "Los Batik",
+      "nativeTitle": "Los Batik",
+      "synopsis": "Pak Slamet menerima pesanan kain batik cap dalam jumlah besar dari pembeli Jakarta. Sari membantunya memotret dan menjual daring, tetapi motif pesanan itu ternyata milik perajin lain. Mereka harus memutuskan apakah pesanan diambil atau ditolak.",
+      "mystery": "id-object-kain-batik",
+      "cliffhanger": "Motif di pesanan itu sama dengan cap tua yang disimpan Pak Slamet di balik rak."
+    },
+    {
+      "tier": "T4",
+      "seasonNo": 1,
+      "title": "Mudik",
+      "nativeTitle": "Mudik",
+      "synopsis": "Menjelang Lebaran, Dimas mendapat tiket bus malam untuk pulang, tetapi pesanan pengiriman memuncak. Sari harus memilih antara menemani Mbah Putri ke kampung atau menjaga los selama mudik. Keluarga berdebat tentang siapa yang berhak pulang lebih dulu.",
+      "mystery": "id-object-tiket",
+      "cliffhanger": "Tiket di tangan Dimas bertanggal 1998, dan di belakangnya ada nama Mbah Putri."
+    },
+    {
+      "tier": "T4",
+      "seasonNo": 2,
+      "title": "Kereta Terakhir",
+      "nativeTitle": "Kereta Terakhir",
+      "synopsis": "Mbah Putri meminta Sari mengembalikan kaleng biskuit ke kampung. Di dalamnya ada tiket bus lama, foto, dan uang kertas yang sudah tidak berlaku. Sari menyadari Mbah Putri menyimpan perjalanan yang tidak pernah ia ceritakan.",
+      "mystery": "id-object-kaleng",
+      "cliffhanger": "Foto itu memperlihatkan Ibu Wati muda berdiri di samping perempuan yang namanya ada di buku utang."
+    },
+    {
+      "tier": "T5",
+      "seasonNo": 1,
+      "title": "Warisan",
+      "nativeTitle": "Warisan",
+      "synopsis": "Mbah Putri menyerahkan buku resep gudeg kepada Sari, tetapi satu halaman hilang. Ibu Wati ingin Sari mengambil alih los; Sari ingin menyelesaikan kuliah dan mendokumentasikan pasar. Keputusan itu harus diambil sebelum renovasi dimulai.",
+      "mystery": "id-object-buku-resep",
+      "cliffhanger": "Halaman yang hilang itu ada di dalam surat dari tamu subuh."
+    },
+    {
+      "tier": "T5",
+      "seasonNo": 2,
+      "title": "Tabuh Terakhir",
+      "nativeTitle": "Tabuh Terakhir",
+      "synopsis": "Kelompok gamelan kampung akan kehilangan pendopo karena renovasi. Sari dan Pak Slamet menyiapkan latihan terakhir dan merekamnya, sementara Mbah Putri memutuskan siapa yang layak menyimpan kunci gamelan. Pasar dan kampung harus memilih apa yang mereka bawa ke masa depan.",
+      "mystery": "id-object-kunci",
+      "cliffhanger": "Kunci itu juga membuka gudang los lama, tempat buku utang kedua disimpan."
+    }
+  ]
+}

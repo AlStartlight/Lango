@@ -1,0 +1,1196 @@
+{
+  "id": "nl-fietsen-polder",
+  "languageCode": "nl",
+  "slug": "fietsen-door-de-polder",
+  "title": "Fietsen door de Polder",
+  "nativeTitle": "Fietsen door de Polder",
+  "logline": "Noor komt terug naar Utrecht om een seizoen in de fietsenwinkel van Opa te helpen; dan verdwijnt de oude Gazelle van haar vriend Sem, en blijkt de straat meer te weten dan iemand toegeeft.",
+  "setting": "Utrecht: de rijwielhandel in een werfkelder aan de Oudegracht, de werf en de kade, de lapjesmarkt op de Breedstraat, Station Utrecht Centraal, het huis boven de winkel en de polder Rijnenburg net buiten de stad.",
+  "era": "Heden; van nazomer tot het volgende voorjaar, met Koningsdag op 27 april 2026.",
+  "tone": "Warme stadsroman met een lichte mysteriemotor, droge Utrechtse humor en veel fietswind.",
+  "palette": "#2C5F66",
+  "motifs": [
+    "de fietsbel",
+    "het water in de werfkelder",
+    "de roestige ketting",
+    "hagelslag op brood",
+    "oranje vlaggetjes",
+    "de polderwind",
+    "de gele trein",
+    "de sleutelbos van Opa"
+  ],
+  "sensitivityNotes": [
+    "Opa's independence is not a symptom: he is sharp, decides for himself, and the story never turns his age into a joke or a diagnosis.",
+    "The missing bicycle is a story about trust and misreading each other, not about theft; no character is a criminal and no police report is needed.",
+    "Noor's return is not a rescue mission: she is also avoiding a decision of her own about her study.",
+    "Utrecht is shown in ordinary weather: rain, headwind, closed shops, and the city outside the postcard.",
+    "Dutch directness appears as care in plain words, never as rudeness played for a national joke."
+  ],
+  "canon": {
+    "fictionalPlaces": [
+      "Rijwielhandel Van Dijk, een werfkelder aan de Oudegracht",
+      "de steiger achter de winkel",
+      "de kade bij de Bemuurde Weerd"
+    ],
+    "realAnchors": [
+      "Oudegracht",
+      "werfkelders",
+      "Breedstraat en de lapjesmarkt",
+      "Utrecht Centraal",
+      "polder Rijnenburg",
+      "Haarrijnse Plas",
+      "Koningsdag 27 april"
+    ],
+    "timeline": "T1: nazomer (eind augustus tot september). T2: winter (december tot januari). T3: lente (april, Koningsdag 27 april 2026). T4: zomer (juli). T5: het volgende najaar.",
+    "rules": [
+      "Noor is 21 en studeert geschiedenis in Groningen; ze woont tijdelijk boven de winkel.",
+      "Opa is 79, heeft al vijftig jaar de winkel en weigert hem te verkopen.",
+      "Sem is 22, koerier, en rijdt op een oude Gazelle die van zijn vader is geweest.",
+      "Mevrouw Van Dijk is 65, woont aan de overkant van de werf en houdt een schrift bij van alle fietsen op de kade.",
+      "De winkel heet Rijwielhandel Van Dijk en ligt in een fictieve werfkelder aan de Oudegracht.",
+      "De Gazelle van Sem raakt zoek in het najaar en duikt op Koningsdag weer op.",
+      "Niemand steelt de fiets: de straat verplaatst hem om hem te beschermen tegen de gemeentelijke fietsenopruiming."
+    ]
+  },
+  "levels": [
+    {
+      "tier": "T1",
+      "framework": "CEFR",
+      "levelCode": "A1",
+      "label": "CEFR A1",
+      "idPart": "a1",
+      "position": 1
+    },
+    {
+      "tier": "T2",
+      "framework": "CEFR",
+      "levelCode": "A2",
+      "label": "CEFR A2",
+      "idPart": "a2",
+      "position": 2
+    },
+    {
+      "tier": "T3",
+      "framework": "CEFR",
+      "levelCode": "B1",
+      "label": "CEFR B1",
+      "idPart": "b1",
+      "position": 3
+    },
+    {
+      "tier": "T4",
+      "framework": "CEFR",
+      "levelCode": "B2",
+      "label": "CEFR B2",
+      "idPart": "b2",
+      "position": 4
+    },
+    {
+      "tier": "T5",
+      "framework": "CEFR",
+      "levelCode": "C1",
+      "label": "CEFR C1",
+      "idPart": "c1",
+      "position": 5
+    }
+  ],
+  "characters": [
+    {
+      "id": "nl-fietsen-polder-noor",
+      "name": "Noor",
+      "nativeName": "Noor",
+      "role": "Protagonist, 21, comes home for one season to help in the shop",
+      "age": 21,
+      "bio": "Noor studies history in Groningen and comes back to Utrecht when Opa breaks his wrist. She tells everyone she is only staying for one season, but she is also avoiding a decision about her own study.",
+      "speechStyle": "Direct, dry, usually more honest than she means to be.",
+      "quote": "Ik blijf maar één seizoen.",
+      "position": 1,
+      "lexeme": {
+        "id": "nl-char-noor",
+        "native": "Noor",
+        "gloss": {
+          "id": "Noor",
+          "en": "Noor"
+        },
+        "tags": [
+          "protagonist"
+        ]
+      }
+    },
+    {
+      "id": "nl-fietsen-polder-opa",
+      "name": "Opa",
+      "nativeName": "Opa",
+      "role": "Grandfather, 79, owner of the bicycle shop, fiercely independent",
+      "age": 79,
+      "bio": "Opa has run Rijwielhandel Van Dijk in a wharf cellar on the Oudegracht for fifty years. He repairs bicycles rather than explain himself, and he would rather carry a crate one-handed than ask for help.",
+      "speechStyle": "Short, sober, with a joke that arrives three sentences late.",
+      "quote": "Een fiets gaat niet weg. Mensen gaan weg.",
+      "position": 2,
+      "lexeme": {
+        "id": "nl-char-opa",
+        "native": "Opa",
+        "gloss": {
+          "id": "Opa",
+          "en": "Grandpa"
+        },
+        "tags": [
+          "mentor",
+          "role"
+        ]
+      }
+    },
+    {
+      "id": "nl-fietsen-polder-sem",
+      "name": "Sem",
+      "nativeName": "Sem",
+      "role": "Friend, 22, bicycle courier, owns the missing Gazelle",
+      "age": 22,
+      "bio": "Sem delivers parcels across Utrecht on an old Gazelle that belonged to his father. He is quick on the road and slow with words, and he hates the idea of suspecting anyone.",
+      "speechStyle": "Dry and careful; he speaks once he is sure, and not before.",
+      "quote": "Ik zeg niet dat iemand hem heeft gepakt. Ik zeg dat hij weg is.",
+      "position": 3,
+      "lexeme": {
+        "id": "nl-char-sem",
+        "native": "Sem",
+        "gloss": {
+          "id": "Sem",
+          "en": "Sem"
+        },
+        "tags": [
+          "friend",
+          "role"
+        ]
+      }
+    },
+    {
+      "id": "nl-fietsen-polder-buurvrouw",
+      "name": "Mevrouw Van Dijk",
+      "nativeName": "Mevrouw Van Dijk",
+      "role": "Neighbour, 65, watches the wharf and keeps a notebook of the street",
+      "age": 65,
+      "bio": "Mevrouw Van Dijk lives above the shop across the wharf and sees every bicycle that comes and goes. She writes it down in a notebook, not to gossip, but because she believes a street should keep its own record.",
+      "speechStyle": "Precise, a little sharp, endlessly patient.",
+      "quote": "Ik zie alles. Dat is niet hetzelfde als alles weten.",
+      "position": 4,
+      "lexeme": {
+        "id": "nl-char-buurvrouw",
+        "native": "Mevrouw Van Dijk",
+        "gloss": {
+          "id": "Nyonya Van Dijk",
+          "en": "Mrs Van Dijk"
+        },
+        "tags": [
+          "neighbour",
+          "role"
+        ]
+      }
+    }
+  ],
+  "lexicon": {
+    "person": [
+      {
+        "id": "nl-person-buurvrouw",
+        "native": "de buurvrouw",
+        "gloss": {
+          "id": "tetangga perempuan",
+          "en": "the neighbour"
+        }
+      },
+      {
+        "id": "nl-person-klant",
+        "native": "de klant",
+        "gloss": {
+          "id": "pelanggan",
+          "en": "the customer"
+        }
+      },
+      {
+        "id": "nl-person-koerier",
+        "native": "de koerier",
+        "gloss": {
+          "id": "kurir",
+          "en": "the courier"
+        }
+      },
+      {
+        "id": "nl-person-jongen",
+        "native": "de jongen van de markt",
+        "gloss": {
+          "id": "anak laki-laki dari pasar",
+          "en": "the boy from the market"
+        }
+      },
+      {
+        "id": "nl-person-fietsenmaker",
+        "native": "de fietsenmaker",
+        "gloss": {
+          "id": "tukang sepeda",
+          "en": "the bicycle repairer"
+        }
+      }
+    ],
+    "place": [
+      {
+        "id": "nl-place-werkplaats",
+        "native": "de werkplaats",
+        "gloss": {
+          "id": "bengkel",
+          "en": "the workshop"
+        },
+        "tags": [
+          "home"
+        ]
+      },
+      {
+        "id": "nl-place-winkel",
+        "native": "de fietsenwinkel",
+        "gloss": {
+          "id": "toko sepeda",
+          "en": "the bicycle shop"
+        },
+        "tags": [
+          "home"
+        ]
+      },
+      {
+        "id": "nl-place-werfkelder",
+        "native": "de werfkelder",
+        "gloss": {
+          "id": "gudang bawah tanah di dermaga",
+          "en": "the wharf cellar"
+        }
+      },
+      {
+        "id": "nl-place-oudegracht",
+        "native": "de Oudegracht",
+        "gloss": {
+          "id": "Kanal Oude",
+          "en": "the Oudegracht canal"
+        },
+        "tags": [
+          "water"
+        ]
+      },
+      {
+        "id": "nl-place-markt",
+        "native": "de markt",
+        "gloss": {
+          "id": "pasar",
+          "en": "the market"
+        },
+        "tags": [
+          "market"
+        ]
+      },
+      {
+        "id": "nl-place-station",
+        "native": "het station",
+        "gloss": {
+          "id": "stasiun",
+          "en": "the station"
+        }
+      },
+      {
+        "id": "nl-place-polder",
+        "native": "de polder",
+        "gloss": {
+          "id": "polder",
+          "en": "the polder"
+        }
+      },
+      {
+        "id": "nl-place-huis",
+        "native": "het huis",
+        "gloss": {
+          "id": "rumah",
+          "en": "the house"
+        }
+      },
+      {
+        "id": "nl-place-kade",
+        "native": "de kade",
+        "gloss": {
+          "id": "dermaga",
+          "en": "the quay"
+        },
+        "tags": [
+          "water"
+        ]
+      },
+      {
+        "id": "nl-place-brug",
+        "native": "de brug",
+        "gloss": {
+          "id": "jembatan",
+          "en": "the bridge"
+        }
+      }
+    ],
+    "object": [
+      {
+        "id": "nl-object-fiets",
+        "native": "de fiets",
+        "gloss": {
+          "id": "sepeda",
+          "en": "the bicycle"
+        },
+        "tags": [
+          "mystery",
+          "clue"
+        ]
+      },
+      {
+        "id": "nl-object-bel",
+        "native": "de bel",
+        "gloss": {
+          "id": "bel sepeda",
+          "en": "the bicycle bell"
+        },
+        "tags": [
+          "clue"
+        ]
+      },
+      {
+        "id": "nl-object-sleutel",
+        "native": "de sleutel",
+        "gloss": {
+          "id": "kunci",
+          "en": "the key"
+        },
+        "tags": [
+          "mystery",
+          "clue"
+        ]
+      },
+      {
+        "id": "nl-object-briefje",
+        "native": "het briefje",
+        "gloss": {
+          "id": "catatan kecil",
+          "en": "the note"
+        },
+        "tags": [
+          "clue"
+        ]
+      },
+      {
+        "id": "nl-object-foto",
+        "native": "de foto",
+        "gloss": {
+          "id": "foto",
+          "en": "the photograph"
+        },
+        "tags": [
+          "memory"
+        ]
+      },
+      {
+        "id": "nl-object-kaart",
+        "native": "de kaart",
+        "gloss": {
+          "id": "peta",
+          "en": "the map"
+        },
+        "tags": [
+          "clue"
+        ]
+      },
+      {
+        "id": "nl-object-ketting",
+        "native": "de ketting",
+        "gloss": {
+          "id": "rantai",
+          "en": "the chain"
+        },
+        "tags": [
+          "repair"
+        ]
+      },
+      {
+        "id": "nl-object-rekening",
+        "native": "de rekening",
+        "gloss": {
+          "id": "tagihan",
+          "en": "the bill"
+        },
+        "tags": [
+          "clue"
+        ]
+      },
+      {
+        "id": "nl-object-band",
+        "native": "de band",
+        "gloss": {
+          "id": "ban",
+          "en": "the tyre"
+        },
+        "tags": [
+          "repair"
+        ]
+      },
+      {
+        "id": "nl-object-stuur",
+        "native": "het stuur",
+        "gloss": {
+          "id": "setang",
+          "en": "the handlebars"
+        },
+        "tags": [
+          "repair"
+        ]
+      }
+    ],
+    "food": [
+      {
+        "id": "nl-food-hagelslag",
+        "native": "de hagelslag",
+        "gloss": {
+          "id": "hagelslag (taburan cokelat)",
+          "en": "the chocolate sprinkles"
+        },
+        "tags": [
+          "anchor"
+        ]
+      },
+      {
+        "id": "nl-food-stroopwafel",
+        "native": "de stroopwafel",
+        "gloss": {
+          "id": "stroopwafel",
+          "en": "the stroopwafel"
+        },
+        "tags": [
+          "anchor"
+        ]
+      },
+      {
+        "id": "nl-food-appeltaart",
+        "native": "de appeltaart",
+        "gloss": {
+          "id": "pai apel",
+          "en": "the apple pie"
+        }
+      },
+      {
+        "id": "nl-food-pannenkoek",
+        "native": "de pannenkoek",
+        "gloss": {
+          "id": "panekuk",
+          "en": "the pancake"
+        }
+      },
+      {
+        "id": "nl-food-brood",
+        "native": "het brood",
+        "gloss": {
+          "id": "roti",
+          "en": "the bread"
+        }
+      }
+    ],
+    "drink": [
+      {
+        "id": "nl-drink-koffie",
+        "native": "de koffie",
+        "gloss": {
+          "id": "kopi",
+          "en": "the coffee"
+        }
+      },
+      {
+        "id": "nl-drink-thee",
+        "native": "de thee",
+        "gloss": {
+          "id": "teh",
+          "en": "the tea"
+        }
+      },
+      {
+        "id": "nl-drink-water",
+        "native": "het water",
+        "gloss": {
+          "id": "air",
+          "en": "the water"
+        }
+      },
+      {
+        "id": "nl-drink-melk",
+        "native": "de melk",
+        "gloss": {
+          "id": "susu",
+          "en": "the milk"
+        }
+      }
+    ],
+    "time": [
+      {
+        "id": "nl-time-ochtend",
+        "native": "ochtend",
+        "gloss": {
+          "id": "pagi",
+          "en": "morning"
+        }
+      },
+      {
+        "id": "nl-time-middag",
+        "native": "middag",
+        "gloss": {
+          "id": "siang",
+          "en": "afternoon"
+        }
+      },
+      {
+        "id": "nl-time-avond",
+        "native": "avond",
+        "gloss": {
+          "id": "malam",
+          "en": "evening"
+        }
+      },
+      {
+        "id": "nl-time-nacht",
+        "native": "nacht",
+        "gloss": {
+          "id": "malam buta",
+          "en": "night"
+        }
+      },
+      {
+        "id": "nl-time-vroeg",
+        "native": "vroege ochtend",
+        "gloss": {
+          "id": "pagi buta",
+          "en": "early morning"
+        }
+      }
+    ],
+    "weather": [
+      {
+        "id": "nl-weather-regen",
+        "native": "Het regent.",
+        "gloss": {
+          "id": "Hari sedang hujan.",
+          "en": "It is raining."
+        },
+        "tags": [
+          "rain"
+        ]
+      },
+      {
+        "id": "nl-weather-grijs",
+        "native": "De lucht is grijs.",
+        "gloss": {
+          "id": "Langitnya kelabu.",
+          "en": "The sky is grey."
+        },
+        "tags": [
+          "cold"
+        ]
+      },
+      {
+        "id": "nl-weather-wind",
+        "native": "Er waait een koude wind.",
+        "gloss": {
+          "id": "Angin bertiup dingin.",
+          "en": "A cold wind is blowing."
+        },
+        "tags": [
+          "cold"
+        ]
+      },
+      {
+        "id": "nl-weather-zacht",
+        "native": "Het is zacht weer.",
+        "gloss": {
+          "id": "Cuacanya lembut.",
+          "en": "The weather is mild."
+        },
+        "tags": [
+          "warm"
+        ]
+      },
+      {
+        "id": "nl-weather-zon",
+        "native": "De zon breekt door.",
+        "gloss": {
+          "id": "Matahari menembus awan.",
+          "en": "The sun breaks through."
+        },
+        "tags": [
+          "clear"
+        ]
+      }
+    ],
+    "action": [
+      {
+        "id": "nl-action-open",
+        "native": "opende de winkel",
+        "gloss": {
+          "id": "membuka toko",
+          "en": "opened the shop"
+        }
+      },
+      {
+        "id": "nl-action-veeg",
+        "native": "veegde de vloer",
+        "gloss": {
+          "id": "menyapu lantai",
+          "en": "swept the floor"
+        }
+      },
+      {
+        "id": "nl-action-plak",
+        "native": "plakte de band",
+        "gloss": {
+          "id": "menambal ban",
+          "en": "patched the tyre"
+        }
+      },
+      {
+        "id": "nl-action-smeer",
+        "native": "smeerde de ketting",
+        "gloss": {
+          "id": "melumasi rantai",
+          "en": "oiled the chain"
+        }
+      },
+      {
+        "id": "nl-action-zoek",
+        "native": "zocht de sleutel",
+        "gloss": {
+          "id": "mencari kunci",
+          "en": "looked for the key"
+        }
+      },
+      {
+        "id": "nl-action-recht",
+        "native": "zette de fiets recht",
+        "gloss": {
+          "id": "menegakkan sepeda",
+          "en": "put the bicycle upright"
+        }
+      },
+      {
+        "id": "nl-action-koffie",
+        "native": "maakte koffie",
+        "gloss": {
+          "id": "membuat kopi",
+          "en": "made coffee"
+        }
+      },
+      {
+        "id": "nl-action-bel",
+        "native": "hing de bel terug",
+        "gloss": {
+          "id": "memasang bel kembali",
+          "en": "put the bell back"
+        }
+      }
+    ],
+    "quote": [
+      {
+        "id": "nl-quote-lang",
+        "native": "Het is lang geleden.",
+        "gloss": {
+          "id": "Sudah lama sekali.",
+          "en": "It has been a long time."
+        },
+        "tags": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "nl-quote-nooit",
+        "native": "De fiets staat nooit waar je hem laat.",
+        "gloss": {
+          "id": "Sepeda tidak pernah ada di tempat kamu meninggalkannya.",
+          "en": "A bicycle is never where you left it."
+        },
+        "tags": [
+          "mystery"
+        ]
+      },
+      {
+        "id": "nl-quote-vertrouw",
+        "native": "Ik vertrouw je.",
+        "gloss": {
+          "id": "Aku percaya padamu.",
+          "en": "I trust you."
+        },
+        "tags": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "nl-quote-gestolen",
+        "native": "Niemand heeft hier iets gestolen.",
+        "gloss": {
+          "id": "Tidak ada yang mencuri apa pun di sini.",
+          "en": "Nobody has stolen anything here."
+        },
+        "tags": [
+          "mystery",
+          "emotion"
+        ]
+      },
+      {
+        "id": "nl-quote-terug",
+        "native": "Ik ben zo terug.",
+        "gloss": {
+          "id": "Aku segera kembali.",
+          "en": "I will be right back."
+        }
+      },
+      {
+        "id": "nl-quote-samen",
+        "native": "We lossen het samen op.",
+        "gloss": {
+          "id": "Kita selesaikan bersama.",
+          "en": "We will sort it out together."
+        },
+        "tags": [
+          "emotion"
+        ]
+      }
+    ],
+    "question": [
+      {
+        "id": "nl-question-waar",
+        "native": "Waar is de fiets?",
+        "gloss": {
+          "id": "Di mana sepedanya?",
+          "en": "Where is the bicycle?"
+        }
+      },
+      {
+        "id": "nl-question-wie",
+        "native": "Wie heeft de sleutel?",
+        "gloss": {
+          "id": "Siapa yang punya kuncinya?",
+          "en": "Who has the key?"
+        }
+      },
+      {
+        "id": "nl-question-wat",
+        "native": "Wat is er gebeurd?",
+        "gloss": {
+          "id": "Apa yang terjadi?",
+          "en": "What happened?"
+        }
+      },
+      {
+        "id": "nl-question-waarom",
+        "native": "Waarom zei je niets?",
+        "gloss": {
+          "id": "Mengapa kamu tidak berkata apa-apa?",
+          "en": "Why did you not say anything?"
+        }
+      },
+      {
+        "id": "nl-question-hoelaat",
+        "native": "Hoe laat ben je terug?",
+        "gloss": {
+          "id": "Jam berapa kamu kembali?",
+          "en": "What time will you be back?"
+        }
+      },
+      {
+        "id": "nl-question-gezien",
+        "native": "Heb je dit gezien?",
+        "gloss": {
+          "id": "Apakah kamu melihat ini?",
+          "en": "Did you see this?"
+        }
+      }
+    ],
+    "greeting": [
+      {
+        "id": "nl-greeting-morgen",
+        "native": "Goedemorgen",
+        "gloss": {
+          "id": "Selamat pagi",
+          "en": "Good morning"
+        }
+      },
+      {
+        "id": "nl-greeting-hoi",
+        "native": "Hoi",
+        "gloss": {
+          "id": "Hai",
+          "en": "Hi"
+        }
+      },
+      {
+        "id": "nl-greeting-avond",
+        "native": "Goedenavond",
+        "gloss": {
+          "id": "Selamat malam",
+          "en": "Good evening"
+        }
+      },
+      {
+        "id": "nl-greeting-welkom",
+        "native": "Welkom terug",
+        "gloss": {
+          "id": "Selamat datang kembali",
+          "en": "Welcome back"
+        }
+      },
+      {
+        "id": "nl-greeting-tot",
+        "native": "Tot straks",
+        "gloss": {
+          "id": "Sampai nanti",
+          "en": "See you later"
+        }
+      }
+    ],
+    "emotion": [
+      {
+        "id": "nl-emotion-opgelucht",
+        "native": "opgelucht",
+        "gloss": {
+          "id": "lega",
+          "en": "relieved"
+        }
+      },
+      {
+        "id": "nl-emotion-bezorgd",
+        "native": "bezorgd",
+        "gloss": {
+          "id": "khawatir",
+          "en": "worried"
+        }
+      },
+      {
+        "id": "nl-emotion-hoopvol",
+        "native": "hoopvol",
+        "gloss": {
+          "id": "penuh harap",
+          "en": "hopeful"
+        }
+      },
+      {
+        "id": "nl-emotion-weemoedig",
+        "native": "weemoedig",
+        "gloss": {
+          "id": "sendu",
+          "en": "wistful"
+        }
+      },
+      {
+        "id": "nl-emotion-trots",
+        "native": "trots",
+        "gloss": {
+          "id": "bangga",
+          "en": "proud"
+        }
+      },
+      {
+        "id": "nl-emotion-nerveus",
+        "native": "nerveus",
+        "gloss": {
+          "id": "gugup",
+          "en": "nervous"
+        }
+      }
+    ]
+  },
+  "anchors": [
+    {
+      "id": "nl-culture-0001",
+      "title": "Fietsen als vervoer, niet als hobby",
+      "body": {
+        "id": "Di Utrecht, kota yang jumlah sepedanya lebih banyak daripada penduduknya, sepeda adalah alat transportasi harian. Jalur sepeda dipisahkan dari trotoar, dan di samping Station Utrecht Centraal ada parkir sepeda terbesar di dunia: 12.500 tempat, dibuka pada Agustus 2019. Bagi Noor, jarak di kota diukur dengan waktu mengayuh, bukan dengan kilometer.",
+        "en": "In Utrecht, where there are more bicycles than people, the bike is everyday transport. Cycle paths are separated from the pavement, and beside Utrecht Centraal station is the world's largest bicycle parking facility: 12,500 spaces, opened in August 2019. For Noor, distance in the city is measured in pedalling time, not kilometres."
+      },
+      "sources": [
+        "ProRail, 'Grootste fietsenstalling ter wereld op 19 augustus open' (prorail.nl, 2019)",
+        "Gemeente Utrecht, 'Bicycle parking Stationsplein: largest in the world' (utrecht.nl)"
+      ],
+      "reflection": {
+        "id": "Mengapa sepeda mengubah cara orang mengukur jarak dan kesabaran?",
+        "en": "Why does a bicycle change how people measure distance and patience?"
+      },
+      "stampId": "nl-stamp-fiets",
+      "tags": [
+        "cycling"
+      ]
+    },
+    {
+      "id": "nl-culture-0002",
+      "title": "Grachten, werven en werfkelders",
+      "body": {
+        "id": "Oudegracht bukan hanya kanal. Di bawah jalan ada werf, dermaga batu tempat perahu menurunkan barang, dan di belakangnya deretan werfkelder: ruang bawah tanah abad pertengahan yang dulu dipakai sebagai gudang. Utrecht menjadi kota bertiga lapis di satu jalan: air, jalan, dan gudang.",
+        "en": "The Oudegracht is not only a canal. Below street level is the wharf, a stone quay where boats unloaded goods, and behind it a row of wharf cellars: medieval storage rooms cut into the bank. Utrecht becomes a three-layered street: water, road, and warehouse."
+      },
+      "sources": [
+        "Visit Utrecht, 'Werfkelders aan de Oudegracht' (visit-utrecht.com)",
+        "Gemeente Utrecht, 'Oudegracht en werven' (utrecht.nl, erfgoed)"
+      ],
+      "reflection": {
+        "id": "Apa yang berubah ketika satu jalan menyimpan tiga lapis kehidupan?",
+        "en": "What changes when one street holds three layers of life?"
+      },
+      "stampId": "nl-stamp-werfkelder",
+      "tags": [
+        "water",
+        "heritage"
+      ]
+    },
+    {
+      "id": "nl-culture-0003",
+      "title": "Een winkel in een werfkelder",
+      "body": {
+        "id": "Banyak werfkelder di Oudegracht kini menjadi kafe, galeri, atau toko kecil. Ruangnya rendah, dindingnya bata, dan udaranya selalu sedikit lembap karena berbatasan langsung dengan air kanal. Pemilik toko seperti Opa harus memikirkan naiknya air, barang yang berkarat, dan pintu yang tetap terbuka untuk pelanggan yang datang dari sisi dermaga.",
+        "en": "Many wharf cellars along the Oudegracht are now cafés, galleries, or small shops. The ceilings are low, the walls are brick, and the air is always a little damp because the space meets the canal water directly. A shopkeeper like Opa has to think about rising water, rusty stock, and a door kept open for customers arriving from the wharf side."
+      },
+      "sources": [
+        "Visit Utrecht, 'Werfkelders' (visit-utrecht.com)",
+        "Rijksdienst voor het Cultureel Erfgoed, 'Rijksmonumenten in Utrecht' (cultureelerfgoed.nl)"
+      ],
+      "reflection": {
+        "id": "Bagaimana bangunan lama memaksa pemiliknya berkompromi dengan air?",
+        "en": "How does an old building force its owner to compromise with water?"
+      },
+      "stampId": "nl-stamp-winkel",
+      "tags": [
+        "heritage"
+      ]
+    },
+    {
+      "id": "nl-culture-0004",
+      "title": "Koningsdag en de vrijmarkt",
+      "body": {
+        "id": "Koningsdag dirayakan setiap 27 April, dan digeser ke 26 April jika tanggal itu jatuh pada hari Minggu. Di Utrecht, vrijmarkt di pusat kota dimulai Minggu malam dan berakhir Senin pukul 18.00. Siapa pun boleh menggelar tikar dan menjual barang bekas; kota berubah menjadi pasar tanpa izin dagang khusus, dan orang bernegosiasi langsung di jalan.",
+        "en": "King's Day is celebrated on 27 April, moved to 26 April when that date falls on a Sunday. In Utrecht the vrijmarkt in the city centre starts on Sunday evening and ends on Monday at 18:00. Anyone may spread a blanket and sell second-hand goods; the city turns into a market without special trading permits, and people bargain in the street."
+      },
+      "sources": [
+        "Koningsdag in Utrecht, 'Praktische informatie' (koningsdaginutrecht.nl)",
+        "Koninklijk Huis, 'Koningsdag' (koninklijkhuis.nl)"
+      ],
+      "reflection": {
+        "id": "Mengapa pasar bebas sehari bisa mengubah cara orang memandang barang dan tetangga?",
+        "en": "Why can one day of free trading change how people see objects and neighbours?"
+      },
+      "stampId": "nl-stamp-koningsdag",
+      "tags": [
+        "festival"
+      ]
+    },
+    {
+      "id": "nl-culture-0005",
+      "title": "Hagelslag op brood",
+      "body": {
+        "id": "Hagelslag adalah taburan cokelat kecil yang ditaburkan di atas roti beroles mentega, biasanya saat sarapan atau makan siang. Cokelat hagelslag dikembangkan pada 1936 oleh Venz, dan namanya sempat dipatenkan perusahaan lain untuk produk yang berbeda. Di rumah Opa, hagelslag adalah ukuran keramahan: tamu tidak ditanya, tetapi langsung diberi roti.",
+        "en": "Hagelslag are small chocolate sprinkles scattered on buttered bread, usually at breakfast or lunch. Chocolate hagelslag was developed in 1936 by Venz, and the name had already been patented by another company for a different product. In Opa's house, hagelslag is a measure of hospitality: guests are not asked, they are simply handed bread."
+      },
+      "sources": [
+        "Venz, 'De geschiedenis van hagelslag' (venz.nl)",
+        "TasteAtlas, 'Hagelslag' (tasteatlas.com)"
+      ],
+      "reflection": {
+        "id": "Mengapa makanan sederhana bisa menjadi bahasa keramahan?",
+        "en": "Why can plain food become a language of hospitality?"
+      },
+      "stampId": "nl-stamp-hagelslag",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "nl-culture-0006",
+      "title": "De polder als afspraak",
+      "body": {
+        "id": "Polder bukan sekadar pemandangan: ia adalah tanah yang dikelilingi tanggul, dengan tinggi muka air yang ditetapkan dan dijaga oleh pompa. Di Rijnenburg, polder di tepi barat Utrecht, bekas lahan rawa dan tanah liat ini sekarang dipakai untuk pertanian, rekreasi, dan rencana pembangunan kota. Nama Haarrijnse Plas berasal dari penggalian pasir yang meninggalkan danau.",
+        "en": "A polder is not merely a landscape: it is land enclosed by dikes, with a water level that is set and maintained by pumps. In Rijnenburg, the polder on Utrecht's western edge, this former marsh and clay land is now used for farming, recreation, and city expansion plans. The Haarrijnse Plas takes its name from sand extraction that left a lake behind."
+      },
+      "sources": [
+        "Gemeente Utrecht, 'Rijnenburg' (utrecht.nl)",
+        "Hoogheemraadschap De Stichtse Rijnlanden, 'Peilbeheer' (hdsr.nl)"
+      ],
+      "reflection": {
+        "id": "Mengapa polder disebut kesepakatan, bukan alam?",
+        "en": "Why is a polder called an agreement rather than nature?"
+      },
+      "stampId": "nl-stamp-polder",
+      "tags": [
+        "polder"
+      ]
+    },
+    {
+      "id": "nl-culture-0007",
+      "title": "Het waterschap en het peilbesluit",
+      "body": {
+        "id": "Waterschap mengatur air di Belanda, termasuk di sekitar Utrecht. Badan ini menetapkan peilbesluit: keputusan resmi tentang seberapa tinggi air di suatu wilayah, yang menjadi pegangan bagi petani, penduduk, dan pemilik bangunan. Pemilihan umum waterschap diadakan setiap empat tahun, dan bagi banyak orang, inilah pemerintahan yang paling langsung terasa di halaman rumah.",
+        "en": "Water boards manage water in the Netherlands, including around Utrecht. They set peilbesluiten: formal decisions on how high the water may stand in an area, which guide farmers, residents, and building owners. Water board elections are held every four years, and for many people this is the most directly felt level of government in their own back garden."
+      },
+      "sources": [
+        "Hoogheemraadschap De Stichtse Rijnlanden, 'Peilbesluiten' (hdsr.nl)",
+        "Unie van Waterschappen, 'Waterschappen' (uvw.nl)"
+      ],
+      "reflection": {
+        "id": "Mengapa keputusan tentang tinggi air bisa menjadi janji sosial?",
+        "en": "Why can a decision about water level become a social promise?"
+      },
+      "stampId": "nl-stamp-waterschap",
+      "tags": [
+        "polder"
+      ]
+    },
+    {
+      "id": "nl-culture-0008",
+      "title": "Directheid is geen onbeleefdheid",
+      "body": {
+        "id": "Di Belanda, jarak kuasa yang rendah membuat orang terbiasa mengatakan apa adanya, termasuk kepada orang yang lebih tua atau lebih berkuasa. Penelitian komunikasi lintas budaya menyebut Belanda sebagai masyarakat low-context dengan jarak kuasa rendah: maksud diucapkan, bukan ditebak. Dalam cerita ini, Opa dan Buurvrouw Van Dijk berbicara datar, tetapi kepedulian mereka justru tampak dari kalimat yang tidak dibuat manis.",
+        "en": "In the Netherlands, low power distance makes people used to saying things plainly, including to people older or more powerful than themselves. Cross-cultural research describes the Netherlands as a low-context, low-power-distance society: the meaning is said, not guessed. In this story Opa and Mrs Van Dijk speak flatly, but their care shows precisely in sentences that are not sweetened."
+      },
+      "sources": [
+        "Hofstede Insights, 'Country Comparison: Netherlands' (hofstede-insights.com)",
+        "Erin Meyer, 'The Culture Map' (2014), low-context communication"
+      ],
+      "reflection": {
+        "id": "Kapan berkata langsung berarti peduli, dan kapan justru menyakiti?",
+        "en": "When does speaking directly mean caring, and when does it wound?"
+      },
+      "stampId": "nl-stamp-directheid",
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "nl-culture-0009",
+      "title": "De trein tussen Groningen en Utrecht",
+      "body": {
+        "id": "Utrecht Centraal adalah stasiun tersibuk di Belanda, dengan sekitar 226.000 penumpang per hari kerja. Bagi mahasiswa seperti Noor, kereta adalah cara biasa untuk pulang: satu perjalanan, satu tas, dan barang bawaan yang selalu terlalu banyak. Perjalanan kereta juga menandai jarak sosial: semakin lama di kereta, semakin jauh seseorang dari keputusan yang harus diambilnya.",
+        "en": "Utrecht Centraal is the busiest station in the Netherlands, with around 226,000 passengers on an average working day. For students like Noor, the train is the ordinary way home: one journey, one bag, and always too much luggage. The train also marks social distance: the longer the ride, the further someone is from the decision they have to make."
+      },
+      "sources": [
+        "NS, 'Utrecht Centraal' en reizigerscijfers (ns.nl)",
+        "ANP / Mobiliteit.nl, 'NS doorstaat doop nieuwe dienstregeling' (16 december 2024)",
+        "ProRail, 'Station Utrecht Centraal' (prorail.nl)"
+      ],
+      "reflection": {
+        "id": "Mengapa perjalanan kereta terasa seperti jeda dari keputusan?",
+        "en": "Why does a train journey feel like a pause from deciding?"
+      },
+      "stampId": "nl-stamp-trein",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "id": "nl-culture-0010",
+      "title": "De lapjesmarkt op de Breedstraat",
+      "body": {
+        "id": "Pada 9 Mei 1597, pemerintah Utrecht memberi izin kepada guild penenun linen untuk mengadakan pasar linen dua kali setahun di Breedstraat. Empat abad kemudian, tempat yang sama menjadi lapjesmarkt: pasar kain mingguan setiap Sabtu dengan puluhan kios yang menjual kain, pita, kancing, dan resleting. Penjual menawar dengan ramah tetapi tegas, dan pembeli biasa menyentuh kain sebelum bertanya harga.",
+        "en": "On 9 May 1597 the Utrecht city government gave the linen weavers' guild permission to hold a linen market twice a year in the Breedstraat. Four centuries later the same place hosts the lapjesmarkt: a weekly Saturday fabric market with dozens of stalls selling cloth, ribbon, buttons, and zips. Traders bargain kindly but firmly, and buyers touch the fabric before asking the price."
+      },
+      "sources": [
+        "Ontdek Utrecht, 'Lapjesmarkt' (ontdek-utrecht.nl)",
+        "Gemeente Utrecht, 'Markten in Utrecht' (utrecht.nl)"
+      ],
+      "reflection": {
+        "id": "Apa yang diwariskan sebuah pasar selama empat abad?",
+        "en": "What does a market pass down across four centuries?"
+      },
+      "stampId": "nl-stamp-markt",
+      "tags": [
+        "market"
+      ]
+    }
+  ],
+  "arcs": [
+    {
+      "tier": "T1",
+      "seasonNo": 1,
+      "title": "De fiets",
+      "nativeTitle": "De fiets",
+      "synopsis": "Noor komt terug naar Utrecht om Opa een seizoen te helpen in de werfkelder. Op een natte dinsdag is de oude Gazelle van haar vriend Sem weg, en niemand wil er iets van zeggen.",
+      "mystery": "nl-object-fiets",
+      "cliffhanger": "Op de kade staat de fiets van Sem opeens weer, op slot, voor de deur van Noor."
+    },
+    {
+      "tier": "T1",
+      "seasonNo": 2,
+      "title": "De bel",
+      "nativeTitle": "De bel",
+      "synopsis": "Opa repareert liever dan dat hij uitlegt, en Noor leert de winkel kennen via de spullen die hij bewaart. Een losse fietsbel in de toonbank brengt haar bij de eerste kleine leugen.",
+      "mystery": "nl-object-bel",
+      "cliffhanger": "De bel in de toonbank is dezelfde bel die Sem vorige week kwijt was."
+    },
+    {
+      "tier": "T2",
+      "seasonNo": 1,
+      "title": "De markt",
+      "nativeTitle": "De markt",
+      "synopsis": "Op zaterdag helpt Noor bij de lapjesmarkt op de Breedstraat en hoort ze voor het eerst een andere versie van de verdwijning, van iemand die niets met de winkel te maken heeft.",
+      "mystery": "nl-object-kaart",
+      "cliffhanger": "Op de markt verkoopt iemand een oude fietskaart met de postcode van Opa's werfkelder erop."
+    },
+    {
+      "tier": "T2",
+      "seasonNo": 2,
+      "title": "De sleutel",
+      "nativeTitle": "De sleutel",
+      "synopsis": "Opa heeft een sleutelbos met meer sleutels dan hij kan benoemen. Noor zoekt uit wie de winkel en de kade nog meer in kan, en waarom Opa daar zo rustig over is.",
+      "mystery": "nl-object-sleutel",
+      "cliffhanger": "Een van de sleutels past op het slot van Sem, en Opa zegt dat hij die sleutel nooit heeft gehad."
+    },
+    {
+      "tier": "T3",
+      "seasonNo": 1,
+      "title": "Koningsdag",
+      "nativeTitle": "Koningsdag",
+      "synopsis": "Tijdens de vrijmarkt op 27 april duikt de Gazelle op tussen de kleedjes op straat. De buurt moet beslissen wie hij vertrouwt, en Noor moet beslissen wat ze zelf heeft verzwegen.",
+      "mystery": "nl-object-fiets",
+      "cliffhanger": "De fiets staat tussen de spullen van de buurvrouw, met een prijskaartje eraan."
+    },
+    {
+      "tier": "T3",
+      "seasonNo": 2,
+      "title": "Het briefje",
+      "nativeTitle": "Het briefje",
+      "synopsis": "Een anoniem briefje op de deur van de winkel zet de straat op scherp. Noor leest haar eigen naam en begrijpt dat iemand al maanden op haar wacht.",
+      "mystery": "nl-object-briefje",
+      "cliffhanger": "Het briefje is niet anoniem: de buurvrouw schreef het, in het schrift dat ze nooit laat zien."
+    },
+    {
+      "tier": "T4",
+      "seasonNo": 1,
+      "title": "De polder",
+      "nativeTitle": "De polder",
+      "synopsis": "Noor, Opa en Sem fietsen naar de polder Rijnenburg, waar Opa als jongen water en land leerde lezen en waar de stad nu wil groeien.",
+      "mystery": "nl-object-kaart",
+      "cliffhanger": "In de polder vindt Noor een oude kaart met de naam van de winkel erop, en een datum van vijftig jaar geleden."
+    },
+    {
+      "tier": "T4",
+      "seasonNo": 2,
+      "title": "Het waterschap",
+      "nativeTitle": "Het waterschap",
+      "synopsis": "Het waterschap vergadert over het peil en de polder, en Opa's werfkelder blijkt op de lijst van panden te staan die op de schop gaan.",
+      "mystery": "nl-object-rekening",
+      "cliffhanger": "Op de rekening van het waterschap staat Opa's naam, en een bedrag dat hij nooit heeft betaald."
+    },
+    {
+      "tier": "T5",
+      "seasonNo": 1,
+      "title": "Het huis",
+      "nativeTitle": "Het huis",
+      "synopsis": "Opa's huis boven de winkel komt leeg te staan. Noor moet kiezen tussen blijven en weggaan, en ontdekt dat Opa die keuze al jaren voor haar heeft uitgesteld.",
+      "mystery": "nl-object-foto",
+      "cliffhanger": "Op de foto staat de winkel zoals hij was, met twee fietsen voor de deur: de Gazelle en de fiets van Noor."
+    },
+    {
+      "tier": "T5",
+      "seasonNo": 2,
+      "title": "De laatste rit",
+      "nativeTitle": "De laatste rit",
+      "synopsis": "Een laatste rit door de stad, langs de kade en de polder, waarin de straat eindelijk zegt wat iedereen al wist en Noor de sleutel moet teruggeven.",
+      "mystery": "nl-object-fiets",
+      "cliffhanger": "Bij het station zet Noor de fiets op slot en geeft ze de sleutel terug."
+    }
+  ]
+}

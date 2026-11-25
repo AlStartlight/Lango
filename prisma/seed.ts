@@ -1,6 +1,6 @@
 import { PrismaClient } from "../app/lib/generated/prisma/client";
 import { PrismaPg } from "@prisma/adapter-pg";
-import { hashPassword } from "../app/lib/auth";
+import bcrypt from "bcryptjs";
 
 // Load env before creating Prisma client
 import { config as dotenvConfig } from "dotenv";
@@ -13,7 +13,18 @@ function createPrismaClient() {
     console.error("❌ DATABASE_URL not set");
     process.exit(1);
   }
-  const adapter = new PrismaPg({ connectionString });
+  const adapter = new PrismaPg(
+    (() => {
+      try {
+        const url = new URL(connectionString);
+        url.searchParams.delete("schema");
+        return url.toString();
+      } catch {
+        return connectionString;
+      }
+    })(),
+    { schema: process.env.DB_SCHEMA || "lango" },
+  );
   return new PrismaClient({ adapter });
 }
 
@@ -68,19 +79,34 @@ function randomHeatmapColor(): string {
 
 // ── Reference data ───────────────────────────────
 
+const LANGUAGE_META: Record<string, { code: string; uiLocale: string; script: string; direction: string }> = {
+  english: { code: "en", uiLocale: "en", script: "latn", direction: "ltr" },
+  spanish: { code: "es", uiLocale: "es", script: "latn", direction: "ltr" },
+  japanese: { code: "ja", uiLocale: "jp", script: "jpan", direction: "ltr" },
+  korean: { code: "ko", uiLocale: "ko", script: "hang", direction: "ltr" },
+  hindi: { code: "hi", uiLocale: "hi", script: "deva", direction: "ltr" },
+  german: { code: "de", uiLocale: "de", script: "latn", direction: "ltr" },
+  arabic: { code: "ar", uiLocale: "ar", script: "arab", direction: "rtl" },
+  french: { code: "fr", uiLocale: "fr", script: "latn", direction: "ltr" },
+  portuguese: { code: "pt", uiLocale: "pt", script: "latn", direction: "ltr" },
+  italian: { code: "it", uiLocale: "it", script: "latn", direction: "ltr" },
+  dutch: { code: "nl", uiLocale: "nl", script: "latn", direction: "ltr" },
+  indonesian: { code: "id", uiLocale: "id", script: "latn", direction: "ltr" },
+};
+
 const LANGUAGES = [
-  { id: "english", label: "English", native: "English", icon: "white-balance-sunny", iconColor: "#3f6900", isFeatured: true, corner: "tr" },
-  { id: "spanish", label: "Spanish", native: "Español", icon: "white-balance-sunny", iconColor: "#3f6900", isFeatured: true, corner: "none" },
-  { id: "japanese", label: "Japanese", native: "日本語", icon: "flower", iconColor: "#ba1a1a", isFeatured: false, corner: "bl" },
-  { id: "korean", label: "Korean", native: "한국어", icon: "flower", iconColor: "#785179", isFeatured: false, corner: "tl" },
-  { id: "hindi", label: "Hindi", native: "हिन्दी", icon: "flower", iconColor: "#006e2f", isFeatured: false, corner: "br" },
-  { id: "german", label: "German", native: "Deutsch", icon: "white-balance-sunny", iconColor: "#3f6900", isFeatured: false, corner: "tr" },
-  { id: "arabic", label: "Arabic", native: "العربية", icon: "domain", iconColor: "#006e2f", isFeatured: false, corner: "none" },
-  { id: "french", label: "French", native: "Français", icon: "silverware-fork-knife", iconColor: "#785179", isFeatured: false, corner: "tl" },
-  { id: "portuguese", label: "Portuguese", native: "Português", icon: "white-balance-sunny", iconColor: "#3f6900", isFeatured: false, corner: "bl" },
-  { id: "italian", label: "Italian", native: "Italiano", icon: "silverware-fork-knife", iconColor: "#785179", isFeatured: false, corner: "br" },
-  { id: "dutch", label: "Dutch", native: "Nederlands", icon: "white-balance-sunny", iconColor: "#3f6900", isFeatured: false, corner: "tr" },
-  { id: "indonesian", label: "Indonesian", native: "Bahasa Indonesia", icon: "white-balance-sunny", iconColor: "#3f6900", isFeatured: false, corner: "none" },
+  { id: "english", code: "en", uiLocale: "en", script: "latn", direction: "ltr", label: "English", native: "English", icon: "white-balance-sunny", iconColor: "#3f6900", isFeatured: true, corner: "tr" },
+  { id: "spanish", code: "es", uiLocale: "es", script: "latn", direction: "ltr", label: "Spanish", native: "Español", icon: "white-balance-sunny", iconColor: "#3f6900", isFeatured: true, corner: "none" },
+  { id: "japanese", code: "ja", uiLocale: "jp", script: "jpan", direction: "ltr", label: "Japanese", native: "日本語", icon: "flower", iconColor: "#ba1a1a", isFeatured: false, corner: "bl" },
+  { id: "korean", code: "ko", uiLocale: "ko", script: "hang", direction: "ltr", label: "Korean", native: "한국어", icon: "flower", iconColor: "#785179", isFeatured: false, corner: "tl" },
+  { id: "hindi", code: "hi", uiLocale: "hi", script: "deva", direction: "ltr", label: "Hindi", native: "हिन्दी", icon: "flower", iconColor: "#006e2f", isFeatured: false, corner: "br" },
+  { id: "german", code: "de", uiLocale: "de", script: "latn", direction: "ltr", label: "German", native: "Deutsch", icon: "white-balance-sunny", iconColor: "#3f6900", isFeatured: false, corner: "tr" },
+  { id: "arabic", code: "ar", uiLocale: "ar", script: "arab", direction: "rtl", label: "Arabic", native: "العربية", icon: "domain", iconColor: "#006e2f", isFeatured: false, corner: "none" },
+  { id: "french", code: "fr", uiLocale: "fr", script: "latn", direction: "ltr", label: "French", native: "Français", icon: "silverware-fork-knife", iconColor: "#785179", isFeatured: false, corner: "tl" },
+  { id: "portuguese", code: "pt", uiLocale: "pt", script: "latn", direction: "ltr", label: "Portuguese", native: "Português", icon: "white-balance-sunny", iconColor: "#3f6900", isFeatured: false, corner: "bl" },
+  { id: "italian", code: "it", uiLocale: "it", script: "latn", direction: "ltr", label: "Italian", native: "Italiano", icon: "silverware-fork-knife", iconColor: "#785179", isFeatured: false, corner: "br" },
+  { id: "dutch", code: "nl", uiLocale: "nl", script: "latn", direction: "ltr", label: "Dutch", native: "Nederlands", icon: "white-balance-sunny", iconColor: "#3f6900", isFeatured: false, corner: "tr" },
+  { id: "indonesian", code: "id", uiLocale: "id", script: "latn", direction: "ltr", label: "Indonesian", native: "Bahasa Indonesia", icon: "white-balance-sunny", iconColor: "#3f6900", isFeatured: false, corner: "none" },
 ];
 
 const GOAL_OPTIONS = [
@@ -126,7 +152,10 @@ async function seedReferenceData() {
   console.log("🌱  Seeding reference data...");
 
   for (const lang of LANGUAGES) {
-    await prisma.language.upsert({ where: { id: lang.id }, update: lang, create: lang });
+    const meta = LANGUAGE_META[lang.id];
+    const data = { ...lang, ...meta };
+    const { id, ...update } = data;
+    await prisma.language.upsert({ where: { id }, update, create: data });
   }
   console.log(`  ✓ ${LANGUAGES.length} languages`);
 
@@ -243,7 +272,7 @@ async function seedUserData(user: SeedUserConfig, idx: number) {
 
   const userId = crypto.randomUUID();
 
-  const passwordHash = await hashPassword(password);
+  const passwordHash = await bcrypt.hash(password, 12);
 
   // 1. User
   await prisma.user.create({
@@ -251,10 +280,15 @@ async function seedUserData(user: SeedUserConfig, idx: number) {
       id: userId,
       email,
       name,
-      password: passwordHash,
+      passwordHash: passwordHash,
       avatarUrl: null,
-      nativeLanguage: "English",
-      learningLanguage: "Spanish",
+      nativeLanguage: "en",
+      learningLanguage: "es",
+      targetLanguage: "es",
+      activeLanguageCode: "es",
+      uiLocale: "en",
+      explanationLocale: "en",
+      curriculumLevel: "A1",
       dailyGoalMinutes: 15,
       streakDays: 12,
       badge: idx === 0 ? "Master Polyglot" : "Rising Star",
@@ -276,7 +310,7 @@ async function seedUserData(user: SeedUserConfig, idx: number) {
 
   // 3. LearningSettings
   await prisma.learningSettings.create({
-    data: { userId, dailyGoalMinutes: 20, targetLanguage: "Spanish", tutorVoice: "Mateo (Natural)" },
+    data: { userId, dailyGoalMinutes: 20, targetLanguage: "es", tutorVoice: "Mateo (Natural)" },
   });
 
   // 4. NotificationSettings

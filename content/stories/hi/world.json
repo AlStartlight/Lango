@@ -1,0 +1,1211 @@
+{
+  "id": "hi-monsoon-letters",
+  "languageCode": "hi",
+  "slug": "monsoon-letters",
+  "title": "Monsoon Letters",
+  "nativeTitle": "मानसून के खत",
+  "logline": "Aarav comes back from Delhi for one monsoon to help at his uncle's chai stall, and the brass tin of letters his father left behind begins to rearrange the family's plans.",
+  "setting": "Jaipur, present day. A fictional lane called नीम की गली (Neem Lane) in the old city, five minutes on foot from Johari Bazaar: the family chai stall चाचा की चाय, Nani's old haveli, the rooftop, the neighbourhood temple wall, Jaipur Junction, and Priya's block-printing studio towards Sanganer.",
+  "era": "Present day; the first monsoon rains (late June to July), then Diwali (October–November), then Makar Sankranti (January).",
+  "tone": "Warm, rain-soaked slice-of-life with a quiet family mystery, dry jokes, and the everyday noise of a chai stall.",
+  "palette": "#3A4A6B",
+  "motifs": [
+    "पहली बारिश",
+    "कुल्हड़ की चाय",
+    "पीतल की डिब्बी",
+    "खत",
+    "पतंग",
+    "लकड़ी का छापा",
+    "नीम की गली",
+    "छत"
+  ],
+  "sensitivityNotes": [
+    "Rated 13+: no explicit sex, graphic violence, hate speech, or political campaigning.",
+    "Aarav's father left nine years ago. The story never says he was right or wrong to leave; it shows what his letters asked for and what the family chose to do with them.",
+    "Nani's health is mentioned lightly; her treatment and any decline happen off the page and she keeps her own goals and opinions.",
+    "Monsoon is written as weather people live with, not as disaster spectacle; no poverty porn and no flood voyeurism.",
+    "Diwali and Makar Sankranti are shown as ordinary family and neighbourhood practice, not as tourist performances.",
+    "No 'spiritual India' clichés and no Bollywood references; the characters are contemporary Jaipur residents with jobs, rent, and opinions.",
+    "Neem Lane, the stall, and the family are fictional; real Jaipur places are used with respect and verified sources."
+  ],
+  "canon": {
+    "fictionalLane": "नीम की गली (Neem Lane): a fictional lane in Jaipur's old city, five minutes on foot from Johari Bazaar, named for an old neem tree at its mouth.",
+    "fictionalStall": "चाचा की चाय (Chacha's Chai): the family chai stall on Neem Lane, run by Anil, Aarav's uncle.",
+    "realAnchors": [
+      "Southwest monsoon over eastern Rajasthan",
+      "Jaipur Junction and North Western Railway",
+      "Johari Bazaar and the walled city",
+      "Jaipur City UNESCO World Heritage Site (2019)",
+      "Sanganer and Bagru hand block printing",
+      "Diwali in Kartik",
+      "Makar Sankranti kites at Jal Mahal",
+      "Marble and stone carving in Jaipur"
+    ],
+    "timeline": "Present day. The first monsoon in late June–July, Diwali in October–November, Makar Sankranti in January.",
+    "rules": [
+      "Aarav is 23, has lived in Delhi for five years, and came back for one monsoon to help at the stall.",
+      "Nani is 75 and has kept seventeen letters from Aarav's father in a brass tin under the stall counter.",
+      "The father left nine years ago when Aarav was fourteen. Not all of the letters were ever posted.",
+      "Priya is 24, a block-printing designer who works towards Sanganer and grew up in the same lane.",
+      "The stall is open from five in the morning; the first kettle is for the night-shift auto drivers.",
+      "Neem Lane and Chacha's Chai are fictional; the real city around them is not renamed or mocked."
+    ]
+  },
+  "levels": [
+    {
+      "tier": "T1",
+      "framework": "CEFR",
+      "levelCode": "A1",
+      "label": "CEFR A1",
+      "idPart": "a1",
+      "position": 1
+    },
+    {
+      "tier": "T2",
+      "framework": "CEFR",
+      "levelCode": "A2",
+      "label": "CEFR A2",
+      "idPart": "a2",
+      "position": 2
+    },
+    {
+      "tier": "T3",
+      "framework": "CEFR",
+      "levelCode": "B1",
+      "label": "CEFR B1",
+      "idPart": "b1",
+      "position": 3
+    },
+    {
+      "tier": "T4",
+      "framework": "CEFR",
+      "levelCode": "B2",
+      "label": "CEFR B2",
+      "idPart": "b2",
+      "position": 4
+    },
+    {
+      "tier": "T5",
+      "framework": "CEFR",
+      "levelCode": "C1",
+      "label": "CEFR C1",
+      "idPart": "c1",
+      "position": 5
+    }
+  ],
+  "characters": [
+    {
+      "id": "hi-monsoon-letters-aarav",
+      "name": "Aarav",
+      "nativeName": "आरव",
+      "role": "Protagonist, 23, back from Delhi, helps at the family chai stall for one monsoon",
+      "age": 23,
+      "bio": "Aarav left Jaipur at eighteen for a design course in Delhi and built a fast, rented life there. He comes back for one monsoon to cover the stall while his uncle travels, intending to be gone before the rain stops. He is good at fixing things and bad at sitting still.",
+      "speechStyle": "Quick, practical, a little too dry when he is nervous; polite to elders, teasing with Priya.",
+      "quote": "मैं बस एक मानसून के लिए आया हूँ।",
+      "position": 1,
+      "lexeme": {
+        "id": "hi-char-aarav",
+        "native": "आरव",
+        "gloss": {
+          "id": "Aarav",
+          "en": "Aarav"
+        },
+        "tags": [
+          "protagonist"
+        ]
+      }
+    },
+    {
+      "id": "hi-monsoon-letters-nani",
+      "name": "Nani",
+      "nativeName": "नानी",
+      "role": "Nani, 75, keeps the family's letters in a brass tin and remembers more than she says",
+      "age": 75,
+      "bio": "Nani has run the household and half the lane's memory for forty years. She keeps her son-in-law's letters in a brass tin under the stall counter and has never explained why. She is sharper than her knees and refuses to be managed.",
+      "speechStyle": "Short sentences, dry humour, Rajasthani words dropped in and glossed for Aarav; never raises her voice.",
+      "quote": "चिट्ठियाँ डिब्बी में रहती हैं, बाहर नहीं।",
+      "position": 2,
+      "lexeme": {
+        "id": "hi-char-nani",
+        "native": "नानी",
+        "gloss": {
+          "id": "Nani",
+          "en": "Nani"
+        },
+        "tags": [
+          "mentor",
+          "memory"
+        ]
+      }
+    },
+    {
+      "id": "hi-monsoon-letters-anil",
+      "name": "Anil Chacha",
+      "nativeName": "अनिल चाचा",
+      "role": "Aarav's uncle, 50, owner of the chai stall and keeper of its routine",
+      "age": 50,
+      "bio": "Anil took over the stall from his father and has boiled the same recipe for twenty-four years. He is away for the first weeks of monsoon, looking at a second-hand urn in Kota, and leaves Aarav in charge with a list of instructions and no explanation of the tin.",
+      "speechStyle": "Warm, teasing, gives instructions in threes; argues about cricket and tea strength.",
+      "quote": "चाय का स्वाद चूल्हे से आता है, मिक्सर से नहीं।",
+      "position": 3,
+      "lexeme": {
+        "id": "hi-char-anil",
+        "native": "अनिल चाचा",
+        "gloss": {
+          "id": "Anil Chacha",
+          "en": "Anil Chacha"
+        },
+        "tags": [
+          "role"
+        ]
+      }
+    },
+    {
+      "id": "hi-monsoon-letters-priya",
+      "name": "Priya",
+      "nativeName": "प्रिया",
+      "role": "Aarav's childhood friend, 24, block-printing designer with a studio towards Sanganer",
+      "age": 24,
+      "bio": "Priya designs printed textiles for a small studio and does the fine registration work that machines still cannot fake. She stayed in Jaipur by choice and has strong opinions about what the lane should keep and what it should let go. She remembers Aarav before Delhi made him tidy.",
+      "speechStyle": "Fast, funny, exact about craft; switches to Hindi instantly when she is annoyed.",
+      "quote": "छापा दोहराता है, पर हर कपड़ा अलग होता है।",
+      "position": 4,
+      "lexeme": {
+        "id": "hi-char-priya",
+        "native": "प्रिया",
+        "gloss": {
+          "id": "Priya",
+          "en": "Priya"
+        },
+        "tags": [
+          "friend"
+        ]
+      }
+    },
+    {
+      "id": "hi-monsoon-letters-ramesh",
+      "name": "Ramesh",
+      "nativeName": "रमेश",
+      "role": "The neighbourhood postman, 45, walks the lane twice a day",
+      "age": 45,
+      "bio": "Ramesh has delivered mail in the old city for nineteen years and knows which houses still wait for letters. He does not open mail, but he notices handwriting and postmarks, and he keeps his own quiet record of undeliverable post.",
+      "speechStyle": "Slow, formal, fond of official words used with a straight face.",
+      "quote": "पुराने पते भी कभी-कभी सही निकलते हैं।",
+      "position": 5,
+      "lexeme": {
+        "id": "hi-char-ramesh",
+        "native": "रमेश",
+        "gloss": {
+          "id": "Ramesh",
+          "en": "Ramesh"
+        },
+        "tags": [
+          "role"
+        ]
+      }
+    }
+  ],
+  "lexicon": {
+    "person": [
+      {
+        "id": "hi-w-person-grahak",
+        "native": "चाय का ग्राहक",
+        "gloss": {
+          "id": "pelanggan teh",
+          "en": "the chai customer"
+        },
+        "tags": [
+          "role"
+        ]
+      },
+      {
+        "id": "hi-w-person-padosi",
+        "native": "पड़ोसी",
+        "gloss": {
+          "id": "tetangga",
+          "en": "the neighbour"
+        }
+      },
+      {
+        "id": "hi-w-person-ladka",
+        "native": "गली का लड़का",
+        "gloss": {
+          "id": "anak lelaki dari gang",
+          "en": "the boy from the lane"
+        }
+      },
+      {
+        "id": "hi-w-person-bua",
+        "native": "सब्ज़ी वाली बुआ",
+        "gloss": {
+          "id": "bibi penjual sayur",
+          "en": "the vegetable auntie"
+        }
+      }
+    ],
+    "place": [
+      {
+        "id": "hi-w-place-gali",
+        "native": "नीम की गली",
+        "gloss": {
+          "id": "Gang Neem",
+          "en": "Neem Lane"
+        },
+        "tags": [
+          "home"
+        ]
+      },
+      {
+        "id": "hi-w-place-stall",
+        "native": "चाय की दुकान",
+        "gloss": {
+          "id": "kedai teh",
+          "en": "the chai stall"
+        },
+        "tags": [
+          "home",
+          "food"
+        ]
+      },
+      {
+        "id": "hi-w-place-bazaar",
+        "native": "जौहरी बाज़ार",
+        "gloss": {
+          "id": "Pasar Johari",
+          "en": "Johari Bazaar"
+        },
+        "tags": [
+          "city"
+        ]
+      },
+      {
+        "id": "hi-w-place-studio",
+        "native": "स्टूडियो",
+        "gloss": {
+          "id": "studio",
+          "en": "the studio"
+        },
+        "tags": [
+          "home"
+        ]
+      },
+      {
+        "id": "hi-w-place-station",
+        "native": "रेलवे स्टेशन",
+        "gloss": {
+          "id": "stasiun kereta",
+          "en": "the railway station"
+        },
+        "tags": [
+          "train"
+        ]
+      },
+      {
+        "id": "hi-w-place-haveli",
+        "native": "हवेली",
+        "gloss": {
+          "id": "haveli",
+          "en": "the haveli"
+        },
+        "tags": [
+          "home"
+        ]
+      },
+      {
+        "id": "hi-w-place-aangan",
+        "native": "आँगन",
+        "gloss": {
+          "id": "halaman dalam",
+          "en": "the courtyard"
+        },
+        "tags": [
+          "home"
+        ]
+      }
+    ],
+    "object": [
+      {
+        "id": "hi-w-object-kettle",
+        "native": "पीतल की केतली",
+        "gloss": {
+          "id": "ketel kuningan",
+          "en": "the brass kettle"
+        },
+        "tags": [
+          "mystery",
+          "clue"
+        ]
+      },
+      {
+        "id": "hi-w-object-kulhad",
+        "native": "कुल्हड़",
+        "gloss": {
+          "id": "cangkir tanah liat",
+          "en": "the clay cup"
+        },
+        "tags": [
+          "mystery",
+          "clue"
+        ]
+      },
+      {
+        "id": "hi-w-object-kite",
+        "native": "पतंग",
+        "gloss": {
+          "id": "layang-layang",
+          "en": "the kite"
+        },
+        "tags": [
+          "mystery",
+          "clue"
+        ]
+      },
+      {
+        "id": "hi-w-object-ticket",
+        "native": "टिकट",
+        "gloss": {
+          "id": "tiket kereta",
+          "en": "the train ticket"
+        },
+        "tags": [
+          "mystery",
+          "clue"
+        ]
+      },
+      {
+        "id": "hi-w-object-tin",
+        "native": "पीतल की डिब्बी",
+        "gloss": {
+          "id": "kotak kuningan",
+          "en": "the brass tin"
+        },
+        "tags": [
+          "mystery",
+          "clue"
+        ]
+      },
+      {
+        "id": "hi-w-object-block",
+        "native": "लकड़ी की छाप",
+        "gloss": {
+          "id": "blok cetak kayu",
+          "en": "the wooden printing block"
+        },
+        "tags": [
+          "mystery",
+          "clue"
+        ]
+      },
+      {
+        "id": "hi-w-object-marble",
+        "native": "संगमरमर",
+        "gloss": {
+          "id": "marmer",
+          "en": "the marble"
+        },
+        "tags": [
+          "mystery",
+          "clue"
+        ]
+      },
+      {
+        "id": "hi-w-object-letter",
+        "native": "खत",
+        "gloss": {
+          "id": "surat",
+          "en": "the letter"
+        },
+        "tags": [
+          "mystery",
+          "clue"
+        ]
+      },
+      {
+        "id": "hi-w-object-key",
+        "native": "पीतल की चाबी",
+        "gloss": {
+          "id": "kunci kuningan",
+          "en": "the brass key"
+        },
+        "tags": [
+          "mystery",
+          "clue"
+        ]
+      },
+      {
+        "id": "hi-w-object-map",
+        "native": "नक्शे की कॉपी",
+        "gloss": {
+          "id": "salinan peta",
+          "en": "the copy of the map"
+        },
+        "tags": [
+          "mystery",
+          "clue"
+        ]
+      }
+    ],
+    "food": [
+      {
+        "id": "hi-w-food-kachori",
+        "native": "प्याज़ की कचौरी",
+        "gloss": {
+          "id": "kacori bawang",
+          "en": "the onion kachori"
+        },
+        "tags": [
+          "anchor"
+        ]
+      },
+      {
+        "id": "hi-w-food-mirchi",
+        "native": "मिर्ची वड़ा",
+        "gloss": {
+          "id": "mirchi vada",
+          "en": "the mirchi vada"
+        },
+        "tags": [
+          "anchor"
+        ]
+      },
+      {
+        "id": "hi-w-food-ghevar",
+        "native": "घेवर",
+        "gloss": {
+          "id": "ghevar",
+          "en": "the ghewar"
+        },
+        "tags": [
+          "anchor"
+        ]
+      },
+      {
+        "id": "hi-w-food-baati",
+        "native": "दाल-बाटी-चूरमा",
+        "gloss": {
+          "id": "dal baati churma",
+          "en": "dal baati churma"
+        },
+        "tags": [
+          "anchor"
+        ]
+      },
+      {
+        "id": "hi-w-food-samosa",
+        "native": "समोसा",
+        "gloss": {
+          "id": "samosa",
+          "en": "the samosa"
+        }
+      }
+    ],
+    "drink": [
+      {
+        "id": "hi-w-drink-kulhad-chai",
+        "native": "कुल्हड़ की चाय",
+        "gloss": {
+          "id": "teh di cangkir tanah",
+          "en": "chai in a clay cup"
+        },
+        "tags": [
+          "anchor"
+        ]
+      },
+      {
+        "id": "hi-w-drink-adrak-chai",
+        "native": "अदरक की चाय",
+        "gloss": {
+          "id": "teh jahe",
+          "en": "ginger chai"
+        }
+      },
+      {
+        "id": "hi-w-drink-elaichi-chai",
+        "native": "इलायची की चाय",
+        "gloss": {
+          "id": "teh kapulaga",
+          "en": "cardamom chai"
+        }
+      },
+      {
+        "id": "hi-w-drink-nimbu",
+        "native": "नींबू पानी",
+        "gloss": {
+          "id": "air jeruk nipis",
+          "en": "lime water"
+        }
+      },
+      {
+        "id": "hi-w-drink-lassi",
+        "native": "लस्सी",
+        "gloss": {
+          "id": "lassi",
+          "en": "lassi"
+        }
+      }
+    ],
+    "time": [
+      {
+        "id": "hi-w-time-subah",
+        "native": "सुबह",
+        "gloss": {
+          "id": "pagi",
+          "en": "morning"
+        }
+      },
+      {
+        "id": "hi-w-time-dopahar",
+        "native": "दोपहर",
+        "gloss": {
+          "id": "siang",
+          "en": "afternoon"
+        }
+      },
+      {
+        "id": "hi-w-time-shaam",
+        "native": "शाम",
+        "gloss": {
+          "id": "sore",
+          "en": "evening"
+        }
+      },
+      {
+        "id": "hi-w-time-raat",
+        "native": "रात",
+        "gloss": {
+          "id": "malam",
+          "en": "night"
+        }
+      },
+      {
+        "id": "hi-w-time-bhor",
+        "native": "भोर",
+        "gloss": {
+          "id": "dini hari",
+          "en": "dawn"
+        }
+      }
+    ],
+    "weather": [
+      {
+        "id": "hi-w-weather-baarish",
+        "native": "बारिश हो रही है।",
+        "gloss": {
+          "id": "Hari sedang hujan.",
+          "en": "It is raining."
+        },
+        "tags": [
+          "rain"
+        ]
+      },
+      {
+        "id": "hi-w-weather-rimjhim",
+        "native": "रिमझिम बारिश हो रही है।",
+        "gloss": {
+          "id": "Hujan rintik-rintik turun.",
+          "en": "A light drizzle is falling."
+        },
+        "tags": [
+          "rain"
+        ]
+      },
+      {
+        "id": "hi-w-weather-badal",
+        "native": "बादल घिरे हैं।",
+        "gloss": {
+          "id": "Awan menggantung.",
+          "en": "Clouds have gathered."
+        },
+        "tags": [
+          "rain"
+        ]
+      },
+      {
+        "id": "hi-w-weather-garmi",
+        "native": "दोपहर की गर्मी है।",
+        "gloss": {
+          "id": "Panas siang terasa.",
+          "en": "The afternoon heat is heavy."
+        },
+        "tags": [
+          "warm"
+        ]
+      },
+      {
+        "id": "hi-w-weather-saaf",
+        "native": "आसमान साफ़ है।",
+        "gloss": {
+          "id": "Langit cerah.",
+          "en": "The sky is clear."
+        },
+        "tags": [
+          "clear"
+        ]
+      },
+      {
+        "id": "hi-w-weather-thandak",
+        "native": "हवा में ठंडक है।",
+        "gloss": {
+          "id": "Udara terasa sejuk.",
+          "en": "There is a coolness in the air."
+        },
+        "tags": [
+          "cold"
+        ]
+      }
+    ],
+    "action": [
+      {
+        "id": "hi-w-action-chai",
+        "native": "चाय बनाई",
+        "gloss": {
+          "id": "membuat teh",
+          "en": "made the chai"
+        }
+      },
+      {
+        "id": "hi-w-action-dukan",
+        "native": "दुकान खोली",
+        "gloss": {
+          "id": "membuka kedai",
+          "en": "opened the stall"
+        }
+      },
+      {
+        "id": "hi-w-action-kulhad",
+        "native": "कुल्हड़ धोए",
+        "gloss": {
+          "id": "mencuci cangkir tanah",
+          "en": "washed the clay cups"
+        }
+      },
+      {
+        "id": "hi-w-action-khat",
+        "native": "खत पढ़ा",
+        "gloss": {
+          "id": "membaca surat",
+          "en": "read the letter"
+        }
+      },
+      {
+        "id": "hi-w-action-gali",
+        "native": "गली साफ़ की",
+        "gloss": {
+          "id": "membersihkan gang",
+          "en": "cleared the lane"
+        }
+      },
+      {
+        "id": "hi-w-action-patang",
+        "native": "पतंग उड़ाई",
+        "gloss": {
+          "id": "menerbangkan layang-layang",
+          "en": "flew the kite"
+        }
+      }
+    ],
+    "quote": [
+      {
+        "id": "hi-w-quote-waisi",
+        "native": "चाय ठीक वैसी ही है",
+        "gloss": {
+          "id": "Tehnya persis sama.",
+          "en": "The chai tastes just the same."
+        }
+      },
+      {
+        "id": "hi-w-quote-baith",
+        "native": "बैठ जाओ, बारिश लंबी है",
+        "gloss": {
+          "id": "Duduklah, hujannya masih lama.",
+          "en": "Sit down, the rain is long."
+        }
+      },
+      {
+        "id": "hi-w-quote-dibba",
+        "native": "यह डिब्बी अभी मत खोलना",
+        "gloss": {
+          "id": "Jangan buka kotak ini dulu.",
+          "en": "Do not open this tin yet."
+        }
+      },
+      {
+        "id": "hi-w-quote-tumhare",
+        "native": "यह खत तुम्हारे लिए है",
+        "gloss": {
+          "id": "Surat ini untukmu.",
+          "en": "This letter is for you."
+        }
+      },
+      {
+        "id": "hi-w-quote-theek",
+        "native": "सब ठीक हो जाएगा",
+        "gloss": {
+          "id": "Semuanya akan baik-baik saja.",
+          "en": "Everything will be all right."
+        }
+      },
+      {
+        "id": "hi-w-quote-baat",
+        "native": "एक बात कहनी है",
+        "gloss": {
+          "id": "Ada satu hal yang ingin kukatakan.",
+          "en": "There is something I need to say."
+        }
+      }
+    ],
+    "question": [
+      {
+        "id": "hi-w-question-khat",
+        "native": "यह खत किसने लिखा?",
+        "gloss": {
+          "id": "Siapa yang menulis surat ini?",
+          "en": "Who wrote this letter?"
+        }
+      },
+      {
+        "id": "hi-w-question-nani",
+        "native": "नानी कहाँ हैं?",
+        "gloss": {
+          "id": "Di mana Nani?",
+          "en": "Where is Nani?"
+        }
+      },
+      {
+        "id": "hi-w-question-dibba",
+        "native": "यह डिब्बी किसकी है?",
+        "gloss": {
+          "id": "Kotak ini milik siapa?",
+          "en": "Whose tin is this?"
+        }
+      },
+      {
+        "id": "hi-w-question-wapas",
+        "native": "तुम वापस कब आओगे?",
+        "gloss": {
+          "id": "Kapan kamu akan kembali?",
+          "en": "When will you come back?"
+        }
+      },
+      {
+        "id": "hi-w-question-kholen",
+        "native": "हम इसे कब खोलेंगे?",
+        "gloss": {
+          "id": "Kapan kita akan membukanya?",
+          "en": "When will we open it?"
+        }
+      },
+      {
+        "id": "hi-w-question-kyun",
+        "native": "तुम यहाँ क्यों आए?",
+        "gloss": {
+          "id": "Mengapa kamu datang ke sini?",
+          "en": "Why did you come here?"
+        }
+      }
+    ],
+    "greeting": [
+      {
+        "id": "hi-w-greeting-namaste",
+        "native": "नमस्ते",
+        "gloss": {
+          "id": "Namaste",
+          "en": "Namaste"
+        }
+      },
+      {
+        "id": "hi-w-greeting-ramram",
+        "native": "राम-राम",
+        "gloss": {
+          "id": "Ram-Ram",
+          "en": "Ram-Ram"
+        }
+      },
+      {
+        "id": "hi-w-greeting-suprabhat",
+        "native": "सुप्रभात",
+        "gloss": {
+          "id": "Selamat pagi",
+          "en": "Good morning"
+        }
+      },
+      {
+        "id": "hi-w-greeting-sandhya",
+        "native": "शुभ संध्या",
+        "gloss": {
+          "id": "Selamat malam",
+          "en": "Good evening"
+        }
+      },
+      {
+        "id": "hi-w-greeting-khamma",
+        "native": "खम्मा घणी",
+        "gloss": {
+          "id": "Khammā ghaṇī (salam khas Rajasthan)",
+          "en": "Khammā ghaṇī (a Rajasthani greeting)"
+        }
+      }
+    ],
+    "emotion": [
+      {
+        "id": "hi-w-emotion-raahat",
+        "native": "राहत",
+        "gloss": {
+          "id": "kelegahan",
+          "en": "relief"
+        }
+      },
+      {
+        "id": "hi-w-emotion-bechaini",
+        "native": "बेचैनी",
+        "gloss": {
+          "id": "kegelisahan",
+          "en": "restlessness"
+        }
+      },
+      {
+        "id": "hi-w-emotion-ummeed",
+        "native": "उम्मीद",
+        "gloss": {
+          "id": "harapan",
+          "en": "hope"
+        }
+      },
+      {
+        "id": "hi-w-emotion-khushi",
+        "native": "खुशी",
+        "gloss": {
+          "id": "kebahagiaan",
+          "en": "happiness"
+        }
+      },
+      {
+        "id": "hi-w-emotion-ghabrahat",
+        "native": "घबराहट",
+        "gloss": {
+          "id": "kepanikan",
+          "en": "nervousness"
+        }
+      },
+      {
+        "id": "hi-w-emotion-aatmiyata",
+        "native": "आत्मीयता",
+        "gloss": {
+          "id": "kehangatan akrab",
+          "en": "closeness"
+        }
+      },
+      {
+        "id": "hi-w-emotion-thakan",
+        "native": "थकान",
+        "gloss": {
+          "id": "kelelahan",
+          "en": "tiredness"
+        }
+      }
+    ]
+  },
+  "anchors": [
+    {
+      "id": "hi-culture-0001",
+      "title": "पहली बारिश और मानसून",
+      "body": {
+        "id": "Monsun barat daya biasanya mencapai Rajasthan timur sekitar akhir Juni sampai awal Juli, dan sebagian besar hujan Jaipur turun antara Juli dan September. Hujan pertama setelah panas Mei–Juni disebut pehli baarish; bunyi kota berubah: terpal kedai, atap batu, dan gang yang tiba-tiba berbau tanah basah. Bagi keluarga kedai teh, hujan berarti lebih banyak pelanggan yang berteduh dan lebih sedikit waktu untuk duduk.",
+        "en": "The southwest monsoon usually reaches eastern Rajasthan around late June to early July, and most of Jaipur's rain falls between July and September. The first rain after the May–June heat is called pehli baarish; the sound of the city changes — tarpaulins, stone roofs, and lanes that suddenly smell of wet earth. For a chai-stall family, rain means more customers sheltering and less time to sit down."
+      },
+      "sources": [
+        "India Meteorological Department, Jaipur Met Centre — monsoon reports (mausam.imd.gov.in/jaipur)",
+        "India Meteorological Department, MAUSAM journal — monsoon onset over Rajasthan (mausamjournal.imd.gov.in)"
+      ],
+      "reflection": {
+        "id": "Mengapa suara kota bisa berubah begitu hujan pertama turun?",
+        "en": "Why can the sound of a city change with the first rain?"
+      },
+      "stampId": "hi-stamp-monsoon",
+      "tags": [
+        "rain",
+        "monsoon"
+      ]
+    },
+    {
+      "id": "hi-culture-0002",
+      "title": "कुल्हड़ की चाय",
+      "body": {
+        "id": "Chai di India biasanya direbus dengan susu, gula, dan rempah seperti jahe atau kapulaga. Di kedai kecil, chai sering disajikan dalam kulhad, cangkir tanah liat sekali pakai yang membuat aroma tanah bercampur dengan teh panas. Kedai chai juga berfungsi sebagai titik informasi lingkungan: siapa yang pulang, siapa yang sakit, kereta mana yang terlambat. Di Jaipur, teh diminum sepanjang hari, bukan hanya pagi.",
+        "en": "Indian chai is usually boiled with milk, sugar, and spices such as ginger or cardamom. At small stalls it is often served in a kulhad, a disposable clay cup whose earthy smell mixes with the hot tea. The chai stall also works as a neighbourhood information point: who is back, who is ill, which train is late. In Jaipur, tea is drunk all day, not only in the morning."
+      },
+      "sources": [
+        "Tea Board of India, 'Tea in India' (teaboard.gov.in)",
+        "Department of Tourism, Government of Rajasthan — cuisine and street food pages (tourism.rajasthan.gov.in)"
+      ],
+      "reflection": {
+        "id": "Mengapa secangkir teh bisa menjadi tempat orang bertukar kabar?",
+        "en": "Why can a cup of tea become a place where people exchange news?"
+      },
+      "stampId": "hi-stamp-chai",
+      "tags": [
+        "chai",
+        "food"
+      ]
+    },
+    {
+      "id": "hi-culture-0003",
+      "title": "दिवाली और घर की सफ़ाई",
+      "body": {
+        "id": "Diwali adalah festival lima hari yang puncaknya jatuh pada malam tanpa bulan (amavasya) di bulan Kartik, biasanya Oktober–November. Rumah dibersihkan, lampu tanah liat dinyalakan, dan pintu masuk dihiasi rangoli. Dua hari sebelumnya, Dhanteras, orang membeli barang baru — dari peralatan dapur sampai logam mulia. Di gang pemukiman, yang paling terasa bukan kembang api, melainkan kerja bersama: mengecat pagar, membagi mithai, dan menyalakan lampu di atap.",
+        "en": "Diwali is a five-day festival whose main night falls on the new moon (amavasya) of Kartik, usually in October–November. Homes are cleaned, clay lamps are lit, and doorways are decorated with rangoli. Two days earlier, on Dhanteras, people buy something new — from kitchenware to precious metal. In a residential lane, what is most visible is not fireworks but shared work: repainting a gate, sharing mithai, and lighting lamps on the roof."
+      },
+      "sources": [
+        "Encyclopaedia Britannica, 'Diwali' (britannica.com/topic/Diwali-Hindu-festival)",
+        "Ministry of Tourism, Government of India — Incredible India, Diwali pages (incredibleindia.gov.in)"
+      ],
+      "reflection": {
+        "id": "Mengapa festival besar sering terasa paling nyata dalam kerja kecil bersama?",
+        "en": "Why does a big festival often feel most real in small shared work?"
+      },
+      "stampId": "hi-stamp-diwali",
+      "tags": [
+        "diwali",
+        "festival"
+      ]
+    },
+    {
+      "id": "hi-culture-0004",
+      "title": "मकर संक्रांति और पतंग",
+      "body": {
+        "id": "Makar Sankranti jatuh pada pertengahan Januari dan di Rajasthan ditandai dengan menerbangkan layang-layang dari atap. Departemen Pariwisata Rajasthan rutin menggelar festival layang-layang di tepi Jal Mahal, dengan pameran layang-layang dan lomba kecil. Di gang, layang-layang lebih dulu muncul di atap daripada di poster: anak-anak, paman-paman, dan kadang satu keluarga penuh berdesakan di tembok atap. Benang layang-layang bisa melukai burung dan orang, jadi banyak keluarga sekarang memakai benang katun biasa.",
+        "en": "Makar Sankranti falls in mid-January and in Rajasthan is marked by flying kites from rooftops. The Rajasthan Tourism Department regularly organises a kite festival on the Jal Mahal embankment, with kite exhibitions and small competitions. In a lane, kites appear on rooftops before they appear on posters: children, uncles, and sometimes a whole family crowded against the roof wall. Kite string can injure birds and people, so many families now use plain cotton string."
+      },
+      "sources": [
+        "Department of Tourism, Government of Rajasthan — Jaipur Kite Festival (tourism.rajasthan.gov.in)",
+        "News On Air, All India Radio — 'Rajasthan celebrates Makar Sankranti' (newsonair.gov.in)"
+      ],
+      "reflection": {
+        "id": "Apa yang berubah ketika satu tradisi berpindah dari atap ke panggung festival?",
+        "en": "What changes when a tradition moves from the rooftop to a festival stage?"
+      },
+      "stampId": "hi-stamp-kite",
+      "tags": [
+        "kite",
+        "festival"
+      ]
+    },
+    {
+      "id": "hi-culture-0005",
+      "title": "जयपुर जंक्शन और रेल",
+      "body": {
+        "id": "Jaipur Junction (kode stasiun JP) adalah salah satu stasiun tersibuk di Rajasthan dan berada di bawah North Western Railway. Kereta malam dari Delhi membawa banyak orang pulang ke kota ini, dan peronnya menjadi tempat pertama orang bertemu keluarga. Bagi keluarga yang anggotanya merantau, jadwal kereta lebih dipercaya daripada janji lewat telepon: tiket, keterlambatan, dan nomor peron adalah bahan percakapan sehari-hari.",
+        "en": "Jaipur Junction (station code JP) is one of Rajasthan's busiest stations and belongs to North Western Railway. Overnight trains from Delhi bring many people back to the city, and the platform is where families first meet. For families with members working away, train timetables are trusted more than promises made on the phone: tickets, delays, and platform numbers are everyday conversation."
+      },
+      "sources": [
+        "North Western Railway, Indian Railways — Jaipur Division (nwr.indianrailways.gov.in)",
+        "Indian Railways — station code directory (indianrailways.gov.in)"
+      ],
+      "reflection": {
+        "id": "Mengapa jadwal kereta bisa lebih dipercaya daripada janji?",
+        "en": "Why can a train timetable feel more trustworthy than a promise?"
+      },
+      "stampId": "hi-stamp-train",
+      "tags": [
+        "train"
+      ]
+    },
+    {
+      "id": "hi-culture-0006",
+      "title": "ब्लॉक प्रिंटिंग: सांगानेर और बागरू",
+      "body": {
+        "id": "Cetak blok tangan adalah kerajinan mencetak kain dengan blok kayu yang diukir tangan, dicelup ke pewarna, lalu ditekan berulang kali dengan posisi yang harus tepat. Sanganer, sekitar 12 km dari Jaipur, dikenal dengan motif bunga halus di atas kain putih; Bagru dikenal dengan teknik dabu, perintang lumpur yang melindungi kain dari pewarna, serta pewarna alami seperti indigo dan madder. Karena setiap blok dicetak manual, kesalahan kecil dan variasi warna adalah bagian dari hasilnya, bukan cacat.",
+        "en": "Hand block printing is the craft of printing cloth with hand-carved wooden blocks that are dipped in dye and pressed repeatedly with precise registration. Sanganer, about 12 km from Jaipur, is known for fine floral motifs on white cloth; Bagru is known for dabu, a mud resist that shields cloth from dye, and for natural dyes such as indigo and madder. Because every block is printed by hand, small misregistrations and colour variation are part of the result, not a defect."
+      },
+      "sources": [
+        "Textiles Committee, Ministry of Textiles, Government of India — 'The Ethnic Printing Clusters: Sanganer, Bagru' (txcindia.gov.in)",
+        "Department of Tourism, Government of Rajasthan — Sanganer (tourism.rajasthan.gov.in)",
+        "UNESCO Creative Cities Network — Jaipur, City of Crafts and Folk Art (unesco.org/en/creative-cities/jaipur)"
+      ],
+      "reflection": {
+        "id": "Mengapa ketidaksempurnaan kecil justru menjadi tanda bahwa sesuatu dibuat tangan?",
+        "en": "Why can small imperfections be the sign that something was made by hand?"
+      },
+      "stampId": "hi-stamp-block",
+      "tags": [
+        "craft",
+        "printing"
+      ]
+    },
+    {
+      "id": "hi-culture-0007",
+      "title": "गलियाँ, बाज़ार और गुलाबी शहर",
+      "body": {
+        "id": "Jaipur didirikan pada 1727 oleh Sawai Jai Singh II dengan denah kisi yang tidak biasa untuk kota India pada masa itu. Kota bertembok ini masuk daftar Warisan Dunia UNESCO pada 2019, antara lain karena tata ruangnya dan fasad plester kapur berwarna merah muda. Pasar-pasarnya tersusun menurut jenis dagangan: Johari Bazaar untuk perhiasan, Bapu Bazaar untuk tekstil dan sepatu. Bagi warga, warna merah muda bukan sekadar latar foto; itu aturan perawatan bangunan yang harus dipatuhi bersama.",
+        "en": "Jaipur was founded in 1727 by Sawai Jai Singh II with a grid plan that was unusual for an Indian city of that period. The walled city was inscribed on the UNESCO World Heritage List in 2019, partly for its town plan and its pink lime-plaster facades. Its bazaars are arranged by trade: Johari Bazaar for jewellery, Bapu Bazaar for textiles and shoes. For residents, the pink is not just a photo backdrop; it is a building-maintenance rule that everyone has to live with."
+      },
+      "sources": [
+        "UNESCO World Heritage Centre — 'Jaipur City, Rajasthan' (whc.unesco.org/en/list/1605)",
+        "Department of Tourism, Government of Rajasthan — Jaipur (tourism.rajasthan.gov.in)"
+      ],
+      "reflection": {
+        "id": "Apa bedanya kota yang dirawat sebagai warisan dan kota yang dirawat sebagai tempat tinggal?",
+        "en": "What is the difference between a city cared for as heritage and a city cared for as a home?"
+      },
+      "stampId": "hi-stamp-city",
+      "tags": [
+        "city",
+        "heritage"
+      ]
+    },
+    {
+      "id": "hi-culture-0008",
+      "title": "संगमरमर और पत्थर की कारीगरी",
+      "body": {
+        "id": "Jaipur memiliki tradisi panjang dalam memotong dan mengukir batu, terutama marmer dan batu pasir. Marmer Makrana dari Rajasthan telah lama dipakai untuk bangunan dan ornamen, dan di Jaipur keterampilan itu berkembang menjadi inlay: potongan batu warna disusun menjadi motif di permukaan marmer. Jantar Mantar, observatorium abad ke-18 yang menjadi Situs Warisan Dunia UNESCO, menunjukkan bahwa batu di kota ini juga dipakai untuk alat ukur, bukan hanya hiasan. Kini banyak bengkel kecil mengerjakan plakat, lantai, dan reparasi bangunan lama.",
+        "en": "Jaipur has a long tradition of cutting and carving stone, especially marble and sandstone. Makrana marble from Rajasthan has long been used for buildings and ornament, and in Jaipur the skill developed into inlay: coloured stone pieces set into a marble surface to form a pattern. The Jantar Mantar, an 18th-century observatory and UNESCO World Heritage Site, shows that stone here was also used for measuring instruments, not only decoration. Today many small workshops handle plaques, floors, and repairs to old buildings."
+      },
+      "sources": [
+        "UNESCO World Heritage Centre — 'The Jantar Mantar, Jaipur' (whc.unesco.org)",
+        "Department of Tourism, Government of Rajasthan — handicrafts pages (tourism.rajasthan.gov.in)"
+      ],
+      "reflection": {
+        "id": "Mengapa keterampilan batu bisa bertahan lebih lama daripada bangunan yang dibuatnya?",
+        "en": "Why can a stone-working skill outlast the buildings it makes?"
+      },
+      "stampId": "hi-stamp-marble",
+      "tags": [
+        "craft",
+        "marble"
+      ]
+    },
+    {
+      "id": "hi-culture-0009",
+      "title": "मेज़बानी: चाय और छाया",
+      "body": {
+        "id": "Kampanye pariwisata India 'Atithi Devo Bhava' (tamu adalah dewa) sering dikutip sebagai ringkasan keramahan India, tetapi dalam praktik sehari-hari keramahan lebih sederhana: memberi tempat duduk di tempat teduh, menuangkan air, dan tidak membiarkan tamu menunggu di luar panas. Di kedai chai, gelas pertama untuk tamu biasanya tidak dihitung, dan menolak terlalu keras justru dianggap tidak sopan. Keramahan di sini bukan pertunjukan; ia bekerja seperti aturan rumah.",
+        "en": "India's tourism campaign 'Atithi Devo Bhava' (the guest is god) is often quoted as a summary of Indian hospitality, but in daily practice hospitality is simpler: offering shade to sit in, pouring water, and not leaving a guest standing in the heat. At a chai stall the first glass for a guest is usually not counted, and refusing too firmly is considered impolite. Hospitality here is not a performance; it works like a house rule."
+      },
+      "sources": [
+        "Ministry of Tourism, Government of India — 'Atithi Devo Bhava' campaign (incredibleindia.gov.in)",
+        "Department of Tourism, Government of Rajasthan — culture pages (tourism.rajasthan.gov.in)"
+      ],
+      "reflection": {
+        "id": "Kapan keramahan menjadi beban, dan bagaimana orang menolaknya dengan sopan?",
+        "en": "When does hospitality become a burden, and how do people refuse it politely?"
+      },
+      "stampId": "hi-stamp-hospitality",
+      "tags": [
+        "hospitality"
+      ]
+    },
+    {
+      "id": "hi-culture-0010",
+      "title": "चिट्ठी, डाक और पुराने पते",
+      "body": {
+        "id": "India Post mengoperasikan salah satu jaringan pos terbesar di dunia, dan di kota-kota tua masih ada kantor pos lingkungan dengan kotak surat merah dan cap pos harian. Surat membawa tulisan tangan, perangko, dan tanggal cap pos — tiga hal yang tidak dimiliki pesan singkat. Bagi keluarga yang salah satu anggotanya pergi, surat bisa disimpan bertahun-tahun sebelum dibaca, atau tidak pernah dikirim sama sekali. Di cerita ini, kotak kuningan berisi surat-surat seperti itu: ditulis, dilipat, dan ditahan.",
+        "en": "India Post runs one of the world's largest postal networks, and older neighbourhoods still have local post offices with red letter boxes and daily postmarks. A letter carries handwriting, a stamp, and a postmark date — three things a text message does not. For a family with someone away, a letter can be kept for years before it is read, or never posted at all. In this story, the brass tin holds letters like that: written, folded, and held back."
+      },
+      "sources": [
+        "India Post, Department of Posts, Government of India (indiapost.gov.in)",
+        "India Post — philately and postal heritage pages (postagestamps.gov.in)"
+      ],
+      "reflection": {
+        "id": "Apa yang bisa disampaikan surat yang tidak bisa disampaikan pesan singkat?",
+        "en": "What can a letter say that a text message cannot?"
+      },
+      "stampId": "hi-stamp-letter",
+      "tags": [
+        "letters"
+      ]
+    }
+  ],
+  "arcs": [
+    {
+      "tier": "T1",
+      "seasonNo": 1,
+      "title": "The First Rain",
+      "nativeTitle": "पहली बारिश",
+      "synopsis": "Aarav arrives from Delhi on the night train and finds the stall half closed and the lane waiting for rain. He opens the stall with Nani, learns the morning rush, and misplaces the brass kettle on the very first day.",
+      "mystery": "hi-w-object-kettle",
+      "cliffhanger": "The brass kettle is found at the railway station with a fresh clay cup inside it, and the cup has a name scratched underneath."
+    },
+    {
+      "tier": "T1",
+      "seasonNo": 2,
+      "title": "Kites",
+      "nativeTitle": "पतंग",
+      "synopsis": "In January the lane moves to the rooftops for Makar Sankranti. Aarav is hopeless with kites, Priya is not, and a lost kite lands on Nani's roof with a paper tied to its string.",
+      "mystery": "hi-w-object-kite",
+      "cliffhanger": "The paper on the kite string is in Nani's handwriting, but Nani says she has not flown a kite in thirty years."
+    },
+    {
+      "tier": "T2",
+      "seasonNo": 1,
+      "title": "The Chai Stall",
+      "nativeTitle": "चाय की दुकान",
+      "synopsis": "Anil Chacha leaves Aarav in charge for two weeks with a list of instructions. Regulars test the new boy, the urn misbehaves, and a customer returns a clay cup she says she has been keeping for nine years.",
+      "mystery": "hi-w-object-kulhad",
+      "cliffhanger": "Under the cup, scratched into the clay, is the name of Aarav's father."
+    },
+    {
+      "tier": "T2",
+      "seasonNo": 2,
+      "title": "The Station",
+      "nativeTitle": "स्टेशन",
+      "synopsis": "Aarav goes to Jaipur Junction to collect a parcel and misses the last Delhi train on purpose. Ramesh the postman asks him to carry a letter to a platform instead of an address.",
+      "mystery": "hi-w-object-ticket",
+      "cliffhanger": "The ticket in the envelope is dated nine years ago, the week Aarav's father left."
+    },
+    {
+      "tier": "T3",
+      "seasonNo": 1,
+      "title": "Diwali",
+      "nativeTitle": "दिवाली",
+      "synopsis": "The lane cleans and paints itself for Diwali. Aarav wants to open the brass tin, Nani wants to finish the lamps first, and Priya points out that a family argument is also a kind of inheritance.",
+      "mystery": "hi-w-object-tin",
+      "cliffhanger": "Inside the tin the letters are arranged by year, and one envelope is still sealed with wax."
+    },
+    {
+      "tier": "T3",
+      "seasonNo": 2,
+      "title": "The Print Studio",
+      "nativeTitle": "छापाखाना",
+      "synopsis": "Priya takes a big order that needs a rare border pattern. The only matching block belongs to Nani's old trunk, and using it would print a family story onto forty metres of cloth.",
+      "mystery": "hi-w-object-block",
+      "cliffhanger": "The block prints a border that matches the edge of a letter in the tin exactly."
+    },
+    {
+      "tier": "T4",
+      "seasonNo": 1,
+      "title": "Jaipur",
+      "nativeTitle": "जयपुर",
+      "synopsis": "A proposal to turn the old haveli into a heritage hotel reaches Neem Lane. Everyone has an opinion: Nani about the courtyard, Anil about the stall's lease, Priya about what the lane actually needs.",
+      "mystery": "hi-w-object-map",
+      "cliffhanger": "The developer's map marks Neem Lane for demolition, and the stamp on it belongs to a firm Aarav recognises from Delhi."
+    },
+    {
+      "tier": "T4",
+      "seasonNo": 2,
+      "title": "Marble",
+      "nativeTitle": "संगमरमर",
+      "synopsis": "A marble cutter is hired to repair the haveli's courtyard. A broken piece of inlay carries half a name, and Nani will not say why she wants it kept rather than replaced.",
+      "mystery": "hi-w-object-marble",
+      "cliffhanger": "The other half of the name is carved on the signboard of the stall."
+    },
+    {
+      "tier": "T5",
+      "seasonNo": 1,
+      "title": "The Last Letter",
+      "nativeTitle": "आखिरी खत",
+      "synopsis": "A sealed letter finally surfaces, addressed to Aarav and written in a hand he half remembers. Nani will not open it for him, and Priya refuses to decide for him.",
+      "mystery": "hi-w-object-letter",
+      "cliffhanger": "The letter is dated tomorrow, and the postmark is from Jaipur."
+    },
+    {
+      "tier": "T5",
+      "seasonNo": 2,
+      "title": "After the Rain",
+      "nativeTitle": "बारिश के बाद",
+      "synopsis": "The monsoon returns without ceremony and the lane has decisions to make about the hotel, the stall, and the house. Aarav must choose whether to keep the tin, return it, or leave it where it has always been.",
+      "mystery": "hi-w-object-key",
+      "cliffhanger": "The key opens the tin, and the tin is empty except for the smell of rain and one new blank sheet."
+    }
+  ]
+}

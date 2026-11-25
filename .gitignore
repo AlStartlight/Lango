@@ -45,3 +45,16 @@ app/lib/generated/
 
 # clerk configuration (can include secrets)
 /.clerk/
+.npm-cache/
+.cache/
+/.prisma-engines/
+.prompt-assets/
+
+# local Chrome/CDP profiles used for screenshot tooling
+# (Chrome creates a SingletonSocket here; Tailwind/Turbopack will try to
+# read it and crash the CSS pipeline if it is not ignored)
+.tmp-chrome/
+.tmp-chrome-*/
+
+# generated story libraries (deterministic; rebuild with `npm run content:stories:generate`)
+content/stories/*/library/

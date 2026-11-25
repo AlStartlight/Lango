@@ -1,0 +1,1415 @@
+{
+  "id": "it-forno-di-nonna",
+  "languageCode": "it",
+  "slug": "forno-di-nonna",
+  "title": "Il Forno di Nonna",
+  "nativeTitle": "Il Forno di Nonna",
+  "logline": "Marco torna da Milano per vendere il forno di Nonna a Bologna e trova una pagina di ricetta scomparsa, una città che cambia e una famiglia che non ha mai finito di dirsi le cose.",
+  "setting": "Bologna: il forno di Nonna in una traversa di via del Pratello, il laboratorio dietro il bancone, il Mercato delle Erbe, i portici di via Saragozza e il portico di San Luca, il bar dei Portici, la pasticceria Rinaldi in via Indipendenza, il teatro Comunale e la sagra di Montebello, un paese immaginario sui colli.",
+  "era": "Presente; dall'autunno all'autunno successivo, attraverso Natale, la primavera della sagra e l'estate dei cantieri.",
+  "tone": "Slice-of-life caldo e concreto, con un mistero famigliare leggero, ironia bolognese e una rivalità che resta professionale e umana.",
+  "palette": "#8C3A2B",
+  "motifs": [
+    "la farina sulle mani",
+    "le arcate dei portici",
+    "il mattarello di legno",
+    "il vassoio di ottone",
+    "le tazzine dell'espresso",
+    "la nebbia sui colli",
+    "le luci del teatro",
+    "la saracinesca alle cinque"
+  ],
+  "sensitivityNotes": [
+    "Classificazione 13+: nessun sesso esplicito, nessuna violenza grafica, nessun discorso d'odio, nessuna campagna politica.",
+    "La rivalità tra il forno e la pasticceria Rinaldi resta professionale e umana: Ettore non è un cattivo, ha una sua dignità e un suo lavoro.",
+    "Nonna ha ottant'anni e le sue giornate hanno limiti fisici reali; la sua età non è una gag né un simbolo.",
+    "L'opera è mostrata come mestiere e istituzione civica, non come caricatura del cantante lirico.",
+    "Il dialetto bolognese compare solo come colore leggero e sempre glossato; il testo è in italiano standard.",
+    "La crisi economica delle piccole botteghe è raccontata con rispetto, senza romanticizzare la povertà.",
+    "Nessuna 'mafia', nessun cliché del cibo italiano generico: i dettagli sono bolognesi e verificabili.",
+    "Il Forno di Nonna, la pasticceria Rinaldi, il bar dei Portici, la sagra di Montebello e i personaggi sono inventati; i luoghi e le istituzioni citate sono reali."
+  ],
+  "canon": {
+    "fictionalPlaces": [
+      "Il Forno di Nonna, in una traversa inventata di via del Pratello",
+      "La pasticceria Rinaldi, in via Indipendenza (esercizio inventato)",
+      "Il bar dei Portici, sotto i portici di via Saragozza (esercizio inventato)",
+      "La sagra di Montebello, paese immaginario sui colli bolognesi",
+      "La traversa di via del Pratello dove si trova il forno"
+    ],
+    "realAnchors": [
+      "Bologna",
+      "via del Pratello",
+      "i portici di Bologna (UNESCO 2021)",
+      "il portico e il santuario di San Luca",
+      "il Mercato delle Erbe",
+      "il teatro Comunale di Bologna",
+      "via Indipendenza",
+      "la Mortadella Bologna IGP",
+      "le Due Torri e la Garisenda"
+    ],
+    "timeline": "T1: ottobre-novembre (autunno). T1 stagione 2: dicembre (Natale). T2: gennaio-febbraio. T3: aprile-maggio (sagra). T4: giugno-luglio (cantieri e caldo). T5: settembre-ottobre dell'anno successivo.",
+    "rules": [
+      "Marco ha 25 anni, lavora a Milano nella logistica per la ristorazione ed è in città per un mese all'inizio della storia.",
+      "Nonna Ada ha 80 anni, ha aperto il forno nel 1971 e si alza alle cinque anche la domenica.",
+      "Chiara ha 24 anni, lavora nella pasticceria di un albergo e vuole un laboratorio suo.",
+      "Ettore Rinaldi ha 50 anni, ha lavorato due anni nel forno da ragazzo e ha aperto la pasticceria Rinaldi nel 2001.",
+      "Sonia ha 45 anni e gestisce il bar dei Portici con il marito.",
+      "La pagina della ricetta è scritta a mano dalla madre di Nonna e manca dal quaderno dagli anni Ottanta.",
+      "Ettore conserva la pagina dal 2001, da quando ha lasciato il forno, e non l'ha mai usata.",
+      "La ricetta dei tortellini non è un segreto commerciale: è un documento di famiglia che nessuno ha mai voluto leggere fino in fondo.",
+      "La sagra di Montebello si tiene in maggio; il forno e la pasticceria Rinaldi vi partecipano ogni anno.",
+      "Il teatro Comunale è chiuso per restauro e riapre nel 2027; Chiara canta nel coro."
+    ]
+  },
+  "levels": [
+    {
+      "tier": "T1",
+      "framework": "CEFR",
+      "levelCode": "A1",
+      "label": "CEFR A1",
+      "idPart": "a1",
+      "position": 1
+    },
+    {
+      "tier": "T2",
+      "framework": "CEFR",
+      "levelCode": "A2",
+      "label": "CEFR A2",
+      "idPart": "a2",
+      "position": 2
+    },
+    {
+      "tier": "T3",
+      "framework": "CEFR",
+      "levelCode": "B1",
+      "label": "CEFR B1",
+      "idPart": "b1",
+      "position": 3
+    },
+    {
+      "tier": "T4",
+      "framework": "CEFR",
+      "levelCode": "B2",
+      "label": "CEFR B2",
+      "idPart": "b2",
+      "position": 4
+    },
+    {
+      "tier": "T5",
+      "framework": "CEFR",
+      "levelCode": "C1",
+      "label": "CEFR C1",
+      "idPart": "c1",
+      "position": 5
+    }
+  ],
+  "characters": [
+    {
+      "id": "it-forno-di-nonna-marco",
+      "name": "Marco",
+      "nativeName": "Marco",
+      "role": "Protagonista, 25 anni, torna a Bologna per salvare il forno di famiglia",
+      "age": 25,
+      "bio": "Marco lavora a Milano in una società di logistica per la ristorazione. Ama i numeri e le giornate prevedibili. Torna a Bologna per un mese, deciso a vendere il forno di Nonna, ma ogni mattina alle cinque il profumo del pane gli rende la decisione più difficile.",
+      "speechStyle": "Concreto, un po' secco quando è stanco; fa domande pratiche e arrossisce quando parla di sentimenti.",
+      "quote": "«Sono qui per sistemare le carte, non per restare.»",
+      "position": 1,
+      "lexeme": {
+        "id": "it-char-marco",
+        "native": "Marco",
+        "gloss": {
+          "id": "Marco",
+          "en": "Marco"
+        },
+        "tags": [
+          "protagonist"
+        ]
+      }
+    },
+    {
+      "id": "it-forno-di-nonna-nonna",
+      "name": "Nonna",
+      "nativeName": "Nonna",
+      "role": "Nonna di Marco, 80 anni, fornaia, testarda",
+      "age": 80,
+      "bio": "Nonna Ada ha aperto il forno di via del Pratello nel 1971 e non ha mai cambiato orario: cinque del mattino, anche la domenica. Ha le mani segnate dalla farina e un quaderno con le ricette scritte a mano. Non le piace parlare del passato, ma non ha buttato via niente.",
+      "speechStyle": "Poche parole, tono fermo, battute brevi; dice «vediamo» quando non vuole rispondere.",
+      "quote": "«Il forno non si vende come una macchina.»",
+      "position": 2,
+      "lexeme": {
+        "id": "it-char-nonna",
+        "native": "Nonna",
+        "gloss": {
+          "id": "Nonna",
+          "en": "Nonna"
+        },
+        "tags": [
+          "family"
+        ]
+      }
+    },
+    {
+      "id": "it-forno-di-nonna-chiara",
+      "name": "Chiara",
+      "nativeName": "Chiara",
+      "role": "Amica d'infanzia, 24 anni, pasticciera",
+      "age": 24,
+      "bio": "Chiara è cresciuta nel cortile dietro al forno e ora lavora nella pasticceria di un albergo in centro. Vuole un laboratorio tutto suo, ma non compra attrezzature che non può pagare. Conosce i clienti di Nonna meglio di quanto conosca le ricette nuove.",
+      "speechStyle": "Diretta, ironica, si accende quando si parla di dolci o di soprusi.",
+      "quote": "«La ricetta non è il segreto. Il segreto è chi la fa con te.»",
+      "position": 3,
+      "lexeme": {
+        "id": "it-char-chiara",
+        "native": "Chiara",
+        "gloss": {
+          "id": "Chiara",
+          "en": "Chiara"
+        },
+        "tags": [
+          "friend"
+        ]
+      }
+    },
+    {
+      "id": "it-forno-di-nonna-ettore",
+      "name": "Ettore",
+      "nativeName": "Ettore",
+      "role": "Fornaio rivale, 50 anni, titolare della pasticceria Rinaldi",
+      "age": 50,
+      "bio": "Ettore Rinaldi ha lavorato due anni nel forno di Nonna da ragazzo, poi se n'è andato dopo un litigio mai chiarito e ha aperto una pasticceria moderna in via Indipendenza. Le sue vetrine sono pulite, il caffè è buono e la domenica ha sempre la fila. Tiene una pagina scritta a mano in un cassetto da vent'anni e non sa più perché.",
+      "speechStyle": "Cortese, formale, con una punta di ironia amara; non alza mai la voce.",
+      "quote": "«La tradizione non è un museo. È una bottega aperta.»",
+      "position": 4,
+      "lexeme": {
+        "id": "it-char-ettore",
+        "native": "Ettore",
+        "gloss": {
+          "id": "Ettore",
+          "en": "Ettore"
+        },
+        "tags": [
+          "rival"
+        ]
+      }
+    },
+    {
+      "id": "it-forno-di-nonna-sonia",
+      "name": "Sonia",
+      "nativeName": "Sonia",
+      "role": "Barista del bar dei Portici, 45 anni, memoria del quartiere",
+      "age": 45,
+      "bio": "Sonia gestisce il bar dei Portici con il marito e conosce gli orari di tutti: chi va a lavorare, chi porta i figli a scuola, chi non passa più da mesi. Ha imparato a leggere le giornate dal numero di caffè al banco e non racconta mai un segreto due volte.",
+      "speechStyle": "Svelta, calorosa, fotografa le persone con una frase.",
+      "quote": "«Un espresso è breve. Il tempo per berlo no.»",
+      "position": 5,
+      "lexeme": {
+        "id": "it-char-sonia",
+        "native": "Sonia",
+        "gloss": {
+          "id": "Sonia",
+          "en": "Sonia"
+        },
+        "tags": [
+          "mentor"
+        ]
+      }
+    }
+  ],
+  "lexicon": {
+    "person": [
+      {
+        "id": "it-person-fornaio",
+        "native": "il fornaio",
+        "gloss": {
+          "id": "tukang roti",
+          "en": "the baker"
+        }
+      },
+      {
+        "id": "it-person-sfoglina",
+        "native": "la sfoglina",
+        "gloss": {
+          "id": "pembuat sfoglia",
+          "en": "the sfoglina, the pasta maker"
+        }
+      },
+      {
+        "id": "it-person-cliente",
+        "native": "il cliente abituale",
+        "gloss": {
+          "id": "pelanggan langganan",
+          "en": "the regular customer"
+        }
+      },
+      {
+        "id": "it-person-vicina",
+        "native": "la vicina di casa",
+        "gloss": {
+          "id": "tetangga",
+          "en": "the neighbour"
+        }
+      },
+      {
+        "id": "it-person-fruttivendolo",
+        "native": "il fruttivendolo del mercato",
+        "gloss": {
+          "id": "pedagang buah pasar",
+          "en": "the fruit seller at the market"
+        }
+      },
+      {
+        "id": "it-person-postino",
+        "native": "il postino",
+        "gloss": {
+          "id": "tukang pos",
+          "en": "the postman"
+        }
+      }
+    ],
+    "place": [
+      {
+        "id": "it-place-forno",
+        "native": "il forno di Nonna",
+        "gloss": {
+          "id": "toko roti Nonna",
+          "en": "Nonna's bakery"
+        },
+        "tags": [
+          "home"
+        ]
+      },
+      {
+        "id": "it-place-laboratorio",
+        "native": "il laboratorio",
+        "gloss": {
+          "id": "ruang kerja belakang",
+          "en": "the back kitchen"
+        },
+        "tags": [
+          "kitchen"
+        ]
+      },
+      {
+        "id": "it-place-mercato",
+        "native": "il Mercato delle Erbe",
+        "gloss": {
+          "id": "Pasar Mercato delle Erbe",
+          "en": "the Mercato delle Erbe"
+        },
+        "tags": [
+          "market"
+        ]
+      },
+      {
+        "id": "it-place-portici",
+        "native": "i portici di via Saragozza",
+        "gloss": {
+          "id": "portiko via Saragozza",
+          "en": "the porticoes of via Saragozza"
+        },
+        "tags": [
+          "city"
+        ]
+      },
+      {
+        "id": "it-place-stazione",
+        "native": "la stazione di Bologna",
+        "gloss": {
+          "id": "stasiun Bologna",
+          "en": "Bologna train station"
+        },
+        "tags": [
+          "travel"
+        ]
+      },
+      {
+        "id": "it-place-pasticceria",
+        "native": "la pasticceria Rinaldi",
+        "gloss": {
+          "id": "toko kue Rinaldi",
+          "en": "Rinaldi's pastry shop"
+        },
+        "tags": [
+          "rival"
+        ]
+      },
+      {
+        "id": "it-place-teatro",
+        "native": "il teatro Comunale",
+        "gloss": {
+          "id": "Teatro Comunale",
+          "en": "the Teatro Comunale"
+        },
+        "tags": [
+          "opera"
+        ]
+      },
+      {
+        "id": "it-place-bar",
+        "native": "il bar dei Portici",
+        "gloss": {
+          "id": "bar dei Portici",
+          "en": "the bar under the porticoes"
+        },
+        "tags": [
+          "espresso"
+        ]
+      },
+      {
+        "id": "it-place-sanluca",
+        "native": "il santuario di San Luca",
+        "gloss": {
+          "id": "kuil San Luca",
+          "en": "the Sanctuary of San Luca"
+        },
+        "tags": [
+          "city"
+        ]
+      },
+      {
+        "id": "it-place-sagra",
+        "native": "la sagra di Montebello",
+        "gloss": {
+          "id": "sagra Montebello",
+          "en": "the Montebello festival"
+        },
+        "tags": [
+          "sagra"
+        ]
+      }
+    ],
+    "object": [
+      {
+        "id": "it-object-pagina",
+        "native": "la pagina della ricetta",
+        "gloss": {
+          "id": "halaman resep",
+          "en": "the recipe page"
+        },
+        "tags": [
+          "mystery",
+          "clue"
+        ]
+      },
+      {
+        "id": "it-object-quaderno",
+        "native": "il quaderno di Nonna",
+        "gloss": {
+          "id": "buku catatan Nonna",
+          "en": "Nonna's notebook"
+        },
+        "tags": [
+          "clue"
+        ]
+      },
+      {
+        "id": "it-object-chiave",
+        "native": "la chiave del laboratorio",
+        "gloss": {
+          "id": "kunci ruang kerja",
+          "en": "the key to the back kitchen"
+        },
+        "tags": [
+          "clue"
+        ]
+      },
+      {
+        "id": "it-object-teglia",
+        "native": "la teglia di rame",
+        "gloss": {
+          "id": "loyang tembaga",
+          "en": "the copper baking tray"
+        },
+        "tags": [
+          "memory"
+        ]
+      },
+      {
+        "id": "it-object-foto",
+        "native": "la fotografia del 1987",
+        "gloss": {
+          "id": "foto tahun 1987",
+          "en": "the 1987 photograph"
+        },
+        "tags": [
+          "memory"
+        ]
+      },
+      {
+        "id": "it-object-lettera",
+        "native": "la lettera",
+        "gloss": {
+          "id": "surat",
+          "en": "the letter"
+        },
+        "tags": [
+          "clue"
+        ]
+      },
+      {
+        "id": "it-object-biglietto",
+        "native": "il biglietto",
+        "gloss": {
+          "id": "catatan kecil",
+          "en": "the note"
+        },
+        "tags": [
+          "clue"
+        ]
+      },
+      {
+        "id": "it-object-vassoio",
+        "native": "il vassoio di ottone",
+        "gloss": {
+          "id": "nampan kuningan",
+          "en": "the brass tray"
+        },
+        "tags": [
+          "memory"
+        ]
+      },
+      {
+        "id": "it-object-mattarello",
+        "native": "il mattarello di legno",
+        "gloss": {
+          "id": "penggilas kayu",
+          "en": "the wooden rolling pin"
+        },
+        "tags": [
+          "memory"
+        ]
+      },
+      {
+        "id": "it-object-tovaglia",
+        "native": "la tovaglia ricamata",
+        "gloss": {
+          "id": "taplak bordir",
+          "en": "the embroidered tablecloth"
+        },
+        "tags": [
+          "memory"
+        ]
+      }
+    ],
+    "food": [
+      {
+        "id": "it-food-tortellini",
+        "native": "i tortellini in brodo",
+        "gloss": {
+          "id": "tortellini dalam kuah kaldu",
+          "en": "tortellini in capon broth"
+        },
+        "tags": [
+          "anchor"
+        ]
+      },
+      {
+        "id": "it-food-sfoglia",
+        "native": "la sfoglia",
+        "gloss": {
+          "id": "adonan pasta tipis",
+          "en": "fresh egg pasta sheet"
+        },
+        "tags": [
+          "anchor"
+        ]
+      },
+      {
+        "id": "it-food-crescentine",
+        "native": "le crescentine",
+        "gloss": {
+          "id": "crescentine",
+          "en": "crescentine fried dough"
+        },
+        "tags": [
+          "anchor"
+        ]
+      },
+      {
+        "id": "it-food-friggione",
+        "native": "il friggione",
+        "gloss": {
+          "id": "friggione",
+          "en": "friggione, onion and tomato stew"
+        }
+      },
+      {
+        "id": "it-food-mortadella",
+        "native": "la mortadella",
+        "gloss": {
+          "id": "mortadella",
+          "en": "mortadella"
+        },
+        "tags": [
+          "anchor"
+        ]
+      },
+      {
+        "id": "it-food-cotoletta",
+        "native": "la cotoletta alla bolognese",
+        "gloss": {
+          "id": "cotoletta alla bolognese",
+          "en": "Bolognese cutlet"
+        }
+      },
+      {
+        "id": "it-food-tagliatelle",
+        "native": "le tagliatelle al ragù",
+        "gloss": {
+          "id": "tagliatelle dengan ragù",
+          "en": "tagliatelle al ragù"
+        }
+      },
+      {
+        "id": "it-food-pane",
+        "native": "il pane",
+        "gloss": {
+          "id": "roti",
+          "en": "bread"
+        },
+        "tags": [
+          "anchor"
+        ]
+      }
+    ],
+    "drink": [
+      {
+        "id": "it-drink-espresso",
+        "native": "l'espresso",
+        "gloss": {
+          "id": "espresso",
+          "en": "espresso"
+        },
+        "tags": [
+          "anchor"
+        ]
+      },
+      {
+        "id": "it-drink-macchiato",
+        "native": "il caffè macchiato",
+        "gloss": {
+          "id": "caffè macchiato",
+          "en": "caffè macchiato"
+        }
+      },
+      {
+        "id": "it-drink-acqua",
+        "native": "l'acqua frizzante",
+        "gloss": {
+          "id": "air soda",
+          "en": "sparkling water"
+        }
+      },
+      {
+        "id": "it-drink-te",
+        "native": "il tè",
+        "gloss": {
+          "id": "teh",
+          "en": "tea"
+        }
+      },
+      {
+        "id": "it-drink-vino",
+        "native": "il vino rosso",
+        "gloss": {
+          "id": "anggur merah",
+          "en": "red wine"
+        }
+      },
+      {
+        "id": "it-drink-latte",
+        "native": "il latte",
+        "gloss": {
+          "id": "susu",
+          "en": "milk"
+        }
+      }
+    ],
+    "time": [
+      {
+        "id": "it-time-mattina",
+        "native": "di mattina",
+        "gloss": {
+          "id": "pagi hari",
+          "en": "morning"
+        }
+      },
+      {
+        "id": "it-time-alba",
+        "native": "all'alba",
+        "gloss": {
+          "id": "saat fajar",
+          "en": "early morning"
+        }
+      },
+      {
+        "id": "it-time-mezzogiorno",
+        "native": "a mezzogiorno",
+        "gloss": {
+          "id": "tengah hari",
+          "en": "middle of the day"
+        }
+      },
+      {
+        "id": "it-time-pomeriggio",
+        "native": "di pomeriggio",
+        "gloss": {
+          "id": "sore hari",
+          "en": "afternoon"
+        }
+      },
+      {
+        "id": "it-time-sera",
+        "native": "di sera",
+        "gloss": {
+          "id": "malam hari",
+          "en": "evening"
+        }
+      },
+      {
+        "id": "it-time-domenica",
+        "native": "la domenica",
+        "gloss": {
+          "id": "hari Minggu",
+          "en": "Sunday morning"
+        }
+      },
+      {
+        "id": "it-time-autunno",
+        "native": "in autunno",
+        "gloss": {
+          "id": "musim gugur",
+          "en": "autumn"
+        }
+      },
+      {
+        "id": "it-time-sagra",
+        "native": "nel periodo della sagra",
+        "gloss": {
+          "id": "musim sagra",
+          "en": "festival season"
+        },
+        "tags": [
+          "sagra"
+        ]
+      }
+    ],
+    "weather": [
+      {
+        "id": "it-weather-freddo",
+        "native": "L'aria è fredda.",
+        "gloss": {
+          "id": "Udaranya dingin.",
+          "en": "The air is cold."
+        },
+        "tags": [
+          "cold"
+        ]
+      },
+      {
+        "id": "it-weather-nebbia",
+        "native": "C'è nebbia sulla città.",
+        "gloss": {
+          "id": "Ada kabut di kota.",
+          "en": "Fog hangs over the city."
+        },
+        "tags": [
+          "fog"
+        ]
+      },
+      {
+        "id": "it-weather-pioggia",
+        "native": "Piove da stanotte.",
+        "gloss": {
+          "id": "Hujan turun sejak tadi malam.",
+          "en": "It has been raining since last night."
+        },
+        "tags": [
+          "rain"
+        ]
+      },
+      {
+        "id": "it-weather-cerchio",
+        "native": "Il cielo è chiaro.",
+        "gloss": {
+          "id": "Langitnya cerah.",
+          "en": "The sky is clear."
+        },
+        "tags": [
+          "clear"
+        ]
+      },
+      {
+        "id": "it-weather-caldo",
+        "native": "L'aria è tiepida.",
+        "gloss": {
+          "id": "Udaranya hangat.",
+          "en": "The air is mild."
+        },
+        "tags": [
+          "warm"
+        ]
+      },
+      {
+        "id": "it-weather-vento",
+        "native": "Tira vento da est.",
+        "gloss": {
+          "id": "Angin bertiup dari timur.",
+          "en": "The wind blows from the east."
+        },
+        "tags": [
+          "wind"
+        ]
+      }
+    ],
+    "action": [
+      {
+        "id": "it-action-saracinesca",
+        "native": "apre la saracinesca",
+        "gloss": {
+          "id": "membuka rolling door",
+          "en": "opens the shutter"
+        }
+      },
+      {
+        "id": "it-action-sfoglia",
+        "native": "prepara la sfoglia",
+        "gloss": {
+          "id": "membuat sfoglia",
+          "en": "makes the pasta sheet"
+        }
+      },
+      {
+        "id": "it-action-bancone",
+        "native": "pulisce il bancone",
+        "gloss": {
+          "id": "membersihkan konter",
+          "en": "wipes the counter"
+        }
+      },
+      {
+        "id": "it-action-luci",
+        "native": "accende le luci",
+        "gloss": {
+          "id": "menyalakan lampu",
+          "en": "turns on the lights"
+        }
+      },
+      {
+        "id": "it-action-vassoi",
+        "native": "sistema i vassoi",
+        "gloss": {
+          "id": "menata nampan",
+          "en": "arranges the trays"
+        }
+      },
+      {
+        "id": "it-action-caffe",
+        "native": "mette su il caffè",
+        "gloss": {
+          "id": "menyeduh kopi",
+          "en": "puts the coffee on"
+        }
+      },
+      {
+        "id": "it-action-brodo",
+        "native": "scalda il brodo",
+        "gloss": {
+          "id": "memanaskan kaldu",
+          "en": "heats the broth"
+        }
+      },
+      {
+        "id": "it-action-menu",
+        "native": "scrive il menù",
+        "gloss": {
+          "id": "menulis menu",
+          "en": "writes the menu"
+        }
+      },
+      {
+        "id": "it-action-pane",
+        "native": "porta il pane",
+        "gloss": {
+          "id": "membawa roti",
+          "en": "brings the bread"
+        }
+      },
+      {
+        "id": "it-action-porta",
+        "native": "chiude la porta",
+        "gloss": {
+          "id": "menutup pintu",
+          "en": "closes the door"
+        }
+      }
+    ],
+    "quote": [
+      {
+        "id": "it-quote-non-vendo",
+        "native": "Non vendo la ricetta.",
+        "gloss": {
+          "id": "Aku tidak menjual resepnya.",
+          "en": "I'm not selling the recipe."
+        },
+        "tags": [
+          "mystery"
+        ]
+      },
+      {
+        "id": "it-quote-pagina",
+        "native": "La pagina non è qui.",
+        "gloss": {
+          "id": "Halamannya tidak ada di sini.",
+          "en": "The page is not here."
+        },
+        "tags": [
+          "mystery"
+        ]
+      },
+      {
+        "id": "it-quote-aperto",
+        "native": "Il forno resta aperto.",
+        "gloss": {
+          "id": "Toko roti tetap buka.",
+          "en": "The bakery stays open."
+        },
+        "tags": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "it-quote-grazie",
+        "native": "Grazie di essere tornato.",
+        "gloss": {
+          "id": "Terima kasih sudah pulang.",
+          "en": "Thank you for coming home."
+        },
+        "tags": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "it-quote-prima",
+        "native": "Non è come prima.",
+        "gloss": {
+          "id": "Ini tidak seperti dulu.",
+          "en": "It is not like before."
+        },
+        "tags": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "it-quote-sfoglia",
+        "native": "Facciamo la sfoglia insieme.",
+        "gloss": {
+          "id": "Kita buat sfoglia bersama.",
+          "en": "Let's make the pasta sheet together."
+        },
+        "tags": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "it-quote-sagra",
+        "native": "La sagra è nostra.",
+        "gloss": {
+          "id": "Sagra ini milik kita.",
+          "en": "The festival is ours."
+        },
+        "tags": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "it-quote-nome",
+        "native": "Questa ricetta ha un nome.",
+        "gloss": {
+          "id": "Resep ini punya nama.",
+          "en": "This recipe has a name."
+        },
+        "tags": [
+          "mystery"
+        ]
+      }
+    ],
+    "question": [
+      {
+        "id": "it-question-chi",
+        "native": "Chi ha scritto questa pagina?",
+        "gloss": {
+          "id": "Siapa yang menulis halaman ini?",
+          "en": "Who wrote this page?"
+        }
+      },
+      {
+        "id": "it-question-dove",
+        "native": "Dove è finita la ricetta?",
+        "gloss": {
+          "id": "Ke mana resepnya?",
+          "en": "Where did the recipe go?"
+        }
+      },
+      {
+        "id": "it-question-perche",
+        "native": "Perché sei tornato?",
+        "gloss": {
+          "id": "Kenapa kamu pulang?",
+          "en": "Why did you come back?"
+        }
+      },
+      {
+        "id": "it-question-quaderno",
+        "native": "Che cosa c'è nel quaderno?",
+        "gloss": {
+          "id": "Apa isi buku catatan itu?",
+          "en": "What is in the notebook?"
+        }
+      },
+      {
+        "id": "it-question-quando",
+        "native": "Quando apre il forno?",
+        "gloss": {
+          "id": "Jam berapa toko roti buka?",
+          "en": "When does the bakery open?"
+        }
+      },
+      {
+        "id": "it-question-sagra",
+        "native": "Chi c'era alla sagra?",
+        "gloss": {
+          "id": "Siapa yang ada di sagra?",
+          "en": "Who was at the festival?"
+        }
+      },
+      {
+        "id": "it-question-chiave",
+        "native": "Dov'è la chiave?",
+        "gloss": {
+          "id": "Di mana kuncinya?",
+          "en": "Where is the key?"
+        }
+      },
+      {
+        "id": "it-question-costo",
+        "native": "Quanto costa la sfoglia?",
+        "gloss": {
+          "id": "Berapa harga sfoglia?",
+          "en": "How much is the pasta sheet?"
+        }
+      }
+    ],
+    "greeting": [
+      {
+        "id": "it-greeting-buongiorno",
+        "native": "Buongiorno",
+        "gloss": {
+          "id": "Selamat pagi",
+          "en": "Good morning"
+        }
+      },
+      {
+        "id": "it-greeting-buonasera",
+        "native": "Buonasera",
+        "gloss": {
+          "id": "Selamat malam",
+          "en": "Good evening"
+        }
+      },
+      {
+        "id": "it-greeting-ciao",
+        "native": "Ciao",
+        "gloss": {
+          "id": "Hai",
+          "en": "Hi"
+        }
+      },
+      {
+        "id": "it-greeting-salve",
+        "native": "Salve",
+        "gloss": {
+          "id": "Halo",
+          "en": "Hello"
+        }
+      },
+      {
+        "id": "it-greeting-benvenuto",
+        "native": "Benvenuto",
+        "gloss": {
+          "id": "Selamat datang",
+          "en": "Welcome"
+        }
+      },
+      {
+        "id": "it-greeting-domani",
+        "native": "A domani",
+        "gloss": {
+          "id": "Sampai besok",
+          "en": "See you tomorrow"
+        }
+      }
+    ],
+    "emotion": [
+      {
+        "id": "it-emotion-nostalgia",
+        "native": "la nostalgia",
+        "gloss": {
+          "id": "kerinduan",
+          "en": "nostalgia"
+        }
+      },
+      {
+        "id": "it-emotion-sollievo",
+        "native": "il sollievo",
+        "gloss": {
+          "id": "kelegaan",
+          "en": "relief"
+        }
+      },
+      {
+        "id": "it-emotion-rabbia",
+        "native": "la rabbia",
+        "gloss": {
+          "id": "kemarahan",
+          "en": "anger"
+        }
+      },
+      {
+        "id": "it-emotion-tenerezza",
+        "native": "la tenerezza",
+        "gloss": {
+          "id": "kelembutan hati",
+          "en": "tenderness"
+        }
+      },
+      {
+        "id": "it-emotion-stanchezza",
+        "native": "la stanchezza",
+        "gloss": {
+          "id": "keletihan",
+          "en": "tiredness"
+        }
+      },
+      {
+        "id": "it-emotion-speranza",
+        "native": "la speranza",
+        "gloss": {
+          "id": "harapan",
+          "en": "hope"
+        }
+      },
+      {
+        "id": "it-emotion-imbarazzo",
+        "native": "l'imbarazzo",
+        "gloss": {
+          "id": "rasa malu",
+          "en": "embarrassment"
+        }
+      },
+      {
+        "id": "it-emotion-gratitudine",
+        "native": "la gratitudine",
+        "gloss": {
+          "id": "rasa syukur",
+          "en": "gratitude"
+        }
+      }
+    ]
+  },
+  "anchors": [
+    {
+      "id": "it-culture-portici-unesco",
+      "title": "I portici di Bologna, patrimonio UNESCO",
+      "body": {
+        "id": "Bologna ha circa 38 chilometri di portici nel centro storico, e nel 2021 l'UNESCO ha iscritto dodici gruppi di portici nella Lista del Patrimonio Mondiale. Un portico non è una decorazione: è spazio privato che diventa pubblico, un tetto per chi cammina, aspetta l'autobus o tiene aperta una bottega con la pioggia. Sotto i portici si passa, si lavora e ci si incontra, e per questo la città li considera parte della propria vita quotidiana, non solo un monumento da fotografare.",
+        "en": "Bologna has roughly 38 kilometres of porticoes in its historic centre, and in 2021 UNESCO inscribed twelve groups of porticoes on the World Heritage List. A portico is not decoration: it is private space that becomes public, a roof for people walking, waiting for a bus or keeping a shop open in the rain. People pass, work and meet under the porticoes, which is why the city treats them as part of daily life rather than only a monument to photograph."
+      },
+      "sources": [
+        "UNESCO World Heritage Centre, «The Porticoes of Bologna», ID 1650, iscritto nel 2021 — https://whc.unesco.org/en/list/1650/",
+        "Bologna Welcome, «I 12 gruppi di Portici UNESCO di Bologna» — https://www.bolognawelcome.com/it/blog/portici-da-premio-unesco"
+      ],
+      "reflection": {
+        "id": "Apa yang berubah ketika ruang pribadi dijadikan ruang publik untuk semua orang?",
+        "en": "What changes when private space is opened up as public space for everyone?"
+      },
+      "stampId": "it-stamp-portici",
+      "tags": [
+        "portico"
+      ]
+    },
+    {
+      "id": "it-culture-san-luca",
+      "title": "Il portico di San Luca e le 666 arcate",
+      "body": {
+        "id": "Il portico che sale al santuario di San Luca è il più lungo del mondo: 666 arcate per quasi quattro chilometri, costruito tra il 1674 e il 1739 per offrire ai pellegrini un cammino riparato dalla pioggia e dal sole. A metà percorso si trova l'Arco del Meloncello, progettato nel 1721 da Carlo Francesco Dotti, dove il portico lascia la pianura di via Saragozza e comincia la salita verso il colle della Guardia. Oggi lo usano podisti, ciclisti e famiglie che salgono per allenarsi o per stare un po' in silenzio.",
+        "en": "The portico climbing to the Sanctuary of San Luca is the longest in the world: 666 arches over nearly four kilometres, built between 1674 and 1739 to give pilgrims a route sheltered from rain and sun. Halfway up stands the Arco del Meloncello, designed in 1721 by Carlo Francesco Dotti, where the portico leaves the plain of via Saragozza and starts climbing towards the colle della Guardia. Today runners, cyclists and families use it to train or to find a little silence."
+      },
+      "sources": [
+        "Bologna Welcome, «All’ombra dei portici - 6° tratto: San Luca» — https://www.bolognawelcome.com/it/blog/allombra-dei-portici-san-luca",
+        "Comune di Bologna, «I portici UNESCO di Bologna» — https://portici.comune.bologna.it/"
+      ],
+      "reflection": {
+        "id": "Mengapa kota membangun jalan beratap untuk peziarah, dan siapa yang memakainya sekarang?",
+        "en": "Why would a city build a roofed road for pilgrims, and who uses it now?"
+      },
+      "stampId": "it-stamp-sanluca",
+      "tags": [
+        "portico"
+      ]
+    },
+    {
+      "id": "it-culture-tortellini",
+      "title": "Il tortellino, una ricetta registrata",
+      "body": {
+        "id": "Il ripieno dei tortellini di Bologna è stato depositato il 7 dicembre 1974 dalla Dotta Confraternita del Tortellino alla Camera di Commercio, e il 15 aprile 2008 è stata registrata anche la ricetta classica dei «Tortellini di Bologna». Il tortellino è un prodotto De.Co., cioè con denominazione comunale, e un tortellino classico pesa circa cinque grammi. Il ripieno tradizionale unisce lonza di maiale, prosciutto, mortadella, Parmigiano, uova e noce moscata; si serve in brodo di cappone. Registrare una ricetta non la rende segreta: la rende pubblica e discutibile, e per questo ogni famiglia continua ad avere la sua versione.",
+        "en": "The filling of Bologna's tortellini was registered on 7 December 1974 by the Dotta Confraternita del Tortellino at the Chamber of Commerce, and on 15 April 2008 the classic recipe of 'Tortellini di Bologna' was registered as well. The tortellino is a De.Co. product, carrying a municipal denomination, and a classic tortellino weighs about five grams. The traditional filling combines pork loin, ham, mortadella, Parmigiano, eggs and nutmeg, and it is served in capon broth. Registering a recipe does not make it secret: it makes it public and debatable, which is why every family still keeps its own version."
+      },
+      "sources": [
+        "Bologna Welcome, «Tortellini in brodo» (ricetta e deposito 1974/2008) — https://www.bolognawelcome.com/en/other/other/tortellini-in-brodo-2",
+        "Comune di Bologna, «De.Co. Bologna — Denominazione Comunale» — https://www.decobologna.it/deco-bologna"
+      ],
+      "reflection": {
+        "id": "Apa artinya mendaftarkan resep keluarga ke kamar dagang? Siapa yang memiliki tradisi?",
+        "en": "What does it mean to register a family recipe at the chamber of commerce? Who owns a tradition?"
+      },
+      "stampId": "it-stamp-tortellino",
+      "tags": [
+        "tortellini"
+      ]
+    },
+    {
+      "id": "it-culture-sfoglia",
+      "title": "La sfoglia e le sfogline",
+      "body": {
+        "id": "A Bologna la pasta fresca si chiama sfoglia: farina, uova e forza nelle braccia, tirata a mano con il mattarello su una spianatoia di legno. Le sfogline sono le donne che la preparano per le botteghe e per le famiglie, e il loro mestiere si impara guardando e rifacendo, non leggendo. Oggi esistono anche scuole, come La Vecchia Scuola Bolognese fondata nel 1993 da Alessandra Spisni, che forma sfoglini e sfogline. La sfoglia è un lavoro fisico, con orari lunghi e mani che fanno male la sera.",
+        "en": "In Bologna fresh pasta is called sfoglia: flour, eggs and strength in the arms, rolled by hand with a rolling pin on a wooden board. The sfogline are the women who make it for shops and families, and the craft is learned by watching and repeating, not by reading. Schools exist too, such as La Vecchia Scuola Bolognese founded in 1993 by Alessandra Spisni, which trains sfoglini and sfogline. Sfoglia is physical work, with long hours and hands that ache in the evening."
+      },
+      "sources": [
+        "Bologna Welcome, «Bologna and the sfoglia» — https://www.bolognawelcome.com/it/blog/bologna-and-la-sfoglia-en",
+        "Bologna Welcome, «La Vecchia Scuola Bolognese» — https://www.bolognawelcome.com/it/locali/scuole-di-cucina-e-sfogline/la-vecchia-scuola-bolognese"
+      ],
+      "reflection": {
+        "id": "Apa yang hilang ketika sebuah keterampilan hanya diajarkan di sekolah, bukan di dapur keluarga?",
+        "en": "What is lost when a craft is taught only in schools rather than in family kitchens?"
+      },
+      "stampId": "it-stamp-sfoglia",
+      "tags": [
+        "sfoglia"
+      ]
+    },
+    {
+      "id": "it-culture-sagra",
+      "title": "La sagra di paese",
+      "body": {
+        "id": "Una sagra è una festa di paese, spesso legata a una chiesa o a un prodotto, con tavolate, cucina preparata dai volontari e musica. A Bologna e nei comuni vicini le sagre seguono il calendario agricolo: funghi, castagne, tortelloni, polenta. Per esempio «Maggio in festa», a Sala Bolognese, è una sagra del tortellone e della carne alla griglia che occupa due fine settimana di maggio. Il ricavato paga la festa e spesso serve a finanziare la parrocchia, la scuola o la squadra locale: una sagra è anche un piccolo bilancio comunitario.",
+        "en": "A sagra is a village festival, often tied to a church or a local product, with long shared tables, food cooked by volunteers and music. In Bologna and nearby towns the sagre follow the farming calendar: mushrooms, chestnuts, tortelloni, polenta. For example 'Maggio in festa', in Sala Bolognese, is a festival of tortellone and grilled meat spread over two weekends in May. The takings pay for the party and often support the parish, the school or the local team: a sagra is also a small community budget."
+      },
+      "sources": [
+        "Treccani, Vocabolario della lingua italiana, voce «sagra» — https://www.treccani.it/vocabolario/sagra/",
+        "Bologna Welcome, «Maggio in festa - Sagra del tortellone e della carne alla griglia» — https://www.bolognawelcome.com/it/eventi/food-and-wine/maggio-in-festa-sagra-del-tortellone-e-della-carne-alla-griglia"
+      ],
+      "reflection": {
+        "id": "Mengapa sagra di desa masih diadakan, dan siapa yang mengerjakan semua itu?",
+        "en": "Why are village sagre still held, and who does all the work?"
+      },
+      "stampId": "it-stamp-sagra",
+      "tags": [
+        "sagra"
+      ]
+    },
+    {
+      "id": "it-culture-mercato-erbe",
+      "title": "Il Mercato delle Erbe",
+      "body": {
+        "id": "Il Mercato delle Erbe, in fondo a via Ugo Bassi, è un mercato coperto costruito nel 1910 e riaperto nel 1949 dopo i danni della guerra. Dentro ci sono banchi di frutta e verdura, pesce, pane e piccoli locali dove si mangia qualcosa in piedi. Non è un mercato per turisti: la mattina presto arrivano i ristoratori e i clienti del quartiere, e verso mezzogiorno il mercato si riempie di chi lavora in centro. Per Marco è il posto dove si capisce se una bottega è viva: se i banchi ti conoscono, il forno ha ancora un futuro.",
+        "en": "The Mercato delle Erbe, at the end of via Ugo Bassi, is a covered market built in 1910 and reopened in 1949 after wartime damage. Inside are stalls selling fruit and vegetables, fish and bread, plus small places where people eat standing up. It is not a tourist market: restaurateurs and neighbourhood customers arrive early, and around midday it fills with people who work in the centre. For Marco it is the place where you can tell whether a shop is alive: if the stallholders know you, the bakery still has a future."
+      },
+      "sources": [
+        "Bologna Welcome, «Mercato delle Erbe» — https://www.bolognawelcome.com/it/luoghi/luoghi-di-shopping/mercato-delle-erbe",
+        "Bologna Welcome, «Mercato delle Erbe» (English edition) — https://www.bolognawelcome.com/en/places/shopping-places/mercato-delle-erbe-2"
+      ],
+      "reflection": {
+        "id": "Apa yang ditawarkan pasar beratap yang tidak ditawarkan toko kelontong besar?",
+        "en": "What does a covered market offer that a large supermarket does not?"
+      },
+      "stampId": "it-stamp-mercato",
+      "tags": [
+        "market"
+      ]
+    },
+    {
+      "id": "it-culture-espresso",
+      "title": "L'espresso al banco",
+      "body": {
+        "id": "In Italia l'espresso si beve al banco, in piedi, in pochi minuti e spesso in compagnia. L'Istituto Espresso Italiano (IEI), attivo dal 1998, certifica la qualità dell'espresso con analisi sensoriali e regole condivise, perché la tazzina non è solo caffeina: è un gesto breve e ripetuto che dà un ritmo alla giornata. Al bar dei Portici il rumore della macchina è un orologio per il quartiere: chi prende il caffè alle sette ha un turno, chi lo prende alle dieci ha perso un appuntamento, chi non entra da mesi cambia qualcosa.",
+        "en": "In Italy espresso is drunk standing at the counter, in a couple of minutes and often with company. The Istituto Espresso Italiano (IEI), active since 1998, certifies espresso quality through sensory analysis and shared rules, because the cup is not just caffeine: it is a short, repeated gesture that gives the day a rhythm. At the bar under the porticoes the sound of the machine is the neighbourhood clock: whoever drinks coffee at seven has a shift, whoever comes at ten has missed an appointment, whoever stays away for months has changed something."
+      },
+      "sources": [
+        "Istituto Espresso Italiano (IEI), sito ufficiale — https://iei.coffee/en/",
+        "Istituto Espresso Italiano, «Certified Italian Espresso» — https://iei.coffee/en/espresso-italiano-certificato/"
+      ],
+      "reflection": {
+        "id": "Mengapa minum kopi sambil berdiri di bar mengubah cara orang bertemu?",
+        "en": "Why does drinking coffee standing at the bar change the way people meet?"
+      },
+      "stampId": "it-stamp-espresso",
+      "tags": [
+        "espresso"
+      ]
+    },
+    {
+      "id": "it-culture-teatro",
+      "title": "L'opera e il Teatro Comunale",
+      "body": {
+        "id": "Il Teatro Comunale di Bologna ha aperto il 14 maggio 1763 con «Il trionfo di Clelia» di Christoph Willibald Gluck. È considerato il primo teatro d'opera al mondo costruito interamente con fondi pubblici: dopo l'incendio del Teatro Malvezzi, nel 1745, la città decise di costruire un teatro in muratura più sicuro, progettato da Antonio Galli da Bibbiena. All'inaugurazione parteciparono circa 1.500 persone su una popolazione di 70.000 abitanti. Oggi il teatro è chiuso per restauro e la stagione si svolge altrove; il ritorno nella sede storica di Piazza Verdi è previsto per il 2027.",
+        "en": "The Teatro Comunale di Bologna opened on 14 May 1763 with Christoph Willibald Gluck's 'Il trionfo di Clelia'. It is considered the first opera house in the world built entirely with public funds: after the Teatro Malvezzi burned down in 1745, the city chose a safer brick-and-stone theatre designed by Antonio Galli da Bibbiena. About 1,500 people attended the opening in a city of 70,000. Today the theatre is closed for restoration and the season takes place elsewhere; its return to the historic house in Piazza Verdi is planned for 2027."
+      },
+      "sources": [
+        "Teatro Comunale di Bologna, «Teatro Comunale» — https://www.tcbo.it/luoghi/teatro-comunale/",
+        "Teatro Comunale di Bologna, «Storia del teatro» — https://www.tcbo.it/il-teatro/storia-del-teatro/"
+      ],
+      "reflection": {
+        "id": "Apa kewajiban sebuah teater publik kepada kota yang membiayainya?",
+        "en": "What does a publicly funded theatre owe the city that pays for it?"
+      },
+      "stampId": "it-stamp-teatro",
+      "tags": [
+        "opera"
+      ]
+    },
+    {
+      "id": "it-culture-mortadella",
+      "title": "La Mortadella Bologna IGP",
+      "body": {
+        "id": "La Mortadella Bologna è un prodotto a Indicazione Geografica Protetta: il nome è tutelato e la produzione segue regole precise. Il Consorzio Italiano Tutela Mortadella Bologna, nato nel 2001, riunisce produttori e affettatori e conta una trentina di associati. La IGP non protegge solo una ricetta, ma un legame tra un prodotto e un territorio: per questo la mortadella compare nel ripieno dei tortellini e nei panini del bar, e per questo non è soltanto un affettato da supermercato.",
+        "en": "Mortadella Bologna is a Protected Geographical Indication product: the name is protected and production follows precise rules. The Consorzio Italiano Tutela Mortadella Bologna, founded in 2001, brings together producers and slicers and has around thirty members. The PGI protects not only a recipe but a link between a product and a territory: that is why mortadella appears in tortellini filling and in the bar's sandwiches, and why it is not merely a supermarket cold cut."
+      },
+      "sources": [
+        "Consorzio Italiano Tutela Mortadella Bologna, «Consortium» — https://mortadellabologna.com/en/consortium/",
+        "Consorzio Italiano Tutela Mortadella Bologna, sito ufficiale — https://mortadellabologna.com/"
+      ],
+      "reflection": {
+        "id": "Apa yang dilindungi oleh nama produk yang dilindungi: produknya atau tempatnya?",
+        "en": "What does a protected product name protect: the product or the place?"
+      },
+      "stampId": "it-stamp-mortadella",
+      "tags": [
+        "mortadella"
+      ]
+    },
+    {
+      "id": "it-culture-garisenda",
+      "title": "La Garisenda e la città che cambia",
+      "body": {
+        "id": "Le Due Torri sono il simbolo di Bologna, ma la Garisenda, la torre pendente più bassa, è chiusa dal 2023 per motivi di sicurezza e il restauro è previsto in più fasi. La città convive con i ponteggi, con le strade chiuse e con i turisti che fotografano lo stesso angolo ogni giorno. Intorno alle torri vivono studenti, botteghe e famiglie: per loro il cantiere non è una notizia, è il rumore della mattina e il percorso che cambia. Salvare un monumento significa anche decidere chi può continuare a vivere accanto a lui.",
+        "en": "The Two Towers are Bologna's symbol, but the Garisenda, the lower leaning tower, has been closed since 2023 for safety reasons, with restoration planned in several phases. The city lives with scaffolding, closed streets and tourists photographing the same corner every day. Students, workshops and families live around the towers: for them the building site is not news, it is the noise of the morning and a changed route. Saving a monument also means deciding who can keep living next to it."
+      },
+      "sources": [
+        "Rai News TGR Emilia-Romagna, «Lepore, la torre Garisenda sarà restaurata entro il 2028» (maggio 2025) — https://www.rainews.it/tgr/emiliaromagna/articoli/2025/05/lepore-la-torre-garisenda-sara-restaurata-entro-il-2028-05bd8599-61db-4934-98d5-304a9bb6c8b3.html",
+        "Bologna Welcome, «Le Due Torri» — https://www.bolognawelcome.com/en/experiences/112542/Le-due-Torri-%E2%80%93-Book-your-visit-to-the-Asinelli-Tower"
+      ],
+      "reflection": {
+        "id": "Apa yang terjadi pada sebuah lingkungan ketika monumennya ditutup bertahun-tahun?",
+        "en": "What happens to a neighbourhood when its monument is closed for years?"
+      },
+      "stampId": "it-stamp-garisenda",
+      "tags": [
+        "city"
+      ]
+    }
+  ],
+  "arcs": [
+    {
+      "tier": "T1",
+      "seasonNo": 1,
+      "title": "Il forno",
+      "nativeTitle": "Il forno",
+      "synopsis": "Marco torna da Milano per un mese: vuole vendere il forno di Nonna e tornare alla sua vita. Ma la saracinesca si apre alle cinque, i clienti hanno i nomi scritti sul quaderno e Chiara non ha intenzione di lasciarlo andare. Marco impara a fare la sfoglia e trova, tra le pagine del quaderno, una pagina strappata.",
+      "mystery": "it-object-quaderno",
+      "cliffhanger": "Nel quaderno manca una pagina: è proprio quella della ricetta dei tortellini."
+    },
+    {
+      "tier": "T1",
+      "seasonNo": 2,
+      "title": "La chiave",
+      "nativeTitle": "La chiave",
+      "synopsis": "La chiave del laboratorio sparisce il giorno della consegna della farina. Marco e Chiara la cercano tra il bar dei Portici, il mercato e la pasticceria Rinaldi, e scoprono che Nonna la presta a chi ne ha bisogno senza dirlo a nessuno.",
+      "mystery": "it-object-chiave",
+      "cliffhanger": "La chiave è appesa dietro la porta della pasticceria Rinaldi, con un cartellino e un nome."
+    },
+    {
+      "tier": "T2",
+      "seasonNo": 1,
+      "title": "La ricetta",
+      "nativeTitle": "La ricetta",
+      "synopsis": "Marco vuole ricopiare la ricetta dei tortellini per la sagra, ma la pagina non si trova. Nonna risponde a monosillabi, Chiara ha i suoi sospetti e al mercato qualcuno dice di aver visto quella pagina in mano a Ettore. La ricerca diventa un modo per parlare di ciò che la famiglia non ha mai detto.",
+      "mystery": "it-object-pagina",
+      "cliffhanger": "Ettore apre un cassetto e tira fuori una pagina scritta a mano: è quella che manca."
+    },
+    {
+      "tier": "T2",
+      "seasonNo": 2,
+      "title": "Il mercato",
+      "nativeTitle": "Il mercato",
+      "synopsis": "Al Mercato delle Erbe circola la voce che il forno chiuderà dopo Natale. Marco deve decidere se restare per le feste, Chiara prepara i vassoi per i clienti anziani e una lettera senza mittente arriva sotto la porta del laboratorio.",
+      "mystery": "it-object-lettera",
+      "cliffhanger": "Nella lettera c'è un ordine di tortellini per cento persone, firmato con un nome che Nonna conosce."
+    },
+    {
+      "tier": "T3",
+      "seasonNo": 1,
+      "title": "La sagra",
+      "nativeTitle": "La sagra",
+      "synopsis": "Alla sagra di Montebello il forno e la pasticceria Rinaldi si sfidano a chi fa i tortellini migliori. La sfida è dura ma leale, e Marco capisce che Ettore non è il nemico che aveva immaginato: è un uomo che ha paura di perdere l'unica cosa che sa fare.",
+      "mystery": "it-object-teglia",
+      "cliffhanger": "La giuria assaggia i tortellini e chiede da dove viene quella ricetta."
+    },
+    {
+      "tier": "T3",
+      "seasonNo": 2,
+      "title": "La sfoglia",
+      "nativeTitle": "La sfoglia",
+      "synopsis": "Chiara trova un locale per il suo laboratorio e Marco deve scegliere se investire nel forno o nella sua vita a Milano. Intanto una nota del fornitore di farina cambia i prezzi, e il forno rischia di non arrivare a fine mese.",
+      "mystery": "it-object-biglietto",
+      "cliffhanger": "Sotto il biglietto del fornitore c'è una seconda scrittura, più piccola: «Chiedi a Ettore»."
+    },
+    {
+      "tier": "T4",
+      "seasonNo": 1,
+      "title": "Il portico",
+      "nativeTitle": "Il portico",
+      "synopsis": "Un progetto di ristrutturazione vuole cambiare le vetrine sotto i portici di via Saragozza. Marco, Chiara e Sonia raccolgono le voci dei commercianti; Ettore firma anche lui, ma chiede qualcosa in cambio. La città cambia e nessuno sa bene a chi appartenga il portico.",
+      "mystery": "it-object-foto",
+      "cliffhanger": "Nella fotografia del 1987 c'è una scritta che nessuno aveva mai notato: un nome e una data."
+    },
+    {
+      "tier": "T4",
+      "seasonNo": 2,
+      "title": "La pasticceria",
+      "nativeTitle": "La pasticceria",
+      "synopsis": "Ettore si ammala e chiede a Marco di aiutarlo a tenere aperta la pasticceria per una settimana. Marco scopre un uomo solo, un laboratorio modernissimo e un vassoio di ottone che viene dal forno di Nonna. La rivalità diventa un accordo, e l'accordo ha un prezzo.",
+      "mystery": "it-object-vassoio",
+      "cliffhanger": "Sotto il vassoio c'è un biglietto: «Per Ada, quando avrà tempo»."
+    },
+    {
+      "tier": "T5",
+      "seasonNo": 1,
+      "title": "Il pane",
+      "nativeTitle": "Il pane",
+      "synopsis": "Nonna decide il futuro del forno e consegna a Marco il mattarello di legno di sua madre. Il forno può diventare una bottega di quartiere, un laboratorio condiviso o un locale per turisti; ogni scelta ha un prezzo e una conseguenza per chi ci lavora.",
+      "mystery": "it-object-mattarello",
+      "cliffhanger": "Nonna dice: «Il forno sarà di chi si alza alle cinque», e guarda Marco."
+    },
+    {
+      "tier": "T5",
+      "seasonNo": 2,
+      "title": "L'opera",
+      "nativeTitle": "L'opera",
+      "synopsis": "Chiara canta nel coro del teatro Comunale e il forno prepara la tovaglia e i vassoi per la serata di riapertura. Tra prove, bilanci e una vecchia fotografia del 1987, Marco e Nonna devono decidere che cosa lasciare alla città e che cosa tenere per sé.",
+      "mystery": "it-object-tovaglia",
+      "cliffhanger": "Sulla tovaglia ricamata c'è un nome che Nonna non aveva mai voluto pronunciare."
+    }
+  ]
+}

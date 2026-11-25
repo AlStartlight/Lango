@@ -1,0 +1,12 @@
+const crypto=require('crypto');
+const {Client}=require('pg');
+require('dotenv').config({quiet:true});
+const token=crypto.randomBytes(32).toString('base64url');
+const pepper=process.env.AUTH_TOKEN_PEPPER && process.env.AUTH_TOKEN_PEPPER.length>=16?process.env.AUTH_TOKEN_PEPPER:'lango-dev-token-pepper-change-me';
+const hash=crypto.createHash('sha256').update(`${token}.${pepper}`).digest('hex');
+const c=new Client({connectionString:process.env.DATABASE_URL.replace(/[?&]schema=[^&]*/,'')});
+(async()=>{await c.connect();
+const u=await c.query('select id from lango."User" order by "createdAt" asc limit 1');
+const expires=new Date(Date.now()+86400000);
+await c.query('insert into lango."Session" (id,"userId","tokenHash","rememberMe","expiresAt","lastUsedAt","createdAt") values ($1,$2,$3,false,$4,now(),now())',[crypto.randomUUID(),u.rows[0].id,hash,expires]);
+await c.end(); console.log(token);})().catch(e=>{console.error(e);process.exit(1)});

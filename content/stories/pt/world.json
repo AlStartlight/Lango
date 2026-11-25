@@ -1,0 +1,1383 @@
+{
+  "id": "pt-saudade-na-feira",
+  "languageCode": "pt",
+  "slug": "saudade-na-feira",
+  "title": "Saudade na Feira",
+  "nativeTitle": "Saudade na Feira",
+  "logline": "Inês segura a banca da avó na Feira do Relógio durante um domingo e encontra um caderno de fados com uma quadra que nunca foi cantada em público.",
+  "setting": "Lisboa, entre a Feira do Relógio (Avenida Santo Condestável, Chelas) e o bairro da Graça: a banca de louça da Nenê, a Tasca do Adão, a Casa da Nenê, a Rua da Madalena, a Praça da Figueira e a paragem do Elétrico 28.",
+  "era": "Presente; da primavera ao inverno seguinte, com junho no centro do calendário.",
+  "tone": "Slice of life de bairro: humor seco, conversas de balcão e um mistério familiar que se resolve com uma canção, não com uma acusação.",
+  "palette": "#2F5D7C",
+  "motifs": [
+    "azulejos soltos",
+    "o caderno de fados",
+    "contas da banca",
+    "a guitarra na tasca",
+    "sardinhas em junho",
+    "o Elétrico 28",
+    "papel de pastel de nata",
+    "a calçada molhada"
+  ],
+  "sensitivityNotes": [
+    "O fado é mostrado como ofício, ensaio e economia de bairro, nunca como número para turistas.",
+    "A memória da Nenê é tratada com agência: ela decide o que conta, quando conta e a quem.",
+    "As diferenças entre português europeu e português do Brasil são variedade linguística, não erro nem piada fácil.",
+    "A precariedade da banca e do trabalho informal é mostrada com respeito, sem paternalismo.",
+    "A morte da mãe da Nenê é referida, mas nunca representada em cena nem usada como choque.",
+    "Evitam-se os clichés de «saudade» como tristeza bonita: a palavra é usada em contexto, com humor e com trabalho."
+  ],
+  "canon": {
+    "fictionalPlaces": [
+      "a banca da Nenê na Feira do Relógio",
+      "a Tasca do Adão",
+      "a Casa da Nenê, na Graça",
+      "a Cozinha da Nenê",
+      "a Padaria do Bairro"
+    ],
+    "realAnchors": [
+      "Feira do Relógio (Avenida Santo Condestável, Chelas, Lisboa)",
+      "Rua da Madalena",
+      "Praça da Figueira",
+      "Igreja de São Miguel (Alfama)",
+      "Avenida da Liberdade",
+      "Elétrico 28 (Carris)",
+      "Museu Nacional do Azulejo"
+    ],
+    "timeline": "T1: primavera. T2: início do verão. T3: junho, Santos Populares. T4: verão e outono, com a visita do Rafael. T5: inverno seguinte.",
+    "rules": [
+      "Inês tem 23 anos, trabalha num arquivo sonoro em Lisboa e ajuda a avó na Feira do Relógio ao domingo.",
+      "Nenê chama-se Maria Amélia, tem 78 anos e vende louça, azulejos soltos e objetos de casa na Feira do Relógio há mais de cinquenta anos.",
+      "Cláudia tem 45 anos, é vizinha, canta fado em tascas e trabalha ao balcão; não vive só da música.",
+      "Rafael é primo segundo da Inês: o avô dele, Joaquim, era irmão da Nenê e emigrou para o Brasil nos anos cinquenta.",
+      "Rafael tem 26 anos, é de Belo Horizonte e está em Lisboa pela primeira vez para conhecer a família.",
+      "O fado «Saudade da Feira» tem quatro quadras conhecidas e uma quinta quadra que nunca foi cantada em público.",
+      "A quinta quadra não revela escândalo: fala da mãe da Nenê e da primeira banca da família. A Nenê guarda-a por ser da família, não por haver segredo.",
+      "A banca da Nenê, a Tasca do Adão, a Casa da Nenê e a Padaria do Bairro são fictícias; a Feira do Relógio, as ruas e o Elétrico 28 são reais.",
+      "Nomes, horários e moradas de locais reais devem ser verificados antes de publicação; qualquer imprecisão é ficção assumida.",
+      "Rafael fala português do Brasil; a Nenê e a Cláudia falam português europeu de Lisboa."
+    ],
+    "fado": {
+      "title": "Saudade da Feira",
+      "knownStanzas": [
+        "Na feira, de madrugada, / a banca fica ao sol; / há louça que veio de longe / e histórias que ninguém contou.",
+        "Quem passa pergunta o preço, / quem fica pergunta por mim; / entre uma tigela e um prato / a manhã chega ao fim.",
+        "A calçada molha a rua, / o elétrico sobe devagar; / na feira ninguém tem pressa / de acabar nem de chegar."
+      ],
+      "hiddenStanza": [
+        "Chamavam-lhe Maria Amélia, / vendia louça e pão; / na banca daquela feira / guardou a nossa canção."
+      ],
+      "rule": "A quinta quadra fala da mãe da Nenê e da primeira banca da família. Não revela escândalo nem segredo: a Nenê não a canta em público porque é da família, e é ela que decide quando e a quem a canta."
+    }
+  },
+  "levels": [
+    {
+      "tier": "T1",
+      "framework": "CEFR",
+      "levelCode": "A1",
+      "label": "CEFR A1",
+      "idPart": "a1",
+      "position": 1
+    },
+    {
+      "tier": "T2",
+      "framework": "CEFR",
+      "levelCode": "A2",
+      "label": "CEFR A2",
+      "idPart": "a2",
+      "position": 2
+    },
+    {
+      "tier": "T3",
+      "framework": "CEFR",
+      "levelCode": "B1",
+      "label": "CEFR B1",
+      "idPart": "b1",
+      "position": 3
+    },
+    {
+      "tier": "T4",
+      "framework": "CEFR",
+      "levelCode": "B2",
+      "label": "CEFR B2",
+      "idPart": "b2",
+      "position": 4
+    },
+    {
+      "tier": "T5",
+      "framework": "CEFR",
+      "levelCode": "C1",
+      "label": "CEFR C1",
+      "idPart": "c1",
+      "position": 5
+    }
+  ],
+  "characters": [
+    {
+      "id": "pt-saudade-na-feira-ines",
+      "name": "Inês",
+      "nativeName": "Inês",
+      "role": "Protagonista, 23, trabalha num arquivo sonoro e ajuda na banca ao domingo",
+      "age": 23,
+      "bio": "Inês tem 23 anos e trabalha num arquivo sonoro em Lisboa, a digitalizar gravações antigas. Ao domingo ajuda a avó na Feira do Relógio, menos por obrigação do que por hábito. Está a preparar uma candidatura de trabalho no Porto e ainda não contou à família.",
+      "speechStyle": "Pragmática e curiosa; evita falar de sentimentos em voz alta e faz perguntas quando devia calar-se.",
+      "quote": "Só vim ajudar até ao fim do mês.",
+      "position": 1,
+      "lexeme": {
+        "id": "pt-char-ines",
+        "native": "Inês",
+        "gloss": {
+          "id": "Inês",
+          "en": "Inês"
+        },
+        "tags": [
+          "protagonist"
+        ]
+      }
+    },
+    {
+      "id": "pt-saudade-na-feira-nene",
+      "name": "Nenê",
+      "nativeName": "Nenê",
+      "role": "Avó, 78, dona da banca de louça na Feira do Relógio",
+      "age": 78,
+      "bio": "Maria Amélia, a Nenê, vende louça, azulejos soltos e pequenas coisas de casa na Feira do Relógio há mais de cinquenta anos. Tem uma memória antiga do fado e uma voz que já não usa em público. Trata a banca como trabalho, não como herança.",
+      "speechStyle": "Seca e engraçada sem avisar; muda de assunto quando o passado se aproxima.",
+      "quote": "A feira não é espetáculo, é trabalho.",
+      "position": 2,
+      "lexeme": {
+        "id": "pt-char-nene",
+        "native": "Nenê",
+        "gloss": {
+          "id": "Nenê",
+          "en": "Nenê"
+        },
+        "tags": [
+          "mentor",
+          "memory"
+        ]
+      }
+    },
+    {
+      "id": "pt-saudade-na-feira-claudia",
+      "name": "Cláudia",
+      "nativeName": "Cláudia",
+      "role": "Vizinha, 45, fadista e empregada de balcão",
+      "age": 45,
+      "bio": "Cláudia canta fado em tascas do bairro depois do trabalho e conhece mais versos do que admite. Foi ela que gravou a Nenê a cantar, há vinte anos, numa cassete que ninguém sabe onde está. Quer voltar a cantar em público sem transformar isso numa despedida.",
+      "speechStyle": "Calorosa e gozadora; precisa com palavras, horários e contas.",
+      "quote": "Um fado não se canta todo de uma vez.",
+      "position": 3,
+      "lexeme": {
+        "id": "pt-char-claudia",
+        "native": "Cláudia",
+        "gloss": {
+          "id": "Cláudia",
+          "en": "Cláudia"
+        },
+        "tags": [
+          "friend"
+        ]
+      }
+    },
+    {
+      "id": "pt-saudade-na-feira-rafael",
+      "name": "Rafael",
+      "nativeName": "Rafael",
+      "role": "Primo do Brasil, 26, em visita a Lisboa",
+      "age": 26,
+      "bio": "Rafael é de Belo Horizonte, trabalha com som ao vivo e chegou a Lisboa com uma mochila e uma lista de perguntas. Quer conhecer a família que só viu em fotografias e gravar as vozes que ainda pode ouvir.",
+      "speechStyle": "Rápido e brincalhão; pergunta tudo duas vezes para não se enganar.",
+      "quote": "Aqui almoça-se a uma hora e o dia continua.",
+      "position": 4,
+      "lexeme": {
+        "id": "pt-char-rafael",
+        "native": "Rafael",
+        "gloss": {
+          "id": "Rafael",
+          "en": "Rafael"
+        },
+        "tags": [
+          "friend"
+        ]
+      }
+    }
+  ],
+  "lexicon": {
+    "person": [
+      {
+        "id": "pt-person-cliente-sardinhas",
+        "native": "a cliente das sardinhas",
+        "gloss": {
+          "id": "pelanggan sardin",
+          "en": "the sardine customer"
+        },
+        "tags": [
+          "role"
+        ]
+      },
+      {
+        "id": "pt-person-homem-eletrico",
+        "native": "o homem do elétrico",
+        "gloss": {
+          "id": "pria trem",
+          "en": "the man from the tram"
+        },
+        "tags": [
+          "role"
+        ]
+      },
+      {
+        "id": "pt-person-vendedor-louca",
+        "native": "o vendedor de louça",
+        "gloss": {
+          "id": "penjual porselen",
+          "en": "the crockery seller"
+        },
+        "tags": [
+          "role"
+        ]
+      },
+      {
+        "id": "pt-person-mulher-manjerico",
+        "native": "a mulher do manjerico",
+        "gloss": {
+          "id": "perempuan penjual manjerico",
+          "en": "the basil woman"
+        },
+        "tags": [
+          "role"
+        ]
+      },
+      {
+        "id": "pt-person-vizinha-tasca",
+        "native": "a vizinha da tasca",
+        "gloss": {
+          "id": "tetangga taska",
+          "en": "the neighbour from the tasca"
+        },
+        "tags": [
+          "role"
+        ]
+      }
+    ],
+    "place": [
+      {
+        "id": "pt-place-feira",
+        "native": "Feira do Relógio",
+        "gloss": {
+          "id": "Pasar Relógio",
+          "en": "the Feira do Relógio market"
+        },
+        "tags": [
+          "market"
+        ]
+      },
+      {
+        "id": "pt-place-baixa",
+        "native": "Baixa",
+        "gloss": {
+          "id": "Baixa",
+          "en": "the Baixa"
+        },
+        "tags": [
+          "city"
+        ]
+      },
+      {
+        "id": "pt-place-madalena",
+        "native": "Rua da Madalena",
+        "gloss": {
+          "id": "Jalan Madalena",
+          "en": "Madalena Street"
+        },
+        "tags": [
+          "city"
+        ]
+      },
+      {
+        "id": "pt-place-figueira",
+        "native": "Praça da Figueira",
+        "gloss": {
+          "id": "Alun-alun Figueira",
+          "en": "Figueira Square"
+        },
+        "tags": [
+          "city"
+        ]
+      },
+      {
+        "id": "pt-place-tasca",
+        "native": "Tasca do Adão",
+        "gloss": {
+          "id": "Taska Adão",
+          "en": "Adão's tasca"
+        },
+        "tags": [
+          "music"
+        ]
+      },
+      {
+        "id": "pt-place-casa",
+        "native": "Casa da Nenê",
+        "gloss": {
+          "id": "Rumah Nenê",
+          "en": "Nenê's house"
+        },
+        "tags": [
+          "home"
+        ]
+      },
+      {
+        "id": "pt-place-cozinha",
+        "native": "Cozinha da Nenê",
+        "gloss": {
+          "id": "Dapur Nenê",
+          "en": "Nenê's kitchen"
+        },
+        "tags": [
+          "home"
+        ]
+      },
+      {
+        "id": "pt-place-igreja",
+        "native": "Igreja de São Miguel",
+        "gloss": {
+          "id": "Gereja São Miguel",
+          "en": "São Miguel church"
+        },
+        "tags": [
+          "city"
+        ]
+      },
+      {
+        "id": "pt-place-paragem",
+        "native": "Paragem do 28",
+        "gloss": {
+          "id": "Halte trem 28",
+          "en": "the tram 28 stop"
+        },
+        "tags": [
+          "transport"
+        ]
+      },
+      {
+        "id": "pt-place-avenida",
+        "native": "Avenida da Liberdade",
+        "gloss": {
+          "id": "Avenida da Liberdade",
+          "en": "Avenida da Liberdade"
+        },
+        "tags": [
+          "festival"
+        ]
+      },
+      {
+        "id": "pt-place-padaria",
+        "native": "Padaria do Bairro",
+        "gloss": {
+          "id": "Toko roti lingkungan",
+          "en": "the neighbourhood bakery"
+        },
+        "tags": [
+          "food"
+        ]
+      }
+    ],
+    "object": [
+      {
+        "id": "pt-object-caderno-fados",
+        "native": "caderno de fados",
+        "gloss": {
+          "id": "buku catatan fado",
+          "en": "the notebook of fado verses"
+        },
+        "tags": [
+          "mystery",
+          "clue"
+        ]
+      },
+      {
+        "id": "pt-object-papel-pastel",
+        "native": "papel do pastel",
+        "gloss": {
+          "id": "kertas pastel de nata",
+          "en": "the pastel de nata paper"
+        },
+        "tags": [
+          "mystery",
+          "clue"
+        ]
+      },
+      {
+        "id": "pt-object-disco-vinil",
+        "native": "disco de vinil",
+        "gloss": {
+          "id": "piringan hitam",
+          "en": "the vinyl record"
+        },
+        "tags": [
+          "mystery",
+          "clue"
+        ]
+      },
+      {
+        "id": "pt-object-lenco-bordado",
+        "native": "lenço bordado",
+        "gloss": {
+          "id": "saputangan bordir",
+          "en": "the embroidered handkerchief"
+        },
+        "tags": [
+          "mystery",
+          "memory"
+        ]
+      },
+      {
+        "id": "pt-object-programa-arraial",
+        "native": "programa do arraial",
+        "gloss": {
+          "id": "programa arrail",
+          "en": "the arraial programme"
+        },
+        "tags": [
+          "mystery",
+          "clue"
+        ]
+      },
+      {
+        "id": "pt-object-azulejo",
+        "native": "azulejo",
+        "gloss": {
+          "id": "ubin azulejo",
+          "en": "the azulejo tile"
+        },
+        "tags": [
+          "clue",
+          "heritage"
+        ]
+      },
+      {
+        "id": "pt-object-retrato-familia",
+        "native": "retrato de família",
+        "gloss": {
+          "id": "foto keluarga",
+          "en": "the family photograph"
+        },
+        "tags": [
+          "mystery",
+          "memory"
+        ]
+      },
+      {
+        "id": "pt-object-cadeado-banca",
+        "native": "cadeado da banca",
+        "gloss": {
+          "id": "gembok lapak",
+          "en": "the stall padlock"
+        },
+        "tags": [
+          "mystery"
+        ]
+      },
+      {
+        "id": "pt-object-verso-escondido",
+        "native": "verso escondido",
+        "gloss": {
+          "id": "bait tersembunyi",
+          "en": "the hidden stanza"
+        },
+        "tags": [
+          "mystery",
+          "clue"
+        ]
+      },
+      {
+        "id": "pt-object-bilhete-eletrico",
+        "native": "bilhete do elétrico",
+        "gloss": {
+          "id": "tiket trem",
+          "en": "the tram ticket"
+        },
+        "tags": [
+          "clue",
+          "memory"
+        ]
+      },
+      {
+        "id": "pt-object-caderno-receitas",
+        "native": "caderno de receitas",
+        "gloss": {
+          "id": "buku resep",
+          "en": "the recipe notebook"
+        },
+        "tags": [
+          "memory"
+        ]
+      },
+      {
+        "id": "pt-object-prato-antigo",
+        "native": "prato antigo",
+        "gloss": {
+          "id": "piring tua",
+          "en": "the old plate"
+        },
+        "tags": [
+          "clue"
+        ]
+      }
+    ],
+    "food": [
+      {
+        "id": "pt-food-pastel-nata",
+        "native": "pastel de nata",
+        "gloss": {
+          "id": "pastel de nata",
+          "en": "the pastel de nata"
+        },
+        "tags": [
+          "anchor"
+        ]
+      },
+      {
+        "id": "pt-food-sardinha",
+        "native": "sardinha assada",
+        "gloss": {
+          "id": "sarden panggang",
+          "en": "the grilled sardine"
+        },
+        "tags": [
+          "anchor"
+        ]
+      },
+      {
+        "id": "pt-food-caldo-verde",
+        "native": "caldo verde",
+        "gloss": {
+          "id": "sup kangkung hijau",
+          "en": "the caldo verde"
+        },
+        "tags": [
+          "anchor"
+        ]
+      },
+      {
+        "id": "pt-food-bifana",
+        "native": "bifana",
+        "gloss": {
+          "id": "bifana",
+          "en": "the bifana"
+        }
+      },
+      {
+        "id": "pt-food-tremocos",
+        "native": "tremoços",
+        "gloss": {
+          "id": "tremoço",
+          "en": "the lupin beans"
+        }
+      },
+      {
+        "id": "pt-food-pao-chourico",
+        "native": "pão com chouriço",
+        "gloss": {
+          "id": "roti dengan chorizo",
+          "en": "the chouriço bread"
+        }
+      }
+    ],
+    "drink": [
+      {
+        "id": "pt-drink-bica",
+        "native": "bica",
+        "gloss": {
+          "id": "bica (espresso)",
+          "en": "the bica"
+        },
+        "tags": [
+          "anchor"
+        ]
+      },
+      {
+        "id": "pt-drink-galao",
+        "native": "galão",
+        "gloss": {
+          "id": "galão (kopi susu)",
+          "en": "the galão"
+        },
+        "tags": [
+          "anchor"
+        ]
+      },
+      {
+        "id": "pt-drink-vinho-verde",
+        "native": "vinho verde",
+        "gloss": {
+          "id": "vinho verde",
+          "en": "the vinho verde"
+        }
+      },
+      {
+        "id": "pt-drink-ginjinha",
+        "native": "ginjinha",
+        "gloss": {
+          "id": "ginjinha",
+          "en": "the ginjinha"
+        }
+      },
+      {
+        "id": "pt-drink-agua",
+        "native": "água",
+        "gloss": {
+          "id": "air",
+          "en": "the water"
+        }
+      }
+    ],
+    "time": [
+      {
+        "id": "pt-time-manha",
+        "native": "manhã",
+        "gloss": {
+          "id": "pagi",
+          "en": "morning"
+        },
+        "tags": [
+          "morning"
+        ]
+      },
+      {
+        "id": "pt-time-tarde",
+        "native": "tarde",
+        "gloss": {
+          "id": "sore",
+          "en": "afternoon"
+        },
+        "tags": [
+          "afternoon"
+        ]
+      },
+      {
+        "id": "pt-time-noite",
+        "native": "noite",
+        "gloss": {
+          "id": "malam",
+          "en": "night"
+        },
+        "tags": [
+          "evening"
+        ]
+      },
+      {
+        "id": "pt-time-madrugada",
+        "native": "madrugada",
+        "gloss": {
+          "id": "subuh",
+          "en": "dawn"
+        },
+        "tags": [
+          "dawn"
+        ]
+      },
+      {
+        "id": "pt-time-manha-cedo",
+        "native": "manhã cedo",
+        "gloss": {
+          "id": "pagi-pagi",
+          "en": "early morning"
+        },
+        "tags": [
+          "morning"
+        ]
+      }
+    ],
+    "weather": [
+      {
+        "id": "pt-weather-claro",
+        "native": "Está um dia claro.",
+        "gloss": {
+          "id": "Hari cerah.",
+          "en": "It is a clear day."
+        },
+        "tags": [
+          "clear"
+        ]
+      },
+      {
+        "id": "pt-weather-chuva",
+        "native": "Chove miudinho.",
+        "gloss": {
+          "id": "Hujan rintik-rintik.",
+          "en": "It is drizzling."
+        },
+        "tags": [
+          "rain"
+        ]
+      },
+      {
+        "id": "pt-weather-nevoeiro",
+        "native": "Há nevoeiro sobre o rio.",
+        "gloss": {
+          "id": "Ada kabut di atas sungai.",
+          "en": "There is fog over the river."
+        },
+        "tags": [
+          "fog"
+        ]
+      },
+      {
+        "id": "pt-weather-frio",
+        "native": "O ar está frio.",
+        "gloss": {
+          "id": "Udaranya dingin.",
+          "en": "The air is cold."
+        },
+        "tags": [
+          "cold"
+        ]
+      },
+      {
+        "id": "pt-weather-calor",
+        "native": "Está calor.",
+        "gloss": {
+          "id": "Hari panas.",
+          "en": "It is hot."
+        },
+        "tags": [
+          "warm"
+        ]
+      },
+      {
+        "id": "pt-weather-cinzento",
+        "native": "O céu está cinzento.",
+        "gloss": {
+          "id": "Langitnya kelabu.",
+          "en": "The sky is grey."
+        },
+        "tags": [
+          "clear"
+        ]
+      }
+    ],
+    "action": [
+      {
+        "id": "pt-action-abriu-banca",
+        "native": "abriu a banca",
+        "gloss": {
+          "id": "membuka lapak",
+          "en": "opened the stall"
+        },
+        "tags": [
+          "market"
+        ]
+      },
+      {
+        "id": "pt-action-limpou-balcao",
+        "native": "limpou o balcão",
+        "gloss": {
+          "id": "membersihkan meja",
+          "en": "wiped the counter"
+        }
+      },
+      {
+        "id": "pt-action-arrumou-louca",
+        "native": "arrumou a louça",
+        "gloss": {
+          "id": "menata porselen",
+          "en": "arranged the crockery"
+        },
+        "tags": [
+          "market"
+        ]
+      },
+      {
+        "id": "pt-action-afinou-guitarra",
+        "native": "afinou a guitarra",
+        "gloss": {
+          "id": "menyetem gitar",
+          "en": "tuned the guitar"
+        },
+        "tags": [
+          "music"
+        ]
+      },
+      {
+        "id": "pt-action-contou-moedas",
+        "native": "contou as moedas",
+        "gloss": {
+          "id": "menghitung koin",
+          "en": "counted the coins"
+        },
+        "tags": [
+          "market"
+        ]
+      },
+      {
+        "id": "pt-action-serviu-bica",
+        "native": "serviu uma bica",
+        "gloss": {
+          "id": "menyajikan bica",
+          "en": "served an espresso"
+        }
+      }
+    ],
+    "quote": [
+      {
+        "id": "pt-quote-pronto",
+        "native": "Já está tudo pronto",
+        "gloss": {
+          "id": "Semua sudah siap",
+          "en": "Everything is ready"
+        }
+      },
+      {
+        "id": "pt-quote-fado-nao-explica",
+        "native": "O fado não se explica",
+        "gloss": {
+          "id": "Fado tidak bisa dijelaskan",
+          "en": "Fado is not explained"
+        },
+        "tags": [
+          "mystery"
+        ]
+      },
+      {
+        "id": "pt-quote-nao-vender",
+        "native": "Isto não é para vender",
+        "gloss": {
+          "id": "Ini tidak untuk dijual",
+          "en": "This is not for sale"
+        },
+        "tags": [
+          "mystery"
+        ]
+      },
+      {
+        "id": "pt-quote-avo-cantava",
+        "native": "A tua avó cantava isto melhor",
+        "gloss": {
+          "id": "Nenekmu menyanyikan ini lebih baik",
+          "en": "Your grandmother sang this better"
+        },
+        "tags": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "pt-quote-fica-mais",
+        "native": "Fica mais um pouco",
+        "gloss": {
+          "id": "Tinggal sebentar lagi",
+          "en": "Stay a little longer"
+        },
+        "tags": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "pt-quote-deixa-estar",
+        "native": "Deixa estar como está",
+        "gloss": {
+          "id": "Biarkan seperti ini",
+          "en": "Leave it as it is"
+        },
+        "tags": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "pt-quote-feira-fecha",
+        "native": "A feira fecha à uma",
+        "gloss": {
+          "id": "Pasarnya tutup jam satu",
+          "en": "The market closes at one"
+        }
+      },
+      {
+        "id": "pt-quote-nao-se-fala",
+        "native": "Hoje não se fala disso",
+        "gloss": {
+          "id": "Hari ini tidak dibicarakan",
+          "en": "We are not talking about that today"
+        },
+        "tags": [
+          "mystery"
+        ]
+      },
+      {
+        "id": "pt-quote-maria-amelia",
+        "native": "Chamavam-lhe Maria Amélia",
+        "gloss": {
+          "id": "Mereka memanggilnya Maria Amélia",
+          "en": "They called her Maria Amélia"
+        },
+        "tags": [
+          "memory",
+          "emotion"
+        ]
+      }
+    ],
+    "question": [
+      {
+        "id": "pt-question-quem-escreveu",
+        "native": "Quem escreveu isto?",
+        "gloss": {
+          "id": "Siapa yang menulis ini?",
+          "en": "Who wrote this?"
+        }
+      },
+      {
+        "id": "pt-question-onde-caderno",
+        "native": "Onde está o caderno?",
+        "gloss": {
+          "id": "Di mana buku catatannya?",
+          "en": "Where is the notebook?"
+        }
+      },
+      {
+        "id": "pt-question-porque-guardou",
+        "native": "Porque é que ela guardou isto?",
+        "gloss": {
+          "id": "Mengapa dia menyimpan ini?",
+          "en": "Why did she keep this?"
+        }
+      },
+      {
+        "id": "pt-question-nene-quer",
+        "native": "O que é que a Nenê quer dizer?",
+        "gloss": {
+          "id": "Apa maksud Nenê?",
+          "en": "What does Nenê mean?"
+        }
+      },
+      {
+        "id": "pt-question-sempre-aqui",
+        "native": "Isto sempre esteve aqui?",
+        "gloss": {
+          "id": "Apakah ini selalu ada di sini?",
+          "en": "Has this always been here?"
+        }
+      },
+      {
+        "id": "pt-question-quem-cantava",
+        "native": "Quem cantava este fado?",
+        "gloss": {
+          "id": "Siapa yang menyanyikan fado ini?",
+          "en": "Who used to sing this fado?"
+        }
+      },
+      {
+        "id": "pt-question-falar-amanha",
+        "native": "Podemos falar disto amanhã?",
+        "gloss": {
+          "id": "Bisakah kita membicarakannya besok?",
+          "en": "Can we talk about this tomorrow?"
+        }
+      }
+    ],
+    "greeting": [
+      {
+        "id": "pt-greeting-bom-dia",
+        "native": "Bom dia",
+        "gloss": {
+          "id": "Selamat pagi",
+          "en": "Good morning"
+        }
+      },
+      {
+        "id": "pt-greeting-boa-tarde",
+        "native": "Boa tarde",
+        "gloss": {
+          "id": "Selamat siang",
+          "en": "Good afternoon"
+        }
+      },
+      {
+        "id": "pt-greeting-boa-noite",
+        "native": "Boa noite",
+        "gloss": {
+          "id": "Selamat malam",
+          "en": "Good evening"
+        }
+      },
+      {
+        "id": "pt-greeting-ola",
+        "native": "Olá",
+        "gloss": {
+          "id": "Halo",
+          "en": "Hello"
+        }
+      },
+      {
+        "id": "pt-greeting-entao",
+        "native": "Então, tudo bem?",
+        "gloss": {
+          "id": "Jadi, apa kabar?",
+          "en": "So, everything all right?"
+        }
+      }
+    ],
+    "emotion": [
+      {
+        "id": "pt-emotion-aliviada",
+        "native": "aliviada",
+        "gloss": {
+          "id": "lega",
+          "en": "relieved"
+        }
+      },
+      {
+        "id": "pt-emotion-inquieta",
+        "native": "inquieta",
+        "gloss": {
+          "id": "gelisah",
+          "en": "uneasy"
+        }
+      },
+      {
+        "id": "pt-emotion-esperancosa",
+        "native": "esperançosa",
+        "gloss": {
+          "id": "penuh harap",
+          "en": "hopeful"
+        }
+      },
+      {
+        "id": "pt-emotion-nostalgica",
+        "native": "nostálgica",
+        "gloss": {
+          "id": "rindu",
+          "en": "nostalgic"
+        }
+      },
+      {
+        "id": "pt-emotion-cansada",
+        "native": "cansada",
+        "gloss": {
+          "id": "lelah",
+          "en": "tired"
+        }
+      },
+      {
+        "id": "pt-emotion-desconfiada",
+        "native": "desconfiada",
+        "gloss": {
+          "id": "curiga",
+          "en": "suspicious"
+        }
+      },
+      {
+        "id": "pt-emotion-comovida",
+        "native": "comovida",
+        "gloss": {
+          "id": "terharu",
+          "en": "moved"
+        }
+      },
+      {
+        "id": "pt-emotion-orgulhosa",
+        "native": "orgulhosa",
+        "gloss": {
+          "id": "bangga",
+          "en": "proud"
+        }
+      }
+    ]
+  },
+  "anchors": [
+    {
+      "id": "pt-culture-feira-relogio",
+      "title": "A Feira do Relógio é trabalho de domingo",
+      "body": {
+        "id": "A Feira do Relógio funciona aos domingos, das oito às treze, na Avenida Santo Condestável, na zona de Chelas, em Lisboa. Nasceu de forma espontânea e hoje reúne bancas de roupa, calçado, louça, ferramentas e comida, com lugares de venda atribuídos pela Câmara Municipal. Para quem lá vende, não é uma atração turística: é um dia de trabalho, com caixas para montar de madrugada, contas para fechar ao meio-dia e clientes que voltam todas as semanas.",
+        "en": "The Feira do Relógio runs on Sundays from eight to one on Avenida Santo Condestável, in the Chelas area of Lisbon. It began spontaneously and now brings together stalls selling clothes, shoes, crockery, tools and food, with selling spaces assigned by the city council. For the people who sell there it is not a tourist attraction: it is a working day, with boxes to set up before dawn, accounts to close at midday and customers who come back every week."
+      },
+      "sources": [
+        "Câmara Municipal de Lisboa — «Feira do Relógio», horário e localização (lisboa.pt/espacos-e-servicos/detalhe/feira-do-relogio)",
+        "Câmara Municipal de Lisboa — «Feiras e mercados: atribuição de lugares de venda» (regulamento municipal)"
+      ],
+      "reflection": {
+        "id": "Apa yang membuat sebuah pasar menjadi tempat kerja, bukan tontonan?",
+        "en": "What makes a market a workplace rather than a sightseeing stop?"
+      },
+      "stampId": "pt-stamp-feira",
+      "tags": [
+        "market"
+      ]
+    },
+    {
+      "id": "pt-culture-fado-vadio",
+      "title": "Fado vadio não é fado menor",
+      "body": {
+        "id": "Em Lisboa, o fado também se canta fora das casas de fados: em tascas, associações e arraiais, muitas vezes sem amplificação e sem bilhete. A UNESCO inscreveu o fado na Lista Representativa do Património Cultural Imaterial em 2011, descrevendo-o como prática de comunidades de Lisboa. O fado vadio é feito por gente que não vive da música e por profissionais que voltam à mesa onde começaram; a letra muda de cantor para cantor.",
+        "en": "In Lisbon, fado is also sung outside the fado houses: in tascas, community halls and street festivals, often without amplification and without a ticket. UNESCO inscribed fado on the Representative List of the Intangible Cultural Heritage of Humanity in 2011, describing it as a practice of Lisbon communities. Fado vadio is made by people who do not live from music and by professionals who return to the table where they started; the lyrics change from singer to singer."
+      },
+      "sources": [
+        "UNESCO — «Fado, urban popular song of Portugal», Representative List of the Intangible Cultural Heritage of Humanity (2011), ich.unesco.org/en/RL/fado-urban-popular-song-of-Portugal-00563",
+        "Museu do Fado / EGEAC — documentação sobre o fado vadio e a prática em tascas"
+      ],
+      "reflection": {
+        "id": "Apa yang berubah ketika sebuah lagu dinyanyikan untuk teman, bukan untuk penonton yang membayar?",
+        "en": "What changes when a song is sung for friends rather than for an audience that paid?"
+      },
+      "stampId": "pt-stamp-fadovadio",
+      "tags": [
+        "music"
+      ]
+    },
+    {
+      "id": "pt-culture-santos-populares",
+      "title": "Junho é Santos Populares",
+      "body": {
+        "id": "Em junho, Lisboa vive as Festas de Lisboa: arraiais de rua, sardinhas assadas, caldo verde, manjericos com versos e o Santo António no dia 13. Os arraiais são organizados por associações, coletividades e vizinhos, não só pela Câmara; cada bairro tem o seu calendário, o seu palco e a sua equipa de voluntários. Para quem cresceu no bairro, o arraial é uma data de encontro, mas também de trabalho e de contas.",
+        "en": "In June, Lisbon lives through the Festas de Lisboa: street arraiais, grilled sardines, caldo verde, basil pots with verses and Santo António on the 13th. The arraiais are organised by associations, community groups and neighbours, not only by the city council; each neighbourhood has its own calendar, stage and volunteer team. For those who grew up there, the arraial is a date for meeting people, but also for work and accounts."
+      },
+      "sources": [
+        "Câmara Municipal de Lisboa — «Festas de Lisboa: arraiais» (lisboa.pt/festas-de-lisboa)",
+        "Visit Lisboa — «Santos Populares em Lisboa» (visitlisboa.com)"
+      ],
+      "reflection": {
+        "id": "Siapa yang bekerja sementara lingkungan merayakan?",
+        "en": "Who works while the neighbourhood celebrates?"
+      },
+      "stampId": "pt-stamp-santos",
+      "tags": [
+        "festival"
+      ]
+    },
+    {
+      "id": "pt-culture-marchas",
+      "title": "As Marchas Populares ensaiam-se o ano inteiro",
+      "body": {
+        "id": "As Marchas Populares de Lisboa desfilam na noite de Santo António, na Avenida da Liberdade, e são um concurso organizado pela EGEAC, empresa da Câmara Municipal. Cada marcha representa uma freguesia ou coletividade, com coreografia, figurinos e letra próprios; os ensaios começam meses antes e envolvem dezenas de pessoas de todas as idades. O desfile é também um momento de representação do bairro: quem canta e quem dança está a defender um nome.",
+        "en": "Lisbon's Marchas Populares parade on the night of Santo António, on Avenida da Liberdade, and are a competition organised by EGEAC, a city council company. Each marcha represents a parish or community group, with its own choreography, costumes and lyrics; rehearsals begin months earlier and involve dozens of people of all ages. The parade is also a moment of neighbourhood representation: those who sing and dance are defending a name."
+      },
+      "sources": [
+        "EGEAC / Câmara Municipal de Lisboa — «Marchas Populares de Lisboa» (concurso e resultados, lisboa.pt)",
+        "Câmara Municipal de Lisboa — «Festas de Lisboa: marchas e arraiais»"
+      ],
+      "reflection": {
+        "id": "Mengapa mewakili lingkungan dalam pawai bisa terasa begitu serius?",
+        "en": "Why can representing your neighbourhood in a parade feel so serious?"
+      },
+      "stampId": "pt-stamp-marchas",
+      "tags": [
+        "festival",
+        "music"
+      ]
+    },
+    {
+      "id": "pt-culture-pastel-nata",
+      "title": "Pastel de nata: do convento à montra",
+      "body": {
+        "id": "O pastel de nata é uma tarte de massa folhada com creme de ovos, vendida em pastelarias de todo o país. A versão mais conhecida nasceu em Belém, ligada ao Mosteiro dos Jerónimos e à pastelaria que desde 1837 vende os chamados pastéis de Belém; «pastel de nata» é o nome genérico, «pastel de Belém» é o da casa. Come-se quente, com canela e açúcar em pó, e o preço varia conforme o sítio onde se compra.",
+        "en": "The pastel de nata is a puff-pastry tart with egg custard, sold in pastry shops across the country. The best-known version was born in Belém, linked to the Jerónimos Monastery and to the pastry shop that has sold the so-called pastéis de Belém since 1837; 'pastel de nata' is the generic name, 'pastel de Belém' is the shop's own. It is eaten warm, with cinnamon and icing sugar, and the price varies with where you buy it."
+      },
+      "sources": [
+        "Visit Lisboa — «Pastel de nata» (visitlisboa.com)",
+        "Pastéis de Belém — história da casa e da receita (pasteisdebelem.pt)"
+      ],
+      "reflection": {
+        "id": "Apa yang membedakan resep keluarga dari resep merek?",
+        "en": "What separates a family recipe from a brand recipe?"
+      },
+      "stampId": "pt-stamp-pastel",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "pt-culture-azulejo",
+      "title": "Azulejo não é só fachada",
+      "body": {
+        "id": "O azulejo chegou a Portugal no século XVI e tornou-se revestimento corrente de cozinhas, escadas, igrejas e fachadas. Em Lisboa, padrões de azulejo cobrem prédios inteiros e muitos exemplares antigos são vendidos soltos em feiras quando uma casa é remodelada. O Museu Nacional do Azulejo, instalado no antigo Convento da Madre de Deus, guarda a coleção de referência e mostra a evolução técnica do século XV até hoje.",
+        "en": "The azulejo reached Portugal in the 16th century and became a common covering for kitchens, staircases, churches and façades. In Lisbon, tile patterns cover entire buildings, and many old tiles are sold loose at markets when a house is renovated. The National Tile Museum, housed in the former Madre de Deus Convent, holds the reference collection and shows the technique's development from the 15th century to the present."
+      },
+      "sources": [
+        "Museu Nacional do Azulejo — coleção e história do azulejo em Portugal (museudoazulejo.gov.pt)",
+        "Visit Portugal — «Museu Nacional do Azulejo» (visitportugal.com)"
+      ],
+      "reflection": {
+        "id": "Ketika sebuah azulejo lepas dari dinding, apakah ia masih menjadi warisan?",
+        "en": "When a tile comes off the wall, is it still heritage?"
+      },
+      "stampId": "pt-stamp-azulejo",
+      "tags": [
+        "heritage"
+      ]
+    },
+    {
+      "id": "pt-culture-eletrico-28",
+      "title": "Sete colinas, um elétrico",
+      "body": {
+        "id": "Lisboa cresceu sobre colinas e o transporte público sempre teve de lidar com isso: elétricos, elevadores e escadas fazem parte do caminho diário, não só do roteiro turístico. O Elétrico 28, explorado pela Carris, liga o Martim Moniz ao Campo de Ourique e atravessa algumas das zonas mais antigas da cidade. No verão, o 28 enche-se de visitantes; para quem mora no percurso, o problema é conseguir entrar com sacos de compras ou chegar a horas ao trabalho.",
+        "en": "Lisbon grew over hills, and public transport has always had to deal with that: trams, funiculars and stairs are part of the daily route, not only of the tourist itinerary. Tram 28, run by Carris, connects Martim Moniz to Campo de Ourique and crosses some of the city's oldest areas. In summer the 28 fills with visitors; for those who live along the route, the problem is getting on with shopping bags or reaching work on time."
+      },
+      "sources": [
+        "Visit Portugal — «Lisboa de elétrico» (visitportugal.com/destinos/lisboa-regiao/320317)",
+        "Carris — rede e percurso da carreira 28 (carris.pt)"
+      ],
+      "reflection": {
+        "id": "Bagaimana sebuah transportasi bisa menjadi simbol kota sekaligus masalah bagi warganya?",
+        "en": "How can a transport line become a symbol of a city and a problem for its residents at the same time?"
+      },
+      "stampId": "pt-stamp-eletrico",
+      "tags": [
+        "transport"
+      ]
+    },
+    {
+      "id": "pt-culture-pt-br",
+      "title": "Português europeu e português do Brasil não são erros um do outro",
+      "body": {
+        "id": "O português europeu e o português do Brasil partilham a gramática, mas diferem na preferência por construções e no léxico: em Portugal diz-se «estou a falar» e no Brasil «estou falando»; em Portugal «autocarro», «casa de banho» e «pequeno-almoço» correspondem a «ônibus», «banheiro» e «café da manhã» no Brasil. Estas diferenças são variedades da mesma língua, não erros; a norma culta de cada país tem as suas próprias regras.",
+        "en": "European Portuguese and Brazilian Portuguese share their grammar but differ in preferred constructions and vocabulary: in Portugal people say 'estou a falar', in Brazil 'estou falando'; in Portugal 'autocarro', 'casa de banho' and 'pequeno-almoço' correspond to 'ônibus', 'banheiro' and 'café da manhã' in Brazil. These differences are varieties of the same language, not mistakes; each country's standard has its own rules."
+      },
+      "sources": [
+        "Ciberdúvidas da Língua Portuguesa (ISCTE-IUL) — artigos sobre gerúndio e infinitivo no português europeu e do Brasil",
+        "Instituto Camões — «A língua portuguesa no mundo» (informacao@camoes.pt / camoes.pt)"
+      ],
+      "reflection": {
+        "id": "Mengapa satu variasi bahasa sering terasa «lebih benar» daripada variasi lain?",
+        "en": "Why does one variety of a language so often feel 'more correct' than another?"
+      },
+      "stampId": "pt-stamp-ptbr",
+      "tags": [
+        "language"
+      ]
+    },
+    {
+      "id": "pt-culture-letra-fado",
+      "title": "A letra do fado muda de voz para voz",
+      "body": {
+        "id": "As letras de fado circulam em folhas impressas, cadernos de fados e gravações, e cada intérprete escolhe, corta ou acrescenta versos. Uma quadra pode aparecer numa gravação dos anos cinquenta e desaparecer na versão seguinte; por isso, duas pessoas podem conhecer «o mesmo fado» com letras diferentes. Em famílias de músicos, é comum guardar versos que nunca se cantam em público, por serem dedicados a alguém ou por pertencerem a uma ocasião.",
+        "en": "Fado lyrics circulate on printed sheets, in fado notebooks and on recordings, and each performer chooses, cuts or adds verses. A stanza can appear on a 1950s recording and vanish from the next version; two people can therefore know 'the same fado' with different words. In musical families it is common to keep verses that are never sung in public, because they are dedicated to someone or belong to a particular occasion."
+      },
+      "sources": [
+        "Museu do Fado / EGEAC — acervo de letras e gravações (museudofado.pt)",
+        "UNESCO — dossiê de candidatura do fado à Lista Representativa (2011), secção sobre transmissão e comunidades"
+      ],
+      "reflection": {
+        "id": "Siapa pemilik sebuah lagu yang berpindah dari mulut ke mulut?",
+        "en": "Who owns a song that passes from mouth to mouth?"
+      },
+      "stampId": "pt-stamp-letra",
+      "tags": [
+        "music",
+        "memory"
+      ]
+    },
+    {
+      "id": "pt-culture-calcada",
+      "title": "A calçada portuguesa e as escadinhas",
+      "body": {
+        "id": "A calçada portuguesa é feita de pequenas pedras de calcário assentes à mão, com desenhos que variam de rua para rua. Em Lisboa, subir do centro até Alfama, Graça ou Penha de França implica escadas e calçada inclinada; quando chove, a pedra polida fica escorregadia e quem tem mobilidade reduzida sente a diferença. Para o visitante é uma imagem da cidade; para quem mora, é o chão de todos os dias.",
+        "en": "Portuguese calçada is made of small limestone stones laid by hand, with patterns that vary from street to street. In Lisbon, walking up from the centre to Alfama, Graça or Penha de França means stairs and sloping paving; when it rains, the polished stone becomes slippery and people with reduced mobility feel the difference. For the visitor it is an image of the city; for residents it is the everyday ground."
+      },
+      "sources": [
+        "Câmara Municipal de Lisboa — informação sobre a calçada portuguesa (lisboa.pt)",
+        "Visit Portugal — «Lisboa» e percursos a pé pela cidade (visitportugal.com)"
+      ],
+      "reflection": {
+        "id": "Apa yang dituntut kota yang indah dari orang yang berjalan di dalamnya setiap hari?",
+        "en": "What does a beautiful city demand from the people who walk in it every day?"
+      },
+      "stampId": "pt-stamp-calcada",
+      "tags": [
+        "city"
+      ]
+    }
+  ],
+  "arcs": [
+    {
+      "tier": "T1",
+      "seasonNo": 1,
+      "title": "A feira",
+      "nativeTitle": "A feira",
+      "synopsis": "A Nenê torce o pé e pede à Inês que segure a banca durante um domingo. Entre a louça embrulhada em jornal e os clientes de sempre, a Inês encontra um caderno de fados debaixo de uma travessa.",
+      "mystery": "pt-object-caderno-fados",
+      "cliffhanger": "No caderno, a mesma quadra aparece duas vezes: a segunda tem o nome «Maria Amélia» escrito na margem."
+    },
+    {
+      "tier": "T1",
+      "seasonNo": 2,
+      "title": "O pastel de nata",
+      "nativeTitle": "O pastel de nata",
+      "synopsis": "Um cliente deixa um papel de pastel de nata com uma linha escrita à mão. A Inês segue o rasto até à Padaria do Bairro e percebe que a Nenê deixou de lá comprar por alguma razão.",
+      "mystery": "pt-object-papel-pastel",
+      "cliffhanger": "A linha no papel é a primeira de um fado que a Nenê diz nunca ter cantado."
+    },
+    {
+      "tier": "T2",
+      "seasonNo": 1,
+      "title": "O fado",
+      "nativeTitle": "O fado",
+      "synopsis": "Na Tasca do Adão, a Cláudia canta «Saudade da Feira» e a Inês ouve uma quadra que não está no caderno. A Nenê levanta-se e sai antes do fim da canção.",
+      "mystery": "pt-object-disco-vinil",
+      "cliffhanger": "No disco que a Cláudia guarda, a voz que canta a última quadra não é a dela."
+    },
+    {
+      "tier": "T2",
+      "seasonNo": 2,
+      "title": "A vizinha",
+      "nativeTitle": "A vizinha",
+      "synopsis": "A Cláudia prepara um arraial de benefício e pede ajuda à Inês. Num lenço bordado aparecem iniciais que a Nenê reconhece mas não explica.",
+      "mystery": "pt-object-lenco-bordado",
+      "cliffhanger": "As iniciais são as da mãe da Nenê, que morreu antes de a Inês nascer."
+    },
+    {
+      "tier": "T3",
+      "seasonNo": 1,
+      "title": "Santos Populares",
+      "nativeTitle": "Santos Populares",
+      "synopsis": "Em junho, o bairro monta o arraial e a Cláudia inscreve a Nenê na lista de cantores sem lhe dizer. A Nenê recusa cantar, mas o programa impresso diz o contrário.",
+      "mystery": "pt-object-programa-arraial",
+      "cliffhanger": "No programa do arraial, debaixo do nome da Nenê, está a palavra «fadista»."
+    },
+    {
+      "tier": "T3",
+      "seasonNo": 2,
+      "title": "A marcha",
+      "nativeTitle": "A marcha",
+      "synopsis": "A marcha da freguesia ensaia para a noite de Santo António e a Inês entra para ajudar no figurino. Um azulejo usado como adereço traz uma data gravada no verso.",
+      "mystery": "pt-object-azulejo",
+      "cliffhanger": "A data é a do dia em que a família chegou a Lisboa."
+    },
+    {
+      "tier": "T4",
+      "seasonNo": 1,
+      "title": "O primo",
+      "nativeTitle": "O primo",
+      "synopsis": "Rafael chega do Brasil com uma mochila, um gravador e perguntas sobre a família. Ao ver um retrato antigo, reconhece o guitarrista que acompanha a Nenê.",
+      "mystery": "pt-object-retrato-familia",
+      "cliffhanger": "O guitarrista do retrato é Joaquim, o avô do Rafael, que nunca falou da irmã que ficou em Portugal."
+    },
+    {
+      "tier": "T4",
+      "seasonNo": 2,
+      "title": "A casa",
+      "nativeTitle": "A casa",
+      "synopsis": "A Nenê fala em deixar a banca e mudar-se para um apartamento mais pequeno. A Inês e o Rafael tentam perceber o que se ganha e o que se perde, sem decidir pela Nenê.",
+      "mystery": "pt-object-cadeado-banca",
+      "cliffhanger": "A Nenê entrega o cadeado da banca à Inês e diz que a chave já não abre nada."
+    },
+    {
+      "tier": "T5",
+      "seasonNo": 1,
+      "title": "A saudade",
+      "nativeTitle": "A saudade",
+      "synopsis": "A Inês junta o caderno, o disco e o programa e percebe que a quinta quadra fala da mãe da Nenê e da primeira banca da família. A Nenê conta a história sem pedir desculpa por a ter guardado.",
+      "mystery": "pt-object-verso-escondido",
+      "cliffhanger": "A Nenê pede à Inês que cante a quadra uma vez, sem gravar."
+    },
+    {
+      "tier": "T5",
+      "seasonNo": 2,
+      "title": "O último fado",
+      "nativeTitle": "O último fado",
+      "synopsis": "No inverno, a tasca enche-se para ouvir a Cláudia e a Nenê. A Inês traz o gravador, mas a decisão de gravar não é só dela.",
+      "mystery": "pt-object-bilhete-eletrico",
+      "cliffhanger": "Dentro do caderno aparece um bilhete do elétrico do dia em que a Nenê chegou a Lisboa; a Inês guarda-o e não diz nada."
+    }
+  ]
+}

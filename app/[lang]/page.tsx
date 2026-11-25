@@ -32,8 +32,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const languageAlternates: Record<string, string> = {};
   languages.forEach((l) => {
-    languageAlternates[l] = `${baseUrl}/${l}`;
+    const hreflang = l === "jp" ? "ja" : l;
+    languageAlternates[hreflang] = `${baseUrl}/${l}`;
   });
+  languageAlternates["x-default"] = `${baseUrl}/en`;
 
   const localeMap: Record<string, string> = {
     en: 'en_US', es: 'es_ES', id: 'id_ID', jp: 'ja_JP', hi: 'hi_IN',

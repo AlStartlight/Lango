@@ -3,6 +3,11 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   // trailingSlash: true, // Optional: enable if needed for hosting
   compress: true,
+
+  // The dev server is opened via http://127.0.0.1:3000 as well as localhost.
+  // Next blocks dev-only resources (HMR) from non-initial hostnames by default,
+  // which leaves the error overlay stuck on stale errors. Allow it in dev.
+  allowedDevOrigins: ["127.0.0.1"],
   
   // Image optimization
   images: {
@@ -53,12 +58,12 @@ const nextConfig: NextConfig = {
             key: 'Content-Security-Policy',
             value: [
               "default-src 'self'",
-              "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://*.googletagmanager.com https://*.clerk.accounts.dev https://challenges.cloudflare.com",
-              "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://*.clerk.accounts.dev https://challenges.cloudflare.com",
+              "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://*.googletagmanager.com",
+              "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
               "font-src 'self' https://fonts.gstatic.com",
               "img-src 'self' blob: data: https:",
-               "connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://clerk-telemetry.com https://*.clerk-telemetry.com https://*.clerk.accounts.dev wss://*.clerk.accounts.dev https://challenges.cloudflare.com",
-              "frame-src 'self' https://www.youtube.com https://player.vimeo.com https://*.clerk.accounts.dev https://challenges.cloudflare.com",
+               "connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com",
+              "frame-src 'self' https://www.youtube.com https://player.vimeo.com",
               "manifest-src 'self'",
               "worker-src 'self' blob:",
             ].join('; '),

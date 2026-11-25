@@ -1,0 +1,3013 @@
+{
+  "language": "ja",
+  "script": "jpan",
+  "romanization": "hepburn",
+  "lexicon": {
+    "person": [
+      {
+        "id": "ja-k-person-clerk",
+        "native": "店員",
+        "reading": "てんいん",
+        "romanization": "ten'in",
+        "gloss": {
+          "id": "pelayan toko",
+          "en": "the shop clerk"
+        }
+      },
+      {
+        "id": "ja-k-person-guest",
+        "native": "客",
+        "reading": "きゃく",
+        "romanization": "kyaku",
+        "gloss": {
+          "id": "tamu",
+          "en": "the guest"
+        }
+      },
+      {
+        "id": "ja-k-person-friend",
+        "native": "友だち",
+        "reading": "ともだち",
+        "romanization": "tomodachi",
+        "gloss": {
+          "id": "teman",
+          "en": "the friend"
+        }
+      },
+      {
+        "id": "ja-k-person-child",
+        "native": "子ども",
+        "reading": "こども",
+        "romanization": "kodomo",
+        "gloss": {
+          "id": "anak",
+          "en": "the child"
+        }
+      },
+      {
+        "id": "ja-k-person-landlord",
+        "native": "大家さん",
+        "reading": "おおやさん",
+        "romanization": "ōya-san",
+        "gloss": {
+          "id": "pemilik bangunan",
+          "en": "the landlord"
+        }
+      }
+    ],
+    "place": [
+      {
+        "id": "ja-k-place-kissaten",
+        "native": "喫茶店",
+        "reading": "きっさてん",
+        "romanization": "kissaten",
+        "gloss": {
+          "id": "kedai kopi",
+          "en": "the coffee shop"
+        }
+      },
+      {
+        "id": "ja-k-place-ekimae",
+        "native": "駅前",
+        "reading": "えきまえ",
+        "romanization": "ekimae",
+        "gloss": {
+          "id": "depan stasiun",
+          "en": "the station front"
+        }
+      },
+      {
+        "id": "ja-k-place-kitchen",
+        "native": "台所",
+        "reading": "だいどころ",
+        "romanization": "daidokoro",
+        "gloss": {
+          "id": "dapur",
+          "en": "the kitchen"
+        }
+      },
+      {
+        "id": "ja-k-place-alley",
+        "native": "路地",
+        "reading": "ろじ",
+        "romanization": "roji",
+        "gloss": {
+          "id": "gang kecil",
+          "en": "the alley"
+        }
+      },
+      {
+        "id": "ja-k-place-park",
+        "native": "公園",
+        "reading": "こうえん",
+        "romanization": "kōen",
+        "gloss": {
+          "id": "taman",
+          "en": "the park"
+        }
+      }
+    ],
+    "object": [
+      {
+        "id": "ja-k-object-menu",
+        "native": "メニュー",
+        "reading": "めにゅー",
+        "romanization": "menyū",
+        "gloss": {
+          "id": "menu",
+          "en": "the menu"
+        }
+      },
+      {
+        "id": "ja-k-object-teacup",
+        "native": "湯呑み",
+        "reading": "ゆのみ",
+        "romanization": "yunomi",
+        "gloss": {
+          "id": "cangkir teh",
+          "en": "the teacup"
+        }
+      },
+      {
+        "id": "ja-k-object-key",
+        "native": "鍵",
+        "reading": "かぎ",
+        "romanization": "kagi",
+        "gloss": {
+          "id": "kunci",
+          "en": "the key"
+        }
+      },
+      {
+        "id": "ja-k-object-photo",
+        "native": "写真",
+        "reading": "しゃしん",
+        "romanization": "shashin",
+        "gloss": {
+          "id": "foto",
+          "en": "the photograph"
+        }
+      },
+      {
+        "id": "ja-k-object-letter",
+        "native": "手紙",
+        "reading": "てがみ",
+        "romanization": "tegami",
+        "gloss": {
+          "id": "surat",
+          "en": "the letter"
+        }
+      }
+    ],
+    "food": [
+      {
+        "id": "ja-k-food-toast",
+        "native": "トースト",
+        "reading": "とーすと",
+        "romanization": "tōsuto",
+        "gloss": {
+          "id": "roti bakar",
+          "en": "the toast"
+        }
+      },
+      {
+        "id": "ja-k-food-cake",
+        "native": "ケーキ",
+        "reading": "けーき",
+        "romanization": "kēki",
+        "gloss": {
+          "id": "kue",
+          "en": "the cake"
+        }
+      },
+      {
+        "id": "ja-k-food-onigiri",
+        "native": "おにぎり",
+        "reading": "おにぎり",
+        "romanization": "onigiri",
+        "gloss": {
+          "id": "onigiri",
+          "en": "the rice ball"
+        }
+      },
+      {
+        "id": "ja-k-food-misoshiru",
+        "native": "みそ汁",
+        "reading": "みそしる",
+        "romanization": "misoshiru",
+        "gloss": {
+          "id": "sup miso",
+          "en": "the miso soup"
+        }
+      }
+    ],
+    "drink": [
+      {
+        "id": "ja-k-drink-tea",
+        "native": "お茶",
+        "reading": "おちゃ",
+        "romanization": "ocha",
+        "gloss": {
+          "id": "teh",
+          "en": "the tea"
+        }
+      },
+      {
+        "id": "ja-k-drink-water",
+        "native": "水",
+        "reading": "みず",
+        "romanization": "mizu",
+        "gloss": {
+          "id": "air",
+          "en": "the water"
+        }
+      },
+      {
+        "id": "ja-k-drink-juice",
+        "native": "ジュース",
+        "reading": "じゅーす",
+        "romanization": "jūsu",
+        "gloss": {
+          "id": "jus",
+          "en": "the juice"
+        }
+      },
+      {
+        "id": "ja-k-drink-cocoa",
+        "native": "ココア",
+        "reading": "ここあ",
+        "romanization": "kokoa",
+        "gloss": {
+          "id": "cokelat panas",
+          "en": "the cocoa"
+        }
+      }
+    ],
+    "time": [
+      {
+        "id": "ja-k-time-early",
+        "native": "早朝",
+        "reading": "そうちょう",
+        "romanization": "sōchō",
+        "gloss": {
+          "id": "pagi-pagi",
+          "en": "early morning"
+        }
+      },
+      {
+        "id": "ja-k-time-midday",
+        "native": "昼下がり",
+        "reading": "ひるさがり",
+        "romanization": "hirusagari",
+        "gloss": {
+          "id": "siang menjelang sore",
+          "en": "early afternoon"
+        }
+      },
+      {
+        "id": "ja-k-time-dusk",
+        "native": "夕暮れ",
+        "reading": "ゆうぐれ",
+        "romanization": "yūgure",
+        "gloss": {
+          "id": "senja",
+          "en": "dusk"
+        }
+      },
+      {
+        "id": "ja-k-time-midnight",
+        "native": "真夜中",
+        "reading": "まよなか",
+        "romanization": "mayonaka",
+        "gloss": {
+          "id": "tengah malam",
+          "en": "midnight"
+        }
+      }
+    ],
+    "weather": [
+      {
+        "id": "ja-k-weather-cloudy",
+        "native": "曇っています。",
+        "reading": "くもっています。",
+        "romanization": "Kumotte imasu.",
+        "gloss": {
+          "id": "Langitnya mendung.",
+          "en": "It is cloudy."
+        },
+        "tags": [
+          "cloudy",
+          "曇り"
+        ]
+      },
+      {
+        "id": "ja-k-weather-stars",
+        "native": "星が出ています。",
+        "reading": "ほしがでています。",
+        "romanization": "Hoshi ga dete imasu.",
+        "gloss": {
+          "id": "Bintang-bintang terlihat.",
+          "en": "The stars are out."
+        },
+        "tags": [
+          "clear",
+          "星"
+        ]
+      },
+      {
+        "id": "ja-k-weather-light-rain",
+        "native": "小雨が降っています。",
+        "reading": "こさめがふっています。",
+        "romanization": "Kosame ga futte imasu.",
+        "gloss": {
+          "id": "Gerimis turun.",
+          "en": "Light rain is falling."
+        },
+        "tags": [
+          "rain",
+          "小雨"
+        ]
+      },
+      {
+        "id": "ja-k-weather-hot",
+        "native": "蒸し暑いです。",
+        "reading": "むしあついです。",
+        "romanization": "Mushiatsui desu.",
+        "gloss": {
+          "id": "Hari gerah.",
+          "en": "It is muggy."
+        },
+        "tags": [
+          "heat",
+          "warm",
+          "蒸し暑い"
+        ]
+      }
+    ],
+    "action": [
+      {
+        "id": "ja-k-action-tea",
+        "native": "お茶を入れました",
+        "reading": "おちゃをいれました",
+        "romanization": "ocha o iremashita",
+        "gloss": {
+          "id": "menyeduh teh",
+          "en": "made tea"
+        }
+      },
+      {
+        "id": "ja-k-action-wash",
+        "native": "皿を洗いました",
+        "reading": "さらをあらいました",
+        "romanization": "sara o araimashita",
+        "gloss": {
+          "id": "mencuci piring",
+          "en": "washed the dishes"
+        }
+      },
+      {
+        "id": "ja-k-action-sweep",
+        "native": "床を掃きました",
+        "reading": "ゆかをはきました",
+        "romanization": "yuka o hakimashita",
+        "gloss": {
+          "id": "menyapu lantai",
+          "en": "swept the floor"
+        }
+      },
+      {
+        "id": "ja-k-action-bill",
+        "native": "会計をしました",
+        "reading": "かいけいをしました",
+        "romanization": "kaikei o shimashita",
+        "gloss": {
+          "id": "menghitung pembayaran",
+          "en": "settled the bill"
+        }
+      },
+      {
+        "id": "ja-k-action-sign",
+        "native": "看板を出しました",
+        "reading": "かんばんをだしました",
+        "romanization": "kanban o dashimashita",
+        "gloss": {
+          "id": "memasang papan nama",
+          "en": "put out the sign"
+        }
+      }
+    ],
+    "quote": [
+      {
+        "id": "ja-k-quote-wait",
+        "native": "お待たせしました",
+        "reading": "おまたせしました",
+        "romanization": "Omatase shimashita",
+        "gloss": {
+          "id": "Maaf membuat Anda menunggu.",
+          "en": "Thank you for waiting."
+        }
+      },
+      {
+        "id": "ja-k-quote-thanks",
+        "native": "ありがとうございます",
+        "reading": "ありがとうございます",
+        "romanization": "Arigatō gozaimasu",
+        "gloss": {
+          "id": "Terima kasih.",
+          "en": "Thank you."
+        }
+      },
+      {
+        "id": "ja-k-quote-slowly",
+        "native": "ゆっくりどうぞ",
+        "reading": "ゆっくりどうぞ",
+        "romanization": "Yukkuri dōzo",
+        "gloss": {
+          "id": "Silakan nikmati.",
+          "en": "Take your time."
+        }
+      },
+      {
+        "id": "ja-k-quote-today",
+        "native": "今日はここまでにしましょう",
+        "reading": "きょうはここまでにしましょう",
+        "romanization": "Kyō wa koko made ni shimashō",
+        "gloss": {
+          "id": "Sampai di sini dulu untuk hari ini.",
+          "en": "Let's stop here for today."
+        }
+      }
+    ],
+    "question": [
+      {
+        "id": "ja-k-question-when",
+        "native": "いつ来ましたか。",
+        "reading": "いつきましたか。",
+        "romanization": "Itsu kimashita ka.",
+        "gloss": {
+          "id": "Kapan datangnya?",
+          "en": "When did you come?"
+        }
+      },
+      {
+        "id": "ja-k-question-where",
+        "native": "どこにありますか。",
+        "reading": "どこにありますか。",
+        "romanization": "Doko ni arimasu ka.",
+        "gloss": {
+          "id": "Di mana letaknya?",
+          "en": "Where is it?"
+        }
+      },
+      {
+        "id": "ja-k-question-why",
+        "native": "なぜそう思うのですか。",
+        "reading": "なぜそうおもうのですか。",
+        "romanization": "Naze sō omou no desu ka.",
+        "gloss": {
+          "id": "Mengapa kamu berpikir begitu?",
+          "en": "Why do you think so?"
+        }
+      },
+      {
+        "id": "ja-k-question-what-hold",
+        "native": "何を持っていますか。",
+        "reading": "なにをもっていますか。",
+        "romanization": "Nani o motte imasu ka.",
+        "gloss": {
+          "id": "Apa yang kamu bawa?",
+          "en": "What are you holding?"
+        }
+      },
+      {
+        "id": "ja-k-question-next",
+        "native": "次はどうしますか。",
+        "reading": "つぎはどうしますか。",
+        "romanization": "Tsugi wa dō shimasu ka.",
+        "gloss": {
+          "id": "Selanjutnya bagaimana?",
+          "en": "What will you do next?"
+        }
+      }
+    ],
+    "greeting": [
+      {
+        "id": "ja-k-greeting-morning",
+        "native": "おはよう",
+        "reading": "おはよう",
+        "romanization": "ohayō",
+        "gloss": {
+          "id": "Pagi",
+          "en": "Morning"
+        }
+      },
+      {
+        "id": "ja-k-greeting-thanks",
+        "native": "どうも",
+        "reading": "どうも",
+        "romanization": "dōmo",
+        "gloss": {
+          "id": "Terima kasih",
+          "en": "Thanks"
+        }
+      },
+      {
+        "id": "ja-k-greeting-welcome-home",
+        "native": "おかえりなさい",
+        "reading": "おかえりなさい",
+        "romanization": "okaerinasai",
+        "gloss": {
+          "id": "Selamat pulang",
+          "en": "Welcome home"
+        }
+      },
+      {
+        "id": "ja-k-greeting-see-you",
+        "native": "また明日",
+        "reading": "またあした",
+        "romanization": "mata ashita",
+        "gloss": {
+          "id": "Sampai jumpa besok",
+          "en": "See you tomorrow"
+        }
+      }
+    ],
+    "emotion": [
+      {
+        "id": "ja-k-emotion-relieved",
+        "native": "ほっとした気持ち",
+        "reading": "ほっとしたきもち",
+        "romanization": "hotto shita kimochi",
+        "gloss": {
+          "id": "lega",
+          "en": "relief"
+        }
+      },
+      {
+        "id": "ja-k-emotion-safe",
+        "native": "安心感",
+        "reading": "あんしんかん",
+        "romanization": "anshinkan",
+        "gloss": {
+          "id": "rasa aman",
+          "en": "a sense of safety"
+        }
+      },
+      {
+        "id": "ja-k-emotion-tension",
+        "native": "緊張",
+        "reading": "きんちょう",
+        "romanization": "kinchō",
+        "gloss": {
+          "id": "ketegangan",
+          "en": "tension"
+        }
+      },
+      {
+        "id": "ja-k-emotion-hope",
+        "native": "期待",
+        "reading": "きたい",
+        "romanization": "kitai",
+        "gloss": {
+          "id": "harapan",
+          "en": "anticipation"
+        }
+      },
+      {
+        "id": "ja-k-emotion-happiness",
+        "native": "幸福感",
+        "reading": "こうふくかん",
+        "romanization": "kōfukukan",
+        "gloss": {
+          "id": "rasa bahagia",
+          "en": "a feeling of happiness"
+        }
+      }
+    ]
+  },
+  "frames": [
+    {
+      "id": "f-l1-context-1",
+      "segments": [
+        {
+          "slot": "time"
+        },
+        {
+          "text": "、",
+          "reading": "、",
+          "romanization": ","
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "は",
+          "reading": "は",
+          "romanization": "wa"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "に着きました。",
+          "reading": "につきました。",
+          "romanization": "ni tsukimashita."
+        },
+        {
+          "slot": "weather"
+        }
+      ]
+    },
+    {
+      "id": "f-l1-context-2",
+      "segments": [
+        {
+          "slot": "place"
+        },
+        {
+          "text": "はまだ静かです。",
+          "reading": "はまだしずかです。",
+          "romanization": "wa mada shizuka desu."
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "は",
+          "reading": "は",
+          "romanization": "wa"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "のそばで",
+          "reading": "のそばで",
+          "romanization": "no soba de"
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "を待っています。",
+          "reading": "をまっています。",
+          "romanization": "o matte imasu."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-greeting-1",
+      "segments": [
+        {
+          "text": "「",
+          "reading": "「",
+          "romanization": "「"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "」と",
+          "reading": "」と",
+          "romanization": "」 to"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "は言いました。",
+          "reading": "はいいました。",
+          "romanization": "wa iimashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-greeting-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "は笑って、「",
+          "reading": "はわらって、「",
+          "romanization": "wa waratte, 「"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "」と言いました。",
+          "reading": "」といいました。",
+          "romanization": "」 to iimashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-task-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "は",
+          "reading": "は",
+          "romanization": "wa"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "で",
+          "reading": "で",
+          "romanization": "de"
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": "。",
+          "reading": "。",
+          "romanization": "."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-task-2",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "は",
+          "reading": "は",
+          "romanization": "wa"
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": "。それから、",
+          "reading": "。それから、",
+          "romanization": ". Sorekara,"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "を見ました。",
+          "reading": "をみました。",
+          "romanization": "o mimashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-request-1",
+      "segments": [
+        {
+          "text": "「",
+          "reading": "「",
+          "romanization": "「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "」と",
+          "reading": "」と",
+          "romanization": "」 to"
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "は言いました。",
+          "reading": "はいいました。",
+          "romanization": "wa iimashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-request-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "は「",
+          "reading": "は「",
+          "romanization": "wa 「"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "をください」と言いました。",
+          "reading": "をください」といいました。",
+          "romanization": "o kudasai」 to iimashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-complication-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "にはわかりません。「",
+          "reading": "にはわかりません。「",
+          "romanization": "ni wa wakarimasen. 「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」と聞きました。",
+          "reading": "」とききました。",
+          "romanization": "」 to kikimashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-complication-2",
+      "segments": [
+        {
+          "slot": "object"
+        },
+        {
+          "text": "がありません。",
+          "reading": "がありません。",
+          "romanization": "ga arimasen."
+        },
+        {
+          "slot": "weather"
+        }
+      ]
+    },
+    {
+      "id": "f-l1-clue-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "は机の下で",
+          "reading": "はつくえのしたで",
+          "romanization": "wa tsukue no shita de"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "を見つけました。",
+          "reading": "をみつけました。",
+          "romanization": "o mitsukemashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-clue-2",
+      "segments": [
+        {
+          "slot": "object"
+        },
+        {
+          "text": "に名前がありました。",
+          "reading": "になまえがありました。",
+          "romanization": "ni namae ga arimashita."
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "はそれを読みました。",
+          "reading": "はそれをよみました。",
+          "romanization": "wa sore o yomimashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-turn-1",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "は笑って、「",
+          "reading": "はわらって、「",
+          "romanization": "wa waratte, 「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "」と言いました。",
+          "reading": "」といいました。",
+          "romanization": "」 to iimashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-turn-2",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "は",
+          "reading": "は",
+          "romanization": "wa"
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": "を感じました。",
+          "reading": "をかんじました。",
+          "romanization": "o kanjimashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-cliffhanger-1",
+      "segments": [
+        {
+          "text": "電話が鳴りました。",
+          "reading": "でんわがなりました。",
+          "romanization": "Denwa ga narimashita."
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "は",
+          "reading": "は",
+          "romanization": "wa"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "を持っていました。",
+          "reading": "をもっていました。",
+          "romanization": "o motte imashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l1-cliffhanger-2",
+      "segments": [
+        {
+          "text": "「",
+          "reading": "「",
+          "romanization": "「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」と",
+          "reading": "」と",
+          "romanization": "」 to"
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "は小さな声で言いました。",
+          "reading": "はちいさなこえでいいました。",
+          "romanization": "wa chīsana koe de iimashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-context-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "が",
+          "reading": "が",
+          "romanization": "ga"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "に着いたとき、",
+          "reading": "についたとき、",
+          "romanization": "ni tsuita toki,"
+        },
+        {
+          "slot": "time"
+        },
+        {
+          "text": "のにぎわいはもう始まっていました。",
+          "reading": "のにぎわいはもうはじまっていました。",
+          "romanization": "no nigiwai wa mō hajimatte imashita."
+        },
+        {
+          "slot": "weather"
+        }
+      ]
+    },
+    {
+      "id": "f-l2-context-2",
+      "segments": [
+        {
+          "slot": "place"
+        },
+        {
+          "text": "はとても静かだったので、",
+          "reading": "はとてもしずかだったので、",
+          "romanization": "wa totemo shizuka datta node,"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "は",
+          "reading": "は",
+          "romanization": "wa"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "を持ったまま",
+          "reading": "をもったまま",
+          "romanization": "o motta mama"
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "を待っていました。",
+          "reading": "をまっていました。",
+          "romanization": "o matte imashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-greeting-1",
+      "segments": [
+        {
+          "text": "ドアを開けながら「",
+          "reading": "どあをあけながら「",
+          "romanization": "doa o akenagara 「"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "」と",
+          "reading": "」と",
+          "romanization": "」 to"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "は言いました。",
+          "reading": "はいいました。",
+          "romanization": "wa iimashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-greeting-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "はうなずいて、「",
+          "reading": "はうなずいて、「",
+          "romanization": "wa unazuite, 「"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "」と答えました。",
+          "reading": "」とこたえました。",
+          "romanization": "」 to kotaemashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-task-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "が",
+          "reading": "が",
+          "romanization": "ga"
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": "ので、",
+          "reading": "ので、",
+          "romanization": "node,"
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "は早めに",
+          "reading": "ははやめに",
+          "romanization": "wa hayame ni"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "へ来ました。",
+          "reading": "へきました。",
+          "romanization": "e kimashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-task-2",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "は",
+          "reading": "は",
+          "romanization": "wa"
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": "が、",
+          "reading": "が、",
+          "romanization": "ga,"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "はまだ机の上にありました。",
+          "reading": "はまだつくえのうえにありました。",
+          "romanization": "wa mada tsukue no ue ni arimashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-request-1",
+      "segments": [
+        {
+          "text": "「",
+          "reading": "「",
+          "romanization": "「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "」と",
+          "reading": "」と",
+          "romanization": "」 to"
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "は小さな声で言いました。",
+          "reading": "はちいさなこえでいいました。",
+          "romanization": "wa chīsana koe de iimashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-request-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "は",
+          "reading": "は",
+          "romanization": "wa"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "に",
+          "reading": "に",
+          "romanization": "ni"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "のことを聞きました。返事はすぐにはできませんでした。",
+          "reading": "のことをききました。へんじはすぐにはできませんでした。",
+          "romanization": "no koto o kikimashita. Henji wa sugu ni wa dekimasen deshita."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-complication-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "には意味がわかりませんでした。「",
+          "reading": "にはいみがわかりませんでした。「",
+          "romanization": "ni wa imi ga wakarimasen deshita. 「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」と聞きました。",
+          "reading": "」とききました。",
+          "romanization": "」 to kikimashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-complication-2",
+      "segments": [
+        {
+          "slot": "object"
+        },
+        {
+          "text": "は動かされていました。",
+          "reading": "はうごかされていました。",
+          "romanization": "wa ugokasarete imashita."
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "は誰がやったのかわかりませんでした。",
+          "reading": "はだれがやったのかわかりませんでした。",
+          "romanization": "wa dare ga yatta no ka wakarimasen deshita."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-clue-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "は引き出しの中の古い布の下で",
+          "reading": "はひきだしのなかのふるいぬののしたで",
+          "romanization": "wa hikidashi no naka no furui nuno no shita de"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "を見つけました。",
+          "reading": "をみつけました。",
+          "romanization": "o mitsukemashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-clue-2",
+      "segments": [
+        {
+          "slot": "object"
+        },
+        {
+          "text": "には小さなメモが挟んでありました。「",
+          "reading": "にはちいさなめもがはさんでありました。「",
+          "romanization": "ni wa chīsana memo ga hasande arimashita. 「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "」と書いてありました。",
+          "reading": "」とかいてありました。",
+          "romanization": "」 to kaite arimashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-turn-1",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "は",
+          "reading": "は",
+          "romanization": "wa"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "を見て、「",
+          "reading": "をみて、「",
+          "romanization": "o mite, 「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "」と言いました。返す言葉は見つかりませんでした。",
+          "reading": "」といいました。かえすことばはみつかりませんでした。",
+          "romanization": "」 to iimashita. Kaesu kotoba wa mitsukarimasen deshita."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-turn-2",
+      "segments": [
+        {
+          "text": "はじめて、",
+          "reading": "はじめて、",
+          "romanization": "Hajimete,"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "は",
+          "reading": "は",
+          "romanization": "wa"
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": "を感じました。",
+          "reading": "をかんじました。",
+          "romanization": "o kanjimashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-cliffhanger-1",
+      "segments": [
+        {
+          "text": "そのとき、",
+          "reading": "そのとき、",
+          "romanization": "Sono toki,"
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "が",
+          "reading": "が",
+          "romanization": "ga"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "を持ってドアのところに現れました。",
+          "reading": "をもってどあのところにあらわれました。",
+          "romanization": "o motte doa no tokoro ni arawaremashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l2-cliffhanger-2",
+      "segments": [
+        {
+          "text": "電話がまた鳴りました。「",
+          "reading": "でんわがまたなりました。「",
+          "romanization": "Denwa ga mata narimashita. 「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」と電話の声が言いました。",
+          "reading": "」とでんわのこえがいいました。",
+          "romanization": "」 to denwa no koe ga iimashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-context-1",
+      "segments": [
+        {
+          "slot": "time"
+        },
+        {
+          "text": "の",
+          "reading": "の",
+          "romanization": "no"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "は、",
+          "reading": "は、",
+          "romanization": "wa,"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "の知っている場所とはどこか違って見えました。",
+          "reading": "のしっているばしょとはどこかちがってみえました。",
+          "romanization": "no shitte iru basho to wa dokoka chigatte miemashita."
+        },
+        {
+          "slot": "weather"
+        }
+      ]
+    },
+    {
+      "id": "f-l3-context-2",
+      "segments": [
+        {
+          "text": "昔はにぎやかだった",
+          "reading": "むかしはにぎやかだった",
+          "romanization": "Mukashi wa nigiyaka datta"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "も、今は静かで、",
+          "reading": "も、いまはしずかで、",
+          "romanization": "mo, ima wa shizuka de,"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "だけが同じ場所に残っていました。",
+          "reading": "だけがおなじばしょにのこっていました。",
+          "romanization": "dake ga onaji basho ni nokotte imashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-greeting-1",
+      "segments": [
+        {
+          "text": "「",
+          "reading": "「",
+          "romanization": "「"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "」と",
+          "reading": "」と",
+          "romanization": "」 to"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "は言いました。",
+          "reading": "はいいました。",
+          "romanization": "wa iimashita."
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "に聞こえたかどうか、自信はありませんでした。",
+          "reading": "にきこえたかどうか、じしんはありませんでした。",
+          "romanization": "ni kikoeta ka dō ka, jishin wa arimasen deshita."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-greeting-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "はいつものように「",
+          "reading": "はいつものように「",
+          "romanization": "wa itsumo no yō ni 「"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "」と",
+          "reading": "」と",
+          "romanization": "」 to"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "に声をかけました。",
+          "reading": "にこえをかけました。",
+          "romanization": "ni koe o kakemashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-task-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "は",
+          "reading": "は",
+          "romanization": "wa"
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": "。そのあいだ、",
+          "reading": "。そのあいだ、",
+          "romanization": ". Sono aida,"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "にはまだ見たことのないものがたくさんあることに気づきました。",
+          "reading": "にはまだみたことのないものがたくさんあることにきづきました。",
+          "romanization": "ni wa mada mita koto no nai mono ga takusan aru koto ni kizukimashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-task-2",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "は",
+          "reading": "は",
+          "romanization": "wa"
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": "。",
+          "reading": "。",
+          "romanization": "."
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "が来る前に",
+          "reading": "がくるまえに",
+          "romanization": "ga kuru mae ni"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "を机の上に置いておかなければならなかったからです。",
+          "reading": "をつくえのうえにおいておかなければならなかったからです。",
+          "romanization": "o tsukue no ue ni oite okanakereba naranakatta kara desu."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-request-1",
+      "segments": [
+        {
+          "text": "「",
+          "reading": "「",
+          "romanization": "「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "」と、それがこの店でいちばん普通の頼みごとであるかのように、",
+          "reading": "」と、それがこのみせでいちばんふつうのたのみごとであるかのように、",
+          "romanization": "」 to, sore ga kono mise de ichiban futsū no tanomigoto de aru ka no yō ni,"
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "は言いました。",
+          "reading": "はいいました。",
+          "romanization": "wa iimashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-request-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "は",
+          "reading": "は",
+          "romanization": "wa"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "に、",
+          "reading": "に、",
+          "romanization": "ni,"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "のことを知っているかどうか聞きました。「",
+          "reading": "のことをしっているかどうかききました。「",
+          "romanization": "no koto o shitte iru ka dō ka kikimashita. 「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」",
+          "reading": "」",
+          "romanization": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l3-complication-1",
+      "segments": [
+        {
+          "slot": "object"
+        },
+        {
+          "text": "は、扉のない鍵のようなものでした。",
+          "reading": "は、とびらのないかぎのようなものでした。",
+          "romanization": "wa, tobira no nai kagi no yō na mono deshita."
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "には答えられませんでした。「",
+          "reading": "にはこたえられませんでした。「",
+          "romanization": "ni wa kotaeraremasen deshita. 「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」",
+          "reading": "」",
+          "romanization": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l3-complication-2",
+      "segments": [
+        {
+          "text": "誰かが",
+          "reading": "だれかが",
+          "romanization": "Dareka ga"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "を動かしました。",
+          "reading": "をうごかしました。",
+          "romanization": "o ugokashimashita."
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "は、それが偶然ではないと疑い始めました。",
+          "reading": "は、それがぐうぜんではないとうたがい始めました。",
+          "romanization": "wa, sore ga gūzen de wa nai to utagaihajimemashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-clue-1",
+      "segments": [
+        {
+          "slot": "object"
+        },
+        {
+          "text": "の裏から古いメモが出てきました。「",
+          "reading": "のうらからふるいめもがでてきました。「",
+          "romanization": "no ura kara furui memo ga dete kimashita. 「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "」",
+          "reading": "」",
+          "romanization": "」"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "はその文字を見て、しばらく動けませんでした。",
+          "reading": "はそのもじをみて、しばらくうごけませんでした。",
+          "romanization": "wa sono moji o mite, shibaraku ugokemasen deshita."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-clue-2",
+      "segments": [
+        {
+          "text": "この",
+          "reading": "この",
+          "romanization": "Kono"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "は",
+          "reading": "は",
+          "romanization": "wa"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "から来たもので、",
+          "reading": "からきたもので、",
+          "romanization": "kara kita mono de,"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "が生まれるずっと前からそこにあったのです。",
+          "reading": "がうまれるずっとまえからそこにあったのです。",
+          "romanization": "ga umareru zutto mae kara soko ni atta no desu."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-turn-1",
+      "segments": [
+        {
+          "text": "「",
+          "reading": "「",
+          "romanization": "「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "」と",
+          "reading": "」と",
+          "romanization": "」 to"
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "は言いました。",
+          "reading": "はいいました。",
+          "romanization": "wa iimashita."
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "の胸に",
+          "reading": "のむねに",
+          "romanization": "no mune ni"
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": "が広がりました。",
+          "reading": "がひろがりました。",
+          "romanization": "ga hirogarimashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-turn-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "が",
+          "reading": "が",
+          "romanization": "ga"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "を手渡すと、",
+          "reading": "をてわたすと、",
+          "romanization": "o tewatasu to,"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "はしばらく",
+          "reading": "はしばらく",
+          "romanization": "wa shibaraku"
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": "に包まれていました。",
+          "reading": "につつまれていました。",
+          "romanization": "ni tsutsumarete imashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l3-cliffhanger-1",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "は新しい",
+          "reading": "はあたらしい",
+          "romanization": "wa atarashii"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "を見せました。「",
+          "reading": "をみせました。「",
+          "romanization": "o misemashita. 「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」",
+          "reading": "」",
+          "romanization": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l3-cliffhanger-2",
+      "segments": [
+        {
+          "text": "その夜、",
+          "reading": "そのよ、",
+          "romanization": "Sono yo,"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "は静かで、",
+          "reading": "はしずかで、",
+          "romanization": "wa shizuka de,"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "だけがテーブルの上に残されていました。",
+          "reading": "だけがてーぶるのうえにのこされていました。",
+          "romanization": "dake ga tēburu no ue ni nokosarete imashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-context-1",
+      "segments": [
+        {
+          "text": "久しぶりに",
+          "reading": "ひさしぶりに",
+          "romanization": "Hisashiburi ni"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "へ来た",
+          "reading": "へきた",
+          "romanization": "e kita"
+        },
+        {
+          "slot": "time"
+        },
+        {
+          "text": "、",
+          "reading": "、",
+          "romanization": ","
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "は、この店がもう昔のままではないことに気づきました。",
+          "reading": "は、このみせがもうむかしのままではないことにきづきました。",
+          "romanization": "wa, kono mise ga mō mukashi no mama de wa nai koto ni kizukimashita."
+        },
+        {
+          "slot": "weather"
+        }
+      ]
+    },
+    {
+      "id": "f-l4-context-2",
+      "segments": [
+        {
+          "slot": "place"
+        },
+        {
+          "text": "では、",
+          "reading": "では、",
+          "romanization": "de wa,"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "が何年も同じ場所に置かれたままでした。",
+          "reading": "がなんねんもおなじばしょにおかれたままでした。",
+          "romanization": "ga nannen mo onaji basho ni okareta mama deshita."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-greeting-1",
+      "segments": [
+        {
+          "text": "「",
+          "reading": "「",
+          "romanization": "「"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "」と",
+          "reading": "」と",
+          "romanization": "」 to"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "は丁寧に言いました。それほど親しい間柄ではなかったのです。",
+          "reading": "はていねいにいいました。それほどしたしいあいだがらではなかったのです。",
+          "romanization": "wa teinei ni iimashita. Sorehodo shitashii aidagara de wa nakatta no desu."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-greeting-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "は「",
+          "reading": "は「",
+          "romanization": "wa 「"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "」と答え、",
+          "reading": "」とこたえ、",
+          "romanization": "」 to kotae,"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "を中へ招いてくれました。",
+          "reading": "をなかへまねいてくれました。",
+          "romanization": "o naka e maneite kuremashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-task-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "は",
+          "reading": "は",
+          "romanization": "wa"
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": "。そのあとで、",
+          "reading": "。そのあとで、",
+          "romanization": ". Sono ato de,"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "がもう昔のままではないとわかりました。",
+          "reading": "がもうむかしのままではないとわかりました。",
+          "romanization": "ga mō mukashi no mama de wa nai to wakarimashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-task-2",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "は",
+          "reading": "は",
+          "romanization": "wa"
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": "。そして、",
+          "reading": "。そして、",
+          "romanization": ". Soshite,"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "がなぜそれほど大切なのかを",
+          "reading": "がなぜそれほどたいせつなのかを",
+          "romanization": "ga naze sorehodo taisetsu na no ka o"
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "に説明しました。",
+          "reading": "にせつめいしました。",
+          "romanization": "ni setsumei shimashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-request-1",
+      "segments": [
+        {
+          "text": "「",
+          "reading": "「",
+          "romanization": "「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "」と",
+          "reading": "」と",
+          "romanization": "」 to"
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "は言って、",
+          "reading": "はいって、",
+          "romanization": "wa itte,"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "を",
+          "reading": "を",
+          "romanization": "o"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "のほうへ押し出しました。",
+          "reading": "のほうへおしだしました。",
+          "romanization": "no hō e oshidashimashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-request-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "は",
+          "reading": "は",
+          "romanization": "wa"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "に、もう一度",
+          "reading": "に、もういちど",
+          "romanization": "ni, mō ichido"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "を確かめてほしいと頼みました。「",
+          "reading": "をたしかめてほしいとたのみました。「",
+          "romanization": "o tashikamete hoshii to tanomimashita. 「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」",
+          "reading": "」",
+          "romanization": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l4-complication-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "は、",
+          "reading": "は、",
+          "romanization": "wa,"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "が理由もなくここにあるはずがないと気づきました。「",
+          "reading": "がりゆうもなくここにあるはずがないときづきました。「",
+          "romanization": "ga riyū mo naku koko ni aru hazu ga nai to kizukimashita. 「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」",
+          "reading": "」",
+          "romanization": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l4-complication-2",
+      "segments": [
+        {
+          "slot": "object"
+        },
+        {
+          "text": "は",
+          "reading": "は",
+          "romanization": "wa"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "から動かされていて、",
+          "reading": "からうごかされていて、",
+          "romanization": "kara ugokasarete ite,"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "はそのことを知らされていませんでした。",
+          "reading": "はそのことをしらされていませんでした。",
+          "romanization": "wa sono koto o shirasarete imasen deshita."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-clue-1",
+      "segments": [
+        {
+          "slot": "object"
+        },
+        {
+          "text": "の中から、手書きの手紙が出てきました。「",
+          "reading": "のなかから、てがきのてがみがでてきました。「",
+          "romanization": "no naka kara, tegaki no tegami ga dete kimashita. 「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "」",
+          "reading": "」",
+          "romanization": "」"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "はしばらく動けませんでした。",
+          "reading": "はしばらくうごけませんでした。",
+          "romanization": "wa shibaraku ugokemasen deshita."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-clue-2",
+      "segments": [
+        {
+          "slot": "object"
+        },
+        {
+          "text": "は、名前を明かしたくない誰かによって",
+          "reading": "は、なまえをあかしたくないだれかによって",
+          "romanization": "wa, namae o akashitakunai dareka ni yotte"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "に保管されていました。",
+          "reading": "にほかんされていました。",
+          "romanization": "ni hokan sarete imashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-turn-1",
+      "segments": [
+        {
+          "text": "「",
+          "reading": "「",
+          "romanization": "「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "」と",
+          "reading": "」と",
+          "romanization": "」 to"
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "は言いました。",
+          "reading": "はいいました。",
+          "romanization": "wa iimashita."
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "は",
+          "reading": "は",
+          "romanization": "wa"
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": "を隠せませんでした。",
+          "reading": "をかくせませんでした。",
+          "romanization": "o kakusemasen deshita."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-turn-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "が",
+          "reading": "が",
+          "romanization": "ga"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "を手渡したとき、",
+          "reading": "をてわたしたとき、",
+          "romanization": "o tewatashita toki,"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "は、その",
+          "reading": "は、その",
+          "romanization": "wa, sono"
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": "を長いあいだ抱えていたのだと気づきました。",
+          "reading": "をながいあいだかかえていたのだときづきました。",
+          "romanization": "o nagai aida kakaete ita no da to kizukimashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-cliffhanger-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "が聞く前に、",
+          "reading": "がきくまえに、",
+          "romanization": "ga kiku mae ni,"
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "は「",
+          "reading": "は「",
+          "romanization": "wa 「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」と言いました。",
+          "reading": "」といいました。",
+          "romanization": "」 to iimashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l4-cliffhanger-2",
+      "segments": [
+        {
+          "slot": "place"
+        },
+        {
+          "text": "の扉が開き、",
+          "reading": "のとびらがひらき、",
+          "romanization": "no tobira ga hiraki,"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "が消えていました。鍵はかかっていなければならないはずでした。",
+          "reading": "がきえていました。かぎはかかっていなければならないはずでした。",
+          "romanization": "ga kiete imashita. Kagi wa kakatte inakereba naranai hazu deshita."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-context-1",
+      "segments": [
+        {
+          "slot": "time"
+        },
+        {
+          "text": "の",
+          "reading": "の",
+          "romanization": "no"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "は、まだ形にならない記憶のように見えました。",
+          "reading": "は、まだかたちにならないきおくのようにみえました。",
+          "romanization": "wa, mada katachi ni naranai kioku no yō ni miemashita."
+        },
+        {
+          "slot": "weather"
+        }
+      ]
+    },
+    {
+      "id": "f-l5-context-2",
+      "segments": [
+        {
+          "text": "何年もたった今でも、",
+          "reading": "なんねんもたったいまでも、",
+          "romanization": "Nannen mo tatta ima demo,"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "は、",
+          "reading": "は、",
+          "romanization": "wa,"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "に横たわっていた",
+          "reading": "によこたわっていた",
+          "romanization": "ni yokotawatte ita"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "のことを覚えています。",
+          "reading": "のことをおぼえています。",
+          "romanization": "no koto o oboete imasu."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-greeting-1",
+      "segments": [
+        {
+          "text": "「",
+          "reading": "「",
+          "romanization": "「"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "」と",
+          "reading": "」と",
+          "romanization": "」 to"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "は言いました。その挨拶は、遅れて届いた謝罪のように聞こえました。",
+          "reading": "はいいました。そのあいさつは、おくれてとどいたしゃざいのようにきこえました。",
+          "romanization": "wa iimashita. Sono aisatsu wa, okurete todoita shazai no yō ni kikoemashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-greeting-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "は「",
+          "reading": "は「",
+          "romanization": "wa 「"
+        },
+        {
+          "slot": "greeting"
+        },
+        {
+          "text": "」と答えました。二人とも、まだ言えていないことがあると知っていました。",
+          "reading": "」とこたえました。ふたりとも、まだいえていないことがあるとしっていました。",
+          "romanization": "」 to kotaemashita. Futari tomo, mada iete inai koto ga aru to shitte imashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-task-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "が",
+          "reading": "が",
+          "romanization": "ga"
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": "。そのあいだ、",
+          "reading": "。そのあいだ、",
+          "romanization": ". Sono aida,"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "は息を止めて、決して来ない何かを待っているかのようでした。",
+          "reading": "はきをとめて、けっしてこないなにかをまっているかのようでした。",
+          "romanization": "wa iki o tomete, kesshite konai nanika o matte iru ka no yō deshita."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-task-2",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "は",
+          "reading": "は",
+          "romanization": "wa"
+        },
+        {
+          "slot": "action"
+        },
+        {
+          "text": "。その手つきは、",
+          "reading": "。そのてつきは、",
+          "romanization": ". Sono tetsuki wa,"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "に触れるのが怖いほど慎重でした。",
+          "reading": "にふれるのがこわいほどしんちょうでした。",
+          "romanization": "ni fureru no ga kowai hodo shinchō deshita."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-request-1",
+      "segments": [
+        {
+          "text": "「",
+          "reading": "「",
+          "romanization": "「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "」と",
+          "reading": "」と",
+          "romanization": "」 to"
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "は言いました。その手にあった",
+          "reading": "はいいました。そのてにあった",
+          "romanization": "wa iimashita. Sono te ni atta"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "は、さっきより重く見えました。",
+          "reading": "は、さっきよりおもくみえました。",
+          "romanization": "wa, sakki yori omoku miemashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-request-2",
+      "segments": [
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "は答えを求めていませんでした。ただ「",
+          "reading": "はこたえをもとめていませんでした。ただ「",
+          "romanization": "wa kotae o motomete imasen deshita. Tada 「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」と言って、",
+          "reading": "」といって、",
+          "romanization": "」 to itte,"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "を見つめていました。",
+          "reading": "をみつめていました。",
+          "romanization": "o mitsumete imashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-complication-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "は、",
+          "reading": "は、",
+          "romanization": "wa,"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "が秘密なのではなく、誰かに覚えていてほしいという願いなのだと、ようやくわかりました。「",
+          "reading": "がひみつなのではなく、だれかにおぼえていてほしいというねがいなのだと、ようやくわかりました。「",
+          "romanization": "ga himitsu na no de wa naku, dareka ni oboete ite hoshii to iu negai na no da to, yōyaku wakarimashita. 「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」",
+          "reading": "」",
+          "romanization": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l5-complication-2",
+      "segments": [
+        {
+          "text": "いちばんつらいのは、",
+          "reading": "いちばんつらいのは、",
+          "romanization": "Ichiban tsurai no wa,"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "を失うことではありません。",
+          "reading": "をうしなうことではありません。",
+          "romanization": "o ushinau koto de wa arimasen."
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "が長いあいだ",
+          "reading": "がながいあいだ",
+          "romanization": "ga nagai aida"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "を待っていたと気づくことです。",
+          "reading": "をまっていたときづくことです。",
+          "romanization": "o matte ita to kizuku koto desu."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-clue-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "は",
+          "reading": "は",
+          "romanization": "wa"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "を手に取り、そこに丁寧に書かれた一行を見つけました。「",
+          "reading": "をてにとり、そこにていねいにかかれた一行をみつけました。「",
+          "romanization": "o te ni tori, soko ni teinei ni kakareta ichigyō o mitsukemashita. 「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "」",
+          "reading": "」",
+          "romanization": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l5-clue-2",
+      "segments": [
+        {
+          "text": "その",
+          "reading": "その",
+          "romanization": "Sono"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "には",
+          "reading": "には",
+          "romanization": "ni wa"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "の名が記されていて、その名が、長いあいだ閉じていた扉を開きました。",
+          "reading": "のながしるされていて、そのなが、ながいあいだとじていたとびらをひらきました。",
+          "romanization": "no na ga shirusarete ite, sono na ga, nagai aida tojite ita tobira o hirakimashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-turn-1",
+      "segments": [
+        {
+          "text": "「",
+          "reading": "「",
+          "romanization": "「"
+        },
+        {
+          "slot": "quote"
+        },
+        {
+          "text": "」と",
+          "reading": "」と",
+          "romanization": "」 to"
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "はついに言いました。",
+          "reading": "はついにいいました。",
+          "romanization": "wa tsui ni iimashita."
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "は、もう隠しようのない",
+          "reading": "は、もうかくしようのない",
+          "romanization": "wa, mō kakushiyō no nai"
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": "に包まれました。",
+          "reading": "につつまれました。",
+          "romanization": "ni tsutsumaremashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-turn-2",
+      "segments": [
+        {
+          "slot": "object"
+        },
+        {
+          "text": "が手から手へ移るとき、",
+          "reading": "がてからてへうつるとき、",
+          "romanization": "ga te kara te e utsuru toki,"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "は、",
+          "reading": "は、",
+          "romanization": "wa,"
+        },
+        {
+          "slot": "emotion"
+        },
+        {
+          "text": "のほうがどんな物よりも長く残るのだと知りました。",
+          "reading": "のほうがどんなものよりもながくのこるのだとしりました。",
+          "romanization": "no hō ga donna mono yori mo nagaku nokoru no da to shirimashita."
+        }
+      ]
+    },
+    {
+      "id": "f-l5-cliffhanger-1",
+      "segments": [
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "は",
+          "reading": "は",
+          "romanization": "wa"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "を見て、それから",
+          "reading": "をみて、それから",
+          "romanization": "o mite, sorekara"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "text": "のほうを見ました。「",
+          "reading": "のほうをみました。「",
+          "romanization": "no hō o mimashita. 「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」",
+          "reading": "」",
+          "romanization": "」"
+        }
+      ]
+    },
+    {
+      "id": "f-l5-cliffhanger-2",
+      "segments": [
+        {
+          "text": "戸口で、",
+          "reading": "とぐちで、",
+          "romanization": "Toguchi de,"
+        },
+        {
+          "slot": "personB"
+        },
+        {
+          "text": "が「",
+          "reading": "が「",
+          "romanization": "ga 「"
+        },
+        {
+          "slot": "question"
+        },
+        {
+          "text": "」とささやきました。",
+          "reading": "」とささやきました。",
+          "romanization": "」 to sasayakimashita."
+        },
+        {
+          "text": "そのとき、",
+          "reading": "そのとき、",
+          "romanization": "Sono toki,"
+        },
+        {
+          "slot": "object"
+        },
+        {
+          "text": "が",
+          "reading": "が",
+          "romanization": "ga"
+        },
+        {
+          "slot": "personA"
+        },
+        {
+          "text": "の手から落ちました。",
+          "reading": "のてからおちました。",
+          "romanization": "no te kara ochimashita."
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "ja-g1",
+      "level": 1,
+      "pattern": "〜に着きました",
+      "meaning": {
+        "id": "tiba di sebuah tempat",
+        "en": "arrived at a place"
+      },
+      "example": "朝、こもれびに着きました。"
+    },
+    {
+      "id": "ja-g2",
+      "level": 1,
+      "pattern": "〜をください",
+      "meaning": {
+        "id": "meminta sesuatu dengan sopan",
+        "en": "polite request for a thing"
+      },
+      "example": "おしぼりをください。"
+    },
+    {
+      "id": "ja-g3",
+      "level": 2,
+      "pattern": "〜ので",
+      "meaning": {
+        "id": "menyatakan sebab dengan lembut",
+        "en": "a soft reason"
+      },
+      "example": "静かだったので、早く来ました。"
+    },
+    {
+      "id": "ja-g4",
+      "level": 2,
+      "pattern": "〜ながら",
+      "meaning": {
+        "id": "dua tindakan bersamaan",
+        "en": "two actions at once"
+      },
+      "example": "ドアを開けながら言いました。"
+    },
+    {
+      "id": "ja-g5",
+      "level": 3,
+      "pattern": "〜かどうか",
+      "meaning": {
+        "id": "menanyakan apakah sesuatu terjadi",
+        "en": "whether or not something is the case"
+      },
+      "example": "来るかどうか聞きました。"
+    },
+    {
+      "id": "ja-g6",
+      "level": 3,
+      "pattern": "〜てくれる",
+      "meaning": {
+        "id": "seseorang melakukan sesuatu untuk saya",
+        "en": "someone does something for me"
+      },
+      "example": "田中さんが教えてくれました。"
+    },
+    {
+      "id": "ja-g7",
+      "level": 4,
+      "pattern": "〜はずがない",
+      "meaning": {
+        "id": "tidak mungkin terjadi",
+        "en": "it cannot be"
+      },
+      "example": "理由もなくここにあるはずがない。"
+    },
+    {
+      "id": "ja-g8",
+      "level": 4,
+      "pattern": "〜てほしい",
+      "meaning": {
+        "id": "ingin orang lain melakukan sesuatu",
+        "en": "want someone to do something"
+      },
+      "example": "もう一度確かめてほしい。"
+    },
+    {
+      "id": "ja-g9",
+      "level": 5,
+      "pattern": "〜のではなく",
+      "meaning": {
+        "id": "bukan A, melainkan B",
+        "en": "not A but B"
+      },
+      "example": "秘密なのではなく、願いなのです。"
+    },
+    {
+      "id": "ja-g10",
+      "level": 5,
+      "pattern": "〜かのように",
+      "meaning": {
+        "id": "seolah-olah; kiasan sastra",
+        "en": "as if; literary simile"
+      },
+      "example": "扉のない鍵のようなものでした。"
+    }
+  ],
+  "questionPhrases": {
+    "meaning": "「{term}」はどういう意味ですか。",
+    "who": "この場面に出てくる人は誰ですか。",
+    "where": "この場面はどこで起きますか。",
+    "when": "この場面はいつのことですか。",
+    "why": "なぜそうなったのですか。",
+    "detail": "この場面で正しいのはどれですか。",
+    "next": "次に何が起こりそうですか。",
+    "culture": "この場面に出てくる文化の要素はどれですか。",
+    "grammar": "正しい形を選んでください。"
+  }
+}

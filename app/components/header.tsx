@@ -4,9 +4,9 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import Link from 'next/link';
 import Image from 'next/image';
-import { useParams, useRouter } from 'next/navigation';
+import { useParams } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
-import { languageOptions } from '@/utils/flags';
+import { LocaleSwitcher } from '@/components/settings/locale-switcher';
 
 const navLinks = [
   { key: 'nav.about', href: '/aboutus' },
@@ -25,20 +25,10 @@ function getLocalizedPath(path: string, locale: string): string {
 
 export default function Header() {
   const params = useParams();
-  const router = useRouter();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [isLangOpen, setIsLangOpen] = useState(false);
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   const locale = (params.lang as string) || 'en';
-  const currentPath = typeof window !== 'undefined' ? window.location.pathname.replace(`/${locale}`, '') || '/' : '/';
-
-  const changeLanguage = (code: string) => {
-    const newPath = currentPath === '/' ? `/${code}` : `/${code}${currentPath}`;
-    router.push(newPath);
-    i18n.changeLanguage(code);
-    setIsLangOpen(false);
-  };
 
   return (
     <motion.header
@@ -66,43 +56,8 @@ export default function Header() {
               </Link>
             ))}
           </div>
-          <div className="hidden md:flex items-center ml-4 relative">
-            <button
-              onClick={() => setIsLangOpen((s) => !s)}
-              className="flex items-center gap-2 px-3 py-1 rounded-full text-sm shadow-sm"
-              aria-label="Select language"
-            >
-              <Image 
-                src={languageOptions.find((l) => l.code === i18n.language)?.flag || '/images/flags/england.png'} 
-                alt="Language flag" 
-                width={24} 
-                height={16} 
-                className="w-6 h-4 object-cover rounded-sm" 
-              />
-              <span className="text-gray-700">{(i18n.language || 'en').toUpperCase()}</span>
-              <Image src="/images/icons/ic_bottom.png" alt="Select language" width={12} height={12} className={`transform transition-transform ${isLangOpen ? 'rotate-180' : ''}`} />
-            </button>
-
-            {isLangOpen && (
-              <div className="absolute right-0 -top-2 grid grid-cols-2 gap-2 mt-10 w-96 bg-white border border-gray-200 rounded-lg shadow-lg p-3 max-h-80 overflow-y-auto">
-                {languageOptions.map((lang) => (
-                  <button
-                    key={lang.code}
-                    onClick={() => changeLanguage(lang.code)}
-                    className={`w-full text-left flex items-center gap-3 px-2 py-2 hover:bg-gray-50 rounded-md ${i18n.language === lang.code ? 'bg-gray-100' : ''}`}
-                  >
-                    <Image 
-                      src={lang.flag} 
-                      alt={`${lang.name} flag`} 
-                      width={24} 
-                      height={16} 
-                      className="w-6 h-4 object-cover rounded-sm" 
-                    />
-                    <span className="text-sm text-gray-700">{lang.name}</span>
-                  </button>
-                ))}
-              </div>
-            )}
+          <div className="hidden md:flex items-center ml-4">
+            <LocaleSwitcher currentLocale={locale} />
           </div>
           <div className="hidden md:flex">
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
@@ -150,6 +105,7 @@ export default function Header() {
                     {t(link.key)}
                   </Link>
                 ))}
+                <LocaleSwitcher currentLocale={locale} className="mt-2" />
                 <Link
                 href={`/${locale}/sign-in`}
                 className="block bg-green-500 text-white px-6 py-2.5 rounded-full text-sm font-semibold text-center hover:bg-green-600 transition-colors mt-2"

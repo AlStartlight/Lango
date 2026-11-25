@@ -1,8 +1,10 @@
 "use client";
 
 import { useState, useCallback } from "react";
+import { useTranslation } from "react-i18next";
 import { getNumberWord } from "./number-data";
 import type { LanguageCode, SpellQuestion } from "./types";
+import { recordNumberAttempt } from "@/lib/learning/number-attempts";
 
 interface SpellPhaseProps {
   numbers: number[];
@@ -45,6 +47,7 @@ export function SpellPhase({
   onCorrect,
   onComplete,
 }: SpellPhaseProps) {
+  const { t } = useTranslation();
   const [questions] = useState(() => generateQuestions(numbers, lang));
   const [round, setRound] = useState(0);
   const [placedLetters, setPlacedLetters] = useState<(string | null)[]>([]);
@@ -121,6 +124,12 @@ export function SpellPhase({
     const correct = answer === normalizedWord;
     setIsCorrect(correct);
     setShowResult(true);
+    recordNumberAttempt({
+      languageCode: lang,
+      value: current.number,
+      phase: "spell",
+      answer,
+    });
 
     if (correct) {
       onCorrect(hintUsed ? 10 : 20, !hintUsed);
@@ -140,7 +149,7 @@ export function SpellPhase({
   if (!current) {
     return (
       <div className="flex items-center justify-center h-48">
-        <p className="text-white/60">Not enough numbers for this level.</p>
+        <p className="text-exp-on-surface-variant">{t("learning.number.notEnoughNumbers")}</p>
       </div>
     );
   }
@@ -148,11 +157,11 @@ export function SpellPhase({
   return (
     <div className="flex flex-col items-center gap-6">
       <div className="flex flex-col items-center gap-2">
-        <span className="text-6xl font-bold text-white select-none">
+        <span className="text-6xl font-bold text-exp-on-surface select-none">
           {current.number}
         </span>
-        <span className="text-xs text-white/30">
-          {round + 1} of {ROUNDS}
+        <span className="text-xs text-exp-on-surface-muted">
+          {t("learning.number.questionOf", { current: round + 1, total: ROUNDS })}
         </span>
       </div>
 
@@ -164,11 +173,11 @@ export function SpellPhase({
             className={`w-11 h-11 rounded-xl border-2 flex items-center justify-center text-lg font-bold transition-all duration-200 ${
               showResult
                 ? letter === normalizedWord[i]
-                  ? "bg-green-600/20 border-green-500 text-green-400"
-                  : "bg-red-600/20 border-red-500/60 text-red-400"
+                  ? "bg-exp-primary-container/20 border-exp-success text-exp-success"
+                  : "bg-exp-error/20 border-exp-error/60 text-exp-error"
                 : letter
-                  ? "bg-[#2a2a2a] border-[#444] text-white hover:bg-[#333] active:scale-95 cursor-pointer"
-                  : "bg-[#1e1e1e] border-dashed border-[#333] text-white/10"
+                  ? "bg-exp-surface-low border-exp-outline-variant text-exp-on-surface hover:bg-exp-container-high active:scale-95 cursor-pointer"
+                  : "bg-exp-surface-lowest border-dashed border-exp-container-high text-exp-on-surface-muted"
             }`}
             disabled={showResult}
           >
@@ -183,7 +192,7 @@ export function SpellPhase({
             key={`${letter}-${i}`}
             onClick={() => handlePlace(letter, i)}
             disabled={showResult}
-            className="w-10 h-10 rounded-xl bg-[#d2ff5e]/10 border border-[#d2ff5e]/30 text-[#d2ff5e] text-lg font-semibold hover:bg-[#d2ff5e]/20 active:scale-95 transition-all duration-150 disabled:opacity-30 disabled:cursor-default"
+            className="w-10 h-10 rounded-xl bg-exp-primary-container/10 border border-exp-primary-container/30 text-exp-primary text-lg font-semibold hover:bg-exp-primary-container/20 active:scale-95 transition-all duration-150 disabled:opacity-30 disabled:cursor-default"
           >
             {letter}
           </button>
@@ -193,25 +202,27 @@ export function SpellPhase({
       {!showResult && (
         <div className="flex items-center gap-3">
           <button
+            type="button"
             onClick={handleSubmit}
             disabled={placedLetters.every((l) => l === null)}
-            className="px-6 py-2 rounded-xl bg-[#d2ff5e] text-[#171717] font-semibold text-sm hover:bg-[#c4f040] disabled:opacity-30 disabled:cursor-not-allowed active:scale-[0.97] transition-all duration-150 shadow-lg shadow-[#d2ff5e]/20"
+            className="exp-btn exp-btn-primary disabled:opacity-50"
           >
-            Check Answer
+            {t("learning.common.check")}
           </button>
           <button
+            type="button"
             onClick={handleHint}
             disabled={hintUsed}
             className={`flex items-center gap-1.5 px-4 py-2 rounded-xl text-sm font-medium transition-all duration-150 ${
               hintUsed
-                ? "bg-[#252525] text-white/20 cursor-not-allowed"
-                : "bg-[#252525] border border-[#444] text-yellow-400 hover:border-yellow-400/50 active:scale-95"
+                ? "bg-exp-surface-low text-exp-on-surface-muted cursor-not-allowed"
+                : "bg-exp-surface-low border border-exp-outline-variant text-exp-secondary hover:border-yellow-400/50 active:scale-95"
             }`}
           >
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.455 2.456L21.75 6l-1.036.259a3.375 3.375 0 00-2.455 2.456z" />
             </svg>
-            {hintUsed ? "Hint Used" : "Hint (-5 XP)"}
+            {hintUsed ? t("learning.number.hintUsed") : t("learning.number.hint")}
           </button>
         </div>
       )}
@@ -221,25 +232,28 @@ export function SpellPhase({
           <div
             className={`px-5 py-2 rounded-full text-sm font-medium ${
               isCorrect
-                ? "bg-green-500/10 text-green-400 border border-green-500/20"
-                : "bg-red-500/10 text-red-400 border border-red-500/20"
+                ? "bg-exp-primary-container/10 text-exp-success border border-exp-success/20"
+                : "bg-exp-error/10 text-exp-error border border-exp-error/20"
             }`}
           >
             {isCorrect ? (
               <span className="flex items-center gap-2">
-                ✍️ Correct! +{hintUsed ? "10" : "20"} XP
+                {t("learning.number.correctXp", { xp: hintUsed ? 10 : 20 })}
               </span>
             ) : (
               <span className="flex items-center gap-2">
-                The answer was <span className="font-bold">{current.word}</span>
+                {t("learning.number.answerWas", { answer: current.word })}
               </span>
             )}
           </div>
           <button
+            type="button"
             onClick={handleNext}
-            className="px-8 py-2.5 rounded-xl bg-[#d2ff5e] text-[#171717] font-semibold text-sm hover:bg-[#c4f040] active:scale-[0.97] transition-all duration-150 shadow-lg shadow-[#d2ff5e]/20"
+            className="exp-btn exp-btn-primary"
           >
-            {round + 1 >= ROUNDS ? "Complete Phase" : "Next Word"}
+            {round + 1 >= ROUNDS
+              ? t("learning.number.completePhase")
+              : t("learning.number.nextWord")}
           </button>
         </div>
       )}

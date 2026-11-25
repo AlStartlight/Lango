@@ -107,3 +107,88 @@ Lucide React. Stroke-based icons only — no filled variants. Icon sizes: `h-4 w
 - AI tutor message stream: text appears token by token; no skeleton loaders for streaming content.
 - Lesson plan card hover: `translateY(-2px)` + shadow deepens, 150ms ease.
 - Session live badge: slow pulse animation on the red dot indicator.
+
+## Survival & Trial (Drill Training Camp)
+
+The classic drill workspace moved to `/[lang]/learn/survival` (legacy `/[lang]/editor`, which now redirects) and renders inside the same `StoryShell` / `ExpeditionShell` as every other learner screen. There is no separate dark studio chrome any more: the camp hub (`app/components/expedition/survival-camp.tsx`) opens drills in the main expedition canvas, and each drill runs in a contained module frame with a "Back to camp" control.
+
+Rules:
+
+- Use the expedition tokens and primitives only: `.exp-card`, `.exp-btn`, `.exp-chip`, `.exp-answer`, `.exp-progress`, `.exp-pill`. Never reintroduce a parallel dark palette: the legacy `--learn-*` token block and the `EditorShell` / editor navbar / project sidebar components were removed, and `/[lang]/editor` only redirects to the camp.
+- The camp hub shows real data: today's minutes/goal, streak, XP today and due reviews from `GET /api/v1/home/today`; drill availability is derived from the content language and must stay honest (Curriculum always, Number Name for `en/es/fr/de/id/ja`, Grammar for `en` today).
+- The active drill is reflected in `?module=<id>` with `history.replaceState`, so drills are refreshable/shareable and "Back to camp" clears the parameter. Deep links such as the review queue's `?module=curriculum&lesson=…` open the drill directly.
+- `GamificationBar` (`app/components/editor/shared/gamification-strip.tsx`) is the drill-local session HUD (run XP, level, lives, combo streak). The shell HUD owns account-wide streak/XP/hearts, so both can coexist without contradicting each other.
+- Minimum readable font size is 12px in UI labels; body copy uses `text-sm`/`text-[16px]`.
+- Normal text must reach 4.5:1 contrast. Muted text uses `text-exp-on-surface-muted`; never `text-white/xx`.
+- Interactive targets are at least 44×44px, and answer options use letter chips (A–D) with `.exp-answer` selected/correct/wrong states.
+- Feedback uses an icon + text, never color alone, and stays mounted until the learner continues.
+- CJK text uses the `:lang(ja)` font stack and line-height 1.75.
+
+Reference screenshots: `docs/assets/survival-camp.png` (camp hub), `docs/assets/survival-camp-drill.png` (drill + feedback), `docs/assets/survival-camp-mobile.png` (mobile hub).
+
+## Lango Expedition (Story-First Learning UI)
+
+The learner-facing story experience follows the Stitch "Lango Expedition" design system. Tokens live in `globals.css` under `--exp-*` and map to Tailwind as `bg-exp-surface`, `text-exp-primary`, `border-exp-container-high`, etc. Never hardcode the expedition palette in components.
+
+| Role | Variable | Value |
+| --- | --- | --- |
+| Page canvas | `--exp-surface` | `#F9F9FF` |
+| Cards | `--exp-surface-lowest` | `#FFFFFF` |
+| Soft rails / wells | `--exp-surface-low` | `#F0F3FF` |
+| Chips / borders | `--exp-container-high` | `#DEE8FF` |
+| Sunken track | `--exp-container-highest` | `#D8E3FB` |
+| Primary action | `--exp-primary` / `--exp-primary-container` | `#006C49` / `#10B981` |
+| Quest amber | `--exp-secondary` / `--exp-secondary-container` | `#855300` / `#FEA619` |
+| Magic violet | `--exp-tertiary` | `#494BD6` |
+| Body text | `--exp-on-surface` | `#111C2D` |
+| Secondary text | `--exp-on-surface-variant` | `#3C4A42` |
+| Muted text (AA) | `--exp-on-surface-muted` | `#55655C` |
+| Success text | `--exp-success` | `#15803D` |
+
+Primitives (defined in `globals.css`):
+
+- `.exp-card` — white card with 1.25rem radius and 4px bottom bevel.
+- `.exp-btn` + `.exp-btn-primary|amber|ghost|soft` — tactile 3D buttons with press-down offsets.
+- `.exp-pill` — capsule stats and level badges.
+- `.exp-progress` — juicy inset meter with gloss highlight; add `exp-progress-amber` for secondary progress.
+- `.exp-chip` / `.exp-chip-active` — capsule segmented-control chips for level and phase rails.
+- `.exp-answer` (+ `-selected`, `-correct`, `-wrong`, `-muted`) — 2px outline answer cards with a tactile base lift and letter-chip layout.
+- `.exp-bubble` — comic speech bubble with a left tail.
+- `.exp-tactile-node`, `.exp-quest-locked` — quest-map checkpoints.
+- `.exp-hero`, `.exp-dotted-map`, `.exp-scroll-hide`, `.exp-float`.
+
+Layout rules:
+
+- `ExpeditionShell` (`app/components/expedition/expedition-shell.tsx`) owns the fixed 288px sidebar, mobile drawer, HUD (streak / XP / hearts / daily target) and profile chip. All story-first pages render inside it via `StoryShell`.
+- Navigation is: Peta Petualangan (`/learn`), Cerita Interaktif (reader), Latihan & Kuis (`/practice`), Brankas Kata (`/vault`), Hasil & Evaluasi (`/results`), Perpustakaan Cerita (`/stories`), Papan Peringkat (`/leaderboard`), Toko Avatar & Hadiah (`/store`), plus Paspor, **Survival & Trial** (`/learn/survival`, the drill training camp) and **Suasana Belajar** (`/settings/ambience`).
+- **Level and content-language rails:** `LevelPills` (`app/components/expedition/level-pills.tsx`) and `LanguageRail` (`app/components/expedition/language-rail.tsx`) are link-only Server Components. They change the story tier via `?tier=T1..T5` and the story language via `?language=<code>` without touching the UI locale in the URL or the saved account preference. All story pages (`/learn`, `/stories`, `/practice`, `/vault`, `/results`, `/store`) accept these parameters.
+- **Brankas Kata:** `/[lang]/vault` is a Spaced Repetition study session built from the vocabulary materials of the selected story level. Rating buttons 1–4 (`again/hard/good/easy`) call `POST /api/v1/review/rate`, which stores SM-2-style state in `SpacedReviewItem`; finishing a session calls `POST /api/v1/review/complete` for the daily +25 XP bonus (idempotent per local day).
+- **Hasil & Evaluasi:** `/[lang]/results` lists chapter reports; `/[lang]/results/[episodeId]` shows the star evaluation, per-skill mastery, XP/time/streak stats, vocabulary recap, scene trail, and next-chapter CTA. Reports are derived from `StorySceneProgress` + `ExerciseAttempt` rows whose `exerciseId` belongs to the episode; never count curriculum attempts that share the same lesson ID.
+- **Store:** `/[lang]/store` presents real chapter chests, earned culture passport stamps, and the collector catalog. Gacha pulls and XP exchange are explicitly marked as shipping with the reward economy; do not fake pull results.
+- **Cerita Interaktif (episode hub + reader):** the sidebar "Cerita Interaktif" entry points at `/[lang]/reader`, an episode-first hub (continue hero with the episode's scene trail, 6-episode rail around the current chapter, locked-episode teaser, reading-journey stats, level rail). The reader (`/[lang]/reader/[sceneId]`) mirrors the Stitch visual-novel screens: episode HUD with "Langkah Cerita" dots, step rails, tappable word bubbles, choice card, language spotlight, notebook, mission rail, and a sticky action dock. On mobile the reader shows one dialogue line at a time and the dock advances line by line ("Berikutnya") until the checkpoint; desktop shows the full dialogue stream.
+- **Episode unlocks:** a level (T1–T5) is one ordered track. The first episode of every level is always open, and the next episode unlocks when the previous one reaches 80% of its scenes (all scenes complete still defines a "completed" episode). `app/lib/story/journey.ts` is the single source of truth (`computeEpisodeStates`, `getEpisodeJourney`); the hub, library, world page, episode page, and reader all read lock state from it. Reading a locked episode's scene redirects to `/[lang]/reader?locked=<episodeId>`, which explains the gate and links back to the previous episode. Never fake an unlock or bypass the gate in UI code.
+- Story artwork is local, committed artwork at `public/images/stitch/**`; never hot-link a remote image host. The Google Stitch illustration set is registered in `app/components/expedition/story-images.ts` and rendered through `StoryArtwork` / `LangoMascot` (`app/components/expedition/art.tsx`) with `next/image`.
+  - `resolveSceneArt({ seed, setting, worldId })` maps the scene setting/region to an art group (station, café, market, lane, shop, forest, water, night, street), picks deterministically from a stable hash, and hides Aoi character illustrations outside the Japanese world.
+  - `resolveCharacterArt(name)` supplies Aoi's portrait; unknown speakers keep their initial (never borrow a portrait from another character).
+  - `resolveAvatarArt(seed)` is the decorative fallback for learner avatars.
+  - Pass `image={null}` to `StoryArtwork` only when a vector fallback is explicitly wanted. Every other story surface gets the local illustration automatically.
+  - Artwork is decorative: `StoryArtwork` images use `alt=""`; the accessible name always comes from the surrounding heading/link.
+  - Provenance, curation and the source-to-file mapping live in `docs/stitch-artwork.md`. Assets are pre-sized WebP (≤1280px scenes, ≤720px mascots) and served from the app, so no runtime image host is involved.
+- Copy lives in `app/components/expedition/copy.ts` (EN/ID/JA, EN fallback) and is interpolated with `fill()`.
+- Avoid Tailwind's `text-base` utility in new UI: the legacy `--color-base` token makes `text-base` also set text color to `--bg-base`. Use `text-[16px]` or an explicit `text-exp-*` color instead.
+
+## Learning Ambience (Suasana Belajar)
+
+A device-local atmosphere for the learner workspace: falling sakura, snowfall, drizzle, a day/night sky and a synthesized soundscape. It never touches account data and only renders inside the expedition shell — never on public or auth pages.
+
+- **Layers.** `AmbienceProvider` wraps `ExpeditionShell`. `AmbienceLayer` (fixed, `z-0`, `aria-hidden`) owns the sky gradient, sun/moon, stars, hills and readability scrim. `AmbienceOverlay` (fixed, `z-55`: above `<main>`, below the header/sidebar/dock) adds a per-phase card tint plus weather particles masked away from the screen centre, so dialogue stays readable while the scenery is still visible over the cards.
+- **Scenes.** `sakura`, `snow`, `rain`, `none`. **Time of day.** `auto` (local clock), `day`, `night`, `cycle` (day → dusk → night → dawn, 2-minute buckets).
+- **Sound.** Synthesized in the browser with Web Audio (`app/components/expedition/ambience/ambient-audio.ts`): birdsong, crickets, rain, wind. No audio assets. Off by default; honours autoplay policy, shows a tap-to-resume hint when blocked, and "match the scene" picks rain for drizzle, wind for snow, crickets at night, birds otherwise.
+- **Motion.** `auto` (respects `prefers-reduced-motion` with a calmer, slower particle set), `full`, `calm`, `off`.
+- **Tokens.** `--amb-*` in `globals.css`, keyed by `data-amb-phase="dawn|day|dusk|night"` on the layer/overlay. The particle canvas reads the tokens at mount; never hardcode ambience colours in components.
+- **Copy.** `app/components/expedition/ambience/ambience-copy.ts` (EN/ID/JA, EN fallback).
+- **Surfaces.** A floating `AmbienceDock` (bottom-right, raised above the reader action dock) on every shell page, and the full studio at `/[lang]/settings/ambience` (presets, scenery, time, sound, volume, motion, reset). The dock panel and settings controls are 44px targets; Escape/outside-click closes the panel.
+- **Storage.** `localStorage` key `lango:ambience:v1` via `app/lib/ambience/prefs.ts`, read through `useSyncExternalStore` with the default as the server snapshot, so hydration is stable and there is no schema change.
+- **Performance & a11y.** Layers are `aria-hidden` and `pointer-events-none`; the canvas pauses when the tab is hidden, caps DPR at 2, and prints hidden. Sound state is announced with icon + text, never colour alone.
+
+Reference screenshots: `docs/assets/ambience-learn-day.png`, `ambience-learn-night.png`, `ambience-learn-rain.png`, `ambience-learn-snow.png`, `ambience-dock.png`, `ambience-settings.png`, `ambience-mobile.png`.

@@ -1,21 +1,33 @@
-import { redirect } from "next/navigation"
-import { headers } from "next/headers"
-import { auth } from "@clerk/nextjs/server"
-import { languages } from "./i18n-config"
-import { isClerkConfigured } from "./lib/clerk"
+import { redirect } from "next/navigation";
+import { headers } from "next/headers";
+import { getSessionUser } from "./lib/auth/session";
+import {
+  isUiLocale,
+  preferredLocaleFromAcceptLanguage,
+  toRouteLocale,
+} from "./lib/i18n/locales";
 
 export default async function RootPage() {
-  if (isClerkConfigured()) {
-    const { userId } = await auth()
-    if (userId) {
-      redirect("/editor")
-    }
+  const headersList = await headers();
+  const headerLocale = headersList.get("x-lango-locale");
+
+  let user = null;
+  try {
+    user = await getSessionUser();
+  } catch {
+    // If the database is temporarily unavailable, fall back to marketing.
   }
 
-  const headersList = await headers()
-  const acceptLang = headersList.get("accept-language") || "en"
-  const preferred = acceptLang.split(",")[0]?.split("-")[0]?.toLowerCase() || "en"
-  const locale = languages.includes(preferred as typeof languages[number]) ? preferred : "en"
+  if (user && isUiLocale(user.uiLocale)) {
+    redirect(`/${toRouteLocale(user.uiLocale)}/learn`);
+  }
 
-  redirect(`/${locale}`)
+  if (headerLocale && isUiLocale(headerLocale)) {
+    redirect(`/${headerLocale}`);
+  }
+
+  const locale = preferredLocaleFromAcceptLanguage(
+    headersList.get("accept-language"),
+  );
+  redirect(`/${locale}`);
 }

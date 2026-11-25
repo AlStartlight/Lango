@@ -1,0 +1,1341 @@
+{
+  "id": "ja-komorebi",
+  "languageCode": "ja",
+  "slug": "komorebi",
+  "title": "Komorebi no Natsu",
+  "nativeTitle": "こもれびの夏",
+  "logline": "A Tokyo student spends one summer minding her grandmother's kissaten on a fictional Sendai lane, and finds a red notebook filled with orders for people who never came back.",
+  "setting": "Sendai, Miyagi. Komorebi, a kissaten on the fictional Suzukake-kōji, fifteen minutes on foot from Sendai Station: the station arcade, the morning market, the shopping street, and the hospital on the hill.",
+  "era": "Present day; summer through Tanabata (August 6–8), Obon, and autumn.",
+  "tone": "Warm, quiet slice-of-life with a gentle mystery, food, weather, and the sound of the shop.",
+  "palette": "#4F6B4A",
+  "motifs": [
+    "木漏れ日",
+    "赤いノート",
+    "おしぼり",
+    "ずんだ餅",
+    "短冊",
+    "鈴",
+    "朝市",
+    "蝉の声"
+  ],
+  "sensitivityNotes": [
+    "Fumiko's illness is present but never graphic; treatment happens off the page and she keeps her own goals.",
+    "Grief over a regular who stopped coming is handled with care, without revealing a real person's medical history.",
+    "No caricature of Tohoku speech or of older customers; local characters have their own conflicts and humour.",
+    "Aoi is not a foreign visitor and no character exists to explain Japan to her."
+  ],
+  "canon": {
+    "fictionalStreet": "鈴掛小路 (Suzukake-kōji), Sendai — a fictional lane 15 minutes on foot from Sendai Station",
+    "realAnchors": [
+      "Sendai Station and its arcades",
+      "Sendai Tanabata Festival (August 6–8)",
+      "Sendai Asaichi morning market",
+      "Zunda mochi from Miyagi",
+      "Zelkova avenues of Sendai (杜の都)",
+      "Obon in mid-August"
+    ],
+    "timeline": "Late July to October, present day.",
+    "rules": [
+      "Komorebi has been open for forty years and was founded by Sasaki Fumiko.",
+      "Fumiko is hospitalised from the first episode; her treatment is never described in detail.",
+      "Satō Ken'ichi has been a regular for forty years and orders 'itsumo no' without saying more.",
+      "The wall clock in the shop stopped in the year the shop opened.",
+      "Aoi is nineteen and studies in Tokyo; she plans to return before the new term.",
+      "Suzukake-kōji is fictional; real Sendai landmarks are used with respect."
+    ]
+  },
+  "levels": [
+    {
+      "tier": "T1",
+      "framework": "JLPT",
+      "levelCode": "N5",
+      "label": "JLPT N5",
+      "idPart": "n5",
+      "position": 1
+    },
+    {
+      "tier": "T2",
+      "framework": "JLPT",
+      "levelCode": "N4",
+      "label": "JLPT N4",
+      "idPart": "n4",
+      "position": 2
+    },
+    {
+      "tier": "T3",
+      "framework": "JLPT",
+      "levelCode": "N3",
+      "label": "JLPT N3",
+      "idPart": "n3",
+      "position": 3
+    },
+    {
+      "tier": "T4",
+      "framework": "JLPT",
+      "levelCode": "N2",
+      "label": "JLPT N2",
+      "idPart": "n2",
+      "position": 4
+    },
+    {
+      "tier": "T5",
+      "framework": "JLPT",
+      "levelCode": "N1",
+      "label": "JLPT N1",
+      "idPart": "n1",
+      "position": 5
+    }
+  ],
+  "characters": [
+    {
+      "id": "ja-komorebi-aoi",
+      "name": "Aoi Sasaki",
+      "nativeName": "佐々木あおい",
+      "role": "Protagonist, 19, second-year student in Tokyo, minds the kissaten for the summer",
+      "age": 19,
+      "bio": "Aoi left Sendai for university and built a fast, tidy life in Tokyo. She comes back for one summer to keep Komorebi open while her grandmother is in hospital, and intends to be gone before the new term. She is practical, impatient with slow talkers, and better with tasks than with feelings.",
+      "speechStyle": "Short, practical, polite to customers, blunt with people her own age.",
+      "quote": "「とりあえず、店を開けます。」",
+      "position": 1,
+      "lexeme": {
+        "id": "ja-char-aoi",
+        "native": "あおい",
+        "reading": "あおい",
+        "romanization": "Aoi",
+        "gloss": {
+          "id": "Sasaki Aoi",
+          "en": "Sasaki Aoi"
+        },
+        "tags": [
+          "protagonist"
+        ]
+      }
+    },
+    {
+      "id": "ja-komorebi-fumiko",
+      "name": "Fumiko Sasaki",
+      "nativeName": "佐々木ふみこ",
+      "role": "Aoi's grandmother, 78, founder of Komorebi, in hospital",
+      "age": 78,
+      "bio": "Fumiko opened Komorebi forty years ago and still calls the regulars by the order they always make. She is in hospital when the story begins, keeps a red notebook of orders, and refuses to be treated as a fragile object. She wants the shop to outlive her usefulness, not her name.",
+      "speechStyle": "Dry, precise, fond of small jokes; uses polite forms with everyone.",
+      "quote": "「店は、まだ閉めません。」",
+      "position": 2,
+      "lexeme": {
+        "id": "ja-char-fumiko",
+        "native": "ふみこさん",
+        "reading": "ふみこさん",
+        "romanization": "Fumiko-san",
+        "gloss": {
+          "id": "Sasaki Fumiko",
+          "en": "Sasaki Fumiko"
+        },
+        "tags": [
+          "mentor",
+          "memory"
+        ]
+      }
+    },
+    {
+      "id": "ja-komorebi-kenichi",
+      "name": "Ken'ichi Satō",
+      "nativeName": "佐藤健一",
+      "role": "Retired teacher, 72, forty-year regular who orders 'itsumo no'",
+      "age": 72,
+      "bio": "Satō taught mathematics at a Sendai high school and has taken the same corner seat since Komorebi opened. He orders 'itsumo no' and expects the shop to remember what that means. He is not lonely in the way people assume; he is exacting, and he notices when a cup is warmed differently.",
+      "speechStyle": "Measured, formal, brief; corrects people politely.",
+      "quote": "「同じ味がします。」",
+      "position": 3,
+      "lexeme": {
+        "id": "ja-char-kenichi",
+        "native": "佐藤さん",
+        "reading": "さとうさん",
+        "romanization": "Satō-san",
+        "gloss": {
+          "id": "Satō Ken'ichi",
+          "en": "Satō Ken'ichi"
+        },
+        "tags": [
+          "regular"
+        ]
+      }
+    },
+    {
+      "id": "ja-komorebi-sayuri",
+      "name": "Sayuri Tanaka",
+      "nativeName": "田中さゆり",
+      "role": "Neighbour, 65, community hub who knows every rumour",
+      "age": 65,
+      "bio": "Tanaka has lived across the lane for thirty years and runs the neighbourhood association's newsletter. She knows who is ill, who has returned, and which shops are quietly closing. She helps Aoi, but she also has her own agenda: she wants the lane to stay a place where people know each other.",
+      "speechStyle": "Quick, warm, tactless in a harmless way; loves a good rumour but checks it.",
+      "quote": "「あの日のことは覚えています。」",
+      "position": 4,
+      "lexeme": {
+        "id": "ja-char-sayuri",
+        "native": "田中さん",
+        "reading": "たなかさん",
+        "romanization": "Tanaka-san",
+        "gloss": {
+          "id": "Tanaka Sayuri",
+          "en": "Tanaka Sayuri"
+        },
+        "tags": [
+          "neighbor"
+        ]
+      }
+    },
+    {
+      "id": "ja-komorebi-haruto",
+      "name": "Haruto Takahashi",
+      "nativeName": "高橋春斗",
+      "role": "Childhood friend, 20, works at the fish market",
+      "age": 20,
+      "bio": "Haruto gets up at four to work at the market and still comes to Komorebi for the morning set. He and Aoi grew up on the same lane, and he remembers the summer she left. He is steady, teasing, and saving money for a refrigerated case of his own.",
+      "speechStyle": "Casual, teasing, plain forms with Aoi, polite with customers.",
+      "quote": "「また来ます。」",
+      "position": 5,
+      "lexeme": {
+        "id": "ja-char-haruto",
+        "native": "高橋さん",
+        "reading": "たかはしさん",
+        "romanization": "Takahashi-san",
+        "gloss": {
+          "id": "Takahashi Haruto",
+          "en": "Takahashi Haruto"
+        },
+        "tags": [
+          "friend"
+        ]
+      }
+    }
+  ],
+  "lexicon": {
+    "person": [
+      {
+        "id": "ja-person-regular",
+        "native": "常連さん",
+        "reading": "じょうれんさん",
+        "romanization": "jōren-san",
+        "gloss": {
+          "id": "pelanggan tetap",
+          "en": "the regular"
+        }
+      },
+      {
+        "id": "ja-person-neighbor",
+        "native": "近所の人",
+        "reading": "きんじょのひと",
+        "romanization": "kinjo no hito",
+        "gloss": {
+          "id": "tetangga",
+          "en": "the neighbor"
+        }
+      },
+      {
+        "id": "ja-person-delivery",
+        "native": "配達の人",
+        "reading": "はいたつのひと",
+        "romanization": "haitatsu no hito",
+        "gloss": {
+          "id": "pengantar",
+          "en": "the delivery person"
+        }
+      },
+      {
+        "id": "ja-person-student",
+        "native": "大学生",
+        "reading": "だいがくせい",
+        "romanization": "daigakusei",
+        "gloss": {
+          "id": "mahasiswa",
+          "en": "the university student"
+        }
+      },
+      {
+        "id": "ja-person-customer",
+        "native": "お客さん",
+        "reading": "おきゃくさん",
+        "romanization": "okyakusan",
+        "gloss": {
+          "id": "pelanggan",
+          "en": "the customer"
+        }
+      },
+      {
+        "id": "ja-person-parttimer",
+        "native": "アルバイトの人",
+        "reading": "あるばいとのひと",
+        "romanization": "arubaito no hito",
+        "gloss": {
+          "id": "pekerja paruh waktu",
+          "en": "the part-timer"
+        }
+      }
+    ],
+    "place": [
+      {
+        "id": "ja-place-komorebi",
+        "native": "こもれび",
+        "reading": "こもれび",
+        "romanization": "Komorebi",
+        "gloss": {
+          "id": "kedai Komorebi",
+          "en": "Komorebi"
+        },
+        "tags": [
+          "home"
+        ]
+      },
+      {
+        "id": "ja-place-station",
+        "native": "仙台駅",
+        "reading": "せんだいえき",
+        "romanization": "Sendai-eki",
+        "gloss": {
+          "id": "Stasiun Sendai",
+          "en": "Sendai Station"
+        },
+        "tags": [
+          "city"
+        ]
+      },
+      {
+        "id": "ja-place-alley",
+        "native": "鈴掛小路",
+        "reading": "すずかけこうじ",
+        "romanization": "Suzukake-kōji",
+        "gloss": {
+          "id": "Gang Suzukake",
+          "en": "Suzukake-kōji"
+        },
+        "tags": [
+          "lane"
+        ]
+      },
+      {
+        "id": "ja-place-morning-market",
+        "native": "朝市",
+        "reading": "あさいち",
+        "romanization": "asaichi",
+        "gloss": {
+          "id": "pasar pagi",
+          "en": "the morning market"
+        },
+        "tags": [
+          "market"
+        ]
+      },
+      {
+        "id": "ja-place-arcade",
+        "native": "商店街",
+        "reading": "しょうてんがい",
+        "romanization": "shōtengai",
+        "gloss": {
+          "id": "jalan pertokoan",
+          "en": "the shopping street"
+        },
+        "tags": [
+          "city"
+        ]
+      },
+      {
+        "id": "ja-place-hospital",
+        "native": "病院",
+        "reading": "びょういん",
+        "romanization": "byōin",
+        "gloss": {
+          "id": "rumah sakit",
+          "en": "the hospital"
+        },
+        "tags": [
+          "hospital"
+        ]
+      }
+    ],
+    "object": [
+      {
+        "id": "ja-object-notebook",
+        "native": "赤いノート",
+        "reading": "あかいのーと",
+        "romanization": "akai nōto",
+        "gloss": {
+          "id": "buku catatan merah",
+          "en": "the red notebook"
+        },
+        "tags": [
+          "mystery",
+          "clue"
+        ]
+      },
+      {
+        "id": "ja-object-cup",
+        "native": "白いカップ",
+        "reading": "しろいかっぷ",
+        "romanization": "shiroi kappu",
+        "gloss": {
+          "id": "cangkir putih",
+          "en": "the white cup"
+        },
+        "tags": [
+          "mystery"
+        ]
+      },
+      {
+        "id": "ja-object-photo",
+        "native": "古い写真",
+        "reading": "ふるいしゃしん",
+        "romanization": "furui shashin",
+        "gloss": {
+          "id": "foto lama",
+          "en": "the old photograph"
+        },
+        "tags": [
+          "memory"
+        ]
+      },
+      {
+        "id": "ja-object-letter",
+        "native": "手書きの手紙",
+        "reading": "てがきのてがみ",
+        "romanization": "tegaki no tegami",
+        "gloss": {
+          "id": "surat tulisan tangan",
+          "en": "the handwritten letter"
+        },
+        "tags": [
+          "mystery",
+          "clue"
+        ]
+      },
+      {
+        "id": "ja-object-key",
+        "native": "鈴のついた鍵",
+        "reading": "すずのついたかぎ",
+        "romanization": "suzu no tsuita kagi",
+        "gloss": {
+          "id": "kunci berlonceng",
+          "en": "the key with a bell"
+        },
+        "tags": [
+          "mystery"
+        ]
+      },
+      {
+        "id": "ja-object-oshibori",
+        "native": "おしぼり",
+        "reading": "おしぼり",
+        "romanization": "oshibori",
+        "gloss": {
+          "id": "oshibori",
+          "en": "the oshibori"
+        },
+        "tags": [
+          "anchor"
+        ]
+      },
+      {
+        "id": "ja-object-tanzaku",
+        "native": "短冊",
+        "reading": "たんざく",
+        "romanization": "tanzaku",
+        "gloss": {
+          "id": "tanzaku",
+          "en": "the tanzaku"
+        },
+        "tags": [
+          "tanabata"
+        ]
+      },
+      {
+        "id": "ja-object-menu",
+        "native": "黒板のメニュー",
+        "reading": "こくばんのめにゅー",
+        "romanization": "kokuban no menyū",
+        "gloss": {
+          "id": "menu papan tulis",
+          "en": "the blackboard menu"
+        },
+        "tags": [
+          "shop"
+        ]
+      },
+      {
+        "id": "ja-object-slip",
+        "native": "古い伝票",
+        "reading": "ふるいでんぴょう",
+        "romanization": "furui denpyō",
+        "gloss": {
+          "id": "bon lama",
+          "en": "the old bill"
+        },
+        "tags": [
+          "clue"
+        ]
+      },
+      {
+        "id": "ja-object-apron",
+        "native": "藍色の前掛け",
+        "reading": "あいいろのまえかけ",
+        "romanization": "aiiro no maekake",
+        "gloss": {
+          "id": "celemek indigo",
+          "en": "the indigo apron"
+        },
+        "tags": [
+          "memory"
+        ]
+      },
+      {
+        "id": "ja-object-clock",
+        "native": "止まった時計",
+        "reading": "とまったとけい",
+        "romanization": "tomatta tokei",
+        "gloss": {
+          "id": "jam yang berhenti",
+          "en": "the stopped clock"
+        },
+        "tags": [
+          "mystery"
+        ]
+      }
+    ],
+    "food": [
+      {
+        "id": "ja-food-zunda-mochi",
+        "native": "ずんだ餅",
+        "reading": "ずんだもち",
+        "romanization": "zunda mochi",
+        "gloss": {
+          "id": "zunda mochi",
+          "en": "zunda mochi"
+        },
+        "tags": [
+          "anchor"
+        ]
+      },
+      {
+        "id": "ja-food-hotcake",
+        "native": "ホットケーキ",
+        "reading": "ほっとけーき",
+        "romanization": "hottokēki",
+        "gloss": {
+          "id": "hotcake",
+          "en": "the hotcake"
+        }
+      },
+      {
+        "id": "ja-food-tamago-sando",
+        "native": "玉子サンド",
+        "reading": "たまごさんど",
+        "romanization": "tamago sando",
+        "gloss": {
+          "id": "sandwich telur",
+          "en": "the egg sandwich"
+        }
+      },
+      {
+        "id": "ja-food-napolitan",
+        "native": "ナポリタン",
+        "reading": "なぽりたん",
+        "romanization": "naporitan",
+        "gloss": {
+          "id": "naporitan",
+          "en": "the naporitan"
+        }
+      },
+      {
+        "id": "ja-food-anmitsu",
+        "native": "あんみつ",
+        "reading": "あんみつ",
+        "romanization": "anmitsu",
+        "gloss": {
+          "id": "anmitsu",
+          "en": "the anmitsu"
+        }
+      },
+      {
+        "id": "ja-food-morning-set",
+        "native": "朝食セット",
+        "reading": "ちょうしょくせっと",
+        "romanization": "chōshoku setto",
+        "gloss": {
+          "id": "paket sarapan",
+          "en": "the breakfast set"
+        },
+        "tags": [
+          "anchor"
+        ]
+      }
+    ],
+    "drink": [
+      {
+        "id": "ja-drink-coffee",
+        "native": "コーヒー",
+        "reading": "こーひー",
+        "romanization": "kōhī",
+        "gloss": {
+          "id": "kopi",
+          "en": "the coffee"
+        }
+      },
+      {
+        "id": "ja-drink-iced-coffee",
+        "native": "アイスコーヒー",
+        "reading": "あいすこーひー",
+        "romanization": "aisu kōhī",
+        "gloss": {
+          "id": "kopi dingin",
+          "en": "the iced coffee"
+        }
+      },
+      {
+        "id": "ja-drink-milkshake",
+        "native": "ミルクセーキ",
+        "reading": "みるくせーき",
+        "romanization": "mirukusēki",
+        "gloss": {
+          "id": "milkshake",
+          "en": "the milkshake"
+        }
+      },
+      {
+        "id": "ja-drink-tea",
+        "native": "紅茶",
+        "reading": "こうちゃ",
+        "romanization": "kōcha",
+        "gloss": {
+          "id": "teh",
+          "en": "the tea"
+        }
+      },
+      {
+        "id": "ja-drink-cream-soda",
+        "native": "クリームソーダ",
+        "reading": "くりーむそーだ",
+        "romanization": "kurīmu sōda",
+        "gloss": {
+          "id": "soda krim",
+          "en": "the cream soda"
+        }
+      }
+    ],
+    "time": [
+      {
+        "id": "ja-time-morning",
+        "native": "朝",
+        "reading": "あさ",
+        "romanization": "asa",
+        "gloss": {
+          "id": "pagi hari",
+          "en": "morning"
+        }
+      },
+      {
+        "id": "ja-time-noon",
+        "native": "昼",
+        "reading": "ひる",
+        "romanization": "hiru",
+        "gloss": {
+          "id": "siang hari",
+          "en": "noon"
+        }
+      },
+      {
+        "id": "ja-time-evening",
+        "native": "夕方",
+        "reading": "ゆうがた",
+        "romanization": "yūgata",
+        "gloss": {
+          "id": "sore hari",
+          "en": "evening"
+        }
+      },
+      {
+        "id": "ja-time-night",
+        "native": "夜",
+        "reading": "よる",
+        "romanization": "yoru",
+        "gloss": {
+          "id": "malam hari",
+          "en": "night"
+        }
+      },
+      {
+        "id": "ja-time-dawn",
+        "native": "夜明け",
+        "reading": "よあけ",
+        "romanization": "yoake",
+        "gloss": {
+          "id": "subuh",
+          "en": "dawn"
+        }
+      }
+    ],
+    "weather": [
+      {
+        "id": "ja-weather-clear",
+        "native": "空は晴れています。",
+        "reading": "そらははれています。",
+        "romanization": "Sora wa harete imasu.",
+        "gloss": {
+          "id": "Langitnya cerah.",
+          "en": "The sky is clear."
+        },
+        "tags": [
+          "clear",
+          "晴れ"
+        ]
+      },
+      {
+        "id": "ja-weather-rain",
+        "native": "雨が降っています。",
+        "reading": "あめがふっています。",
+        "romanization": "Ame ga futte imasu.",
+        "gloss": {
+          "id": "Hari sedang hujan.",
+          "en": "It is raining."
+        },
+        "tags": [
+          "rain",
+          "雨"
+        ]
+      },
+      {
+        "id": "ja-weather-cool",
+        "native": "風が涼しいです。",
+        "reading": "かぜがすずしいです。",
+        "romanization": "Kaze ga suzushii desu.",
+        "gloss": {
+          "id": "Anginnya sejuk.",
+          "en": "The breeze is cool."
+        },
+        "tags": [
+          "cool",
+          "cold",
+          "涼しい"
+        ]
+      },
+      {
+        "id": "ja-weather-cicada",
+        "native": "蝉が鳴いています。",
+        "reading": "せみがなています。",
+        "romanization": "Semi ga naite imasu.",
+        "gloss": {
+          "id": "Tonggeret sedang berbunyi.",
+          "en": "The cicadas are singing."
+        },
+        "tags": [
+          "summer",
+          "warm",
+          "蝉"
+        ]
+      },
+      {
+        "id": "ja-weather-humid",
+        "native": "むし暑いです。",
+        "reading": "むしあついです。",
+        "romanization": "Mushiatsui desu.",
+        "gloss": {
+          "id": "Hari gerah.",
+          "en": "It is muggy."
+        },
+        "tags": [
+          "heat",
+          "warm",
+          "蒸し暑い"
+        ]
+      }
+    ],
+    "action": [
+      {
+        "id": "ja-action-brew",
+        "native": "コーヒーを淹れました",
+        "reading": "こーひーをいれました",
+        "romanization": "kōhī o iremashita",
+        "gloss": {
+          "id": "menyeduh kopi",
+          "en": "made coffee"
+        }
+      },
+      {
+        "id": "ja-action-open-window",
+        "native": "窓を開けました",
+        "reading": "まどをあけました",
+        "romanization": "mado o akemashita",
+        "gloss": {
+          "id": "membuka jendela",
+          "en": "opened the window"
+        }
+      },
+      {
+        "id": "ja-action-wipe-counter",
+        "native": "カウンターを拭きました",
+        "reading": "かうんたーをふきました",
+        "romanization": "kauntā o fukimashita",
+        "gloss": {
+          "id": "mengelap meja",
+          "en": "wiped the counter"
+        }
+      },
+      {
+        "id": "ja-action-warm-towel",
+        "native": "おしぼりを温めました",
+        "reading": "おしぼりをあたためました",
+        "romanization": "oshibori o atatamemashita",
+        "gloss": {
+          "id": "menghangatkan oshibori",
+          "en": "warmed the oshibori"
+        }
+      },
+      {
+        "id": "ja-action-line-chairs",
+        "native": "椅子を並べました",
+        "reading": "いすをならべました",
+        "romanization": "isu o narabemashita",
+        "gloss": {
+          "id": "menyusun kursi",
+          "en": "lined up the chairs"
+        }
+      },
+      {
+        "id": "ja-action-sort-slips",
+        "native": "伝票を片付けました",
+        "reading": "でんぴょうをかたづけました",
+        "romanization": "denpyō o katazukemashita",
+        "gloss": {
+          "id": "merapikan bon",
+          "en": "sorted the bills"
+        }
+      },
+      {
+        "id": "ja-action-boil-water",
+        "native": "湯を沸かしました",
+        "reading": "ゆをわかしました",
+        "romanization": "yu o wakashimashita",
+        "gloss": {
+          "id": "merebus air",
+          "en": "boiled water"
+        }
+      },
+      {
+        "id": "ja-action-grind-beans",
+        "native": "豆を挽きました",
+        "reading": "まめをひきました",
+        "romanization": "mame o hikimashita",
+        "gloss": {
+          "id": "menggiling biji kopi",
+          "en": "ground the beans"
+        }
+      }
+    ],
+    "quote": [
+      {
+        "id": "ja-quote-itsumo",
+        "native": "いつものをお願いします",
+        "reading": "いつものおねがいします",
+        "romanization": "Itsumo no onegaishimasu",
+        "gloss": {
+          "id": "Yang biasa, ya.",
+          "en": "The usual, please."
+        },
+        "tags": [
+          "regular"
+        ]
+      },
+      {
+        "id": "ja-quote-come-again",
+        "native": "また来ます",
+        "reading": "またきます",
+        "romanization": "Mata kimasu",
+        "gloss": {
+          "id": "Saya akan datang lagi.",
+          "en": "I'll come again."
+        }
+      },
+      {
+        "id": "ja-quote-same-taste",
+        "native": "同じ味がします",
+        "reading": "おなじあじがします",
+        "romanization": "Onaji aji ga shimasu",
+        "gloss": {
+          "id": "Rasanya sama.",
+          "en": "It tastes the same."
+        }
+      },
+      {
+        "id": "ja-quote-not-closing",
+        "native": "店はまだ閉めません",
+        "reading": "みせはまだしめません",
+        "romanization": "Mise wa mada shimemasen",
+        "gloss": {
+          "id": "Toko ini belum akan ditutup.",
+          "en": "The shop is not closing yet."
+        },
+        "tags": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "ja-quote-remember-day",
+        "native": "あの日のことを覚えています",
+        "reading": "あのひのことをおぼえています",
+        "romanization": "Ano hi no koto o oboete imasu",
+        "gloss": {
+          "id": "Saya masih ingat hari itu.",
+          "en": "I remember that day."
+        },
+        "tags": [
+          "emotion"
+        ]
+      },
+      {
+        "id": "ja-quote-wait-please",
+        "native": "少しだけ、待っていてください",
+        "reading": "すこしだけ、まっていてください",
+        "romanization": "Sukoshi dake, matte ite kudasai",
+        "gloss": {
+          "id": "Tolong tunggu sebentar.",
+          "en": "Please wait a little."
+        },
+        "tags": [
+          "mystery"
+        ]
+      }
+    ],
+    "question": [
+      {
+        "id": "ja-question-what",
+        "native": "これは何ですか。",
+        "reading": "これはなんですか。",
+        "romanization": "Kore wa nan desu ka.",
+        "gloss": {
+          "id": "Apa ini?",
+          "en": "What is this?"
+        }
+      },
+      {
+        "id": "ja-question-who-wrote",
+        "native": "これは誰が書きましたか。",
+        "reading": "これはだれがかきましたか。",
+        "romanization": "Kore wa dare ga kakimashita ka.",
+        "gloss": {
+          "id": "Siapa yang menulis ini?",
+          "en": "Who wrote this?"
+        }
+      },
+      {
+        "id": "ja-question-who",
+        "native": "あの人は誰ですか。",
+        "reading": "あのひとはだれですか。",
+        "romanization": "Ano hito wa dare desu ka.",
+        "gloss": {
+          "id": "Siapa orang itu?",
+          "en": "Who is that person?"
+        }
+      },
+      {
+        "id": "ja-question-why-nobody",
+        "native": "なぜ、教えてくれなかったのですか。",
+        "reading": "なぜ、おしえてくれなかったのですか。",
+        "romanization": "Naze, oshiete kurenakatta no desu ka.",
+        "gloss": {
+          "id": "Mengapa tidak ada yang memberi tahu saya?",
+          "en": "Why did no one tell me?"
+        }
+      },
+      {
+        "id": "ja-question-what-next",
+        "native": "これから、どうしますか。",
+        "reading": "これから、どうしますか。",
+        "romanization": "Kore kara, dō shimasu ka.",
+        "gloss": {
+          "id": "Apa yang akan terjadi sekarang?",
+          "en": "What happens now?"
+        }
+      },
+      {
+        "id": "ja-question-why-here",
+        "native": "どうして、ここにあるのですか。",
+        "reading": "どうして、ここにあるのですか。",
+        "romanization": "Dōshite, koko ni aru no desu ka.",
+        "gloss": {
+          "id": "Mengapa ini diletakkan di tempat seperti ini?",
+          "en": "Why is it left here?"
+        }
+      }
+    ],
+    "greeting": [
+      {
+        "id": "ja-greeting-morning",
+        "native": "おはようございます",
+        "reading": "おはようございます",
+        "romanization": "ohayō gozaimasu",
+        "gloss": {
+          "id": "Selamat pagi",
+          "en": "Good morning"
+        }
+      },
+      {
+        "id": "ja-greeting-hello",
+        "native": "こんにちは",
+        "reading": "こんにちは",
+        "romanization": "konnichiwa",
+        "gloss": {
+          "id": "Halo",
+          "en": "Hello"
+        }
+      },
+      {
+        "id": "ja-greeting-evening",
+        "native": "こんばんは",
+        "reading": "こんばんは",
+        "romanization": "konbanwa",
+        "gloss": {
+          "id": "Selamat malam",
+          "en": "Good evening"
+        }
+      },
+      {
+        "id": "ja-greeting-welcome",
+        "native": "いらっしゃいませ",
+        "reading": "いらっしゃいませ",
+        "romanization": "irasshaimase",
+        "gloss": {
+          "id": "Selamat datang",
+          "en": "Welcome"
+        }
+      },
+      {
+        "id": "ja-greeting-tired",
+        "native": "お疲れさまです",
+        "reading": "おつかれさまです",
+        "romanization": "otsukaresama desu",
+        "gloss": {
+          "id": "Terima kasih atas kerja kerasnya",
+          "en": "Thanks for your hard work"
+        }
+      }
+    ],
+    "emotion": [
+      {
+        "id": "ja-emotion-relief",
+        "native": "安心",
+        "reading": "あんしん",
+        "romanization": "anshin",
+        "gloss": {
+          "id": "lega",
+          "en": "relief"
+        }
+      },
+      {
+        "id": "ja-emotion-unease",
+        "native": "不安",
+        "reading": "ふあん",
+        "romanization": "fuan",
+        "gloss": {
+          "id": "cemas",
+          "en": "unease"
+        }
+      },
+      {
+        "id": "ja-emotion-nostalgia",
+        "native": "懐かしさ",
+        "reading": "なつかしさ",
+        "romanization": "natsukashisa",
+        "gloss": {
+          "id": "rindu",
+          "en": "nostalgia"
+        }
+      },
+      {
+        "id": "ja-emotion-joy",
+        "native": "うれしさ",
+        "reading": "うれしさ",
+        "romanization": "ureshisa",
+        "gloss": {
+          "id": "senang",
+          "en": "joy"
+        }
+      },
+      {
+        "id": "ja-emotion-loneliness",
+        "native": "さびしさ",
+        "reading": "さびしさ",
+        "romanization": "sabishisa",
+        "gloss": {
+          "id": "sepi",
+          "en": "loneliness"
+        }
+      },
+      {
+        "id": "ja-emotion-bewilderment",
+        "native": "戸惑い",
+        "reading": "とまどい",
+        "romanization": "tomadoi",
+        "gloss": {
+          "id": "bingung",
+          "en": "bewilderment"
+        }
+      }
+    ]
+  },
+  "anchors": [
+    {
+      "id": "ja-culture-0001",
+      "title": "Kissaten: the retro coffee shop",
+      "body": {
+        "id": "Kissaten adalah kedai kopi Jepang yang sering mempertahankan suasana Showa: kursi kayu, cangkir tebal, musik klasik atau jazz, dan kopi yang disaring satu per satu. Pelanggan tetap biasa memesan dengan cara yang sama setiap hari, kadang hanya dengan kalimat \"itsumo no\" (yang biasa). Di Komorebi, Aoi belajar bahwa pesanan juga cara orang saling mengingat.",
+        "en": "A kissaten is a Japanese coffee shop that often keeps a Showa-era atmosphere: wooden chairs, thick cups, classical or jazz records, and coffee brewed one cup at a time. Regulars order the same thing every day, sometimes with just the phrase \"itsumo no\" (the usual). At Komorebi, Aoi learns that an order can also be a way of remembering someone."
+      },
+      "sources": [
+        "Japan National Tourism Organization (JNTO), Travel Japan, 'Yanesen (Yanaka/Nezu/Sendagi/Hongo)' — kissaten description",
+        "Navitime Japan Travel, 'Complete Guide to Japan's Kissaten Culture' — https://japantravel.navitime.com/en/area/jp/guide/NTJarticle0048-en/"
+      ],
+      "reflection": {
+        "id": "Mengapa kedai kopi kecil bisa membuat orang merasa dikenali?",
+        "en": "Why can a small coffee shop make people feel recognised?"
+      },
+      "stampId": "ja-stamp-kissaten"
+    },
+    {
+      "id": "ja-culture-0002",
+      "title": "The morning set",
+      "body": {
+        "id": "Banyak kissaten menyediakan \"morning set\" pada pagi hari: pesan kopi, lalu mendapat roti bakar dan telur dengan harga sedikit tambahan atau tanpa tambahan. Layanan ini paling dikenal di Nagoya, tetapi versi sederhana ada juga di Sendai. Bagi Komorebi, morning set adalah jam tersibuk sebelum orang berangkat kerja.",
+        "en": "Many kissaten serve a morning set: order a coffee and receive toast and an egg for a small extra charge or for free. The service is best known in Nagoya, but simpler versions exist in Sendai too. At Komorebi, the morning set is the busiest hour before people leave for work."
+      },
+      "sources": [
+        "Navitime Japan Travel, 'Complete Guide to Japan's Kissaten Culture' — morning service section (https://japantravel.navitime.com/en/area/jp/guide/NTJarticle0048-en/)",
+        "JNTO, Travel Japan blog, Chubu morning-set feature — https://www.japan.travel/tw/tw/blog/113_chubu/"
+      ],
+      "reflection": {
+        "id": "Apa yang ditawarkan sarapan murah selain makanan?",
+        "en": "What does a cheap breakfast offer besides food?"
+      },
+      "stampId": "ja-stamp-morning-set"
+    },
+    {
+      "id": "ja-culture-0003",
+      "title": "Zunda mochi from Miyagi",
+      "body": {
+        "id": "ずんだ餅 dibuat dari edamame yang direbus, dihaluskan, lalu dibumbui garam dan gula, dan disajikan di atas mochi. Di Miyagi, zunda juga dipakai untuk minuman, roti, dan es krim. Karena edamame dipanen pada musim panas, zunda mochi sering muncul lagi di meja keluarga saat Obon.",
+        "en": "Zunda mochi is made from boiled edamame, mashed and seasoned with salt and sugar, then served over mochi. In Miyagi, zunda also appears in drinks, toast, and ice cream. Because edamame is harvested in summer, zunda mochi often returns to family tables around Obon."
+      },
+      "sources": [
+        "Ministry of Agriculture, Forestry and Fisheries (MAFF), うちの郷土料理 — ずんだ餅 宮城県 — https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/zunda_mochi_miyagi.html"
+      ],
+      "reflection": {
+        "id": "Bagaimana satu bahan musiman bisa menghubungkan generasi?",
+        "en": "How can one seasonal ingredient connect generations?"
+      },
+      "stampId": "ja-stamp-zunda"
+    },
+    {
+      "id": "ja-culture-0004",
+      "title": "Sendai Tanabata",
+      "body": {
+        "id": "Festival Tanabata Sendai berlangsung 6–8 Agustus, sebulan setelah 7 Juli pada kalender lama, dan memenuhi pusat kota serta jalan pertokoan dengan dekorasi kertas dan bambu. Festival ini dikaitkan dengan Date Masamune dan dikunjungi lebih dari dua juta orang setiap tahun. Di Komorebi, dekorasi kecil digantung di depan pintu, bukan untuk turis tetapi untuk pelanggan.",
+        "en": "Sendai Tanabata runs from August 6 to 8, one month after July 7 on the old calendar, and fills the city centre and shopping streets with paper and bamboo decorations. It is associated with Date Masamune and visited by more than two million people each year. At Komorebi, a small decoration hangs by the door, not for tourists but for customers."
+      },
+      "sources": [
+        "Sendai Tanabata Festival official site (Sendai Chamber of Commerce and Industry) — https://www.sendaitanabata.com/en/"
+      ],
+      "reflection": {
+        "id": "Mengapa kota memilih tanggal yang berbeda dari festival lain?",
+        "en": "Why might a city keep a different date from other festivals?"
+      },
+      "stampId": "ja-stamp-tanabata"
+    },
+    {
+      "id": "ja-culture-0005",
+      "title": "Tanzaku wishes",
+      "body": {
+        "id": "短冊 adalah kertas kecil tempat orang menulis harapan, lalu digantung pada bambu bersama dekorasi Tanabata lainnya. Di Sendai, warga dan pengunjung menulis harapan di stan-stan kota selama festival. Harapan yang ditulis Aoi di Komorebi tidak selalu tentang dirinya sendiri.",
+        "en": "Tanzaku are small strips of paper on which people write a wish, then hang it on bamboo with other Tanabata decorations. In Sendai, residents and visitors write wishes at city stalls during the festival. The wish Aoi writes at Komorebi is not always about herself."
+      },
+      "sources": [
+        "Sendai City, 市報 せんだい 2016年8月号 — 短冊に願いを書いて笹竹につるす (https://www.city.sendai.jp/shiminkoho/shise/koho/koho/shisedayori/2016-8/documents/p08.pdf)",
+        "Sendai Tanabata Festival official site, 'How to make Tanabata decorations' — https://www.sendaitanabata.com/en/outline/decoration/"
+      ],
+      "reflection": {
+        "id": "Apa yang berubah ketika harapan ditulis dan digantung, bukan diucapkan?",
+        "en": "What changes when a wish is written and hung rather than spoken?"
+      },
+      "stampId": "ja-stamp-tanzaku"
+    },
+    {
+      "id": "ja-culture-0006",
+      "title": "Oshibori, the wet towel",
+      "body": {
+        "id": "おしぼり adalah handuk kecil basah yang diberikan sebelum makan untuk membersihkan tangan. Di musim panas sering disajikan dingin, di musim dingin hangat. Etiket umumnya: lap tangan, jangan mengelap meja atau wajah, lalu letakkan kembali di atas baki. Di Komorebi, oshibori dilipat dengan tangan setiap pagi.",
+        "en": "Oshibori is a small damp towel offered before a meal so that guests can clean their hands. In summer it often comes cold, in winter warm. The usual etiquette is to wipe your hands, not the table or your face, and to put it back on its tray. At Komorebi, the oshibori are folded by hand every morning."
+      },
+      "sources": [
+        "GLT Japan, 'Japan's Oshibori Culture That Surprises Foreign Visitors' — https://www.gltjp.com/en/article/item/21502/",
+        "Navitime Japan Travel, kissaten etiquette — https://japantravel.navitime.com/en/area/jp/guide/NTJarticle0048-en/"
+      ],
+      "reflection": {
+        "id": "Mengapa benda kecil seperti handuk bisa menjadi tanda perhatian?",
+        "en": "Why can a small towel become a sign of care?"
+      },
+      "stampId": "ja-stamp-oshibori"
+    },
+    {
+      "id": "ja-culture-0007",
+      "title": "Obon in mid-August",
+      "body": {
+        "id": "Obon jatuh sekitar 13–16 Agustus. Dalam tradisi Buddhis Jepang, keluarga menyambut arwah leluhur, membersihkan makam, dan menari Bon odori. Banyak orang pulang kampung, sehingga kota kecil menjadi ramai dan toko menyesuaikan jam buka. Di Komorebi, Obon adalah minggu ketika kursi kosong terasa paling jelas.",
+        "en": "Obon falls around August 13–16. In Japanese Buddhist custom, families welcome the spirits of their ancestors, clean graves, and dance Bon odori. Many people return to their home towns, so small cities grow busy and shops adjust their hours. At Komorebi, Obon is the week when an empty chair feels most obvious."
+      },
+      "sources": [
+        "JNTO, Travel Japan, 'Japan in August' — Obon section — https://www.japan.travel/en/guide/august/"
+      ],
+      "reflection": {
+        "id": "Bagaimana sebuah perayaan bisa membuat orang merindukan yang sudah pergi?",
+        "en": "How can a festival make people miss those who are gone?"
+      },
+      "stampId": "ja-stamp-obon"
+    },
+    {
+      "id": "ja-culture-0008",
+      "title": "Keigo in a small shop",
+      "body": {
+        "id": "敬語 adalah bahasa sopan Jepang. Dalam pembagian sekolah tradisional, 敬語 dibagi menjadi 尊敬語 (menghormati lawan bicara), 謙譲語 (merendahkan diri), dan 丁寧語 (bentuk sopan seperti です・ます); panduan resmi tahun 2007 merinci lima jenis, termasuk 美化語. Panduan itu menekankan kejelasan dan konteks, bukan sekadar hafalan. Aoi harus belajar memilih bentuk sopan saat melayani pelanggan yang jauh lebih tua.",
+        "en": "Keigo is Japanese polite language. In the traditional school classification it is divided into sonkeigo (respect for the listener), kenjōgo (humbling oneself), and teineigo (polite forms such as desu and masu); the 2007 official guide sets out five categories, including bikago. The guide stresses clarity and context rather than memorisation alone. Aoi has to learn which polite form to choose when serving customers much older than herself."
+      },
+      "sources": [
+        "Agency for Cultural Affairs (文化庁), 敬語の指針 (2007) — https://www.bunka.go.jp/seisaku/bunkashingikai/kokugo/hokoku/pdf/keigo_tosin.pdf"
+      ],
+      "reflection": {
+        "id": "Kapan kesopanan membantu komunikasi, dan kapan justru membuat jarak?",
+        "en": "When does politeness help communication, and when does it create distance?"
+      },
+      "stampId": "ja-stamp-keigo"
+    },
+    {
+      "id": "ja-culture-0009",
+      "title": "Sendai Asaichi",
+      "body": {
+        "id": "仙台朝市 adalah pasar pagi sekitar lima menit berjalan kaki dari Stasiun Sendai, berisi toko ikan, sayur, dan makanan kecil yang menjual hasil Miyagi. Pasar ini hidup pada pagi hari dan menjadi tempat orang bertemu sebelum bekerja. Haruto bekerja di pasar ikan, dan Aoi sering melewatinya dalam perjalanan ke stasiun.",
+        "en": "Sendai Asaichi is a morning market about five minutes on foot from Sendai Station, with fish, vegetable, and prepared-food stalls selling produce from Miyagi. It lives in the early morning and is a place where people meet before work. Haruto works at the fish market, and Aoi often passes through on her way to the station."
+      },
+      "sources": [
+        "Sendai Asaichi official site — https://sendaiasaichi.com/"
+      ],
+      "reflection": {
+        "id": "Apa yang hilang dari kota jika pasar pagi tutup?",
+        "en": "What does a city lose when its morning market closes?"
+      },
+      "stampId": "ja-stamp-asaichi"
+    },
+    {
+      "id": "ja-culture-0010",
+      "title": "Mori no Miyako and komorebi",
+      "body": {
+        "id": "Sendai dijuluki 杜の都, \"kota pepohonan\", karena deretan keyaki (zelkova) di jalan-jalan utama seperti Aoba-dōri dan Jōzenji-dōri. Daunnya membuat cahaya matahari jatuh berbintik-bintik — 木漏れ日, komorebi — dan nama kedai ini diambil dari situ. Pepohonan itu dirawat sebagai bagian dari identitas kota, bukan hanya dekorasi.",
+        "en": "Sendai is called Mori no Miyako, \"city of trees\", for the zelkova avenues along main streets such as Aoba-dōri and Jōzenji-dōri. Their leaves break sunlight into flecks — komorebi — and the shop takes its name from that. The trees are maintained as part of the city's identity, not as decoration."
+      },
+      "sources": [
+        "Sendai City, 青葉通のケヤキ並木 — https://www.city.sendai.jp/ryokuchihozen/kurashi/shizen/midori/reiwa100sen/aoba/aobadori.html"
+      ],
+      "reflection": {
+        "id": "Mengapa nama sebuah tempat bisa menjadi janji tentang cara merawatnya?",
+        "en": "Why can a place's name become a promise about how to care for it?"
+      },
+      "stampId": "ja-stamp-komorebi"
+    }
+  ],
+  "arcs": [
+    {
+      "tier": "T1",
+      "seasonNo": 1,
+      "title": "Buku Catatan Merah",
+      "nativeTitle": "赤いノート",
+      "synopsis": "Aoi membuka Komorebi untuk pertama kalinya tanpa neneknya. Pelanggan datang, pesanan membingungkan, dan sebuah buku catatan merah di bawah meja kasir mencatat pesanan untuk orang yang tidak pernah datang.",
+      "mystery": "ja-object-notebook",
+      "cliffhanger": "Di halaman bertanggal 8 Agustus ada satu pesanan untuk nama yang belum pernah didengar Aoi, dan telepon berbunyi."
+    },
+    {
+      "tier": "T1",
+      "seasonNo": 2,
+      "title": "Oshibori Pagi Hari",
+      "nativeTitle": "朝のおしぼり",
+      "synopsis": "Setiap pagi, satu oshibori di meja sudut dilipat dua kali dengan cara yang sama. Aoi mengikuti kebiasaan kecil itu dan bertemu pelanggan yang datang hanya untuk melihat siapa yang membuka toko.",
+      "mystery": "ja-object-oshibori",
+      "cliffhanger": "Lipatan oshibori itu selalu mengarah ke jendela rumah sakit di atas bukit."
+    },
+    {
+      "tier": "T2",
+      "seasonNo": 1,
+      "title": "Cangkir Kedua",
+      "nativeTitle": "二杯目のカップ",
+      "synopsis": "Aoi merekrut pekerja paruh waktu dan belajar memberi instruksi dengan sopan. Setiap pagi muncul cangkir putih kedua yang sudah hangat, meskipun tidak ada yang memesannya.",
+      "mystery": "ja-object-cup",
+      "cliffhanger": "Cangkir kedua itu selalu hangat, dan tidak ada yang pernah melihat siapa yang menuangkannya."
+    },
+    {
+      "tier": "T2",
+      "seasonNo": 2,
+      "title": "Menu Papan Tulis",
+      "nativeTitle": "黒板のメニュー",
+      "synopsis": "Kafe baru di seberang gang menyalin menu Komorebi. Aoi dan pekerja paruh waktu bertengkar tentang cara menghadapinya, lalu menemukan bahwa pemilik kafe baru itu punya alasan sendiri.",
+      "mystery": "ja-object-menu",
+      "cliffhanger": "Di menu kafe baru ada satu minuman yang hanya diketahui nenek Aoi."
+    },
+    {
+      "tier": "T3",
+      "seasonNo": 1,
+      "title": "Pelanggan yang Tidak Datang",
+      "nativeTitle": "来ないお客",
+      "synopsis": "Seorang pelanggan tetap berhenti datang. Surat yang dikembalikan, kenangan para pelanggan lain, dan salah paham selama bertahun-tahun membuat Aoi mencari tahu apa yang sebenarnya terjadi.",
+      "mystery": "ja-object-letter",
+      "cliffhanger": "Surat itu dikembalikan tiga kali, dan alamat pengirimnya adalah Komorebi sendiri."
+    },
+    {
+      "tier": "T3",
+      "seasonNo": 2,
+      "title": "Foto di Laci",
+      "nativeTitle": "引き出しの写真",
+      "synopsis": "Haruto menemukan foto hari pembukaan kedai di dalam laci. Aoi dan Haruto menelusuri orang-orang di foto itu dan menemukan bahwa sebagian dari mereka masih tinggal di gang yang sama.",
+      "mystery": "ja-object-photo",
+      "cliffhanger": "Foto itu menunjukkan kedai sebelum bangunannya dibangun."
+    },
+    {
+      "tier": "T4",
+      "seasonNo": 1,
+      "title": "Toko di Seberang Stasiun",
+      "nativeTitle": "駅の向こうの店",
+      "synopsis": "Rencana pembangunan kembali gang sampai ke Komorebi. Aoi harus memilih antara menjual nama neneknya dan berbicara untuk lingkungan yang tidak pernah memintanya tinggal.",
+      "mystery": "ja-object-slip",
+      "cliffhanger": "Bon tertua di laci ditujukan kepada nama yang duduk di dewan pembangunan."
+    },
+    {
+      "tier": "T4",
+      "seasonNo": 2,
+      "title": "Kunci Berlonceng",
+      "nativeTitle": "鈴のついた鍵",
+      "synopsis": "Kunci kecil berlonceng membuka rolling door toko sebelah yang sudah lama tutup. Aoi dan Tanaka membersihkannya, dan menemukan bahwa toko itu pernah menjadi bagian dari Komorebi.",
+      "mystery": "ja-object-key",
+      "cliffhanger": "Lonceng di kunci itu hanya berbunyi ketika pintu dibuka dari dalam."
+    },
+    {
+      "tier": "T5",
+      "seasonNo": 1,
+      "title": "Komorebi",
+      "nativeTitle": "こもれび",
+      "synopsis": "Fumiko pulang dari rumah sakit dan mulai bercerita tentang tahun-tahun pertama kedai. Aoi mendengar versi lain dari sejarah keluarganya, dan jam dinding yang berhenti itu akhirnya punya arti.",
+      "mystery": "ja-object-clock",
+      "cliffhanger": "Jam itu berhenti tepat pada jam ketika Fumiko membuka kedai, dan Aoi akhirnya mengerti mengapa."
+    },
+    {
+      "tier": "T5",
+      "seasonNo": 2,
+      "title": "Celemek Indigo",
+      "nativeTitle": "藍の前掛け",
+      "synopsis": "Hari terakhir Aoi di Sendai tiba. Komorebi, Haruto, dan gang itu menunggu keputusannya, sementara celemek indigo neneknya tergantung di kursi seperti janji yang belum diucapkan.",
+      "mystery": "ja-object-apron",
+      "cliffhanger": "Aoi mengikat celemek itu, dan paket sarapan sudah ada di atas meja."
+    }
+  ]
+}

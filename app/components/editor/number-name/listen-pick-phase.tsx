@@ -1,9 +1,16 @@
 "use client";
 
-import { useState } from "react";
-import { getNumberWord, getSpeechLang, generateOptions } from "./number-data";
-import { useSpeech } from "@/lib/use-speech";
+import { useMemo, useState } from "react";
+import { useTranslation } from "react-i18next";
+import { Volume2 } from "lucide-react";
+import {
+  getNumberWord,
+  getSpeechLang,
+  generateOptions,
+} from "./number-data";
+import { useSpeech, useSpeechGender } from "@/lib/use-speech";
 import type { LanguageCode } from "./types";
+import { recordNumberAttempt } from "@/lib/learning/number-attempts";
 
 interface ListenPickPhaseProps {
   numbers: number[];
@@ -20,6 +27,7 @@ export function ListenPickPhase({
   onIncorrect,
   onComplete,
 }: ListenPickPhaseProps) {
+  const { t } = useTranslation();
   const [currentIdx, setCurrentIdx] = useState(0);
   const [selected, setSelected] = useState<number | null>(null);
   const [showResult, setShowResult] = useState(false);
@@ -27,17 +35,27 @@ export function ListenPickPhase({
   const [hasInteracted, setHasInteracted] = useState(false);
   const questionCount = Math.min(5, numbers.length);
   const [questions] = useState(() =>
-    [...numbers].sort(() => Math.random() - 0.5).slice(0, questionCount)
+    [...numbers].sort(() => Math.random() - 0.5).slice(0, questionCount),
   );
-  const speak = useSpeech();
+  const { speak } = useSpeech();
+  const [voiceGender] = useSpeechGender(lang);
 
   const currentQ = questions[currentIdx];
-  const currentWord = currentQ !== undefined ? getNumberWord(currentQ, lang) : "";
+  const currentWord =
+    currentQ !== undefined ? getNumberWord(currentQ, lang) : "";
   const currentLang = getSpeechLang(lang);
+
+  // Keep the options stable while the result panel is open. Re-generating
+  // them on every render could hide the option the learner picked.
+  const options = useMemo(
+    () =>
+      currentQ !== undefined ? generateOptions(currentQ, numbers) : [],
+    [currentQ, numbers],
+  );
 
   const handlePlay = () => {
     setHasInteracted(true);
-    speak(currentWord, currentLang);
+    speak(currentWord, currentLang, { gender: voiceGender });
   };
 
   const handleSelect = (value: number) => {
@@ -48,6 +66,12 @@ export function ListenPickPhase({
 
     const correct = value === currentQ;
     setIsCorrect(correct);
+    recordNumberAttempt({
+      languageCode: lang,
+      value: currentQ,
+      phase: "listen-pick",
+      answer: value,
+    });
 
     if (correct) {
       onCorrect(10);
@@ -63,7 +87,7 @@ export function ListenPickPhase({
     } else {
       const nextQ = questions[nextIdx];
       const nextWord = nextQ !== undefined ? getNumberWord(nextQ, lang) : "";
-      speak(nextWord, currentLang);
+      speak(nextWord, currentLang, { gender: voiceGender });
       setCurrentIdx(nextIdx);
       setSelected(null);
       setShowResult(false);
@@ -71,88 +95,91 @@ export function ListenPickPhase({
     }
   };
 
-  if (!currentQ) {
+  if (currentQ === undefined) {
     return (
-      <div className="flex items-center justify-center h-48">
-        <p className="text-white/60">No questions available for this level.</p>
+      <div className="flex h-48 items-center justify-center">
+        <p className="text-exp-on-surface-variant">
+          {t("learning.number.notEnoughNumbers")}
+        </p>
       </div>
     );
   }
-
-  const options = generateOptions(currentQ, numbers);
 
   return (
     <div className="flex flex-col items-center gap-8">
       <div className="flex flex-col items-center gap-3">
         <button
+          type="button"
           onClick={handlePlay}
-          className={`flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-b from-[#2a2a2a] to-[#222] border transition-all duration-300 active:scale-95 group cursor-pointer ${
-            !hasInteracted
-              ? "border-[#d2ff5e]/50 animate-pulse shadow-[0_0_20px_-6px_#d2ff5e]"
-              : "border-[#3a3a3a] hover:border-[#d2ff5e]/50 hover:shadow-[0_0_24px_-8px_#d2ff5e]"
-          }`}
-          title="Listen"
+          aria-label={t("learning.audio.play")}
+          className="exp-tactile-node relative h-20 w-20"
         >
-          <svg className="w-8 h-8 text-white/70 group-hover:text-[#d2ff5e] transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-            <path strokeLinecap="round" strokeLinejoin="round" d="M19.114 5.636a9 9 0 010 12.728M16.463 8.288a5.25 5.25 0 010 7.424M6.75 8.25l4.72-4.72a.75.75 0 011.28.53v15.88a.75.75 0 01-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.009 9.009 0 012.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75z" />
-          </svg>
+          <Volume2 className="h-8 w-8" aria-hidden="true" />
         </button>
         {!hasInteracted && (
-          <span className="text-[11px] text-[#d2ff5e]/60 animate-pulse">
-            Tap to hear the number
+          <span className="text-xs font-bold text-exp-primary">
+            {t("learning.number.tapToHear")}
           </span>
         )}
         <div className="flex items-center gap-1.5">
           {Array.from({ length: questionCount }).map((_, i) => (
             <div
               key={i}
-              className={`w-6 h-1 rounded-full transition-all duration-300 ${
+              className={`h-1 rounded-full transition-all duration-300 ${
                 i < currentIdx
-                  ? "bg-green-500"
+                  ? "w-6 bg-exp-primary-container"
                   : i === currentIdx
-                    ? "bg-white/40 w-8"
-                    : "bg-white/10"
+                    ? "w-8 bg-exp-primary-container"
+                    : "w-6 bg-exp-surface-low"
               }`}
             />
           ))}
         </div>
       </div>
 
-      <div className="grid grid-cols-2 gap-3 w-full max-w-sm">
+      <div className="grid w-full max-w-sm grid-cols-2 gap-3">
         {options.map((value) => {
           const picked = selected === value;
           const answer = value === currentQ;
           let classes =
-            "relative rounded-2xl border-2 px-6 py-5 text-xl font-semibold transition-all duration-200 ";
+            "relative min-h-14 rounded-2xl border-2 px-6 py-5 text-xl font-extrabold shadow-[0_4px_0_var(--exp-container-highest)] transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-exp-primary/60 ";
 
           if (!showResult) {
             classes +=
-              "bg-[#252525] border-[#333] text-white hover:bg-[#2e2e2e] hover:border-[#555] active:scale-[0.97] focus-visible:ring-2 focus-visible:ring-[#d2ff5e]/50";
+              "border-exp-container-high bg-exp-surface-lowest text-exp-on-surface hover:-translate-y-0.5 hover:border-exp-outline-variant hover:bg-exp-surface-low active:translate-y-0";
           } else if (answer) {
             classes +=
-              "bg-green-600/20 border-green-500 text-green-400 scale-[1.02]";
+              "border-exp-success bg-exp-primary-container/15 text-exp-success shadow-[0_4px_0_rgba(21,128,61,0.3)]";
           } else if (picked && !answer) {
             classes +=
-              "bg-red-600/20 border-red-500/60 text-red-400";
+              "border-exp-error bg-exp-error/10 text-exp-error shadow-[0_4px_0_rgba(186,26,26,0.28)]";
           } else {
             classes +=
-              "bg-[#1e1e1e] border-[#2a2a2a] text-white/20";
+              "border-exp-container-high bg-exp-surface text-exp-on-surface-muted shadow-none";
           }
 
           return (
             <button
               key={value}
+              type="button"
               className={classes}
               onClick={() => handleSelect(value)}
               disabled={showResult}
+              aria-pressed={picked}
             >
               {showResult && answer && (
-                <span className="absolute -top-2 -right-2 flex items-center justify-center w-5 h-5 rounded-full bg-green-500 text-white text-xs font-bold">
+                <span
+                  className="absolute -right-2 -top-2 flex h-5 w-5 items-center justify-center rounded-full bg-exp-primary-container text-xs font-bold text-exp-on-primary-container"
+                  aria-hidden="true"
+                >
                   ✓
                 </span>
               )}
               {showResult && picked && !answer && (
-                <span className="absolute -top-2 -right-2 flex items-center justify-center w-5 h-5 rounded-full bg-red-500 text-white text-xs font-bold">
+                <span
+                  className="absolute -right-2 -top-2 flex h-5 w-5 items-center justify-center rounded-full bg-exp-error text-xs font-bold text-exp-inverse-on-surface"
+                  aria-hidden="true"
+                >
                   ✗
                 </span>
               )}
@@ -163,25 +190,36 @@ export function ListenPickPhase({
       </div>
 
       {showResult && (
-        <div className="flex flex-col items-center gap-4 animate-fade-in-up">
-          <div className={`px-5 py-2 rounded-full text-sm font-medium ${
-            isCorrect
-              ? "bg-green-500/10 text-green-400 border border-green-500/20"
-              : "bg-red-500/10 text-red-400 border border-red-500/20"
-          }`}>
+        <div
+          role="status"
+          aria-live="polite"
+          className="flex flex-col items-center gap-4 animate-fade-in-up"
+        >
+          <div
+            className={`rounded-full border px-5 py-2 text-sm font-medium ${
+              isCorrect
+                ? "border-exp-success/20 bg-exp-primary-container/10 text-exp-success"
+                : "border-exp-error/20 bg-exp-error/10 text-exp-error"
+            }`}
+          >
             {isCorrect ? (
-              <span className="flex items-center gap-2">🎉 Correct! +10 XP</span>
+              <span>{t("learning.number.correctXp", { xp: 10 })}</span>
             ) : (
-              <span className="flex items-center gap-2">
-                Not quite — it was <span className="font-bold">{currentQ}</span>
+              <span>
+                {t("learning.number.notQuite", {
+                  answer: `${currentQ} (${currentWord})`,
+                })}
               </span>
             )}
           </div>
           <button
+            type="button"
             onClick={handleNext}
-            className="px-8 py-2.5 rounded-xl bg-[#d2ff5e] text-[#171717] font-semibold text-sm hover:bg-[#c4f040] active:scale-[0.97] transition-all duration-150 shadow-lg shadow-[#d2ff5e]/20"
+            className="exp-btn exp-btn-primary"
           >
-            {currentIdx + 1 >= questionCount ? "Complete Phase" : "Next Question"}
+            {currentIdx + 1 >= questionCount
+              ? t("learning.number.completePhase")
+              : t("learning.number.nextQuestion")}
           </button>
         </div>
       )}

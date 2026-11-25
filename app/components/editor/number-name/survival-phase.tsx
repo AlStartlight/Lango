@@ -1,9 +1,12 @@
 "use client";
 
 import { useState, useCallback, useEffect, useRef } from "react";
+import { useTranslation } from "react-i18next";
+import { Flame, Heart, Timer, Trophy, Volume2 } from "lucide-react";
 import { getNumberWord, getSpeechLang, generateOptions } from "./number-data";
-import { useSpeech } from "@/lib/use-speech";
+import { useSpeech, useSpeechGender } from "@/lib/use-speech";
 import type { LanguageCode } from "./types";
+import { recordNumberAttempt } from "@/lib/learning/number-attempts";
 
 interface SurvivalPhaseProps {
   numbers: number[];
@@ -29,6 +32,7 @@ export function SurvivalPhase({
   onLoseLife,
   onGameOver,
 }: SurvivalPhaseProps) {
+  const { t } = useTranslation();
   const [question, setQuestion] = useState(() => pickRandomQuestion(numbers));
   const [selected, setSelected] = useState<number | null>(null);
   const [showResult, setShowResult] = useState(false);
@@ -40,7 +44,8 @@ export function SurvivalPhase({
   const [timeLeft, setTimeLeft] = useState(TIME_LIMIT);
   const [gameOver, setGameOver] = useState(false);
   const [hasStarted, setHasStarted] = useState(false);
-  const speak = useSpeech();
+  const { speak } = useSpeech();
+  const [voiceGender] = useSpeechGender(lang);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const onLoseLifeRef = useRef(onLoseLife);
   onLoseLifeRef.current = onLoseLife;
@@ -49,8 +54,8 @@ export function SurvivalPhase({
 
   const playAudio = useCallback(() => {
     const word = getNumberWord(question.answer, lang);
-    speak(word, getSpeechLang(lang));
-  }, [question.answer, lang, speak]);
+    speak(word, getSpeechLang(lang), { gender: voiceGender });
+  }, [question.answer, lang, speak, voiceGender]);
 
   useEffect(() => {
     if (!hasStarted || gameOver || showResult) return;
@@ -113,6 +118,12 @@ export function SurvivalPhase({
 
     const correct = value === question.answer;
     setIsCorrect(correct);
+    recordNumberAttempt({
+      languageCode: lang,
+      value: question.answer,
+      phase: "survival",
+      answer: value,
+    });
 
     if (correct) {
       const newScore = score + 1;
@@ -152,62 +163,86 @@ export function SurvivalPhase({
   };
 
   const timerPct = (timeLeft / TIME_LIMIT) * 100;
-  const timerColor = timerPct > 40 ? "#d2ff5e" : timerPct > 15 ? "#f59e0b" : "#ef4444";
+  const timerColor = timerPct > 40 ? "var(--exp-primary-container)" : timerPct > 15 ? "var(--exp-secondary-container)" : "var(--exp-error)";
 
   if (!hasStarted) {
     return (
-      <div className="flex flex-col items-center justify-center gap-6 h-[60vh]">
-        <div className="text-center">
-          <p className="text-lg font-semibold text-white/90">Survival Mode</p>
-          <p className="text-sm text-white/40 mt-1">
-            Answer as many as you can. You have {initialLives} lives. Good luck!
+      <div className="flex min-h-[360px] items-center justify-center px-2">
+        <div className="exp-card w-full max-w-md p-6 text-center">
+          <span className="mx-auto grid h-16 w-16 place-items-center rounded-2xl bg-exp-error/10 text-exp-error">
+            <Flame className="h-8 w-8" aria-hidden="true" />
+          </span>
+          <p className="mt-4 text-sm font-semibold leading-6 text-exp-on-surface-variant">
+            {t("learning.number.survivalIntro", { count: initialLives })}
           </p>
+          <div className="mt-4 flex flex-wrap justify-center gap-2">
+            <span className="exp-pill bg-exp-surface-low text-exp-on-surface-variant">
+              <Heart className="h-3.5 w-3.5 text-exp-error" aria-hidden="true" />
+              {initialLives}
+            </span>
+            <span className="exp-pill bg-exp-surface-low text-exp-on-surface-variant">
+              <Timer className="h-3.5 w-3.5 text-exp-secondary" aria-hidden="true" />
+              {TIME_LIMIT}s
+            </span>
+          </div>
+          <button
+            type="button"
+            onClick={() => setHasStarted(true)}
+            className="exp-btn exp-btn-primary mt-5 w-full"
+          >
+            {t("learning.number.startSurvival")}
+          </button>
         </div>
-        <button
-          onClick={() => setHasStarted(true)}
-          className="px-8 py-3 rounded-xl bg-[#d2ff5e] text-[#171717] font-semibold text-base hover:bg-[#c4f040] active:scale-[0.97] transition-all duration-150 shadow-lg shadow-[#d2ff5e]/20"
-        >
-          Start Survival
-        </button>
       </div>
     );
   }
 
   if (gameOver) {
     return (
-      <div className="flex flex-col items-center justify-center gap-6 h-[60vh] animate-fade-in-up">
-        <div className="text-6xl">🏆</div>
-        <div className="text-center">
-          <h3 className="text-xl font-bold text-white">Game Over</h3>
-          <p className="text-white/40 mt-1">You survived with these stats:</p>
-        </div>
-        <div className="flex gap-8">
-          <div className="flex flex-col items-center">
-            <span className="text-3xl font-bold text-[#d2ff5e]">{score}</span>
-            <span className="text-xs text-white/40">Score</span>
+      <div className="flex min-h-[360px] items-center justify-center px-2 animate-fade-in-up">
+        <div className="exp-card w-full max-w-md p-6 text-center">
+          <span className="mx-auto grid h-16 w-16 place-items-center rounded-2xl bg-exp-secondary-fixed text-exp-secondary">
+            <Trophy className="h-8 w-8" aria-hidden="true" />
+          </span>
+          <h3 className="mt-4 text-xl font-extrabold text-exp-on-surface">
+            {t("learning.number.gameOver")}
+          </h3>
+          <p className="mt-1 text-sm text-exp-on-surface-variant">
+            {t("learning.number.survived")}
+          </p>
+          <div className="mt-4 grid grid-cols-2 gap-2">
+            <div className="rounded-xl bg-exp-surface-low p-3">
+              <p className="text-2xl font-extrabold tabular-nums text-exp-primary">{score}</p>
+              <p className="text-[11px] font-bold uppercase tracking-wide text-exp-on-surface-muted">
+                {t("learning.common.score")}
+              </p>
+            </div>
+            <div className="rounded-xl bg-exp-surface-low p-3">
+              <p className="text-2xl font-extrabold tabular-nums text-exp-secondary">{maxStreak}</p>
+              <p className="text-[11px] font-bold uppercase tracking-wide text-exp-on-surface-muted">
+                {t("learning.number.bestStreak")}
+              </p>
+            </div>
           </div>
-          <div className="flex flex-col items-center">
-            <span className="text-3xl font-bold text-yellow-400">{maxStreak}</span>
-            <span className="text-xs text-white/40">Best Streak</span>
-          </div>
+          <button
+            type="button"
+            onClick={() => {
+              setQuestion(pickRandomQuestion(numbers));
+              setSelected(null);
+              setShowResult(false);
+              setIsCorrect(false);
+              setScore(0);
+              setStreak(0);
+              setMaxStreak(0);
+              setLives(initialLives);
+              setGameOver(false);
+              setTimeLeft(TIME_LIMIT);
+            }}
+            className="exp-btn exp-btn-primary mt-4 w-full"
+          >
+            {t("learning.number.playAgain")}
+          </button>
         </div>
-        <button
-          onClick={() => {
-            setQuestion(pickRandomQuestion(numbers));
-            setSelected(null);
-            setShowResult(false);
-            setIsCorrect(false);
-            setScore(0);
-            setStreak(0);
-            setMaxStreak(0);
-            setLives(initialLives);
-            setGameOver(false);
-            setTimeLeft(TIME_LIMIT);
-          }}
-          className="px-8 py-2.5 rounded-xl bg-[#d2ff5e] text-[#171717] font-semibold text-sm hover:bg-[#c4f040] active:scale-[0.97] transition-all duration-150 shadow-lg shadow-[#d2ff5e]/20"
-        >
-          Play Again
-        </button>
       </div>
     );
   }
@@ -216,8 +251,8 @@ export function SurvivalPhase({
     <div className="flex flex-col items-center gap-5">
       <div className="flex items-center justify-between w-full max-w-sm">
         <div className="flex items-center gap-2">
-          <span className="text-sm font-bold tabular-nums text-[#d2ff5e]">{score}</span>
-          <span className="text-xs text-white/30">pts</span>
+          <span className="text-sm font-bold tabular-nums text-exp-primary">{score}</span>
+          <span className="text-xs text-exp-on-surface-muted">{t("learning.number.points")}</span>
         </div>
         <div className="flex items-center gap-1">
           {Array.from({ length: initialLives }).map((_, i) => (
@@ -225,21 +260,21 @@ export function SurvivalPhase({
               key={i}
               className={`flex items-center justify-center w-5 h-5 rounded-full text-xs transition-all duration-300 ${
                 i < lives
-                  ? "text-red-400 bg-red-400/10"
-                  : "text-[#333] bg-[#252525]"
+                  ? "text-exp-error bg-red-400/10"
+                  : "text-exp-container-high bg-exp-surface-low"
               }`}
             >
               ♥
             </span>
           ))}
         </div>
-        <div className="flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-orange-400/10 border border-orange-400/20">
+        <div className="flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-exp-secondary-container/10 border border-orange-400/20">
           <span className="text-sm">🔥</span>
           <span className="text-orange-300 text-xs font-semibold tabular-nums">{streak}</span>
         </div>
       </div>
 
-      <div className="w-full max-w-sm h-1.5 rounded-full bg-[#252525] overflow-hidden">
+      <div className="w-full max-w-sm h-1.5 rounded-full bg-exp-surface-low overflow-hidden">
         <div
           className="h-full rounded-full transition-all duration-100 ease-linear"
           style={{ width: `${timerPct}%`, backgroundColor: timerColor }}
@@ -249,11 +284,9 @@ export function SurvivalPhase({
       <button
         onClick={playAudio}
         disabled={showResult}
-        className="flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-b from-[#2a2a2a] to-[#222] border border-[#d2ff5e]/30 hover:border-[#d2ff5e]/60 hover:shadow-[0_0_24px_-8px_#d2ff5e] transition-all active:scale-95"
+        className="flex items-center justify-center w-16 h-16 rounded-full bg-exp-surface-lowest border border-exp-primary-container/30 hover:border-exp-primary-container/60 hover:shadow-lg transition-all active:scale-95"
       >
-        <svg className="w-7 h-7 text-[#d2ff5e]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-          <path strokeLinecap="round" strokeLinejoin="round" d="M19.114 5.636a9 9 0 010 12.728M16.463 8.288a5.25 5.25 0 010 7.424M6.75 8.25l4.72-4.72a.75.75 0 011.28.53v15.88a.75.75 0 01-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.009 9.009 0 012.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75z" />
-        </svg>
+        <Volume2 className="h-7 w-7 text-exp-primary" aria-hidden="true" />
       </button>
 
       <div className="grid grid-cols-2 gap-3 w-full max-w-xs">
@@ -265,14 +298,14 @@ export function SurvivalPhase({
 
           if (!showResult) {
             classes +=
-              "bg-[#252525] border-[#333] text-white hover:bg-[#2e2e2e] hover:border-[#555] active:scale-[0.95]";
+              "bg-exp-surface-low border-exp-container-high text-exp-on-surface hover:bg-exp-container-high hover:border-exp-outline-variant active:scale-[0.95]";
           } else if (answer) {
             classes +=
-              "bg-green-600/20 border-green-500 text-green-400 scale-[1.02]";
+              "bg-exp-primary-container/20 border-exp-success text-exp-success scale-[1.02]";
           } else if (picked && !answer) {
-            classes += "bg-red-600/20 border-red-500/60 text-red-400";
+            classes += "bg-exp-error/20 border-exp-error/60 text-exp-error";
           } else {
-            classes += "bg-[#1e1e1e] border-[#2a2a2a] text-white/20";
+            classes += "bg-exp-surface-lowest border-exp-container-high text-exp-on-surface-muted";
           }
 
           return (
@@ -283,7 +316,7 @@ export function SurvivalPhase({
               disabled={showResult}
             >
               {showResult && answer && (
-                <span className="absolute -top-2 -right-2 flex items-center justify-center w-5 h-5 rounded-full bg-green-500 text-white text-xs">
+                <span className="absolute -top-2 -right-2 flex items-center justify-center w-5 h-5 rounded-full bg-exp-primary-container text-exp-on-surface text-xs">
                   ✓
                 </span>
               )}
@@ -298,27 +331,31 @@ export function SurvivalPhase({
           <div
             className={`px-5 py-2 rounded-full text-sm font-medium ${
               isCorrect
-                ? "bg-green-500/10 text-green-400 border border-green-500/20"
-                : "bg-red-500/10 text-red-400 border border-red-500/20"
+                ? "bg-exp-primary-container/10 text-exp-success border border-exp-success/20"
+                : "bg-exp-error/10 text-exp-error border border-exp-error/20"
             }`}
           >
             {isCorrect ? (
               <span className="flex items-center gap-2">
-                ✅ +{10 + Math.min(streak, 10) * 2} XP
+                {t("learning.number.correctXp", {
+                  xp: 10 + Math.min(streak, 10) * 2,
+                })}
               </span>
             ) : (
               <span className="flex items-center gap-2">
-                It was <span className="font-bold">{question.answer}</span>{" "}
-                {lives > 0 ? `(${lives} lives left)` : "Game Over!"}
+                {t("learning.number.answerWas", { answer: question.answer })}{" "}
+                {lives > 0
+                  ? t("learning.number.livesLeft", { count: lives })
+                  : t("learning.number.gameOver")}
               </span>
             )}
           </div>
           {lives > 0 && (
             <button
               onClick={handleNext}
-              className="px-8 py-2.5 rounded-xl bg-[#d2ff5e] text-[#171717] font-semibold text-sm hover:bg-[#c4f040] active:scale-[0.97] transition-all duration-150 shadow-lg shadow-[#d2ff5e]/20"
+              className="exp-btn exp-btn-primary"
             >
-              Continue
+              {t("learning.common.continue")}
             </button>
           )}
         </div>

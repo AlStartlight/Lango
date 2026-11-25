@@ -1,0 +1,1527 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "2026.11.0-pilot",
+  "curriculum": {
+    "id": "en-cefr",
+    "languageCode": "en",
+    "framework": "CEFR",
+    "variant": "en-US",
+    "status": "preview"
+  },
+  "level": {
+    "code": "A1",
+    "position": 1,
+    "title": "A1 · Pemula",
+    "description": "Dasar bahasa Inggris untuk situasi sehari-hari",
+    "canDo": [
+      "Memperkenalkan diri",
+      "Menggunakan artikel dasar",
+      "Membaca kalimat sederhana"
+    ],
+    "estimatedHours": 60
+  },
+  "unit": {
+    "id": "en-cefr-a1-u01",
+    "position": 1,
+    "title": "Basic Grammar",
+    "goal": "Menggunakan a, an, the, dan tanpa artikel dengan tepat",
+    "checkpointQuestionCount": 20
+  },
+  "lesson": {
+    "id": "en-cefr-a1-u01-l01",
+    "position": 1,
+    "slug": "articles-a-an-the",
+    "title": "Articles: a, an, the",
+    "objective": "Memilih artikel yang tepat berdasarkan bunyi awal dan makna",
+    "skill": "grammar",
+    "estimatedMinutes": 10,
+    "materials": {
+      "id": {
+        "blocks": [
+          {
+            "type": "explanation",
+            "text": "Artikel dalam bahasa Inggris bergantung pada apakah benda bisa dihitung dan apakah pendengar sudah tahu benda yang dimaksud. Gunakan 'a/an' untuk benda tunggal yang bisa dihitung dan belum spesifik; 'the' untuk benda spesifik atau unik; dan tanpa artikel untuk benda umum atau tidak bisa dihitung."
+          },
+          {
+            "type": "rules",
+            "items": [
+              "Gunakan 'a' sebelum bunyi konsonan.",
+              "Gunakan 'an' sebelum bunyi vokal.",
+              "Gunakan 'the' untuk benda spesifik atau unik.",
+              "Jangan gunakan artikel untuk benda umum yang tidak bisa dihitung."
+            ]
+          },
+          {
+            "type": "examples",
+            "items": [
+              {
+                "correct": "I have an apple.",
+                "annotation": "apple dimulai dengan bunyi vokal."
+              },
+              {
+                "correct": "She is a teacher.",
+                "annotation": "teacher dimulai dengan bunyi konsonan."
+              },
+              {
+                "correct": "The sun is bright.",
+                "annotation": "matahari adalah benda unik."
+              },
+              {
+                "correct": "I like music.",
+                "annotation": "music bersifat umum dan tidak bisa dihitung."
+              }
+            ]
+          },
+          {
+            "type": "tips",
+            "items": [
+              "Dengarkan bunyi awal, bukan huruf awal.",
+              "Kata seperti 'hour' dan 'honest' memakai 'an' karena 'h' tidak dilafalkan."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "blocks": [
+          {
+            "type": "explanation",
+            "text": "English articles depend on whether the noun is countable and whether the listener already knows which thing you mean. Use 'a/an' for a singular countable noun introduced for the first time, 'the' for something specific or unique, and no article for general or uncountable nouns."
+          },
+          {
+            "type": "rules",
+            "items": [
+              "Use 'a' before a consonant sound.",
+              "Use 'an' before a vowel sound.",
+              "Use 'the' for specific or unique things.",
+              "Use no article for general uncountable nouns."
+            ]
+          },
+          {
+            "type": "examples",
+            "items": [
+              {
+                "correct": "I have an apple.",
+                "annotation": "'apple' starts with a vowel sound."
+              },
+              {
+                "correct": "She is a teacher.",
+                "annotation": "'teacher' starts with a consonant sound."
+              },
+              {
+                "correct": "The sun is bright.",
+                "annotation": "The sun is unique."
+              },
+              {
+                "correct": "I like music.",
+                "annotation": "'music' is general and uncountable."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "passages": [],
+    "questions": [
+      {
+        "id": "en-cefr-a1-u01-l01-q001",
+        "position": 1,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "I have ___ apple every morning.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "an"
+          },
+          {
+            "id": "c",
+            "label": "the"
+          },
+          {
+            "id": "d",
+            "label": "— (tanpa artikel)"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "b"
+        },
+        "explanations": {
+          "id": "Kata 'apple' dimulai dengan bunyi vokal /æ/, jadi gunakan 'an'.",
+          "en": "'Apple' starts with a vowel sound /æ/, so use 'an'."
+        },
+        "conceptKey": "en:cefr:a1:grammar:articles:apple",
+        "difficulty": 1,
+        "tags": [
+          "articles",
+          "a1"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "en-cefr-a1-u01-l01-q002",
+        "position": 2,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "She is ___ teacher at a primary school.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "an"
+          },
+          {
+            "id": "c",
+            "label": "the"
+          },
+          {
+            "id": "d",
+            "label": "— (tanpa artikel)"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "'Teacher' dimulai dengan bunyi konsonan /t/, jadi gunakan 'a'.",
+          "en": "'Teacher' starts with the consonant sound /t/, so use 'a'."
+        },
+        "conceptKey": "en:cefr:a1:grammar:articles:teacher",
+        "difficulty": 1,
+        "tags": [
+          "articles",
+          "a1"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "en-cefr-a1-u01-l01-q003",
+        "position": 3,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "___ sun rises in the east.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "an"
+          },
+          {
+            "id": "c",
+            "label": "the"
+          },
+          {
+            "id": "d",
+            "label": "— (tanpa artikel)"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "c"
+        },
+        "explanations": {
+          "id": "Gunakan 'the' untuk benda unik seperti matahari.",
+          "en": "Use 'the' for a unique object such as the sun."
+        },
+        "conceptKey": "en:cefr:a1:grammar:articles:sun",
+        "difficulty": 1,
+        "tags": [
+          "articles",
+          "a1"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "en-cefr-a1-u01-l01-q004",
+        "position": 4,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "He is ___ honest man.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "an"
+          },
+          {
+            "id": "c",
+            "label": "the"
+          },
+          {
+            "id": "d",
+            "label": "— (tanpa artikel)"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "b"
+        },
+        "explanations": {
+          "id": "'Honest' dimulai dengan bunyi vokal karena 'h' tidak dilafalkan.",
+          "en": "'Honest' starts with a vowel sound because the 'h' is silent."
+        },
+        "conceptKey": "en:cefr:a1:grammar:articles:honest",
+        "difficulty": 1,
+        "tags": [
+          "articles",
+          "a1"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "en-cefr-a1-u01-l01-q005",
+        "position": 5,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "We need ___ umbrella because it is raining.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "an"
+          },
+          {
+            "id": "c",
+            "label": "the"
+          },
+          {
+            "id": "d",
+            "label": "— (tanpa artikel)"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "b"
+        },
+        "explanations": {
+          "id": "'Umbrella' dimulai dengan bunyi vokal /ʌ/, jadi gunakan 'an'.",
+          "en": "'Umbrella' starts with the vowel sound /ʌ/, so use 'an'."
+        },
+        "conceptKey": "en:cefr:a1:grammar:articles:umbrella",
+        "difficulty": 1,
+        "tags": [
+          "articles",
+          "a1"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "en-cefr-a1-u01-l01-q006",
+        "position": 6,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "She bought ___ new car yesterday.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "an"
+          },
+          {
+            "id": "c",
+            "label": "the"
+          },
+          {
+            "id": "d",
+            "label": "— (tanpa artikel)"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "'A new car' adalah benda tunggal yang bisa dihitung dan belum spesifik.",
+          "en": "'A new car' is a singular countable noun mentioned for the first time."
+        },
+        "conceptKey": "en:cefr:a1:grammar:articles:new-car",
+        "difficulty": 1,
+        "tags": [
+          "articles",
+          "a1"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "en-cefr-a1-u01-l01-q007",
+        "position": 7,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "I ate ___ orange after lunch.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "an"
+          },
+          {
+            "id": "c",
+            "label": "the"
+          },
+          {
+            "id": "d",
+            "label": "— (tanpa artikel)"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "b"
+        },
+        "explanations": {
+          "id": "'Orange' dimulai dengan bunyi vokal /ɒ/, jadi gunakan 'an'.",
+          "en": "'Orange' starts with the vowel sound /ɒ/, so use 'an'."
+        },
+        "conceptKey": "en:cefr:a1:grammar:articles:orange",
+        "difficulty": 1,
+        "tags": [
+          "articles",
+          "a1"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "en-cefr-a1-u01-l01-q008",
+        "position": 8,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "___ water in this bottle is cold.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "an"
+          },
+          {
+            "id": "c",
+            "label": "the"
+          },
+          {
+            "id": "d",
+            "label": "— (tanpa artikel)"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "c"
+        },
+        "explanations": {
+          "id": "'The' digunakan karena airnya spesifik: air di botol ini.",
+          "en": "Use 'the' because the water is specific: the water in this bottle."
+        },
+        "conceptKey": "en:cefr:a1:grammar:articles:water",
+        "difficulty": 1,
+        "tags": [
+          "articles",
+          "a1"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "en-cefr-a1-u01-l01-q009",
+        "position": 9,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "He is ___ engineer at a technology company.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "an"
+          },
+          {
+            "id": "c",
+            "label": "the"
+          },
+          {
+            "id": "d",
+            "label": "— (tanpa artikel)"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "b"
+        },
+        "explanations": {
+          "id": "'Engineer' dimulai dengan bunyi vokal /e/, jadi gunakan 'an'.",
+          "en": "'Engineer' starts with the vowel sound /e/, so use 'an'."
+        },
+        "conceptKey": "en:cefr:a1:grammar:articles:engineer",
+        "difficulty": 1,
+        "tags": [
+          "articles",
+          "a1"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "en-cefr-a1-u01-l01-q010",
+        "position": 10,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "They live in ___ small house near the park.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "an"
+          },
+          {
+            "id": "c",
+            "label": "the"
+          },
+          {
+            "id": "d",
+            "label": "— (tanpa artikel)"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "'A small house' adalah benda tunggal yang bisa dihitung dan belum spesifik.",
+          "en": "'A small house' is a singular countable noun introduced for the first time."
+        },
+        "conceptKey": "en:cefr:a1:grammar:articles:small-house",
+        "difficulty": 1,
+        "tags": [
+          "articles",
+          "a1"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "en-cefr-a1-u01-l01-q011",
+        "position": 11,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "___ Pacific Ocean is deep.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "an"
+          },
+          {
+            "id": "c",
+            "label": "the"
+          },
+          {
+            "id": "d",
+            "label": "— (tanpa artikel)"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "c"
+        },
+        "explanations": {
+          "id": "Nama samudra menggunakan 'the'.",
+          "en": "Names of oceans take 'the'."
+        },
+        "conceptKey": "en:cefr:a1:grammar:articles:pacific",
+        "difficulty": 1,
+        "tags": [
+          "articles",
+          "a1"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "en-cefr-a1-u01-l01-q012",
+        "position": 12,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "I need ___ hour to finish this task.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "an"
+          },
+          {
+            "id": "c",
+            "label": "the"
+          },
+          {
+            "id": "d",
+            "label": "— (tanpa artikel)"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "b"
+        },
+        "explanations": {
+          "id": "'Hour' dimulai dengan bunyi vokal karena 'h' tidak dilafalkan.",
+          "en": "'Hour' starts with a vowel sound because the 'h' is silent."
+        },
+        "conceptKey": "en:cefr:a1:grammar:articles:hour",
+        "difficulty": 1,
+        "tags": [
+          "articles",
+          "a1"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "en-cefr-a1-u01-l01-q013",
+        "position": 13,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "She plays ___ piano every evening.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "an"
+          },
+          {
+            "id": "c",
+            "label": "the"
+          },
+          {
+            "id": "d",
+            "label": "— (tanpa artikel)"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "c"
+        },
+        "explanations": {
+          "id": "Gunakan 'the' sebelum alat musik tertentu seperti piano.",
+          "en": "Use 'the' before a specific musical instrument such as the piano."
+        },
+        "conceptKey": "en:cefr:a1:grammar:articles:piano",
+        "difficulty": 1,
+        "tags": [
+          "articles",
+          "a1"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "en-cefr-a1-u01-l01-q014",
+        "position": 14,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "We go to school by ___ bus.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "an"
+          },
+          {
+            "id": "c",
+            "label": "the"
+          },
+          {
+            "id": "d",
+            "label": "— (tanpa artikel)"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "d"
+        },
+        "explanations": {
+          "id": "Ungkapan 'by bus' tidak memakai artikel.",
+          "en": "The phrase 'by bus' does not take an article."
+        },
+        "conceptKey": "en:cefr:a1:grammar:articles:by-bus",
+        "difficulty": 1,
+        "tags": [
+          "articles",
+          "a1"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "en-cefr-a1-u01-l01-q015",
+        "position": 15,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "I like ___ music, especially jazz.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "an"
+          },
+          {
+            "id": "c",
+            "label": "the"
+          },
+          {
+            "id": "d",
+            "label": "— (tanpa artikel)"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "d"
+        },
+        "explanations": {
+          "id": "Benda yang tidak bisa dihitung dan bersifat umum tidak memakai artikel.",
+          "en": "Uncountable nouns used in a general sense take no article."
+        },
+        "conceptKey": "en:cefr:a1:grammar:articles:music",
+        "difficulty": 1,
+        "tags": [
+          "articles",
+          "a1"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "en-cefr-a1-u01-l01-q016",
+        "position": 16,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "He is ___ best student in our class.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "an"
+          },
+          {
+            "id": "c",
+            "label": "the"
+          },
+          {
+            "id": "d",
+            "label": "— (tanpa artikel)"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "c"
+        },
+        "explanations": {
+          "id": "Superlatif seperti 'best' memakai 'the'.",
+          "en": "Superlatives such as 'best' take 'the'."
+        },
+        "conceptKey": "en:cefr:a1:grammar:articles:best",
+        "difficulty": 1,
+        "tags": [
+          "articles",
+          "a1"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "en-cefr-a1-u01-l01-q017",
+        "position": 17,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "There is ___ cat on the roof.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "an"
+          },
+          {
+            "id": "c",
+            "label": "the"
+          },
+          {
+            "id": "d",
+            "label": "— (tanpa artikel)"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "'A cat' adalah benda tunggal yang bisa dihitung dan belum spesifik.",
+          "en": "'A cat' is a singular countable noun mentioned for the first time."
+        },
+        "conceptKey": "en:cefr:a1:grammar:articles:cat",
+        "difficulty": 1,
+        "tags": [
+          "articles",
+          "a1"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "en-cefr-a1-u01-l01-q018",
+        "position": 18,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "She is ___ European citizen.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "an"
+          },
+          {
+            "id": "c",
+            "label": "the"
+          },
+          {
+            "id": "d",
+            "label": "— (tanpa artikel)"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "'European' dimulai dengan bunyi konsonan /j/, jadi gunakan 'a'.",
+          "en": "'European' starts with the consonant sound /j/, so use 'a'."
+        },
+        "conceptKey": "en:cefr:a1:grammar:articles:european",
+        "difficulty": 1,
+        "tags": [
+          "articles",
+          "a1"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "en-cefr-a1-u01-l01-q019",
+        "position": 19,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "He is ___ university student.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "an"
+          },
+          {
+            "id": "c",
+            "label": "the"
+          },
+          {
+            "id": "d",
+            "label": "— (tanpa artikel)"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "'University' dimulai dengan bunyi konsonan /j/, jadi gunakan 'a'.",
+          "en": "'University' starts with the consonant sound /j/, so use 'a'."
+        },
+        "conceptKey": "en:cefr:a1:grammar:articles:university",
+        "difficulty": 1,
+        "tags": [
+          "articles",
+          "a1"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "en-cefr-a1-u01-l01-q020",
+        "position": 20,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "I saw ___ elephant at the zoo.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "an"
+          },
+          {
+            "id": "c",
+            "label": "the"
+          },
+          {
+            "id": "d",
+            "label": "— (tanpa artikel)"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "b"
+        },
+        "explanations": {
+          "id": "'Elephant' dimulai dengan bunyi vokal /e/, jadi gunakan 'an'.",
+          "en": "'Elephant' starts with the vowel sound /e/, so use 'an'."
+        },
+        "conceptKey": "en:cefr:a1:grammar:articles:elephant",
+        "difficulty": 1,
+        "tags": [
+          "articles",
+          "a1"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "en-cefr-a1-u01-l01-q021",
+        "position": 21,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "___ moon looks bright tonight.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "an"
+          },
+          {
+            "id": "c",
+            "label": "the"
+          },
+          {
+            "id": "d",
+            "label": "— (tanpa artikel)"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "c"
+        },
+        "explanations": {
+          "id": "Gunakan 'the' untuk benda unik seperti bulan.",
+          "en": "Use 'the' for a unique object such as the moon."
+        },
+        "conceptKey": "en:cefr:a1:grammar:articles:moon",
+        "difficulty": 1,
+        "tags": [
+          "articles",
+          "a1"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "en-cefr-a1-u01-l01-q022",
+        "position": 22,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "We had ___ wonderful time at the beach.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "an"
+          },
+          {
+            "id": "c",
+            "label": "the"
+          },
+          {
+            "id": "d",
+            "label": "— (tanpa artikel)"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "'A wonderful time' adalah frasa benda tunggal yang bisa dihitung.",
+          "en": "'A wonderful time' is a singular countable noun phrase."
+        },
+        "conceptKey": "en:cefr:a1:grammar:articles:wonderful-time",
+        "difficulty": 1,
+        "tags": [
+          "articles",
+          "a1"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "en-cefr-a1-u01-l01-q023",
+        "position": 23,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "Can you pass me ___ salt, please?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "an"
+          },
+          {
+            "id": "c",
+            "label": "the"
+          },
+          {
+            "id": "d",
+            "label": "— (tanpa artikel)"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "c"
+        },
+        "explanations": {
+          "id": "'The salt' merujuk pada garam yang ada di meja dan sudah diketahui.",
+          "en": "'The salt' refers to the specific salt on the table."
+        },
+        "conceptKey": "en:cefr:a1:grammar:articles:salt",
+        "difficulty": 1,
+        "tags": [
+          "articles",
+          "a1"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "en-cefr-a1-u01-l01-q024",
+        "position": 24,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "She wants to be ___ astronaut one day.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "an"
+          },
+          {
+            "id": "c",
+            "label": "the"
+          },
+          {
+            "id": "d",
+            "label": "— (tanpa artikel)"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "b"
+        },
+        "explanations": {
+          "id": "'Astronaut' dimulai dengan bunyi vokal /æ/, jadi gunakan 'an'.",
+          "en": "'Astronaut' starts with the vowel sound /æ/, so use 'an'."
+        },
+        "conceptKey": "en:cefr:a1:grammar:articles:astronaut",
+        "difficulty": 1,
+        "tags": [
+          "articles",
+          "a1"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "en-cefr-a1-u01-l01-q025",
+        "position": 25,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "He gave me ___ useful book about gardening.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "an"
+          },
+          {
+            "id": "c",
+            "label": "the"
+          },
+          {
+            "id": "d",
+            "label": "— (tanpa artikel)"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "'Useful' dimulai dengan bunyi konsonan /j/, jadi gunakan 'a'.",
+          "en": "'Useful' starts with the consonant sound /j/, so use 'a'."
+        },
+        "conceptKey": "en:cefr:a1:grammar:articles:useful-book",
+        "difficulty": 1,
+        "tags": [
+          "articles",
+          "a1"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "en-cefr-a1-u01-l01-q026",
+        "position": 26,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "I bought ___ pair of shoes yesterday.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "an"
+          },
+          {
+            "id": "c",
+            "label": "the"
+          },
+          {
+            "id": "d",
+            "label": "— (tanpa artikel)"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "'A pair of shoes' adalah frasa benda tunggal yang bisa dihitung.",
+          "en": "'A pair of shoes' is a singular countable noun phrase."
+        },
+        "conceptKey": "en:cefr:a1:grammar:articles:pair",
+        "difficulty": 1,
+        "tags": [
+          "articles",
+          "a1"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "en-cefr-a1-u01-l01-q027",
+        "position": 27,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "___ Nile is the longest river in Africa.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "an"
+          },
+          {
+            "id": "c",
+            "label": "the"
+          },
+          {
+            "id": "d",
+            "label": "— (tanpa artikel)"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "c"
+        },
+        "explanations": {
+          "id": "Nama sungai menggunakan 'the'.",
+          "en": "Names of rivers take 'the'."
+        },
+        "conceptKey": "en:cefr:a1:grammar:articles:nile",
+        "difficulty": 1,
+        "tags": [
+          "articles",
+          "a1"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "en-cefr-a1-u01-l01-q028",
+        "position": 28,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "We waited for ___ hour at the station.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "an"
+          },
+          {
+            "id": "c",
+            "label": "the"
+          },
+          {
+            "id": "d",
+            "label": "— (tanpa artikel)"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "b"
+        },
+        "explanations": {
+          "id": "'Hour' dimulai dengan bunyi vokal karena 'h' tidak dilafalkan.",
+          "en": "'Hour' starts with a vowel sound because the 'h' is silent."
+        },
+        "conceptKey": "en:cefr:a1:grammar:articles:wait-hour",
+        "difficulty": 1,
+        "tags": [
+          "articles",
+          "a1"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "en-cefr-a1-u01-l01-q029",
+        "position": 29,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "She has ___ idea for the project.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "an"
+          },
+          {
+            "id": "c",
+            "label": "the"
+          },
+          {
+            "id": "d",
+            "label": "— (tanpa artikel)"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "b"
+        },
+        "explanations": {
+          "id": "'Idea' dimulai dengan bunyi vokal /aɪ/, jadi gunakan 'an'.",
+          "en": "'Idea' starts with the vowel sound /aɪ/, so use 'an'."
+        },
+        "conceptKey": "en:cefr:a1:grammar:articles:idea",
+        "difficulty": 1,
+        "tags": [
+          "articles",
+          "a1"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "en-cefr-a1-u01-l01-q030",
+        "position": 30,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "He is ___ MBA graduate.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "an"
+          },
+          {
+            "id": "c",
+            "label": "the"
+          },
+          {
+            "id": "d",
+            "label": "— (tanpa artikel)"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "b"
+        },
+        "explanations": {
+          "id": "'MBA' dilafalkan 'em-bee-ay' dan dimulai dengan bunyi vokal.",
+          "en": "'MBA' is pronounced 'em-bee-ay' and starts with a vowel sound."
+        },
+        "conceptKey": "en:cefr:a1:grammar:articles:mba",
+        "difficulty": 1,
+        "tags": [
+          "articles",
+          "a1"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "en-cefr-a1-u01-l01-q031",
+        "position": 31,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "I play ___ guitar on weekends.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "an"
+          },
+          {
+            "id": "c",
+            "label": "the"
+          },
+          {
+            "id": "d",
+            "label": "— (tanpa artikel)"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "c"
+        },
+        "explanations": {
+          "id": "Gunakan 'the' sebelum alat musik tertentu seperti gitar.",
+          "en": "Use 'the' before a specific musical instrument such as the guitar."
+        },
+        "conceptKey": "en:cefr:a1:grammar:articles:guitar",
+        "difficulty": 1,
+        "tags": [
+          "articles",
+          "a1"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "en-cefr-a1-u01-l01-q032",
+        "position": 32,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "They traveled by ___ train.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "an"
+          },
+          {
+            "id": "c",
+            "label": "the"
+          },
+          {
+            "id": "d",
+            "label": "— (tanpa artikel)"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "d"
+        },
+        "explanations": {
+          "id": "Ungkapan 'by train' tidak memakai artikel.",
+          "en": "The phrase 'by train' does not take an article."
+        },
+        "conceptKey": "en:cefr:a1:grammar:articles:by-train",
+        "difficulty": 1,
+        "tags": [
+          "articles",
+          "a1"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "en-cefr-a1-u01-l01-q033",
+        "position": 33,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "___ happiness is important in life.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "an"
+          },
+          {
+            "id": "c",
+            "label": "the"
+          },
+          {
+            "id": "d",
+            "label": "— (tanpa artikel)"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "d"
+        },
+        "explanations": {
+          "id": "Kata abstrak yang tidak bisa dihitung dan bersifat umum tidak memakai artikel.",
+          "en": "An abstract uncountable noun used in a general sense takes no article."
+        },
+        "conceptKey": "en:cefr:a1:grammar:articles:happiness",
+        "difficulty": 1,
+        "tags": [
+          "articles",
+          "a1"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "en-cefr-a1-u01-l01-q034",
+        "position": 34,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "She is ___ only child in her family.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "an"
+          },
+          {
+            "id": "c",
+            "label": "the"
+          },
+          {
+            "id": "d",
+            "label": "— (tanpa artikel)"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "b"
+        },
+        "explanations": {
+          "id": "'Only' dimulai dengan bunyi vokal /oʊ/, jadi gunakan 'an'.",
+          "en": "'Only' starts with the vowel sound /oʊ/, so use 'an'."
+        },
+        "conceptKey": "en:cefr:a1:grammar:articles:only-child",
+        "difficulty": 1,
+        "tags": [
+          "articles",
+          "a1"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "en-cefr-a1-u01-l01-q035",
+        "position": 35,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "___ United States is a large country.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "an"
+          },
+          {
+            "id": "c",
+            "label": "the"
+          },
+          {
+            "id": "d",
+            "label": "— (tanpa artikel)"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "c"
+        },
+        "explanations": {
+          "id": "Nama negara yang berbentuk jamak atau mengandung 'States' menggunakan 'the'.",
+          "en": "Country names that are plural or contain 'States' take 'the'."
+        },
+        "conceptKey": "en:cefr:a1:grammar:articles:united-states",
+        "difficulty": 1,
+        "tags": [
+          "articles",
+          "a1"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      }
+    ]
+  }
+}

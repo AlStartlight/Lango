@@ -1,0 +1,1501 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "2026.11.0-pilot",
+  "curriculum": {
+    "id": "ja-jlpt",
+    "languageCode": "ja",
+    "framework": "JLPT",
+    "variant": "ja-JP",
+    "status": "preview"
+  },
+  "level": {
+    "code": "N5",
+    "position": 1,
+    "title": "N5 · Dasar",
+    "description": "Kalimat dasar dan kehidupan sehari-hari",
+    "canDo": [
+      "Menyapa",
+      "Memperkenalkan diri",
+      "Menanyakan nama dan asal"
+    ],
+    "estimatedHours": 60
+  },
+  "unit": {
+    "id": "ja-jlpt-n5-u01",
+    "position": 1,
+    "title": "Perkenalan Diri",
+    "goal": "Menyapa dan memperkenalkan diri dengan pola dasar",
+    "checkpointQuestionCount": 20
+  },
+  "lesson": {
+    "id": "ja-jlpt-n5-u01-l01",
+    "position": 1,
+    "slug": "greetings-and-introductions",
+    "title": "あいさつと自己紹介",
+    "objective": "Menggunakan salam dasar dan memperkenalkan nama serta asal",
+    "skill": "vocabulary",
+    "estimatedMinutes": 10,
+    "materials": {
+      "id": {
+        "blocks": [
+          {
+            "type": "explanation",
+            "text": "Salam Jepang dipengaruhi waktu dan situasi. Gunakan 「おはようございます」pada pagi, 「こんにちは」pada siang/sore, dan 「こんばんは」pada malam. Saat berkenalan, gunakan 「はじめまして」lalu 「よろしくお願いします」."
+          },
+          {
+            "type": "rules",
+            "items": [
+              "Gunakan です untuk kalimat sopan.",
+              "Partikel は menandai topik.",
+              "Partikel から menandai asal.",
+              "Partikel の menyatakan kepemilikan."
+            ]
+          },
+          {
+            "type": "examples",
+            "items": [
+              {
+                "correct": "わたしはラニです。",
+                "annotation": "Saya Rani."
+              },
+              {
+                "correct": "インドネシアから来ました。",
+                "annotation": "Saya datang dari Indonesia."
+              },
+              {
+                "correct": "よろしくお願いします。",
+                "annotation": "Mohon bantuannya."
+              }
+            ]
+          },
+          {
+            "type": "tips",
+            "items": [
+              "Perhatikan panjang bunyi vokal.",
+              "Latih salam sesuai waktu hari."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "blocks": [
+          {
+            "type": "explanation",
+            "text": "Japanese greetings depend on the time of day and formality. Use おはようございます in the morning, こんにちは during the day, and こんばんは in the evening. When meeting someone, say はじめまして and よろしくお願いします."
+          },
+          {
+            "type": "rules",
+            "items": [
+              "Use です for polite sentences.",
+              "Particle は marks the topic.",
+              "Particle から marks origin.",
+              "Particle の shows possession."
+            ]
+          },
+          {
+            "type": "examples",
+            "items": [
+              {
+                "correct": "わたしはラニです。",
+                "annotation": "I am Rani."
+              },
+              {
+                "correct": "インドネシアから来ました。",
+                "annotation": "I came from Indonesia."
+              },
+              {
+                "correct": "よろしくお願いします。",
+                "annotation": "Nice to meet you."
+              }
+            ]
+          }
+        ]
+      },
+      "ja": {
+        "blocks": [
+          {
+            "type": "explanation",
+            "text": "日本語のあいさつは時間と場面によって変わります。朝は「おはようございます」、昼は「こんにちは」、夜は「こんばんは」を使います。初対面では「はじめまして」「よろしくお願いします」を言います。"
+          },
+          {
+            "type": "rules",
+            "items": [
+              "ていねいな文には「です」を使います。",
+              "「は」は主題を表します。",
+              "「から」は起点を表します。",
+              "「の」は所有を表します。"
+            ]
+          }
+        ]
+      }
+    },
+    "passages": [],
+    "questions": [
+      {
+        "id": "ja-jlpt-n5-u01-l01-q001",
+        "position": 1,
+        "type": "multiple_choice",
+        "skill": "vocabulary",
+        "prompt": "Apa arti 「おはようございます」?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Selamat pagi"
+          },
+          {
+            "id": "b",
+            "label": "Selamat malam"
+          },
+          {
+            "id": "c",
+            "label": "Terima kasih"
+          },
+          {
+            "id": "d",
+            "label": "Sampai jumpa"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "「おはようございます」dipakai untuk menyapa pada pagi hari.",
+          "en": "「おはようございます」is a polite morning greeting."
+        },
+        "conceptKey": "ja:jlpt:n5:vocab:ohayou",
+        "difficulty": 1,
+        "tags": [
+          "greeting"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "ja-jlpt-n5-u01-l01-q002",
+        "position": 2,
+        "type": "multiple_choice",
+        "skill": "vocabulary",
+        "prompt": "Apa arti 「こんにちは」?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Selamat siang"
+          },
+          {
+            "id": "b",
+            "label": "Selamat pagi"
+          },
+          {
+            "id": "c",
+            "label": "Selamat tidur"
+          },
+          {
+            "id": "d",
+            "label": "Permisi"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "「こんにちは」dipakai pada siang/sore hari.",
+          "en": "「こんにちは」is used during the day."
+        },
+        "conceptKey": "ja:jlpt:n5:vocab:konnichiwa",
+        "difficulty": 1,
+        "tags": [
+          "greeting"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "ja-jlpt-n5-u01-l01-q003",
+        "position": 3,
+        "type": "multiple_choice",
+        "skill": "vocabulary",
+        "prompt": "Apa arti 「こんばんは」?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Selamat malam"
+          },
+          {
+            "id": "b",
+            "label": "Selamat pagi"
+          },
+          {
+            "id": "c",
+            "label": "Terima kasih"
+          },
+          {
+            "id": "d",
+            "label": "Selamat tinggal"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "「こんばんは」dipakai untuk menyapa pada malam hari.",
+          "en": "「こんばんは」is an evening greeting."
+        },
+        "conceptKey": "ja:jlpt:n5:vocab:konbanwa",
+        "difficulty": 1,
+        "tags": [
+          "greeting"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "ja-jlpt-n5-u01-l01-q004",
+        "position": 4,
+        "type": "multiple_choice",
+        "skill": "vocabulary",
+        "prompt": "Apa arti 「さようなら」?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Selamat tinggal"
+          },
+          {
+            "id": "b",
+            "label": "Selamat datang"
+          },
+          {
+            "id": "c",
+            "label": "Halo"
+          },
+          {
+            "id": "d",
+            "label": "Maaf"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "「さようなら」berarti selamat tinggal, biasanya untuk perpisahan lama.",
+          "en": "「さようなら」means goodbye, often for a longer parting."
+        },
+        "conceptKey": "ja:jlpt:n5:vocab:sayounara",
+        "difficulty": 1,
+        "tags": [
+          "greeting"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "ja-jlpt-n5-u01-l01-q005",
+        "position": 5,
+        "type": "multiple_choice",
+        "skill": "vocabulary",
+        "prompt": "Apa arti 「ありがとうございます」?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Terima kasih"
+          },
+          {
+            "id": "b",
+            "label": "Permisi"
+          },
+          {
+            "id": "c",
+            "label": "Selamat pagi"
+          },
+          {
+            "id": "d",
+            "label": "Ya"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "「ありがとうございます」adalah ucapan terima kasih yang sopan.",
+          "en": "「ありがとうございます」is a polite thank you."
+        },
+        "conceptKey": "ja:jlpt:n5:vocab:arigatou",
+        "difficulty": 1,
+        "tags": [
+          "greeting"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "ja-jlpt-n5-u01-l01-q006",
+        "position": 6,
+        "type": "multiple_choice",
+        "skill": "vocabulary",
+        "prompt": "Apa arti 「すみません」?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Permisi / maaf"
+          },
+          {
+            "id": "b",
+            "label": "Selamat malam"
+          },
+          {
+            "id": "c",
+            "label": "Sampai jumpa"
+          },
+          {
+            "id": "d",
+            "label": "Tidak"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "「すみません」dipakai untuk meminta perhatian atau meminta maaf.",
+          "en": "「すみません」is used to get attention or apologise."
+        },
+        "conceptKey": "ja:jlpt:n5:vocab:sumimasen",
+        "difficulty": 1,
+        "tags": [
+          "greeting"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "ja-jlpt-n5-u01-l01-q007",
+        "position": 7,
+        "type": "multiple_choice",
+        "skill": "vocabulary",
+        "prompt": "Apa arti 「はじめまして」?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Senang berkenalan"
+          },
+          {
+            "id": "b",
+            "label": "Selamat tidur"
+          },
+          {
+            "id": "c",
+            "label": "Terima kasih"
+          },
+          {
+            "id": "d",
+            "label": "Selamat siang"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "「はじめまして」dipakai saat pertama kali berkenalan.",
+          "en": "「はじめまして」is said when meeting someone for the first time."
+        },
+        "conceptKey": "ja:jlpt:n5:vocab:hajimemashite",
+        "difficulty": 1,
+        "tags": [
+          "greeting"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "ja-jlpt-n5-u01-l01-q008",
+        "position": 8,
+        "type": "multiple_choice",
+        "skill": "vocabulary",
+        "prompt": "Apa arti 「おやすみなさい」?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Selamat tidur"
+          },
+          {
+            "id": "b",
+            "label": "Selamat pagi"
+          },
+          {
+            "id": "c",
+            "label": "Sampai jumpa"
+          },
+          {
+            "id": "d",
+            "label": "Silakan"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "「おやすみなさい」diucapkan sebelum tidur.",
+          "en": "「おやすみなさい」is said before going to sleep."
+        },
+        "conceptKey": "ja:jlpt:n5:vocab:oyasumi",
+        "difficulty": 1,
+        "tags": [
+          "greeting"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "ja-jlpt-n5-u01-l01-q009",
+        "position": 9,
+        "type": "multiple_choice",
+        "skill": "vocabulary",
+        "prompt": "Apa arti 「いただきます」?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Saya terima (sebelum makan)"
+          },
+          {
+            "id": "b",
+            "label": "Selamat datang"
+          },
+          {
+            "id": "c",
+            "label": "Saya pulang"
+          },
+          {
+            "id": "d",
+            "label": "Apa kabar"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "「いただきます」diucapkan sebelum mulai makan.",
+          "en": "「いただきます」is said before starting a meal."
+        },
+        "conceptKey": "ja:jlpt:n5:vocab:itadakimasu",
+        "difficulty": 1,
+        "tags": [
+          "greeting"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "ja-jlpt-n5-u01-l01-q010",
+        "position": 10,
+        "type": "multiple_choice",
+        "skill": "vocabulary",
+        "prompt": "Apa arti 「ごちそうさまでした」?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Terima kasih atas makanannya"
+          },
+          {
+            "id": "b",
+            "label": "Selamat pagi"
+          },
+          {
+            "id": "c",
+            "label": "Saya pergi"
+          },
+          {
+            "id": "d",
+            "label": "Tolong"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "「ごちそうさまでした」diucapkan setelah selesai makan.",
+          "en": "「ごちそうさまでした」is said after finishing a meal."
+        },
+        "conceptKey": "ja:jlpt:n5:vocab:gochisousama",
+        "difficulty": 1,
+        "tags": [
+          "greeting"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "ja-jlpt-n5-u01-l01-q011",
+        "position": 11,
+        "type": "multiple_choice",
+        "skill": "vocabulary",
+        "prompt": "Apa arti 「いってきます」?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Saya pergi dulu"
+          },
+          {
+            "id": "b",
+            "label": "Saya pulang"
+          },
+          {
+            "id": "c",
+            "label": "Selamat tidur"
+          },
+          {
+            "id": "d",
+            "label": "Silakan masuk"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "「いってきます」diucapkan saat keluar rumah.",
+          "en": "「いってきます」is said when leaving home."
+        },
+        "conceptKey": "ja:jlpt:n5:vocab:ittekimasu",
+        "difficulty": 1,
+        "tags": [
+          "greeting"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "ja-jlpt-n5-u01-l01-q012",
+        "position": 12,
+        "type": "multiple_choice",
+        "skill": "vocabulary",
+        "prompt": "Apa arti 「いってらっしゃい」?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Hati-hati di jalan"
+          },
+          {
+            "id": "b",
+            "label": "Selamat datang kembali"
+          },
+          {
+            "id": "c",
+            "label": "Terima kasih"
+          },
+          {
+            "id": "d",
+            "label": "Maaf"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "「いってらっしゃい」dijawab kepada orang yang pergi.",
+          "en": "「いってらっしゃい」is said to someone who is leaving."
+        },
+        "conceptKey": "ja:jlpt:n5:vocab:itterasshai",
+        "difficulty": 1,
+        "tags": [
+          "greeting"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "ja-jlpt-n5-u01-l01-q013",
+        "position": 13,
+        "type": "multiple_choice",
+        "skill": "vocabulary",
+        "prompt": "Apa arti 「ただいま」?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Saya pulang"
+          },
+          {
+            "id": "b",
+            "label": "Saya pergi"
+          },
+          {
+            "id": "c",
+            "label": "Selamat malam"
+          },
+          {
+            "id": "d",
+            "label": "Apa kabar"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "「ただいま」diucapkan saat pulang ke rumah.",
+          "en": "「ただいま」is said when returning home."
+        },
+        "conceptKey": "ja:jlpt:n5:vocab:tadaima",
+        "difficulty": 1,
+        "tags": [
+          "greeting"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "ja-jlpt-n5-u01-l01-q014",
+        "position": 14,
+        "type": "multiple_choice",
+        "skill": "vocabulary",
+        "prompt": "Apa arti 「おかえりなさい」?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Selamat datang kembali"
+          },
+          {
+            "id": "b",
+            "label": "Selamat tinggal"
+          },
+          {
+            "id": "c",
+            "label": "Selamat pagi"
+          },
+          {
+            "id": "d",
+            "label": "Permisi"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "「おかえりなさい」dijawab kepada orang yang pulang.",
+          "en": "「おかえりなさい」is said to someone who has returned."
+        },
+        "conceptKey": "ja:jlpt:n5:vocab:okaeri",
+        "difficulty": 1,
+        "tags": [
+          "greeting"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "ja-jlpt-n5-u01-l01-q015",
+        "position": 15,
+        "type": "multiple_choice",
+        "skill": "vocabulary",
+        "prompt": "Apa arti 「どうぞ」?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Silakan"
+          },
+          {
+            "id": "b",
+            "label": "Tidak"
+          },
+          {
+            "id": "c",
+            "label": "Maaf"
+          },
+          {
+            "id": "d",
+            "label": "Selamat tidur"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "「どうぞ」dipakai untuk mempersilakan.",
+          "en": "「どうぞ」means please go ahead / here you are."
+        },
+        "conceptKey": "ja:jlpt:n5:vocab:douzo",
+        "difficulty": 1,
+        "tags": [
+          "greeting"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "ja-jlpt-n5-u01-l01-q016",
+        "position": 16,
+        "type": "multiple_choice",
+        "skill": "vocabulary",
+        "prompt": "Apa arti 「お元気ですか」?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Apa kabar?"
+          },
+          {
+            "id": "b",
+            "label": "Siapa nama Anda?"
+          },
+          {
+            "id": "c",
+            "label": "Dari mana?"
+          },
+          {
+            "id": "d",
+            "label": "Berapa umur Anda?"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "「お元気ですか」menanyakan kabar.",
+          "en": "「お元気ですか」asks how someone is."
+        },
+        "conceptKey": "ja:jlpt:n5:vocab:ogenki",
+        "difficulty": 1,
+        "tags": [
+          "greeting"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "ja-jlpt-n5-u01-l01-q017",
+        "position": 17,
+        "type": "multiple_choice",
+        "skill": "vocabulary",
+        "prompt": "Jawaban yang tepat untuk 「お元気ですか」 adalah ...",
+        "choices": [
+          {
+            "id": "a",
+            "label": "はい、元気です"
+          },
+          {
+            "id": "b",
+            "label": "いいえ、学生です"
+          },
+          {
+            "id": "c",
+            "label": "わたしはラニです"
+          },
+          {
+            "id": "d",
+            "label": "インドネシアから来ました"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "「はい、元気です」berarti 'ya, saya sehat'.",
+          "en": "「はい、元気です」means 'yes, I am well'."
+        },
+        "conceptKey": "ja:jlpt:n5:vocab:genki-desu",
+        "difficulty": 1,
+        "tags": [
+          "greeting"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "ja-jlpt-n5-u01-l01-q018",
+        "position": 18,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "Apa arti 「お名前は何ですか」?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Siapa nama Anda?"
+          },
+          {
+            "id": "b",
+            "label": "Apa hobi Anda?"
+          },
+          {
+            "id": "c",
+            "label": "Di mana rumah Anda?"
+          },
+          {
+            "id": "d",
+            "label": "Berapa umur Anda?"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "「お名前は何ですか」menanyakan nama.",
+          "en": "「お名前は何ですか」asks for someone's name."
+        },
+        "conceptKey": "ja:jlpt:n5:grammar:onamae",
+        "difficulty": 2,
+        "tags": [
+          "question"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "ja-jlpt-n5-u01-l01-q019",
+        "position": 19,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "Kalimat yang benar untuk \"Saya Rani\" adalah ...",
+        "choices": [
+          {
+            "id": "a",
+            "label": "わたしはラニです"
+          },
+          {
+            "id": "b",
+            "label": "わたしはラニか"
+          },
+          {
+            "id": "c",
+            "label": "ラニはわたしですか"
+          },
+          {
+            "id": "d",
+            "label": "わたしがラニをです"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "Pola topik + は + nama + です.",
+          "en": "The pattern is topic + は + name + です."
+        },
+        "conceptKey": "ja:jlpt:n5:grammar:watashi-wa",
+        "difficulty": 2,
+        "tags": [
+          "copula"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "ja-jlpt-n5-u01-l01-q020",
+        "position": 20,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "Apa arti 「インドネシアから来ました」?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Saya datang dari Indonesia"
+          },
+          {
+            "id": "b",
+            "label": "Saya tinggal di Indonesia"
+          },
+          {
+            "id": "c",
+            "label": "Saya pergi ke Indonesia"
+          },
+          {
+            "id": "d",
+            "label": "Saya belajar bahasa Indonesia"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "「から」menandai asal, 「来ました」berarti datang.",
+          "en": "「から」marks origin and 「来ました」means came."
+        },
+        "conceptKey": "ja:jlpt:n5:grammar:kara-kimashita",
+        "difficulty": 2,
+        "tags": [
+          "particle"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "ja-jlpt-n5-u01-l01-q021",
+        "position": 21,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "Apa arti 「がくせいです」?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Saya siswa"
+          },
+          {
+            "id": "b",
+            "label": "Saya guru"
+          },
+          {
+            "id": "c",
+            "label": "Saya karyawan"
+          },
+          {
+            "id": "d",
+            "label": "Saya dokter"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "「がくせい」berarti siswa; 「です」adalah kopula.",
+          "en": "「がくせい」means student; 「です」is the copula."
+        },
+        "conceptKey": "ja:jlpt:n5:vocab:gakusei",
+        "difficulty": 2,
+        "tags": [
+          "noun"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "ja-jlpt-n5-u01-l01-q022",
+        "position": 22,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "Apa arti 「かいしゃいんです」?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Saya karyawan perusahaan"
+          },
+          {
+            "id": "b",
+            "label": "Saya siswa"
+          },
+          {
+            "id": "c",
+            "label": "Saya guru"
+          },
+          {
+            "id": "d",
+            "label": "Saya pensiunan"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "「かいしゃいん」berarti karyawan perusahaan.",
+          "en": "「かいしゃいん」means company employee."
+        },
+        "conceptKey": "ja:jlpt:n5:vocab:kaishain",
+        "difficulty": 2,
+        "tags": [
+          "noun"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "ja-jlpt-n5-u01-l01-q023",
+        "position": 23,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "Apa arti 「せんせいです」?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Saya guru"
+          },
+          {
+            "id": "b",
+            "label": "Saya siswa"
+          },
+          {
+            "id": "c",
+            "label": "Saya dokter"
+          },
+          {
+            "id": "d",
+            "label": "Saya karyawan"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "「せんせい」berarti guru; 「です」adalah kopula.",
+          "en": "「せんせい」means teacher; 「です」is the copula."
+        },
+        "conceptKey": "ja:jlpt:n5:vocab:sensei",
+        "difficulty": 2,
+        "tags": [
+          "noun"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "ja-jlpt-n5-u01-l01-q024",
+        "position": 24,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "Apa arti 「しゅみは何ですか」?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Apa hobi Anda?"
+          },
+          {
+            "id": "b",
+            "label": "Siapa nama Anda?"
+          },
+          {
+            "id": "c",
+            "label": "Di mana sekolah Anda?"
+          },
+          {
+            "id": "d",
+            "label": "Apa pekerjaan Anda?"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "「しゅみ」berarti hobi.",
+          "en": "「しゅみ」means hobby."
+        },
+        "conceptKey": "ja:jlpt:n5:vocab:shumi",
+        "difficulty": 2,
+        "tags": [
+          "question"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "ja-jlpt-n5-u01-l01-q025",
+        "position": 25,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "Apa arti 「よろしくお願いします」?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Mohon bantuannya / senang berkenalan"
+          },
+          {
+            "id": "b",
+            "label": "Selamat tinggal"
+          },
+          {
+            "id": "c",
+            "label": "Terima kasih atas makanannya"
+          },
+          {
+            "id": "d",
+            "label": "Saya pulang"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "Ungkapan ini dipakai saat berkenalan atau meminta bantuan.",
+          "en": "This phrase is used when meeting someone or asking for help."
+        },
+        "conceptKey": "ja:jlpt:n5:vocab:yoroshiku",
+        "difficulty": 2,
+        "tags": [
+          "greeting"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "ja-jlpt-n5-u01-l01-q026",
+        "position": 26,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "Partikel apa yang menandai topik dalam 「わたしはラニです」?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "は"
+          },
+          {
+            "id": "b",
+            "label": "が"
+          },
+          {
+            "id": "c",
+            "label": "を"
+          },
+          {
+            "id": "d",
+            "label": "に"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "「は」menandai topik kalimat.",
+          "en": "「は」marks the topic of the sentence."
+        },
+        "conceptKey": "ja:jlpt:n5:grammar:particle-wa",
+        "difficulty": 2,
+        "tags": [
+          "particle"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "ja-jlpt-n5-u01-l01-q027",
+        "position": 27,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "Partikel apa yang menandai asal dalam 「インドネシアから来ました」?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "から"
+          },
+          {
+            "id": "b",
+            "label": "まで"
+          },
+          {
+            "id": "c",
+            "label": "より"
+          },
+          {
+            "id": "d",
+            "label": "ほど"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "「から」menandai titik asal.",
+          "en": "「から」marks the starting point or origin."
+        },
+        "conceptKey": "ja:jlpt:n5:grammar:particle-kara",
+        "difficulty": 2,
+        "tags": [
+          "particle"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "ja-jlpt-n5-u01-l01-q028",
+        "position": 28,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "Partikel apa yang menyatakan kepemilikan dalam 「わたしの名前」?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "の"
+          },
+          {
+            "id": "b",
+            "label": "は"
+          },
+          {
+            "id": "c",
+            "label": "を"
+          },
+          {
+            "id": "d",
+            "label": "で"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "「の」menghubungkan dua kata benda dan menyatakan kepemilikan.",
+          "en": "「の」links two nouns and shows possession."
+        },
+        "conceptKey": "ja:jlpt:n5:grammar:particle-no",
+        "difficulty": 2,
+        "tags": [
+          "particle"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "ja-jlpt-n5-u01-l01-q029",
+        "position": 29,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "Partikel apa yang membuat kalimat menjadi pertanyaan dalam 「学生ですか」?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "か"
+          },
+          {
+            "id": "b",
+            "label": "は"
+          },
+          {
+            "id": "c",
+            "label": "が"
+          },
+          {
+            "id": "d",
+            "label": "も"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "「か」di akhir kalimat menandai pertanyaan.",
+          "en": "「か」at the end of a sentence marks a question."
+        },
+        "conceptKey": "ja:jlpt:n5:grammar:particle-ka",
+        "difficulty": 2,
+        "tags": [
+          "particle"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "ja-jlpt-n5-u01-l01-q030",
+        "position": 30,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "Bentuk negatif sopan dari 「学生です」 adalah ...",
+        "choices": [
+          {
+            "id": "a",
+            "label": "学生じゃありません"
+          },
+          {
+            "id": "b",
+            "label": "学生です"
+          },
+          {
+            "id": "c",
+            "label": "学生でした"
+          },
+          {
+            "id": "d",
+            "label": "学生ですか"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "「じゃありません」adalah bentuk negatif sopan dari です.",
+          "en": "「じゃありません」is the polite negative form of です."
+        },
+        "conceptKey": "ja:jlpt:n5:grammar:negative-desu",
+        "difficulty": 2,
+        "tags": [
+          "copula"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "ja-jlpt-n5-u01-l01-q031",
+        "position": 31,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "Apa arti 「はい、そうです」?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Ya, benar"
+          },
+          {
+            "id": "b",
+            "label": "Tidak, salah"
+          },
+          {
+            "id": "c",
+            "label": "Saya tidak tahu"
+          },
+          {
+            "id": "d",
+            "label": "Mungkin"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "「そうです」berarti 'benar/demikian'.",
+          "en": "「そうです」means 'that is right'."
+        },
+        "conceptKey": "ja:jlpt:n5:grammar:sou-desu",
+        "difficulty": 2,
+        "tags": [
+          "response"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "ja-jlpt-n5-u01-l01-q032",
+        "position": 32,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "Apa arti 「いいえ、ちがいます」?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Tidak, salah"
+          },
+          {
+            "id": "b",
+            "label": "Ya, benar"
+          },
+          {
+            "id": "c",
+            "label": "Saya siswa"
+          },
+          {
+            "id": "d",
+            "label": "Selamat pagi"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "「ちがいます」berarti 'tidak benar/salah'.",
+          "en": "「ちがいます」means 'it is not correct'."
+        },
+        "conceptKey": "ja:jlpt:n5:grammar:chigaimasu",
+        "difficulty": 2,
+        "tags": [
+          "response"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "ja-jlpt-n5-u01-l01-q033",
+        "position": 33,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "Apa arti 「これは本です」?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Ini buku"
+          },
+          {
+            "id": "b",
+            "label": "Itu buku"
+          },
+          {
+            "id": "c",
+            "label": "Itu sekolah"
+          },
+          {
+            "id": "d",
+            "label": "Ini pena"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "「これ」berarti ini; 「本」berarti buku.",
+          "en": "「これ」means this; 「本」means book."
+        },
+        "conceptKey": "ja:jlpt:n5:vocab:kore-hon",
+        "difficulty": 2,
+        "tags": [
+          "demonstrative"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "ja-jlpt-n5-u01-l01-q034",
+        "position": 34,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "Apa arti 「それは何ですか」?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Itu apa?"
+          },
+          {
+            "id": "b",
+            "label": "Ini siapa?"
+          },
+          {
+            "id": "c",
+            "label": "Itu di mana?"
+          },
+          {
+            "id": "d",
+            "label": "Ini berapa?"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "「それ」berarti itu; 「何」berarti apa.",
+          "en": "「それ」means that; 「何」means what."
+        },
+        "conceptKey": "ja:jlpt:n5:grammar:sore-nan",
+        "difficulty": 2,
+        "tags": [
+          "question"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      },
+      {
+        "id": "ja-jlpt-n5-u01-l01-q035",
+        "position": 35,
+        "type": "multiple_choice",
+        "skill": "grammar",
+        "prompt": "Apa arti 「あれは学校です」?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Itu (jauh) sekolah"
+          },
+          {
+            "id": "b",
+            "label": "Ini sekolah"
+          },
+          {
+            "id": "c",
+            "label": "Itu rumah"
+          },
+          {
+            "id": "d",
+            "label": "Itu kantor"
+          }
+        ],
+        "answerKey": {
+          "choiceId": "a"
+        },
+        "explanations": {
+          "id": "「あれ」menunjuk benda yang jauh.",
+          "en": "「あれ」refers to something far away."
+        },
+        "conceptKey": "ja:jlpt:n5:vocab:are-gakkou",
+        "difficulty": 2,
+        "tags": [
+          "demonstrative"
+        ],
+        "source": "Lango pilot",
+        "license": "original"
+      }
+    ]
+  }
+}

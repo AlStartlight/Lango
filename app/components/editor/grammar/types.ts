@@ -117,7 +117,7 @@ export interface GrammarModuleState {
   activeLessonId: string | null;
   currentExerciseIndex: number;
   completedLessonIds: string[];
-  exerciseResults: Record<string, { correct: boolean; points: number }>;
+  exerciseResults: Record<string, { correct: boolean; points: number; answer?: string }>;
   lessonProgress: Record<string, LessonProgress>;
   gamification: GamificationState;
 }

@@ -1,0 +1,1054 @@
+{
+  "language": "id",
+  "script": "latn",
+  "romanization": "none",
+  "lexicon": {
+    "person": [
+      { "id": "id-k-person-pembeli", "native": "pembeli", "gloss": { "id": "pembeli", "en": "the buyer" }, "tags": ["role"] },
+      { "id": "id-k-person-penjual", "native": "penjual", "gloss": { "id": "penjual", "en": "the seller" }, "tags": ["role"] },
+      { "id": "id-k-person-tetangga", "native": "tetangga", "gloss": { "id": "tetangga", "en": "the neighbour" }, "tags": ["role"] },
+      { "id": "id-k-person-anak", "native": "anak sekolah", "gloss": { "id": "anak sekolah", "en": "the schoolchild" }, "tags": ["role"] },
+      { "id": "id-k-person-petugas", "native": "petugas kebersihan", "gloss": { "id": "petugas kebersihan", "en": "the cleaner" }, "tags": ["role"] }
+    ],
+    "place": [
+      { "id": "id-k-place-los", "native": "los pasar", "gloss": { "id": "los pasar", "en": "the market row" } },
+      { "id": "id-k-place-warung", "native": "warung", "gloss": { "id": "warung", "en": "the food stall" } },
+      { "id": "id-k-place-jalan", "native": "jalan kampung", "gloss": { "id": "jalan kampung", "en": "the neighbourhood street" } },
+      { "id": "id-k-place-rumah", "native": "rumah", "gloss": { "id": "rumah", "en": "the house" } },
+      { "id": "id-k-place-pendopo", "native": "pendopo", "gloss": { "id": "pendopo", "en": "the open pavilion" } }
+    ],
+    "object": [
+      { "id": "id-k-object-buku", "native": "buku", "gloss": { "id": "buku", "en": "the book" } },
+      { "id": "id-k-object-keranjang", "native": "keranjang", "gloss": { "id": "keranjang", "en": "the basket" } },
+      { "id": "id-k-object-uang", "native": "uang", "gloss": { "id": "uang", "en": "the money" } },
+      { "id": "id-k-object-kunci", "native": "anak kunci", "gloss": { "id": "anak kunci", "en": "the small key" } },
+      { "id": "id-k-object-surat", "native": "surat", "gloss": { "id": "surat", "en": "the letter" } }
+    ],
+    "food": [
+      { "id": "id-k-food-nasi", "native": "nasi", "gloss": { "id": "nasi", "en": "rice" } },
+      { "id": "id-k-food-sayur", "native": "sayur", "gloss": { "id": "sayur", "en": "vegetables" } },
+      { "id": "id-k-food-tempe", "native": "tempe", "gloss": { "id": "tempe", "en": "tempeh" } },
+      { "id": "id-k-food-pisang", "native": "pisang", "gloss": { "id": "pisang", "en": "banana" } },
+      { "id": "id-k-food-kue", "native": "kue", "gloss": { "id": "kue", "en": "snack cake" } }
+    ],
+    "drink": [
+      { "id": "id-k-drink-teh", "native": "teh", "gloss": { "id": "teh", "en": "tea" } },
+      { "id": "id-k-drink-kopi", "native": "kopi", "gloss": { "id": "kopi", "en": "coffee" } },
+      { "id": "id-k-drink-air", "native": "air", "gloss": { "id": "air", "en": "water" } },
+      { "id": "id-k-drink-susu", "native": "susu", "gloss": { "id": "susu", "en": "milk" } }
+    ],
+    "time": [
+      { "id": "id-k-time-pagi", "native": "pagi", "gloss": { "id": "pagi", "en": "morning" } },
+      { "id": "id-k-time-siang", "native": "siang", "gloss": { "id": "siang", "en": "midday" } },
+      { "id": "id-k-time-sore", "native": "sore", "gloss": { "id": "sore", "en": "late afternoon" } },
+      { "id": "id-k-time-malam", "native": "malam", "gloss": { "id": "malam", "en": "night" } }
+    ],
+    "weather": [
+      { "id": "id-k-weather-hangat", "native": "Udara hangat.", "gloss": { "id": "Udara hangat.", "en": "The air is warm." }, "tags": ["warm"] },
+      { "id": "id-k-weather-hujan", "native": "Hujan turun.", "gloss": { "id": "Hujan turun.", "en": "It is raining." }, "tags": ["rain"] },
+      { "id": "id-k-weather-cerah", "native": "Langit cerah.", "gloss": { "id": "Langit cerah.", "en": "The sky is clear." }, "tags": ["clear"] },
+      { "id": "id-k-weather-angin", "native": "Angin bertiup.", "gloss": { "id": "Angin bertiup.", "en": "The wind is blowing." }, "tags": ["cold"] }
+    ],
+    "action": [
+      { "id": "id-k-action-menyapu", "native": "menyapu", "gloss": { "id": "menyapu", "en": "sweep" } },
+      { "id": "id-k-action-memasak", "native": "memasak", "gloss": { "id": "memasak", "en": "cook" } },
+      { "id": "id-k-action-membeli", "native": "membeli", "gloss": { "id": "membeli", "en": "buy" } },
+      { "id": "id-k-action-menunggu", "native": "menunggu", "gloss": { "id": "menunggu", "en": "wait" } },
+      { "id": "id-k-action-menulis", "native": "menulis", "gloss": { "id": "menulis", "en": "write" } }
+    ],
+    "quote": [
+      { "id": "id-k-quote-terima-kasih", "native": "Terima kasih.", "gloss": { "id": "Terima kasih.", "en": "Thank you." }, "tags": ["emotion"] },
+      { "id": "id-k-quote-sampai-jumpa", "native": "Sampai jumpa.", "gloss": { "id": "Sampai jumpa.", "en": "See you." }, "tags": ["emotion"] },
+      { "id": "id-k-quote-hati-hati", "native": "Hati-hati.", "gloss": { "id": "Hati-hati.", "en": "Take care." }, "tags": ["emotion"] },
+      { "id": "id-k-quote-lama", "native": "Sudah lama tidak bertemu.", "gloss": { "id": "Sudah lama tidak bertemu.", "en": "It has been a long time." }, "tags": ["emotion"] }
+    ],
+    "question": [
+      { "id": "id-k-question-apa", "native": "Apa ini?", "gloss": { "id": "Apa ini?", "en": "What is this?" } },
+      { "id": "id-k-question-siapa", "native": "Siapa dia?", "gloss": { "id": "Siapa dia?", "en": "Who is that?" } },
+      { "id": "id-k-question-di-mana", "native": "Di mana rumahmu?", "gloss": { "id": "Di mana rumahmu?", "en": "Where is your house?" } },
+      { "id": "id-k-question-mengapa", "native": "Mengapa begitu?", "gloss": { "id": "Mengapa begitu?", "en": "Why is that?" } }
+    ],
+    "greeting": [
+      { "id": "id-k-greeting-pagi", "native": "Selamat pagi", "gloss": { "id": "Selamat pagi", "en": "Good morning" } },
+      { "id": "id-k-greeting-halo", "native": "Halo", "gloss": { "id": "Halo", "en": "Hello" } },
+      { "id": "id-k-greeting-malam", "native": "Selamat malam", "gloss": { "id": "Selamat malam", "en": "Good evening" } },
+      { "id": "id-k-greeting-apa-kabar", "native": "Apa kabar", "gloss": { "id": "Apa kabar", "en": "How are you" } }
+    ],
+    "emotion": [
+      { "id": "id-k-emotion-senang", "native": "senang", "gloss": { "id": "senang", "en": "happy" } },
+      { "id": "id-k-emotion-sedih", "native": "sedih", "gloss": { "id": "sedih", "en": "sad" } },
+      { "id": "id-k-emotion-tenang", "native": "tenang", "gloss": { "id": "tenang", "en": "calm" } },
+      { "id": "id-k-emotion-lega", "native": "lega", "gloss": { "id": "lega", "en": "relieved" } }
+    ]
+  },
+  "frames": [
+    {
+      "id": "f-l1-context-1",
+      "segments": [
+        { "slot": "personA" },
+        { "text": " tiba di " },
+        { "slot": "place" },
+        { "text": " saat " },
+        { "slot": "time" },
+        { "text": ". " },
+        { "slot": "weather" }
+      ]
+    },
+    {
+      "id": "f-l1-context-2",
+      "segments": [
+        { "slot": "place" },
+        { "text": " masih sepi. " },
+        { "slot": "personA" },
+        { "text": " menunggu " },
+        { "slot": "personB" },
+        { "text": " di dekat " },
+        { "slot": "object" },
+        { "text": "." }
+      ]
+    },
+    {
+      "id": "f-l1-greeting-1",
+      "segments": [
+        { "text": "\"" },
+        { "slot": "greeting" },
+        { "text": ",\" kata " },
+        { "slot": "personA" },
+        { "text": "." }
+      ]
+    },
+    {
+      "id": "f-l1-greeting-2",
+      "segments": [
+        { "slot": "personB" },
+        { "text": " tersenyum dan menjawab, \"" },
+        { "slot": "greeting" },
+        { "text": ".\"" }
+      ]
+    },
+    {
+      "id": "f-l1-task-1",
+      "segments": [
+        { "slot": "personA" },
+        { "text": " " },
+        { "slot": "action" },
+        { "text": " di " },
+        { "slot": "place" },
+        { "text": "." }
+      ]
+    },
+    {
+      "id": "f-l1-task-2",
+      "segments": [
+        { "slot": "personA" },
+        { "text": " " },
+        { "slot": "action" },
+        { "text": ", lalu melihat " },
+        { "slot": "object" },
+        { "text": "." }
+      ]
+    },
+    {
+      "id": "f-l1-request-1",
+      "segments": [
+        { "text": "\"" },
+        { "slot": "quote" },
+        { "text": ",\" kata " },
+        { "slot": "personB" },
+        { "text": "." }
+      ]
+    },
+    {
+      "id": "f-l1-request-2",
+      "segments": [
+        { "slot": "personB" },
+        { "text": " meminta " },
+        { "slot": "object" },
+        { "text": "." }
+      ]
+    },
+    {
+      "id": "f-l1-complication-1",
+      "segments": [
+        { "slot": "personA" },
+        { "text": " tidak mengerti lalu bertanya, \"" },
+        { "slot": "question" },
+        { "text": "\"" }
+      ]
+    },
+    {
+      "id": "f-l1-complication-2",
+      "segments": [
+        { "slot": "object" },
+        { "text": " tidak ada di tempatnya. " },
+        { "slot": "weather" }
+      ]
+    },
+    {
+      "id": "f-l1-clue-1",
+      "segments": [
+        { "slot": "personA" },
+        { "text": " menemukan " },
+        { "slot": "object" },
+        { "text": " di bawah meja." }
+      ]
+    },
+    {
+      "id": "f-l1-clue-2",
+      "segments": [
+        { "text": "Ada nama di " },
+        { "slot": "object" },
+        { "text": ". " },
+        { "slot": "personA" },
+        { "text": " membacanya." }
+      ]
+    },
+    {
+      "id": "f-l1-turn-1",
+      "segments": [
+        { "slot": "personB" },
+        { "text": " tersenyum. \"" },
+        { "slot": "quote" },
+        { "text": ",\" katanya." }
+      ]
+    },
+    {
+      "id": "f-l1-turn-2",
+      "segments": [
+        { "slot": "personA" },
+        { "text": " merasa " },
+        { "slot": "emotion" },
+        { "text": "." }
+      ]
+    },
+    {
+      "id": "f-l1-cliffhanger-1",
+      "segments": [
+        { "text": "Lalu telepon berbunyi. " },
+        { "slot": "personB" },
+        { "text": " memegang " },
+        { "slot": "object" },
+        { "text": "." }
+      ]
+    },
+    {
+      "id": "f-l1-cliffhanger-2",
+      "segments": [
+        { "text": "\"" },
+        { "slot": "question" },
+        { "text": "\" kata " },
+        { "slot": "personB" },
+        { "text": " pelan." }
+      ]
+    },
+    {
+      "id": "f-l2-context-1",
+      "segments": [
+        { "text": "Menjelang " },
+        { "slot": "time" },
+        { "text": ", " },
+        { "slot": "personA" },
+        { "text": " sampai di " },
+        { "slot": "place" },
+        { "text": " yang sudah ramai. " },
+        { "slot": "weather" }
+      ]
+    },
+    {
+      "id": "f-l2-context-2",
+      "segments": [
+        { "slot": "place" },
+        { "text": " masih sangat sepi, jadi " },
+        { "slot": "personA" },
+        { "text": " menunggu " },
+        { "slot": "personB" },
+        { "text": " sambil memegang " },
+        { "slot": "object" },
+        { "text": "." }
+      ]
+    },
+    {
+      "id": "f-l2-greeting-1",
+      "segments": [
+        { "text": "\"" },
+        { "slot": "greeting" },
+        { "text": ",\" kata " },
+        { "slot": "personA" },
+        { "text": " sambil membuka pintu." }
+      ]
+    },
+    {
+      "id": "f-l2-greeting-2",
+      "segments": [
+        { "slot": "personB" },
+        { "text": " mengangguk dan menjawab, \"" },
+        { "slot": "greeting" },
+        { "text": ".\"" }
+      ]
+    },
+    {
+      "id": "f-l2-task-1",
+      "segments": [
+        { "text": "Karena " },
+        { "slot": "personA" },
+        { "text": " " },
+        { "slot": "action" },
+        { "text": ", " },
+        { "slot": "personB" },
+        { "text": " datang lebih awal ke " },
+        { "slot": "place" },
+        { "text": "." }
+      ]
+    },
+    {
+      "id": "f-l2-task-2",
+      "segments": [
+        { "slot": "personA" },
+        { "text": " " },
+        { "slot": "action" },
+        { "text": ", tetapi " },
+        { "slot": "object" },
+        { "text": " masih ada di meja." }
+      ]
+    },
+    {
+      "id": "f-l2-request-1",
+      "segments": [
+        { "text": "\"" },
+        { "slot": "quote" },
+        { "text": ",\" kata " },
+        { "slot": "personB" },
+        { "text": " dengan suara pelan." }
+      ]
+    },
+    {
+      "id": "f-l2-request-2",
+      "segments": [
+        { "slot": "personB" },
+        { "text": " bertanya kepada " },
+        { "slot": "personA" },
+        { "text": " tentang " },
+        { "slot": "object" },
+        { "text": "." }
+      ]
+    },
+    {
+      "id": "f-l2-complication-1",
+      "segments": [
+        { "slot": "personA" },
+        { "text": " tidak mengerti, jadi ia bertanya, \"" },
+        { "slot": "question" },
+        { "text": "\"" }
+      ]
+    },
+    {
+      "id": "f-l2-complication-2",
+      "segments": [
+        { "slot": "object" },
+        { "text": " sudah dipindahkan, dan " },
+        { "slot": "personA" },
+        { "text": " tidak tahu siapa yang melakukannya." }
+      ]
+    },
+    {
+      "id": "f-l2-clue-1",
+      "segments": [
+        { "slot": "personA" },
+        { "text": " menemukan " },
+        { "slot": "object" },
+        { "text": " di bawah meja kasir, di balik kain lama." }
+      ]
+    },
+    {
+      "id": "f-l2-clue-2",
+      "segments": [
+        { "text": "Pada " },
+        { "slot": "object" },
+        { "text": " ada tulisan kecil: \"" },
+        { "slot": "quote" },
+        { "text": ".\"" }
+      ]
+    },
+    {
+      "id": "f-l2-turn-1",
+      "segments": [
+        { "slot": "personB" },
+        { "text": " melihat " },
+        { "slot": "personA" },
+        { "text": " dan berkata, \"" },
+        { "slot": "quote" },
+        { "text": ".\"" }
+      ]
+    },
+    {
+      "id": "f-l2-turn-2",
+      "segments": [
+        { "text": "Untuk pertama kalinya, " },
+        { "slot": "personA" },
+        { "text": " merasa " },
+        { "slot": "emotion" },
+        { "text": "." }
+      ]
+    },
+    {
+      "id": "f-l2-cliffhanger-1",
+      "segments": [
+        { "text": "Tiba-tiba " },
+        { "slot": "personB" },
+        { "text": " muncul di pintu sambil membawa " },
+        { "slot": "object" },
+        { "text": "." }
+      ]
+    },
+    {
+      "id": "f-l2-cliffhanger-2",
+      "segments": [
+        { "text": "Telepon berdering lagi. \"" },
+        { "slot": "question" },
+        { "text": "\" kata suara di telepon." }
+      ]
+    },
+    {
+      "id": "f-l3-context-1",
+      "segments": [
+        { "text": "Ketika " },
+        { "slot": "personA" },
+        { "text": " tiba di " },
+        { "slot": "place" },
+        { "text": " saat " },
+        { "slot": "time" },
+        { "text": ", tempat itu tampak berbeda dari yang ia ingat. " },
+        { "slot": "weather" }
+      ]
+    },
+    {
+      "id": "f-l3-context-2",
+      "segments": [
+        { "slot": "place" },
+        { "text": " yang dulu ramai kini sepi; hanya " },
+        { "slot": "object" },
+        { "text": " yang masih ada di tempatnya." }
+      ]
+    },
+    {
+      "id": "f-l3-greeting-1",
+      "segments": [
+        { "text": "\"" },
+        { "slot": "greeting" },
+        { "text": ",\" kata " },
+        { "slot": "personA" },
+        { "text": ", meskipun ia tidak yakin " },
+        { "slot": "personB" },
+        { "text": " mendengarnya." }
+      ]
+    },
+    {
+      "id": "f-l3-greeting-2",
+      "segments": [
+        { "slot": "personB" },
+        { "text": " menyapa " },
+        { "slot": "personA" },
+        { "text": " dengan \"" },
+        { "slot": "greeting" },
+        { "text": "\" seperti biasa." }
+      ]
+    },
+    {
+      "id": "f-l3-task-1",
+      "segments": [
+        { "text": "Sambil " },
+        { "slot": "action" },
+        { "text": ", " },
+        { "slot": "personA" },
+        { "text": " memperhatikan bahwa " },
+        { "slot": "place" },
+        { "text": " menyimpan banyak hal yang belum pernah ia lihat." }
+      ]
+    },
+    {
+      "id": "f-l3-task-2",
+      "segments": [
+        { "slot": "personA" },
+        { "text": " " },
+        { "slot": "action" },
+        { "text": " karena " },
+        { "slot": "object" },
+        { "text": " harus siap sebelum " },
+        { "slot": "personB" },
+        { "text": " datang." }
+      ]
+    },
+    {
+      "id": "f-l3-request-1",
+      "segments": [
+        { "text": "\"" },
+        { "slot": "quote" },
+        { "text": ",\" kata " },
+        { "slot": "personB" },
+        { "text": ", seolah itu permintaan paling biasa di dunia." }
+      ]
+    },
+    {
+      "id": "f-l3-request-2",
+      "segments": [
+        { "slot": "personB" },
+        { "text": " bertanya apakah " },
+        { "slot": "personA" },
+        { "text": " tahu tentang " },
+        { "slot": "object" },
+        { "text": ". \"" },
+        { "slot": "question" },
+        { "text": "\"" }
+      ]
+    },
+    {
+      "id": "f-l3-complication-1",
+      "segments": [
+        { "slot": "personA" },
+        { "text": " tidak bisa menjawab karena " },
+        { "slot": "object" },
+        { "text": " itu seperti kunci tanpa pintu. \"" },
+        { "slot": "question" },
+        { "text": "\"" }
+      ]
+    },
+    {
+      "id": "f-l3-complication-2",
+      "segments": [
+        { "text": "Seseorang telah memindahkan " },
+        { "slot": "object" },
+        { "text": ", dan " },
+        { "slot": "personA" },
+        { "text": " mulai curiga ini bukan kebetulan." }
+      ]
+    },
+    {
+      "id": "f-l3-clue-1",
+      "segments": [
+        { "text": "Di balik " },
+        { "slot": "object" },
+        { "text": ", " },
+        { "slot": "personA" },
+        { "text": " menemukan catatan lama: \"" },
+        { "slot": "quote" },
+        { "text": ".\"" }
+      ]
+    },
+    {
+      "id": "f-l3-clue-2",
+      "segments": [
+        { "slot": "object" },
+        { "text": " itu berasal dari " },
+        { "slot": "place" },
+        { "text": ", jauh sebelum " },
+        { "slot": "personA" },
+        { "text": " lahir." }
+      ]
+    },
+    {
+      "id": "f-l3-turn-1",
+      "segments": [
+        { "text": "\"" },
+        { "slot": "quote" },
+        { "text": ",\" kata " },
+        { "slot": "personB" },
+        { "text": ". " },
+        { "slot": "personA" },
+        { "text": " merasa " },
+        { "slot": "emotion" },
+        { "text": "." }
+      ]
+    },
+    {
+      "id": "f-l3-turn-2",
+      "segments": [
+        { "slot": "personB" },
+        { "text": " menyerahkan " },
+        { "slot": "object" },
+        { "text": " kepada " },
+        { "slot": "personA" },
+        { "text": ", dan untuk sesaat rasa " },
+        { "slot": "emotion" },
+        { "text": " menyelimutinya." }
+      ]
+    },
+    {
+      "id": "f-l3-cliffhanger-1",
+      "segments": [
+        { "slot": "personB" },
+        { "text": " menunjukkan " },
+        { "slot": "object" },
+        { "text": " yang baru. \"" },
+        { "slot": "question" },
+        { "text": "\"" }
+      ]
+    },
+    {
+      "id": "f-l3-cliffhanger-2",
+      "segments": [
+        { "text": "Malam itu, " },
+        { "slot": "place" },
+        { "text": " kosong, tetapi " },
+        { "slot": "object" },
+        { "text": " tertinggal di meja." }
+      ]
+    },
+    {
+      "id": "f-l4-context-1",
+      "segments": [
+        { "text": "Menjelang " },
+        { "slot": "time" },
+        { "text": ", " },
+        { "slot": "personA" },
+        { "text": " tiba di " },
+        { "slot": "place" },
+        { "text": " yang sudah lama tidak ia kunjungi. " },
+        { "slot": "weather" }
+      ]
+    },
+    {
+      "id": "f-l4-context-2",
+      "segments": [
+        { "text": "Di " },
+        { "slot": "place" },
+        { "text": ", " },
+        { "slot": "object" },
+        { "text": " telah diletakkan di tempat yang sama selama bertahun-tahun." }
+      ]
+    },
+    {
+      "id": "f-l4-greeting-1",
+      "segments": [
+        { "text": "\"" },
+        { "slot": "greeting" },
+        { "text": ",\" kata " },
+        { "slot": "personA" },
+        { "text": " dengan sopan, meski ia dan lawan bicaranya tidak pernah dekat." }
+      ]
+    },
+    {
+      "id": "f-l4-greeting-2",
+      "segments": [
+        { "slot": "personB" },
+        { "text": " membalas dengan \"" },
+        { "slot": "greeting" },
+        { "text": "\", lalu mempersilakan " },
+        { "slot": "personA" },
+        { "text": " masuk." }
+      ]
+    },
+    {
+      "id": "f-l4-task-1",
+      "segments": [
+        { "text": "Setelah " },
+        { "slot": "personA" },
+        { "text": " " },
+        { "slot": "action" },
+        { "text": ", ia menyadari bahwa " },
+        { "slot": "place" },
+        { "text": " tidak lagi seperti dulu." }
+      ]
+    },
+    {
+      "id": "f-l4-task-2",
+      "segments": [
+        { "slot": "personA" },
+        { "text": " " },
+        { "slot": "action" },
+        { "text": " sambil menjelaskan kepada " },
+        { "slot": "personB" },
+        { "text": " mengapa " },
+        { "slot": "object" },
+        { "text": " begitu penting." }
+      ]
+    },
+    {
+      "id": "f-l4-request-1",
+      "segments": [
+        { "text": "\"" },
+        { "slot": "quote" },
+        { "text": ",\" kata " },
+        { "slot": "personB" },
+        { "text": ", sambil mendorong " },
+        { "slot": "object" },
+        { "text": " ke arah " },
+        { "slot": "personA" },
+        { "text": "." }
+      ]
+    },
+    {
+      "id": "f-l4-request-2",
+      "segments": [
+        { "slot": "personB" },
+        { "text": " meminta " },
+        { "slot": "personA" },
+        { "text": " memeriksa " },
+        { "slot": "object" },
+        { "text": " sekali lagi. \"" },
+        { "slot": "question" },
+        { "text": "\"" }
+      ]
+    },
+    {
+      "id": "f-l4-complication-1",
+      "segments": [
+        { "slot": "personA" },
+        { "text": " menyadari bahwa " },
+        { "slot": "object" },
+        { "text": " tidak mungkin ada di sini tanpa alasan. \"" },
+        { "slot": "question" },
+        { "text": "\"" }
+      ]
+    },
+    {
+      "id": "f-l4-complication-2",
+      "segments": [
+        { "text": "Seseorang telah memindahkan " },
+        { "slot": "object" },
+        { "text": " dari " },
+        { "slot": "place" },
+        { "text": ", dan " },
+        { "slot": "personA" },
+        { "text": " tidak diberi tahu." }
+      ]
+    },
+    {
+      "id": "f-l4-clue-1",
+      "segments": [
+        { "text": "Di balik " },
+        { "slot": "object" },
+        { "text": ", " },
+        { "slot": "personA" },
+        { "text": " menemukan surat yang ditulis tangan: \"" },
+        { "slot": "quote" },
+        { "text": ".\"" }
+      ]
+    },
+    {
+      "id": "f-l4-clue-2",
+      "segments": [
+        { "slot": "object" },
+        { "text": " itu disimpan di " },
+        { "slot": "place" },
+        { "text": " oleh seseorang yang tidak ingin namanya diketahui." }
+      ]
+    },
+    {
+      "id": "f-l4-turn-1",
+      "segments": [
+        { "text": "\"" },
+        { "slot": "quote" },
+        { "text": ",\" kata " },
+        { "slot": "personB" },
+        { "text": ". " },
+        { "slot": "personA" },
+        { "text": " tidak bisa menyembunyikan rasa " },
+        { "slot": "emotion" },
+        { "text": " di wajahnya." }
+      ]
+    },
+    {
+      "id": "f-l4-turn-2",
+      "segments": [
+        { "text": "Ketika " },
+        { "slot": "personB" },
+        { "text": " menyerahkan " },
+        { "slot": "object" },
+        { "text": ", " },
+        { "slot": "personA" },
+        { "text": " menyadari bahwa rasa " },
+        { "slot": "emotion" },
+        { "text": " itu sudah lama ia simpan." }
+      ]
+    },
+    {
+      "id": "f-l4-cliffhanger-1",
+      "segments": [
+        { "text": "Sebelum " },
+        { "slot": "personA" },
+        { "text": " sempat bertanya, " },
+        { "slot": "personB" },
+        { "text": " berkata, \"" },
+        { "slot": "question" },
+        { "text": "\"" }
+      ]
+    },
+    {
+      "id": "f-l4-cliffhanger-2",
+      "segments": [
+        { "text": "Pintu di " },
+        { "slot": "place" },
+        { "text": " terbuka, dan " },
+        { "slot": "object" },
+        { "text": " yang seharusnya terkunci kini hilang." }
+      ]
+    },
+    {
+      "id": "f-l5-context-1",
+      "segments": [
+        { "text": "Saat " },
+        { "slot": "time" },
+        { "text": " datang, " },
+        { "slot": "place" },
+        { "text": " tampak seperti kenangan yang belum selesai. " },
+        { "slot": "weather" }
+      ]
+    },
+    {
+      "id": "f-l5-context-2",
+      "segments": [
+        { "text": "Bertahun-tahun kemudian, " },
+        { "slot": "personA" },
+        { "text": " masih mengingat " },
+        { "slot": "object" },
+        { "text": " yang tergeletak di " },
+        { "slot": "place" },
+        { "text": "." }
+      ]
+    },
+    {
+      "id": "f-l5-greeting-1",
+      "segments": [
+        { "text": "\"" },
+        { "slot": "greeting" },
+        { "text": ",\" kata " },
+        { "slot": "personA" },
+        { "text": "; sapaan itu terdengar seperti permintaan maaf yang tertunda." }
+      ]
+    },
+    {
+      "id": "f-l5-greeting-2",
+      "segments": [
+        { "slot": "personB" },
+        { "text": " menjawab dengan \"" },
+        { "slot": "greeting" },
+        { "text": "\", dan keduanya tahu ada yang belum dikatakan." }
+      ]
+    },
+    {
+      "id": "f-l5-task-1",
+      "segments": [
+        { "text": "Sementara " },
+        { "slot": "personA" },
+        { "text": " " },
+        { "slot": "action" },
+        { "text": ", " },
+        { "slot": "place" },
+        { "text": " seolah menahan napas, menunggu sesuatu yang tidak pernah datang." }
+      ]
+    },
+    {
+      "id": "f-l5-task-2",
+      "segments": [
+        { "slot": "personA" },
+        { "text": " " },
+        { "slot": "action" },
+        { "text": " dengan hati-hati, seolah " },
+        { "slot": "object" },
+        { "text": " bisa hancur karena satu kata." }
+      ]
+    },
+    {
+      "id": "f-l5-request-1",
+      "segments": [
+        { "text": "\"" },
+        { "slot": "quote" },
+        { "text": ",\" kata " },
+        { "slot": "personB" },
+        { "text": ", dan " },
+        { "slot": "object" },
+        { "text": " di tangannya tampak lebih berat dari sebelumnya." }
+      ]
+    },
+    {
+      "id": "f-l5-request-2",
+      "segments": [
+        { "slot": "personB" },
+        { "text": " tidak meminta jawaban; ia hanya berkata, \"" },
+        { "slot": "question" },
+        { "text": "\" sambil menatap " },
+        { "slot": "object" },
+        { "text": "." }
+      ]
+    },
+    {
+      "id": "f-l5-complication-1",
+      "segments": [
+        { "slot": "personA" },
+        { "text": " akhirnya paham bahwa " },
+        { "slot": "object" },
+        { "text": " bukan rahasia, melainkan cara seseorang meminta untuk diingat. \"" },
+        { "slot": "question" },
+        { "text": "\"" }
+      ]
+    },
+    {
+      "id": "f-l5-complication-2",
+      "segments": [
+        { "text": "Yang paling menyakitkan bukan kehilangan " },
+        { "slot": "object" },
+        { "text": ", tetapi menyadari bahwa " },
+        { "slot": "place" },
+        { "text": " sudah lama menunggu " },
+        { "slot": "personA" },
+        { "text": "." }
+      ]
+    },
+    {
+      "id": "f-l5-clue-1",
+      "segments": [
+        { "slot": "personA" },
+        { "text": " memeriksa " },
+        { "slot": "object" },
+        { "text": " dan menemukan satu kalimat yang ditulis hati-hati: \"" },
+        { "slot": "quote" },
+        { "text": ".\"" }
+      ]
+    },
+    {
+      "id": "f-l5-clue-2",
+      "segments": [
+        { "slot": "object" },
+        { "text": " itu menyimpan kenangan tentang " },
+        { "slot": "place" },
+        { "text": ", dan kenangan itu membuka pintu yang selama ini tertutup." }
+      ]
+    },
+    {
+      "id": "f-l5-turn-1",
+      "segments": [
+        { "text": "\"" },
+        { "slot": "quote" },
+        { "text": ",\" kata " },
+        { "slot": "personB" },
+        { "text": " akhirnya. " },
+        { "slot": "personA" },
+        { "text": " merasakan " },
+        { "slot": "emotion" },
+        { "text": " yang tidak lagi bisa ia sembunyikan." }
+      ]
+    },
+    {
+      "id": "f-l5-turn-2",
+      "segments": [
+        { "text": "Ketika " },
+        { "slot": "object" },
+        { "text": " berpindah tangan, " },
+        { "slot": "personA" },
+        { "text": " tahu bahwa " },
+        { "slot": "emotion" },
+        { "text": " akan tinggal lebih lama daripada benda apa pun." }
+      ]
+    },
+    {
+      "id": "f-l5-cliffhanger-1",
+      "segments": [
+        { "slot": "personA" },
+        { "text": " menatap " },
+        { "slot": "object" },
+        { "text": ", lalu ke arah " },
+        { "slot": "place" },
+        { "text": ". \"" },
+        { "slot": "question" },
+        { "text": "\"" }
+      ]
+    },
+    {
+      "id": "f-l5-cliffhanger-2",
+      "segments": [
+        { "text": "Di ambang pintu, " },
+        { "slot": "personB" },
+        { "text": " berbisik, \"" },
+        { "slot": "question" },
+        { "text": "\" dan " },
+        { "slot": "object" },
+        { "text": " jatuh dari tangan " },
+        { "slot": "personA" },
+        { "text": "." }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "id-g1",
+      "level": 1,
+      "pattern": "sudah / belum",
+      "meaning": { "id": "aspek: sudah atau belum terjadi", "en": "aspect: already or not yet" },
+      "example": "Sari sudah menimbang gula, tetapi belum membungkus nasi."
+    },
+    {
+      "id": "id-g2",
+      "level": 1,
+      "pattern": "sedang + verba",
+      "meaning": { "id": "sedang berlangsung", "en": "an action in progress" },
+      "example": "Ibu Wati sedang mengaduk gudeg."
+    },
+    {
+      "id": "id-g3",
+      "level": 2,
+      "pattern": "karena ... jadi ...",
+      "meaning": { "id": "sebab dan akibat", "en": "cause and result" },
+      "example": "Karena pasar masih sepi, Sari menyapu lantai."
+    },
+    {
+      "id": "id-g4",
+      "level": 2,
+      "pattern": "sambil + verba",
+      "meaning": { "id": "dua tindakan bersamaan", "en": "two actions at once" },
+      "example": "Dimas menunggu sambil memegang petromaks."
+    },
+    {
+      "id": "id-g5",
+      "level": 3,
+      "pattern": "yang + klausa",
+      "meaning": { "id": "menjelaskan orang atau benda", "en": "identifying people and things" },
+      "example": "Buku yang ditemukan Sari berisi nama lama."
+    },
+    {
+      "id": "id-g6",
+      "level": 3,
+      "pattern": "sejak / sampai",
+      "meaning": { "id": "batas waktu", "en": "time boundaries" },
+      "example": "Sejak subuh, los gudeg belum tutup."
+    },
+    {
+      "id": "id-g7",
+      "level": 4,
+      "pattern": "setelah + verba",
+      "meaning": { "id": "urutan kejadian", "en": "sequence of events" },
+      "example": "Setelah menutup los, Sari menghitung uang."
+    },
+    {
+      "id": "id-g8",
+      "level": 4,
+      "pattern": "di- (pasif)",
+      "meaning": { "id": "fokus pada tindakan, bukan pelaku", "en": "focus on the action, not the actor" },
+      "example": "Buku utang itu disimpan di bawah meja."
+    },
+    {
+      "id": "id-g9",
+      "level": 5,
+      "pattern": "seolah-olah",
+      "meaning": { "id": "seperti, tetapi belum tentu benar", "en": "as if, but not necessarily true" },
+      "example": "Ibu Wati tersenyum seolah-olah tidak ada yang terjadi."
+    },
+    {
+      "id": "id-g10",
+      "level": 5,
+      "pattern": "bukan ... melainkan ...",
+      "meaning": { "id": "mengoreksi dan menegaskan", "en": "correcting and emphasising" },
+      "example": "Ini bukan utang uang, melainkan janji."
+    }
+  ],
+  "questionPhrases": {
+    "meaning": "Apa arti '{term}' dalam adegan ini?",
+    "who": "Siapa yang disebut dalam adegan ini?",
+    "where": "Di mana adegan ini terjadi?",
+    "when": "Kapan adegan ini terjadi?",
+    "why": "Mengapa hal ini terjadi?",
+    "detail": "Detail mana yang benar menurut adegan?",
+    "next": "Apa yang mungkin terjadi berikutnya?",
+    "culture": "Detail budaya apa yang muncul dalam adegan ini?",
+    "grammar": "Pilih bentuk yang tepat."
+  }
+}

@@ -2,7 +2,12 @@
 
 import { I18nextProvider } from 'react-i18next';
 import i18n from '@/i18n';
-import { useEffect } from 'react';
+import { useEffect, useLayoutEffect } from 'react';
+
+// Set the language before the browser paints on the client, so /jp and /id do
+// not flash English. The server falls back to useEffect (no-op warning free).
+const useIsomorphicLayoutEffect =
+  typeof window !== 'undefined' ? useLayoutEffect : useEffect;
 
 export default function I18nProvider({ 
   children, 
@@ -11,9 +16,9 @@ export default function I18nProvider({
   children: React.ReactNode; 
   locale?: string;
 }) {
-  useEffect(() => {
+  useIsomorphicLayoutEffect(() => {
     if (i18n.language !== locale) {
-      i18n.changeLanguage(locale);
+      void i18n.changeLanguage(locale);
     }
   }, [locale]);
 
