@@ -28,7 +28,8 @@
     "content:stories:report": "tsx scripts/story/report.ts",
     "content:stories:import": "tsx scripts/story/copy-import.ts",
     "content:stories:check": "tsx scripts/story/check-authoring.ts",
-    "test:story": "tsx scripts/story/test.ts"
+    "test:story": "tsx scripts/story/test.ts",
+    "check:story:packed": "tsx scripts/story/check-packed.ts"
   },
   "dependencies": {
     "@base-ui/react": "^1.4.1",

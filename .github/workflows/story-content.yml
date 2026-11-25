@@ -1,0 +1,48 @@
+name: Story content
+
+on:
+  pull_request:
+    paths:
+      - "content/stories/**"
+      - "scripts/story/**"
+      - "app/lib/story/**"
+      - "next.config.ts"
+      - "package.json"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  # prisma generate runs during npm ci; it only needs a parseable URL.
+  DATABASE_URL: postgresql://lango:lango@localhost:5432/lango?schema=lango
+
+jobs:
+  packed-libraries:
+    name: Validate story libraries
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate story libraries from source
+        run: npm run content:stories:generate
+
+      - name: Validate story schema and quality gates
+        run: npm run content:stories:validate
+
+      - name: Check packed libraries are current
+        run: npm run check:story:packed
+
+      - name: Typecheck
+        run: npx tsc --noEmit
