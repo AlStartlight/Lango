@@ -169,6 +169,13 @@ const nextConfig: NextConfig = {
   // Experimental features for performance
   experimental: {
     optimizePackageImports: ['lucide-react', 'framer-motion'],
+    // Keep the learner workspace's dynamic page segments in the client router
+    // cache briefly. Sidebar hops (and back/forward) then render instantly
+    // instead of re-paying the server round trip for a just-visited page.
+    staleTimes: {
+      dynamic: 30,
+      static: 300,
+    },
   },
 
   // Strict React mode

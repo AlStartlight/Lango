@@ -1,6 +1,7 @@
 "use client";
 
-import Link from "next/link";
+import Link, { useLinkStatus } from "next/link";
+import { usePathname } from "next/navigation";
 import { useState, type ReactNode } from "react";
 import {
   BadgeCheck,
@@ -21,7 +22,7 @@ import {
   Trophy,
   X,
 } from "lucide-react";
-import { expeditionCopy, fill } from "./copy";
+import { expeditionCopy } from "./copy";
 import { LangoMascot } from "./art";
 import { AmbienceProvider } from "./ambience/ambience-provider";
 import { AmbienceDock } from "./ambience/ambience-dock";
@@ -41,6 +42,43 @@ export type ExpeditionSection =
   | "survival"
   | "passport"
   | "ambience";
+
+/**
+ * Derives the highlighted sidebar section from the live pathname. The shell is
+ * mounted in a shared layout, so this is the only thing that needs to react to
+ * navigation on the client.
+ */
+function sectionFromPath(pathname: string): ExpeditionSection | null {
+  const segments = pathname.split("/").filter(Boolean);
+  const section = segments[1];
+  if (section === "learn") return segments[2] === "survival" ? "survival" : "map";
+  if (section === "reader") return "reader";
+  if (section === "practice") return "practice";
+  if (section === "vault") return "vault";
+  if (section === "results") return "results";
+  if (section === "stories") return "library";
+  if (section === "leaderboard") return "leaderboard";
+  if (section === "store") return "store";
+  if (section === "passport") return "passport";
+  if (section === "settings") return segments[2] === "ambience" ? "ambience" : null;
+  return null;
+}
+
+/**
+ * Inline navigation feedback. `useLinkStatus` flips to pending as soon as a
+ * sidebar link is clicked and the router is waiting for the server render.
+ */
+function LinkPending() {
+  const { pending } = useLinkStatus();
+  return (
+    <span
+      aria-hidden
+      className={`ml-auto h-2 w-2 shrink-0 rounded-full bg-exp-primary-container transition-opacity duration-150 ${
+        pending ? "animate-pulse opacity-100" : "opacity-0"
+      }`}
+    />
+  );
+}
 
 interface NavItem {
   key: ExpeditionSection;
@@ -79,14 +117,12 @@ function Avatar({
 
 export function ExpeditionShell({
   lang,
-  active,
   hud,
   continueSceneId,
   emailVerified,
   children,
 }: {
   lang: string;
-  active: ExpeditionSection;
   hud: ExpeditionHud;
   continueSceneId: string | null;
   emailVerified: boolean;
@@ -94,6 +130,8 @@ export function ExpeditionShell({
 }) {
   const copy = expeditionCopy(lang);
   const ambience = ambienceCopy(lang);
+  const pathname = usePathname();
+  const active = sectionFromPath(pathname);
   const [open, setOpen] = useState(false);
   const targetPercent = Math.min(
     100,
@@ -137,6 +175,7 @@ export function ExpeditionShell({
             aria-hidden="true"
           />
         )}
+        <LinkPending />
       </Link>
     );
   };
@@ -161,6 +200,7 @@ export function ExpeditionShell({
           <Link
             href={`/${lang}/passport`}
             onClick={() => setOpen(false)}
+            aria-current={active === "passport" ? "page" : undefined}
             className={`flex items-center gap-3 rounded-xl px-3.5 py-2.5 text-sm font-bold transition-colors ${
               active === "passport"
                 ? "bg-exp-primary-container text-exp-on-primary-container"
@@ -173,6 +213,7 @@ export function ExpeditionShell({
           <Link
             href={`/${lang}/learn/survival`}
             onClick={() => setOpen(false)}
+            aria-current={active === "survival" ? "page" : undefined}
             className={`flex items-center gap-3 rounded-xl px-3.5 py-2.5 text-sm font-bold transition-colors ${
               active === "survival"
                 ? "bg-exp-primary-container text-exp-on-primary-container"
@@ -196,6 +237,7 @@ export function ExpeditionShell({
           <Link
             href={`/${lang}/settings/ambience`}
             onClick={() => setOpen(false)}
+            aria-current={active === "ambience" ? "page" : undefined}
             className={`flex items-center gap-3 rounded-xl px-3.5 py-2.5 text-sm font-bold transition-colors ${
               active === "ambience"
                 ? "bg-exp-primary-container text-exp-on-primary-container"

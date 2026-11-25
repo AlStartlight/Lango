@@ -1,57 +1,31 @@
-import { redirect } from "next/navigation";
 import type { ReactNode } from "react";
-import { getSessionContext } from "@/lib/auth/session";
-import { isUiLocale, resolveContentLanguage } from "@/lib/i18n/locales";
-import { getStoryCatalog } from "@/lib/story/repository";
-import { getExpeditionHud } from "@/lib/story/expedition";
-import {
-  ExpeditionShell,
-  type ExpeditionSection,
-} from "@/components/expedition/expedition-shell";
+import type { ExpeditionHud } from "@/lib/story/expedition";
+import { ExpeditionShell } from "@/components/expedition/expedition-shell";
 
-const SECTION_MAP: Record<string, ExpeditionSection> = {
-  stories: "library",
-  library: "library",
-  passport: "passport",
-  learn: "map",
-  map: "map",
-  reader: "reader",
-  practice: "practice",
-  vault: "vault",
-  results: "results",
-  leaderboard: "leaderboard",
-  store: "store",
-  survival: "survival",
-  ambience: "ambience",
-};
-
-export async function StoryShell({
+/**
+ * Presentational shell. Authentication and HUD/catalog data are resolved once
+ * in `app/[lang]/(expedition)/layout.tsx`, so navigating between learner pages
+ * does not refetch them.
+ */
+export function StoryShell({
   lang,
-  active,
+  hud,
+  continueSceneId,
+  emailVerified,
   children,
 }: {
   lang: string;
-  active: string;
+  hud: ExpeditionHud;
+  continueSceneId: string | null;
+  emailVerified: boolean;
   children: ReactNode;
-  userName?: string;
 }) {
-  const context = await getSessionContext();
-  if (!context) redirect(`/${lang}/sign-in`);
-
-  const uiLocale = isUiLocale(lang) ? lang : "en";
-  const language = resolveContentLanguage(context.user.targetLanguage, uiLocale);
-  const [hud, catalog] = await Promise.all([
-    getExpeditionHud(context.user),
-    getStoryCatalog(context.user.id, language),
-  ]);
-
   return (
     <ExpeditionShell
       lang={lang}
-      active={SECTION_MAP[active] ?? "library"}
       hud={hud}
-      continueSceneId={catalog?.continue?.sceneId ?? null}
-      emailVerified={Boolean(context.user.emailVerifiedAt)}
+      continueSceneId={continueSceneId}
+      emailVerified={emailVerified}
     >
       {children}
     </ExpeditionShell>

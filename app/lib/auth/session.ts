@@ -1,4 +1,5 @@
 import "server-only";
+import { cache } from "react";
 import { cookies } from "next/headers";
 import { prisma } from "@/lib/prisma";
 import { addDays, generateToken, hashToken } from "./tokens";
@@ -151,7 +152,12 @@ export async function createSession(
   return { token: prepared.token, expiresAt: prepared.expiresAt };
 }
 
-export async function getSessionContext(): Promise<SessionContext | null> {
+/**
+ * Request-scoped session lookup. A learner page can ask for the session from
+ * the shared layout, its page body, and a data loader in the same render; React
+ * `cache` collapses those calls into one database round trip.
+ */
+export const getSessionContext = cache(async function getSessionContext(): Promise<SessionContext | null> {
   if (!prisma) return null;
 
   const store = await cookies();
@@ -199,7 +205,7 @@ export async function getSessionContext(): Promise<SessionContext | null> {
     rememberMe: session.rememberMe,
     expiresAt: session.expiresAt,
   };
-}
+});
 
 export async function getSessionUser(): Promise<SessionUser | null> {
   const context = await getSessionContext();

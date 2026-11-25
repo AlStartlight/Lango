@@ -1,4 +1,5 @@
 import "server-only";
+import { cache } from "react";
 import { prisma } from "@/lib/prisma";
 import type { Prisma } from "@/lib/generated/prisma/client";
 import { awardXp, dateKeyInTimezone, touchStreak } from "@/lib/learning/progress";
@@ -152,34 +153,51 @@ function localized(value: LocalizedText, locale: string): LocalizedText {
   return value;
 }
 
-async function completedSceneIds(userId: string, language: string): Promise<Set<string>> {
-  if (!prisma) return new Set();
-  const rows = await prisma.storySceneProgress.findMany({
-    where: { userId, languageCode: language, status: "completed" },
-    select: { sceneId: true },
+/**
+ * One progress read per user/language per request. Catalog, world detail, and
+ * episode detail are often needed together on the same page; React `cache`
+ * makes them share this query instead of each running its own.
+ */
+const getLanguageProgress = cache(async function getLanguageProgress(
+  userId: string,
+  language: string,
+): Promise<Array<{ sceneId: string; status: string }>> {
+  if (!prisma) return [];
+  return prisma.storySceneProgress.findMany({
+    where: { userId, languageCode: language },
+    select: { sceneId: true, status: true },
   });
-  return new Set(rows.map((row) => row.sceneId));
+});
+
+async function completedSceneIds(userId: string, language: string): Promise<Set<string>> {
+  const rows = await getLanguageProgress(userId, language);
+  return new Set(rows.filter((row) => row.status === "completed").map((row) => row.sceneId));
 }
 
-export async function getStoryCatalog(userId: string, language: string): Promise<StoryCatalog | null> {
+export const getStoryCatalog = cache(async function getStoryCatalog(
+  userId: string,
+  language: string,
+): Promise<StoryCatalog | null> {
   let content: StoryWorldContent;
   try {
     content = getStoryContent(language);
   } catch {
     return null;
   }
-  const completed = await completedSceneIds(userId, language);
+  // Both reads are independent; run them in the same round trip window so a
+  // page navigation does not pay two sequential database latencies.
+  const [completed, progress] = await Promise.all([
+    completedSceneIds(userId, language),
+    prisma
+      ? prisma.storyProgress.findFirst({ where: { userId, languageCode: language, worldId: content.world.id } })
+      : Promise.resolve(null),
+  ]);
   const sceneOrder = content.sceneOrder;
   const next = sceneOrder.find((sceneId) => !completed.has(sceneId)) ?? null;
-  const progress = prisma
-    ? await prisma.storyProgress.findFirst({ where: { userId, languageCode: language, worldId: content.world.id } })
-    : null;
   const currentSceneId = progress?.currentSceneId ?? next;
   const current = currentSceneId ? content.scenes.get(currentSceneId) : null;
   const currentEpisode = current
-    ? [...content.episodes.values()].find((episode) =>
-        episode.scenes.some((scene) => scene.id === current.id),
-      ) ?? null
+    ? content.episodes.get(content.episodeBySceneId.get(current.id) ?? "") ?? null
     : null;
 
   const levelRows = content.levels.map((level) => {
@@ -197,9 +215,7 @@ export async function getStoryCatalog(userId: string, language: string): Promise
   const dropScenes = sceneOrder.filter((sceneId) => !completed.has(sceneId)).slice(0, 3);
   const sceneTitle = (sceneId: string) => {
     const scene = content.scenes.get(sceneId);
-    const episode = [...content.episodes.values()].find((item) =>
-      item.scenes.some((s) => s.id === sceneId),
-    );
+    const episode = content.episodes.get(content.episodeBySceneId.get(sceneId) ?? "");
     return {
       sceneId,
       title: scene?.title ?? sceneId,
@@ -236,9 +252,12 @@ export async function getStoryCatalog(userId: string, language: string): Promise
         : null,
     dailyDrop: dropScenes.map(sceneTitle),
   };
-}
+});
 
-export async function getWorldDetail(userId: string, worldId: string): Promise<StoryWorldDetail | null> {
+export const getWorldDetail = cache(async function getWorldDetail(
+  userId: string,
+  worldId: string,
+): Promise<StoryWorldDetail | null> {
   let content: StoryWorldContent;
   try {
     content = getStoryContent(worldId.slice(0, 2));
@@ -246,19 +265,16 @@ export async function getWorldDetail(userId: string, worldId: string): Promise<S
     return null;
   }
   if (content.world.id !== worldId) return null;
-  const rows = prisma
-    ? await prisma.storySceneProgress.findMany({
-        where: { userId, languageCode: content.language },
-        select: { sceneId: true, status: true },
-      })
-    : [];
+  const [rows, progress] = await Promise.all([
+    getLanguageProgress(userId, content.language),
+    prisma
+      ? prisma.storyProgress.findFirst({ where: { userId, languageCode: content.language, worldId } })
+      : Promise.resolve(null),
+  ]);
   const completed = new Set(
     rows.filter((row) => row.status === "completed").map((row) => row.sceneId),
   );
   const touched = new Set(rows.map((row) => row.sceneId));
-  const progress = prisma
-    ? await prisma.storyProgress.findFirst({ where: { userId, languageCode: content.language, worldId } })
-    : null;
   const states = computeEpisodeStates(
     content,
     completed,
@@ -312,9 +328,9 @@ export async function getWorldDetail(userId: string, worldId: string): Promise<S
       null,
     startSceneId: content.sceneOrder[0] ?? null,
   };
-}
+});
 
-export async function getEpisodeDetail(
+export const getEpisodeDetail = cache(async function getEpisodeDetail(
   userId: string,
   episodeId: string,
 ): Promise<{
@@ -351,9 +367,9 @@ export async function getEpisodeDetail(
       cliffhanger: scene.cliffhanger,
     })),
   };
-}
+});
 
-export async function getSceneDetail(
+export const getSceneDetail = cache(async function getSceneDetail(
   userId: string,
   sceneId: string,
   explanationLocale: string,
@@ -367,11 +383,9 @@ export async function getSceneDetail(
   }
   const scene = content.scenes.get(sceneId);
   if (!scene) return null;
-  const arcId = scene.id.replace(/-p\d+$/, "");
-  const sceneNumber = Number(scene.id.match(/-p(\d+)$/)?.[1] ?? "1");
-  const episodeId = `${arcId}-l${String(Math.ceil(sceneNumber / 10)).padStart(2, "0")}`;
-  const episode = content.episodes.get(episodeId);
-  const arc = content.arcs.get(arcId);
+  const episodeId = content.episodeBySceneId.get(sceneId);
+  const episode = episodeId ? content.episodes.get(episodeId) : undefined;
+  const arc = episodeId ? content.arcs.get(episodeId.replace(/-l\d+$/, "")) : undefined;
   if (!episode || !arc) return null;
   const level = content.levels.find((item) => item.tier === arc.tier);
   const progress = prisma
@@ -457,7 +471,7 @@ export async function getSceneDetail(
     nextSceneId: nextSceneId(content, sceneId),
     previousSceneId: previousSceneId(content, sceneId),
   };
-}
+});
 
 export async function getMaterialDetail(
   userId: string,
