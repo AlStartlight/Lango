@@ -1,0 +1,1121 @@
+[
+  {
+    "canonicalId": "iv-scr-001",
+    "track": "screening",
+    "rolePack": "general",
+    "level": "B1",
+    "prompt": "自己紹介をお願いします。",
+    "translation": "Ceritakan tentang diri Anda.",
+    "romanization": "Jikoshoukai o onegai shimasu.",
+    "competencies": [
+      "self_presentation",
+      "motivation"
+    ],
+    "expectedLengthSec": [
+      60,
+      90
+    ],
+    "timeLimitSec": 150,
+    "followUps": [
+      "この仕事に一番関係する経験は何ですか。",
+      "一番誇りに思っているプロジェクトは何ですか。"
+    ],
+    "skeleton": [
+      "現在の立場と経験年数",
+      "数字を一つ入れた代表的な実績",
+      "周囲から評価される強み",
+      "志望理由を一文で"
+    ],
+    "modelAnswer": "はい、〇〇と申します。大学では情報工学を専攻し、卒業後はソフトウェアエンジニアとして七年間、主にWebアプリケーションの開発に携わってまいりました。直近では、五名のチームで官公庁向けのシステムを開発し、レポート処理を二日から四時間に短縮しました。私の強みは、曖昧な要件をリリースできる形に落とし込むことです。本日はよろしくお願いいたします。",
+    "keyPhrases": [
+      {
+        "target": "〇〇と申します",
+        "note": "自己紹介の定型。名前の前に置く。"
+      },
+      {
+        "target": "携わってまいりました",
+        "note": "経験を丁寧に述べる謙譲表現。"
+      }
+    ],
+    "rubricPoints": [
+      "現在の立場と経験年数を述べる",
+      "数字を一つ入れる",
+      "志望理由を一文で述べる"
+    ],
+    "redFlags": [
+      "履歴書を読み上げるだけ",
+      "成果の数字がない",
+      "二分を超えて長い"
+    ],
+    "culturalNote": "60〜90秒。最後は志望理由で締め、趣味の話は入れない。",
+    "keywords": [
+      "経験",
+      "プロジェクト",
+      "成果",
+      "志望"
+    ]
+  },
+  {
+    "canonicalId": "iv-scr-002",
+    "track": "screening",
+    "rolePack": "general",
+    "level": "B1",
+    "prompt": "なぜこの仕事に興味を持ちましたか。",
+    "translation": "Mengapa Anda tertarik dengan posisi ini?",
+    "romanization": "Naze kono shigoto ni kyoumi o mochimashita ka.",
+    "competencies": [
+      "motivation",
+      "research"
+    ],
+    "expectedLengthSec": [
+      45,
+      75
+    ],
+    "timeLimitSec": 135,
+    "followUps": [
+      "弊社の製品について何を知っていますか。",
+      "その製品のどこを改善したいですか。"
+    ],
+    "skeleton": [
+      "製品やチームの具体的な点を一つ挙げる",
+      "自分が解決した課題と結びつける",
+      "ここで学びたいことを述べる"
+    ],
+    "modelAnswer": "この仕事は、私が最も得意とする二つの分野、バックエンドと利用者向けの画面をつなげる点に魅力を感じました。御社の製品を拝見し、レポートの出力にまだ手作業が必要だと気づきました。これは私が直近の二つのプロジェクトで解決した課題です。週次でリリースするチームで、判断を数字で検証したいと考えております。",
+    "keyPhrases": [
+      {
+        "target": "魅力を感じました",
+        "note": "興味を丁寧に伝える。"
+      },
+      {
+        "target": "貢献したいと考えております",
+        "note": "志望動機の締め。"
+      }
+    ],
+    "rubricPoints": [
+      "企業の具体的な知識を示す",
+      "自分の経験と結びつける",
+      "一般的な称賛で終わらない"
+    ],
+    "redFlags": [
+      "有名だからという理由だけ",
+      "自分の仕事と結びつかない",
+      "給与や立地の話だけ"
+    ],
+    "culturalNote": "具体的な点を一つ調べる。一般的な称賛は不採用の最も多い理由。",
+    "keywords": [
+      "製品",
+      "チーム",
+      "課題",
+      "学び"
+    ]
+  },
+  {
+    "canonicalId": "iv-scr-003",
+    "track": "screening",
+    "rolePack": "general",
+    "level": "B1",
+    "prompt": "あなたの強みは何ですか。",
+    "translation": "Apa kelebihan Anda?",
+    "romanization": "Anata no tsuyomi wa nan desu ka.",
+    "competencies": [
+      "self_awareness",
+      "evidence"
+    ],
+    "expectedLengthSec": [
+      45,
+      75
+    ],
+    "timeLimitSec": 135,
+    "followUps": [
+      "具体例を教えてください。",
+      "同僚はその強みをどう表現しますか。"
+    ],
+    "skeleton": [
+      "強みを一つ挙げる",
+      "結果を含む短い例を示す",
+      "この仕事と結びつける"
+    ],
+    "modelAnswer": "私の強みは、曖昧な問題をチームが実行できる手順に分解できることです。認証基盤を無停止で移行する必要があった際は、調査、併行書き込み、段階的な切り替え、後片付けの四段階に分けました。約五万人の利用者が障害なく移行でき、その手順はチームの標準になりました。",
+    "keyPhrases": [
+      {
+        "target": "強みは〜ことです",
+        "note": "強みを一文で言い切る型。"
+      },
+      {
+        "target": "その手順はチームの標準になりました",
+        "note": "再現性を示す結果。"
+      }
+    ],
+    "rubricPoints": [
+      "強みは一つに絞る",
+      "具体的な例がある",
+      "結果を示す"
+    ],
+    "redFlags": [
+      "美辞麗句を並べる",
+      "例がない",
+      "完璧主義とだけ答える"
+    ],
+    "culturalNote": "強みは一つ、根拠は具体的に。",
+    "keywords": [
+      "強み",
+      "チーム",
+      "成果",
+      "課題"
+    ]
+  },
+  {
+    "canonicalId": "iv-scr-004",
+    "track": "screening",
+    "rolePack": "general",
+    "level": "B1",
+    "prompt": "あなたの短所は何ですか。",
+    "translation": "Apa kekurangan Anda?",
+    "romanization": "Anata no tansho wa nan desu ka.",
+    "competencies": [
+      "self_awareness",
+      "growth"
+    ],
+    "expectedLengthSec": [
+      45,
+      75
+    ],
+    "timeLimitSec": 135,
+    "followUps": [
+      "改善のために何をしていますか。",
+      "最後にそれが仕事に影響したのはいつですか。"
+    ],
+    "skeleton": [
+      "実際の短所を挙げる",
+      "影響を認める",
+      "現在の仕組みを説明する"
+    ],
+    "modelAnswer": "私は関係者への共有より前に、技術的な詳細を掘り下げすぎる傾向があります。設計の判断を一週間抱え、顧客レビューを遅らせたときに気づきました。現在は、毎週金曜日に判断とリスクを短く共有し、調査は二日までと決めてから相談するようにしています。",
+    "keyPhrases": [
+      {
+        "target": "〜する傾向があります",
+        "note": "短所を客観的に述べる。"
+      },
+      {
+        "target": "現在は〜ようにしています",
+        "note": "改善の仕組みを示す。"
+      }
+    ],
+    "rubricPoints": [
+      "実際の短所を挙げる",
+      "影響を認める",
+      "具体的な改善の仕組みを示す"
+    ],
+    "redFlags": [
+      "短所はないと答える",
+      "完璧主義という定型句だけ",
+      "職務に致命的な短所を選ぶ"
+    ],
+    "culturalNote": "致命的でない実際の短所を選び、仕組みで語る。",
+    "keywords": [
+      "短所",
+      "改善",
+      "影響",
+      "仕組み"
+    ]
+  },
+  {
+    "canonicalId": "iv-scr-005",
+    "track": "screening",
+    "rolePack": "general",
+    "level": "B1",
+    "prompt": "前の会社を辞めた理由は何ですか。",
+    "translation": "Mengapa Anda ingin resign?",
+    "romanization": "Mae no kaisha o yameta riyuu wa nan desu ka.",
+    "competencies": [
+      "motivation",
+      "diplomacy"
+    ],
+    "expectedLengthSec": [
+      45,
+      75
+    ],
+    "timeLimitSec": 135,
+    "followUps": [
+      "前の会社で恋しくなるものは何ですか。",
+      "何があれば残りましたか。"
+    ],
+    "skeleton": [
+      "前職への感謝を述べる",
+      "前向きな理由を述べる",
+      "この仕事と結びつける"
+    ],
+    "modelAnswer": "前職では規制産業のシステムと関係者調整について多くを学びました。一方で、週次でリリースするプロダクトチームの速度と規模はまだ経験できていません。実験を数字で検証し、アーキテクチャの判断をデータで見直す環境で働きたいと考え、応募いたしました。",
+    "keyPhrases": [
+      {
+        "target": "多くを学びました",
+        "note": "前職への感謝。"
+      },
+      {
+        "target": "まだ経験できていません",
+        "note": "不足している経験を前向きに。"
+      }
+    ],
+    "rubricPoints": [
+      "転職を成長として説明する",
+      "人を批判しない",
+      "志望動機と一貫している"
+    ],
+    "redFlags": [
+      "上司の悪口",
+      "給与だけ",
+      "志望動機と矛盾する"
+    ],
+    "culturalNote": "人を批判せず、不足している経験として語る。",
+    "keywords": [
+      "成長",
+      "チーム",
+      "学び",
+      "志望"
+    ]
+  },
+  {
+    "canonicalId": "iv-beh-001",
+    "track": "behavioral",
+    "rolePack": "general",
+    "level": "B2",
+    "prompt": "納期が厳しいとき、どのように対応しましたか。",
+    "translation": "Ceritakan pengalaman menghadapi tenggat ketat.",
+    "romanization": "Nouki ga kibishii toki, dono you ni taiou shimashita ka.",
+    "competencies": [
+      "time_management",
+      "prioritization"
+    ],
+    "expectedLengthSec": [
+      90,
+      120
+    ],
+    "timeLimitSec": 180,
+    "followUps": [
+      "何を削り、どう判断しましたか。",
+      "誰にいつ共有しましたか。"
+    ],
+    "skeleton": [
+      "状況と期限",
+      "自分の担当範囲",
+      "削った点、変えた点、相談した点",
+      "数字を入れた結果"
+    ],
+    "modelAnswer": "政府向けのコンプライアンス機能を二週間でリリースする必要があり、私はAPIと移行を担当しました。四日目に、旧データの整理が想定より重いと気づいたため、すぐに上司へ共有し、重要度の低いレポートを一つ削り、QAと段階リリースを行いました。一天遅れましたが、データの問題はゼロでした。",
+    "keyPhrases": [
+      {
+        "target": "すぐに上司へ共有し",
+        "note": "早期報告の表現。"
+      },
+      {
+        "target": "一天遅れましたが",
+        "note": "結果を正直に述べる。"
+      }
+    ],
+    "rubricPoints": [
+      "制約を述べる",
+      "自分の行動を示す",
+      "トレードオフを説明する",
+      "結果で締める"
+    ],
+    "redFlags": [
+      "チームのせいにする",
+      "トレードオフの説明がない",
+      "結果の前に終わる"
+    ],
+    "culturalNote": "遅れた期限でも、早く具体的に相談していれば良い答えになる。",
+    "keywords": [
+      "期限",
+      "トレードオフ",
+      "結果",
+      "チーム"
+    ]
+  },
+  {
+    "canonicalId": "iv-beh-002",
+    "track": "behavioral",
+    "rolePack": "general",
+    "level": "B2",
+    "prompt": "同僚との意見の対立をどのように解決しましたか。",
+    "translation": "Bagaimana Anda menyelesaikan konflik?",
+    "romanization": "Douryou to no iken no tairitsu o dono you ni kaiketsu shimashita ka.",
+    "competencies": [
+      "conflict",
+      "collaboration"
+    ],
+    "expectedLengthSec": [
+      90,
+      120
+    ],
+    "timeLimitSec": 180,
+    "followUps": [
+      "今なら何を変えますか。",
+      "現在の関係はどうですか。"
+    ],
+    "skeleton": [
+      "対立を中立に説明する",
+      "相手を理解するためにしたこと",
+      "合意した判断基準",
+      "結果"
+    ],
+    "modelAnswer": "QAリードと私は、不安定なテストがリリースを止めるべきかで意見が分かれました。私は三十分をもらい、失敗した各ケースの利用者への影響を整理し、同じ重大度の基準で判断することに合意しました。重大な修正を先にリリースし、その基準はチームの標準になりました。",
+    "keyPhrases": [
+      {
+        "target": "意見が分かれました",
+        "note": "対立を中立に述べる。"
+      },
+      {
+        "target": "合意しました",
+        "note": "着地点を示す。"
+      }
+    ],
+    "rubricPoints": [
+      "相手を責めずに説明する",
+      "具体的な沈静化の行動",
+      "チームに利益がある結果"
+    ],
+    "redFlags": [
+      "対立はないと答える",
+      "相手を不合理に描く",
+      "避けることで解決する"
+    ],
+    "culturalNote": "誰が正しいかではなく、判断基準に焦点を当てる。",
+    "keywords": [
+      "対立",
+      "合意",
+      "チーム",
+      "結果"
+    ]
+  },
+  {
+    "canonicalId": "iv-beh-003",
+    "track": "behavioral",
+    "rolePack": "general",
+    "level": "B1",
+    "prompt": "失敗した経験を教えてください。",
+    "translation": "Ceritakan pengalaman gagal.",
+    "romanization": "Shippai shita keiken o oshiete kudasai.",
+    "competencies": [
+      "resilience",
+      "accountability"
+    ],
+    "expectedLengthSec": [
+      90,
+      120
+    ],
+    "timeLimitSec": 180,
+    "followUps": [
+      "その後何を変えましたか。",
+      "同じ問題は再発しましたか。"
+    ],
+    "skeleton": [
+      "失敗と自分の役割",
+      "影響",
+      "原因",
+      "再発防止の仕組み"
+    ],
+    "modelAnswer": "返金処理をテストせずに決済の変更をリリースし、二名のお客様に二重請求が発生しました。私は修正とお詫びを担当しました。原因はチェックリストを記憶に頼っていたことで、必須のプルリクエストテンプレートに変えました。その後一年間、同様の事象は起きていません。",
+    "keyPhrases": [
+      {
+        "target": "二重請求が発生しました",
+        "note": "影響を具体的に。"
+      },
+      {
+        "target": "その後一年間、同様の事象は起きていません",
+        "note": "再発防止の結果。"
+      }
+    ],
+    "rubricPoints": [
+      "失敗を認める",
+      "実際の影響を述べる",
+      "反省だけでなく防止策を示す"
+    ],
+    "redFlags": [
+      "同僚のせいにする",
+      "小さな失敗を選ぶ",
+      "防止策がない"
+    ],
+    "culturalNote": "実際の影響がある失敗を選び、変えた仕組みを語る。",
+    "keywords": [
+      "失敗",
+      "影響",
+      "防止",
+      "学び"
+    ]
+  },
+  {
+    "canonicalId": "iv-beh-004",
+    "track": "behavioral",
+    "rolePack": "general",
+    "level": "B2",
+    "prompt": "プロジェクトをリードした経験を教えてください。",
+    "translation": "Ceritakan pengalaman memimpin proyek.",
+    "romanization": "Purojekuto o riido shita keiken o oshiete kudasai.",
+    "competencies": [
+      "leadership",
+      "planning"
+    ],
+    "expectedLengthSec": [
+      90,
+      120
+    ],
+    "timeLimitSec": 180,
+    "followUps": [
+      "反対するメンバーにどう対応しましたか。",
+      "何を任せましたか。"
+    ],
+    "skeleton": [
+      "目的とチーム規模",
+      "仕事の分け方",
+      "進捗管理と障害の除去",
+      "結果"
+    ],
+    "modelAnswer": "五名のチームで省庁向けの投資ダッシュボードを作り直しました。リスクで作業を分け、毎日十五分の障害除去の時間を設け、意思決定の記録を全員が閲覧できるようにしました。二週間早く完了し、レポート処理を二日から四時間に短縮しました。後に二名が自分のモジュールを率いています。",
+    "keyPhrases": [
+      {
+        "target": "リスクで作業を分け",
+        "note": "分担の基準を示す。"
+      },
+      {
+        "target": "二週間早く完了し",
+        "note": "成果を数字で。"
+      }
+    ],
+    "rubricPoints": [
+      "チーム規模と目的を述べる",
+      "仕事の分け方を示す",
+      "障害除去や意思決定に触れる",
+      "結果で締める"
+    ],
+    "redFlags": [
+      "コーディングの話だけ",
+      "成果を独占する",
+      "結果がない"
+    ],
+    "culturalNote": "リーダーシップは障害除去と意思決定であり、全部を自分でやることではない。",
+    "keywords": [
+      "リード",
+      "チーム",
+      "結果",
+      "意思決定"
+    ]
+  },
+  {
+    "canonicalId": "iv-tec-001",
+    "track": "technical",
+    "rolePack": "software",
+    "level": "B2",
+    "prompt": "これまでに構築したシステムの構成を説明してください。",
+    "translation": "Jelaskan arsitektur sistem yang Anda bangun.",
+    "romanization": "Kore made ni kouchiku shita shisutemu no kousei o setsumei shite kudasai.",
+    "competencies": [
+      "architecture",
+      "communication"
+    ],
+    "expectedLengthSec": [
+      90,
+      180
+    ],
+    "timeLimitSec": 240,
+    "followUps": [
+      "トラフィックが十倍になったら何を変えますか。",
+      "単一障害点はどこですか。"
+    ],
+    "skeleton": [
+      "要件と制約",
+      "主要な構成要素とデータの流れ",
+      "選んだトレードオフ",
+      "今なら変える点"
+    ],
+    "modelAnswer": "政府向けのレポート基盤で、Next.jsの画面、Spring BootのAPI、PostgreSQL、重い出力用のキューで構成されています。厳格な監査証跡が要件だったため、すべての書き込みはAPIを通し、追記専用のイベントテーブルに保存しました。出力はワーカーに移し、リクエストを300ミリ秒未満に保ちました。今なら読み取りレプリカを早く入れます。",
+    "keyPhrases": [
+      {
+        "target": "追記専用のイベントテーブル",
+        "note": "設計の要点。"
+      },
+      {
+        "target": "読み取りレプリカを早く入れます",
+        "note": "改善案を述べる。"
+      }
+    ],
+    "rubricPoints": [
+      "要件から話す",
+      "構成とデータの流れを示す",
+      "トレードオフを一つ述べる",
+      "変えたい点を述べる"
+    ],
+    "redFlags": [
+      "技術名を理由なく並べる",
+      "データの流れがない",
+      "トレードオフはなかったと言う"
+    ],
+    "culturalNote": "制約、構成、トレードオフの順で話す。",
+    "keywords": [
+      "構成",
+      "API",
+      "データベース",
+      "トレードオフ"
+    ]
+  },
+  {
+    "canonicalId": "iv-tec-002",
+    "track": "technical",
+    "rolePack": "software",
+    "level": "B2",
+    "prompt": "パフォーマンスのために行ったトレードオフを教えてください。",
+    "translation": "Ceritakan trade-off demi performa.",
+    "romanization": "Pafōmansu no tame ni okonatta tooreedo ofu o oshiete kudasai.",
+    "competencies": [
+      "performance",
+      "judgment"
+    ],
+    "expectedLengthSec": [
+      90,
+      150
+    ],
+    "timeLimitSec": 210,
+    "followUps": [
+      "改善をどう測定しましたか。",
+      "何を犠牲にしましたか。"
+    ],
+    "skeleton": [
+      "遅い処理と測定方法",
+      "検討した選択肢",
+      "選んだトレードオフ",
+      "測定した結果"
+    ],
+    "modelAnswer": "ダッシュボードのクエリが二十万行で九秒かかっていました。複合インデックスと夜間の集計テーブルを追加し、四百ミリ秒未満に短縮しました。代わりに一つのウィジェットは最大一日古いデータになります。そのウィジェットに時刻を表示し、利用者が遅延を理解できるようにしました。",
+    "keyPhrases": [
+      {
+        "target": "四百ミリ秒未満に短縮しました",
+        "note": "改善の数字。"
+      },
+      {
+        "target": "代わりに〜古いデータになります",
+        "note": "トレードオフの代償。"
+      }
+    ],
+    "rubricPoints": [
+      "前後の数値を示す",
+      "トレードオフの代償を述べる",
+      "直感ではなく測定を示す"
+    ],
+    "redFlags": [
+      "速くなったとだけ言う",
+      "数字がない",
+      "短所を隠す"
+    ],
+    "culturalNote": "トレードオフの答えには、利益だけでなく代償が必要。",
+    "keywords": [
+      "性能",
+      "測定",
+      "代償",
+      "結果"
+    ]
+  },
+  {
+    "canonicalId": "iv-tec-003",
+    "track": "technical",
+    "rolePack": "software",
+    "level": "B2",
+    "prompt": "本番障害が起きたとき、どのように対応しましたか。",
+    "translation": "Ceritakan insiden produksi.",
+    "romanization": "Honban shougai ga okita toki, dono you ni taiou shimashita ka.",
+    "competencies": [
+      "operations",
+      "composure"
+    ],
+    "expectedLengthSec": [
+      90,
+      150
+    ],
+    "timeLimitSec": 210,
+    "followUps": [
+      "根本原因は何でしたか。",
+      "プロセスは何を変えましたか。"
+    ],
+    "skeleton": [
+      "症状と影響",
+      "最初の対応",
+      "根本原因",
+      "再発防止"
+    ],
+    "modelAnswer": "リリースによりAPIリクエストの12パーセントが失敗しました。オンコールだったため、八分以内にロールバックし、インシデントの時系列を記録しました。原因はインデックスを削除する移行でした。インデックスを復旧し、移行チェックリストと監視を追加しました。以降六か月間、再発はありません。",
+    "keyPhrases": [
+      {
+        "target": "八分以内にロールバックし",
+        "note": "初動の速さ。"
+      },
+      {
+        "target": "再発はありません",
+        "note": "再発防止の結果。"
+      }
+    ],
+    "rubricPoints": [
+      "影響を述べる",
+      "初動の緩和を示す",
+      "根本原因を特定する",
+      "再発防止を加える"
+    ],
+    "redFlags": [
+      "パニックになる、担当者を責める",
+      "緩和の手順がない",
+      "修正だけで終わる"
+    ],
+    "culturalNote": "面接官は障害そのものより、あなたの進め方を見ている。",
+    "keywords": [
+      "障害",
+      "ロールバック",
+      "原因",
+      "防止"
+    ]
+  },
+  {
+    "canonicalId": "iv-cas-001",
+    "track": "case",
+    "rolePack": "software",
+    "level": "B2",
+    "prompt": "急ぎの依頼が3つあり、エンジニアは1人です。どう優先しますか。",
+    "translation": "Ada tiga permintaan mendesak dan satu engineer.",
+    "romanization": "Isogi no irai ga mittsu ari, enjinia wa hitori desu. Dou yuusen shimasu ka.",
+    "competencies": [
+      "prioritization",
+      "communication"
+    ],
+    "expectedLengthSec": [
+      120,
+      180
+    ],
+    "timeLimitSec": 240,
+    "followUps": [
+      "CEOの依頼が一つあったらどうしますか。",
+      "遅れることをどう伝えますか。"
+    ],
+    "skeleton": [
+      "影響と取り消し可能性を確認する",
+      "遅延した場合の損害で順位づけする",
+      "決定を関係者に伝える",
+      "見直しの時点を決める"
+    ],
+    "modelAnswer": "まず緊急度と影響を分け、何が誰に壊れるか、取り消せるかを確認します。次に一日遅れるごとの損害で順位をつけます。データ損失を直し、収益を止める修正を明日に置き、三つ目の依頼には日付と理由を伝えます。順位は上司に書面で確認します。",
+    "keyPhrases": [
+      {
+        "target": "一日遅れるごとの損害で順位をつけます",
+        "note": "優先順位の基準。"
+      },
+      {
+        "target": "書面で確認します",
+        "note": "合意の残し方。"
+      }
+    ],
+    "rubricPoints": [
+      "明確な基準を使う",
+      "遅延を伝える",
+      "トレードオフを述べる"
+    ],
+    "redFlags": [
+      "全部緊急と言う",
+      "声の大きい人を優先する",
+      "関係者への共有がない"
+    ],
+    "culturalNote": "基準を示し、三つの依頼に当てはめる。",
+    "keywords": [
+      "優先",
+      "影響",
+      "調整",
+      "リスク"
+    ]
+  },
+  {
+    "canonicalId": "iv-cas-002",
+    "track": "case",
+    "rolePack": "software",
+    "level": "B2",
+    "prompt": "主要機能が一部のユーザーで動きません。どう調査しますか。",
+    "translation": "Fitur utama gagal untuk 10% pengguna.",
+    "romanization": "Shuyou kinou ga ichibu no yuuzaa de ugokimasen. Dou chousa shimasu ka.",
+    "competencies": [
+      "diagnosis",
+      "data"
+    ],
+    "expectedLengthSec": [
+      120,
+      180
+    ],
+    "timeLimitSec": 240,
+    "followUps": [
+      "最初にどのデータを見ますか。",
+      "ロールバックはどう判断しますか。"
+    ],
+    "skeleton": [
+      "データで範囲を確認する",
+      "共通要因の仮説を立てる",
+      "安全に仮説を検証する",
+      "ロールバックか修正かを決める"
+    ],
+    "modelAnswer": "まず10パーセントが端末、地域、権限、直近のリリースのどれと相関するかを見ます。直近のデプロイが起点なら、まずロールバックし、その後に調査します。影響を受けた一つのアカウントで再現し、必要ならログを追加し、フラグを使って小さな集団に修正を出します。",
+    "keyPhrases": [
+      {
+        "target": "まずロールバックし",
+        "note": "初動。"
+      },
+      {
+        "target": "フラグを使って小さな集団に修正を出します",
+        "note": "安全な展開。"
+      }
+    ],
+    "rubricPoints": [
+      "推測ではなくデータから始める",
+      "緩和と原因調査を分ける",
+      "安全な段階リリース"
+    ],
+    "redFlags": [
+      "すぐに作り直す",
+      "ロールバックを考えない",
+      "測定の計画がない"
+    ],
+    "culturalNote": "修正案の前に、最初の切り口を述べる。",
+    "keywords": [
+      "調査",
+      "範囲",
+      "ロールバック",
+      "データ"
+    ]
+  },
+  {
+    "canonicalId": "iv-cas-003",
+    "track": "case",
+    "rolePack": "general",
+    "level": "B2",
+    "prompt": "オンボーディングの離脱を半分に減らすにはどうしますか。",
+    "translation": "Bagaimana mengurangi drop-off onboarding?",
+    "romanization": "Onbooodingu no ridatsu o hanbun ni herasu ni wa dou shimasu ka.",
+    "competencies": [
+      "product",
+      "analytics"
+    ],
+    "expectedLengthSec": [
+      120,
+      180
+    ],
+    "timeLimitSec": 240,
+    "followUps": [
+      "最初にどの段階を試しますか。",
+      "成功したかどう判断しますか。"
+    ],
+    "skeleton": [
+      "ファネルと最大の離脱を定義する",
+      "仮説を一つ選ぶ",
+      "小さな実験を設計する",
+      "成功指標を決める"
+    ],
+    "modelAnswer": "ファネルを段階ごとに整理し、最も大きな離脱を探します。もしメール認証なら、ソーシャルログインと途中再開できる流れを一つの集団で試します。成功は24時間以内の認証完了とし、全面展開の前に対照群と比較して測ります。",
+    "keyPhrases": [
+      {
+        "target": "最も大きな離脱を探します",
+        "note": "分析の起点。"
+      },
+      {
+        "target": "対照群と比較して測ります",
+        "note": "実験の測り方。"
+      }
+    ],
+    "rubricPoints": [
+      "ファネルと指標を挙げる",
+      "仮説を一つに絞る",
+      "対照群を含める"
+    ],
+    "redFlags": [
+      "指標なしの redesign",
+      "複数を同時に試す",
+      "基準値がない"
+    ],
+    "culturalNote": "段階を一つ、変更を一つ、指標を一つ。",
+    "keywords": [
+      "ファネル",
+      "実験",
+      "指標",
+      "離脱"
+    ]
+  },
+  {
+    "canonicalId": "iv-clo-001",
+    "track": "closing",
+    "rolePack": "general",
+    "level": "B1",
+    "prompt": "希望年収を教えてください。",
+    "translation": "Berapa ekspektasi gaji Anda?",
+    "romanization": "Kibou nenshuu o oshiete kudasai.",
+    "competencies": [
+      "negotiation",
+      "research"
+    ],
+    "expectedLengthSec": [
+      45,
+      75
+    ],
+    "timeLimitSec": 135,
+    "followUps": [
+      "最低ラインはいくらですか。",
+      "その範囲をどう決めましたか。"
+    ],
+    "skeleton": [
+      "調査に基づく範囲を示す",
+      "根拠を述べる",
+      "総合的な待遇で柔軟性を示す",
+      "企業のレンジを尋ねる"
+    ],
+    "modelAnswer": "バックエンドとモバイルを担当するシニア職の市場データに基づくと、年収600万から750万円を想定しており、総合的な待遇については相談可能です。もし可能でしたら、この職種のレンジを教えていただけますか。",
+    "keyPhrases": [
+      {
+        "target": "年収600万から750万円を想定しており",
+        "note": "レンジの示し方。"
+      },
+      {
+        "target": "相談可能です",
+        "note": "柔軟性。"
+      }
+    ],
+    "rubricPoints": [
+      "単一の数字ではなく範囲を示す",
+      "根拠を説明する",
+      "企業のレンジを尋ねる"
+    ],
+    "redFlags": [
+      "根拠のない数字",
+      "すぐに下げる",
+      "答えを拒む"
+    ],
+    "culturalNote": "額面と範囲を述べ、企業のレンジを尋ねる。",
+    "keywords": [
+      "年収",
+      "範囲",
+      "市場",
+      "待遇"
+    ]
+  },
+  {
+    "canonicalId": "iv-clo-002",
+    "track": "closing",
+    "rolePack": "general",
+    "level": "B1",
+    "prompt": "退職までの期間と、就労資格について教えてください。",
+    "translation": "Berapa notice period dan status izin kerja Anda?",
+    "romanization": "Taishoku made no kikan to, shuurou shikaku ni tsuite oshiete kudasai.",
+    "competencies": [
+      "logistics",
+      "honesty"
+    ],
+    "expectedLengthSec": [
+      45,
+      75
+    ],
+    "timeLimitSec": 135,
+    "followUps": [
+      "移住の支援は必要ですか。",
+      "いつから働けますか。"
+    ],
+    "skeleton": [
+      "退職までの期間を述べる",
+      "就労資格を正直に述べる",
+      "最短の開始日を伝える",
+      "移住の必要性を早めに伝える"
+    ],
+    "modelAnswer": "退職までは一か月で、三月上旬から勤務可能です。現在インドネシアのパスポートを所持しており、この職種では就労ビザが必要です。書類は準備できており、手続きはすぐに開始できます。移住についても前向きに検討しております。",
+    "keyPhrases": [
+      {
+        "target": "三月上旬から勤務可能です",
+        "note": "開始日の伝え方。"
+      },
+      {
+        "target": "就労ビザが必要です",
+        "note": "資格の正直な説明。"
+      }
+    ],
+    "rubricPoints": [
+      "退職までの期間を明示する",
+      "ビザの状況を正直に述べる",
+      "現実的な開始日を示す"
+    ],
+    "redFlags": [
+      "資格について曖昧に答える",
+      "守れない開始日を約束する",
+      "移住の必要性を隠す"
+    ],
+    "culturalNote": "ビザの状況を推測せず、分かることと自分で進めることを述べる。",
+    "keywords": [
+      "退職",
+      "ビザ",
+      "開始",
+      "移住"
+    ]
+  },
+  {
+    "canonicalId": "iv-clo-003",
+    "track": "closing",
+    "rolePack": "general",
+    "level": "A2",
+    "prompt": "何か質問はありますか。",
+    "translation": "Apa pertanyaan Anda untuk kami?",
+    "romanization": "Nanika shitsumon wa arimasu ka.",
+    "competencies": [
+      "engagement",
+      "research"
+    ],
+    "expectedLengthSec": [
+      30,
+      60
+    ],
+    "timeLimitSec": 120,
+    "followUps": [
+      "承諾前に何を知りたいですか。",
+      "入社後、最初に確認したいことは何ですか。"
+    ],
+    "skeleton": [
+      "最初の六か月の成功基準を聞く",
+      "意思決定の方法を聞く",
+      "現在の最も難しい課題を聞く"
+    ],
+    "modelAnswer": "はい、三点お伺いしたいことがございます。一点目は、入社後六か月で期待されている成果についてです。二点目は、プロダクトとエンジニアリングが技術的な判断をどのように行うかについてです。三点目は、今年チームが解決したい最も難しい課題についてです。",
+    "keyPhrases": [
+      {
+        "target": "三点お伺いしたいことがございます",
+        "note": "質問の前置き。"
+      },
+      {
+        "target": "期待されている成果について",
+        "note": "貢献意識を示す質問。"
+      }
+    ],
+    "rubricPoints": [
+      "具体的な質問を二、三個",
+      "下調べを示す",
+      "最初に給与や休暇を聞かない"
+    ],
+    "redFlags": [
+      "特にないと答える",
+      "休暇だけを聞く",
+      "サイトに載っていることを聞く"
+    ],
+    "culturalNote": "質問は三つ。二つは仕事、一つはチームについて。",
+    "keywords": [
+      "質問",
+      "成功",
+      "チーム",
+      "課題"
+    ]
+  },
+  {
+    "canonicalId": "iv-pan-001",
+    "track": "panel",
+    "rolePack": "general",
+    "level": "B2",
+    "prompt": "履歴書に6か月の空白がありますが、理由は何ですか。",
+    "translation": "Mengapa ada jeda enam bulan di CV?",
+    "romanization": "Rirekisho ni rokkagetsu no kuuhaku ga arimasu ga, riyuu wa nan desu ka.",
+    "competencies": [
+      "composure",
+      "honesty"
+    ],
+    "expectedLengthSec": [
+      45,
+      90
+    ],
+    "timeLimitSec": 150,
+    "followUps": [
+      "その間に何を学びましたか。",
+      "どうやって知識を保ちましたか。"
+    ],
+    "skeleton": [
+      "理由を簡潔かつ事実で述べる",
+      "空白期間の活動を述べる",
+      "知識を保った方法を示す",
+      "この仕事に戻る"
+    ],
+    "modelAnswer": "家族の介護とクラウド資格の取得のために六か月をいただきました。その間も小さなオープンソースの活動を続け、二人の元同僚と連絡を取り合っていました。状況は落ち着いており、フルタイムで働く準備ができております。",
+    "keyPhrases": [
+      {
+        "target": "状況は落ち着いており",
+        "note": "空白期間の説明の締め。"
+      },
+      {
+        "target": "フルタイムで働く準備ができております",
+        "note": "勤務可能の表現。"
+      }
+    ],
+    "rubricPoints": [
+      "過度に詳しく語らず説明する",
+      "期間中の活動を示す",
+      "勤務可能であることを伝える"
+    ],
+    "redFlags": [
+      "何度も謝る",
+      "話を作る",
+      "理由を説明しない"
+    ],
+    "culturalNote": "簡潔に、事実で、最後は勤務可能であることに触れる。",
+    "keywords": [
+      "空白",
+      "学習",
+      "可能",
+      "理由"
+    ]
+  },
+  {
+    "canonicalId": "iv-pan-002",
+    "track": "panel",
+    "rolePack": "general",
+    "level": "C1",
+    "prompt": "面接官全員の意見に反対です。どう伝えますか。",
+    "translation": "Anda tidak setuju dengan seluruh panel.",
+    "romanization": "Mensetsukan zen'in no iken ni hantai desu. Dou tsutaemasu ka.",
+    "competencies": [
+      "courage",
+      "diplomacy"
+    ],
+    "expectedLengthSec": [
+      60,
+      120
+    ],
+    "timeLimitSec": 180,
+    "followUps": [
+      "それでも反対されたらどうしますか。",
+      "どこで押すのをやめますか。"
+    ],
+    "skeleton": [
+      "共通の目的を認める",
+      "根拠とともに懸念を述べる",
+      "小さな検証か妥協を提案する",
+      "決定後はコミットする"
+    ],
+    "modelAnswer": "まず共通の目的から始め、私がためらう根拠を述べます。決着をつけられる小さな検証を提案し、それでも別の結論になった場合は、懸念を記録した上で決定に従い、後でデータで見直せるようにします。",
+    "keyPhrases": [
+      {
+        "target": "共通の目的から始め",
+        "note": "対立の伝え方。"
+      },
+      {
+        "target": "懸念を記録した上で決定に従い",
+        "note": "disagree and commit。"
+      }
+    ],
+    "rubricPoints": [
+      "根拠とともに反対する",
+      "検証や妥協を提案する",
+      "決定後は従う"
+    ],
+    "redFlags": [
+      "黙って不満をためる",
+      "攻撃的になる",
+      "従うことを拒む"
+    ],
+    "culturalNote": "Disagree and commit。懸念は記録に残す。",
+    "keywords": [
+      "反対",
+      "根拠",
+      "コミット",
+      "決定"
+    ]
+  }
+]

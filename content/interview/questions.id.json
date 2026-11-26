@@ -1,0 +1,1041 @@
+[
+  {
+    "canonicalId": "iv-scr-001",
+    "track": "screening",
+    "rolePack": "general",
+    "level": "B1",
+    "prompt": "Ceritakan tentang diri Anda.",
+    "translation": "Tell me about yourself.",
+    "romanization": null,
+    "competencies": [
+      "self_presentation",
+      "motivation"
+    ],
+    "expectedLengthSec": [
+      60,
+      90
+    ],
+    "timeLimitSec": 150,
+    "followUps": [
+      "Bagian mana dari pengalaman Anda yang paling relevan untuk posisi ini?",
+      "Proyek mana yang paling Anda banggakan?"
+    ],
+    "skeleton": [
+      "Posisi sekarang dan lama pengalaman",
+      "Satu hasil unggulan dengan angka",
+      "Kekuatan yang orang kenali dari Anda",
+      "Alasan melamar dalam satu kalimat"
+    ],
+    "modelAnswer": "Terima kasih, Bapak/Ibu. Saya Asep, full-stack engineer dengan pengalaman tujuh tahun di pengembangan web dan mobile. Di proyek terakhir saya memimpin lima engineer membangun dashboard investasi untuk klien pemerintah, dan memangkas waktu pemrosesan laporan dari dua hari menjadi empat jam untuk sekitar 50.000 pengguna. Kekuatan saya adalah mengubah kebutuhan yang belum rapi menjadi sistem yang bisa dirilis. Saya melamar karena posisi ini menggabungkan backend dan frontend yang dekat dengan produk.",
+    "keyPhrases": [
+      {
+        "target": "memangkas waktu pemrosesan dari dua hari menjadi empat jam",
+        "note": "Hasil dengan sebelum-sesudah yang jelas."
+      }
+    ],
+    "rubricPoints": [
+      "Menyebut posisi dan lama pengalaman",
+      "Ada minimal satu hasil terukur",
+      "Menjelaskan alasan melamar secara spesifik"
+    ],
+    "redFlags": [
+      "Membaca CV baris per baris",
+      "Tidak ada hasil atau angka",
+      "Berbicara lebih dari dua menit"
+    ],
+    "culturalNote": "60-90 detik, diakhiri alasan melamar, bukan riwayat hobi.",
+    "keywords": [
+      "pengalaman",
+      "proyek",
+      "dampak",
+      "alasan"
+    ]
+  },
+  {
+    "canonicalId": "iv-scr-002",
+    "track": "screening",
+    "rolePack": "general",
+    "level": "B1",
+    "prompt": "Mengapa Anda tertarik dengan posisi ini?",
+    "translation": "Why are you interested in this role?",
+    "romanization": null,
+    "competencies": [
+      "motivation",
+      "research"
+    ],
+    "expectedLengthSec": [
+      45,
+      75
+    ],
+    "timeLimitSec": 135,
+    "followUps": [
+      "Apa yang Anda ketahui tentang produk kami?",
+      "Apa yang akan Anda ubah dari produk itu?"
+    ],
+    "skeleton": [
+      "Sebut satu hal konkret tentang produk atau tim",
+      "Hubungkan dengan masalah yang pernah Anda selesaikan",
+      "Sebutkan hal yang ingin Anda pelajari"
+    ],
+    "modelAnswer": "Posisi ini menghubungkan dua hal yang paling saya kuasai: sistem backend dan antarmuka yang dipakai pengguna. Saya sempat mencoba produk Bapak/Ibu dan melihat alur laporan masih memerlukan ekspor manual. Itu masalah yang saya tangani di dua proyek terakhir. Saya juga ingin bekerja di tim yang merilis setiap minggu, karena ritme itu membuat keputusan saya lebih terukur.",
+    "keyPhrases": [
+      {
+        "target": "alur laporan masih memerlukan ekspor manual",
+        "note": "Menunjukkan Anda benar-benar memakai produknya."
+      }
+    ],
+    "rubricPoints": [
+      "Menunjukkan pengetahuan spesifik tentang perusahaan",
+      "Menghubungkan peran dengan pengalaman pribadi",
+      "Tidak memuji secara generik"
+    ],
+    "redFlags": [
+      "Hanya bilang perusahaan terkenal",
+      "Tidak menghubungkan dengan pekerjaan Anda",
+      "Hanya membahas gaji atau lokasi"
+    ],
+    "culturalNote": "Riset satu detail nyata. Pujian generik adalah alasan penolakan paling umum.",
+    "keywords": [
+      "produk",
+      "tim",
+      "masalah",
+      "belajar"
+    ]
+  },
+  {
+    "canonicalId": "iv-scr-003",
+    "track": "screening",
+    "rolePack": "general",
+    "level": "B1",
+    "prompt": "Apa kelebihan Anda?",
+    "translation": "What are your strengths?",
+    "romanization": null,
+    "competencies": [
+      "self_awareness",
+      "evidence"
+    ],
+    "expectedLengthSec": [
+      45,
+      75
+    ],
+    "timeLimitSec": 135,
+    "followUps": [
+      "Bisa beri contoh?",
+      "Bagaimana rekan kerja menggambarkan kelebihan itu?"
+    ],
+    "skeleton": [
+      "Sebut satu kelebihan",
+      "Beri contoh singkat dengan hasil",
+      "Kaitkan dengan posisi ini"
+    ],
+    "modelAnswer": "Kelebihan saya adalah memecah masalah yang belum jelas menjadi langkah yang bisa dikerjakan tim. Saat harus memigrasikan autentikasi tanpa downtime, saya membaginya menjadi audit, dual-write, migrasi bertahap, dan pembersihan. Sekitar 50.000 pengguna berpindah tanpa keluhan gangguan, dan checklist itu menjadi standar tim.",
+    "keyPhrases": [
+      {
+        "target": "tanpa downtime",
+        "note": "Menyebut batasan yang membuat pekerjaan sulit."
+      }
+    ],
+    "rubricPoints": [
+      "Satu kelebihan, bukan daftar",
+      "Ada contoh konkret",
+      "Menunjukkan hasil"
+    ],
+    "redFlags": [
+      "Menyebut lima kata sifat",
+      "Tanpa contoh",
+      "Mengaku perfeksionis"
+    ],
+    "culturalNote": "Satu kelebihan dengan bukti lebih kuat dari lima kata sifat.",
+    "keywords": [
+      "kelebihan",
+      "tim",
+      "hasil",
+      "masalah"
+    ]
+  },
+  {
+    "canonicalId": "iv-scr-004",
+    "track": "screening",
+    "rolePack": "general",
+    "level": "B1",
+    "prompt": "Apa kekurangan Anda?",
+    "translation": "What is your biggest weakness?",
+    "romanization": null,
+    "competencies": [
+      "self_awareness",
+      "growth"
+    ],
+    "expectedLengthSec": [
+      45,
+      75
+    ],
+    "timeLimitSec": 135,
+    "followUps": [
+      "Apa yang sudah Anda lakukan untuk memperbaikinya?",
+      "Kapan terakhir kali itu memengaruhi pekerjaan Anda?"
+    ],
+    "skeleton": [
+      "Sebut kekurangan yang nyata",
+      "Tunjukkan dampaknya",
+      "Jelaskan sistem yang sekarang Anda pakai"
+    ],
+    "modelAnswer": "Saya cenderung terlalu dalam pada detail teknis sebelum memberi kabar ke pemangku kepentingan. Saya menyadarinya saat satu keputusan desain tertahan seminggu dan menunda review klien. Sekarang saya mengirim ringkasan singkat setiap Jumat berisi keputusan dan risiko, dan saya membatasi eksplorasi teknis maksimal dua hari sebelum meminta masukan.",
+    "keyPhrases": [
+      {
+        "target": "membatasi eksplorasi teknis maksimal dua hari",
+        "note": "Menunjukkan mekanisme, bukan janji."
+      }
+    ],
+    "rubricPoints": [
+      "Menyebut kekurangan nyata",
+      "Mengakui dampaknya",
+      "Menunjukkan mekanisme perbaikan yang spesifik"
+    ],
+    "redFlags": [
+      "Mengaku tidak punya kekurangan",
+      "Memakai klise perfeksionis tanpa mekanisme",
+      "Memilih kekurangan yang fatal untuk posisi"
+    ],
+    "culturalNote": "Pilih kekurangan nyata yang tidak fatal, lalu tunjukkan sistem yang Anda bangun.",
+    "keywords": [
+      "kekurangan",
+      "perbaikan",
+      "dampak",
+      "kebiasaan"
+    ]
+  },
+  {
+    "canonicalId": "iv-scr-005",
+    "track": "screening",
+    "rolePack": "general",
+    "level": "B1",
+    "prompt": "Mengapa Anda ingin resign dari pekerjaan sekarang?",
+    "translation": "Why are you leaving your current job?",
+    "romanization": null,
+    "competencies": [
+      "motivation",
+      "diplomacy"
+    ],
+    "expectedLengthSec": [
+      45,
+      75
+    ],
+    "timeLimitSec": 135,
+    "followUps": [
+      "Apa yang akan Anda rindukan?",
+      "Apa yang bisa membuat Anda bertahan?"
+    ],
+    "skeleton": [
+      "Ucapkan terima kasih pada tempat sekarang",
+      "Sebut alasan yang berorientasi ke depan",
+      "Hubungkan dengan posisi ini"
+    ],
+    "modelAnswer": "Saya banyak belajar tentang sistem pemerintahan dan kepatuhan di sana. Yang belum saya dapatkan adalah ritme dan skala tim produk yang merilis setiap minggu. Saya ingin bekerja di lingkungan yang mengukur eksperimen dan meninjau keputusan arsitektur dengan data, dan itu yang ditawarkan posisi ini.",
+    "keyPhrases": [
+      {
+        "target": "Yang belum saya dapatkan adalah ritme dan skala",
+        "note": "Berorientasi ke depan, bukan keluhan."
+      }
+    ],
+    "rubricPoints": [
+      "Membingkai perpindahan sebagai pertumbuhan",
+      "Tidak menyerang orang",
+      "Konsisten dengan alasan melamar"
+    ],
+    "redFlags": [
+      "Menjelekkan atasan",
+      "Hanya menyebut uang",
+      "Bertentangan dengan motivasi melamar"
+    ],
+    "culturalNote": "Jangan menyerang orang. Bicarakan celah, bukan keluhan.",
+    "keywords": [
+      "pertumbuhan",
+      "tim",
+      "belajar",
+      "peran"
+    ]
+  },
+  {
+    "canonicalId": "iv-beh-001",
+    "track": "behavioral",
+    "rolePack": "general",
+    "level": "B2",
+    "prompt": "Ceritakan pengalaman Anda menghadapi tenggat yang ketat.",
+    "translation": "Tell me about a time you handled a difficult deadline.",
+    "romanization": null,
+    "competencies": [
+      "time_management",
+      "prioritization"
+    ],
+    "expectedLengthSec": [
+      90,
+      120
+    ],
+    "timeLimitSec": 180,
+    "followUps": [
+      "Apa yang Anda potong, dan bagaimana memutuskannya?",
+      "Kapan Anda memberi kabar ke atasan?"
+    ],
+    "skeleton": [
+      "Situasi dan tenggat",
+      "Tanggung jawab spesifik Anda",
+      "Apa yang dipotong, diubah, atau dieskalasi",
+      "Hasil dengan angka"
+    ],
+    "modelAnswer": "Kami punya waktu dua minggu untuk merilis fitur kepatuhan untuk klien pemerintah, dan saya bertanggung jawab atas API dan migrasi. Pada hari keempat saya sadar pembersihan data lama kurang diperhitungkan, jadi saya langsung melaporkannya, memotong satu laporan non-kritis, dan berpasangan dengan QA untuk rilis bertahap. Kami rilis terlambat satu hari dengan nol masalah data.",
+    "keyPhrases": [
+      {
+        "target": "langsung melaporkannya",
+        "note": "Menunjukkan eskalasi awal, bukan heroik."
+      }
+    ],
+    "rubricPoints": [
+      "Menyebut batasan waktu",
+      "Menunjukkan tindakan pribadi",
+      "Menjelaskan trade-off",
+      "Diakhiri hasil"
+    ],
+    "redFlags": [
+      "Menyalahkan tim",
+      "Tidak menjelaskan trade-off",
+      "Berhenti sebelum hasil"
+    ],
+    "culturalNote": "Tenggat yang meleset bisa jadi jawaban kuat jika eskalasinya awal dan spesifik.",
+    "keywords": [
+      "tenggat",
+      "trade-off",
+      "hasil",
+      "tim"
+    ]
+  },
+  {
+    "canonicalId": "iv-beh-002",
+    "track": "behavioral",
+    "rolePack": "general",
+    "level": "B2",
+    "prompt": "Bagaimana Anda menyelesaikan konflik dengan rekan kerja?",
+    "translation": "Describe a conflict with a colleague and how you resolved it.",
+    "romanization": null,
+    "competencies": [
+      "conflict",
+      "collaboration"
+    ],
+    "expectedLengthSec": [
+      90,
+      120
+    ],
+    "timeLimitSec": 180,
+    "followUps": [
+      "Apa yang akan Anda lakukan berbeda?",
+      "Bagaimana hubungan Anda sekarang?"
+    ],
+    "skeleton": [
+      "Konfliknya, tanpa menyalahkan",
+      "Yang Anda lakukan untuk memahami sisi lain",
+      "Aturan keputusan yang disepakati",
+      "Hasilnya"
+    ],
+    "modelAnswer": "Seorang QA lead dan saya berbeda pendapat soal apakah tes yang flaky boleh menahan rilis. Saya minta waktu 30 menit untuk memetakan dampak tiap kasus ke pengguna, lalu kami sepakat memakai rubrik tingkat keparahan yang sama. Kami merilis perbaikan kritis lebih dulu, dan rubrik itu menjadi standar triage tim.",
+    "keyPhrases": [
+      {
+        "target": "memetakan dampak tiap kasus",
+        "note": "Mengubah perdebatan dari opini menjadi kriteria."
+      }
+    ],
+    "rubricPoints": [
+      "Menjelaskan konflik tanpa menyalahkan",
+      "Menunjukkan langkah deeskalasi konkret",
+      "Hasilnya menguntungkan tim"
+    ],
+    "redFlags": [
+      "Mengaku tidak pernah konflik",
+      "Menggambarkan pihak lain tidak rasional",
+      "Menyelesaikan dengan menghindari orangnya"
+    ],
+    "culturalNote": "Fokus pada aturan keputusan, bukan siapa yang benar.",
+    "keywords": [
+      "konflik",
+      "kesepakatan",
+      "tim",
+      "hasil"
+    ]
+  },
+  {
+    "canonicalId": "iv-beh-003",
+    "track": "behavioral",
+    "rolePack": "general",
+    "level": "B1",
+    "prompt": "Ceritakan pengalaman gagal Anda.",
+    "translation": "Tell me about a time you failed.",
+    "romanization": null,
+    "competencies": [
+      "resilience",
+      "accountability"
+    ],
+    "expectedLengthSec": [
+      90,
+      120
+    ],
+    "timeLimitSec": 180,
+    "followUps": [
+      "Apa yang Anda ubah setelah itu?",
+      "Apakah masalah yang sama terulang?"
+    ],
+    "skeleton": [
+      "Kegagalan dan peran Anda",
+      "Dampaknya",
+      "Akar masalahnya",
+      "Pencegahan yang Anda bangun"
+    ],
+    "modelAnswer": "Saya pernah merilis perubahan pembayaran tanpa menguji alur refund. Dua pelanggan tertagih dua kali, dan saya menangani perbaikan serta permintaan maafnya. Akar masalahnya adalah checklist kami mengandalkan ingatan, jadi saya mengubahnya menjadi template pull request wajib. Tidak ada kejadian serupa selama setahun berikutnya.",
+    "keyPhrases": [
+      {
+        "target": "saya menangani perbaikan serta permintaan maafnya",
+        "note": "Akuntabilitas tanpa drama."
+      }
+    ],
+    "rubricPoints": [
+      "Mengakui kesalahan",
+      "Menyebut dampak nyata",
+      "Menunjukkan pencegahan, bukan hanya penyesalan"
+    ],
+    "redFlags": [
+      "Menyalahkan rekan",
+      "Memilih kegagalan palsu",
+      "Tidak ada langkah pencegahan"
+    ],
+    "culturalNote": "Pilih kegagalan dengan konsekuensi nyata dan tunjukkan sistem yang Anda ubah.",
+    "keywords": [
+      "kegagalan",
+      "dampak",
+      "pencegahan",
+      "belajar"
+    ]
+  },
+  {
+    "canonicalId": "iv-beh-004",
+    "track": "behavioral",
+    "rolePack": "general",
+    "level": "B2",
+    "prompt": "Ceritakan pengalaman Anda memimpin proyek.",
+    "translation": "Tell me about a time you led a project.",
+    "romanization": null,
+    "competencies": [
+      "leadership",
+      "planning"
+    ],
+    "expectedLengthSec": [
+      90,
+      120
+    ],
+    "timeLimitSec": 180,
+    "followUps": [
+      "Bagaimana Anda menangani anggota tim yang tidak setuju?",
+      "Apa yang Anda delegasikan?"
+    ],
+    "skeleton": [
+      "Tujuan dan ukuran tim",
+      "Cara membagi pekerjaan",
+      "Cara memantau dan membuka hambatan",
+      "Hasilnya"
+    ],
+    "modelAnswer": "Saya memimpin lima engineer untuk membangun ulang dashboard investasi kementerian. Saya membagi pekerjaan berdasarkan risiko, mengadakan sesi unblock 15 menit setiap hari, dan menjaga catatan keputusan yang bisa diakses semua orang. Kami selesai dua minggu lebih awal dan memangkas pemrosesan laporan dari dua hari menjadi empat jam. Dua engineer kemudian memimpin modulnya sendiri.",
+    "keyPhrases": [
+      {
+        "target": "menjaga catatan keputusan yang bisa diakses semua orang",
+        "note": "Menunjukkan praktik kepemimpinan yang bisa diulang."
+      }
+    ],
+    "rubricPoints": [
+      "Menyebut ukuran tim dan tujuan",
+      "Menunjukkan pembagian kerja",
+      "Menyebut cara membuka hambatan",
+      "Diakhiri hasil"
+    ],
+    "redFlags": [
+      "Hanya menceritakan coding",
+      "Mengambil semua kredit",
+      "Tidak ada hasil"
+    ],
+    "culturalNote": "Kepemimpinan adalah membuka hambatan dan mengambil keputusan, bukan mengerjakan semuanya sendiri.",
+    "keywords": [
+      "memimpin",
+      "tim",
+      "hasil",
+      "keputusan"
+    ]
+  },
+  {
+    "canonicalId": "iv-tec-001",
+    "track": "technical",
+    "rolePack": "software",
+    "level": "B2",
+    "prompt": "Jelaskan arsitektur sistem yang pernah Anda bangun.",
+    "translation": "Walk me through the architecture of a system you built.",
+    "romanization": null,
+    "competencies": [
+      "architecture",
+      "communication"
+    ],
+    "expectedLengthSec": [
+      90,
+      180
+    ],
+    "timeLimitSec": 240,
+    "followUps": [
+      "Apa yang akan Anda ubah jika trafik naik sepuluh kali?",
+      "Di mana titik kegagalan tunggalnya?"
+    ],
+    "skeleton": [
+      "Kebutuhan dan batasan",
+      "Komponen utama dan alur data",
+      "Trade-off yang dipilih",
+      "Apa yang akan Anda ubah sekarang"
+    ],
+    "modelAnswer": "Ini platform pelaporan pemerintah: frontend Next.js, API Spring Boot, PostgreSQL, dan antrean untuk ekspor berat. Batasannya adalah jejak audit yang ketat, jadi setiap penulisan melewati API dan masuk ke tabel event append-only. Ekspor dipindah ke worker agar request tetap di bawah 300 milidetik. Hari ini saya akan menambahkan read replica lebih awal.",
+    "keyPhrases": [
+      {
+        "target": "setiap penulisan melewati API",
+        "note": "Mengaitkan pilihan komponen dengan kebutuhan."
+      }
+    ],
+    "rubricPoints": [
+      "Menjelaskan kebutuhan lebih dulu",
+      "Menyebut komponen dan alur data",
+      "Menyebut minimal satu trade-off",
+      "Menyebut hal yang akan diubah"
+    ],
+    "redFlags": [
+      "Menyebut teknologi tanpa alasan",
+      "Tidak ada alur data",
+      "Mengaku tanpa trade-off"
+    ],
+    "culturalNote": "Mulai dari batasan, lalu komponen, lalu trade-off.",
+    "keywords": [
+      "arsitektur",
+      "api",
+      "database",
+      "trade-off"
+    ]
+  },
+  {
+    "canonicalId": "iv-tec-002",
+    "track": "technical",
+    "rolePack": "software",
+    "level": "B2",
+    "prompt": "Ceritakan trade-off yang Anda ambil demi performa.",
+    "translation": "Tell me about a trade-off you made for performance.",
+    "romanization": null,
+    "competencies": [
+      "performance",
+      "judgment"
+    ],
+    "expectedLengthSec": [
+      90,
+      150
+    ],
+    "timeLimitSec": 210,
+    "followUps": [
+      "Bagaimana Anda mengukur perbaikannya?",
+      "Apa yang Anda korbankan?"
+    ],
+    "skeleton": [
+      "Jalur lambat dan cara mengukurnya",
+      "Opsi yang dipertimbangkan",
+      "Trade-off yang dipilih",
+      "Hasil terukur"
+    ],
+    "modelAnswer": "Query dashboard memakan sembilan detik pada 200.000 baris. Saya menambahkan indeks komposit dan ringkasan materialized yang diperbarui setiap malam. Waktunya turun ke bawah 400 milidetik, dengan konsekuensi satu widget bisa tertinggal hingga satu hari. Widget itu saya beri label waktu agar pengguna paham.",
+    "keyPhrases": [
+      {
+        "target": "dengan konsekuensi satu widget bisa tertinggal",
+        "note": "Menyebut harga dari optimasi."
+      }
+    ],
+    "rubricPoints": [
+      "Mengukur sebelum dan sesudah",
+      "Menyebut biaya trade-off",
+      "Menunjukkan pengukuran, bukan intuisi"
+    ],
+    "redFlags": [
+      "Bilang saja lebih cepat",
+      "Tanpa angka",
+      "Menyembunyikan sisi buruk"
+    ],
+    "culturalNote": "Jawaban trade-off perlu menyebut biayanya, bukan hanya kemenangannya.",
+    "keywords": [
+      "performa",
+      "ukur",
+      "biaya",
+      "hasil"
+    ]
+  },
+  {
+    "canonicalId": "iv-tec-003",
+    "track": "technical",
+    "rolePack": "software",
+    "level": "B2",
+    "prompt": "Ceritakan insiden produksi yang pernah Anda tangani.",
+    "translation": "Describe a production incident you handled.",
+    "romanization": null,
+    "competencies": [
+      "operations",
+      "composure"
+    ],
+    "expectedLengthSec": [
+      90,
+      150
+    ],
+    "timeLimitSec": 210,
+    "followUps": [
+      "Apa akar masalahnya?",
+      "Apa yang berubah di proses Anda?"
+    ],
+    "skeleton": [
+      "Gejala dan dampak",
+      "Tindakan langsung Anda",
+      "Akar masalah",
+      "Pencegahan"
+    ],
+    "modelAnswer": "Satu rilis membuat 12 persen request API gagal. Saya sedang on call, jadi saya rollback dalam delapan menit dan membuka timeline insiden. Penyebabnya migrasi yang menghapus indeks. Kami memulihkan indeks, lalu menambahkan checklist migrasi dan pemantauan indeks. Tidak ada kejadian serupa selama enam bulan.",
+    "keyPhrases": [
+      {
+        "target": "rollback dalam delapan menit",
+        "note": "Menunjukkan tindakan di bawah tekanan."
+      }
+    ],
+    "rubricPoints": [
+      "Menyebut dampak",
+      "Menunjukkan mitigasi langsung",
+      "Mengidentifikasi akar masalah",
+      "Menambahkan pencegahan"
+    ],
+    "redFlags": [
+      "Panik atau menyalahkan yang deploy",
+      "Tidak ada langkah mitigasi",
+      "Berhenti di perbaikan"
+    ],
+    "culturalNote": "Pewawancara lebih peduli pada proses Anda daripada pada outage-nya.",
+    "keywords": [
+      "insiden",
+      "rollback",
+      "akar masalah",
+      "pencegahan"
+    ]
+  },
+  {
+    "canonicalId": "iv-cas-001",
+    "track": "case",
+    "rolePack": "software",
+    "level": "B2",
+    "prompt": "Ada tiga permintaan mendesak dan satu engineer. Bagaimana Anda memprioritaskan?",
+    "translation": "You have three urgent requests and one engineer. How do you prioritize?",
+    "romanization": null,
+    "competencies": [
+      "prioritization",
+      "communication"
+    ],
+    "expectedLengthSec": [
+      120,
+      180
+    ],
+    "timeLimitSec": 240,
+    "followUps": [
+      "Bagaimana jika salah satunya permintaan CEO?",
+      "Bagaimana Anda mengomunikasikan penundaan?"
+    ],
+    "skeleton": [
+      "Perjelas dampak dan reversibilitas",
+      "Urutkan berdasarkan kerugian bila ditunda",
+      "Putuskan dan beri tahu pemangku kepentingan",
+      "Tetapkan titik tinjauan"
+    ],
+    "modelAnswer": "Pertama saya pisahkan dampak dari urgensi: apa yang rusak, untuk siapa, dan bisa dibatalkan atau tidak. Lalu saya urutkan berdasarkan kerugian per hari keterlambatan. Saya akan memperbaiki masalah kehilangan data, menjadwalkan perbaikan yang memblokir pendapatan besok, dan memberi tahu pemangku kepentingan ketiga tanggal serta alasannya. Saya konfirmasi urutan itu ke atasan secara tertulis.",
+    "keyPhrases": [
+      {
+        "target": "kerugian per hari keterlambatan",
+        "note": "Aturan pengurutan yang jelas dan bisa dipertanggungjawabkan."
+      }
+    ],
+    "rubricPoints": [
+      "Memakai kriteria eksplisit",
+      "Mengomunikasikan penundaan",
+      "Menyebut trade-off"
+    ],
+    "redFlags": [
+      "Bilang semua urgent",
+      "Memprioritaskan yang paling keras bersuara",
+      "Tanpa komunikasi ke pemangku kepentingan"
+    ],
+    "culturalNote": "Beri aturan, lalu terapkan ke tiga item itu.",
+    "keywords": [
+      "prioritas",
+      "dampak",
+      "komunikasi",
+      "risiko"
+    ]
+  },
+  {
+    "canonicalId": "iv-cas-002",
+    "track": "case",
+    "rolePack": "software",
+    "level": "B2",
+    "prompt": "Fitur utama gagal untuk 10% pengguna. Bagaimana Anda menyelidikinya?",
+    "translation": "A key feature is failing for 10% of users. How do you investigate?",
+    "romanization": null,
+    "competencies": [
+      "diagnosis",
+      "data"
+    ],
+    "expectedLengthSec": [
+      120,
+      180
+    ],
+    "timeLimitSec": 240,
+    "followUps": [
+      "Data apa yang pertama Anda lihat?",
+      "Bagaimana Anda memutuskan rollback?"
+    ],
+    "skeleton": [
+      "Konfirmasi cakupan dengan data",
+      "Bentuk hipotesis faktor umum",
+      "Uji hipotesis dengan aman",
+      "Putuskan rollback atau perbaikan"
+    ],
+    "modelAnswer": "Saya cek dulu apakah 10 persen itu berkorelasi dengan perangkat, wilayah, peran, atau rilis terakhir. Jika mulai sejak deploy terakhir, saya rollback dulu dan menyelidiki setelahnya. Lalu saya reproduksi dengan satu akun terdampak, menambah logging bila perlu, dan merilis perbaikan di balik flag ke kelompok kecil.",
+    "keyPhrases": [
+      {
+        "target": "saya rollback dulu dan menyelidiki setelahnya",
+        "note": "Mengutamakan pemulihan layanan."
+      }
+    ],
+    "rubricPoints": [
+      "Mulai dari data, bukan dugaan",
+      "Memisahkan mitigasi dari diagnosis",
+      "Memakai rollout aman"
+    ],
+    "redFlags": [
+      "Langsung menulis ulang fitur",
+      "Tidak mempertimbangkan rollback",
+      "Tanpa rencana pengukuran"
+    ],
+    "culturalNote": "Sebutkan potongan diagnostik pertama sebelum mengusulkan perbaikan.",
+    "keywords": [
+      "debug",
+      "cakupan",
+      "rollback",
+      "data"
+    ]
+  },
+  {
+    "canonicalId": "iv-cas-003",
+    "track": "case",
+    "rolePack": "general",
+    "level": "B2",
+    "prompt": "Bagaimana Anda mengurangi drop-off onboarding hingga setengah?",
+    "translation": "How would you reduce onboarding drop-off by half?",
+    "romanization": null,
+    "competencies": [
+      "product",
+      "analytics"
+    ],
+    "expectedLengthSec": [
+      120,
+      180
+    ],
+    "timeLimitSec": 240,
+    "followUps": [
+      "Langkah mana yang akan Anda uji lebih dulu?",
+      "Bagaimana Anda tahu itu berhasil?"
+    ],
+    "skeleton": [
+      "Definisikan funnel dan drop terbesar",
+      "Pilih satu hipotesis",
+      "Rancang eksperimen kecil",
+      "Tetapkan metrik keberhasilan"
+    ],
+    "modelAnswer": "Saya akan memetakan funnel langkah demi langkah dan mencari drop terbesar. Jika drop-nya di verifikasi email, saya akan menguji login sosial dan alur yang bisa dilanjutkan untuk satu kelompok. Keberhasilannya adalah verifikasi selesai dalam 24 jam, diukur terhadap kelompok kontrol sebelum rilis penuh.",
+    "keyPhrases": [
+      {
+        "target": "diukur terhadap kelompok kontrol",
+        "note": "Menunjukkan desain eksperimen yang nyata."
+      }
+    ],
+    "rubricPoints": [
+      "Menyebut funnel dan metrik",
+      "Memprioritaskan satu hipotesis",
+      "Menyertakan kelompok kontrol"
+    ],
+    "redFlags": [
+      "Menyarankan redesign tanpa metrik",
+      "Menguji banyak hal sekaligus",
+      "Tanpa baseline"
+    ],
+    "culturalNote": "Pilih satu langkah, satu perubahan, satu metrik.",
+    "keywords": [
+      "funnel",
+      "eksperimen",
+      "metrik",
+      "drop-off"
+    ]
+  },
+  {
+    "canonicalId": "iv-clo-001",
+    "track": "closing",
+    "rolePack": "general",
+    "level": "B1",
+    "prompt": "Berapa ekspektasi gaji Anda?",
+    "translation": "What are your salary expectations?",
+    "romanization": null,
+    "competencies": [
+      "negotiation",
+      "research"
+    ],
+    "expectedLengthSec": [
+      45,
+      75
+    ],
+    "timeLimitSec": 135,
+    "followUps": [
+      "Berapa batas bawah Anda?",
+      "Bagaimana Anda menentukan rentang itu?"
+    ],
+    "skeleton": [
+      "Sebut rentang berbasis riset",
+      "Sebutkan dasarnya",
+      "Tunjukkan fleksibilitas pada paket total",
+      "Tanyakan rentang perusahaan"
+    ],
+    "modelAnswer": "Berdasarkan data pasar untuk posisi senior dengan cakupan backend dan mobile, ekspektasi saya di rentang Rp18-24 juta gross per bulan, dan saya terbuka mendiskusikan total paket. Jika Bapak/Ibu berkenan, boleh saya tahu rentang anggaran untuk posisi ini agar kita bisa menyelaraskan ekspektasi?",
+    "keyPhrases": [
+      {
+        "target": "terbuka mendiskusikan total paket",
+        "note": "Menjaga percakapan tetap berjalan."
+      }
+    ],
+    "rubricPoints": [
+      "Menyebut rentang, bukan satu angka",
+      "Menjelaskan dasar perhitungan",
+      "Mengundang rentang perusahaan"
+    ],
+    "redFlags": [
+      "Menyebut angka tanpa dasar",
+      "Langsung menurunkan angka",
+      "Menolak menjawab"
+    ],
+    "culturalNote": "Sebut gross, sebut rentang, dan tanyakan rentang mereka.",
+    "keywords": [
+      "gaji",
+      "rentang",
+      "pasar",
+      "paket"
+    ]
+  },
+  {
+    "canonicalId": "iv-clo-002",
+    "track": "closing",
+    "rolePack": "general",
+    "level": "B1",
+    "prompt": "Berapa lama notice period Anda, dan bagaimana status izin kerja Anda?",
+    "translation": "What is your notice period, and are you authorized to work here?",
+    "romanization": null,
+    "competencies": [
+      "logistics",
+      "honesty"
+    ],
+    "expectedLengthSec": [
+      45,
+      75
+    ],
+    "timeLimitSec": 135,
+    "followUps": [
+      "Apakah Anda butuh dukungan relokasi?",
+      "Kapan Anda bisa mulai?"
+    ],
+    "skeleton": [
+      "Sebut notice period",
+      "Sebut status izin kerja dengan jujur",
+      "Tawarkan tanggal mulai paling awal",
+      "Sebut kebutuhan relokasi lebih awal"
+    ],
+    "modelAnswer": "Notice period saya satu bulan, jadi saya bisa mulai awal Maret. Saya memegang paspor Indonesia dan memerlukan visa kerja untuk posisi ini; dokumen saya siap dan prosesnya bisa saya mulai segera. Saya juga terbuka untuk relokasi.",
+    "keyPhrases": [
+      {
+        "target": "memerlukan visa kerja",
+        "note": "Jujur dan spesifik soal izin kerja."
+      }
+    ],
+    "rubricPoints": [
+      "Menyebut notice period dengan jelas",
+      "Jujur soal status visa",
+      "Memberi tanggal mulai yang realistis"
+    ],
+    "redFlags": [
+      "Kabur soal izin kerja",
+      "Menjanjikan tanggal yang tidak bisa dipenuhi",
+      "Menyembunyikan kebutuhan relokasi"
+    ],
+    "culturalNote": "Jangan menebak status visa; sebut yang Anda tahu dan yang akan Anda urus.",
+    "keywords": [
+      "notice",
+      "visa",
+      "mulai",
+      "relokasi"
+    ]
+  },
+  {
+    "canonicalId": "iv-clo-003",
+    "track": "closing",
+    "rolePack": "general",
+    "level": "A2",
+    "prompt": "Apa pertanyaan Anda untuk kami?",
+    "translation": "Do you have any questions for us?",
+    "romanization": null,
+    "competencies": [
+      "engagement",
+      "research"
+    ],
+    "expectedLengthSec": [
+      30,
+      60
+    ],
+    "timeLimitSec": 120,
+    "followUps": [
+      "Apa yang ingin Anda ketahui sebelum menerima tawaran?",
+      "Apa pertanyaan Anda tentang tim ini?"
+    ],
+    "skeleton": [
+      "Tanya ukuran keberhasilan 6 bulan pertama",
+      "Tanya cara keputusan diambil",
+      "Tanya masalah tersulit tim saat ini"
+    ],
+    "modelAnswer": "Ada tiga hal. Pertama, seperti apa keberhasilan di enam bulan pertama? Kedua, bagaimana tim produk dan engineering mengambil keputusan teknis? Ketiga, apa masalah tersulit yang ingin tim selesaikan tahun ini?",
+    "keyPhrases": [
+      {
+        "target": "seperti apa keberhasilan di enam bulan pertama",
+        "note": "Menunjukkan Anda berencana berkontribusi."
+      }
+    ],
+    "rubricPoints": [
+      "Mengajukan dua atau tiga pertanyaan spesifik",
+      "Menunjukkan riset",
+      "Tidak membuka dengan gaji atau cuti"
+    ],
+    "redFlags": [
+      "Bilang tidak ada pertanyaan",
+      "Hanya bertanya soal libur",
+      "Menanyakan hal yang ada di situs"
+    ],
+    "culturalNote": "Siapkan tiga pertanyaan: dua soal pekerjaan, satu soal tim.",
+    "keywords": [
+      "pertanyaan",
+      "keberhasilan",
+      "tim",
+      "masalah"
+    ]
+  },
+  {
+    "canonicalId": "iv-pan-001",
+    "track": "panel",
+    "rolePack": "general",
+    "level": "B2",
+    "prompt": "Mengapa ada jeda enam bulan di CV Anda?",
+    "translation": "Why is there a six-month gap in your CV?",
+    "romanization": null,
+    "competencies": [
+      "composure",
+      "honesty"
+    ],
+    "expectedLengthSec": [
+      45,
+      90
+    ],
+    "timeLimitSec": 150,
+    "followUps": [
+      "Apa yang Anda pelajari selama itu?",
+      "Bagaimana Anda menjaga kompetensi?"
+    ],
+    "skeleton": [
+      "Sebut alasan singkat dan faktual",
+      "Sebutkan aktivitas selama jeda",
+      "Tunjukkan cara menjaga kompetensi",
+      "Kembali ke peran ini"
+    ],
+    "modelAnswer": "Saya mengambil enam bulan untuk merawat anggota keluarga dan menyelesaikan sertifikasi cloud. Saya tetap mengerjakan proyek open-source kecil dan menjaga komunikasi dengan dua mantan kolega. Situasinya sudah selesai, dan saya siap bekerja penuh waktu.",
+    "keyPhrases": [
+      {
+        "target": "tetap mengerjakan proyek open-source kecil",
+        "note": "Menunjukkan jeda bukan waktu pasif."
+      }
+    ],
+    "rubricPoints": [
+      "Menjelaskan jeda tanpa oversharing",
+      "Menunjukkan aktivitas selama jeda",
+      "Menegaskan ketersediaan"
+    ],
+    "redFlags": [
+      "Minta maaf berulang kali",
+      "Mengarang cerita",
+      "Tidak menjelaskan jeda"
+    ],
+    "culturalNote": "Singkat, faktual, dan akhiri dengan ketersediaan.",
+    "keywords": [
+      "jeda",
+      "belajar",
+      "tersedia",
+      "alasan"
+    ]
+  },
+  {
+    "canonicalId": "iv-pan-002",
+    "track": "panel",
+    "rolePack": "general",
+    "level": "C1",
+    "prompt": "Anda tidak setuju dengan seluruh panel. Bagaimana Anda menyampaikannya?",
+    "translation": "You disagree with the whole panel. How do you say it?",
+    "romanization": null,
+    "competencies": [
+      "courage",
+      "diplomacy"
+    ],
+    "expectedLengthSec": [
+      60,
+      120
+    ],
+    "timeLimitSec": 180,
+    "followUps": [
+      "Bagaimana jika mereka tetap tidak setuju?",
+      "Kapan Anda berhenti mendorong?"
+    ],
+    "skeleton": [
+      "Akui tujuan bersama",
+      "Sebut kekhawatiran dengan bukti",
+      "Tawarkan uji kecil atau kompromi",
+      "Berkomitmen setelah keputusan"
+    ],
+    "modelAnswer": "Saya mulai dari tujuan yang sama, lalu menyebut bukti yang membuat saya ragu. Saya akan mengusulkan uji kecil yang bisa menyelesaikannya, dan jika panel tetap memutuskan sebaliknya, saya berkomitmen menjalankannya sambil mencatat kekhawatiran agar bisa ditinjau dengan data.",
+    "keyPhrases": [
+      {
+        "target": "uji kecil yang bisa menyelesaikannya",
+        "note": "Mengubah perbedaan menjadi mekanisme keputusan."
+      }
+    ],
+    "rubricPoints": [
+      "Tidak setuju dengan bukti",
+      "Menawarkan uji atau kompromi",
+      "Berkomitmen setelah keputusan"
+    ],
+    "redFlags": [
+      "Diam lalu menyimpan kesal",
+      "Menjadi agresif",
+      "Menolak berkomitmen"
+    ],
+    "culturalNote": "Disagree and commit, dengan kekhawatiran yang tercatat.",
+    "keywords": [
+      "tidak setuju",
+      "bukti",
+      "komitmen",
+      "keputusan"
+    ]
+  }
+]

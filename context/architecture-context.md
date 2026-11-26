@@ -114,6 +114,21 @@ The story layer is an additive extension of FS-09, not a second content platform
 - **Romanization:** 100% of `ja`/`zh` lines carry romaji/pinyin in the generated library; `ja` lines carry kana readings. The reader defaults romanization on for `ja`/`zh`, supports furigana for `ja`, and persists toggles locally.
 - **Quality gate:** the generated library is schema-validated by `content:stories:validate` (0 errors, 0 warnings). Human native/culture/pedagogy review remains the publication gate; `StoryReview` rows are seeded as `pending` and the UI/report expose that backlog.
 
+## Visa Kerja Interview Practice (PRD execution)
+
+`/[lang]/visa-kerja` adds interview rehearsal on top of the expedition shell. It is feature-flagged by content availability, not by a second platform.
+
+- **Content source:** `content/interview/questions.{en,id,ja}.json` (20 questions per language, canonical ids shared across languages) and `content/interview/tracks.json`; `manifest.json` records version, review state and per-language counts. Structural checks run in `npm run interview:validate` (unique ids, 6 tracks, 3 keywords, 2 follow-ups, 3 rubric points, 3 red flags, key phrases, cultural note, romanization for `ja`, placeholder scan).
+- **Question contract:** prompt, translation, romanization, competencies, expected length, time limit, follow-ups, skeleton, model answer, key phrases, rubric points, red flags, cultural note, evaluator keywords. The public DTO strips the guideline; only the hub/report/guide server components read the full question.
+- **Selection:** `drill` = 3 questions, `simulation` = 8 questions. The selected order is snapshotted into `InterviewSession.questionIds`; answers are only accepted in order. Rate limits are 20 drills and 5 simulations per user per 24h.
+- **Evaluation v1:** `app/lib/interview/evaluate.ts` is deterministic and server-only. Five dimensions (content, structure, evidence, language/register, delivery) are scored 1–5 from keyword overlap, answer-structure markers per track, numeric evidence (including kanji numerals), register detection (です/ます, slang, first person), filler ratio and spoken-length proximity. Readiness = weighted mean ×20, clamped 20–100. The LLM evaluator in the PRD is not wired (no API key in this deployment); the JSON shape and the "pre-checks before LLM" boundary are already in place.
+- **Persistence:** `InterviewSession` (language, track, mode, locale, questionIds snapshot, readiness, band, xpAwarded) and `InterviewTurn` (ordered transcript, duration, scores, readiness, feedback codes/metrics). Feedback is stored as codes so the UI localizes it; no free text is persisted.
+- **XP and activity:** completion awards 20 XP (drill) or 80 XP (simulation) once per session via `XpEvent` idempotency (`visa-kerja:<sessionId>`), updates `DailyActivity`, `LanguageDailyActivity` and `UserLanguageStats` with the estimated spoken minutes, and calls `touchStreak`.
+- **APIs:** `POST /api/v1/interview/sessions`, `POST /api/v1/interview/sessions/:id/answers`, `POST /api/v1/interview/sessions/:id/complete`. Session reads happen in server components through `app/lib/interview/repository.ts` and are scoped by `userId`.
+- **Surfaces:** hub (`/visa-kerja`), guided model answers (`/visa-kerja/panduan`), session runner (`/visa-kerja/sesi/:id`), report (`/visa-kerja/laporan/:id`). The sidebar entry sits above Passport and is derived from the pathname in `ExpeditionShell`.
+- **Voice:** question audio uses the shared `useSpeech` voice catalogue; dictation uses the browser `SpeechRecognition` API when available and falls back to typing. No audio is uploaded or stored in v1.
+- **Honesty:** the report and hub label readiness as a practice signal, never a hiring prediction; content is labelled beta until native review.
+
 ## Invariants
 
 1. Request handlers do not run long-lived AI work — that belongs in background tasks.
@@ -127,3 +142,5 @@ The story layer is an additive extension of FS-09, not a second content platform
 8. UI locale changes never mutate `targetLanguage`; target-language changes never mutate the URL.
 9. Locale preferences are persisted before navigation (DB + `lango_locale` cookie), and the URL wins for the current request.
 10. Published curriculum content is immutable per `contentVersion`; retired questions are hidden from new learners but keep attempts/progress.
+11. Interview scores and readiness are computed and stored server-side; model output (future LLM evaluator) is never trusted as the score.
+12. Interview feedback is persisted as localized codes + numeric metrics, not as generated prose.

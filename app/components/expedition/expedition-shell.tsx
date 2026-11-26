@@ -6,6 +6,7 @@ import { useState, type ReactNode } from "react";
 import {
   BadgeCheck,
   BookMarked,
+  Briefcase,
   BookOpen,
   Compass,
   Dumbbell,
@@ -40,6 +41,7 @@ export type ExpeditionSection =
   | "leaderboard"
   | "store"
   | "survival"
+  | "visa"
   | "passport"
   | "ambience";
 
@@ -59,6 +61,7 @@ function sectionFromPath(pathname: string): ExpeditionSection | null {
   if (section === "stories") return "library";
   if (section === "leaderboard") return "leaderboard";
   if (section === "store") return "store";
+  if (section === "visa-kerja") return "visa";
   if (section === "passport") return "passport";
   if (section === "settings") return segments[2] === "ambience" ? "ambience" : null;
   return null;
@@ -197,6 +200,31 @@ export function ExpeditionShell({
         <nav className="flex flex-col gap-1" aria-label={copy.menu}>
           {nav.map(navLink)}
           <div className="my-2 h-px bg-exp-container-high" />
+          <Link
+            href={`/${lang}/visa-kerja`}
+            onClick={() => setOpen(false)}
+            aria-current={active === "visa" ? "page" : undefined}
+            className={`flex items-center gap-3 rounded-xl px-3.5 py-2.5 text-sm font-bold transition-colors ${
+              active === "visa"
+                ? "bg-exp-primary-container text-exp-on-primary-container"
+                : "text-exp-on-surface-variant hover:bg-exp-container-high hover:text-exp-on-surface"
+            }`}
+          >
+            <Briefcase className="h-5 w-5 shrink-0" aria-hidden="true" />
+            <span className="min-w-0">
+              <span className="block truncate">{copy.visaKerja}</span>
+              <span
+                className={`block truncate text-[10px] font-semibold uppercase tracking-wider ${
+                  active === "visa"
+                    ? "text-exp-on-primary-container/80"
+                    : "text-exp-outline"
+                }`}
+              >
+                {copy.visaKerjaTip}
+              </span>
+            </span>
+            <LinkPending />
+          </Link>
           <Link
             href={`/${lang}/passport`}
             onClick={() => setOpen(false)}
